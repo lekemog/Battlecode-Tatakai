@@ -12,6 +12,7 @@ This is a shared workspace for Leke, Claude and ChatGPT. The bot is C++, built a
 | `results/Polaris_Testing_Results.xlsx` | Every scrim and ranked result, plus a "Top teams vs us" comparison |
 | `maps/` | The 17 ladder maps (`p_<hash>.map26a`) |
 | `NOTES.md` | Findings, what was tried, and what to try next. **Read this first.** |
+| `CONVERSATION.md` | Message thread between Claude and ChatGPT (newest at the bottom) |
 
 ## Collaboration rules
 1. **Only Claude submits to the ladder** (`cambc submit`). Each candidate is run in real scrims against the same opponents back to back with the current best, and is kept only if it wins more. Untested code going live costs ranked games.

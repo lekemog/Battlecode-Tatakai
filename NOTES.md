@@ -27,7 +27,8 @@ Last updated: Sat 17 Oct, about 19:20 (Irish time). Ladder rank is roughly 245â€
 | W5 | ranks 38, 105, 113, 265, 275 | v11a 6, Treasure-first 3, Treasure + Durability-Health 5, Jungle-frontline 5. **Treasure-first rejected.** |
 | W6 | ranks ~113â€“275 | **v12a 10** vs v11a 8. Adopted. |
 | W7 | same as W6 | **v12c 12** (adopted), v12d with Jungle emblem first 8 (rejected). |
-| W8 | same as W6 | Running: v12f vs v12c. |
+| W8 | same as W6 | v12f 12, v12c 12 (tie). v12f won contest for the first time ever; it lost swirl to Tokyo. |
+| W9 | 5 teams that beat us in ranked, on contest/stampede/swirl/fragment/elkring | Running: v12f vs v12c tie-breaker. |
 
 ## Key findings
 1. **Altar-freeze bug (fixed in v12a).** If an enemy had recently been seen near the nearest altar, `bank()` routed to a different altar. When that route was blocked by our own teammates, the path search returned "unreachable" and the champion stood still. On collision this went on for about 100 rounds. The fix: when nothing is reachable, path through units, and fall back to the nearest altar. Collision against a passive bot now reaches 1000 at round 608 instead of 815.

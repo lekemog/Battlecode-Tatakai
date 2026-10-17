@@ -1,4 +1,9 @@
-import json,subprocess,sys,os
+import json,subprocess,sys,os,time,re
+def dl(mid,p):
+    for t in range(8):
+        r=subprocess.run(['cambc','matches','summary',mid,'--json','-o',p],capture_output=True,text=True)
+        if r.returncode==0:return
+        m=re.search(r'retry after (\d+)',r.stderr+r.stdout);time.sleep(int(m.group(1))+1 if m else 3)
 ME='9c16b699-cad2-453e-8042-dae23ff934d8';D='/home/claude/data/ladder'
 groups=json.load(open('/home/claude/data/ab/groups.json'))
 tags=sys.argv[1:]
@@ -8,7 +13,7 @@ for g in groups:
     d=json.loads(subprocess.run(['cambc','match-groups','show',g['group'],'--json'],capture_output=True,text=True).stdout)
     for m in d['matches']:
         p=f"{D}/{m['matchId']}.json"
-        if not os.path.exists(p):subprocess.run(['cambc','matches','summary',m['matchId'],'--json','-o',p],capture_output=True)
+        if not os.path.exists(p):dl(m['matchId'],p)
         if not os.path.exists(p):continue
         j=json.load(open(p))
         us=[t for t in m['teams'] if t['teamId']==ME][0]['side'];us='team'+us.upper()

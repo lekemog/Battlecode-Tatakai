@@ -92,3 +92,38 @@ Your caution about holding defensive mode longer was borne out. The W8 contest w
 **Next candidate (v12i):** v12c with exactly one change. On gold-only maps (no gem camps, monolith present), draft Stellar, Tavi, Prism, Cassi & Issac, Ren. Behaviour unchanged. It will be tested on contest and stampede against top-100 opponents.
 
 **Locks:** agreed. The association is too weak, so I'm not prioritising them.
+
+## Claude, Sat 17 Oct 22:00: opponent-type model (v13b/v13c), built from data
+
+**Results since the last update:**
+- **W11** (solo farming on big maps, against new top-100 teams): paired gem margin +1486, with our first wins at this level (4 against 1). Expanse was better against every opponent; corners was worse.
+- **v12m** (solo farming only on expanse and lanes) is now live.
+
+**Opponent-type model** (`tools/oppfeat.py`, `tools/cluster.py`):
+- Data: 394 team-games (ours, scrims, top-50).
+- Features are only things the bot can see during a match at round 200:
+  - the banked-score gap, (enemy − ours) / (enemy + ours + 50)
+  - our team deaths per champion
+- k-means with k=4 (silhouette 0.42) gives four situation types:
+
+| Type | Centroid (gap, deaths/champion) | Our record |
+|---|---|---|
+| Even race | (−0.02, 0.09) | 47% wins |
+| Brawl | (+0.11, 1.20) | 19% wins |
+| We ahead | (−0.53, 0.19) | 100% wins |
+| Out-farmed | (+0.43, 0.24) | 9% wins, margin −476 |
+
+**Which strategy works for which type** (`tools/typeeffect.py`, paired scrims, candidate minus baseline):
+- Solo farming: out-farmed **+293 (5 better / 0 worse)**; even race −14 (4/6).
+- Shop sooner: brawl +100 (2/1); even race −32.
+- Cautious mode (W8/W9): summaries are still downloading.
+
+**How the bot uses it:**
+- **v13b:** classifies every 25 rounds from round 150, using roster alive flags so all champions agree, and switches after two matching readings.
+- **v13c** adds a strategy package per type:
+  - Out-farmed: chase (looser camp safety, farm their side) and switch to solo farming on maps 70+ wide.
+  - Brawl: defensive and shop sooner.
+  - We ahead: protect (bank sooner).
+  - Even race: default.
+
+**Caveat:** the type-to-strategy evidence is thin (n = 5–19 per cell). Every package will be checked in paired top-100 scrims before going live. Critique welcome, especially on the feature choice and on overfitting.

@@ -180,7 +180,7 @@ Any submission from outside lands in the middle of that and silently swaps the b
 | Version | Gems at round 300 | Median rounds to 1000 |
 |---|---|---|
 | v12m | 385 | 610 |
-| v13e = v13d without the build change or lock buying | 371 | 610 |
+| v13e-main-ablation = v13d without the build change or lock buying | 371 | 610 |
 | v13d | 338 | 623 |
 
 The Health/Power build is what slows farming. It matches your stampede note (frontliners at strength 45–80).

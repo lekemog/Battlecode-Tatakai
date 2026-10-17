@@ -1,0 +1,1353 @@
+{
+  "scope": {
+    "snapshot_date": "2026-10-17",
+    "match_groups": 10,
+    "game_overviews": 50,
+    "team_stdout_games": 10,
+    "stdout_samples": 1029,
+    "detailed_statistical_summaries": 0,
+    "visually_watched_replays": 0
+  },
+  "limitations": [
+    "JSON export timed out; subsequent browser observation encountered a URL protocol policy block. No further download-route retries.",
+    "Visualiser requires WebGL2, unavailable in this cloud browser; one Try again produced same message.",
+    "Remaining 40 games lack team-log coverage.",
+    "Logs sampled at most once per 25 rounds per champion; no positions, move-result or global score fields. Repeated samples do not establish continuous inactivity.",
+    "Own logs only, no opposing private diagnostics. Raw logs intentionally excluded from publication."
+  ],
+  "source": {
+    "repository_commit": "ba8d7136c2115b98eecd1ce804db4348c9845fc5",
+    "v45_submission": "3a6663ac-3981-4fbb-b9bc-4bde1e6dc73b",
+    "v46_submission": "5752c3a9-ce8d-4b41-84c4-f1b5132eb3ab",
+    "comparison": "Rendered submitted bot.cpp: v45 994 lines, v46 993. Removing whole-line comments yields 893 lines in each, differing only in shopping predicate. draft.cpp equal in rendered line arrays. Header/main files not independently compared.",
+    "v45_recall": "gold>=150 && gems<=22 && capturing<0 && !spawn",
+    "v46_recall": "gold>=180 && gems==0 && capturing<0 && !spawn"
+  },
+  "groups": [
+    {
+      "platform_version": 46,
+      "opponent": "FRChronic",
+      "group_id": "785f28a0-cd02-49e4-9bf7-96a4ad9ba548",
+      "games": [
+        {
+          "map": "swirl",
+          "rounds": 604,
+          "our_gems": 572,
+          "opponent_gems": 1028
+        },
+        {
+          "map": "monolith",
+          "rounds": 461,
+          "our_gems": 922,
+          "opponent_gems": 1010
+        },
+        {
+          "map": "fragment",
+          "rounds": 629,
+          "our_gems": 212,
+          "opponent_gems": 1034
+        },
+        {
+          "map": "packs",
+          "rounds": 465,
+          "our_gems": 716,
+          "opponent_gems": 1036
+        },
+        {
+          "map": "collision",
+          "rounds": 623,
+          "our_gems": 320,
+          "opponent_gems": 1008
+        }
+      ]
+    },
+    {
+      "platform_version": 46,
+      "opponent": "the uncancelables",
+      "group_id": "ebdf9302-a417-4aac-97f3-5030a337ef33",
+      "games": [
+        {
+          "map": "contest",
+          "rounds": 1329,
+          "our_gems": 0,
+          "opponent_gems": 1000
+        },
+        {
+          "map": "ambush",
+          "rounds": 520,
+          "our_gems": 582,
+          "opponent_gems": 1068
+        },
+        {
+          "map": "rows",
+          "rounds": 433,
+          "our_gems": 990,
+          "opponent_gems": 1056
+        },
+        {
+          "map": "corners",
+          "rounds": 439,
+          "our_gems": 780,
+          "opponent_gems": 1050
+        },
+        {
+          "map": "lanes",
+          "rounds": 452,
+          "our_gems": 600,
+          "opponent_gems": 1030
+        }
+      ]
+    },
+    {
+      "platform_version": 46,
+      "opponent": "tip",
+      "group_id": "2863b0b9-bb38-40cf-9c8d-a4adc2902158",
+      "games": [
+        {
+          "map": "stampede",
+          "rounds": 916,
+          "our_gems": 360,
+          "opponent_gems": 1080
+        },
+        {
+          "map": "pilgrimage",
+          "rounds": 841,
+          "our_gems": 612,
+          "opponent_gems": 1014
+        },
+        {
+          "map": "elkring",
+          "rounds": 432,
+          "our_gems": 342,
+          "opponent_gems": 1026
+        },
+        {
+          "map": "interlock",
+          "rounds": 618,
+          "our_gems": 558,
+          "opponent_gems": 1004
+        },
+        {
+          "map": "eight",
+          "rounds": 361,
+          "our_gems": 72,
+          "opponent_gems": 1008
+        }
+      ]
+    },
+    {
+      "platform_version": 46,
+      "opponent": "QS2",
+      "group_id": "dd3ae05c-6298-4e65-96a1-811418babb19",
+      "games": [
+        {
+          "map": "fragment",
+          "rounds": 814,
+          "our_gems": 714,
+          "opponent_gems": 1042
+        },
+        {
+          "map": "packs",
+          "rounds": 436,
+          "our_gems": 788,
+          "opponent_gems": 1020
+        },
+        {
+          "map": "collision",
+          "rounds": 661,
+          "our_gems": 328,
+          "opponent_gems": 1036
+        },
+        {
+          "map": "expanse",
+          "rounds": 600,
+          "our_gems": 532,
+          "opponent_gems": 1000
+        },
+        {
+          "map": "rushbait_v2",
+          "rounds": 514,
+          "our_gems": 484,
+          "opponent_gems": 1016
+        }
+      ]
+    },
+    {
+      "platform_version": 46,
+      "opponent": "KratosMessi",
+      "group_id": "a591e6b8-b206-48aa-b714-348cde4c8b69",
+      "games": [
+        {
+          "map": "rows",
+          "rounds": 409,
+          "our_gems": 924,
+          "opponent_gems": 1023
+        },
+        {
+          "map": "corners",
+          "rounds": 447,
+          "our_gems": 876,
+          "opponent_gems": 1018
+        },
+        {
+          "map": "lanes",
+          "rounds": 422,
+          "our_gems": 694,
+          "opponent_gems": 1002
+        },
+        {
+          "map": "swirl",
+          "rounds": 516,
+          "our_gems": 88,
+          "opponent_gems": 1068
+        },
+        {
+          "map": "monolith",
+          "rounds": 433,
+          "our_gems": 768,
+          "opponent_gems": 1010
+        }
+      ]
+    },
+    {
+      "platform_version": 45,
+      "opponent": "FRChronic",
+      "group_id": "69a72d05-2c41-40e4-9865-184e83e4700b",
+      "games": [
+        {
+          "map": "swirl",
+          "rounds": 604,
+          "our_gems": 572,
+          "opponent_gems": 1028
+        },
+        {
+          "map": "monolith",
+          "rounds": 462,
+          "our_gems": 944,
+          "opponent_gems": 1010
+        },
+        {
+          "map": "fragment",
+          "rounds": 629,
+          "our_gems": 212,
+          "opponent_gems": 1034
+        },
+        {
+          "map": "packs",
+          "rounds": 465,
+          "our_gems": 716,
+          "opponent_gems": 1036
+        },
+        {
+          "map": "collision",
+          "rounds": 637,
+          "our_gems": 400,
+          "opponent_gems": 1008
+        }
+      ]
+    },
+    {
+      "platform_version": 45,
+      "opponent": "the uncancelables",
+      "group_id": "5af2f783-4907-4be3-b7e6-97325140e144",
+      "games": [
+        {
+          "map": "contest",
+          "rounds": 2000,
+          "our_gems": 0,
+          "opponent_gems": 400
+        },
+        {
+          "map": "ambush",
+          "rounds": 520,
+          "our_gems": 582,
+          "opponent_gems": 1068
+        },
+        {
+          "map": "rows",
+          "rounds": 433,
+          "our_gems": 990,
+          "opponent_gems": 1056
+        },
+        {
+          "map": "corners",
+          "rounds": 420,
+          "our_gems": 612,
+          "opponent_gems": 1006
+        },
+        {
+          "map": "lanes",
+          "rounds": 452,
+          "our_gems": 600,
+          "opponent_gems": 1030
+        }
+      ]
+    },
+    {
+      "platform_version": 45,
+      "opponent": "tip",
+      "group_id": "01f01991-702e-4aef-99c2-0c29c8330ce9",
+      "games": [
+        {
+          "map": "stampede",
+          "rounds": 954,
+          "our_gems": 720,
+          "opponent_gems": 1080
+        },
+        {
+          "map": "pilgrimage",
+          "rounds": 841,
+          "our_gems": 612,
+          "opponent_gems": 1014
+        },
+        {
+          "map": "elkring",
+          "rounds": 432,
+          "our_gems": 342,
+          "opponent_gems": 1026
+        },
+        {
+          "map": "interlock",
+          "rounds": 580,
+          "our_gems": 436,
+          "opponent_gems": 1004
+        },
+        {
+          "map": "eight",
+          "rounds": 508,
+          "our_gems": 268,
+          "opponent_gems": 1080
+        }
+      ]
+    },
+    {
+      "platform_version": 45,
+      "opponent": "QS2",
+      "group_id": "856b5e55-e3c2-4967-9363-4ac618d585ce",
+      "games": [
+        {
+          "map": "fragment",
+          "rounds": 710,
+          "our_gems": 292,
+          "opponent_gems": 1056
+        },
+        {
+          "map": "packs",
+          "rounds": 436,
+          "our_gems": 788,
+          "opponent_gems": 1020
+        },
+        {
+          "map": "collision",
+          "rounds": 661,
+          "our_gems": 328,
+          "opponent_gems": 1036
+        },
+        {
+          "map": "expanse",
+          "rounds": 600,
+          "our_gems": 532,
+          "opponent_gems": 1000
+        },
+        {
+          "map": "rushbait_v2",
+          "rounds": 509,
+          "our_gems": 462,
+          "opponent_gems": 1016
+        }
+      ]
+    },
+    {
+      "platform_version": 45,
+      "opponent": "KratosMessi",
+      "group_id": "4bb52d58-a381-4f98-bf76-d2ba2e4e14e8",
+      "games": [
+        {
+          "map": "rows",
+          "rounds": 409,
+          "our_gems": 924,
+          "opponent_gems": 1023
+        },
+        {
+          "map": "corners",
+          "rounds": 450,
+          "our_gems": 598,
+          "opponent_gems": 1032
+        },
+        {
+          "map": "lanes",
+          "rounds": 422,
+          "our_gems": 694,
+          "opponent_gems": 1002
+        },
+        {
+          "map": "swirl",
+          "rounds": 516,
+          "our_gems": 88,
+          "opponent_gems": 1068
+        },
+        {
+          "map": "monolith",
+          "rounds": 433,
+          "our_gems": 790,
+          "opponent_gems": 1010
+        }
+      ]
+    }
+  ],
+  "paired_results": [
+    {
+      "opponent": "FRChronic",
+      "map": "swirl",
+      "v45_gems": 572,
+      "v46_gems": 572,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "FRChronic",
+      "map": "monolith",
+      "v45_gems": 944,
+      "v46_gems": 922,
+      "delta_v45_minus_v46": 22,
+      "identical_overview": false
+    },
+    {
+      "opponent": "FRChronic",
+      "map": "fragment",
+      "v45_gems": 212,
+      "v46_gems": 212,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "FRChronic",
+      "map": "packs",
+      "v45_gems": 716,
+      "v46_gems": 716,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "FRChronic",
+      "map": "collision",
+      "v45_gems": 400,
+      "v46_gems": 320,
+      "delta_v45_minus_v46": 80,
+      "identical_overview": false
+    },
+    {
+      "opponent": "the uncancelables",
+      "map": "contest",
+      "v45_gems": 0,
+      "v46_gems": 0,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": false
+    },
+    {
+      "opponent": "the uncancelables",
+      "map": "ambush",
+      "v45_gems": 582,
+      "v46_gems": 582,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "the uncancelables",
+      "map": "rows",
+      "v45_gems": 990,
+      "v46_gems": 990,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "the uncancelables",
+      "map": "corners",
+      "v45_gems": 612,
+      "v46_gems": 780,
+      "delta_v45_minus_v46": -168,
+      "identical_overview": false
+    },
+    {
+      "opponent": "the uncancelables",
+      "map": "lanes",
+      "v45_gems": 600,
+      "v46_gems": 600,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "tip",
+      "map": "stampede",
+      "v45_gems": 720,
+      "v46_gems": 360,
+      "delta_v45_minus_v46": 360,
+      "identical_overview": false
+    },
+    {
+      "opponent": "tip",
+      "map": "pilgrimage",
+      "v45_gems": 612,
+      "v46_gems": 612,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "tip",
+      "map": "elkring",
+      "v45_gems": 342,
+      "v46_gems": 342,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "tip",
+      "map": "interlock",
+      "v45_gems": 436,
+      "v46_gems": 558,
+      "delta_v45_minus_v46": -122,
+      "identical_overview": false
+    },
+    {
+      "opponent": "tip",
+      "map": "eight",
+      "v45_gems": 268,
+      "v46_gems": 72,
+      "delta_v45_minus_v46": 196,
+      "identical_overview": false
+    },
+    {
+      "opponent": "QS2",
+      "map": "fragment",
+      "v45_gems": 292,
+      "v46_gems": 714,
+      "delta_v45_minus_v46": -422,
+      "identical_overview": false
+    },
+    {
+      "opponent": "QS2",
+      "map": "packs",
+      "v45_gems": 788,
+      "v46_gems": 788,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "QS2",
+      "map": "collision",
+      "v45_gems": 328,
+      "v46_gems": 328,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "QS2",
+      "map": "expanse",
+      "v45_gems": 532,
+      "v46_gems": 532,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "QS2",
+      "map": "rushbait_v2",
+      "v45_gems": 462,
+      "v46_gems": 484,
+      "delta_v45_minus_v46": -22,
+      "identical_overview": false
+    },
+    {
+      "opponent": "KratosMessi",
+      "map": "rows",
+      "v45_gems": 924,
+      "v46_gems": 924,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "KratosMessi",
+      "map": "corners",
+      "v45_gems": 598,
+      "v46_gems": 876,
+      "delta_v45_minus_v46": -278,
+      "identical_overview": false
+    },
+    {
+      "opponent": "KratosMessi",
+      "map": "lanes",
+      "v45_gems": 694,
+      "v46_gems": 694,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "KratosMessi",
+      "map": "swirl",
+      "v45_gems": 88,
+      "v46_gems": 88,
+      "delta_v45_minus_v46": 0,
+      "identical_overview": true
+    },
+    {
+      "opponent": "KratosMessi",
+      "map": "monolith",
+      "v45_gems": 790,
+      "v46_gems": 768,
+      "delta_v45_minus_v46": 22,
+      "identical_overview": false
+    }
+  ],
+  "log_analysis": [
+    {
+      "match_id": "a03d3548-9e9f-49ed-912a-b5ce131c32f9",
+      "map": "swirl",
+      "opponent": "FRChronic",
+      "platform_version": 46,
+      "stdout_sha256": "60ba88b984d9f5684c872b33ef9f10f6291c754aca2acd647be270bb1fe806c1",
+      "samples": 75,
+      "actions": {
+        "farm": 57,
+        "retreat": 4,
+        "capture": 4,
+        "recall": 1,
+        "bank": 2,
+        "chase": 1,
+        "bank-recall": 2,
+        "evade": 4
+      },
+      "errors": 0,
+      "fuel_sample_min": 34115,
+      "fuel_sample_max": 78781,
+      "agg_max": 58,
+      "sampled_defensive": 14,
+      "repeat_samples": [],
+      "high_gold_farm_sample_count": 2,
+      "carrier_combat_observations": []
+    },
+    {
+      "match_id": "ac48c11b-715d-4031-90de-14294b55179c",
+      "map": "monolith",
+      "opponent": "FRChronic",
+      "platform_version": 46,
+      "stdout_sha256": "7cab1e929027c1be02e7ca3a5ca4ebf0c296fa3d18c19508305ac6e9855d6b83",
+      "samples": 102,
+      "actions": {
+        "farm": 85,
+        "bank": 10,
+        "capture": 5,
+        "shop-recall": 2
+      },
+      "errors": 0,
+      "fuel_sample_min": 42760,
+      "fuel_sample_max": 81446,
+      "agg_max": 22,
+      "sampled_defensive": 0,
+      "repeat_samples": [
+        {
+          "slot": 5,
+          "action": "farm",
+          "target": 3,
+          "start": 25,
+          "end": 75,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        }
+      ],
+      "high_gold_farm_sample_count": 13,
+      "carrier_combat_observations": []
+    },
+    {
+      "match_id": "2ec39097-9c1e-4ae2-b8d8-44c59d71cebf",
+      "map": "fragment",
+      "opponent": "FRChronic",
+      "platform_version": 46,
+      "stdout_sha256": "b6c756023054e3ac4c33f96d463d61eb21d0c3e690b7b9fdc4f6a941d11fc997",
+      "samples": 74,
+      "actions": {
+        "step-off": 1,
+        "farm": 53,
+        "capture": 6,
+        "retreat": 4,
+        "fight": 2,
+        "bank": 5,
+        "evade": 1,
+        "chase": 1,
+        "recall": 1
+      },
+      "errors": 0,
+      "fuel_sample_min": 53476,
+      "fuel_sample_max": 83021,
+      "agg_max": 56,
+      "sampled_defensive": 20,
+      "repeat_samples": [
+        {
+          "slot": 0,
+          "action": "farm",
+          "target": 4,
+          "start": 150,
+          "end": 200,
+          "samples": 3,
+          "observed_gem_values": [
+            11
+          ],
+          "observed_gold_values": [
+            3
+          ]
+        },
+        {
+          "slot": 1,
+          "action": "farm",
+          "target": 1,
+          "start": 380,
+          "end": 430,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            128
+          ]
+        }
+      ],
+      "high_gold_farm_sample_count": 0,
+      "carrier_combat_observations": []
+    },
+    {
+      "match_id": "c07ae63a-bc91-4d31-ad46-a585926effd1",
+      "map": "packs",
+      "opponent": "FRChronic",
+      "platform_version": 46,
+      "stdout_sha256": "8133f5cfef76dbde858d395ccfe269b4f7c0da7aca6354b42b9955798af6d987",
+      "samples": 65,
+      "actions": {
+        "farm": 43,
+        "bank": 9,
+        "capture": 5,
+        "chase": 4,
+        "fight": 2,
+        "recall": 1,
+        "tribute": 1
+      },
+      "errors": 0,
+      "fuel_sample_min": 52240,
+      "fuel_sample_max": 83695,
+      "agg_max": 34,
+      "sampled_defensive": 0,
+      "repeat_samples": [],
+      "high_gold_farm_sample_count": 3,
+      "carrier_combat_observations": [
+        {
+          "r": 75,
+          "slot": 2,
+          "action": "chase",
+          "gems": 44
+        }
+      ]
+    },
+    {
+      "match_id": "54798562-cecc-4cf8-918b-985633968cc5",
+      "map": "collision",
+      "opponent": "FRChronic",
+      "platform_version": 46,
+      "stdout_sha256": "43e528a6b9aef17f2ddcc2df07fe5be8cba60200b5fefb5f8b1e8c3f798cb023",
+      "samples": 82,
+      "actions": {
+        "farm": 53,
+        "capture": 11,
+        "bank": 10,
+        "retreat": 4,
+        "chase": 2,
+        "bank-recall": 1,
+        "recall": 1
+      },
+      "errors": 0,
+      "fuel_sample_min": 36322,
+      "fuel_sample_max": 78315,
+      "agg_max": 46,
+      "sampled_defensive": 6,
+      "repeat_samples": [],
+      "high_gold_farm_sample_count": 12,
+      "carrier_combat_observations": [
+        {
+          "r": 367,
+          "slot": 1,
+          "action": "chase",
+          "gems": 36
+        },
+        {
+          "r": 542,
+          "slot": 1,
+          "action": "retreat",
+          "gems": 58
+        },
+        {
+          "r": 592,
+          "slot": 1,
+          "action": "chase",
+          "gems": 58
+        }
+      ]
+    },
+    {
+      "match_id": "46b6a7d6-1619-4df6-a625-779ce73faa2c",
+      "map": "contest",
+      "opponent": "the uncancelables",
+      "platform_version": 46,
+      "stdout_sha256": "bc76a25b1e5397e6e109d6cf9147bf5f39650b98952c55c3fdca916216738e3e",
+      "samples": 240,
+      "actions": {
+        "farm": 205,
+        "evade": 9,
+        "capture": 21,
+        "retreat": 1,
+        "recall": 2,
+        "fight": 1,
+        "shop-recall": 1
+      },
+      "errors": 0,
+      "fuel_sample_min": 49942,
+      "fuel_sample_max": 82742,
+      "agg_max": 130,
+      "sampled_defensive": 127,
+      "repeat_samples": [
+        {
+          "slot": 0,
+          "action": "farm",
+          "target": 3,
+          "start": 321,
+          "end": 371,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            45
+          ]
+        },
+        {
+          "slot": 0,
+          "action": "farm",
+          "target": 6,
+          "start": 524,
+          "end": 574,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            43,
+            78
+          ]
+        },
+        {
+          "slot": 0,
+          "action": "farm",
+          "target": 3,
+          "start": 1178,
+          "end": 1312,
+          "samples": 4,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            8,
+            98
+          ]
+        },
+        {
+          "slot": 1,
+          "action": "farm",
+          "target": 4,
+          "start": 224,
+          "end": 359,
+          "samples": 4,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            15
+          ]
+        },
+        {
+          "slot": 1,
+          "action": "farm",
+          "target": 2,
+          "start": 613,
+          "end": 733,
+          "samples": 4,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            13
+          ]
+        },
+        {
+          "slot": 1,
+          "action": "farm",
+          "target": 3,
+          "start": 758,
+          "end": 863,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            13
+          ]
+        },
+        {
+          "slot": 1,
+          "action": "farm",
+          "target": 4,
+          "start": 1125,
+          "end": 1175,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            3
+          ]
+        },
+        {
+          "slot": 2,
+          "action": "farm",
+          "target": 12,
+          "start": 190,
+          "end": 240,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        },
+        {
+          "slot": 2,
+          "action": "farm",
+          "target": 4,
+          "start": 644,
+          "end": 849,
+          "samples": 5,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            27
+          ]
+        },
+        {
+          "slot": 2,
+          "action": "farm",
+          "target": 8,
+          "start": 874,
+          "end": 969,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            27
+          ]
+        },
+        {
+          "slot": 2,
+          "action": "farm",
+          "target": 5,
+          "start": 1122,
+          "end": 1292,
+          "samples": 6,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            12,
+            72
+          ]
+        },
+        {
+          "slot": 3,
+          "action": "farm",
+          "target": 3,
+          "start": 215,
+          "end": 265,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        },
+        {
+          "slot": 3,
+          "action": "farm",
+          "target": 10,
+          "start": 751,
+          "end": 849,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            25
+          ]
+        },
+        {
+          "slot": 4,
+          "action": "farm",
+          "target": 8,
+          "start": 310,
+          "end": 360,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            25
+          ]
+        }
+      ],
+      "high_gold_farm_sample_count": 11,
+      "carrier_combat_observations": []
+    },
+    {
+      "match_id": "af5a8cf9-0481-4368-97d1-244df59858d1",
+      "map": "ambush",
+      "opponent": "the uncancelables",
+      "platform_version": 46,
+      "stdout_sha256": "b575e9554151b02a647834053d5156b170f565d627a9d5457d95e48b28a60430",
+      "samples": 108,
+      "actions": {
+        "farm": 92,
+        "bank": 11,
+        "capture": 4,
+        "recall": 1
+      },
+      "errors": 0,
+      "fuel_sample_min": 14031,
+      "fuel_sample_max": 81691,
+      "agg_max": 39,
+      "sampled_defensive": 0,
+      "repeat_samples": [
+        {
+          "slot": 1,
+          "action": "farm",
+          "target": 6,
+          "start": 175,
+          "end": 250,
+          "samples": 4,
+          "observed_gem_values": [
+            36
+          ],
+          "observed_gold_values": [
+            10,
+            160
+          ]
+        },
+        {
+          "slot": 1,
+          "action": "bank",
+          "target": -1,
+          "start": 325,
+          "end": 375,
+          "samples": 3,
+          "observed_gem_values": [
+            36,
+            120
+          ],
+          "observed_gold_values": [
+            10,
+            330
+          ]
+        },
+        {
+          "slot": 2,
+          "action": "farm",
+          "target": 11,
+          "start": 100,
+          "end": 150,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        },
+        {
+          "slot": 2,
+          "action": "farm",
+          "target": 1,
+          "start": 283,
+          "end": 333,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        },
+        {
+          "slot": 2,
+          "action": "farm",
+          "target": 11,
+          "start": 358,
+          "end": 408,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        },
+        {
+          "slot": 3,
+          "action": "farm",
+          "target": 1,
+          "start": 283,
+          "end": 333,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            10
+          ]
+        },
+        {
+          "slot": 3,
+          "action": "farm",
+          "target": 11,
+          "start": 358,
+          "end": 408,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            10
+          ]
+        },
+        {
+          "slot": 4,
+          "action": "farm",
+          "target": 11,
+          "start": 350,
+          "end": 400,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            20
+          ]
+        },
+        {
+          "slot": 5,
+          "action": "farm",
+          "target": 11,
+          "start": 100,
+          "end": 150,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        },
+        {
+          "slot": 5,
+          "action": "farm",
+          "target": 6,
+          "start": 175,
+          "end": 225,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        },
+        {
+          "slot": 5,
+          "action": "farm",
+          "target": 11,
+          "start": 350,
+          "end": 400,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            20
+          ]
+        }
+      ],
+      "high_gold_farm_sample_count": 9,
+      "carrier_combat_observations": []
+    },
+    {
+      "match_id": "0a6a7237-176c-4660-8c7d-d919f2ccdf27",
+      "map": "rows",
+      "opponent": "the uncancelables",
+      "platform_version": 46,
+      "stdout_sha256": "4a9ab996fc7184f9994bc8a8298898a618157de5c45b3d1c6c6917d8f6a4bdb2",
+      "samples": 84,
+      "actions": {
+        "farm": 62,
+        "bank": 14,
+        "recall": 1,
+        "capture": 5,
+        "retreat": 1,
+        "tribute": 1
+      },
+      "errors": 0,
+      "fuel_sample_min": 53236,
+      "fuel_sample_max": 82363,
+      "agg_max": 0,
+      "sampled_defensive": 0,
+      "repeat_samples": [
+        {
+          "slot": 0,
+          "action": "farm",
+          "target": 4,
+          "start": 25,
+          "end": 100,
+          "samples": 4,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        },
+        {
+          "slot": 0,
+          "action": "farm",
+          "target": 4,
+          "start": 275,
+          "end": 350,
+          "samples": 4,
+          "observed_gem_values": [
+            0,
+            66
+          ],
+          "observed_gold_values": [
+            0,
+            270
+          ]
+        },
+        {
+          "slot": 1,
+          "action": "farm",
+          "target": 4,
+          "start": 175,
+          "end": 350,
+          "samples": 8,
+          "observed_gem_values": [
+            0,
+            66
+          ],
+          "observed_gold_values": [
+            0,
+            270
+          ]
+        }
+      ],
+      "high_gold_farm_sample_count": 12,
+      "carrier_combat_observations": []
+    },
+    {
+      "match_id": "f615d272-8c3a-4268-be24-7eb9f123c420",
+      "map": "corners",
+      "opponent": "the uncancelables",
+      "platform_version": 46,
+      "stdout_sha256": "6759f2f8f19426fb0f496e283668a5d5d68b5fbe6b2632af11a73be623dbfdcf",
+      "samples": 102,
+      "actions": {
+        "farm": 78,
+        "bank": 14,
+        "capture": 4,
+        "shop-recall": 2,
+        "bank-recall": 1,
+        "recall": 2,
+        "retreat": 1
+      },
+      "errors": 0,
+      "fuel_sample_min": 30422,
+      "fuel_sample_max": 83198,
+      "agg_max": 1,
+      "sampled_defensive": 0,
+      "repeat_samples": [
+        {
+          "slot": 0,
+          "action": "farm",
+          "target": 0,
+          "start": 130,
+          "end": 180,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        }
+      ],
+      "high_gold_farm_sample_count": 9,
+      "carrier_combat_observations": []
+    },
+    {
+      "match_id": "aef47a64-2ef3-4ee8-8f0b-da3abab069a4",
+      "map": "lanes",
+      "opponent": "the uncancelables",
+      "platform_version": 46,
+      "stdout_sha256": "967963e023623b552eaf9abc97ba0a753168d14b249e45fa069b4f1611a4f86e",
+      "samples": 97,
+      "actions": {
+        "farm": 69,
+        "bank": 9,
+        "capture": 9,
+        "retreat": 3,
+        "chase": 3,
+        "evade": 2,
+        "tribute": 2
+      },
+      "errors": 0,
+      "fuel_sample_min": 24289,
+      "fuel_sample_max": 75866,
+      "agg_max": 22,
+      "sampled_defensive": 0,
+      "repeat_samples": [
+        {
+          "slot": 2,
+          "action": "farm",
+          "target": 40,
+          "start": 150,
+          "end": 200,
+          "samples": 3,
+          "observed_gem_values": [
+            0
+          ],
+          "observed_gold_values": [
+            0
+          ]
+        }
+      ],
+      "high_gold_farm_sample_count": 1,
+      "carrier_combat_observations": []
+    }
+  ]
+}

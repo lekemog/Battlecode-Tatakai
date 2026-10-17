@@ -1,0 +1,180 @@
+{
+  "observed_utc": "2026-10-17T21:30:42Z",
+  "observation_window_utc": "2026-10-17T21:29Z/2026-10-17T21:34Z",
+  "provenance": "Official public ladder and ranked-series rendered UI; existing session reused, no sign-in performed",
+  "selection": "First completed ranked top50-vs-top50 series chosen from inspected PTN Hyperion, conqueror_of_openai and Mite recent histories. Convenience stratified sample, not random.",
+  "rank_snapshot_note": "Ranks at initial ladder inspection. Profiles later changed Hyperion to 13 and conqueror to 29. Snapshot rank does not establish strength of historical bot.",
+  "summary_attempts": 1,
+  "summary_successes": 0,
+  "summary_failure": "Rows export reported Too many requests; retry in 2 seconds. Batch stopped; no further exports attempted.",
+  "field_order": [
+    "match_id",
+    "map",
+    "rounds",
+    "team0_submitted_gems",
+    "team1_submitted_gems",
+    "winner_index"
+  ],
+  "missing": "All bot versions, champion counts, timings, gold, deaths, carried gems, items, wards/locks/teleports unavailable. Contest scores null: overview only says Tie Break (Gold), not 0–0.",
+  "series": [
+    {
+      "id": "6ac8352d-b501-4979-8552-0d01a763a858",
+      "teams": [
+        "PTN Hyperion",
+        "KratosMessi"
+      ],
+      "ranks": [
+        16,
+        22
+      ],
+      "games": [
+        [
+          "ff94c224-dcc6-409a-9569-6e04970a06dc",
+          "corners",
+          618,
+          1020,
+          944,
+          0
+        ],
+        [
+          "77eca42b-9107-41ea-aefd-543d3bf93a9b",
+          "swirl",
+          848,
+          480,
+          1004,
+          1
+        ],
+        [
+          "aecd2bf7-1f10-4e9f-8734-7e282b218030",
+          "rows",
+          403,
+          1056,
+          990,
+          0
+        ],
+        [
+          "0e9993c2-a8cd-47cb-8b26-361f65232329",
+          "elkring",
+          598,
+          1080,
+          756,
+          0
+        ],
+        [
+          "2c827007-6d94-4738-aaf1-bf82dd8ef0b5",
+          "packs",
+          559,
+          1012,
+          988,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "55e03dc0-0ed0-4830-81bf-233c339c414c",
+      "teams": [
+        "conqueror_of_openai",
+        "NEETCoders"
+      ],
+      "ranks": [
+        30,
+        41
+      ],
+      "games": [
+        [
+          "add3e84d-6ce5-4b70-b322-00f117bce4da",
+          "eight",
+          530,
+          794,
+          1018,
+          1
+        ],
+        [
+          "53859806-7900-480a-bd51-61f4e34efe9e",
+          "expanse",
+          553,
+          1024,
+          790,
+          0
+        ],
+        [
+          "38d674c9-9e37-4568-9863-231ee79f251e",
+          "elkring",
+          590,
+          1026,
+          882,
+          0
+        ],
+        [
+          "947dc4c7-3bfe-4a32-9c9f-1d7a0c1600b6",
+          "packs",
+          532,
+          1068,
+          896,
+          0
+        ],
+        [
+          "264b314b-204b-49b8-a181-b9933ebdf08b",
+          "swirl",
+          552,
+          574,
+          1052,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "a3bb4159-4f9b-4215-850b-b1c366464c13",
+      "teams": [
+        "new team(4)",
+        "Mite"
+      ],
+      "ranks": [
+        7,
+        5
+      ],
+      "games": [
+        [
+          "60b17285-94cf-45b2-b5cd-c919f75cb044",
+          "collision",
+          579,
+          168,
+          1010,
+          1
+        ],
+        [
+          "5ee694be-3726-498b-912b-8e26ceb8d1e2",
+          "contest",
+          2000,
+          null,
+          null,
+          1
+        ],
+        [
+          "5c14e7f3-e5d0-47bc-8196-1183ee6ced5e",
+          "packs",
+          626,
+          500,
+          1024,
+          1
+        ],
+        [
+          "b2fcf210-976b-4dfa-9dbd-59771f1f9ac5",
+          "swirl",
+          414,
+          1004,
+          320,
+          0
+        ],
+        [
+          "f9741e2f-9a48-4435-87d3-a210d12d91b4",
+          "expanse",
+          560,
+          1028,
+          804,
+          0
+        ]
+      ]
+    }
+  ]
+}

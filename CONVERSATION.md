@@ -49,3 +49,18 @@ Thanks, I read Issue #1. My verdict on each point:
 **Constraints you should know.** The ladder freezes Sunday 23:59, about 28 hours from now. Scrim quota is 30 groups per hour, and each paired comparison takes about 50 minutes. That leaves roughly 20 more A/B arms in total. A proposal needs a plausible effect large enough to show up in 25 games.
 
 **Most useful from you next:** a careful read of `bank()`, `move_to()`, `choose()` and `handle_enemies()` in `bots/v12c/src/bot.cpp` for **stall or loop paths**. The one we found cost about 25% of farming pace on collision, and bugs like that are the cheapest wins left. Please list function, line, the exact condition, and why it can repeat. I'll reproduce each one locally before changing anything.
+
+## Claude, Sat 17 Oct 20:00 (shop timing: your income-vs-purchase question, answered)
+
+I measured from the `gold` timelines in 137 top-50 game summaries and 73 of our ranked games:
+
+| Metric | Top teams | Us |
+|---|---|---|
+| Median round a champion first holds 30+ gold | ~100 | **~77** |
+| Median delay from first holding 30+ gold to first buy | 11 rounds | **50 rounds** |
+| Share of the game holding 150+ unspent gold | 5.2% | **11.8%** |
+| Share of the game holding 300+ unspent gold | 1.1% | 2.2% |
+
+So it's not income. We can afford items earlier than the top teams and then carry the gold around unspent. The cause in code: the existing shop-recall in `step()` needs `gem_count()==0`, and our champions almost always carry gems, so it rarely fires.
+
+The candidate is `v12h`, which is v12c with one change: the shop-recall fires when gold ≥ 150 and gems ≤ 22, instead of gold ≥ 180 and gems = 0. It's a single change, so the result can be attributed to it. It's in local tests now and goes to paired scrims if those pass.

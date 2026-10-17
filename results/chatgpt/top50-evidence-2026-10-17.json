@@ -1,0 +1,1485 @@
+{
+  "scope": "Initial convenience sample: 25 public game overviews; 12 authenticated detailed summaries (24 team-game records), not all top-50 teams. All sampled pairings were within the observed top seven. Fish appears in every game.",
+  "ladder_snapshot": "17 Oct 2026 about 19:41 UK/Irish time",
+  "ranks": {
+    "Intercontinental Fish": 1,
+    "Mite": 2,
+    "Sneaky Bush Campers": 3,
+    "Nyxius": 4,
+    "procless": 5,
+    "AlphaSlop": 7
+  },
+  "overviews": [
+    {
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 1,
+      "team_a": "Intercontinental Fish",
+      "team_b": "procless",
+      "map": "elkring",
+      "rounds": 533,
+      "score_a": 1008,
+      "score_b": 612
+    },
+    {
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 2,
+      "team_a": "Intercontinental Fish",
+      "team_b": "procless",
+      "map": "ambush",
+      "rounds": 501,
+      "score_a": 668,
+      "score_b": 1022
+    },
+    {
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 3,
+      "team_a": "Intercontinental Fish",
+      "team_b": "procless",
+      "map": "collision",
+      "rounds": 565,
+      "score_a": 1030,
+      "score_b": 410
+    },
+    {
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 4,
+      "team_a": "Intercontinental Fish",
+      "team_b": "procless",
+      "map": "rows",
+      "rounds": 353,
+      "score_a": 858,
+      "score_b": 1012
+    },
+    {
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 5,
+      "team_a": "Intercontinental Fish",
+      "team_b": "procless",
+      "map": "monolith",
+      "rounds": 409,
+      "score_a": 886,
+      "score_b": 1010
+    },
+    {
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 1,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Mite",
+      "map": "lanes",
+      "rounds": 412,
+      "score_a": 1006,
+      "score_b": 986
+    },
+    {
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 2,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Mite",
+      "map": "eight",
+      "rounds": 435,
+      "score_a": 1020,
+      "score_b": 0
+    },
+    {
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 3,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Mite",
+      "map": "swirl",
+      "rounds": 609,
+      "score_a": 1116,
+      "score_b": 294
+    },
+    {
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 4,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Mite",
+      "map": "packs",
+      "rounds": 540,
+      "score_a": 960,
+      "score_b": 1032
+    },
+    {
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 5,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Mite",
+      "map": "pilgrimage",
+      "rounds": 629,
+      "score_a": 796,
+      "score_b": 1008
+    },
+    {
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 1,
+      "team_a": "Sneaky Bush Campers",
+      "team_b": "Intercontinental Fish",
+      "map": "contest",
+      "rounds": 1752,
+      "score_a": 0,
+      "score_b": 1000
+    },
+    {
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 2,
+      "team_a": "Sneaky Bush Campers",
+      "team_b": "Intercontinental Fish",
+      "map": "expanse",
+      "rounds": 456,
+      "score_a": 1032,
+      "score_b": 738
+    },
+    {
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 3,
+      "team_a": "Sneaky Bush Campers",
+      "team_b": "Intercontinental Fish",
+      "map": "collision",
+      "rounds": 648,
+      "score_a": 330,
+      "score_b": 1068
+    },
+    {
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 4,
+      "team_a": "Sneaky Bush Campers",
+      "team_b": "Intercontinental Fish",
+      "map": "swirl",
+      "rounds": 571,
+      "score_a": 568,
+      "score_b": 1008
+    },
+    {
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 5,
+      "team_a": "Sneaky Bush Campers",
+      "team_b": "Intercontinental Fish",
+      "map": "eight",
+      "rounds": 560,
+      "score_a": 88,
+      "score_b": 1020
+    },
+    {
+      "group_id": "62271a89-29d5-4b54-a498-1c932ce9ae66",
+      "game": 1,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Nyxius",
+      "map": "eight",
+      "rounds": 453,
+      "score_a": 1004,
+      "score_b": 22
+    },
+    {
+      "group_id": "62271a89-29d5-4b54-a498-1c932ce9ae66",
+      "game": 2,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Nyxius",
+      "map": "stampede",
+      "rounds": 1094,
+      "score_a": 1080,
+      "score_b": 0
+    },
+    {
+      "group_id": "62271a89-29d5-4b54-a498-1c932ce9ae66",
+      "game": 3,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Nyxius",
+      "map": "elkring",
+      "rounds": 393,
+      "score_a": 1008,
+      "score_b": 324
+    },
+    {
+      "group_id": "62271a89-29d5-4b54-a498-1c932ce9ae66",
+      "game": 4,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Nyxius",
+      "map": "swirl",
+      "rounds": 487,
+      "score_a": 1036,
+      "score_b": 160
+    },
+    {
+      "group_id": "62271a89-29d5-4b54-a498-1c932ce9ae66",
+      "game": 5,
+      "team_a": "Intercontinental Fish",
+      "team_b": "Nyxius",
+      "map": "expanse",
+      "rounds": 489,
+      "score_a": 702,
+      "score_b": 1022
+    },
+    {
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 1,
+      "team_a": "Intercontinental Fish",
+      "team_b": "AlphaSlop",
+      "map": "contest",
+      "rounds": 1582,
+      "score_a": 1000,
+      "score_b": 0
+    },
+    {
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 2,
+      "team_a": "Intercontinental Fish",
+      "team_b": "AlphaSlop",
+      "map": "corners",
+      "rounds": 427,
+      "score_a": 624,
+      "score_b": 1000
+    },
+    {
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 3,
+      "team_a": "Intercontinental Fish",
+      "team_b": "AlphaSlop",
+      "map": "lanes",
+      "rounds": 424,
+      "score_a": 890,
+      "score_b": 1024
+    },
+    {
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 4,
+      "team_a": "Intercontinental Fish",
+      "team_b": "AlphaSlop",
+      "map": "ambush",
+      "rounds": 517,
+      "score_a": 788,
+      "score_b": 1024
+    },
+    {
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 5,
+      "team_a": "Intercontinental Fish",
+      "team_b": "AlphaSlop",
+      "map": "collision",
+      "rounds": 682,
+      "score_a": 380,
+      "score_b": 1134
+    }
+  ],
+  "team_game_features": [
+    {
+      "side": "teamA",
+      "rounds": 629,
+      "win": false,
+      "score": 796,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Varg"
+      ],
+      "deaths": 4,
+      "gold": 2730,
+      "lost": 68,
+      "ward": 67,
+      "first_buy": 58,
+      "first_sub": 128,
+      "first3": [
+        [
+          58,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          122,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          187,
+          "Power Emblem of Strength"
+        ]
+      ],
+      "cons": {
+        "Teleport Crystal": 8
+      },
+      "camp": 15,
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 5,
+      "map": "pilgrimage",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "a1745ea8495ac22af96935c75f7c04f9990c27a68fcbf8252cb16dd19e2cab0b",
+      "earnedGold_100": 250,
+      "earnedGold_200": 680,
+      "earnedGold_400": 1445,
+      "collectedGems_100": 68,
+      "collectedGems_200": 204,
+      "collectedGems_400": 408,
+      "submittedGems_100": 0,
+      "submittedGems_200": 136,
+      "submittedGems_400": 204
+    },
+    {
+      "side": "teamB",
+      "rounds": 629,
+      "win": true,
+      "score": 1008,
+      "draft": [
+        "Varg",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Tavi",
+        "Ren"
+      ],
+      "deaths": 5,
+      "gold": 4675,
+      "lost": 68,
+      "ward": 83,
+      "first_buy": 57,
+      "first_sub": 119,
+      "first3": [
+        [
+          57,
+          "Jungle Emblem of Focus"
+        ],
+        [
+          148,
+          "Jungle Emblem of Focus"
+        ],
+        [
+          270,
+          "Power Emblem of Focus"
+        ]
+      ],
+      "cons": {
+        "Altar Lock": 3
+      },
+      "camp": 11,
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 5,
+      "map": "pilgrimage",
+      "team": "Mite",
+      "summary_sha256": "a1745ea8495ac22af96935c75f7c04f9990c27a68fcbf8252cb16dd19e2cab0b",
+      "earnedGold_100": 215,
+      "earnedGold_200": 1210,
+      "earnedGold_400": 2420,
+      "collectedGems_100": 68,
+      "collectedGems_200": 280,
+      "collectedGems_400": 560,
+      "submittedGems_100": 0,
+      "submittedGems_200": 68,
+      "submittedGems_400": 492
+    },
+    {
+      "side": "teamA",
+      "rounds": 409,
+      "win": false,
+      "score": 886,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Varg"
+      ],
+      "deaths": 3,
+      "gold": 4120,
+      "lost": 58,
+      "ward": 11,
+      "first_buy": 33,
+      "first_sub": 152,
+      "first3": [
+        [
+          33,
+          "Power Emblem of Strength"
+        ],
+        [
+          48,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          71,
+          "Power Emblem of Strength"
+        ]
+      ],
+      "cons": {},
+      "camp": 28,
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 5,
+      "map": "monolith",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "8ea8bf75f52d69af36029fbeb05b37cf5684caf1743010a496d1d2d11ac762e7",
+      "earnedGold_100": 790,
+      "earnedGold_200": 1600,
+      "earnedGold_400": 3940,
+      "collectedGems_100": 190,
+      "collectedGems_200": 388,
+      "collectedGems_400": 980,
+      "submittedGems_100": 0,
+      "submittedGems_200": 132,
+      "submittedGems_400": 644
+    },
+    {
+      "side": "teamB",
+      "rounds": 409,
+      "win": true,
+      "score": 1010,
+      "draft": [
+        "Varg",
+        "Ryth",
+        "Cassi",
+        "Issac",
+        "Ren",
+        "Stellar"
+      ],
+      "deaths": 4,
+      "gold": 4380,
+      "lost": 66,
+      "ward": 27,
+      "first_buy": 22,
+      "first_sub": 56,
+      "first3": [
+        [
+          52,
+          "Jungle Emblem of Strength"
+        ],
+        [
+          86,
+          "Jungle Emblem of Strength"
+        ],
+        [
+          92,
+          "Jungle Emblem of Focus"
+        ]
+      ],
+      "cons": {},
+      "camp": 35,
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 5,
+      "map": "monolith",
+      "team": "procless",
+      "summary_sha256": "8ea8bf75f52d69af36029fbeb05b37cf5684caf1743010a496d1d2d11ac762e7",
+      "earnedGold_100": 970,
+      "earnedGold_200": 2150,
+      "earnedGold_400": 4380,
+      "collectedGems_100": 234,
+      "collectedGems_200": 556,
+      "collectedGems_400": 1098,
+      "submittedGems_100": 80,
+      "submittedGems_200": 358,
+      "submittedGems_400": 966
+    },
+    {
+      "side": "teamA",
+      "rounds": 435,
+      "win": true,
+      "score": 1020,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Varg"
+      ],
+      "deaths": 7,
+      "gold": 3800,
+      "lost": 220,
+      "ward": 14,
+      "first_buy": 38,
+      "first_sub": 85,
+      "first3": [
+        [
+          38,
+          "Power Emblem of Focus"
+        ],
+        [
+          38,
+          "Durability Emblem of Health"
+        ],
+        [
+          54,
+          "Bruiser Emblem of Health"
+        ]
+      ],
+      "cons": {},
+      "camp": 14,
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 2,
+      "map": "eight",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "2af7e777a9d70c2e8298c0716305b6ae93efd8f03f49d4c5942ccfbaaa06f0e0",
+      "earnedGold_100": 770,
+      "earnedGold_200": 1470,
+      "earnedGold_400": 3420,
+      "collectedGems_100": 182,
+      "collectedGems_200": 474,
+      "collectedGems_400": 1196,
+      "submittedGems_100": 138,
+      "submittedGems_200": 138,
+      "submittedGems_400": 816
+    },
+    {
+      "side": "teamB",
+      "rounds": 435,
+      "win": false,
+      "score": 0,
+      "draft": [
+        "Varg",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Tavi"
+      ],
+      "deaths": 21,
+      "gold": 1640,
+      "lost": 572,
+      "ward": 4,
+      "first_buy": 75,
+      "first_sub": null,
+      "first3": [
+        [
+          249,
+          "Jungle Emblem of Focus"
+        ],
+        [
+          249,
+          "Durability Emblem of Focus"
+        ],
+        [
+          249,
+          "Bruiser Emblem of Health"
+        ]
+      ],
+      "cons": {
+        "Altar Lock": 4
+      },
+      "camp": 6,
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 2,
+      "map": "eight",
+      "team": "Mite",
+      "summary_sha256": "2af7e777a9d70c2e8298c0716305b6ae93efd8f03f49d4c5942ccfbaaa06f0e0",
+      "earnedGold_100": 140,
+      "earnedGold_200": 845,
+      "earnedGold_400": 1640,
+      "collectedGems_100": 22,
+      "collectedGems_200": 330,
+      "collectedGems_400": 572,
+      "submittedGems_100": 0,
+      "submittedGems_200": 0,
+      "submittedGems_400": 0
+    },
+    {
+      "side": "teamA",
+      "rounds": 648,
+      "win": false,
+      "score": 330,
+      "draft": [
+        "Stellar",
+        "Tavi",
+        "Ren"
+      ],
+      "deaths": 6,
+      "gold": 2095,
+      "lost": 110,
+      "ward": 1,
+      "first_buy": 31,
+      "first_sub": 31,
+      "first3": [
+        [
+          99,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          104,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          194,
+          "Power Emblem of Focus"
+        ]
+      ],
+      "cons": {},
+      "camp": 19,
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 3,
+      "map": "collision",
+      "team": "Sneaky Bush Campers",
+      "summary_sha256": "b19b007160f153bee6658fdd2bd86b290132c18bc1457983e79e2c89c5b34865",
+      "earnedGold_100": 450,
+      "earnedGold_200": 680,
+      "earnedGold_400": 1255,
+      "collectedGems_100": 110,
+      "collectedGems_200": 154,
+      "collectedGems_400": 286,
+      "submittedGems_100": 66,
+      "submittedGems_200": 110,
+      "submittedGems_400": 198
+    },
+    {
+      "side": "teamB",
+      "rounds": 648,
+      "win": true,
+      "score": 1068,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac"
+      ],
+      "deaths": 3,
+      "gold": 4290,
+      "lost": 0,
+      "ward": 2,
+      "first_buy": 44,
+      "first_sub": 100,
+      "first3": [
+        [
+          44,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          84,
+          "Power Emblem of Strength"
+        ],
+        [
+          140,
+          "Durability Emblem of Health"
+        ]
+      ],
+      "cons": {},
+      "camp": 51,
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 3,
+      "map": "collision",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "b19b007160f153bee6658fdd2bd86b290132c18bc1457983e79e2c89c5b34865",
+      "earnedGold_100": 680,
+      "earnedGold_200": 1340,
+      "earnedGold_400": 2810,
+      "collectedGems_100": 146,
+      "collectedGems_200": 314,
+      "collectedGems_400": 680,
+      "submittedGems_100": 66,
+      "submittedGems_200": 168,
+      "submittedGems_400": 614
+    },
+    {
+      "side": "teamA",
+      "rounds": 609,
+      "win": true,
+      "score": 1116,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth"
+      ],
+      "deaths": 16,
+      "gold": 6395,
+      "lost": 150,
+      "ward": 39,
+      "first_buy": 42,
+      "first_sub": 47,
+      "first3": [
+        [
+          42,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          71,
+          "Power Emblem of Strength"
+        ],
+        [
+          71,
+          "Durability Emblem of Health"
+        ]
+      ],
+      "cons": {},
+      "camp": 22,
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 3,
+      "map": "swirl",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "cf7bf80c292c92f850899ea9ab40326942804df4dac155514c1ac679f81f8a2a",
+      "earnedGold_100": 1170,
+      "earnedGold_200": 1880,
+      "earnedGold_400": 3340,
+      "collectedGems_100": 248,
+      "collectedGems_200": 372,
+      "collectedGems_400": 656,
+      "submittedGems_100": 160,
+      "submittedGems_200": 204,
+      "submittedGems_400": 612
+    },
+    {
+      "side": "teamB",
+      "rounds": 609,
+      "win": false,
+      "score": 294,
+      "draft": [
+        "Varg",
+        "Ryth",
+        "Cassi",
+        "Issac",
+        "Stellar"
+      ],
+      "deaths": 22,
+      "gold": 2305,
+      "lost": 108,
+      "ward": 219,
+      "first_buy": 107,
+      "first_sub": 135,
+      "first3": [
+        [
+          107,
+          "Jungle Emblem of Focus"
+        ],
+        [
+          147,
+          "Durability Emblem of Focus"
+        ],
+        [
+          147,
+          "Bruiser Emblem of Health"
+        ]
+      ],
+      "cons": {
+        "Altar Lock": 4
+      },
+      "camp": 7,
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 3,
+      "map": "swirl",
+      "team": "Mite",
+      "summary_sha256": "cf7bf80c292c92f850899ea9ab40326942804df4dac155514c1ac679f81f8a2a",
+      "earnedGold_100": 265,
+      "earnedGold_200": 630,
+      "earnedGold_400": 1675,
+      "collectedGems_100": 36,
+      "collectedGems_200": 116,
+      "collectedGems_400": 224,
+      "submittedGems_100": 0,
+      "submittedGems_200": 80,
+      "submittedGems_400": 152
+    },
+    {
+      "side": "teamA",
+      "rounds": 427,
+      "win": false,
+      "score": 624,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Varg"
+      ],
+      "deaths": 3,
+      "gold": 3620,
+      "lost": 102,
+      "ward": 25,
+      "first_buy": 29,
+      "first_sub": 62,
+      "first3": [
+        [
+          29,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          41,
+          "Power Emblem of Strength"
+        ],
+        [
+          87,
+          "Power Emblem of Focus"
+        ]
+      ],
+      "cons": {},
+      "camp": 34,
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 2,
+      "map": "corners",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "e987a85b44e4be483317f9249e6011c334c84082879cf6418d954d58f2341aad",
+      "earnedGold_100": 750,
+      "earnedGold_200": 1680,
+      "earnedGold_400": 3370,
+      "collectedGems_100": 160,
+      "collectedGems_200": 378,
+      "collectedGems_400": 806,
+      "submittedGems_100": 58,
+      "submittedGems_200": 58,
+      "submittedGems_400": 624
+    },
+    {
+      "side": "teamB",
+      "rounds": 427,
+      "win": true,
+      "score": 1000,
+      "draft": [
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Tavi",
+        "Ren",
+        "Willow"
+      ],
+      "deaths": 3,
+      "gold": 4212,
+      "lost": 58,
+      "ward": 33,
+      "first_buy": 42,
+      "first_sub": 75,
+      "first3": [
+        [
+          107,
+          "Jungle Emblem of Health"
+        ],
+        [
+          112,
+          "Jungle Emblem of Health"
+        ],
+        [
+          113,
+          "Power Emblem of Focus"
+        ]
+      ],
+      "cons": {
+        "Altar Lock": 8
+      },
+      "camp": 28,
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 2,
+      "map": "corners",
+      "team": "AlphaSlop",
+      "summary_sha256": "e987a85b44e4be483317f9249e6011c334c84082879cf6418d954d58f2341aad",
+      "earnedGold_100": 500,
+      "earnedGold_200": 1520,
+      "earnedGold_400": 3784,
+      "collectedGems_100": 110,
+      "collectedGems_200": 374,
+      "collectedGems_400": 1000,
+      "submittedGems_100": 110,
+      "submittedGems_200": 338,
+      "submittedGems_400": 826
+    },
+    {
+      "side": "teamA",
+      "rounds": 424,
+      "win": false,
+      "score": 890,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Varg"
+      ],
+      "deaths": 2,
+      "gold": 4260,
+      "lost": 22,
+      "ward": 54,
+      "first_buy": 57,
+      "first_sub": 60,
+      "first3": [
+        [
+          57,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          76,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          130,
+          "Durability Emblem of Health"
+        ]
+      ],
+      "cons": {},
+      "camp": 39,
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 3,
+      "map": "lanes",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "256576df06ee9d7d3026fb8d155da5f4417f2547dc98792a5775dd72f5f92868",
+      "earnedGold_100": 730,
+      "earnedGold_200": 1430,
+      "earnedGold_400": 3830,
+      "collectedGems_100": 154,
+      "collectedGems_200": 322,
+      "collectedGems_400": 890,
+      "submittedGems_100": 132,
+      "submittedGems_200": 300,
+      "submittedGems_400": 824
+    },
+    {
+      "side": "teamB",
+      "rounds": 424,
+      "win": true,
+      "score": 1024,
+      "draft": [
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Tavi",
+        "Ren",
+        "Willow"
+      ],
+      "deaths": 3,
+      "gold": 4312,
+      "lost": 0,
+      "ward": 68,
+      "first_buy": 56,
+      "first_sub": 59,
+      "first3": [
+        [
+          56,
+          "Jungle Emblem of Health"
+        ],
+        [
+          131,
+          "Bruiser Emblem of Focus"
+        ],
+        [
+          136,
+          "Monster Emblem of Strength"
+        ]
+      ],
+      "cons": {
+        "Altar Lock": 4
+      },
+      "camp": 45,
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 3,
+      "map": "lanes",
+      "team": "AlphaSlop",
+      "summary_sha256": "256576df06ee9d7d3026fb8d155da5f4417f2547dc98792a5775dd72f5f92868",
+      "earnedGold_100": 540,
+      "earnedGold_200": 1440,
+      "earnedGold_400": 4062,
+      "collectedGems_100": 132,
+      "collectedGems_200": 352,
+      "collectedGems_400": 966,
+      "submittedGems_100": 132,
+      "submittedGems_200": 264,
+      "submittedGems_400": 944
+    },
+    {
+      "side": "teamA",
+      "rounds": 533,
+      "win": true,
+      "score": 1008,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Varg"
+      ],
+      "deaths": 4,
+      "gold": 5035,
+      "lost": 108,
+      "ward": 19,
+      "first_buy": 22,
+      "first_sub": 110,
+      "first3": [
+        [
+          22,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          34,
+          "Power Emblem of Strength"
+        ],
+        [
+          51,
+          "Durability Emblem of Health"
+        ]
+      ],
+      "cons": {},
+      "camp": 24,
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 1,
+      "map": "elkring",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "280d9883f5e1714ec422883f529a28af8a1afb4f7024b8bda5591a11a4099e25",
+      "earnedGold_100": 880,
+      "earnedGold_200": 1955,
+      "earnedGold_400": 3520,
+      "collectedGems_100": 216,
+      "collectedGems_200": 468,
+      "collectedGems_400": 828,
+      "submittedGems_100": 0,
+      "submittedGems_200": 252,
+      "submittedGems_400": 576
+    },
+    {
+      "side": "teamB",
+      "rounds": 533,
+      "win": false,
+      "score": 612,
+      "draft": [
+        "Varg",
+        "Ryth",
+        "Cassi",
+        "Issac",
+        "Ren",
+        "Stellar"
+      ],
+      "deaths": 13,
+      "gold": 4830,
+      "lost": 288,
+      "ward": 23,
+      "first_buy": 19,
+      "first_sub": 208,
+      "first3": [
+        [
+          19,
+          "Jungle Emblem of Strength"
+        ],
+        [
+          33,
+          "Jungle Emblem of Focus"
+        ],
+        [
+          48,
+          "Durability Emblem of Strength"
+        ]
+      ],
+      "cons": {},
+      "camp": 24,
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 1,
+      "map": "elkring",
+      "team": "procless",
+      "summary_sha256": "280d9883f5e1714ec422883f529a28af8a1afb4f7024b8bda5591a11a4099e25",
+      "earnedGold_100": 975,
+      "earnedGold_200": 1365,
+      "earnedGold_400": 3465,
+      "collectedGems_100": 180,
+      "collectedGems_200": 252,
+      "collectedGems_400": 720,
+      "submittedGems_100": 0,
+      "submittedGems_200": 0,
+      "submittedGems_400": 360
+    },
+    {
+      "side": "teamA",
+      "rounds": 412,
+      "win": true,
+      "score": 1006,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Varg"
+      ],
+      "deaths": 0,
+      "gold": 4280,
+      "lost": 0,
+      "ward": 47,
+      "first_buy": 57,
+      "first_sub": 60,
+      "first3": [
+        [
+          57,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          77,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          91,
+          "Power Emblem of Strength"
+        ]
+      ],
+      "cons": {},
+      "camp": 43,
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 1,
+      "map": "lanes",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "4cd6c5f26531c6a9f0d751bf9e2e46b1d8f4241ffbb6f05908d785e4dc3f1178",
+      "earnedGold_100": 790,
+      "earnedGold_200": 1810,
+      "earnedGold_400": 4190,
+      "collectedGems_100": 190,
+      "collectedGems_200": 430,
+      "collectedGems_400": 984,
+      "submittedGems_100": 110,
+      "submittedGems_200": 314,
+      "submittedGems_400": 962
+    },
+    {
+      "side": "teamB",
+      "rounds": 412,
+      "win": false,
+      "score": 986,
+      "draft": [
+        "Varg",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Tavi",
+        "Ren"
+      ],
+      "deaths": 1,
+      "gold": 4200,
+      "lost": 0,
+      "ward": 82,
+      "first_buy": 62,
+      "first_sub": 54,
+      "first3": [
+        [
+          62,
+          "Jungle Emblem of Strength"
+        ],
+        [
+          64,
+          "Jungle Emblem of Focus"
+        ],
+        [
+          97,
+          "Jungle Emblem of Strength"
+        ]
+      ],
+      "cons": {
+        "Altar Lock": 3
+      },
+      "camp": 43,
+      "group_id": "7094b7fb-5716-4a8a-a405-e64e05a0bef3",
+      "game": 1,
+      "map": "lanes",
+      "team": "Mite",
+      "summary_sha256": "4cd6c5f26531c6a9f0d751bf9e2e46b1d8f4241ffbb6f05908d785e4dc3f1178",
+      "earnedGold_100": 610,
+      "earnedGold_200": 1670,
+      "earnedGold_400": 3950,
+      "collectedGems_100": 146,
+      "collectedGems_200": 402,
+      "collectedGems_400": 950,
+      "submittedGems_100": 124,
+      "submittedGems_200": 358,
+      "submittedGems_400": 950
+    },
+    {
+      "side": "teamA",
+      "rounds": 501,
+      "win": false,
+      "score": 668,
+      "draft": [
+        "Ren",
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Ryth",
+        "Varg"
+      ],
+      "deaths": 0,
+      "gold": 3020,
+      "lost": 0,
+      "ward": 54,
+      "first_buy": 76,
+      "first_sub": 126,
+      "first3": [
+        [
+          76,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          104,
+          "Power Emblem of Focus"
+        ],
+        [
+          104,
+          "Durability Emblem of Health"
+        ]
+      ],
+      "cons": {},
+      "camp": 12,
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 2,
+      "map": "ambush",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "3ccf5078c5ba1b6002e7c6eadfee451434bcafb89e7974087ae1d230fbd0cff4",
+      "earnedGold_100": 570,
+      "earnedGold_200": 890,
+      "earnedGold_400": 2450,
+      "collectedGems_100": 178,
+      "collectedGems_200": 298,
+      "collectedGems_400": 668,
+      "submittedGems_100": 0,
+      "submittedGems_200": 178,
+      "submittedGems_400": 490
+    },
+    {
+      "side": "teamB",
+      "rounds": 501,
+      "win": true,
+      "score": 1022,
+      "draft": [
+        "Varg",
+        "Ryth",
+        "Cassi",
+        "Issac",
+        "Ren",
+        "Stellar"
+      ],
+      "deaths": 0,
+      "gold": 3630,
+      "lost": 0,
+      "ward": 74,
+      "first_buy": 83,
+      "first_sub": 134,
+      "first3": [
+        [
+          83,
+          "Jungle Emblem of Strength"
+        ],
+        [
+          164,
+          "Jungle Emblem of Strength"
+        ],
+        [
+          164,
+          "Power Emblem of Strength"
+        ]
+      ],
+      "cons": {},
+      "camp": 13,
+      "group_id": "80f7be78-d289-4c6d-a912-3b5c2daf95a5",
+      "game": 2,
+      "map": "ambush",
+      "team": "procless",
+      "summary_sha256": "3ccf5078c5ba1b6002e7c6eadfee451434bcafb89e7974087ae1d230fbd0cff4",
+      "earnedGold_100": 250,
+      "earnedGold_200": 820,
+      "earnedGold_400": 2280,
+      "collectedGems_100": 106,
+      "collectedGems_200": 284,
+      "collectedGems_400": 760,
+      "submittedGems_100": 0,
+      "submittedGems_200": 106,
+      "submittedGems_400": 654
+    },
+    {
+      "side": "teamA",
+      "rounds": 1752,
+      "win": false,
+      "score": 0,
+      "draft": [
+        "Tavi",
+        "Willow",
+        "Stellar",
+        "Ren",
+        "Prism"
+      ],
+      "deaths": 61,
+      "gold": 3340,
+      "lost": 0,
+      "ward": 417,
+      "first_buy": 73,
+      "first_sub": null,
+      "first3": [
+        [
+          145,
+          "Power Emblem of Focus"
+        ],
+        [
+          166,
+          "Power Emblem of Focus"
+        ],
+        [
+          288,
+          "Durability Emblem of Health"
+        ]
+      ],
+      "cons": {},
+      "camp": 20,
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 1,
+      "map": "contest",
+      "team": "Sneaky Bush Campers",
+      "summary_sha256": "1690b6046bc3e76beccb482103c939beff319836ca6a0c4e9df086f2dc5a5eb4",
+      "earnedGold_100": 295,
+      "earnedGold_200": 660,
+      "earnedGold_400": 1230,
+      "collectedGems_100": 0,
+      "collectedGems_200": 0,
+      "collectedGems_400": 0,
+      "submittedGems_100": 0,
+      "submittedGems_200": 0,
+      "submittedGems_400": 0
+    },
+    {
+      "side": "teamB",
+      "rounds": 1752,
+      "win": true,
+      "score": 1000,
+      "draft": [
+        "Stellar",
+        "Tavi",
+        "Prism",
+        "Cassi",
+        "Issac",
+        "Ren"
+      ],
+      "deaths": 29,
+      "gold": 10773,
+      "lost": 0,
+      "ward": 191,
+      "first_buy": 47,
+      "first_sub": 1416,
+      "first3": [
+        [
+          135,
+          "Bruiser Emblem of Health"
+        ],
+        [
+          198,
+          "Treasure Emblem of Focus"
+        ],
+        [
+          206,
+          "Bruiser Emblem of Health"
+        ]
+      ],
+      "cons": {},
+      "camp": 80,
+      "group_id": "8a4560dd-bbcb-4570-ada3-7b85eafe39bc",
+      "game": 1,
+      "map": "contest",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "1690b6046bc3e76beccb482103c939beff319836ca6a0c4e9df086f2dc5a5eb4",
+      "earnedGold_100": 315,
+      "earnedGold_200": 915,
+      "earnedGold_400": 1843,
+      "collectedGems_100": 0,
+      "collectedGems_200": 0,
+      "collectedGems_400": 0,
+      "submittedGems_100": 0,
+      "submittedGems_200": 0,
+      "submittedGems_400": 0
+    },
+    {
+      "side": "teamA",
+      "rounds": 1582,
+      "win": true,
+      "score": 1000,
+      "draft": [
+        "Stellar",
+        "Tavi",
+        "Prism",
+        "Cassi",
+        "Issac",
+        "Ren"
+      ],
+      "deaths": 30,
+      "gold": 9492,
+      "lost": 200,
+      "ward": 126,
+      "first_buy": 54,
+      "first_sub": 1092,
+      "first3": [
+        [
+          119,
+          "Treasure Emblem of Focus"
+        ],
+        [
+          150,
+          "Power Emblem of Focus"
+        ],
+        [
+          166,
+          "Power Emblem of Focus"
+        ]
+      ],
+      "cons": {},
+      "camp": 63,
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 1,
+      "map": "contest",
+      "team": "Intercontinental Fish",
+      "summary_sha256": "5052a98cd7129de95ea7f9d5eb0d94232d0c1ec76cce61982f2fda557ea04d6f",
+      "earnedGold_100": 500,
+      "earnedGold_200": 1036,
+      "earnedGold_400": 2094,
+      "collectedGems_100": 0,
+      "collectedGems_200": 0,
+      "collectedGems_400": 0,
+      "submittedGems_100": 0,
+      "submittedGems_200": 0,
+      "submittedGems_400": 0
+    },
+    {
+      "side": "teamB",
+      "rounds": 1582,
+      "win": false,
+      "score": 0,
+      "draft": [
+        "Stellar",
+        "Cassi",
+        "Issac",
+        "Tavi",
+        "Ren",
+        "Varg"
+      ],
+      "deaths": 73,
+      "gold": 4807,
+      "lost": 200,
+      "ward": 387,
+      "first_buy": 49,
+      "first_sub": null,
+      "first3": [
+        [
+          63,
+          "Power Emblem of Focus"
+        ],
+        [
+          122,
+          "Treasure Emblem of Focus"
+        ],
+        [
+          139,
+          "Jungle Emblem of Strength"
+        ]
+      ],
+      "cons": {
+        "Altar Lock": 15
+      },
+      "camp": 40,
+      "group_id": "58cf350e-df32-4cee-8aa9-4c39b219ae52",
+      "game": 1,
+      "map": "contest",
+      "team": "AlphaSlop",
+      "summary_sha256": "5052a98cd7129de95ea7f9d5eb0d94232d0c1ec76cce61982f2fda557ea04d6f",
+      "earnedGold_100": 260,
+      "earnedGold_200": 725,
+      "earnedGold_400": 1506,
+      "collectedGems_100": 0,
+      "collectedGems_200": 0,
+      "collectedGems_400": 0,
+      "submittedGems_100": 0,
+      "submittedGems_200": 0,
+      "submittedGems_400": 0
+    }
+  ],
+  "definitions": {
+    "first_buy": "Earliest buyItem event round for any champion on team; not first full emblem and not mean per champion.",
+    "first_sub": "Earliest gemSubmission event round on team; null when none recorded.",
+    "first3": "Earliest three team-wide itemCombination events, not one first emblem per champion.",
+    "camp": "Count of campClear event entries; target is campGroup.",
+    "ward": "Count of wardPlacement entries; no assertion about effective vision coverage.",
+    "lost": "Sum of gemLoss event values; can count the same gems repeatedly after theft, not unique missed score.",
+    "draft": "Runtime champions include Issac as a separate entity; not the number of draft picks.",
+    "earnedGold": "Lifetime earned gold includes non-farming income; not pure jungle efficiency.",
+    "fixed_horizon": "Sum of champion timeline metric at horizon, only for games still active then; RLE intervals are half-open."
+  }
+}

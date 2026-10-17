@@ -170,3 +170,31 @@ Any submission from outside lands in the middle of that and silently swaps the b
 - Push changes as new `bots/v13x` folders on your branch and post here. Don't run `cambc submit`.
 - If you need a scrim result, ask here and I'll queue it in the next slot.
 - Your stampede note (frontliners at 45–80 strength vs their Varg's 695) is useful. I'll pull the W14 replays for the maps where the build is the only difference.
+
+## Claude (main), Sat 17 Oct 23:05: W14 result, ablation, and a new freeze bug
+
+**W14** (v13d vs v12m, 5 new top-100 teams): **3/25 wins for each**. Tied, and the gem margins are still downloading.
+
+**Local ablation of v13d** (uncontested pace across all 17 maps, from both sides):
+
+| Version | Gems at round 300 | Median rounds to 1000 |
+|---|---|---|
+| v12m | 385 | 610 |
+| v13e = v13d without the build change or lock buying | 371 | 610 |
+| v13d | 338 | 623 |
+
+The Health/Power build is what slows farming. It matches your stampede note (frontliners at strength 45–80).
+
+**Your camp calibration does work where solo applies.** With it, corners solo goes from 613/621 to about 502/593 rounds. Solo on rows was worse (651 vs 469), so rows stays in pack mode.
+
+**New freeze bug, found with an action-time breakdown.**
+- On lanes, one solo champion stood at (33,8) on target 40 from round 80 to 190, and again from 233 onward. It wasn't fighting, wasn't healing (HP 290), and wasn't retargeting. The camp is probably hidden in a bush or otherwise not visible.
+- The fix is a stall guard in the farm path: if a champion stands on the same target for 12+ rounds without acting, that target is skipped for 60 rounds.
+
+**W15, running now:** **v13h** vs v12m, on corners, lanes, expanse, monolith and elkring, against 5 new top-100 teams. v13h is:
+- v12m
+- your `camp_hit_share` and the unforced pack mode
+- solo farming on maps 70–99 wide (adds corners)
+- the stall guard
+
+v13h is in `bots/v13h`, and it's 19/34 (+45) locally against v12m.

@@ -1,0 +1,3650 @@
+{
+  "series_id": "04d6a985-df7d-4ef3-934f-6867aaa6f308",
+  "source": "Official ranked-match Summary -> Download JSON; browser signed in as authorised by Leke",
+  "match_age_at_inspection": "about seven hours at 20:10 UK time on 17 Oct 2026; historical versions unknown",
+  "sides": {
+    "teamA": "Mite",
+    "teamB": "Intercontinental Fish"
+  },
+  "method": "Five JSON summaries; event/metric extraction; run-length timeline snapshots. No full replay watched; no bot experiment performed. Ward and lock counts are placements/purchases, not proof of usage benefit. Runtime champions count Cassi and Issac separately from one draft pick. Death counts are runtime-entity deaths, not necessarily independent fights or credited kills. Fixed-horizon snapshots omit games already finished.",
+  "games": [
+    {
+      "map": "expanse",
+      "match_id": "85384b65-8296-4685-bd53-fd21efa255ea",
+      "rounds": 601,
+      "outcome": "teamB",
+      "sha256": "2d04f9c6b83570825f772f4ee2b4bad9baf9a26993b02c1b02ab64634e6b7c85",
+      "teams": [
+        {
+          "team": "Mite",
+          "side": "teamA",
+          "draft": [
+            "Ren",
+            "Stellar",
+            "Cassi",
+            "Issac"
+          ],
+          "gems": 862,
+          "gold": 3680,
+          "deaths": 0,
+          "kills": 0,
+          "camp_clears": 37,
+          "lost": 0,
+          "wards": 0,
+          "cons": {
+            "Altar Lock": 3
+          },
+          "fuel": 0,
+          "items": [
+            {
+              "round": 34,
+              "champ": "Ren",
+              "item": "Jungle Emblem of Strength"
+            },
+            {
+              "round": 89,
+              "champ": "Issac",
+              "item": "Jungle Emblem of Strength"
+            },
+            {
+              "round": 157,
+              "champ": "Ren",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 157,
+              "champ": "Ren",
+              "item": "Durability Emblem of Strength"
+            },
+            {
+              "round": 187,
+              "champ": "Issac",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 187,
+              "champ": "Issac",
+              "item": "Durability Emblem of Strength"
+            },
+            {
+              "round": 199,
+              "champ": "Ren",
+              "item": "Bruiser Emblem of Health"
+            },
+            {
+              "round": 271,
+              "champ": "Issac",
+              "item": "Bruiser Emblem of Health"
+            }
+          ],
+          "buys": [
+            {
+              "round": 34,
+              "champ": "Ren",
+              "item": "Jungle Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 34,
+              "champ": "Ren",
+              "item": "Power Shard of Strength",
+              "n": "1"
+            },
+            {
+              "round": 52,
+              "champ": "Issac",
+              "item": "Jungle Shard of Strength",
+              "n": "3"
+            },
+            {
+              "round": 89,
+              "champ": "Issac",
+              "item": "Jungle Shard of Strength",
+              "n": "2"
+            },
+            {
+              "round": 89,
+              "champ": "Issac",
+              "item": "Power Shard of Strength",
+              "n": "4"
+            }
+          ],
+          "tributes": [
+            {
+              "round": 54,
+              "champ": "Ren",
+              "gems": "44"
+            },
+            {
+              "round": 103,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 139,
+              "champ": "Issac",
+              "gems": "22"
+            },
+            {
+              "round": 145,
+              "champ": "Ren",
+              "gems": "44"
+            },
+            {
+              "round": 212,
+              "champ": "Issac",
+              "gems": "36"
+            },
+            {
+              "round": 213,
+              "champ": "Ren",
+              "gems": "66"
+            },
+            {
+              "round": 230,
+              "champ": "Stellar",
+              "gems": "22"
+            },
+            {
+              "round": 312,
+              "champ": "Issac",
+              "gems": "80"
+            },
+            {
+              "round": 317,
+              "champ": "Ren",
+              "gems": "66"
+            },
+            {
+              "round": 400,
+              "champ": "Ren",
+              "gems": "58"
+            },
+            {
+              "round": 406,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 472,
+              "champ": "Stellar",
+              "gems": "22"
+            },
+            {
+              "round": 479,
+              "champ": "Issac",
+              "gems": "36"
+            },
+            {
+              "round": 482,
+              "champ": "Ren",
+              "gems": "66"
+            },
+            {
+              "round": 522,
+              "champ": "Issac",
+              "gems": "22"
+            },
+            {
+              "round": 527,
+              "champ": "Ren",
+              "gems": "44"
+            },
+            {
+              "round": 549,
+              "champ": "Ren",
+              "gems": "22"
+            },
+            {
+              "round": 552,
+              "champ": "Issac",
+              "gems": "36"
+            },
+            {
+              "round": 576,
+              "champ": "Ren",
+              "gems": "22"
+            },
+            {
+              "round": 585,
+              "champ": "Issac",
+              "gems": "22"
+            }
+          ],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 450,
+              "submittedGems": 44,
+              "collectedGems": 110,
+              "deaths": 0,
+              "monsterDamageDone": 8100,
+              "championDamageDone": 0
+            },
+            "200": {
+              "earnedGold": 1150,
+              "submittedGems": 176,
+              "collectedGems": 278,
+              "deaths": 0,
+              "monsterDamageDone": 17250,
+              "championDamageDone": 0
+            },
+            "400": {
+              "earnedGold": 2370,
+              "submittedGems": 504,
+              "collectedGems": 570,
+              "deaths": 0,
+              "monsterDamageDone": 36900,
+              "championDamageDone": 0
+            },
+            "600": {
+              "earnedGold": 3680,
+              "submittedGems": 862,
+              "collectedGems": 884,
+              "deaths": 0,
+              "monsterDamageDone": 55200,
+              "championDamageDone": 0
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Ren",
+              "id": 0,
+              "metrics": {
+                "earnedGold": "1780",
+                "gems": "0",
+                "collectedGems": "432",
+                "submittedGems": "432",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 18632.5,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Stellar",
+              "id": 1,
+              "metrics": {
+                "earnedGold": "180",
+                "gems": "0",
+                "collectedGems": "44",
+                "submittedGems": "44",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 14964.25,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Cassi",
+              "id": 2,
+              "metrics": {
+                "earnedGold": "0",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 7054,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 3,
+              "metrics": {
+                "earnedGold": "1720",
+                "gems": "22",
+                "collectedGems": "408",
+                "submittedGems": "386",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 15026.75,
+                "championDamageDone": 0
+              }
+            }
+          ]
+        },
+        {
+          "team": "Intercontinental Fish",
+          "side": "teamB",
+          "draft": [
+            "Cassi",
+            "Issac",
+            "Stellar",
+            "Varg"
+          ],
+          "gems": 1008,
+          "gold": 4870,
+          "deaths": 0,
+          "kills": 0,
+          "camp_clears": 43,
+          "lost": 0,
+          "wards": 0,
+          "cons": {},
+          "fuel": 0,
+          "items": [
+            {
+              "round": 67,
+              "champ": "Varg",
+              "item": "Monster Emblem of Strength"
+            },
+            {
+              "round": 109,
+              "champ": "Cassi",
+              "item": "Monster Emblem of Focus"
+            },
+            {
+              "round": 139,
+              "champ": "Varg",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 153,
+              "champ": "Issac",
+              "item": "Monster Emblem of Strength"
+            },
+            {
+              "round": 177,
+              "champ": "Varg",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 240,
+              "champ": "Varg",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 241,
+              "champ": "Stellar",
+              "item": "Monster Emblem of Focus"
+            },
+            {
+              "round": 241,
+              "champ": "Stellar",
+              "item": "Power Emblem of Focus"
+            }
+          ],
+          "buys": [
+            {
+              "round": 67,
+              "champ": "Varg",
+              "item": "Monster Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 67,
+              "champ": "Varg",
+              "item": "Power Shard of Strength",
+              "n": "1"
+            },
+            {
+              "round": 74,
+              "champ": "Issac",
+              "item": "Monster Shard of Strength",
+              "n": "3"
+            },
+            {
+              "round": 109,
+              "champ": "Cassi",
+              "item": "Monster Shard of Focus",
+              "n": "5"
+            },
+            {
+              "round": 109,
+              "champ": "Cassi",
+              "item": "Power Shard of Focus",
+              "n": "1"
+            }
+          ],
+          "tributes": [
+            {
+              "round": 61,
+              "champ": "Issac",
+              "gems": "22"
+            },
+            {
+              "round": 73,
+              "champ": "Cassi",
+              "gems": "22"
+            },
+            {
+              "round": 83,
+              "champ": "Varg",
+              "gems": "44"
+            },
+            {
+              "round": 125,
+              "champ": "Cassi",
+              "gems": "22"
+            },
+            {
+              "round": 134,
+              "champ": "Issac",
+              "gems": "22"
+            },
+            {
+              "round": 155,
+              "champ": "Varg",
+              "gems": "44"
+            },
+            {
+              "round": 187,
+              "champ": "Issac",
+              "gems": "22"
+            },
+            {
+              "round": 192,
+              "champ": "Varg",
+              "gems": "36"
+            },
+            {
+              "round": 255,
+              "champ": "Varg",
+              "gems": "44"
+            },
+            {
+              "round": 258,
+              "champ": "Stellar",
+              "gems": "44"
+            },
+            {
+              "round": 268,
+              "champ": "Cassi",
+              "gems": "22"
+            },
+            {
+              "round": 298,
+              "champ": "Varg",
+              "gems": "36"
+            },
+            {
+              "round": 315,
+              "champ": "Issac",
+              "gems": "44"
+            },
+            {
+              "round": 334,
+              "champ": "Cassi",
+              "gems": "44"
+            },
+            {
+              "round": 336,
+              "champ": "Varg",
+              "gems": "22"
+            },
+            {
+              "round": 371,
+              "champ": "Issac",
+              "gems": "22"
+            },
+            {
+              "round": 396,
+              "champ": "Stellar",
+              "gems": "58"
+            },
+            {
+              "round": 399,
+              "champ": "Varg",
+              "gems": "44"
+            },
+            {
+              "round": 437,
+              "champ": "Varg",
+              "gems": "22"
+            },
+            {
+              "round": 443,
+              "champ": "Issac",
+              "gems": "36"
+            },
+            {
+              "round": 454,
+              "champ": "Cassi",
+              "gems": "22"
+            },
+            {
+              "round": 493,
+              "champ": "Issac",
+              "gems": "22"
+            },
+            {
+              "round": 496,
+              "champ": "Stellar",
+              "gems": "44"
+            },
+            {
+              "round": 517,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 551,
+              "champ": "Issac",
+              "gems": "58"
+            },
+            {
+              "round": 583,
+              "champ": "Stellar",
+              "gems": "66"
+            },
+            {
+              "round": 601,
+              "champ": "Varg",
+              "gems": "58"
+            }
+          ],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 430,
+              "submittedGems": 88,
+              "collectedGems": 88,
+              "deaths": 0,
+              "monsterDamageDone": 8501.25,
+              "championDamageDone": 0
+            },
+            "200": {
+              "earnedGold": 1110,
+              "submittedGems": 234,
+              "collectedGems": 234,
+              "deaths": 0,
+              "monsterDamageDone": 19111.00008392334,
+              "championDamageDone": 0
+            },
+            "400": {
+              "earnedGold": 2900,
+              "submittedGems": 614,
+              "collectedGems": 614,
+              "deaths": 0,
+              "monsterDamageDone": 44630.00001525879,
+              "championDamageDone": 0
+            },
+            "600": {
+              "earnedGold": 4870,
+              "submittedGems": 950,
+              "collectedGems": 1052,
+              "deaths": 0,
+              "monsterDamageDone": 73843.99964904785,
+              "championDamageDone": 0
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Cassi",
+              "id": 4,
+              "metrics": {
+                "earnedGold": "750",
+                "gems": "0",
+                "collectedGems": "132",
+                "submittedGems": "132",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 16620.100006103516,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 5,
+              "metrics": {
+                "earnedGold": "1290",
+                "gems": "44",
+                "collectedGems": "292",
+                "submittedGems": "248",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 15738.449600219727,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Stellar",
+              "id": 6,
+              "metrics": {
+                "earnedGold": "1090",
+                "gems": "0",
+                "collectedGems": "212",
+                "submittedGems": "212",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 23442.299896240234,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Varg",
+              "id": 7,
+              "metrics": {
+                "earnedGold": "1740",
+                "gems": "0",
+                "collectedGems": "416",
+                "submittedGems": "416",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 18076.150146484375,
+                "championDamageDone": 0
+              }
+            }
+          ]
+        }
+      ],
+      "diagnostics": {
+        "detailedCaptureComplete": true,
+        "botFaults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "codes": []
+      },
+      "draft_picks": [
+        {
+          "team": "teamA",
+          "champion": "Ren"
+        },
+        {
+          "team": "teamB",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamA",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamB",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamA",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamB",
+          "champion": "Varg"
+        }
+      ],
+      "selected_events": []
+    },
+    {
+      "map": "stampede",
+      "match_id": "8c39b253-1a32-4e49-a299-1d3fd50ea398",
+      "rounds": 460,
+      "outcome": "teamA",
+      "sha256": "68451e22e8bdc5796639d90af6ba46090c118d9b007cf05ae0d4f94d80f071dc",
+      "teams": [
+        {
+          "team": "Mite",
+          "side": "teamA",
+          "draft": [
+            "Prism",
+            "Stellar",
+            "Cassi",
+            "Issac",
+            "Ryth",
+            "Tavi"
+          ],
+          "gems": 1008,
+          "gold": 3960,
+          "deaths": 0,
+          "kills": 2,
+          "camp_clears": 17,
+          "lost": 0,
+          "wards": 130,
+          "cons": {
+            "Altar Lock": 8
+          },
+          "fuel": 0,
+          "items": [
+            {
+              "round": 108,
+              "champ": "Issac",
+              "item": "Jungle Emblem of Strength"
+            },
+            {
+              "round": 131,
+              "champ": "Prism",
+              "item": "Jungle Emblem of Focus"
+            },
+            {
+              "round": 131,
+              "champ": "Tavi",
+              "item": "Jungle Emblem of Focus"
+            },
+            {
+              "round": 133,
+              "champ": "Ryth",
+              "item": "Jungle Emblem of Focus"
+            },
+            {
+              "round": 135,
+              "champ": "Stellar",
+              "item": "Jungle Emblem of Focus"
+            },
+            {
+              "round": 135,
+              "champ": "Cassi",
+              "item": "Jungle Emblem of Focus"
+            },
+            {
+              "round": 182,
+              "champ": "Issac",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 247,
+              "champ": "Issac",
+              "item": "Durability Emblem of Strength"
+            }
+          ],
+          "buys": [
+            {
+              "round": 108,
+              "champ": "Issac",
+              "item": "Jungle Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 108,
+              "champ": "Issac",
+              "item": "Power Shard of Strength",
+              "n": "2"
+            },
+            {
+              "round": 131,
+              "champ": "Prism",
+              "item": "Jungle Shard of Focus",
+              "n": "5"
+            },
+            {
+              "round": 131,
+              "champ": "Prism",
+              "item": "Power Shard of Focus",
+              "n": "1"
+            },
+            {
+              "round": 131,
+              "champ": "Tavi",
+              "item": "Jungle Shard of Focus",
+              "n": "5"
+            }
+          ],
+          "tributes": [
+            {
+              "round": 168,
+              "champ": "Prism",
+              "gems": "72"
+            },
+            {
+              "round": 170,
+              "champ": "Tavi",
+              "gems": "72"
+            },
+            {
+              "round": 172,
+              "champ": "Ryth",
+              "gems": "72"
+            },
+            {
+              "round": 173,
+              "champ": "Stellar",
+              "gems": "72"
+            },
+            {
+              "round": 174,
+              "champ": "Cassi",
+              "gems": "72"
+            },
+            {
+              "round": 319,
+              "champ": "Prism",
+              "gems": "72"
+            },
+            {
+              "round": 321,
+              "champ": "Cassi",
+              "gems": "72"
+            },
+            {
+              "round": 322,
+              "champ": "Stellar",
+              "gems": "72"
+            },
+            {
+              "round": 324,
+              "champ": "Ryth",
+              "gems": "72"
+            },
+            {
+              "round": 326,
+              "champ": "Tavi",
+              "gems": "72"
+            },
+            {
+              "round": 450,
+              "champ": "Issac",
+              "gems": "72"
+            },
+            {
+              "round": 457,
+              "champ": "Prism",
+              "gems": "72"
+            },
+            {
+              "round": 459,
+              "champ": "Tavi",
+              "gems": "72"
+            },
+            {
+              "round": 460,
+              "champ": "Stellar",
+              "gems": "72"
+            }
+          ],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 140,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 0,
+              "monsterDamageDone": 16320,
+              "championDamageDone": 0
+            },
+            "200": {
+              "earnedGold": 1430,
+              "submittedGems": 360,
+              "collectedGems": 360,
+              "deaths": 0,
+              "monsterDamageDone": 24400,
+              "championDamageDone": 2074
+            },
+            "400": {
+              "earnedGold": 2930,
+              "submittedGems": 720,
+              "collectedGems": 720,
+              "deaths": 0,
+              "monsterDamageDone": 61560,
+              "championDamageDone": 3609
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Prism",
+              "id": 0,
+              "metrics": {
+                "earnedGold": "576",
+                "gems": "0",
+                "collectedGems": "216",
+                "submittedGems": "216",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 15158,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Stellar",
+              "id": 1,
+              "metrics": {
+                "earnedGold": "626",
+                "gems": "0",
+                "collectedGems": "216",
+                "submittedGems": "216",
+                "kills": "1",
+                "deaths": "0",
+                "monsterDamageDone": 17648,
+                "championDamageDone": 1468.5
+              }
+            },
+            {
+              "name": "Cassi",
+              "id": 2,
+              "metrics": {
+                "earnedGold": "504",
+                "gems": "0",
+                "collectedGems": "144",
+                "submittedGems": "144",
+                "kills": "1",
+                "deaths": "0",
+                "monsterDamageDone": 4232,
+                "championDamageDone": 378.6000061035156
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 3,
+              "metrics": {
+                "earnedGold": "1102",
+                "gems": "0",
+                "collectedGems": "72",
+                "submittedGems": "72",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 13000,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Ryth",
+              "id": 4,
+              "metrics": {
+                "earnedGold": "576",
+                "gems": "72",
+                "collectedGems": "216",
+                "submittedGems": "144",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 11116,
+                "championDamageDone": 580
+              }
+            },
+            {
+              "name": "Tavi",
+              "id": 5,
+              "metrics": {
+                "earnedGold": "576",
+                "gems": "0",
+                "collectedGems": "216",
+                "submittedGems": "216",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 5046,
+                "championDamageDone": 1181.8999938964844
+              }
+            }
+          ]
+        },
+        {
+          "team": "Intercontinental Fish",
+          "side": "teamB",
+          "draft": [
+            "Stellar",
+            "Tavi",
+            "Prism",
+            "Cassi",
+            "Issac",
+            "Ren"
+          ],
+          "gems": 0,
+          "gold": 3668,
+          "deaths": 3,
+          "kills": 0,
+          "camp_clears": 41,
+          "lost": 0,
+          "wards": 83,
+          "cons": {},
+          "fuel": 0,
+          "items": [
+            {
+              "round": 96,
+              "champ": "Prism",
+              "item": "Power Emblem of Focus"
+            },
+            {
+              "round": 126,
+              "champ": "Ren",
+              "item": "Bruiser Emblem of Health"
+            },
+            {
+              "round": 138,
+              "champ": "Tavi",
+              "item": "Treasure Emblem of Focus"
+            },
+            {
+              "round": 152,
+              "champ": "Issac",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 165,
+              "champ": "Stellar",
+              "item": "Power Emblem of Focus"
+            },
+            {
+              "round": 219,
+              "champ": "Ren",
+              "item": "Durability Emblem of Health"
+            },
+            {
+              "round": 257,
+              "champ": "Tavi",
+              "item": "Durability Emblem of Focus"
+            },
+            {
+              "round": 262,
+              "champ": "Issac",
+              "item": "Durability Emblem of Health"
+            }
+          ],
+          "buys": [
+            {
+              "round": 65,
+              "champ": "Tavi",
+              "item": "Treasure Shard of Focus",
+              "n": "4"
+            },
+            {
+              "round": 96,
+              "champ": "Prism",
+              "item": "Power Shard of Focus",
+              "n": "5"
+            },
+            {
+              "round": 96,
+              "champ": "Prism",
+              "item": "Durability Shard of Health",
+              "n": "2"
+            },
+            {
+              "round": 126,
+              "champ": "Ren",
+              "item": "Bruiser Shard of Health",
+              "n": "5"
+            },
+            {
+              "round": 126,
+              "champ": "Ren",
+              "item": "Durability Shard of Health",
+              "n": "2"
+            }
+          ],
+          "tributes": [],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 700,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 0,
+              "monsterDamageDone": 10910,
+              "championDamageDone": 0
+            },
+            "200": {
+              "earnedGold": 1470,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 1,
+              "monsterDamageDone": 21000,
+              "championDamageDone": 788.5
+            },
+            "400": {
+              "earnedGold": 3234,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 3,
+              "monsterDamageDone": 45940,
+              "championDamageDone": 1152.5
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Stellar",
+              "id": 6,
+              "metrics": {
+                "earnedGold": "420",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "1",
+                "monsterDamageDone": 10339,
+                "championDamageDone": 448
+              }
+            },
+            {
+              "name": "Tavi",
+              "id": 7,
+              "metrics": {
+                "earnedGold": "868",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 12875,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Prism",
+              "id": 8,
+              "metrics": {
+                "earnedGold": "770",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 11225,
+                "championDamageDone": 140
+              }
+            },
+            {
+              "name": "Cassi",
+              "id": 9,
+              "metrics": {
+                "earnedGold": "210",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "1",
+                "monsterDamageDone": 4842.5,
+                "championDamageDone": 140
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 10,
+              "metrics": {
+                "earnedGold": "700",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "1",
+                "monsterDamageDone": 4346,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Ren",
+              "id": 11,
+              "metrics": {
+                "earnedGold": "700",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 8372.5,
+                "championDamageDone": 424.5
+              }
+            }
+          ]
+        }
+      ],
+      "diagnostics": {
+        "detailedCaptureComplete": true,
+        "botFaults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "codes": []
+      },
+      "draft_picks": [
+        {
+          "team": "teamA",
+          "champion": "Prism"
+        },
+        {
+          "team": "teamB",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamA",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamB",
+          "champion": "Tavi"
+        },
+        {
+          "team": "teamA",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamB",
+          "champion": "Prism"
+        },
+        {
+          "team": "teamA",
+          "champion": "Ryth"
+        },
+        {
+          "team": "teamB",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamA",
+          "champion": "Tavi"
+        },
+        {
+          "team": "teamB",
+          "champion": "Ren"
+        }
+      ],
+      "selected_events": [
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 0,
+            "team": "teamA",
+            "name": "Prism"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 26843,
+            "round": 130,
+            "input": 3702,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 57,
+          "y": 23,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 1,
+            "team": "teamA",
+            "name": "Stellar"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 26844,
+            "round": 130,
+            "input": 3702,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 58,
+          "y": 23,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 2,
+            "team": "teamA",
+            "name": "Cassi"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 26845,
+            "round": 130,
+            "input": 3702,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 24,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 4,
+            "team": "teamA",
+            "name": "Ryth"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 26846,
+            "round": 130,
+            "input": 3702,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 25,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 5,
+            "team": "teamA",
+            "name": "Tavi"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 26847,
+            "round": 130,
+            "input": 3702,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 23,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 6,
+            "team": "teamB",
+            "name": "Stellar"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 39106,
+            "round": 189,
+            "input": 5560,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 1,
+            "team": "teamA",
+            "name": "Stellar"
+          },
+          "x": 14,
+          "y": 40,
+          "amount": 0,
+          "context": "champion"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 0,
+            "team": "teamA",
+            "name": "Prism"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 18,
+            "ordinal": 58330,
+            "round": 282,
+            "input": 8133,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 23,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 1,
+            "team": "teamA",
+            "name": "Stellar"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 18,
+            "ordinal": 58331,
+            "round": 282,
+            "input": 8133,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 26,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 2,
+            "team": "teamA",
+            "name": "Cassi"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 18,
+            "ordinal": 58332,
+            "round": 282,
+            "input": 8133,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 25,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 4,
+            "team": "teamA",
+            "name": "Ryth"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 18,
+            "ordinal": 58333,
+            "round": 282,
+            "input": 8133,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 57,
+          "y": 26,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 5,
+            "team": "teamA",
+            "name": "Tavi"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 18,
+            "ordinal": 58334,
+            "round": 282,
+            "input": 8133,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 24,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 9,
+            "team": "teamB",
+            "name": "Cassi"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 70814,
+            "round": 342,
+            "input": 10024,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 2,
+            "team": "teamA",
+            "name": "Cassi"
+          },
+          "x": 11,
+          "y": 46,
+          "amount": 0,
+          "context": "champion"
+        },
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 10,
+            "team": "teamB",
+            "name": "Issac"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 70816,
+            "round": 342,
+            "input": 10024,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 2,
+            "team": "teamA",
+            "name": "Cassi"
+          },
+          "x": 13,
+          "y": 37,
+          "amount": 0,
+          "context": "champion"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 0,
+            "team": "teamA",
+            "name": "Prism"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 86534,
+            "round": 418,
+            "input": 12055,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 24,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 1,
+            "team": "teamA",
+            "name": "Stellar"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 86535,
+            "round": 418,
+            "input": 12055,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 25,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 3,
+            "team": "teamA",
+            "name": "Issac"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 86536,
+            "round": 418,
+            "input": 12055,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 23,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 4,
+            "team": "teamA",
+            "name": "Ryth"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 86537,
+            "round": 418,
+            "input": 12055,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 57,
+          "y": 23,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 5,
+            "team": "teamA",
+            "name": "Tavi"
+          },
+          "value": "72",
+          "timestamp": {
+            "substep": 15,
+            "ordinal": 86538,
+            "round": 418,
+            "input": 12055,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 10
+          },
+          "x": 56,
+          "y": 26,
+          "amount": 0,
+          "context": "campGroup"
+        }
+      ]
+    },
+    {
+      "map": "rows",
+      "match_id": "8fa203b5-2403-4869-8f7f-50ded297c094",
+      "rounds": 361,
+      "outcome": "teamA",
+      "sha256": "458f4b121a091539916b1f02605519a68940a868ebc442edc06b4c3de7db75c7",
+      "teams": [
+        {
+          "team": "Mite",
+          "side": "teamA",
+          "draft": [
+            "Varg",
+            "Ryth",
+            "Cassi",
+            "Issac",
+            "Ren"
+          ],
+          "gems": 1012,
+          "gold": 4320,
+          "deaths": 0,
+          "kills": 0,
+          "camp_clears": 16,
+          "lost": 0,
+          "wards": 81,
+          "cons": {},
+          "fuel": 1,
+          "items": [
+            {
+              "round": 44,
+              "champ": "Cassi",
+              "item": "Jungle Emblem of Focus"
+            },
+            {
+              "round": 56,
+              "champ": "Ryth",
+              "item": "Jungle Emblem of Strength"
+            },
+            {
+              "round": 80,
+              "champ": "Ren",
+              "item": "Jungle Emblem of Strength"
+            },
+            {
+              "round": 119,
+              "champ": "Cassi",
+              "item": "Power Emblem of Focus"
+            },
+            {
+              "round": 119,
+              "champ": "Cassi",
+              "item": "Durability Emblem of Focus"
+            },
+            {
+              "round": 129,
+              "champ": "Ren",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 129,
+              "champ": "Ren",
+              "item": "Durability Emblem of Strength"
+            },
+            {
+              "round": 150,
+              "champ": "Varg",
+              "item": "Jungle Emblem of Strength"
+            }
+          ],
+          "buys": [
+            {
+              "round": 44,
+              "champ": "Cassi",
+              "item": "Jungle Shard of Focus",
+              "n": "5"
+            },
+            {
+              "round": 44,
+              "champ": "Cassi",
+              "item": "Power Shard of Focus",
+              "n": "4"
+            },
+            {
+              "round": 56,
+              "champ": "Ryth",
+              "item": "Jungle Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 56,
+              "champ": "Ryth",
+              "item": "Power Shard of Strength",
+              "n": "4"
+            },
+            {
+              "round": 80,
+              "champ": "Ren",
+              "item": "Jungle Shard of Strength",
+              "n": "5"
+            }
+          ],
+          "tributes": [
+            {
+              "round": 60,
+              "champ": "Cassi",
+              "gems": "66"
+            },
+            {
+              "round": 75,
+              "champ": "Ryth",
+              "gems": "66"
+            },
+            {
+              "round": 97,
+              "champ": "Ren",
+              "gems": "66"
+            },
+            {
+              "round": 135,
+              "champ": "Cassi",
+              "gems": "66"
+            },
+            {
+              "round": 144,
+              "champ": "Ren",
+              "gems": "66"
+            },
+            {
+              "round": 169,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 199,
+              "champ": "Cassi",
+              "gems": "66"
+            },
+            {
+              "round": 211,
+              "champ": "Ryth",
+              "gems": "66"
+            },
+            {
+              "round": 232,
+              "champ": "Ren",
+              "gems": "66"
+            },
+            {
+              "round": 267,
+              "champ": "Cassi",
+              "gems": "66"
+            },
+            {
+              "round": 277,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 290,
+              "champ": "Ren",
+              "gems": "66"
+            },
+            {
+              "round": 314,
+              "champ": "Cassi",
+              "gems": "66"
+            },
+            {
+              "round": 333,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 349,
+              "champ": "Ryth",
+              "gems": "66"
+            },
+            {
+              "round": 361,
+              "champ": "Ren",
+              "gems": "22"
+            }
+          ],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 810,
+              "submittedGems": 198,
+              "collectedGems": 198,
+              "deaths": 0,
+              "monsterDamageDone": 16200,
+              "championDamageDone": 0
+            },
+            "200": {
+              "earnedGold": 2160,
+              "submittedGems": 462,
+              "collectedGems": 528,
+              "deaths": 0,
+              "monsterDamageDone": 33890,
+              "championDamageDone": 0
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Varg",
+              "id": 0,
+              "metrics": {
+                "earnedGold": "630",
+                "gems": "22",
+                "collectedGems": "154",
+                "submittedGems": "132",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 15985,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Ryth",
+              "id": 1,
+              "metrics": {
+                "earnedGold": "810",
+                "gems": "0",
+                "collectedGems": "198",
+                "submittedGems": "198",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 17526,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Cassi",
+              "id": 2,
+              "metrics": {
+                "earnedGold": "1350",
+                "gems": "0",
+                "collectedGems": "330",
+                "submittedGems": "330",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 6656,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 3,
+              "metrics": {
+                "earnedGold": "360",
+                "gems": "22",
+                "collectedGems": "88",
+                "submittedGems": "66",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 7647.75,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Ren",
+              "id": 4,
+              "metrics": {
+                "earnedGold": "1170",
+                "gems": "0",
+                "collectedGems": "286",
+                "submittedGems": "286",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 16985.25,
+                "championDamageDone": 0
+              }
+            }
+          ]
+        },
+        {
+          "team": "Intercontinental Fish",
+          "side": "teamB",
+          "draft": [
+            "Cassi",
+            "Issac",
+            "Stellar",
+            "Varg",
+            "Ren"
+          ],
+          "gems": 990,
+          "gold": 4590,
+          "deaths": 0,
+          "kills": 0,
+          "camp_clears": 17,
+          "lost": 0,
+          "wards": 50,
+          "cons": {},
+          "fuel": 0,
+          "items": [
+            {
+              "round": 32,
+              "champ": "Issac",
+              "item": "Monster Emblem of Strength"
+            },
+            {
+              "round": 53,
+              "champ": "Varg",
+              "item": "Monster Emblem of Strength"
+            },
+            {
+              "round": 87,
+              "champ": "Cassi",
+              "item": "Monster Emblem of Focus"
+            },
+            {
+              "round": 102,
+              "champ": "Varg",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 102,
+              "champ": "Varg",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 122,
+              "champ": "Issac",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 122,
+              "champ": "Issac",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 156,
+              "champ": "Varg",
+              "item": "Power Emblem of Strength"
+            }
+          ],
+          "buys": [
+            {
+              "round": 32,
+              "champ": "Issac",
+              "item": "Monster Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 32,
+              "champ": "Issac",
+              "item": "Power Shard of Strength",
+              "n": "4"
+            },
+            {
+              "round": 53,
+              "champ": "Varg",
+              "item": "Monster Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 53,
+              "champ": "Varg",
+              "item": "Power Shard of Strength",
+              "n": "4"
+            },
+            {
+              "round": 87,
+              "champ": "Cassi",
+              "item": "Monster Shard of Focus",
+              "n": "5"
+            }
+          ],
+          "tributes": [
+            {
+              "round": 49,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 74,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 108,
+              "champ": "Cassi",
+              "gems": "66"
+            },
+            {
+              "round": 122,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 139,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 177,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 196,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 217,
+              "champ": "Cassi",
+              "gems": "66"
+            },
+            {
+              "round": 228,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 262,
+              "champ": "Ren",
+              "gems": "66"
+            },
+            {
+              "round": 278,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 290,
+              "champ": "Stellar",
+              "gems": "66"
+            },
+            {
+              "round": 331,
+              "champ": "Issac",
+              "gems": "132"
+            },
+            {
+              "round": 345,
+              "champ": "Varg",
+              "gems": "66"
+            }
+          ],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 1080,
+              "submittedGems": 132,
+              "collectedGems": 264,
+              "deaths": 0,
+              "monsterDamageDone": 18089.99984741211,
+              "championDamageDone": 0
+            },
+            "200": {
+              "earnedGold": 2160,
+              "submittedGems": 462,
+              "collectedGems": 528,
+              "deaths": 0,
+              "monsterDamageDone": 36449.999855041504,
+              "championDamageDone": 0
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Cassi",
+              "id": 5,
+              "metrics": {
+                "earnedGold": "540",
+                "gems": "0",
+                "collectedGems": "132",
+                "submittedGems": "132",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 12024.25011062622,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 6,
+              "metrics": {
+                "earnedGold": "1620",
+                "gems": "66",
+                "collectedGems": "396",
+                "submittedGems": "330",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 11993.199905395508,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Stellar",
+              "id": 7,
+              "metrics": {
+                "earnedGold": "270",
+                "gems": "0",
+                "collectedGems": "66",
+                "submittedGems": "66",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 16745.150077819824,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Varg",
+              "id": 8,
+              "metrics": {
+                "earnedGold": "1620",
+                "gems": "0",
+                "collectedGems": "396",
+                "submittedGems": "396",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 18146.75,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Ren",
+              "id": 9,
+              "metrics": {
+                "earnedGold": "540",
+                "gems": "66",
+                "collectedGems": "132",
+                "submittedGems": "66",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 9940.649894714355,
+                "championDamageDone": 0
+              }
+            }
+          ]
+        }
+      ],
+      "diagnostics": {
+        "detailedCaptureComplete": true,
+        "botFaults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "codes": []
+      },
+      "draft_picks": [
+        {
+          "team": "teamA",
+          "champion": "Varg"
+        },
+        {
+          "team": "teamB",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamA",
+          "champion": "Ryth"
+        },
+        {
+          "team": "teamB",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamA",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamB",
+          "champion": "Varg"
+        },
+        {
+          "team": "teamA",
+          "champion": "Ren"
+        },
+        {
+          "team": "teamB",
+          "champion": "Ren"
+        }
+      ],
+      "selected_events": [
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 9,
+            "team": "teamB",
+            "name": "Ren"
+          },
+          "value": "66",
+          "timestamp": {
+            "substep": 14,
+            "ordinal": 58629,
+            "round": 339,
+            "input": 8812,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 3
+          },
+          "x": 18,
+          "y": 44,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 0,
+            "team": "teamA",
+            "name": "Varg"
+          },
+          "value": "22",
+          "timestamp": {
+            "substep": 14,
+            "ordinal": 60533,
+            "round": 350,
+            "input": 9087,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 0
+          },
+          "x": 18,
+          "y": 4,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 3,
+            "team": "teamA",
+            "name": "Issac"
+          },
+          "value": "22",
+          "timestamp": {
+            "substep": 14,
+            "ordinal": 60534,
+            "round": 350,
+            "input": 9087,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 0
+          },
+          "x": 18,
+          "y": 3,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 4,
+            "team": "teamA",
+            "name": "Ren"
+          },
+          "value": "22",
+          "timestamp": {
+            "substep": 14,
+            "ordinal": 60535,
+            "round": 350,
+            "input": 9087,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 0
+          },
+          "x": 18,
+          "y": 5,
+          "amount": 0,
+          "context": "campGroup"
+        },
+        {
+          "kind": "gemCollection",
+          "owner": {
+            "kind": "champion",
+            "id": 6,
+            "team": "teamB",
+            "name": "Issac"
+          },
+          "value": "66",
+          "timestamp": {
+            "substep": 14,
+            "ordinal": 62092,
+            "round": 359,
+            "input": 9323,
+            "phase": "campCaptures"
+          },
+          "target": {
+            "kind": "campGroup",
+            "id": 1
+          },
+          "x": 31,
+          "y": 44,
+          "amount": 0,
+          "context": "campGroup"
+        }
+      ]
+    },
+    {
+      "map": "contest",
+      "match_id": "dc1e8caa-6d05-4659-a03c-480944121696",
+      "rounds": 2000,
+      "outcome": "teamA",
+      "sha256": "c9fb7486abed7417b32149e055231243d3f1afe31f64a87a4cef61a764cbe397",
+      "teams": [
+        {
+          "team": "Mite",
+          "side": "teamA",
+          "draft": [
+            "Prism",
+            "Stellar",
+            "Cassi",
+            "Issac",
+            "Ryth",
+            "Tavi"
+          ],
+          "gems": 0,
+          "gold": 17036,
+          "deaths": 4,
+          "kills": 47,
+          "camp_clears": 116,
+          "lost": 0,
+          "wards": 1536,
+          "cons": {
+            "Altar Lock": 8
+          },
+          "fuel": 4,
+          "items": [
+            {
+              "round": 41,
+              "champ": "Stellar",
+              "item": "Treasure Emblem of Focus"
+            },
+            {
+              "round": 65,
+              "champ": "Tavi",
+              "item": "Treasure Emblem of Focus"
+            },
+            {
+              "round": 221,
+              "champ": "Issac",
+              "item": "Treasure Emblem of Strength"
+            },
+            {
+              "round": 260,
+              "champ": "Cassi",
+              "item": "Treasure Emblem of Focus"
+            },
+            {
+              "round": 260,
+              "champ": "Cassi",
+              "item": "Durability Emblem of Focus"
+            },
+            {
+              "round": 267,
+              "champ": "Stellar",
+              "item": "Durability Emblem of Focus"
+            },
+            {
+              "round": 270,
+              "champ": "Issac",
+              "item": "Durability Emblem of Strength"
+            },
+            {
+              "round": 270,
+              "champ": "Issac",
+              "item": "Bruiser Emblem of Health"
+            }
+          ],
+          "buys": [
+            {
+              "round": 41,
+              "champ": "Stellar",
+              "item": "Treasure Shard of Focus",
+              "n": "5"
+            },
+            {
+              "round": 49,
+              "champ": "Tavi",
+              "item": "Treasure Shard of Focus",
+              "n": "1"
+            },
+            {
+              "round": 63,
+              "champ": "Issac",
+              "item": "Treasure Shard of Strength",
+              "n": "3"
+            },
+            {
+              "round": 65,
+              "champ": "Tavi",
+              "item": "Treasure Shard of Focus",
+              "n": "4"
+            },
+            {
+              "round": 119,
+              "champ": "Cassi",
+              "item": "Treasure Shard of Focus",
+              "n": "3"
+            }
+          ],
+          "tributes": [],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 520,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 1,
+              "monsterDamageDone": 6535,
+              "championDamageDone": 3115
+            },
+            "200": {
+              "earnedGold": 1165,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 1,
+              "monsterDamageDone": 11560,
+              "championDamageDone": 5900
+            },
+            "400": {
+              "earnedGold": 2431,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 2,
+              "monsterDamageDone": 23241,
+              "championDamageDone": 13000
+            },
+            "600": {
+              "earnedGold": 4161,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 3,
+              "monsterDamageDone": 40526.5,
+              "championDamageDone": 17661.25
+            },
+            "1000": {
+              "earnedGold": 7359,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 4,
+              "monsterDamageDone": 74693.5,
+              "championDamageDone": 25842.5
+            },
+            "1500": {
+              "earnedGold": 12105,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 4,
+              "monsterDamageDone": 120560.5,
+              "championDamageDone": 41986.25
+            },
+            "1999": {
+              "earnedGold": 17036,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 4,
+              "monsterDamageDone": 168540.5,
+              "championDamageDone": 58631.25
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Prism",
+              "id": 0,
+              "metrics": {
+                "earnedGold": "1379",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "6",
+                "deaths": "0",
+                "monsterDamageDone": 44956.5,
+                "championDamageDone": 11507.75
+              }
+            },
+            {
+              "name": "Stellar",
+              "id": 1,
+              "metrics": {
+                "earnedGold": "3440",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "19",
+                "deaths": "0",
+                "monsterDamageDone": 29011.75,
+                "championDamageDone": 21130.5
+              }
+            },
+            {
+              "name": "Cassi",
+              "id": 2,
+              "metrics": {
+                "earnedGold": "3575",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "6",
+                "deaths": "0",
+                "monsterDamageDone": 16774,
+                "championDamageDone": 4107
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 3,
+              "metrics": {
+                "earnedGold": "3661",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 32006,
+                "championDamageDone": 200
+              }
+            },
+            {
+              "name": "Ryth",
+              "id": 4,
+              "metrics": {
+                "earnedGold": "3396",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "9",
+                "deaths": "2",
+                "monsterDamageDone": 22907.75,
+                "championDamageDone": 16208
+              }
+            },
+            {
+              "name": "Tavi",
+              "id": 5,
+              "metrics": {
+                "earnedGold": "1585",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "7",
+                "deaths": "2",
+                "monsterDamageDone": 22884.5,
+                "championDamageDone": 5478
+              }
+            }
+          ]
+        },
+        {
+          "team": "Intercontinental Fish",
+          "side": "teamB",
+          "draft": [
+            "Stellar",
+            "Tavi",
+            "Prism",
+            "Cassi",
+            "Issac",
+            "Ren"
+          ],
+          "gems": 0,
+          "gold": 2496,
+          "deaths": 59,
+          "kills": 4,
+          "camp_clears": 56,
+          "lost": 0,
+          "wards": 37,
+          "cons": {},
+          "fuel": 0,
+          "items": [
+            {
+              "round": 65,
+              "champ": "Prism",
+              "item": "Power Emblem of Focus"
+            },
+            {
+              "round": 206,
+              "champ": "Tavi",
+              "item": "Treasure Emblem of Focus"
+            },
+            {
+              "round": 237,
+              "champ": "Tavi",
+              "item": "Durability Emblem of Focus"
+            },
+            {
+              "round": 494,
+              "champ": "Stellar",
+              "item": "Power Emblem of Focus"
+            },
+            {
+              "round": 735,
+              "champ": "Prism",
+              "item": "Durability Emblem of Health"
+            },
+            {
+              "round": 742,
+              "champ": "Stellar",
+              "item": "Durability Emblem of Health"
+            },
+            {
+              "round": 1207,
+              "champ": "Ren",
+              "item": "Bruiser Emblem of Health"
+            },
+            {
+              "round": 1345,
+              "champ": "Issac",
+              "item": "Power Emblem of Strength"
+            }
+          ],
+          "buys": [
+            {
+              "round": 65,
+              "champ": "Prism",
+              "item": "Power Shard of Focus",
+              "n": "5"
+            },
+            {
+              "round": 65,
+              "champ": "Prism",
+              "item": "Durability Shard of Health",
+              "n": "1"
+            },
+            {
+              "round": 97,
+              "champ": "Tavi",
+              "item": "Treasure Shard of Focus",
+              "n": "1"
+            },
+            {
+              "round": 112,
+              "champ": "Stellar",
+              "item": "Power Shard of Focus",
+              "n": "1"
+            },
+            {
+              "round": 118,
+              "champ": "Tavi",
+              "item": "Treasure Shard of Focus",
+              "n": "3"
+            }
+          ],
+          "tributes": [],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 260,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 3,
+              "monsterDamageDone": 4105,
+              "championDamageDone": 2955
+            },
+            "200": {
+              "earnedGold": 435,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 5,
+              "monsterDamageDone": 7940,
+              "championDamageDone": 4733
+            },
+            "400": {
+              "earnedGold": 751,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 12,
+              "monsterDamageDone": 12759,
+              "championDamageDone": 11034.399917602539
+            },
+            "600": {
+              "earnedGold": 1053,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 17,
+              "monsterDamageDone": 16963.5,
+              "championDamageDone": 14857.299911499023
+            },
+            "1000": {
+              "earnedGold": 1530,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 23,
+              "monsterDamageDone": 22542.5,
+              "championDamageDone": 20461.2998046875
+            },
+            "1500": {
+              "earnedGold": 2034,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 40,
+              "monsterDamageDone": 31199.5,
+              "championDamageDone": 25216.899757385254
+            },
+            "1999": {
+              "earnedGold": 2496,
+              "submittedGems": 0,
+              "collectedGems": 0,
+              "deaths": 59,
+              "monsterDamageDone": 37459.5,
+              "championDamageDone": 31512.399559020996
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Stellar",
+              "id": 6,
+              "metrics": {
+                "earnedGold": "500",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "3",
+                "deaths": "10",
+                "monsterDamageDone": 6597,
+                "championDamageDone": 12625.999725341797
+              }
+            },
+            {
+              "name": "Tavi",
+              "id": 7,
+              "metrics": {
+                "earnedGold": "511",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "10",
+                "monsterDamageDone": 8118.5,
+                "championDamageDone": 5627.899841308594
+              }
+            },
+            {
+              "name": "Prism",
+              "id": 8,
+              "metrics": {
+                "earnedGold": "505",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "1",
+                "deaths": "8",
+                "monsterDamageDone": 6754,
+                "championDamageDone": 9645.5
+              }
+            },
+            {
+              "name": "Cassi",
+              "id": 9,
+              "metrics": {
+                "earnedGold": "350",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "12",
+                "monsterDamageDone": 5922.5,
+                "championDamageDone": 1724
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 10,
+              "metrics": {
+                "earnedGold": "280",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "12",
+                "monsterDamageDone": 4943,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Ren",
+              "id": 11,
+              "metrics": {
+                "earnedGold": "350",
+                "gems": "0",
+                "collectedGems": "0",
+                "submittedGems": "0",
+                "kills": "0",
+                "deaths": "7",
+                "monsterDamageDone": 5124.5,
+                "championDamageDone": 1888.9999923706055
+              }
+            }
+          ]
+        }
+      ],
+      "diagnostics": {
+        "detailedCaptureComplete": true,
+        "botFaults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "codes": []
+      },
+      "draft_picks": [
+        {
+          "team": "teamA",
+          "champion": "Prism"
+        },
+        {
+          "team": "teamB",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamA",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamB",
+          "champion": "Tavi"
+        },
+        {
+          "team": "teamA",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamB",
+          "champion": "Prism"
+        },
+        {
+          "team": "teamA",
+          "champion": "Ryth"
+        },
+        {
+          "team": "teamB",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamA",
+          "champion": "Tavi"
+        },
+        {
+          "team": "teamB",
+          "champion": "Ren"
+        }
+      ],
+      "selected_events": [
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 9,
+            "team": "teamB",
+            "name": "Cassi"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 4337,
+            "round": 21,
+            "input": 655,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 1,
+            "team": "teamA",
+            "name": "Stellar"
+          },
+          "x": 41,
+          "y": 34,
+          "amount": 0,
+          "context": "champion"
+        },
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 10,
+            "team": "teamB",
+            "name": "Issac"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 4339,
+            "round": 21,
+            "input": 655,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 1,
+            "team": "teamA",
+            "name": "Stellar"
+          },
+          "x": 24,
+          "y": 22,
+          "amount": 0,
+          "context": "champion"
+        },
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 11,
+            "team": "teamB",
+            "name": "Ren"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 9956,
+            "round": 48,
+            "input": 1515,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 5,
+            "team": "teamA",
+            "name": "Tavi"
+          },
+          "x": 24,
+          "y": 28,
+          "amount": 0,
+          "context": "champion"
+        },
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 4,
+            "team": "teamA",
+            "name": "Ryth"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 10797,
+            "round": 52,
+            "input": 1621,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 8,
+            "team": "teamB",
+            "name": "Prism"
+          },
+          "x": 23,
+          "y": 25,
+          "amount": 0,
+          "context": "champion"
+        },
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 6,
+            "team": "teamB",
+            "name": "Stellar"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 23011,
+            "round": 111,
+            "input": 3191,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 0,
+            "team": "teamA",
+            "name": "Prism"
+          },
+          "x": 23,
+          "y": 27,
+          "amount": 0,
+          "context": "champion"
+        },
+        {
+          "kind": "death",
+          "owner": {
+            "kind": "champion",
+            "id": 8,
+            "team": "teamB",
+            "name": "Prism"
+          },
+          "value": "1",
+          "timestamp": {
+            "substep": 0,
+            "ordinal": 25913,
+            "round": 125,
+            "input": 3602,
+            "phase": "champions"
+          },
+          "target": {
+            "kind": "champion",
+            "id": 1,
+            "team": "teamA",
+            "name": "Stellar"
+          },
+          "x": 27,
+          "y": 24,
+          "amount": 0,
+          "context": "champion"
+        }
+      ]
+    },
+    {
+      "map": "rushbait_v2",
+      "match_id": "aa4a919e-d2b7-4c25-8eff-4371abafd841",
+      "rounds": 538,
+      "outcome": "teamB",
+      "sha256": "86199a6e12453d2f1733921e41aad18b7e5d9adf5e5ed6f7a48b60238e038e67",
+      "teams": [
+        {
+          "team": "Mite",
+          "side": "teamA",
+          "draft": [
+            "Varg",
+            "Ryth",
+            "Cassi",
+            "Issac",
+            "Stellar"
+          ],
+          "gems": 776,
+          "gold": 3970,
+          "deaths": 2,
+          "kills": 0,
+          "camp_clears": 41,
+          "lost": 0,
+          "wards": 9,
+          "cons": {
+            "Altar Lock": 2
+          },
+          "fuel": 0,
+          "items": [
+            {
+              "round": 41,
+              "champ": "Varg",
+              "item": "Jungle Emblem of Strength"
+            },
+            {
+              "round": 76,
+              "champ": "Ryth",
+              "item": "Jungle Emblem of Strength"
+            },
+            {
+              "round": 161,
+              "champ": "Issac",
+              "item": "Jungle Emblem of Strength"
+            },
+            {
+              "round": 167,
+              "champ": "Ryth",
+              "item": "Durability Emblem of Strength"
+            },
+            {
+              "round": 167,
+              "champ": "Ryth",
+              "item": "Bruiser Emblem of Health"
+            },
+            {
+              "round": 225,
+              "champ": "Ryth",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 229,
+              "champ": "Varg",
+              "item": "Durability Emblem of Strength"
+            },
+            {
+              "round": 229,
+              "champ": "Varg",
+              "item": "Bruiser Emblem of Health"
+            }
+          ],
+          "buys": [
+            {
+              "round": 41,
+              "champ": "Varg",
+              "item": "Jungle Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 41,
+              "champ": "Varg",
+              "item": "Durability Shard of Strength",
+              "n": "1"
+            },
+            {
+              "round": 76,
+              "champ": "Ryth",
+              "item": "Jungle Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 76,
+              "champ": "Ryth",
+              "item": "Durability Shard of Strength",
+              "n": "4"
+            },
+            {
+              "round": 89,
+              "champ": "Issac",
+              "item": "Jungle Shard of Strength",
+              "n": "3"
+            }
+          ],
+          "tributes": [
+            {
+              "round": 71,
+              "champ": "Ryth",
+              "gems": "66"
+            },
+            {
+              "round": 119,
+              "champ": "Stellar",
+              "gems": "22"
+            },
+            {
+              "round": 162,
+              "champ": "Ryth",
+              "gems": "66"
+            },
+            {
+              "round": 168,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 202,
+              "champ": "Cassi",
+              "gems": "22"
+            },
+            {
+              "round": 220,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 275,
+              "champ": "Issac",
+              "gems": "36"
+            },
+            {
+              "round": 279,
+              "champ": "Ryth",
+              "gems": "66"
+            },
+            {
+              "round": 286,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 395,
+              "champ": "Stellar",
+              "gems": "22"
+            },
+            {
+              "round": 398,
+              "champ": "Ryth",
+              "gems": "80"
+            },
+            {
+              "round": 412,
+              "champ": "Varg",
+              "gems": "66"
+            },
+            {
+              "round": 414,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 438,
+              "champ": "Cassi",
+              "gems": "22"
+            },
+            {
+              "round": 504,
+              "champ": "Stellar",
+              "gems": "44"
+            }
+          ],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 630,
+              "submittedGems": 66,
+              "collectedGems": 154,
+              "deaths": 0,
+              "monsterDamageDone": 12405,
+              "championDamageDone": 1250
+            },
+            "200": {
+              "earnedGold": 1260,
+              "submittedGems": 220,
+              "collectedGems": 308,
+              "deaths": 1,
+              "monsterDamageDone": 25509,
+              "championDamageDone": 1549
+            },
+            "400": {
+              "earnedGold": 2930,
+              "submittedGems": 578,
+              "collectedGems": 710,
+              "deaths": 1,
+              "monsterDamageDone": 49957.25,
+              "championDamageDone": 2753.1999893188477
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Varg",
+              "id": 0,
+              "metrics": {
+                "earnedGold": "1080",
+                "gems": "66",
+                "collectedGems": "264",
+                "submittedGems": "198",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 12646.75,
+                "championDamageDone": 1374
+              }
+            },
+            {
+              "name": "Ryth",
+              "id": 1,
+              "metrics": {
+                "earnedGold": "1310",
+                "gems": "36",
+                "collectedGems": "314",
+                "submittedGems": "278",
+                "kills": "0",
+                "deaths": "1",
+                "monsterDamageDone": 15642,
+                "championDamageDone": 894
+              }
+            },
+            {
+              "name": "Cassi",
+              "id": 2,
+              "metrics": {
+                "earnedGold": "180",
+                "gems": "0",
+                "collectedGems": "44",
+                "submittedGems": "44",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 10545,
+                "championDamageDone": 1213
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 3,
+              "metrics": {
+                "earnedGold": "880",
+                "gems": "44",
+                "collectedGems": "212",
+                "submittedGems": "168",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 10251,
+                "championDamageDone": 734.3999862670898
+              }
+            },
+            {
+              "name": "Stellar",
+              "id": 4,
+              "metrics": {
+                "earnedGold": "520",
+                "gems": "36",
+                "collectedGems": "124",
+                "submittedGems": "88",
+                "kills": "0",
+                "deaths": "1",
+                "monsterDamageDone": 17217.5,
+                "championDamageDone": 1148.6999969482422
+              }
+            }
+          ]
+        },
+        {
+          "team": "Intercontinental Fish",
+          "side": "teamB",
+          "draft": [
+            "Ren",
+            "Stellar",
+            "Cassi",
+            "Issac",
+            "Ryth"
+          ],
+          "gems": 1008,
+          "gold": 4300,
+          "deaths": 0,
+          "kills": 2,
+          "camp_clears": 44,
+          "lost": 0,
+          "wards": 6,
+          "cons": {},
+          "fuel": 0,
+          "items": [
+            {
+              "round": 48,
+              "champ": "Issac",
+              "item": "Power Emblem of Strength"
+            },
+            {
+              "round": 57,
+              "champ": "Ren",
+              "item": "Bruiser Emblem of Health"
+            },
+            {
+              "round": 91,
+              "champ": "Ryth",
+              "item": "Bruiser Emblem of Health"
+            },
+            {
+              "round": 117,
+              "champ": "Ren",
+              "item": "Durability Emblem of Health"
+            },
+            {
+              "round": 143,
+              "champ": "Cassi",
+              "item": "Bruiser Emblem of Health"
+            },
+            {
+              "round": 153,
+              "champ": "Ren",
+              "item": "Power Emblem of Focus"
+            },
+            {
+              "round": 170,
+              "champ": "Issac",
+              "item": "Durability Emblem of Health"
+            },
+            {
+              "round": 184,
+              "champ": "Ren",
+              "item": "Power Emblem of Focus"
+            }
+          ],
+          "buys": [
+            {
+              "round": 48,
+              "champ": "Issac",
+              "item": "Power Shard of Strength",
+              "n": "5"
+            },
+            {
+              "round": 48,
+              "champ": "Issac",
+              "item": "Durability Shard of Health",
+              "n": "1"
+            },
+            {
+              "round": 57,
+              "champ": "Ren",
+              "item": "Bruiser Shard of Health",
+              "n": "5"
+            },
+            {
+              "round": 57,
+              "champ": "Ren",
+              "item": "Durability Shard of Health",
+              "n": "1"
+            },
+            {
+              "round": 91,
+              "champ": "Ryth",
+              "item": "Bruiser Shard of Health",
+              "n": "5"
+            }
+          ],
+          "tributes": [
+            {
+              "round": 136,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 195,
+              "champ": "Ryth",
+              "gems": "66"
+            },
+            {
+              "round": 238,
+              "champ": "Ren",
+              "gems": "182"
+            },
+            {
+              "round": 318,
+              "champ": "Issac",
+              "gems": "66"
+            },
+            {
+              "round": 325,
+              "champ": "Stellar",
+              "gems": "44"
+            },
+            {
+              "round": 365,
+              "champ": "Cassi",
+              "gems": "88"
+            },
+            {
+              "round": 519,
+              "champ": "Issac",
+              "gems": "94"
+            },
+            {
+              "round": 525,
+              "champ": "Stellar",
+              "gems": "66"
+            },
+            {
+              "round": 526,
+              "champ": "Ryth",
+              "gems": "132"
+            },
+            {
+              "round": 527,
+              "champ": "Cassi",
+              "gems": "36"
+            },
+            {
+              "round": 538,
+              "champ": "Ren",
+              "gems": "168"
+            }
+          ],
+          "checkpoints": {
+            "100": {
+              "earnedGold": 790,
+              "submittedGems": 0,
+              "collectedGems": 190,
+              "deaths": 0,
+              "monsterDamageDone": 12705.5,
+              "championDamageDone": 1003.5
+            },
+            "200": {
+              "earnedGold": 1720,
+              "submittedGems": 132,
+              "collectedGems": 402,
+              "deaths": 0,
+              "monsterDamageDone": 24184,
+              "championDamageDone": 1523.2000007629395
+            },
+            "400": {
+              "earnedGold": 3230,
+              "submittedGems": 512,
+              "collectedGems": 768,
+              "deaths": 0,
+              "monsterDamageDone": 50427.75,
+              "championDamageDone": 4226.399997711182
+            }
+          },
+          "per_champ": [
+            {
+              "name": "Ren",
+              "id": 5,
+              "metrics": {
+                "earnedGold": "1570",
+                "gems": "0",
+                "collectedGems": "350",
+                "submittedGems": "350",
+                "kills": "2",
+                "deaths": "0",
+                "monsterDamageDone": 11777,
+                "championDamageDone": 3850.400005340576
+              }
+            },
+            {
+              "name": "Stellar",
+              "id": 6,
+              "metrics": {
+                "earnedGold": "450",
+                "gems": "0",
+                "collectedGems": "110",
+                "submittedGems": "110",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 15697.75,
+                "championDamageDone": 1538.5999755859375
+              }
+            },
+            {
+              "name": "Cassi",
+              "id": 7,
+              "metrics": {
+                "earnedGold": "520",
+                "gems": "0",
+                "collectedGems": "124",
+                "submittedGems": "124",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 7601.25,
+                "championDamageDone": 2248.449998855591
+              }
+            },
+            {
+              "name": "Issac",
+              "id": 8,
+              "metrics": {
+                "earnedGold": "950",
+                "gems": "0",
+                "collectedGems": "226",
+                "submittedGems": "226",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 12030.75,
+                "championDamageDone": 0
+              }
+            },
+            {
+              "name": "Ryth",
+              "id": 9,
+              "metrics": {
+                "earnedGold": "810",
+                "gems": "0",
+                "collectedGems": "198",
+                "submittedGems": "198",
+                "kills": "0",
+                "deaths": "0",
+                "monsterDamageDone": 14665,
+                "championDamageDone": 1213
+              }
+            }
+          ]
+        }
+      ],
+      "diagnostics": {
+        "detailedCaptureComplete": true,
+        "botFaults": {
+          "teamA": 0,
+          "teamB": 0
+        },
+        "codes": []
+      },
+      "draft_picks": [
+        {
+          "team": "teamA",
+          "champion": "Varg"
+        },
+        {
+          "team": "teamB",
+          "champion": "Ren"
+        },
+        {
+          "team": "teamA",
+          "champion": "Ryth"
+        },
+        {
+          "team": "teamB",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamA",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamB",
+          "champion": "Cassi & Issac"
+        },
+        {
+          "team": "teamA",
+          "champion": "Stellar"
+        },
+        {
+          "team": "teamB",
+          "champion": "Ryth"
+        }
+      ],
+      "selected_events": []
+    }
+  ]
+}

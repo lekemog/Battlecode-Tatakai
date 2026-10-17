@@ -2,3 +2,4 @@
 replays/
 *.repl26a
 __pycache__/
+sdk/

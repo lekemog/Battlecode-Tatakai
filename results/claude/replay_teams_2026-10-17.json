@@ -3285,5 +3285,171 @@
   "first_recall": 42,
   "spread": 10.1,
   "groups": 3.19
+ },
+ {
+  "map": "corners",
+  "match": "2fdff147",
+  "team": 0,
+  "rounds": 587,
+  "win": true,
+  "gems": 1142,
+  "opp_gems": 784,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 7,
+  "deaths": 6,
+  "earned_gold": 4710,
+  "captures": 34,
+  "captures_r150": 7,
+  "g100": 44,
+  "g200": 204,
+  "g300": 314,
+  "g400": 532,
+  "first_tribute": 84,
+  "n_tributes": 26,
+  "avg_tribute": 43.9,
+  "first_buy": 40,
+  "buys": [
+   [
+    40,
+    "Varg",
+    "Monsters-S"
+   ],
+   [
+    40,
+    "Issac",
+    "Monsters-S"
+   ],
+   [
+    47,
+    "Ren",
+    "Monsters-S"
+   ],
+   [
+    85,
+    "Varg",
+    "MonsterE-S"
+   ],
+   [
+    85,
+    "Varg",
+    "Jungles-H"
+   ],
+   [
+    106,
+    "Stellar",
+    "Monsters-F"
+   ],
+   [
+    113,
+    "Issac",
+    "MonsterE-S"
+   ],
+   [
+    113,
+    "Issac",
+    "Jungles-H"
+   ]
+  ],
+  "n_buys": 55,
+  "wards": 20,
+  "recalls": 55,
+  "locks": 4,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 5,
+  "first_recall": 34,
+  "spread": 17.3,
+  "groups": 4.06
+ },
+ {
+  "map": "corners",
+  "match": "2fdff147",
+  "team": 1,
+  "rounds": 587,
+  "win": false,
+  "gems": 784,
+  "opp_gems": 1142,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ryth",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 4,
+  "deaths": 8,
+  "earned_gold": 4240,
+  "captures": 33,
+  "captures_r150": 7,
+  "g100": 138,
+  "g200": 218,
+  "g300": 400,
+  "g400": 480,
+  "first_tribute": 62,
+  "n_tributes": 22,
+  "avg_tribute": 35.6,
+  "first_buy": 32,
+  "buys": [
+   [
+    32,
+    "Varg",
+    "JungleE-S"
+   ],
+   [
+    39,
+    "Issac",
+    "Jungles-S"
+   ],
+   [
+    54,
+    "Tavi",
+    "Jungles-F"
+   ],
+   [
+    70,
+    "Ryth",
+    "JungleE-F"
+   ],
+   [
+    91,
+    "Tavi",
+    "Durabilitys-F"
+   ],
+   [
+    91,
+    "Tavi",
+    "JungleE-F"
+   ],
+   [
+    124,
+    "Stellar",
+    "Jungles-F"
+   ],
+   [
+    153,
+    "Issac",
+    "DurabilityE-S"
+   ]
+  ],
+  "n_buys": 39,
+  "wards": 22,
+  "recalls": 40,
+  "locks": 11,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 63,
+  "first_recall": 26,
+  "spread": 9.6,
+  "groups": 2.22
  }
 ]

@@ -207,3 +207,17 @@ v13h is in `bots/v13h`, and it's 19/34 (+45) locally against v12m.
   - your group-HP fix, aggression cap and harmless-camp split
   - plus my stall guard and corners solo
 - One thing to check on your side: v13sz still buys **altar locks**. The W14 replays may show whether locks ever fired. Please don't submit; I'll post both results here.
+
+## Claude (main), Sat 17 Oct 23:50: W15/W16 results
+
+Each round was 5 new top-100 teams, 25 games per arm, back to back.
+
+| Round | Candidate | Wins | v12m (live) | Difference |
+|---|---|---|---|---|
+| W15 | v13h (calibration + corners solo + stall guard) | 3 | 4 | Lost lanes and monolith vs Wildest_Peace, won expanse |
+| W16 | Szymon's v13e (`v13sz`) | 3 | 2 | Won swirl vs Crazy Robot; all other 24 games had the same result |
+| W14 | v13d | 3 | 3 | |
+
+Win counts at this level barely separate any of the versions. Gem margins are downloading (rate-limited to about one summary every 30–60 s).
+
+**W17** repeats v13sz vs v12m on 5 more new teams, to grow the sample for the leading candidate. **v12m stays live** until margins show a consistent gain.

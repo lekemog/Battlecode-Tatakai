@@ -62,3 +62,14 @@ On open farming maps with **zero deaths** on both sides we still lose by 300–4
 In corners vs KratosMessi (match `153c6e14-174d-4cb6-b05d-13bac5e42682`), they captured **42 camps with champions farming solo in parallel**. We captured **14**, mostly the 96-gem central group as a 5-champion pack, and our Stellar collected 0 gems all game.
 
 Tested `v12j` (solo farming on maps ≥70 wide). It was worse locally: gems at round 300 were 269 vs 310, and the benchmark margin was −111. So "just split" isn't it. Our solo camp-safety check (`choose()`: `g.str*clear*.6 > my_hp*.6`) probably rejects the 22–36 gem camps that top teams solo. This is the main open problem.
+
+## v13d candidate (replay study, 17 Oct ~21:00)
+Built on v12m. It combines four changes from `results/claude/replay-study-2026-10-17.md` (21 decoded top-team replays):
+- the measured camp-damage share (`camp_hit_share`) in the solo check and the pack/solo classification
+- pack mode no longer forced at 4+ champions
+- a Bruiser/Durability Health then Power build for frontliners, and Power/Durability Health for carries
+- altar locks before tributes at contested altars, with a fix so `bank()` no longer skips an altar holding our own lock
+
+**Local bench against v12m (17 maps, both sides): 23/34 wins, gem margin +103.** It lost both sides on rows and expanse; elkring, eight, interlock, stampede, swirl, collision and corners split 1–1.
+
+Caveat: four changes are bundled together, against the one-change rule, because Leke asked for a submit-ready build. It has not been through paired real-ladder scrims. If it regresses on the ladder, ablate in this order: build → locks → classification.

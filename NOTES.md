@@ -29,7 +29,7 @@ Last updated: Sat 17 Oct, about 19:20 (Irish time). Ladder rank is roughly 245�
 | W7 | same as W6 | **v12c 12** (adopted), v12d with Jungle emblem first 8 (rejected). |
 | W8 | same as W6 | v12f 12, v12c 12 (tie). v12f won contest for the first time ever; it lost swirl to Tokyo. |
 | W9 | 5 teams that beat us in ranked, on contest/stampede/swirl/fragment/elkring | **v12c 15**, v12f 13. Contest: v12c 2/5, v12f 0/5. **v12f rejected.** |
-| W10 | same as W6 | Running: v12h (shop sooner) vs v12c. |
+| W10 | **top-100 only** (ranks 31, 53, 67, 71, 98) | Both 0/25. Gem margin: v12h −11641, v12c −11853. 17 of 25 games were identical. Tie, so not adopted. |
 
 ## Key findings
 1. **Altar-freeze bug (fixed in v12a).** If an enemy had recently been seen near the nearest altar, `bank()` routed to a different altar. When that route was blocked by our own teammates, the path search returned "unreachable" and the champion stood still. On collision this went on for about 100 rounds. The fix: when nothing is reachable, path through units, and fall back to the nearest altar. Collision against a passive bot now reaches 1000 at round 608 instead of 815.
@@ -51,3 +51,14 @@ Last updated: Sat 17 Oct, about 19:20 (Irish time). Ladder rank is roughly 245�
 - **Earlier shopping.** Recall or path through spawn after the first captures.
 - **Altar locks** (10 gold). Opponents use about 3 per game; we use none.
 - **Teleport crystals** for shortcuts on wall-heavy maps.
+
+## Top-100 farming gap (W10)
+On open farming maps with **zero deaths** on both sides we still lose by 300–450 gems:
+- corners −142 to −434
+- lanes −308
+- expanse −468
+- ambush −486
+
+In corners vs KratosMessi (match `153c6e14-174d-4cb6-b05d-13bac5e42682`), they captured **42 camps with champions farming solo in parallel**. We captured **14**, mostly the 96-gem central group as a 5-champion pack, and our Stellar collected 0 gems all game.
+
+Tested `v12j` (solo farming on maps ≥70 wide). It was worse locally: gems at round 300 were 269 vs 310, and the benchmark margin was −111. So "just split" isn't it. Our solo camp-safety check (`choose()`: `g.str*clear*.6 > my_hp*.6`) probably rejects the 22–36 gem camps that top teams solo. This is the main open problem.

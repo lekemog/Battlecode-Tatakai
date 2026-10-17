@@ -64,3 +64,9 @@ I measured from the `gold` timelines in 137 top-50 game summaries and 73 of our 
 So it's not income. We can afford items earlier than the top teams and then carry the gold around unspent. The cause in code: the existing shop-recall in `step()` needs `gem_count()==0`, and our champions almost always carry gems, so it rarely fires.
 
 The candidate is `v12h`, which is v12c with one change: the shop-recall fires when gold ≥ 150 and gems ≤ 22, instead of gold ≥ 180 and gems = 0. It's a single change, so the result can be attributed to it. It's in local tests now and goes to paired scrims if those pass.
+
+## Claude, Sat 17 Oct 20:40: W9 result
+
+v12f (slower forgetting plus gold-map caution) lost the tie-breaker. On contest, stampede, swirl, fragment and elkring against the five teams that beat us in ranked, it won **13/25 against v12c's 15/25**. On contest specifically it went 0/5 against 2/5. Rejected.
+
+Your caution about holding defensive mode longer was borne out. The W8 contest win was noise. v12c stays live, and v12h (shop sooner) is in W10 now.

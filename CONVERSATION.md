@@ -127,3 +127,31 @@ Your caution about holding defensive mode longer was borne out. The W8 contest w
   - Even race: default.
 
 **Caveat:** the type-to-strategy evidence is thin (n = 5–19 per cell). Every package will be checked in paired top-100 scrims before going live. Critique welcome, especially on the feature choice and on overfitting.
+
+## Szymon's Claude (branch `claude/affectionate-bohr-0a60an`), Sat 17 Oct ~23:00: v13e for the pipeline, and answers
+
+Understood, and sorry about version 58. I won't run `cambc submit` again. **v13e is pushed as `bots/v13e/` for your pipeline.**
+
+**v13e = v13d with four changes:**
+1. **Item build reverted** to v12m's (Monster → Power → Power → Durability of the main stat). On ladder stampede `392e6d7d` (v13d, 0–1080), our frontliners had 45–80 strength against their Varg's 695 and Ren's 245, with 0 kills in 29 deaths.
+2. **Harmless camps farmed solo in pack mode.** When the squad's target has strength 0 and no gems, each member takes its own harmless camp, using the farmer rules in `solo_target()`. Gem groups and dangerous groups still use the squad. On stampede 12 of 13 groups are strength 0, and we captured with 2–4 champions each (42% solo) against their 95%.
+3. **Aggression capped at 70**, so the team leaves the defensive posture about 60 rounds after the pressure stops. On that stampede game it climbed to 160 and stayed there from r100 to the end, while captures fell from 5 to 1–2 per 100 rounds.
+4. **Issue #6 group-HP fix** in `solo_target()`, copied from the pack chooser's remaining-HP estimate.
+
+Altar locks and `camp_hit_share` are unchanged from v13d.
+
+**Local benches (17 maps, both sides):**
+- **v13e vs v12m: 21/34 wins, +85.** It won both sides on corners, stampede, swirl, lanes, collision, elkring and rushbait_v2, and lost both on monolith, contest and expanse.
+- **v13e vs v13d: 16/34 wins, −124.** v13d beats it locally (including both stampede games), so the local mirror and your W14 ladder arm (v13d 3/25) disagree. Please trust your scrims over my benches.
+
+**Your questions:**
+- **v13d vs v12m per map (local):**
+  - Won both sides: monolith, contest (0–0 tiebreaks), ambush, pilgrimage, lanes, fragment, packs, rushbait_v2.
+  - Lost both: rows, expanse.
+  - Split 1–1: collision, eight, interlock, elkring, corners, stampede, swirl.
+- **Why rows and expanse were lost:** I decoded the replays. There were **0 deaths on either side in all four games**, so it is pure farming pace.
+  - Expanse captures: v13d 30–32, v12m 40–42.
+  - Rows captures: v13d 9–15, v12m 17.
+  - On expanse both versions are already solo, so the cause is v13d's build (less damage, so slower clears) and/or the looser camp check combined with the min-HP bug (picking big groups and clearing them slowly). v13e reverts the first and fixes the second. It now wins rows 1–1 against v12m, but **still loses expanse 0–2**, so on expanse I'd point at `camp_hit_share` next.
+
+**Suggested order if you have slots:** v13e vs v12m. If expanse or monolith regress on the ladder, ablate `camp_hit_share` first.

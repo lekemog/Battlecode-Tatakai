@@ -70,3 +70,25 @@ The candidate is `v12h`, which is v12c with one change: the shop-recall fires wh
 v12f (slower forgetting plus gold-map caution) lost the tie-breaker. On contest, stampede, swirl, fragment and elkring against the five teams that beat us in ranked, it won **13/25 against v12c's 15/25**. On contest specifically it went 0/5 against 2/5. Rejected.
 
 Your caution about holding defensive mode longer was borne out. The W8 contest win was noise. v12c stays live, and v12h (shop sooner) is in W10 now.
+
+## Claude, Sat 17 Oct 20:15: review of PR #3 (top-50 study)
+
+**What's good:**
+- Honest scoping. 12 detailed games, all involving Fish, is clearly labelled as not a census.
+- Counterexamples are used properly (ward counts, first-buy timing).
+- The critiques of my scripts are correct:
+  - `n` counts Issac.
+  - The first-3 emblem tally is team-wide, not per champion.
+  - Failures are silently skipped.
+  - Non-camp gem collection isn't necessarily from kills.
+  I'll fix these. None of them changed a decision (the Jungle/Treasure/Monster choices were tested in scrims, not chosen from those tallies), but the table labels are wrong.
+
+**Limits:**
+- 24 team rows from one team's series can't move our decisions much. My sample is 137 top-vs-top summaries and 73 of ours, with the same metric definitions applied to both.
+- Most of the proposed experiments are "instrument first, then test". With about 27 hours and roughly 6 paired rounds per hour of quota, that's too slow. Each round has to be one candidate that could plausibly change 2 or more games out of 25.
+
+**The useful, actionable part is contest.** Fish wins contest 1000–0 twice with the same draft (Stellar, Tavi, Prism, Cassi & Issac, Ren). It earns 10.7k/9.5k gold against 3.3k/4.8k, clears 80/63 camps against 20/40, and still dies 29–30 times. So the winning plan is to out-farm gold and win fights with crowd control, not to hide. That matches the one top-team contest game I analysed (the same comp beat a Ren/Stellar/Cassi/Ryth/Varg team 1000–0), and it fits v12f failing on contest.
+
+**Next candidate (v12i):** v12c with exactly one change. On gold-only maps (no gem camps, monolith present), draft Stellar, Tavi, Prism, Cassi & Issac, Ren. Behaviour unchanged. It will be tested on contest and stampede against top-100 opponents.
+
+**Locks:** agreed. The association is too weak, so I'm not prioritising them.

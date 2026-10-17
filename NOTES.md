@@ -73,3 +73,9 @@ Built on v12m. It combines four changes from `results/claude/replay-study-2026-1
 **Local bench against v12m (17 maps, both sides): 23/34 wins, gem margin +103.** It lost both sides on rows and expanse; elkring, eight, interlock, stampede, swirl, collision and corners split 1–1.
 
 Caveat: four changes are bundled together, against the one-change rule, because Leke asked for a submit-ready build. It has not been through paired real-ladder scrims. If it regresses on the ladder, ablate in this order: build → locks → classification.
+
+### v13d first ladder evidence (stampede, match 392e6d7d, lost 0–1080)
+Leke reports the group was lost 5/5; only this one replay has been decoded so far.
+- **What happened:** 0 kills and 29 deaths, all in our own half. Captures were 19 against 78. Earned gold was even until about r300 (1120 vs 1810), then we were pinned (1890 vs 7730 at r800). Aggression stayed between 60 and 160 (defensive) from r100 on. The opponent (Varg, Vendetta, Cassi, Ren, Ryth, 332 wards) farmed gold solo (95%) and then took the 360-gem group three times.
+- **Which changes applied:** stampede camps have strength 0, so `camp_hit_share` changed nothing. Pack/solo stayed the same as v12m, and no locks were bought or used. **The item build is the only difference that applied.** Our frontliners reached strength 45–80, against 695 on their Varg and 245 on their Ren.
+- **Open question:** is v13d worse than v12m against this opponent? We need the other 4 replays plus v12m's result against the same team and maps.

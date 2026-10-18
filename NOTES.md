@@ -331,3 +331,13 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - **Ladder:**
   - c9w (weak maps): v18m, v18l (raid + frontline health), v18f. v18m stays live.
   - c10w after it: v18n vs v18m, 15 teams.
+
+## ~12:40 UTC: eight and stampede diagnosis
+- **Eight** (c8w snapshots): our champions are strung out across the map and picked off one at a time. Tavi and Cassi were alone at x=24 while the others were at x=1–13, and badly hurt champions linger instead of healing.
+  - **v18p** (brawl cohesion: regroup on the nearest ally before heading to a far target) changed nothing locally. Eight is decided by starting side in self-play. Not promoted.
+- **Stampede** (c8w): in 9 of 10 losses the enemy cleared the 360-gem herd with **1–2 champions over 100+ rounds**, and we were never near it.
+  - **Cause:** our herd ward landed at (51,18), 7 tiles from the herd and behind walls, so it never saw the herd and the vulture never fired.
+  - **v18r = v18n + a herd ward placed where it actually sees the herd:** it picks the tile with the most herd camps in hypothetical ward vision (`ward::visible_tiles_from`), needing at least half of them. It now lands at (52,19) and sees the herd.
+  - Stampede is also decided by starting side in self-play, so the ladder decides.
+  - **v18q** (one pack races the herd) lost to the vulture locally from both sides. Not promoted.
+- **c10w** (after c9w): v18r vs v18m, 15 teams, weak maps.

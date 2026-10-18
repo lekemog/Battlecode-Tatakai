@@ -434,3 +434,14 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - Nobody wins any of these maps by invading.
   - Their opponent-style model spots invaders (AUC 0.85–0.91 by r60–100), but only ~9% of top opponents invade.
 - **Running:** t1i (v19i, focus valuation on single-altar maps only), then **ct** = a contest-only paired test, v19j (contest solo farmers may use the middle third) vs v19f, 10 teams × 5 contest games each.
+
+## ~18:30 UTC: GPT ("Astra") code recommendations (#15)
+- **Rec 1, carrier-aware execution → v19m:**
+  - A carrier with 40+ gems doesn't pursue.
+  - Pursuit returns true only if it acted.
+  - Includes rec 5 (death clears capture state).
+  - Gauntlet 99 (+907) vs v19f 100 (+871).
+  - Queued for a ladder test (t1m) after t1i and ct.
+- **Rec 2, current-HP group estimate → v19l:** gauntlet 87. Rejected for tonight.
+- **Recs 3/4 (convoy plan, route ranking):** designs only. No time to validate before the freeze.
+- **Ladder queue:** t1i (v19i), ct (contest-only, v19j vs v19f), t1m (v19m). v19f stays live.

@@ -228,3 +228,29 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - Fix for ChatGPT's finding that `solo_target` used the single weakest visible camp's HP instead of the group's remaining HP.
   - Local result vs v17u: 16/34, −23.
 - **Paired c7 (10 teams):** v17u, v17v and v17i. v17u stays live.
+
+## ~10:35 UTC: faux top-100 gauntlet, contest vulture (v17w), single-camp solo (v17x)
+- **Faux top-100 style bots** (each a variant of our code that copies one observed habit):
+  - `fz_herd`: one pack goes for the biggest objective first; siege from round 150.
+  - `fz_solo`: always solo, banks 36–70-gem bags, bolder camp choice, top-100 draft (Cassi & Issac, Ren, Ryth, Stellar, Varg).
+  - `fz_hunt`: fights at need 0.45 and chases bags of 30+ up to 11 tiles away.
+  - `tools/gauntlet.py CAND fz_herd,fz_solo,fz_hunt` plays 102 games (~15 min).
+- **Does the gauntlet predict the ladder?** It got 2 of 3 known paired results right:
+  - v16o 52 < v16t 55 ✓; v16u 55 < v16v 60 ✓.
+  - v16w 61 vs v17i 67, but the ladder had them tied (14–13). ✗
+  - Used as a screen, not as proof.
+- **Ladder contest replay** (v17i vs "y", `73a00a9e`): our siege from round 300 took ~350 rounds per kill. We died constantly and fed them gold. The opponent never sieged; it took every reward we softened (0–600 gems, 2345–13225 gold).
+  - **v17w:**
+    - Vulture any visible monolith under 50% HP.
+    - Siege only from round 600.
+    - Abandon a siege with no kill after 150 rounds, then farm gold for 150 rounds.
+  - Contest results: beat `fz_herd` from both sides, split 1–1 with v17u, and our gold rose ~4.5k → ~7–8k. Gauntlet 67, +527.
+- **`fz_solo` beat v17u on corners, collision and packs from both sides.**
+  - **v17x = v17w + a single-camp rule:** if ≥60% of gem income comes from 1-camp groups (corners 0.67, collision 0.65, lanes, rushbait), farm solo and bank 36–70-gem bags.
+  - **Gauntlet 72/102, +549 (the best so far).** Collision vs `fz_solo` flipped from 0–2 to 2–0.
+  - Vs v17w: 19/34, +15; corners 2–0 (1014–600 and 1016–744), rushbait 2–0.
+- **Rejected:**
+  - v17y (top-100 draft with Ryth instead of Tavi for 4+ picks): gauntlet 57.
+  - v17z (bolder solo camps on single-camp maps): gauntlet 70, no gain over v17x.
+- **Paired c7 (10 teams):** v17u, v17w, v17x. v17x stays live.
+- **Disk:** the disk filled up (decoded replays take ~17 GB). Local benches now delete their replays after scoring.

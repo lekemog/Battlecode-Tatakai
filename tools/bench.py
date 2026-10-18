@@ -34,6 +34,9 @@ def run(a, b):
         if won and gems[side] >= 1000:
             speed.append(rounds)
         per_map.setdefault(m, []).append(('W' if won else 'L') + str(rounds))
+    for m, first, second, tag in rows:   # replays are large; stats JSON is kept
+        try: os.remove(f'{out}/{tag}.repl26a')
+        except OSError: pass
     return wins, len(rows), speed, per_map, (statistics.mean(margins) if margins else 0)
 
 

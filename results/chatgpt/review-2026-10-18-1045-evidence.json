@@ -1,0 +1,441 @@
+{
+  "observed_utc": "2026-10-18T09:39:00Z/2026-10-18T09:45:00Z",
+  "main_commit": "e2effb00504d7e64d08fd7d7eadcd95ba50dced6",
+  "live": {
+    "platform": 103,
+    "id": "ae635caf-7e31-4035-91ff-f68a244570fe",
+    "state": "Active",
+    "bot_cpp": {
+      "normalized_length": 45173,
+      "fnv1a32": 2033441687,
+      "repo": "bots/v17i/src/bot.cpp",
+      "blob": "b3d3bd0e04231b2139aab71813be0700c76d7da6"
+    },
+    "draft_cpp": {
+      "normalized_length": 1981,
+      "fnv1a32": 2629334366
+    },
+    "limitations": "Rendered controller/draft only, not binary/archive identity; source strips comment-only lines and whitespace."
+  },
+  "selection": {
+    "method": "Three purposive completed ranked series from current rank9,19,29 team profiles; exclude unranked; both teams in current observed top50. Not random or representative.",
+    "snapshot_scope": "49 of top50 rows observed, rank21 missing. Relevant six ranks recorded in series; current ranks are not historical bot strength.",
+    "bands": {
+      "upper": "5 games ranks9/5",
+      "middle": "5 games ranks19/18",
+      "cross_middle_lower": "5 games ranks14/29"
+    },
+    "series": [
+      {
+        "id": "0dfbddd4-c0b4-4495-9aed-72723097cbfa",
+        "teams": [
+          "PTN Hyperion",
+          "KratosMessi"
+        ],
+        "ranks": [
+          14,
+          29
+        ]
+      },
+      {
+        "id": "6c2c459c-9e87-4b3a-b0c4-3b3e3cca1669",
+        "teams": [
+          "Univardisty of Shingtonwash",
+          "Nyxius"
+        ],
+        "ranks": [
+          9,
+          5
+        ]
+      },
+      {
+        "id": "367423f1-6526-4826-9c8e-1dbb41d12604",
+        "teams": [
+          "Shawn",
+          "Ely2sh"
+        ],
+        "ranks": [
+          19,
+          18
+        ]
+      }
+    ],
+    "new_unique_ids": 15,
+    "overlap_against_prior_0740_and_PR14_120": [],
+    "distinct_teams": 6,
+    "distinct_maps": 10
+  },
+  "matches": [
+    {
+      "id": "e362e1f1-c7ff-4f6c-b62b-ef03fc877981",
+      "series": "0dfbddd4-c0b4-4495-9aed-72723097cbfa",
+      "teams": [
+        "PTN Hyperion",
+        "KratosMessi"
+      ],
+      "snapshot_ranks": [
+        14,
+        29
+      ],
+      "map": "rows",
+      "rounds": 410,
+      "submitted_gems": [
+        990,
+        1056
+      ],
+      "winner": "KratosMessi",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "eccbe529-bae6-4f33-8dab-623b7ac6ed36",
+      "series": "0dfbddd4-c0b4-4495-9aed-72723097cbfa",
+      "teams": [
+        "PTN Hyperion",
+        "KratosMessi"
+      ],
+      "snapshot_ranks": [
+        14,
+        29
+      ],
+      "map": "pilgrimage",
+      "rounds": 670,
+      "submitted_gems": [
+        1010,
+        776
+      ],
+      "winner": "PTN Hyperion",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "e186780c-38e0-43c0-806b-7650d087d366",
+      "series": "0dfbddd4-c0b4-4495-9aed-72723097cbfa",
+      "teams": [
+        "PTN Hyperion",
+        "KratosMessi"
+      ],
+      "snapshot_ranks": [
+        14,
+        29
+      ],
+      "map": "packs",
+      "rounds": 520,
+      "submitted_gems": [
+        1032,
+        744
+      ],
+      "winner": "PTN Hyperion",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "da28301e-1037-452e-84fe-cd3bf1d80a9e",
+      "series": "0dfbddd4-c0b4-4495-9aed-72723097cbfa",
+      "teams": [
+        "PTN Hyperion",
+        "KratosMessi"
+      ],
+      "snapshot_ranks": [
+        14,
+        29
+      ],
+      "map": "lanes",
+      "rounds": 407,
+      "submitted_gems": [
+        1014,
+        958
+      ],
+      "winner": "PTN Hyperion",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "d7e37751-a243-4373-990a-737b9974ec70",
+      "series": "0dfbddd4-c0b4-4495-9aed-72723097cbfa",
+      "teams": [
+        "PTN Hyperion",
+        "KratosMessi"
+      ],
+      "snapshot_ranks": [
+        14,
+        29
+      ],
+      "map": "corners",
+      "rounds": 427,
+      "submitted_gems": [
+        1010,
+        400
+      ],
+      "winner": "PTN Hyperion",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "9ba0063b-102e-4ba8-a1c5-992127880439",
+      "series": "6c2c459c-9e87-4b3a-b0c4-3b3e3cca1669",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyxius"
+      ],
+      "snapshot_ranks": [
+        9,
+        5
+      ],
+      "map": "corners",
+      "rounds": 498,
+      "submitted_gems": [
+        1086,
+        666
+      ],
+      "winner": "Univardisty of Shingtonwash",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "80708f34-b499-4806-b7be-81f0c5a42253",
+      "series": "6c2c459c-9e87-4b3a-b0c4-3b3e3cca1669",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyxius"
+      ],
+      "snapshot_ranks": [
+        9,
+        5
+      ],
+      "map": "eight",
+      "rounds": 630,
+      "submitted_gems": [
+        1008,
+        446
+      ],
+      "winner": "Univardisty of Shingtonwash",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "0b9448b8-7acf-40a6-89c0-c754a3bb3a5c",
+      "series": "6c2c459c-9e87-4b3a-b0c4-3b3e3cca1669",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyxius"
+      ],
+      "snapshot_ranks": [
+        9,
+        5
+      ],
+      "map": "stampede",
+      "rounds": 755,
+      "submitted_gems": [
+        0,
+        1080
+      ],
+      "winner": "Nyxius",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "65fc3814-3605-4ba5-8f12-0710fc388b71",
+      "series": "6c2c459c-9e87-4b3a-b0c4-3b3e3cca1669",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyxius"
+      ],
+      "snapshot_ranks": [
+        9,
+        5
+      ],
+      "map": "pilgrimage",
+      "rounds": 851,
+      "submitted_gems": [
+        688,
+        1052
+      ],
+      "winner": "Nyxius",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "b01e9884-6fff-4f5c-866e-bede14813d1e",
+      "series": "6c2c459c-9e87-4b3a-b0c4-3b3e3cca1669",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyxius"
+      ],
+      "snapshot_ranks": [
+        9,
+        5
+      ],
+      "map": "fragment",
+      "rounds": 702,
+      "submitted_gems": [
+        1034,
+        394
+      ],
+      "winner": "Univardisty of Shingtonwash",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "baf53932-9f5b-47bb-8e32-d06ac8114e30",
+      "series": "367423f1-6526-4826-9c8e-1dbb41d12604",
+      "teams": [
+        "Shawn",
+        "Ely2sh"
+      ],
+      "snapshot_ranks": [
+        19,
+        18
+      ],
+      "map": "corners",
+      "rounds": 313,
+      "submitted_gems": [
+        450,
+        1004
+      ],
+      "winner": "Ely2sh",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "bdb5a9d4-2392-4809-9cb1-640e8b156fde",
+      "series": "367423f1-6526-4826-9c8e-1dbb41d12604",
+      "teams": [
+        "Shawn",
+        "Ely2sh"
+      ],
+      "snapshot_ranks": [
+        19,
+        18
+      ],
+      "map": "packs",
+      "rounds": 486,
+      "submitted_gems": [
+        724,
+        1008
+      ],
+      "winner": "Ely2sh",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "c8b9d3b5-5c69-49e9-997f-ced070d99bfb",
+      "series": "367423f1-6526-4826-9c8e-1dbb41d12604",
+      "teams": [
+        "Shawn",
+        "Ely2sh"
+      ],
+      "snapshot_ranks": [
+        19,
+        18
+      ],
+      "map": "interlock",
+      "rounds": 848,
+      "submitted_gems": [
+        1042,
+        630
+      ],
+      "winner": "Shawn",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "a4be8198-45db-4b8a-9b86-3379fa1c0f8a",
+      "series": "367423f1-6526-4826-9c8e-1dbb41d12604",
+      "teams": [
+        "Shawn",
+        "Ely2sh"
+      ],
+      "snapshot_ranks": [
+        19,
+        18
+      ],
+      "map": "stampede",
+      "rounds": 704,
+      "submitted_gems": [
+        0,
+        1080
+      ],
+      "winner": "Ely2sh",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    },
+    {
+      "id": "5713a455-7e51-4c2f-bcdc-aff97408abeb",
+      "series": "367423f1-6526-4826-9c8e-1dbb41d12604",
+      "teams": [
+        "Shawn",
+        "Ely2sh"
+      ],
+      "snapshot_ranks": [
+        19,
+        18
+      ],
+      "map": "ambush",
+      "rounds": 461,
+      "submitted_gems": [
+        569,
+        1024
+      ],
+      "winner": "Ely2sh",
+      "result": "Gem Victory",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null,
+      "provenance": "official public overview"
+    }
+  ],
+  "missingness": {
+    "summary_attempts": 1,
+    "exports": 0,
+    "rate_limit": {
+      "id": "d7e37751-a243-4373-990a-737b9974ec70",
+      "retry_seconds": 24,
+      "batch_stopped": true
+    },
+    "all_detailed_metrics": null,
+    "comment": "No first-buy/affordability/tribute, fixed-horizon, death/bag loss, item, ward, lock, teleport or route metrics extracted. No replay analysis."
+  }
+}

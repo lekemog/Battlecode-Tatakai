@@ -36,3 +36,8 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 125 | v19b | 2026-10-18T15:00Z | v19a + #20: fight threshold calibrated on 1629 top-100 engagements (need 1.3, 0.9 next to spawn; was 0.6). |
 | 126 | v18x | 2026-10-18T15:05Z | Revert from v19b/v19c: on identical top-100 weak-map games v18x won 6, v19b 3, v19c 1 (the fight recalibration made us evade 17% of the time vs 10% and lost stampede races). |
 | 127 | v19a | 2026-10-18T15:36Z | v18z + #20: fight power = strength + 0.5*focus for both sides (casters were valued by strength only). |
+| 128 | v18x | 2026-10-18T15:47Z | Revert from v19b/v19c: on identical top-100 weak-map games v18x won 6, v19b 3, v19c 1 (the fight recalibration made us evade 17% of the time vs 10% and lost stampede races). |
+| 129 | v19f | 2026-10-18T15:59Z | v18x + earlier first items: shop-recall at 110 gold before round 250 (was 180). |
+| 130 | v18x | 2026-10-18T16:02Z | Revert from v19b/v19c: on identical top-100 weak-map games v18x won 6, v19b 3, v19c 1 (the fight recalibration made us evade 17% of the time vs 10% and lost stampede races). |
+| 131 | v19f | 2026-10-18T16:18Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |
+| 132 | v19g | 2026-10-18T16:18Z | v19f + focus-inclusive fight valuation (v19a, thresholds unchanged): v19a alone 7 vs v18x 6 on the t1 games. |

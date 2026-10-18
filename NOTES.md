@@ -405,3 +405,11 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - **Ladder tests on the identical t1 games:** t1d = v19a (focus in fight valuation, old 0.6 threshold), then t1e = v19f. v18x stays live.
 - **GitHub:** no new teammate or ChatGPT comments since 14:00. ChatGPT created branch `chatgpt/faux-execution-lab-20261018` with no commits yet.
 - **Disk:** removed re-downloadable decodes of strong-map / old-cycle games again (6.4 GB).
+
+## ~16:05 UTC: v19f live (version 131): earlier first items
+- **Identical 75 weak-map games:** v19f **10**, v19a 7, v18x 6, v19b 3, v19c 1. v19f won 7 of the 10 games that differed from v18x.
+- **Ladder check of the v18x fixes:**
+  - #16: central-altar tributes 6% → 38%. It works, but only partially.
+  - #17: defensive share barely moved.
+  - #18: bag conversion unchanged.
+- **Next:** v19g (v19f + focus valuation) on the same games, then a strong-map regression check (v19f vs v18x).

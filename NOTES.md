@@ -89,3 +89,4 @@ Fix, applied on gold-only maps only (`siege_group>=0`; other maps are unchanged)
 - A champion with no ally within 6 never takes a fight away from home.
 
 **Local contest result vs v16n:** won both sides on the gold tiebreak, 9830 vs 7960 and 8445 vs 5545 gold, with fewer deaths in one game.
+- **v16p rejected:** counting enemy focus in the fight calculation and never letting Cassi fight alone went 11/34, −184 locally vs v16o (too cautious). **v16o stays live.**

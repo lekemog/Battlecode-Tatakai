@@ -2,6 +2,7 @@
 replays and tie each to the bot decision path that produced it. Writes per-match rows and an
 aggregate to /home/claude/data/our_rep/audit.json and prints a summary."""
 import json, os, glob, collections, sys, re
+CYC = sys.argv[sys.argv.index('--cycle') + 1] if '--cycle' in sys.argv else None
 sys.argv = [sys.argv[0]]
 exec(open('/home/claude/tools/replay/dataset.py').read().split('FEATS =')[0])   # load_map
 OUT = '/home/claude/data/our_rep'
@@ -26,6 +27,7 @@ for js in sorted(glob.glob(f'{OUT}/*.json')):
     mid = os.path.basename(js)[:-5]
     if mid not in idx: continue
     meta = idx[mid]
+    if CYC and meta.get('cycle') != CYC: continue
     try: d = json.load(open(js))
     except Exception: continue
     R = d['rounds']

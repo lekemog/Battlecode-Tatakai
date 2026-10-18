@@ -24,7 +24,7 @@ for m in allm:
     idx[m['matchId']] = {'map': m['map'], 'side': us['side'], 'result': us.get('result'), 'opp': op['name'], 'at': m['createdAt'],
                          'v16m': m['createdAt'] >= '2026-10-18T00:37'}
 json.dump(idx, open(f'{OUT}/index.json', 'w'), indent=0)
-order = sorted(idx, key=lambda k: (not idx[k]['v16m'], idx[k]['result'] == 'win', idx[k]['at'][::-1]))
+order = sorted(idx, key=lambda k: idx[k]['at'], reverse=True)
 print('matches', len(idx), flush=True)
 for mid in order:
     js = f'{OUT}/{mid}.json'

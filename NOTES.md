@@ -109,3 +109,15 @@ Full report: `results/match-audit-2026-10-18.md`.
 - **v16s:** the 3-pick draft order is now Cassi & Issac, Varg, Stellar, Tavi, Ren.
   - Local result vs v16o: 15/34, −18. On the 3-pick maps it was only 2 of 8, so self-play disagrees with the ladder.
   - Deployed anyway to test it on the ladder: cycle 2 (`c2_v16s`, 30 groups vs the top 100). If cycle 2's 3-pick results don't beat cycle 1's 4/28, revert to v16o.
+
+## ~06:20 UTC: loop run 3. v16s reverted, v16t deployed (version 92)
+- **Cycle 2 (v16s):** 24 of 150 wins.
+  - On the 3-pick maps it changed, v16s won 3 of 36 (v16o: 4 of 32), with an average gem margin of −525 (v16o: −434). **Draft change rejected.**
+  - The extra wins came on maps the change didn't touch (stampede, pilgrimage, ambush), so they're opponent noise.
+- **Cycle 2 audit:**
+  - farm_caught: 26% of deaths.
+  - Linked Cassi/Issac deaths: 17%.
+  - farm_caught deaths mostly happen against 1–2 enemies with the logged action still `farm`. The fight is judged favourable, but the enemy stays outside our range and pokes, so `handle_enemies` returns false and we keep hitting the camp.
+- **v16t = v16o + "engage":** if the fight is favourable and an enemy within its range+1 can hit us, we move in and fight it.
+  - Local result vs v16o: **18/34, +26**.
+  - Deployed. Cycle 3 is `c3_v16t`.

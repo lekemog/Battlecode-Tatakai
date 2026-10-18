@@ -32,3 +32,6 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 121 | v18t | 2026-10-18T13:45Z | DIAGNOSTIC: behaviour identical to v18f; logs every decision (action, target, hp, gems, enemies, allies, posture, fight ratio) for weak-map analysis. |
 | 122 | v19b | 2026-10-18T13:52Z | v19a + #20: fight threshold calibrated on 1629 top-100 engagements (need 1.3, 0.9 next to spawn; was 0.6). |
 | 123 | v19b | 2026-10-18T13:53Z | v19a + #20: fight threshold calibrated on 1629 top-100 engagements (need 1.3, 0.9 next to spawn; was 0.6). |
+| 124 | v19c | 2026-10-18T14:57Z | v19b + strike-first rule from top-10 fights: engage from power ratio 0.85 when we can hit first (not hit by a champion for 4 rounds). |
+| 125 | v19b | 2026-10-18T15:00Z | v19a + #20: fight threshold calibrated on 1629 top-100 engagements (need 1.3, 0.9 next to spawn; was 0.6). |
+| 126 | v18x | 2026-10-18T15:05Z | Revert from v19b/v19c: on identical top-100 weak-map games v18x won 6, v19b 3, v19c 1 (the fight recalibration made us evade 17% of the time vs 10% and lost stampede races). |

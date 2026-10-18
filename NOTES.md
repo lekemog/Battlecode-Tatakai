@@ -392,3 +392,9 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - v19d (gold weight 0.4 for the first 200 rounds) gave mixed uncontested pace: corners slower, monolith faster.
   - Next: earlier first item (shop on the way past spawn, earlier shop-recall).
 - **Traces:** `results/traces/d1_deaths_by_decision.txt`.
+
+## ~15:10 UTC: v19b/v19c rejected on the ladder; v18x live (version 126)
+- **Identical 75 weak-map games** (same 15 teams, same maps): v18x **6**, v19b 3, v19c 1. All the wins came on stampede and collision.
+- **Why** (traces): v19b cut deaths after taken fights (45% → 27%) but evades much more (evade/retreat 10% → 17% of decisions, ~120 evade episodes per game). The lost farming and racing time cost more than the fights it avoided.
+- **Lesson:** engagement-outcome calibration ignores the cost of disengaging.
+- **Kept:** the focus-inclusive valuation might still help in `threat()` / danger only. To test with the old thresholds.

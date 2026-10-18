@@ -62,3 +62,12 @@ On open farming maps with **zero deaths** on both sides we still lose by 300–4
 In corners vs KratosMessi (match `153c6e14-174d-4cb6-b05d-13bac5e42682`), they captured **42 camps with champions farming solo in parallel**. We captured **14**, mostly the 96-gem central group as a 5-champion pack, and our Stellar collected 0 gems all game.
 
 Tested `v12j` (solo farming on maps ≥70 wide). It was worse locally: gems at round 300 were 269 vs 310, and the benchmark margin was −111. So "just split" isn't it. Our solo camp-safety check (`choose()`: `g.str*clear*.6 > my_hp*.6`) probably rejects the 22–36 gem camps that top teams solo. This is the main open problem.
+
+## Sun 18 Oct ~01:30: state at hand-off
+- **Live: v12m (version 84).** Best proven: no candidate beat it in paired top-100 scrims.
+- **Strongest untested candidate: `bots/v16g`.**
+  - Contents: Tavi draft (Varg, Stellar, Tavi, Cassi, Ren), dash used for travel, skipping camps that need long respawn waits, and a solo→pack fallback for unseen maps.
+  - Local results: 17/34, +92 vs v12m. Its W21 scrim was stopped.
+- **v15e** (expected-value banking from the learned danger model): local 18/34, +59. W19 was 0/25 vs 0/25; margins never finished downloading.
+- **Rejected:** v15a (full opponent model), imitation-learned camp choice, solo/multi-squad farming, altar locks with wards, Varg-first draft.
+- **Key measurement** (`tools/replay/actrate.py`): our champions idle about 30% of rounds against 8% for top teams. On rows, 21% of our time is spent waiting at dead camps (6.5% for top teams).

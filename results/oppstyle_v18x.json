@@ -1,0 +1,2654 @@
+[
+ {
+  "style": "fz_hunt",
+  "map": "p_25d81311",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_25d81311",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_2e9820ee",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1055.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 2450.0,
+    "our_deaths": 2.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 2450.0,
+    "our_deaths": 2.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_2e9820ee",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1335.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1585.0,
+    "our_deaths": 0.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 1585.0,
+    "our_deaths": 0.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_3991a8b3",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   },
+   "150": {
+    "dmg_from_champs": 530.0,
+    "our_deaths": 0.0,
+    "our_kills": 2.0,
+    "their_banked": 220.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_3991a8b3",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 480.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 840.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 110.0
+   },
+   "150": {
+    "dmg_from_champs": 870.0,
+    "our_deaths": 0.0,
+    "our_kills": 2.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_3a5c2468",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_3a5c2468",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_3e2df5be",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1680.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 2660.0,
+    "our_deaths": 1.0,
+    "our_kills": 2.0,
+    "their_banked": 72.0
+   },
+   "150": {
+    "dmg_from_champs": 2860.0,
+    "our_deaths": 1.0,
+    "our_kills": 3.0,
+    "their_banked": 72.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_3e2df5be",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 650.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1780.0,
+    "our_deaths": 0.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 2100.0,
+    "our_deaths": 1.0,
+    "our_kills": 5.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_699c96a0",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 106.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_699c96a0",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 106.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_7bfc2edd",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1105.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 68.0
+   },
+   "150": {
+    "dmg_from_champs": 1855.0,
+    "our_deaths": 0.0,
+    "our_kills": 2.0,
+    "their_banked": 68.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_7bfc2edd",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1395.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 68.0
+   },
+   "150": {
+    "dmg_from_champs": 1745.0,
+    "our_deaths": 2.0,
+    "our_kills": 1.0,
+    "their_banked": 68.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_81929320",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_81929320",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_93852276",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 110.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 154.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_93852276",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 110.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_9925f416",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 970.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 4000.0,
+    "our_deaths": 2.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 4805.0,
+    "our_deaths": 3.0,
+    "our_kills": 0.0,
+    "their_banked": 58.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_9925f416",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 235.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 58.0
+   },
+   "100": {
+    "dmg_from_champs": 575.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 58.0
+   },
+   "150": {
+    "dmg_from_champs": 655.0,
+    "our_deaths": 0.0,
+    "our_kills": 3.0,
+    "their_banked": 58.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_b135e0fc",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 859.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 1229.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 1229.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 88.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_b135e0fc",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 224.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_b777c8c8",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 500.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 72.0
+   },
+   "150": {
+    "dmg_from_champs": 1280.0,
+    "our_deaths": 3.0,
+    "our_kills": 1.0,
+    "their_banked": 94.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_b777c8c8",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 515.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 1245.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 72.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_bb12893c",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 72.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 216.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_bb12893c",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 80.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 750.0,
+    "our_deaths": 1.0,
+    "our_kills": 2.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 1125.5,
+    "our_deaths": 1.0,
+    "our_kills": 4.0,
+    "their_banked": 18.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_df22386f",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_df22386f",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_e3c29b68",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 168.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 168.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_e3c29b68",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 168.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 168.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_f2b6903f",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 750.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 750.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 3035.0,
+    "our_deaths": 3.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_f2b6903f",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1205.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1305.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 2585.0,
+    "our_deaths": 0.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_f930f43f",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1713.0,
+    "our_deaths": 2.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   },
+   "100": {
+    "dmg_from_champs": 2797.0,
+    "our_deaths": 4.0,
+    "our_kills": 1.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 3252.0,
+    "our_deaths": 6.0,
+    "our_kills": 1.0,
+    "their_banked": 176.0
+   }
+  }
+ },
+ {
+  "style": "fz_hunt",
+  "map": "p_f930f43f",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1654.0,
+    "our_deaths": 2.0,
+    "our_kills": 2.0,
+    "their_banked": 88.0
+   },
+   "100": {
+    "dmg_from_champs": 2604.0,
+    "our_deaths": 5.0,
+    "our_kills": 2.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 2933.0,
+    "our_deaths": 5.0,
+    "our_kills": 3.0,
+    "their_banked": 176.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_25d81311",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_25d81311",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_2e9820ee",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 910.0,
+    "our_deaths": 1.0,
+    "our_kills": 2.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 910.0,
+    "our_deaths": 1.0,
+    "our_kills": 2.0,
+    "their_banked": 110.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_2e9820ee",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 235.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 1685.0,
+    "our_deaths": 2.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 2492.0,
+    "our_deaths": 2.0,
+    "our_kills": 1.0,
+    "their_banked": 154.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_3991a8b3",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 170.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "100": {
+    "dmg_from_champs": 170.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 290.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_3991a8b3",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 170.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 170.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 390.0,
+    "our_deaths": 0.0,
+    "our_kills": 2.0,
+    "their_banked": 88.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_3a5c2468",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_3a5c2468",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_3e2df5be",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1430.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 2200.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 2653.6499938964844,
+    "our_deaths": 3.0,
+    "our_kills": 2.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_3e2df5be",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1395.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1395.0,
+    "our_deaths": 0.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 1395.0,
+    "our_deaths": 1.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_699c96a0",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_699c96a0",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_7bfc2edd",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1415.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 1730.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_7bfc2edd",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 2385.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 2385.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 51.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_81929320",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_81929320",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_93852276",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 154.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_93852276",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 176.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_9925f416",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 935.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "100": {
+    "dmg_from_champs": 1320.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "150": {
+    "dmg_from_champs": 2510.0,
+    "our_deaths": 2.0,
+    "our_kills": 0.0,
+    "their_banked": 33.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_9925f416",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "100": {
+    "dmg_from_champs": 495.0,
+    "our_deaths": 0.0,
+    "our_kills": 2.0,
+    "their_banked": 22.0
+   },
+   "150": {
+    "dmg_from_champs": 495.0,
+    "our_deaths": 0.0,
+    "our_kills": 2.0,
+    "their_banked": 22.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_b135e0fc",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 140.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 140.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 232.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_b135e0fc",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 140.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 140.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 210.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_b777c8c8",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 485.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 485.0,
+    "our_deaths": 1.0,
+    "our_kills": 2.0,
+    "their_banked": 110.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_b777c8c8",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 708.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 808.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 182.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_bb12893c",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 18.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 36.0
+   },
+   "150": {
+    "dmg_from_champs": 700.0,
+    "our_deaths": 2.0,
+    "our_kills": 0.0,
+    "their_banked": 108.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_bb12893c",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 36.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 126.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_df22386f",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "100": {
+    "dmg_from_champs": 530.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 22.0
+   },
+   "150": {
+    "dmg_from_champs": 530.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 110.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_df22386f",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 100.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_e3c29b68",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 198.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_e3c29b68",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 780.0,
+    "our_deaths": 2.0,
+    "our_kills": 0.0,
+    "their_banked": 220.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_f2b6903f",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 690.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 690.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 2870.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_f2b6903f",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 270.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 270.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 570.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_f930f43f",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 280.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 670.0,
+    "our_deaths": 1.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 770.0,
+    "our_deaths": 1.0,
+    "our_kills": 5.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_solo",
+  "map": "p_f930f43f",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 885.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 2970.0,
+    "our_deaths": 4.0,
+    "our_kills": 2.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 3807.5,
+    "our_deaths": 4.0,
+    "our_kills": 2.0,
+    "their_banked": 124.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_25d81311",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 198.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_25d81311",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_2e9820ee",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 660.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1720.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 1760.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_2e9820ee",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 575.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1135.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 1135.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 22.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_3991a8b3",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 750.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 176.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_3991a8b3",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 315.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 315.0,
+    "our_deaths": 0.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_3a5c2468",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_3a5c2468",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_3e2df5be",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1020.0,
+    "our_deaths": 3.0,
+    "our_kills": 1.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 2135.0,
+    "our_deaths": 3.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 2475.0,
+    "our_deaths": 3.0,
+    "our_kills": 3.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_3e2df5be",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 1345.0,
+    "our_deaths": 2.0,
+    "our_kills": 2.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 2255.0,
+    "our_deaths": 4.0,
+    "our_kills": 2.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 4450.0,
+    "our_deaths": 4.0,
+    "our_kills": 2.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_699c96a0",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 106.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_699c96a0",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 178.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_7bfc2edd",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 230.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 390.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_7bfc2edd",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 1070.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 1110.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_81929320",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 110.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_81929320",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_93852276",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_93852276",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 175.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   },
+   "150": {
+    "dmg_from_champs": 175.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 154.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_9925f416",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 325.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 1335.0,
+    "our_deaths": 2.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 1335.0,
+    "our_deaths": 2.0,
+    "our_kills": 1.0,
+    "their_banked": 66.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_9925f416",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 630.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 1235.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   },
+   "150": {
+    "dmg_from_champs": 1235.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 44.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_b135e0fc",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 176.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_b135e0fc",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 44.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 180.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_b777c8c8",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 72.0
+   },
+   "150": {
+    "dmg_from_champs": 825.0,
+    "our_deaths": 3.0,
+    "our_kills": 0.0,
+    "their_banked": 144.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_b777c8c8",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 72.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 116.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_bb12893c",
+  "side": 0,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 144.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 180.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_bb12893c",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 300.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 750.0,
+    "our_deaths": 1.0,
+    "our_kills": 0.0,
+    "their_banked": 180.0
+   },
+   "150": {
+    "dmg_from_champs": 750.0,
+    "our_deaths": 1.0,
+    "our_kills": 1.0,
+    "their_banked": 180.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_df22386f",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 170.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 170.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 22.0
+   },
+   "150": {
+    "dmg_from_champs": 170.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 66.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_df22386f",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 110.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_e3c29b68",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 168.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 204.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_e3c29b68",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 132.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_f2b6903f",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_f2b6903f",
+  "side": 1,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "100": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   },
+   "150": {
+    "dmg_from_champs": 0.0,
+    "our_deaths": 0.0,
+    "our_kills": 0.0,
+    "their_banked": 0.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_f930f43f",
+  "side": 0,
+  "win": true,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 3220.0,
+    "our_deaths": 3.0,
+    "our_kills": 0.0,
+    "their_banked": 88.0
+   },
+   "100": {
+    "dmg_from_champs": 4808.0,
+    "our_deaths": 3.0,
+    "our_kills": 1.0,
+    "their_banked": 88.0
+   },
+   "150": {
+    "dmg_from_champs": 5000.0,
+    "our_deaths": 3.0,
+    "our_kills": 3.0,
+    "their_banked": 88.0
+   }
+  }
+ },
+ {
+  "style": "fz_herd",
+  "map": "p_f930f43f",
+  "side": 1,
+  "win": false,
+  "sig": {
+   "60": {
+    "dmg_from_champs": 784.0,
+    "our_deaths": 0.0,
+    "our_kills": 2.0,
+    "their_banked": 88.0
+   },
+   "100": {
+    "dmg_from_champs": 1697.0,
+    "our_deaths": 3.0,
+    "our_kills": 2.0,
+    "their_banked": 124.0
+   },
+   "150": {
+    "dmg_from_champs": 3067.0,
+    "our_deaths": 6.0,
+    "our_kills": 2.0,
+    "their_banked": 212.0
+   }
+  }
+ }
+]

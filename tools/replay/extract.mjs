@@ -32,7 +32,13 @@ async function load(version) {
     },
     proc_exit(c) { throw Error('exit ' + c); },
   };
-  const bytes = fs.readFileSync(path.join(assets, version + '.wasm'));
+  // Newer visualiser downloads name engines with a content hash (v0_0_1-ctH8uuEb.wasm).
+  let wasmFile = path.join(assets, version + '.wasm');
+  if (!fs.existsSync(wasmFile)) {
+    const hashed = fs.readdirSync(assets).find(f => f.startsWith(version + '-') && f.endsWith('.wasm'));
+    if (hashed) wasmFile = path.join(assets, hashed);
+  }
+  const bytes = fs.readFileSync(wasmFile);
   const { instance } = await WebAssembly.instantiate(bytes, {
     wasi_snapshot_preview1: wasi,
     deep_wasm: { on_assert_fail_impl() { return 1; } },

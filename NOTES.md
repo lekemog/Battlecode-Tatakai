@@ -398,3 +398,10 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - **Why** (traces): v19b cut deaths after taken fights (45% → 27%) but evades much more (evade/retreat 10% → 17% of decisions, ~120 evade episodes per game). The lost farming and racing time cost more than the fights it avoided.
 - **Lesson:** engagement-outcome calibration ignores the cost of disengaging.
 - **Kept:** the focus-inclusive valuation might still help in `threat()` / danger only. To test with the old thresholds.
+
+## ~15:40 UTC: early economy (#21), v19a/v19f tests
+- Opened **#21** (early economy): they earn +26% gold and own 2× our items at round 50. Gems are level until round 100.
+- **v19f** (shop-recall at 110 gold before round 250): mixed uncontested pace.
+- **Ladder tests on the identical t1 games:** t1d = v19a (focus in fight valuation, old 0.6 threshold), then t1e = v19f. v18x stays live.
+- **GitHub:** no new teammate or ChatGPT comments since 14:00. ChatGPT created branch `chatgpt/faux-execution-lab-20261018` with no commits yet.
+- **Disk:** removed re-downloadable decodes of strong-map / old-cycle games again (6.4 GB).

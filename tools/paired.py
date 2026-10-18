@@ -21,6 +21,10 @@ def cmd(args, tries=8, cwd=None):
 opps = sorted(POOL, key=lambda p: (last.get(p[1], ''), random.random()))[:N]
 off = random.randrange(len(MAPS))
 plan = [(rank, tid, name, ','.join(MAPS[(off + k * 5 + j) % len(MAPS)] for j in range(5))) for k, (rank, tid, name) in enumerate(opps)]
+if '--same-as' in sys.argv:   # replay another arm's exact opponents and maps: --same-as TAG_BOT
+    ref = json.load(open(f"{OUT}/cycle_{sys.argv[sys.argv.index('--same-as') + 1]}.json"))
+    byname = {name: (rank, tid) for rank, tid, name in POOL}
+    plan = [(g['rank'], byname[g['opp']][1], g['opp'], g['maps']) for g in ref if g['opp'] in byname][:N]
 for b in BOTS:
     subprocess.run(['python3', '-I', '/home/claude/tools/submit.py', b])
     time.sleep(90)

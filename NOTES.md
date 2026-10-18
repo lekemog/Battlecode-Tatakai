@@ -274,3 +274,32 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - v18a: health-first frontliners, gauntlet 64.
   - `fz_tank` (health-stacker faux bot): loses to v17w and v18c locally.
 - **Paired c8 (15 teams):** v18c vs v17w. v17w stays live after.
+
+## ~11:40 UTC: opponent style, weak-map focus, top-vs-top study
+- **Opponent style** (735 decoded top-100 games, by round 250):
+  - **Passive** (≤3 kills on us, <25% of their time on our half): 71% of games. We win 16%. They lead by +60 gems at round 250.
+  - **Aggressive:** 29% of games. We win 8%. They kill us 5.3 times; we kill them 2.1.
+  - We spend 4% of our time on their half; they spend 10% on ours. **Leke is right: the bot is conflict-averse.**
+- **v18f = v17w + RAID mode.** If the opponent is passive (max aggression < 25, ≤2 deaths) and leads by 40+ on a big map (≥50 wide) from round 120:
+  - Prefer their-side camps.
+  - Fight at need 0.5 without a bag.
+  - Hunt bags of 30+ within 11 tiles.
+  - Called off after 3 deaths.
+  - Aggressive opponents still trigger the existing defensive posture.
+  - Gauntlet 65 (v17w 67). Corners vs v17w won both sides (1068–790, 1068–948).
+  - v18e (raid on all maps) was rejected: gauntlet 59, lost collision both sides.
+- **How top teams win the weak maps** (`tools/howtheywin.py`, 9–10 top-vs-top games per map, winner vs loser):
+
+| Map | Winner deaths | Loser deaths | Other differences |
+|---|---|---|---|
+| collision | 2.5 | 9.9 | Winners take 35.6 22-gem camps vs 24.7, and 24 banks vs 14. Draft: Cassi & Issac, Ren, Stellar |
+| corners | 3.7 | 9.4 | Max HP 1290 vs 1081 |
+| eight | 5.8 | 14 | Winners first tribute ~106 vs 188, bank 20 times vs 6, take 11 44-gem camps vs 4.5 |
+| contest | 21 | 66 | Winners take ~4 monoliths. Their drafts lean Prism/Tavi |
+| stampede | — | — | Winners take the herd 1.7 times; drafts lean Prism + Cassi |
+
+- **Conclusion:** on every weak map, the side that wins the fights wins, even on "farming" maps. Winners field 1200–1290 max HP. Their 6-pick draft is Cassi & Issac, Ren, Ryth, Stellar, Varg (Ryth, not Tavi).
+- **Testing is now focused on the weak maps** (`paired.py --maps collision,corners,contest,eight,stampede`):
+  - **c8w:** v18c (corners gem farmers), v18f (raid), v17w.
+  - **c9w:** v18i (winners' 6-pick draft), v18j (health items for frontliners), v17w.
+  - These hypotheses can't be judged locally: the faux bots are our own code, and they already rejected Ryth (v17y, gauntlet 57) and health (v18a, 64).

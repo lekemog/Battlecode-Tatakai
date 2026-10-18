@@ -7,8 +7,9 @@ KEEP = sys.argv[sys.argv.index('--keep') + 1] if '--keep' in sys.argv else BOTS[
 OUT = '/home/claude/data/our_rep'
 POOL = json.load(open('/home/claude/data/ab/top100_pool.json'))
 LU = '/home/claude/data/ab/cycle_lastused.json'; last = json.load(open(LU)) if os.path.exists(LU) else {}
-MAPS = ['rows', 'corners', 'lanes', 'swirl', 'monolith', 'fragment', 'packs', 'collision', 'expanse', 'rushbait_v2',
+MAPS_ALL = ['rows', 'corners', 'lanes', 'swirl', 'monolith', 'fragment', 'packs', 'collision', 'expanse', 'rushbait_v2',
         'stampede', 'pilgrimage', 'elkring', 'interlock', 'eight', 'contest', 'ambush']
+MAPS = sys.argv[sys.argv.index('--maps') + 1].split(',') if '--maps' in sys.argv else MAPS_ALL
 def cmd(args, tries=8, cwd=None):
     for t in range(tries):
         r = subprocess.run(args, capture_output=True, text=True, cwd=cwd)
@@ -18,8 +19,8 @@ def cmd(args, tries=8, cwd=None):
         m = re.search(r'retry after (\d+)', msg); time.sleep(int(m.group(1)) + 1 if m else 5)
     return None
 opps = sorted(POOL, key=lambda p: (last.get(p[1], ''), random.random()))[:N]
-off = random.randrange(17)
-plan = [(rank, tid, name, ','.join(MAPS[(off + k * 5 + j) % 17] for j in range(5))) for k, (rank, tid, name) in enumerate(opps)]
+off = random.randrange(len(MAPS))
+plan = [(rank, tid, name, ','.join(MAPS[(off + k * 5 + j) % len(MAPS)] for j in range(5))) for k, (rank, tid, name) in enumerate(opps)]
 for b in BOTS:
     subprocess.run(['python3', '-I', '/home/claude/tools/submit.py', b])
     time.sleep(90)

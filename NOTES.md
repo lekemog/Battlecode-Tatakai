@@ -341,3 +341,14 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - Stampede is also decided by starting side in self-play, so the ladder decides.
   - **v18q** (one pack races the herd) lost to the vulture locally from both sides. Not promoted.
 - **c10w** (after c9w): v18r vs v18m, 15 teams, weak maps.
+
+## ~12:45 UTC: weak-map deep diagnosis. No blind shipping; issues #15–#19 opened
+- Leke asked for no more blind shipping. The work order is now **diagnose → write a GitHub issue with the evidence → fix → verify the mechanism → paired ladder test**.
+- **New tools:**
+  - `tools/weakmap.py MAP`: us vs them per map — picked vs banked gems, deaths, zone time, who starts fights, posture share, HP.
+  - `tools/altaruse.py`: tributes per altar and bag hold time.
+- **Common pattern on the 5 weak maps:** the middle (central altar or objective) decides the game. They spend 28–59% of their time there (us 14–29%), start 1.4–3.8× more fights, and bank about 90% of the gems they pick up (us 14–54%). We are 250–370 max HP behind everywhere. See #15.
+- **#16 Corners:** 96% of our tributes are at the corner altars (bags held 79 rounds) vs 85% of theirs at the centre (21 rounds). The cause is `bank()` treating the centre as a kill zone permanently ("seen within 20 rounds"). Fix candidate v18u: avoid an altar only when enemies are there now and danger > .25. Verified locally: central tributes went from 0–3 to 10–11 per game, and vs fz_solo the result improved from 0–2 to 1–1.
+- **#17 Opponent model:** we are in defensive posture for 65% of contest games and 50% of eight; the stun-draft prior starts us at aggression 45. We concede the middle.
+- **#18 Conversion.** **#19 HP gap.**
+- **Live:** v18t (diagnostic trace build; behaviour identical to v18f). Diagnostic scrims d1: 30 top-100 teams × the 5 weak maps.

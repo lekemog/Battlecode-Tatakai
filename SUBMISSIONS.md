@@ -27,3 +27,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 116 | v18f | 2026-10-18T11:44Z | v17w + RAID: vs passive farmers who lead us on big maps, take their-side camps and hunt carriers (bolder fights without a bag); off after 3 deaths. |
 | 117 | v18k | 2026-10-18T11:44Z | v18f (raid) + top-team winners draft for 4+ picks (Ryth over Tavi) + health items for frontliners. |
 | 118 | v18m | 2026-10-18T12:13Z | v18f + monolith bag convoy: 100+ gem carrier goes home, rallies the team to spawn, walks to the altar with 2+ allies (60-round cap). |
+| 119 | v18t | 2026-10-18T12:32Z | DIAGNOSTIC: behaviour identical to v18f; logs every decision (action, target, hp, gems, enemies, allies, posture, fight ratio) for weak-map analysis. |

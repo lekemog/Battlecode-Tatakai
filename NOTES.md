@@ -449,3 +449,5 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - 18:40 UTC t1i: v19i 6/75 (eight 2, corners 0, collision 0). The corners/collision loss is not from focus valuation; suspect v18z resets. v19f stays live.
 
 - 19:20 UTC: the ct test never ran. cambc rejects groups with repeated maps ("Choose exactly five different maps", HTTP 400), and paired.py logged every error as "quota wait", so v19j sat live as an untested arm from about 18:01 to 19:20. Fixed: paired.py now exits on HTTP 400. v19j is re-queued as t1j (identical t1 games; its contest results come from the same 15 games) after t1m (v19m, now live as the test arm). The ladder keeps v19f.
+
+- 19:30 UTC t1m: v19m 8/75 (corners 1, collision 1). Not deployed. t1j (v19j) running.

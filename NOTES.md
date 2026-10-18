@@ -198,3 +198,33 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - v17k (wards only on our half): 18/34, −27, and it lost stampede both sides.
   - v17l (minimum bank bag 60 → 40): 18/34, −1, no pace change.
   - v17m (re-place a ward only when ours is 10+ tiles away): mixed pace.
+
+## ~09:55 UTC: c6 result, and an audit of unbounded waits and retries (Leke's request)
+- **Paired c6 (15 teams, 75 games each): v16w 14 wins, v17i 13.** The 13 games that differed split 7–6, so the local +191 did **not** carry over.
+  - Against the top 100, both bots still go 0 on contest (4 games each) and collision (5 each). Eight and stampede are 1–2 wins out of 4–5 each.
+- **Stampede ladder replay (v17i vs Gem Simons, `922538fb`):** they cleared the 360-gem herd from round 75 in ~75 rounds, three times. Our herd ward was in place, but no rule acted on what it showed.
+
+**Every wait, retry or hold state in v17i, and its bound** (code labels in brackets):
+
+| State | Before | Now (v17u) |
+|---|---|---|
+| Waiting to bank with enemies near (`bank-wait`) | 12 rounds, **unbounded for bags of 60+** | 12 rounds; 80 for big bags |
+| Cancelling a tribute | 3 times, **unbounded for bags of 60+** | 3; 20 for big bags |
+| Carrier regrouping before banking (`bank-regroup`) | 12 rounds | 12 rounds |
+| Siege bag gathering (`siege-gather`) | 20 rounds, but the timer never reset (fixed in v17i) | 20 rounds per bag |
+| Siege staging (`siege-wait`) | **unbounded if the staging ring was unreachable** | 40 rounds overall, then attack |
+| Escorting a carrier | **unbounded** | 80 consecutive rounds, then 30 off |
+| Walking to plant the herd ward (`to-herd`) | **unbounded** (fixed in v17i) | 80 rounds |
+| Capturing a reward | **unbounded** (an unreachable or blocked region looped) | 150 rounds, then ban that group for 60 |
+| Retreat or heal at spawn | Bounded by healing | Unchanged |
+| Shopping loop | Halving loop, bounded | Unchanged |
+
+- **Tighter bounds tested and rejected, because they cut off legitimate long actions:**
+  - v17o/p (a target watchdog that bans a camp after 70 or 30 rounds without progress, plus a 30-round capture cap): 18/34 −70 and 15/34 −83.
+  - v17q/r (capture cap at 30–60 rounds): lost stampede (the herd capture is long) and swirl.
+  - **v17u keeps only the lenient caps: 16/34, +36 vs v17i, with no map regressing on both sides.**
+- **v17v = v17u + two changes:**
+  - Herd vulture: a seen herd below 50% HP becomes the top-priority target.
+  - Fix for ChatGPT's finding that `solo_target` used the single weakest visible camp's HP instead of the group's remaining HP.
+  - Local result vs v17u: 16/34, −23.
+- **Paired c7 (10 teams):** v17u, v17v and v17i. v17u stays live.

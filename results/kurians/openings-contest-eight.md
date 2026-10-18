@@ -44,5 +44,25 @@
 2. **Eight:** the r50→r100 window decides it, with the first bank around r100 and steady small banks after. That matches #18 (we lose bags while carrying them). Our first tribute and banked gems at r300 on eight, against 101 / 402, would size the gap.
 3. **Raiding/invading is not how top teams win these maps.** That's relevant to v18f's raid mode.
 
+## Collision, corners, stampede (added later; 10 / 10 / 9 games)
+| Measure (winners vs losers) | Collision | Corners | Stampede |
+|---|---|---|---|
+| First tribute | r81 vs r86 | r68 vs r69 | r410 vs r386 |
+| Banked r300 | **253** vs 180 | **399** vs 272 | **180** vs 60 |
+| Banked r600 | **802** vs 367 | **872** vs 554 | **733** vs 100 |
+| Gold earned r100 / r150 | 411/748 vs 365/560 | 688/1039 vs 579/911 | **197/606 vs 388/658** |
+| Items owned r50 / r100 | 2.8/6.0 vs 2.0/8.1 | **4.0/9.6** vs 2.3/6.1 | **0.1/0.9 vs 1.6/7.9** |
+| Deaths by r150 | **0.6** vs 1.6 | 0.6 vs 1.2 | 0.8 vs 0.9 |
+| Middle third / enemy third | 52%/1% vs 47%/0% | 47%/1% vs 47%/0% | 62%/5% vs 56%/2% |
+
+- **Collision:** the openings look the same (first bank ~r80 for both). The gap opens *after* r150: by r600, 802 vs 367 banked. Winners die about a third as often early. Winners' drafts lean Ren, losers' lean Varg.
+- **Corners:** winners **own more items early** (4.0 vs 2.3 at r50, 9.6 vs 6.1 at r100), consistent with v19f's early-items result. **Ryth was in all 10 winning drafts**, against 5 of 10 losing ones; Tavi was the reverse (4 vs 8).
+- **Stampede is the exception:** winners have **less** gold and almost **no items** early (0.9 vs 7.9 at r100), but bank 3–7× more by r300–r600. That suggests they skip early shopping and gold to race the 360-gem herd. **An early-economy push could hurt on this map.** Winners lean Prism and Willow, losers Ryth.
+
+**Across all five weak maps:**
+- **Nobody wins by invading.** Winners spend 0–5% of the opening in the enemy third.
+- Winners die about half as often in the first 150 rounds.
+- How the early economy matters depends on the map: it's decisive on contest, eight and corners, but works against you on stampede.
+
 ## Per-game detail
 Run `python tools/openings.py contest DIR` and `python tools/openings.py eight DIR` (match IDs are printed for every game).

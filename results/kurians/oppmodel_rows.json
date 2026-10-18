@@ -1,0 +1,7874 @@
+[
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.09181494661921709,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "17930cf8-730c-43fd-8e9c-ccddd962355c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.041168658698539175,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "17930cf8-730c-43fd-8e9c-ccddd962355c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0367965367965368,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "3b877ea5-7f37-4992-8f47-228e4d13f855"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.011288180610889775,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "3b877ea5-7f37-4992-8f47-228e4d13f855"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.05776892430278884,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "3c33d342-2b0f-44b3-b236-f947002adb40"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "3c33d342-2b0f-44b3-b236-f947002adb40"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "49263c40-cc87-4ee0-a691-2f386ea51ec7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.009296148738379814,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "49263c40-cc87-4ee0-a691-2f386ea51ec7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "4b84d400-6925-44e3-9a9d-94115d1a2204"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "4b84d400-6925-44e3-9a9d-94115d1a2204"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "84616023-b1b3-47ff-a6e7-ba24f0e4cd39"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.06440903054448871,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "84616023-b1b3-47ff-a6e7-ba24f0e4cd39"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.04249667994687915,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "b48452af-3910-4c06-ae16-42a7322603e3"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.008632138114209827,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "b48452af-3910-4c06-ae16-42a7322603e3"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "b49e2e5c-e7fc-4a36-bc1c-5d9b64cb3cb2"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "b49e2e5c-e7fc-4a36-bc1c-5d9b64cb3cb2"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.165283540802213,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "c3b6a017-8c43-4b02-8c09-60621ee3ea5c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "c3b6a017-8c43-4b02-8c09-60621ee3ea5c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.035856573705179286,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "dce4d409-cacb-4b67-9a38-de7a990ffe27"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0073041168658698535,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "ambush",
+"game": "dce4d409-cacb-4b67-9a38-de7a990ffe27"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 1,
+"half_share": 0.3286852589641434,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 39,
+"near_spawn": 17.0,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 103,
+"near_spawn": 17.0,
+"our_deaths": 1,
+"their_banked": 110
+}
+},
+"map": "collision",
+"game": "4eb3e7bf-ba46-4330-b43a-e1d7f7292aff"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "collision",
+"game": "4eb3e7bf-ba46-4330-b43a-e1d7f7292aff"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.11993769470404984,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 41,
+"near_spawn": 21.0,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 53,
+"near_spawn": 21.0,
+"our_deaths": 1,
+"their_banked": 66
+}
+},
+"map": "collision",
+"game": "7f133275-9e25-4c2a-9832-e587394d1a7f"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.05065123010130246,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 1,
+"near_spawn": 18.75,
+"our_deaths": 3,
+"their_banked": 44
+}
+},
+"map": "collision",
+"game": "7f133275-9e25-4c2a-9832-e587394d1a7f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.05046480743691899,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 5,
+"near_spawn": 15.0,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "collision",
+"game": "8834bef4-bb43-4cac-b825-8d0d8d0b9cd7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.05625,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 6,
+"near_spawn": 17.0,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "collision",
+"game": "8834bef4-bb43-4cac-b825-8d0d8d0b9cd7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.19213313161875945,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 25,
+"near_spawn": 1.75,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "collision",
+"game": "973e6a9c-4d92-4d6f-8646-51213968120d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.09234507897934387,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 9,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 61,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "collision",
+"game": "973e6a9c-4d92-4d6f-8646-51213968120d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.03884462151394422,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 13,
+"near_spawn": 12.75,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "collision",
+"game": "a31987a0-fb20-4eb7-b34f-9d3c2af6def6"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.10590631364562118,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 43,
+"near_spawn": 12.25,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 54,
+"near_spawn": 12.25,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "collision",
+"game": "a31987a0-fb20-4eb7-b34f-9d3c2af6def6"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.05776892430278884,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 23,
+"near_spawn": 14.25,
+"our_deaths": 3,
+"their_banked": 44
+}
+},
+"map": "collision",
+"game": "a962e7fb-c798-4556-b228-ff5b1806710f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.05613577023498695,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 2,
+"near_spawn": 17.75,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 2,
+"near_spawn": 17.75,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "collision",
+"game": "a962e7fb-c798-4556-b228-ff5b1806710f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.04854368932038835,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "collision",
+"game": "ad0b9e14-9427-4df0-a3a4-c2d779c44074"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.10770975056689343,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 30,
+"near_spawn": 13.25,
+"our_deaths": 3,
+"their_banked": 66
+}
+},
+"map": "collision",
+"game": "ad0b9e14-9427-4df0-a3a4-c2d779c44074"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.2051792828685259,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 20,
+"near_spawn": 12.25,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 55,
+"near_spawn": 11.75,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "collision",
+"game": "d4a9b8d2-28bd-401e-ad4a-cd98167ca3bc"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0010604453870625664,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "collision",
+"game": "d4a9b8d2-28bd-401e-ad4a-cd98167ca3bc"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.03137254901960784,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 5,
+"near_spawn": 20.25,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 5,
+"near_spawn": 20.25,
+"our_deaths": 2,
+"their_banked": 66
+}
+},
+"map": "collision",
+"game": "d617c043-c97a-40c6-b358-c1e07f3adb1d"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.24036281179138322,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 5,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 89,
+"near_spawn": 8.0,
+"our_deaths": 1,
+"their_banked": 66
+}
+},
+"map": "collision",
+"game": "d617c043-c97a-40c6-b358-c1e07f3adb1d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.07050359712230216,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 3,
+"near_spawn": 18.75,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "collision",
+"game": "ed371eb1-0174-4c1c-bd29-d27380d994bd"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.10159362549800798,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 26,
+"near_spawn": 12.0,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "collision",
+"game": "ed371eb1-0174-4c1c-bd29-d27380d994bd"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 5,
+"half_share": 0.4199203187250996,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 38,
+"near_spawn": 18.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 165,
+"near_spawn": 17.0,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "3c38a883-b838-4242-966d-ae6aeeec40ec"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.06303501945525292,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 3,
+"near_spawn": 21.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 23,
+"near_spawn": 21.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "3c38a883-b838-4242-966d-ae6aeeec40ec"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 15,
+"half_share": 0.28066378066378067,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 5,
+"near_spawn": 20.0,
+"our_deaths": 4,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 9,
+"near_spawn": 20.0,
+"our_deaths": 5,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "68545079-bef1-4b98-9716-03f85282f782"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.18156028368794327,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 75,
+"near_spawn": 15.0,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 107,
+"near_spawn": 15.0,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "68545079-bef1-4b98-9716-03f85282f782"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 6,
+"half_share": 0.28096885813148786,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 3,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 52,
+"near_spawn": 20.5,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "7f11d32c-f739-48d3-b70d-b7d09224f321"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0831146106736658,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 42,
+"near_spawn": 20.5,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 42,
+"near_spawn": 20.5,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "7f11d32c-f739-48d3-b70d-b7d09224f321"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 5,
+"half_share": 0.39575033200531207,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 122,
+"near_spawn": 11.5,
+"our_deaths": 3,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 168,
+"near_spawn": 11.5,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "907b75e0-62c5-4411-a9de-cc07ed43e87f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.018302828618968387,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "907b75e0-62c5-4411-a9de-cc07ed43e87f"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 3,
+"half_share": 0.2837573385518591,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 69,
+"near_spawn": 16.5,
+"our_deaths": 3,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 109,
+"near_spawn": 16.5,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "970d0fa1-c821-4863-8fb2-0b412f46a8b7"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 8,
+"half_share": 0.3859516616314199,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 12,
+"near_spawn": 20.5,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 19,
+"near_spawn": 20.5,
+"our_deaths": 4,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "970d0fa1-c821-4863-8fb2-0b412f46a8b7"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 6,
+"half_share": 0.29071803852889666,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 104,
+"near_spawn": 13.5,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 139,
+"near_spawn": 13.5,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "afc21731-48bd-4c53-a2c8-3d5d9c42b7cb"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.08333333333333333,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 2,
+"near_spawn": 22.0,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "afc21731-48bd-4c53-a2c8-3d5d9c42b7cb"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 9,
+"half_share": 0.15315315315315314,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 3,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 21,
+"near_spawn": 19.5,
+"our_deaths": 4,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "bae94a13-9006-4c81-9d73-83f929b93ba8"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.020114942528735632,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "bae94a13-9006-4c81-9d73-83f929b93ba8"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 10,
+"half_share": 0.33134130146082336,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 46,
+"near_spawn": 18.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 172,
+"near_spawn": 15.5,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "c7d9e500-c451-46d5-a372-727484304fdf"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.015065913370998116,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 22.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 22.0,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "c7d9e500-c451-46d5-a372-727484304fdf"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 7,
+"half_share": 0.2156505914467698,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 60,
+"near_spawn": 19.5,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 106,
+"near_spawn": 19.5,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "e92351c5-18c0-4d09-8adf-6c7a713342a5"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 7,
+"half_share": 0.1392174704276615,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 13,
+"near_spawn": 20.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 72,
+"near_spawn": 16.0,
+"our_deaths": 4,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "e92351c5-18c0-4d09-8adf-6c7a713342a5"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.11632947976878613,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 18,
+"near_spawn": 21.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 19,
+"near_spawn": 21.0,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "ed7ce8a2-c0f8-40b9-9071-7ea2b8f6adbb"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.11169811320754718,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 38,
+"near_spawn": 20.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 90,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "contest",
+"game": "ed7ce8a2-c0f8-40b9-9071-7ea2b8f6adbb"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 0,
+"half_share": 0.26772908366533865,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 3,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "corners",
+"game": "050ab0d8-2d49-4b0d-b180-dce4a7e3b6d7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "corners",
+"game": "050ab0d8-2d49-4b0d-b180-dce4a7e3b6d7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.0013280212483399733,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "corners",
+"game": "1d7c8659-dba7-4fec-acd0-fcea6b29f4a4"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.07954545454545454,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "corners",
+"game": "1d7c8659-dba7-4fec-acd0-fcea6b29f4a4"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.034528552456839307,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "corners",
+"game": "21c02057-298c-4e4e-a111-e232cc76c540"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.04150943396226415,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "corners",
+"game": "21c02057-298c-4e4e-a111-e232cc76c540"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.11345454545454546,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 28,
+"near_spawn": 11.0,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 43,
+"near_spawn": 9.0,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "corners",
+"game": "65f5df50-04b6-4a56-aa50-26dd7eb2e379"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.10159362549800798,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 14,
+"near_spawn": 17.0,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "corners",
+"game": "65f5df50-04b6-4a56-aa50-26dd7eb2e379"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.027365129007036748,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 6,
+"near_spawn": 20.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 6,
+"near_spawn": 20.0,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "corners",
+"game": "6bf4777e-fd52-41d7-9bff-3e8fa4453c3e"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 7,
+"half_share": 0.06905710491367861,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 4,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 13,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "corners",
+"game": "6bf4777e-fd52-41d7-9bff-3e8fa4453c3e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.14037735849056604,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 24,
+"near_spawn": 16.0,
+"our_deaths": 1,
+"their_banked": 80
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 78,
+"near_spawn": 14.0,
+"our_deaths": 1,
+"their_banked": 152
+}
+},
+"map": "corners",
+"game": "8c092ccb-951d-45d4-a014-7461d4e4d32e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.14186851211072665,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 20.0,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 20.0,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "corners",
+"game": "8c092ccb-951d-45d4-a014-7461d4e4d32e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.11420982735723771,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 27,
+"near_spawn": 11.0,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 54,
+"near_spawn": 9.0,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "corners",
+"game": "ba87bb2e-003b-42d5-a993-b32a88b421eb"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0007541478129713424,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "corners",
+"game": "ba87bb2e-003b-42d5-a993-b32a88b421eb"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.08630245447347586,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "corners",
+"game": "c1ffdaaf-78cf-4afa-a9de-9cabe931ab17"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.062134502923976605,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 25,
+"near_spawn": 18.0,
+"our_deaths": 1,
+"their_banked": 116
+}
+},
+"map": "corners",
+"game": "c1ffdaaf-78cf-4afa-a9de-9cabe931ab17"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.05776173285198556,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 3,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 3,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "corners",
+"game": "d2910fee-12d4-4ef5-b74d-99d16da7dd0d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.028901734104046242,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 5,
+"near_spawn": 20.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 10,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 36
+}
+},
+"map": "corners",
+"game": "d2910fee-12d4-4ef5-b74d-99d16da7dd0d"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 7,
+"half_share": 0.24716157205240175,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 78,
+"near_spawn": 9.0,
+"our_deaths": 2,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 126,
+"near_spawn": 9.0,
+"our_deaths": 3,
+"their_banked": 36
+}
+},
+"map": "corners",
+"game": "e8c47b6c-d468-40ad-b3f1-f69ab4fc0998"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.05267938237965486,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "corners",
+"game": "e8c47b6c-d468-40ad-b3f1-f69ab4fc0998"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 9,
+"half_share": 0.14276228419654716,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 90,
+"near_spawn": 12.0,
+"our_deaths": 3,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 108,
+"near_spawn": 11.0,
+"our_deaths": 5,
+"their_banked": 110
+}
+},
+"map": "eight",
+"game": "07cbae51-8b28-40a0-94b0-256a0364a364"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.01671583087512291,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "07cbae51-8b28-40a0-94b0-256a0364a364"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.006498194945848376,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "3d890a9c-30a4-4c58-8b18-47fa511edc20"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 2,
+"half_share": 0.25145228215767634,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 43,
+"near_spawn": 11.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 127,
+"near_spawn": 6.5,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "3d890a9c-30a4-4c58-8b18-47fa511edc20"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.12482946793997271,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 20,
+"near_spawn": 5.5,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 22,
+"near_spawn": 5.5,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "472cbbae-d861-4c9c-94ee-92fa7c6a45eb"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.04996326230712711,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 4,
+"near_spawn": 18.0,
+"our_deaths": 0,
+"their_banked": 74
+}
+},
+"map": "eight",
+"game": "472cbbae-d861-4c9c-94ee-92fa7c6a45eb"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.05395417590539542,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 26,
+"near_spawn": 10.0,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "48d2bc15-1c0f-4079-a515-c4eeb8c344d4"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.15184381778741865,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 37,
+"near_spawn": 16.0,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 55,
+"near_spawn": 14.0,
+"our_deaths": 1,
+"their_banked": 44
+}
+},
+"map": "eight",
+"game": "48d2bc15-1c0f-4079-a515-c4eeb8c344d4"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0285204991087344,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 4,
+"near_spawn": 18.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 4,
+"near_spawn": 18.0,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "52ab2021-e151-430a-b2ce-a035acc39c4f"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 7,
+"half_share": 0.13001383125864455,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 48,
+"near_spawn": 12.0,
+"our_deaths": 4,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 102,
+"near_spawn": 10.0,
+"our_deaths": 4,
+"their_banked": 88
+}
+},
+"map": "eight",
+"game": "52ab2021-e151-430a-b2ce-a035acc39c4f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.19144602851323828,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 13,
+"near_spawn": 15.0,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 57,
+"near_spawn": 14.0,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "eight",
+"game": "7bf5c4ed-1e08-4a21-8e6f-8464483e6235"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.21845949535192563,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "7bf5c4ed-1e08-4a21-8e6f-8464483e6235"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.19853917662682602,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 1,
+"near_spawn": 18.0,
+"our_deaths": 3,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 43,
+"near_spawn": 16.0,
+"our_deaths": 3,
+"their_banked": 66
+}
+},
+"map": "eight",
+"game": "9217e4e2-87c5-47af-932c-508c96c2b825"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.006329113924050633,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 5,
+"near_spawn": 17.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 5,
+"near_spawn": 17.0,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "9217e4e2-87c5-47af-932c-508c96c2b825"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.15656565656565657,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 6,
+"near_spawn": 17.0,
+"our_deaths": 4,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 76,
+"near_spawn": 11.0,
+"our_deaths": 5,
+"their_banked": 44
+}
+},
+"map": "eight",
+"game": "af52267e-53f6-4b01-bcc9-0c945ec5979d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.008718395815170008,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 3,
+"near_spawn": 17.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 3,
+"near_spawn": 17.0,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "af52267e-53f6-4b01-bcc9-0c945ec5979d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.04004106776180698,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "bdec398b-048c-4f0c-bb93-323212058a95"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 10,
+"half_share": 0.13756613756613756,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 14,
+"near_spawn": 14.0,
+"our_deaths": 4,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 17,
+"near_spawn": 14.0,
+"our_deaths": 4,
+"their_banked": 110
+}
+},
+"map": "eight",
+"game": "bdec398b-048c-4f0c-bb93-323212058a95"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 6,
+"half_share": 0.26734104046242774,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 53,
+"near_spawn": 9.5,
+"our_deaths": 4,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 62,
+"near_spawn": 9.5,
+"our_deaths": 4,
+"their_banked": 66
+}
+},
+"map": "eight",
+"game": "f1f83873-342a-4f50-bfe1-11771051fca7"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.09128978224455611,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "eight",
+"game": "f1f83873-342a-4f50-bfe1-11771051fca7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.08227848101265822,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 7,
+"near_spawn": 17.2,
+"our_deaths": 0,
+"their_banked": 72
+}
+},
+"map": "elkring",
+"game": "1a954dfc-5bc0-4846-92ce-b0907afeb414"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 7,
+"half_share": 0.16401673640167364,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 9,
+"near_spawn": 11.0,
+"our_deaths": 2,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 53,
+"near_spawn": 11.0,
+"our_deaths": 2,
+"their_banked": 126
+}
+},
+"map": "elkring",
+"game": "1a954dfc-5bc0-4846-92ce-b0907afeb414"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 2,
+"half_share": 0.3741883116883117,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 72
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 99,
+"near_spawn": 9.5,
+"our_deaths": 0,
+"their_banked": 144
+}
+},
+"map": "elkring",
+"game": "20ba5030-f070-4e2b-8d59-fe9a835d0a87"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 72
+}
+},
+"map": "elkring",
+"game": "20ba5030-f070-4e2b-8d59-fe9a835d0a87"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.08135860979462875,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 144
+}
+},
+"map": "elkring",
+"game": "3bcf4f4c-9c40-4827-82fd-ec1b7213459c"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 4,
+"half_share": 0.3306878306878307,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 6,
+"near_spawn": 15.5,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 111,
+"near_spawn": 9.5,
+"our_deaths": 2,
+"their_banked": 144
+}
+},
+"map": "elkring",
+"game": "3bcf4f4c-9c40-4827-82fd-ec1b7213459c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.03383977900552486,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 10,
+"near_spawn": 21.5,
+"our_deaths": 1,
+"their_banked": 90
+}
+},
+"map": "elkring",
+"game": "4592dca2-728e-430c-9ce9-a36aea0b4ef4"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.022658610271903322,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 108
+}
+},
+"map": "elkring",
+"game": "4592dca2-728e-430c-9ce9-a36aea0b4ef4"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.20987654320987653,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 72
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 94,
+"near_spawn": 12.0,
+"our_deaths": 1,
+"their_banked": 108
+}
+},
+"map": "elkring",
+"game": "4b6dcb03-db4c-46ed-b091-5ddc6cd7ca5a"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.052187260168841135,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+}
+},
+"map": "elkring",
+"game": "4b6dcb03-db4c-46ed-b091-5ddc6cd7ca5a"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.11944869831546708,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+}
+},
+"map": "elkring",
+"game": "52b134f1-9326-4ecf-93f6-e5f37a22d465"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 4,
+"half_share": 0.3203187250996016,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 5,
+"near_spawn": 18.0,
+"our_deaths": 0,
+"their_banked": 72
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 70,
+"near_spawn": 15.0,
+"our_deaths": 2,
+"their_banked": 108
+}
+},
+"map": "elkring",
+"game": "52b134f1-9326-4ecf-93f6-e5f37a22d465"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.05862361937128292,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 72
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 72
+}
+},
+"map": "elkring",
+"game": "611167af-d739-4580-bbb7-b391513efe21"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 7,
+"half_share": 0.10225763612217796,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 6,
+"near_spawn": 20.0,
+"our_deaths": 1,
+"their_banked": 162
+}
+},
+"map": "elkring",
+"game": "611167af-d739-4580-bbb7-b391513efe21"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.08372404554588078,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 23,
+"near_spawn": 8.5,
+"our_deaths": 0,
+"their_banked": 144
+}
+},
+"map": "elkring",
+"game": "86f1c4cb-a8c5-4d1a-9c10-e464abe93852"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.02947845804988662,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 108
+}
+},
+"map": "elkring",
+"game": "86f1c4cb-a8c5-4d1a-9c10-e464abe93852"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.1750865051903114,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 9,
+"near_spawn": 17.0,
+"our_deaths": 1,
+"their_banked": 36
+}
+},
+"map": "elkring",
+"game": "ab040bb5-3a42-42b0-a783-9795a0fd5f62"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.07482993197278912,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 7,
+"near_spawn": 21.0,
+"our_deaths": 0,
+"their_banked": 18
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 29,
+"near_spawn": 19.0,
+"our_deaths": 0,
+"their_banked": 90
+}
+},
+"map": "elkring",
+"game": "ab040bb5-3a42-42b0-a783-9795a0fd5f62"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.1587183308494784,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 117,
+"near_spawn": 15.0,
+"our_deaths": 0,
+"their_banked": 144
+}
+},
+"map": "elkring",
+"game": "eb21fa12-163f-4e3f-b07c-d2468a96b9f1"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.13280212483399734,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 5,
+"near_spawn": 16.5,
+"our_deaths": 2,
+"their_banked": 36
+}
+},
+"map": "elkring",
+"game": "eb21fa12-163f-4e3f-b07c-d2468a96b9f1"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.14442231075697212,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "expanse",
+"game": "3578992a-a93a-4b1f-975a-2d782f6f1498"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "expanse",
+"game": "3578992a-a93a-4b1f-975a-2d782f6f1498"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 80
+}
+},
+"map": "expanse",
+"game": "53904c3d-9b87-49fb-9e65-594334e088be"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.09362549800796813,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "expanse",
+"game": "53904c3d-9b87-49fb-9e65-594334e088be"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "expanse",
+"game": "58cc6d0d-3c0f-4d2d-9bd5-1194248d8d72"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.07768924302788845,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "expanse",
+"game": "58cc6d0d-3c0f-4d2d-9bd5-1194248d8d72"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "expanse",
+"game": "6828bffd-3750-48b3-8f0d-d8fe73fa95aa"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 58
+}
+},
+"map": "expanse",
+"game": "6828bffd-3750-48b3-8f0d-d8fe73fa95aa"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "expanse",
+"game": "6c7e4c11-3619-4ac4-a923-b464b8024450"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "expanse",
+"game": "6c7e4c11-3619-4ac4-a923-b464b8024450"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "expanse",
+"game": "913bbb48-dc80-46c3-9639-3d7a4f0cd564"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.07768924302788845,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "expanse",
+"game": "913bbb48-dc80-46c3-9639-3d7a4f0cd564"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "expanse",
+"game": "9612a0c9-0ae8-4f13-aac0-de8f353c38a0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.04282868525896414,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "expanse",
+"game": "9612a0c9-0ae8-4f13-aac0-de8f353c38a0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.14043824701195218,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "expanse",
+"game": "aae43f41-471d-43d1-b3eb-548d85699291"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.07828810020876827,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "expanse",
+"game": "aae43f41-471d-43d1-b3eb-548d85699291"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0647410358565737,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "expanse",
+"game": "b80e5b57-5cac-4193-b409-c3fccbe55f6e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "expanse",
+"game": "b80e5b57-5cac-4193-b409-c3fccbe55f6e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "expanse",
+"game": "d105814a-abba-499a-aa7e-f08b4218076c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0249003984063745,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "expanse",
+"game": "d105814a-abba-499a-aa7e-f08b4218076c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.06674757281553398,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 18,
+"near_spawn": 9.0,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 18,
+"near_spawn": 9.0,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "fragment",
+"game": "04e06bec-252b-43f6-b022-ff7aa449de31"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.179080824088748,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 3,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 18,
+"near_spawn": 10.25,
+"our_deaths": 3,
+"their_banked": 66
+}
+},
+"map": "fragment",
+"game": "04e06bec-252b-43f6-b022-ff7aa449de31"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.11424541607898449,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 23,
+"near_spawn": 10.25,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 42,
+"near_spawn": 9.25,
+"our_deaths": 1,
+"their_banked": 22
+}
+},
+"map": "fragment",
+"game": "063b3ac0-7a2e-4ff7-b7b4-14cda13dd1bb"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.19004524886877827,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 14,
+"near_spawn": 11.25,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "fragment",
+"game": "063b3ac0-7a2e-4ff7-b7b4-14cda13dd1bb"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 6,
+"half_share": 0.27503974562798095,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 35,
+"near_spawn": 8.25,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 38,
+"near_spawn": 8.25,
+"our_deaths": 4,
+"their_banked": 66
+}
+},
+"map": "fragment",
+"game": "0d53a33d-b7ca-489d-9ac3-d92b80226086"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.11076443057722309,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 19,
+"near_spawn": 11.0,
+"our_deaths": 1,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 24,
+"near_spawn": 11.0,
+"our_deaths": 1,
+"their_banked": 22
+}
+},
+"map": "fragment",
+"game": "0d53a33d-b7ca-489d-9ac3-d92b80226086"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.16461916461916462,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 8,
+"near_spawn": 9.25,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 64,
+"near_spawn": 8.25,
+"our_deaths": 2,
+"their_banked": 102
+}
+},
+"map": "fragment",
+"game": "6d1dee2f-5215-4891-bf1b-ed75b075ddb9"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 5,
+"half_share": 0.022809123649459785,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 1,
+"near_spawn": 12.25,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 1,
+"near_spawn": 12.25,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "fragment",
+"game": "6d1dee2f-5215-4891-bf1b-ed75b075ddb9"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.07415254237288135,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 17,
+"near_spawn": 11.25,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 19,
+"near_spawn": 11.25,
+"our_deaths": 2,
+"their_banked": 58
+}
+},
+"map": "fragment",
+"game": "70ae9b71-3468-4177-8fba-0ab5fca59a33"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.1322314049586777,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 1,
+"near_spawn": 12.25,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 7,
+"near_spawn": 11.25,
+"our_deaths": 1,
+"their_banked": 80
+}
+},
+"map": "fragment",
+"game": "70ae9b71-3468-4177-8fba-0ab5fca59a33"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 5,
+"half_share": 0.13280212483399734,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 15,
+"near_spawn": 8.25,
+"our_deaths": 2,
+"their_banked": 22
+}
+},
+"map": "fragment",
+"game": "7764010c-0fa6-4203-9d01-1386a8a6a7f7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.15572715572715573,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 54,
+"near_spawn": 7.0,
+"our_deaths": 0,
+"their_banked": 102
+}
+},
+"map": "fragment",
+"game": "7764010c-0fa6-4203-9d01-1386a8a6a7f7"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.020186335403726708,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 5,
+"near_spawn": 11.25,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 13,
+"near_spawn": 11.25,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "fragment",
+"game": "b045cc6f-8582-42a3-a538-6a8416723373"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 7,
+"half_share": 0.1325556733828208,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 8,
+"near_spawn": 11.25,
+"our_deaths": 3,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 8,
+"near_spawn": 11.25,
+"our_deaths": 4,
+"their_banked": 44
+}
+},
+"map": "fragment",
+"game": "b045cc6f-8582-42a3-a538-6a8416723373"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.16646415552855406,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 33,
+"near_spawn": 5.25,
+"our_deaths": 2,
+"their_banked": 80
+}
+},
+"map": "fragment",
+"game": "b5106059-1877-4722-b0da-a0dbee8638a4"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.07596371882086168,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 14,
+"near_spawn": 11.25,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 22,
+"near_spawn": 11.25,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "fragment",
+"game": "b5106059-1877-4722-b0da-a0dbee8638a4"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.08439897698209718,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 1,
+"near_spawn": 12.25,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 42,
+"near_spawn": 9.25,
+"our_deaths": 0,
+"their_banked": 80
+}
+},
+"map": "fragment",
+"game": "c6ce8e57-4c6c-40b7-b103-76273546abaf"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.1327334083239595,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 26,
+"near_spawn": 10.25,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 26,
+"near_spawn": 10.25,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "fragment",
+"game": "c6ce8e57-4c6c-40b7-b103-76273546abaf"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.08265582655826559,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 58
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 29,
+"near_spawn": 8.0,
+"our_deaths": 2,
+"their_banked": 80
+}
+},
+"map": "fragment",
+"game": "ec0d6de6-dfb2-4ed8-844b-e97b10b490a9"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 5,
+"half_share": 0.19249592169657423,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 15,
+"near_spawn": 5.25,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 30,
+"near_spawn": 5.25,
+"our_deaths": 2,
+"their_banked": 44
+}
+},
+"map": "fragment",
+"game": "ec0d6de6-dfb2-4ed8-844b-e97b10b490a9"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.11390284757118928,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 16,
+"near_spawn": 20.2,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 20,
+"near_spawn": 20.2,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "interlock",
+"game": "020267d7-ec7d-41da-820d-c094ff690acd"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.04939271255060729,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 11,
+"near_spawn": 16.6,
+"our_deaths": 1,
+"their_banked": 66
+}
+},
+"map": "interlock",
+"game": "020267d7-ec7d-41da-820d-c094ff690acd"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.02262443438914027,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "interlock",
+"game": "0bf91a4d-3f92-470d-96c4-0293d95063ab"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.17946645109135004,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 17,
+"near_spawn": 20.25,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 56,
+"near_spawn": 12.75,
+"our_deaths": 1,
+"their_banked": 66
+}
+},
+"map": "interlock",
+"game": "0bf91a4d-3f92-470d-96c4-0293d95063ab"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0375,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 20,
+"near_spawn": 15.6,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "interlock",
+"game": "1b25e025-fa54-4db0-93f4-52e271d9687b"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.08844621513944223,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "interlock",
+"game": "1b25e025-fa54-4db0-93f4-52e271d9687b"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.1280334728033473,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "interlock",
+"game": "40567036-4bf8-4c17-9619-a4f4dea32bb3"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0568,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "interlock",
+"game": "40567036-4bf8-4c17-9619-a4f4dea32bb3"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.029955947136563875,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "interlock",
+"game": "54cab3d2-e587-45ba-b309-3bee514b401b"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.22808764940239043,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 11,
+"near_spawn": 18.200000000000003,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 29,
+"near_spawn": 15.200000000000003,
+"our_deaths": 2,
+"their_banked": 110
+}
+},
+"map": "interlock",
+"game": "54cab3d2-e587-45ba-b309-3bee514b401b"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.023408239700374533,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "interlock",
+"game": "877faa5f-c117-4080-b743-1521f6f4c821"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 4,
+"half_share": 0.3035856573705179,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 43,
+"near_spawn": 22.200000000000003,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 77,
+"near_spawn": 14.600000000000001,
+"our_deaths": 0,
+"their_banked": 116
+}
+},
+"map": "interlock",
+"game": "877faa5f-c117-4080-b743-1521f6f4c821"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.16331658291457288,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 60,
+"near_spawn": 17.6,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 72,
+"near_spawn": 15.6,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "interlock",
+"game": "a1acc3e3-b258-4395-8e89-0ed064f42bc8"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.024669603524229075,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 2,
+"near_spawn": 20.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 4,
+"near_spawn": 20.200000000000003,
+"our_deaths": 1,
+"their_banked": 132
+}
+},
+"map": "interlock",
+"game": "a1acc3e3-b258-4395-8e89-0ed064f42bc8"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.1745019920318725,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 20.6,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "interlock",
+"game": "be275757-5185-4283-84f3-8b5c41411f59"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.05128205128205128,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 10,
+"near_spawn": 21.200000000000003,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 12,
+"near_spawn": 21.200000000000003,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "interlock",
+"game": "be275757-5185-4283-84f3-8b5c41411f59"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.016765285996055226,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 2,
+"near_spawn": 25.25,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 2,
+"near_spawn": 25.25,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "interlock",
+"game": "e4744187-3bdb-4482-b16c-7fd6cb3a4b06"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.11852589641434264,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 13,
+"near_spawn": 16.6,
+"our_deaths": 2,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 17,
+"near_spawn": 10.600000000000001,
+"our_deaths": 2,
+"their_banked": 66
+}
+},
+"map": "interlock",
+"game": "e4744187-3bdb-4482-b16c-7fd6cb3a4b06"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.13209302325581396,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 29,
+"near_spawn": 25.2,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 29,
+"near_spawn": 25.2,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "interlock",
+"game": "ffc71923-e7f5-4faf-9f25-f78177763eaa"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.16733067729083664,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 12,
+"near_spawn": 19.6,
+"our_deaths": 2,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 37,
+"near_spawn": 13.600000000000001,
+"our_deaths": 2,
+"their_banked": 44
+}
+},
+"map": "interlock",
+"game": "ffc71923-e7f5-4faf-9f25-f78177763eaa"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 124
+}
+},
+"map": "lanes",
+"game": "0ccc95e0-ba83-42f2-af0e-245e50051e9a"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.053784860557768925,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "lanes",
+"game": "0ccc95e0-ba83-42f2-af0e-245e50051e9a"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.07220216606498195,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 32,
+"near_spawn": 33.0,
+"our_deaths": 0,
+"their_banked": 154
+}
+},
+"map": "lanes",
+"game": "1eb943f1-4cb2-4400-b7a7-fc7e7c3f626d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.05436447166921899,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "lanes",
+"game": "1eb943f1-4cb2-4400-b7a7-fc7e7c3f626d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "lanes",
+"game": "2f2cc194-6edd-40f7-8789-053504523a95"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "lanes",
+"game": "2f2cc194-6edd-40f7-8789-053504523a95"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.03590785907859079,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 41.0,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "lanes",
+"game": "5e57b7f1-41c1-4efd-9a05-4dc60442ee21"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.026734104046242775,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "lanes",
+"game": "5e57b7f1-41c1-4efd-9a05-4dc60442ee21"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.01037344398340249,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "lanes",
+"game": "aca2f6d3-1bf8-4ec8-88ea-641f1912e792"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.044712562100780694,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 132
+}
+},
+"map": "lanes",
+"game": "aca2f6d3-1bf8-4ec8-88ea-641f1912e792"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "lanes",
+"game": "b04a2076-5af4-4d22-b631-553c25a5c3c6"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0033200531208499337,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "lanes",
+"game": "b04a2076-5af4-4d22-b631-553c25a5c3c6"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "lanes",
+"game": "b624efa1-93de-49d7-8259-1ec45cbb9b5e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "lanes",
+"game": "b624efa1-93de-49d7-8259-1ec45cbb9b5e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0073041168658698535,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "lanes",
+"game": "d1c2376a-2ae6-4413-9526-5f0756ff2a4b"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.00597609561752988,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "lanes",
+"game": "d1c2376a-2ae6-4413-9526-5f0756ff2a4b"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "lanes",
+"game": "e57a0690-26d2-4272-8dc0-659027259ab0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "lanes",
+"game": "e57a0690-26d2-4272-8dc0-659027259ab0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0006640106241699867,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "lanes",
+"game": "f4f1699d-bb70-4d41-afb3-3c4fc98c3456"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.04771784232365145,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 20,
+"near_spawn": 37.0,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "lanes",
+"game": "f4f1699d-bb70-4d41-afb3-3c4fc98c3456"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0551128818061089,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+}
+},
+"map": "monolith",
+"game": "0c9ef773-f6fe-417c-beeb-71bfe8080c11"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.010169491525423728,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "monolith",
+"game": "0c9ef773-f6fe-417c-beeb-71bfe8080c11"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0423905489923558,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "monolith",
+"game": "1d2dacb9-995c-4538-b3b0-17bacaac292c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "monolith",
+"game": "1d2dacb9-995c-4538-b3b0-17bacaac292c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.04152249134948097,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "monolith",
+"game": "3cd8ed08-fa92-46e7-ba50-a657d28e0133"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.1111111111111111,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 80
+}
+},
+"map": "monolith",
+"game": "3cd8ed08-fa92-46e7-ba50-a657d28e0133"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.013944223107569721,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "monolith",
+"game": "3fdf82c1-b8b1-46b4-9c44-b509acd28a6c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.017356475300400534,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "monolith",
+"game": "3fdf82c1-b8b1-46b4-9c44-b509acd28a6c"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.017341040462427744,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "monolith",
+"game": "4e8f5f7b-651d-41e5-a664-6a9c6e0bea59"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.18707738542449287,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 9,
+"near_spawn": 25.5,
+"our_deaths": 0,
+"their_banked": 110
+}
+},
+"map": "monolith",
+"game": "4e8f5f7b-651d-41e5-a664-6a9c6e0bea59"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.07197231833910035,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "monolith",
+"game": "55791658-0b9f-4aef-bef4-a560b2dee33a"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.08698539176626827,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 14,
+"near_spawn": 22.0,
+"our_deaths": 0,
+"their_banked": 80
+}
+},
+"map": "monolith",
+"game": "55791658-0b9f-4aef-bef4-a560b2dee33a"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.05312084993359894,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "monolith",
+"game": "58051850-f2df-4b59-a340-dc5bf7d074a0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.010624169986719787,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 2,
+"near_spawn": 25.0,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "monolith",
+"game": "58051850-f2df-4b59-a340-dc5bf7d074a0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.049136786188579015,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "monolith",
+"game": "a8276f49-4a34-4a72-9acc-f2cce3edc2f1"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.05581708137188971,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "monolith",
+"game": "a8276f49-4a34-4a72-9acc-f2cce3edc2f1"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.099601593625498,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+}
+},
+"map": "monolith",
+"game": "a8e76d13-8d11-48e6-9997-c1f64f078ffd"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0199203187250996,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "monolith",
+"game": "a8e76d13-8d11-48e6-9997-c1f64f078ffd"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.10026560424966799,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 36
+}
+},
+"map": "monolith",
+"game": "ba6aa062-b597-4cb1-a2a8-5c1701bf3b7f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.023240371845949535,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "monolith",
+"game": "ba6aa062-b597-4cb1-a2a8-5c1701bf3b7f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.028056112224448898,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 184
+}
+},
+"map": "packs",
+"game": "307bcd46-6b80-4c26-9b97-dd9b6cc78137"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.05296610169491525,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "packs",
+"game": "307bcd46-6b80-4c26-9b97-dd9b6cc78137"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.04466501240694789,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 92
+}
+},
+"map": "packs",
+"game": "3e702334-9603-43ba-bfd4-e0ee276925d4"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.18212669683257918,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 6,
+"near_spawn": 15.75,
+"our_deaths": 2,
+"their_banked": 88
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 6,
+"near_spawn": 15.75,
+"our_deaths": 2,
+"their_banked": 88
+}
+},
+"map": "packs",
+"game": "3e702334-9603-43ba-bfd4-e0ee276925d4"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.058823529411764705,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 5,
+"near_spawn": 16.75,
+"our_deaths": 0,
+"their_banked": 88
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 16,
+"near_spawn": 14.75,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "packs",
+"game": "4eca1ba8-c864-41f7-931b-101cabaad4e1"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.05091649694501019,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 10,
+"near_spawn": 15.75,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 10,
+"near_spawn": 15.75,
+"our_deaths": 0,
+"their_banked": 136
+}
+},
+"map": "packs",
+"game": "4eca1ba8-c864-41f7-931b-101cabaad4e1"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.01693227091633466,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "packs",
+"game": "b80f0bc5-cb21-491b-b72f-9e173ee0a798"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.15783898305084745,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 2,
+"near_spawn": 16.25,
+"our_deaths": 0,
+"their_banked": 140
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 28,
+"near_spawn": 13.75,
+"our_deaths": 0,
+"their_banked": 184
+}
+},
+"map": "packs",
+"game": "b80f0bc5-cb21-491b-b72f-9e173ee0a798"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 184
+}
+},
+"map": "packs",
+"game": "cb87c11d-b0fd-4986-b20a-fed0bbf1726e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.06673306772908366,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 16,
+"near_spawn": 12.25,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "packs",
+"game": "cb87c11d-b0fd-4986-b20a-fed0bbf1726e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0928652321630804,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 25,
+"near_spawn": 12.75,
+"our_deaths": 1,
+"their_banked": 136
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 32,
+"near_spawn": 12.75,
+"our_deaths": 1,
+"their_banked": 180
+}
+},
+"map": "packs",
+"game": "da169497-adf2-46c7-8328-8169dcf7c0df"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.045550847457627115,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 23,
+"near_spawn": 13.75,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 28,
+"near_spawn": 13.75,
+"our_deaths": 0,
+"their_banked": 48
+}
+},
+"map": "packs",
+"game": "da169497-adf2-46c7-8328-8169dcf7c0df"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.12350597609561753,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 45,
+"near_spawn": 11.75,
+"our_deaths": 0,
+"their_banked": 48
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 45,
+"near_spawn": 11.75,
+"our_deaths": 0,
+"their_banked": 92
+}
+},
+"map": "packs",
+"game": "e221afff-c2a3-499d-8bff-89e5ead80b0f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.09433962264150944,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 4,
+"near_spawn": 14.25,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 10,
+"near_spawn": 14.25,
+"our_deaths": 0,
+"their_banked": 136
+}
+},
+"map": "packs",
+"game": "e221afff-c2a3-499d-8bff-89e5ead80b0f"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.21812749003984064,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 41,
+"near_spawn": 11.75,
+"our_deaths": 0,
+"their_banked": 92
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 56,
+"near_spawn": 11.75,
+"our_deaths": 0,
+"their_banked": 140
+}
+},
+"map": "packs",
+"game": "f330c0ea-adb5-419b-8ce8-c40c946f416a"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0647410358565737,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 6,
+"near_spawn": 15.75,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "packs",
+"game": "f330c0ea-adb5-419b-8ce8-c40c946f416a"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.13047808764940239,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 24,
+"near_spawn": 12.75,
+"our_deaths": 0,
+"their_banked": 88
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 27,
+"near_spawn": 12.75,
+"our_deaths": 0,
+"their_banked": 148
+}
+},
+"map": "packs",
+"game": "feaf32ad-bca5-4d1a-b20d-38237b61cd11"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0429042904290429,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 10,
+"near_spawn": 15.75,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 10,
+"near_spawn": 15.75,
+"our_deaths": 0,
+"their_banked": 136
+}
+},
+"map": "packs",
+"game": "feaf32ad-bca5-4d1a-b20d-38237b61cd11"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "0249fd99-05ed-4b21-83a9-9c53e74e8c49"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.00199203187250996,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "0249fd99-05ed-4b21-83a9-9c53e74e8c49"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "038e2cb8-d3b5-4f39-a3b1-750297824827"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "pilgrimage",
+"game": "038e2cb8-d3b5-4f39-a3b1-750297824827"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "116255ba-ae23-4b5f-9ca2-bed8354e6e50"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "116255ba-ae23-4b5f-9ca2-bed8354e6e50"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "30ac87b8-a7fe-4797-8bfc-7927154688bb"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "pilgrimage",
+"game": "30ac87b8-a7fe-4797-8bfc-7927154688bb"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "pilgrimage",
+"game": "3e99f587-1cb3-4f76-a7f4-c935d796734e"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "pilgrimage",
+"game": "3e99f587-1cb3-4f76-a7f4-c935d796734e"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 34
+}
+},
+"map": "pilgrimage",
+"game": "53cb8a7a-7860-498a-9e2c-51305bd6de10"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.04799426934097421,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "pilgrimage",
+"game": "53cb8a7a-7860-498a-9e2c-51305bd6de10"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "80fd379f-a8a4-49b7-b44b-9d9bcd362638"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "80fd379f-a8a4-49b7-b44b-9d9bcd362638"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "pilgrimage",
+"game": "a4f6482a-60a5-4ad9-999b-b6c311d59307"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 5,
+"half_share": 0.011412268188302425,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 2,
+"their_banked": 68
+}
+},
+"map": "pilgrimage",
+"game": "a4f6482a-60a5-4ad9-999b-b6c311d59307"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "pilgrimage",
+"game": "a917c3eb-97a1-491d-832a-84aed0be46c9"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.03996983408748114,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "pilgrimage",
+"game": "a917c3eb-97a1-491d-832a-84aed0be46c9"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rows",
+"game": "22479fca-f1ce-4eaf-bc5b-c113f7e52286"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "rows",
+"game": "22479fca-f1ce-4eaf-bc5b-c113f7e52286"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "420d765d-5baa-43e3-98e0-c2036d3191c0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "420d765d-5baa-43e3-98e0-c2036d3191c0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rows",
+"game": "61c79365-9597-4052-a4ab-f5dd8ce447f2"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "61c79365-9597-4052-a4ab-f5dd8ce447f2"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "64d36d4f-aac1-4deb-a68c-04daa2f74215"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "64d36d4f-aac1-4deb-a68c-04daa2f74215"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "67f98a95-b28e-4bad-8768-4a90b75356d0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "67f98a95-b28e-4bad-8768-4a90b75356d0"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "7f0eda5c-161a-4841-9541-febc4e22886d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "7f0eda5c-161a-4841-9541-febc4e22886d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "b6a557f8-d9b2-410c-a9e2-bf7b9f8e1492"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "b6a557f8-d9b2-410c-a9e2-bf7b9f8e1492"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rows",
+"game": "cde795c7-020f-4ec1-8b6d-9ca53fb8e2da"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "cde795c7-020f-4ec1-8b6d-9ca53fb8e2da"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 198
+}
+},
+"map": "rows",
+"game": "d8390f11-acaf-4530-b5a9-763e887b4035"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 66
+},
+"100": {
+"stun_picks": 1,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 132
+}
+},
+"map": "rows",
+"game": "d8390f11-acaf-4530-b5a9-763e887b4035"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.022295623451692816,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "rushbait_v2",
+"game": "07264da1-7991-4341-9475-9174ed5a1880"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.14422310756972112,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 10,
+"near_spawn": 12.200000000000003,
+"our_deaths": 0,
+"their_banked": 22
+}
+},
+"map": "rushbait_v2",
+"game": "07264da1-7991-4341-9475-9174ed5a1880"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.09651741293532339,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 40,
+"near_spawn": 8.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 40,
+"near_spawn": 8.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "082f4af2-7b99-467c-83e5-61d4300d18b3"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.10728582866293035,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 20,
+"near_spawn": 7.800000000000001,
+"our_deaths": 2,
+"their_banked": 22
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 52,
+"near_spawn": 7.800000000000001,
+"our_deaths": 2,
+"their_banked": 22
+}
+},
+"map": "rushbait_v2",
+"game": "082f4af2-7b99-467c-83e5-61d4300d18b3"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.08844621513944223,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "0aa3fc03-8c36-4570-9cf8-b8a552282d0a"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "0aa3fc03-8c36-4570-9cf8-b8a552282d0a"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.062151394422310755,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 24,
+"near_spawn": 8.200000000000003,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "rushbait_v2",
+"game": "1f716dca-e764-4fdd-84cc-fedbba07a786"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.09402390438247012,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 6,
+"near_spawn": 7.800000000000001,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "rushbait_v2",
+"game": "1f716dca-e764-4fdd-84cc-fedbba07a786"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.059463986599664995,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 3.8000000000000007,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 3.8000000000000007,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "2893656f-2666-474d-8329-aa8402a726ed"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.07808764940239044,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 52,
+"near_spawn": 6.800000000000001,
+"our_deaths": 0,
+"their_banked": 66
+}
+},
+"map": "rushbait_v2",
+"game": "2893656f-2666-474d-8329-aa8402a726ed"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 0,
+"half_share": 0.2613545816733068,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 22,
+"near_spawn": 8.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 66,
+"near_spawn": 7.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "3132bb29-6085-4639-95eb-6f40311aeef5"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "3132bb29-6085-4639-95eb-6f40311aeef5"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0350597609561753,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "rushbait_v2",
+"game": "8d1180ff-1286-4e27-b25d-9bdab5d2bce5"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.14581673306772908,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 4,
+"near_spawn": 9.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 73,
+"near_spawn": 6.800000000000001,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "8d1180ff-1286-4e27-b25d-9bdab5d2bce5"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 0,
+"half_share": 0.26666666666666666,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 57,
+"near_spawn": 7.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 109,
+"near_spawn": 7.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "db66a9f6-1311-4705-99f9-c9db2ec0d298"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.2446215139442231,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 52,
+"near_spawn": 6.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 90,
+"near_spawn": 6.200000000000003,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "rushbait_v2",
+"game": "db66a9f6-1311-4705-99f9-c9db2ec0d298"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.06772908366533864,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "rushbait_v2",
+"game": "de68c216-b202-4a35-afbb-973e89852a6d"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.00796812749003984,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 10,
+"near_spawn": 2.8000000000000007,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 10,
+"near_spawn": 2.8000000000000007,
+"our_deaths": 0,
+"their_banked": 44
+}
+},
+"map": "rushbait_v2",
+"game": "de68c216-b202-4a35-afbb-973e89852a6d"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.1095890410958904,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 27,
+"near_spawn": 13.5,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 27,
+"near_spawn": 13.5,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "18c7cee7-3a93-4881-bdba-63de62cce37c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.03625377643504532,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "18c7cee7-3a93-4881-bdba-63de62cce37c"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.08698539176626827,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "245ed53d-242c-4b32-928c-99fcaa4df8cc"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "245ed53d-242c-4b32-928c-99fcaa4df8cc"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "2c3643ff-4e43-4d72-bdde-c7e3ea96e2c8"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "2c3643ff-4e43-4d72-bdde-c7e3ea96e2c8"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "2cc7eaa2-de08-4c17-a53a-7078df498c43"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.025896414342629483,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "2cc7eaa2-de08-4c17-a53a-7078df498c43"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.20133111480865223,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 68,
+"near_spawn": 12.0,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 93,
+"near_spawn": 12.0,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "713303dc-bbcd-4475-aa67-9c9463c8a114"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 5,
+"half_share": 0.02656042496679947,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "713303dc-bbcd-4475-aa67-9c9463c8a114"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.07490272373540856,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "8338f21d-c4b1-4809-915b-e58498bf2e96"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 3,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "8338f21d-c4b1-4809-915b-e58498bf2e96"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 1,
+"half_share": 0.43969204448246363,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 1,
+"near_spawn": 23.5,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 11,
+"near_spawn": 23.5,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "8bc20fc2-d1f4-4512-8761-eba87ce132eb"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.2,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 20,
+"near_spawn": 13.600000000000001,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 67,
+"near_spawn": 13.2,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "8bc20fc2-d1f4-4512-8761-eba87ce132eb"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 1,
+"half_share": 0.0,
+"feats": {
+"60": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 4,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "bba61d24-5d17-4ad7-b201-a58ca6469fc6"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.2053941908713693,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 33,
+"near_spawn": 13.0,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "bba61d24-5d17-4ad7-b201-a58ca6469fc6"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 3,
+"half_share": 0.27032661570535094,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 84,
+"near_spawn": 12.5,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 194,
+"near_spawn": 11.5,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "bd7414a4-81ee-4661-871d-bec3f7717133"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 2,
+"half_share": 0.01436130007558579,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 2,
+"near_spawn": 23.5,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 2,
+"near_spawn": 23.5,
+"our_deaths": 1,
+"their_banked": 0
+}
+},
+"map": "stampede",
+"game": "bd7414a4-81ee-4661-871d-bec3f7717133"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 6,
+"half_share": 0.4633458646616541,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 145,
+"near_spawn": 4.199999999999999,
+"our_deaths": 0,
+"their_banked": 29
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 191,
+"near_spawn": 4.199999999999999,
+"our_deaths": 2,
+"their_banked": 58
+}
+},
+"map": "swirl",
+"game": "05ff5844-2f68-494a-8098-01d2a2f07f34"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 4,
+"half_share": 0.16293929712460065,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 21,
+"near_spawn": 6.600000000000001,
+"our_deaths": 1,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 46,
+"near_spawn": 6.600000000000001,
+"our_deaths": 1,
+"their_banked": 72
+}
+},
+"map": "swirl",
+"game": "05ff5844-2f68-494a-8098-01d2a2f07f34"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.18274111675126903,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 60,
+"near_spawn": 3.8000000000000007,
+"our_deaths": 3,
+"their_banked": 24
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 114,
+"near_spawn": 2.5999999999999996,
+"our_deaths": 3,
+"their_banked": 36
+}
+},
+"map": "swirl",
+"game": "0afa7ce6-aaef-410a-9611-1bab1347c3ac"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 9,
+"half_share": 0.18141097424412095,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 35,
+"near_spawn": 7.600000000000001,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 45,
+"near_spawn": 6.600000000000001,
+"our_deaths": 2,
+"their_banked": 88
+}
+},
+"map": "swirl",
+"game": "0afa7ce6-aaef-410a-9611-1bab1347c3ac"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 9,
+"half_share": 0.46361940298507465,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 15,
+"near_spawn": 7.6,
+"our_deaths": 3,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 39,
+"near_spawn": 4.6,
+"our_deaths": 4,
+"their_banked": 124
+}
+},
+"map": "swirl",
+"game": "3b3ebbed-7dfb-4519-8f6a-aee6b10d80a3"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 3,
+"half_share": 0.29765013054830286,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 10,
+"near_spawn": 7.600000000000001,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 30,
+"near_spawn": 5.600000000000001,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "swirl",
+"game": "3b3ebbed-7dfb-4519-8f6a-aee6b10d80a3"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.20903225806451614,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 32,
+"near_spawn": 6.6,
+"our_deaths": 1,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 94,
+"near_spawn": 5.199999999999999,
+"our_deaths": 1,
+"their_banked": 36
+}
+},
+"map": "swirl",
+"game": "42ca6dfb-9842-4a68-a07f-56dfa8594672"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 8,
+"half_share": 0.15732758620689655,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 55,
+"near_spawn": 6.600000000000001,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 114,
+"near_spawn": 5.800000000000001,
+"our_deaths": 4,
+"their_banked": 36
+}
+},
+"map": "swirl",
+"game": "42ca6dfb-9842-4a68-a07f-56dfa8594672"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 8,
+"half_share": 0.5203187250996016,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 112,
+"near_spawn": 5.800000000000001,
+"our_deaths": 3,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 193,
+"near_spawn": 4.800000000000001,
+"our_deaths": 4,
+"their_banked": 142
+}
+},
+"map": "swirl",
+"game": "482e0785-28aa-4df2-b663-e91873b76930"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 0,
+"half_share": 0.05216284987277354,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 20,
+"near_spawn": 4.800000000000001,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 20,
+"near_spawn": 4.800000000000001,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"map": "swirl",
+"game": "482e0785-28aa-4df2-b663-e91873b76930"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 5,
+"half_share": 0.2262357414448669,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 74,
+"near_spawn": 7.6,
+"our_deaths": 4,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 104,
+"near_spawn": 4.800000000000001,
+"our_deaths": 4,
+"their_banked": 44
+}
+},
+"map": "swirl",
+"game": "c2b86761-4553-4f60-bf6b-09a4e4476773"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 14,
+"half_share": 0.3385744234800839,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 24,
+"near_spawn": 5.600000000000001,
+"our_deaths": 1,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 27,
+"near_spawn": 5.600000000000001,
+"our_deaths": 5,
+"their_banked": 0
+}
+},
+"map": "swirl",
+"game": "c2b86761-4553-4f60-bf6b-09a4e4476773"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 15,
+"half_share": 0.16835016835016836,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 5,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 12,
+"near_spawn": 6.6,
+"our_deaths": 7,
+"their_banked": 72
+}
+},
+"map": "swirl",
+"game": "d0a3def8-f20b-4997-a703-ce31d0a8ae8c"
+},
+{
+"aggr": 1,
+"aggr_half": 0,
+"kills_on_us": 6,
+"half_share": 0.16666666666666666,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 9,
+"near_spawn": 6.600000000000001,
+"our_deaths": 2,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 21,
+"near_spawn": 6.600000000000001,
+"our_deaths": 2,
+"their_banked": 0
+}
+},
+"map": "swirl",
+"game": "d0a3def8-f20b-4997-a703-ce31d0a8ae8c"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 7,
+"half_share": 0.394017094017094,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 62,
+"near_spawn": 7.6,
+"our_deaths": 0,
+"their_banked": 36
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 106,
+"near_spawn": 7.6,
+"our_deaths": 0,
+"their_banked": 124
+}
+},
+"map": "swirl",
+"game": "dd0da7a8-e045-464b-8a4c-ef41afa893ea"
+},
+{
+"aggr": 0,
+"aggr_half": 0,
+"kills_on_us": 3,
+"half_share": 0.23432343234323433,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 120,
+"near_spawn": 6.600000000000001,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 127,
+"near_spawn": 6.600000000000001,
+"our_deaths": 0,
+"their_banked": 88
+}
+},
+"map": "swirl",
+"game": "dd0da7a8-e045-464b-8a4c-ef41afa893ea"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 2,
+"half_share": 0.255278310940499,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 24,
+"near_spawn": 6.6,
+"our_deaths": 0,
+"their_banked": 124
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 33,
+"near_spawn": 6.6,
+"our_deaths": 0,
+"their_banked": 160
+}
+},
+"map": "swirl",
+"game": "ed7ed51a-f79d-4f36-b5fd-0e9efdd48620"
+},
+{
+"aggr": 1,
+"aggr_half": 1,
+"kills_on_us": 4,
+"half_share": 0.44660194174757284,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 16,
+"near_spawn": 5.600000000000001,
+"our_deaths": 0,
+"their_banked": 88
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 91,
+"near_spawn": 5.600000000000001,
+"our_deaths": 0,
+"their_banked": 154
+}
+},
+"map": "swirl",
+"game": "ed7ed51a-f79d-4f36-b5fd-0e9efdd48620"
+}
+]

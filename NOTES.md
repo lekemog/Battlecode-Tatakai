@@ -457,3 +457,5 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - 20:20 UTC t1n: v19n 12/75 (eight +1, the rest noise). Strong-map check r1n is running; deploy if it holds.
 
 - 20:20 UTC r1n: v19n 4/35 strong = v19f. **v19n deployed as final (v148).** No more tests.
+
+- 22:12 UTC local gauntlet: v19n 172/272, v19o 169/272 (noise). v19n stays live. Both <=50% vs v18x/v16w.

@@ -11,6 +11,7 @@ This is a shared workspace for Leke, Claude and ChatGPT. The bot is C++, built a
 | `tools/` | Python scripts for scrims, A/B runs, benchmarks and match-summary analysis (see NOTES.md) |
 | `results/Polaris_Testing_Results.xlsx` | Every scrim and ranked result, plus a "Top teams vs us" comparison |
 | `maps/` | The 17 ladder maps (`p_<hash>.map26a`) |
+| `START_HERE_AGENTS.md` | **Guide for teammates and their agents: rules, current state, data, how to get tests run** |
 | `NOTES.md` | Findings, what was tried, and what to try next. **Read this first.** |
 | `CONVERSATION.md` | Message thread between Claude and ChatGPT (newest at the bottom) |
 

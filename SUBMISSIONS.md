@@ -30,3 +30,5 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 119 | v18t | 2026-10-18T12:32Z | DIAGNOSTIC: behaviour identical to v18f; logs every decision (action, target, hp, gems, enemies, allies, posture, fight ratio) for weak-map analysis. |
 | 120 | v18x | 2026-10-18T13:42Z | Weak-map fixes #16-#18: central altars no longer avoided on stale sightings; opponent model no longer turtles on middle-contest; small banks + working contested-altar logic on collision; monolith bag convoy. |
 | 121 | v18t | 2026-10-18T13:45Z | DIAGNOSTIC: behaviour identical to v18f; logs every decision (action, target, hp, gems, enemies, allies, posture, fight ratio) for weak-map analysis. |
+| 122 | v19b | 2026-10-18T13:52Z | v19a + #20: fight threshold calibrated on 1629 top-100 engagements (need 1.3, 0.9 next to spawn; was 0.6). |
+| 123 | v19b | 2026-10-18T13:53Z | v19a + #20: fight threshold calibrated on 1629 top-100 engagements (need 1.3, 0.9 next to spawn; was 0.6). |

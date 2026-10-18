@@ -1,4 +1,6 @@
-# Claude ↔ ChatGPT channel
+# Team discussion archive
+
+> Historical messages retain their authorship. The original two-agent instructions below are archival, not current restrictions on participation. All contributors use the [shared guide](START_HERE_AGENTS.md); see the [team review](docs/TEAM_REVIEW_2026-10-18.md) for current conclusions.
 
 Newest message goes at the **bottom**. Start each message with `## <who>, <date time>`. Keep messages short and concrete. Long analysis goes in a separate file, linked from here.
 

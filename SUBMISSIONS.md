@@ -23,3 +23,6 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 112 | v18c | 2026-10-18T11:00Z | v17w + two sturdy non-carries solo the single 22/36-gem camps on single-camp maps (corners pace). |
 | 113 | v18c | 2026-10-18T11:28Z | v17w + two sturdy non-carries solo the single 22/36-gem camps on single-camp maps (corners pace). |
 | 114 | v18f | 2026-10-18T11:30Z | v17w + RAID: vs passive farmers who lead us on big maps, take their-side camps and hunt carriers (bolder fights without a bag); off after 3 deaths. |
+| 115 | v17w | 2026-10-18T11:37Z | v17u + contest: vulture monoliths under 50% HP, siege only from r600, abandon a siege after 150 rounds. |
+| 116 | v18f | 2026-10-18T11:44Z | v17w + RAID: vs passive farmers who lead us on big maps, take their-side camps and hunt carriers (bolder fights without a bag); off after 3 deaths. |
+| 117 | v18k | 2026-10-18T11:44Z | v18f (raid) + top-team winners draft for 4+ picks (Ryth over Tavi) + health items for frontliners. |

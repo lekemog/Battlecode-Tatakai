@@ -303,3 +303,13 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - **c8w:** v18c (corners gem farmers), v18f (raid), v17w.
   - **c9w:** v18i (winners' 6-pick draft), v18j (health items for frontliners), v17w.
   - These hypotheses can't be judged locally: the faux bots are our own code, and they already rejected Ryth (v17y, gauntlet 57) and health (v18a, 64).
+
+## ~11:50 UTC: c8w result. v18f (raid) live as version 116
+- **c8w** (weak maps only, 10 top-100 teams, 50 games each): v18f 4, v18c 2, v17w 2.
+  - The only games that differed were 2 corners wins for v18f; v18c and v17w lost both.
+  - All three went 0/10 on collision, contest and eight, and 2/10 on stampede.
+- **Deployed v18f (raid).**
+- **c9w** (weak maps only):
+  - v18k = v18f + winners' 6-pick draft (Ryth over Tavi) + health items for frontliners.
+  - v18l = v18f + health items only.
+  - v18f is the baseline and stays live afterwards.

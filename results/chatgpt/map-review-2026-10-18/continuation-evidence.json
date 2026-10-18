@@ -1,0 +1,1306 @@
+{
+  "matches": [
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/186614c0-b01b-481d-aa75-d026bc1fc1f7",
+      "match_id": "5d0d482c-b719-4f33-8b2f-ac5bbf087e52",
+      "version": 99,
+      "opponent": "Tethys",
+      "side": "b",
+      "map": "contest",
+      "rounds": 1100,
+      "win": false,
+      "ours": 0,
+      "theirs": 1000,
+      "outcome": "Gem Victory 1000 : 0",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/186614c0-b01b-481d-aa75-d026bc1fc1f7",
+      "match_id": "d37dd2cb-d1f0-4cc7-bf13-d1b9329b723a",
+      "version": 99,
+      "opponent": "Tethys",
+      "side": "b",
+      "map": "rows",
+      "rounds": 470,
+      "win": true,
+      "ours": 1034,
+      "theirs": 726,
+      "outcome": "Gem Victory 726 : 1034",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/186614c0-b01b-481d-aa75-d026bc1fc1f7",
+      "match_id": "e1585096-afcf-4f39-9e8b-6d654f78d8a2",
+      "version": 99,
+      "opponent": "Tethys",
+      "side": "b",
+      "map": "interlock",
+      "rounds": 588,
+      "win": true,
+      "ours": 1002,
+      "theirs": 462,
+      "outcome": "Gem Victory 462 : 1002",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/186614c0-b01b-481d-aa75-d026bc1fc1f7",
+      "match_id": "fc4444c8-c34f-4d0f-967a-4a6518176c36",
+      "version": 99,
+      "opponent": "Tethys",
+      "side": "b",
+      "map": "collision",
+      "rounds": 823,
+      "win": false,
+      "ours": 758,
+      "theirs": 1002,
+      "outcome": "Gem Victory 1002 : 758",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/186614c0-b01b-481d-aa75-d026bc1fc1f7",
+      "match_id": "2eaa711c-5cac-4b0a-a52b-dc9021d198fa",
+      "version": 99,
+      "opponent": "Tethys",
+      "side": "b",
+      "map": "ambush",
+      "rounds": 669,
+      "win": true,
+      "ours": 1018,
+      "theirs": 678,
+      "outcome": "Gem Victory 678 : 1018",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e89c22e6-e576-47f3-89d1-ccc758c4e348",
+      "match_id": "27d3f77a-f311-4162-ad0c-81afafb2be22",
+      "version": 99,
+      "opponent": "\ua9c1\u2620\ufe0f__xXx_2012_m1n3cr4ft12y34r0ldr34lYT_Pl4yz_xXx__\u2620\ufe0f\ua9c2",
+      "side": "a",
+      "map": "stampede",
+      "rounds": 839,
+      "win": true,
+      "ours": 1080,
+      "theirs": 360,
+      "outcome": "Gem Victory 1080 : 360",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e89c22e6-e576-47f3-89d1-ccc758c4e348",
+      "match_id": "16adf192-9917-499e-8a5d-4f07ea0973ba",
+      "version": 99,
+      "opponent": "\ua9c1\u2620\ufe0f__xXx_2012_m1n3cr4ft12y34r0ldr34lYT_Pl4yz_xXx__\u2620\ufe0f\ua9c2",
+      "side": "a",
+      "map": "pilgrimage",
+      "rounds": 937,
+      "win": true,
+      "ours": 1044,
+      "theirs": 892,
+      "outcome": "Gem Victory 1044 : 892",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e89c22e6-e576-47f3-89d1-ccc758c4e348",
+      "match_id": "1a5fe0e2-7316-4e74-bc96-85ca72184bb8",
+      "version": 99,
+      "opponent": "\ua9c1\u2620\ufe0f__xXx_2012_m1n3cr4ft12y34r0ldr34lYT_Pl4yz_xXx__\u2620\ufe0f\ua9c2",
+      "side": "a",
+      "map": "corners",
+      "rounds": 459,
+      "win": false,
+      "ours": 768,
+      "theirs": 1020,
+      "outcome": "Gem Victory 768 : 1020",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e89c22e6-e576-47f3-89d1-ccc758c4e348",
+      "match_id": "ed8a008d-4b2c-4e12-aa87-1ce3ba9e23d0",
+      "version": 99,
+      "opponent": "\ua9c1\u2620\ufe0f__xXx_2012_m1n3cr4ft12y34r0ldr34lYT_Pl4yz_xXx__\u2620\ufe0f\ua9c2",
+      "side": "a",
+      "map": "eight",
+      "rounds": 522,
+      "win": false,
+      "ours": 116,
+      "theirs": 1070,
+      "outcome": "Gem Victory 116 : 1070",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e89c22e6-e576-47f3-89d1-ccc758c4e348",
+      "match_id": "90474f66-6d3c-436a-af08-fd2bd1424a15",
+      "version": 99,
+      "opponent": "\ua9c1\u2620\ufe0f__xXx_2012_m1n3cr4ft12y34r0ldr34lYT_Pl4yz_xXx__\u2620\ufe0f\ua9c2",
+      "side": "a",
+      "map": "collision",
+      "rounds": 862,
+      "win": false,
+      "ours": 946,
+      "theirs": 1002,
+      "outcome": "Gem Victory 946 : 1002",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/895abf04-d628-492f-bc37-fbfcab15289a",
+      "match_id": "901c7613-98c8-46bf-ae68-66bbbd60c8f5",
+      "version": 97,
+      "opponent": "Spoon",
+      "side": "b",
+      "map": "collision",
+      "rounds": 814,
+      "win": false,
+      "ours": 882,
+      "theirs": 1160,
+      "outcome": "Gem Victory 1160 : 882",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/895abf04-d628-492f-bc37-fbfcab15289a",
+      "match_id": "75d5932e-8820-4d3c-878c-f892695004e6",
+      "version": 97,
+      "opponent": "Spoon",
+      "side": "b",
+      "map": "rushbait_v2",
+      "rounds": 663,
+      "win": true,
+      "ours": 1008,
+      "theirs": 878,
+      "outcome": "Gem Victory 878 : 1008",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/895abf04-d628-492f-bc37-fbfcab15289a",
+      "match_id": "f93c24ed-aca7-4baf-8214-a76851ce3de9",
+      "version": 97,
+      "opponent": "Spoon",
+      "side": "b",
+      "map": "eight",
+      "rounds": 558,
+      "win": false,
+      "ours": 376,
+      "theirs": 1112,
+      "outcome": "Gem Victory 1112 : 376",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/895abf04-d628-492f-bc37-fbfcab15289a",
+      "match_id": "929750d3-2799-441e-9432-7bf603451abc",
+      "version": 97,
+      "opponent": "Spoon",
+      "side": "b",
+      "map": "corners",
+      "rounds": 578,
+      "win": false,
+      "ours": 768,
+      "theirs": 1012,
+      "outcome": "Gem Victory 1012 : 768",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/895abf04-d628-492f-bc37-fbfcab15289a",
+      "match_id": "af1b57b1-d629-4fd7-8d9e-c040a7b19ab0",
+      "version": 97,
+      "opponent": "Spoon",
+      "side": "b",
+      "map": "contest",
+      "rounds": 2000,
+      "win": false,
+      "ours": 0,
+      "theirs": 800,
+      "outcome": "Tie Break (Gems) 800 : 0",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/96bdf0b6-eb48-4d97-be24-9749376133ce",
+      "match_id": "2864c7c6-ad82-49b3-84c2-1ff714aad765",
+      "version": 96,
+      "opponent": "Funky monkeys",
+      "side": "b",
+      "map": "corners",
+      "rounds": 589,
+      "win": false,
+      "ours": 828,
+      "theirs": 1018,
+      "outcome": "Gem Victory 1018 : 828",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/96bdf0b6-eb48-4d97-be24-9749376133ce",
+      "match_id": "755aa4b7-60f1-42d5-9036-bbd48214a353",
+      "version": 96,
+      "opponent": "Funky monkeys",
+      "side": "b",
+      "map": "stampede",
+      "rounds": 1396,
+      "win": true,
+      "ours": 1080,
+      "theirs": 360,
+      "outcome": "Gem Victory 360 : 1080",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/96bdf0b6-eb48-4d97-be24-9749376133ce",
+      "match_id": "8da5286d-21ee-4b43-8764-87cf515f33b6",
+      "version": 96,
+      "opponent": "Funky monkeys",
+      "side": "b",
+      "map": "monolith",
+      "rounds": 504,
+      "win": true,
+      "ours": 1018,
+      "theirs": 828,
+      "outcome": "Gem Victory 828 : 1018",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/96bdf0b6-eb48-4d97-be24-9749376133ce",
+      "match_id": "15d0ce1a-181a-42f1-b749-c8d8a67a9440",
+      "version": 96,
+      "opponent": "Funky monkeys",
+      "side": "b",
+      "map": "pilgrimage",
+      "rounds": 750,
+      "win": false,
+      "ours": 340,
+      "theirs": 1036,
+      "outcome": "Gem Victory 1036 : 340",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/96bdf0b6-eb48-4d97-be24-9749376133ce",
+      "match_id": "6a49f1d3-cb95-48c2-b0d2-9f9558b7888f",
+      "version": 96,
+      "opponent": "Funky monkeys",
+      "side": "b",
+      "map": "ambush",
+      "rounds": 920,
+      "win": true,
+      "ours": 1048,
+      "theirs": 970,
+      "outcome": "Gem Victory 970 : 1048",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/83cdb9dd-285e-41ba-8690-28526347a9b2",
+      "match_id": "21df0cd0-03f5-4dde-8e68-378d2197bce7",
+      "version": 96,
+      "opponent": "newbies",
+      "side": "b",
+      "map": "stampede",
+      "rounds": 2000,
+      "win": false,
+      "ours": 240,
+      "theirs": 840,
+      "outcome": "Tie Break (Gems) 840 : 240",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/83cdb9dd-285e-41ba-8690-28526347a9b2",
+      "match_id": "4ef857ff-5486-42a2-8136-ed8f96b824ee",
+      "version": 96,
+      "opponent": "newbies",
+      "side": "b",
+      "map": "swirl",
+      "rounds": 471,
+      "win": false,
+      "ours": 308,
+      "theirs": 1012,
+      "outcome": "Gem Victory 1012 : 308",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/83cdb9dd-285e-41ba-8690-28526347a9b2",
+      "match_id": "b7d64116-f361-4ab0-a4cf-f8ded61978ff",
+      "version": 96,
+      "opponent": "newbies",
+      "side": "b",
+      "map": "eight",
+      "rounds": 612,
+      "win": false,
+      "ours": 430,
+      "theirs": 1010,
+      "outcome": "Gem Victory 1010 : 430",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/83cdb9dd-285e-41ba-8690-28526347a9b2",
+      "match_id": "ad1a6530-dd49-4f31-86e1-a59cdc8b193e",
+      "version": 96,
+      "opponent": "newbies",
+      "side": "b",
+      "map": "lanes",
+      "rounds": 512,
+      "win": true,
+      "ours": 1002,
+      "theirs": 884,
+      "outcome": "Gem Victory 884 : 1002",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/83cdb9dd-285e-41ba-8690-28526347a9b2",
+      "match_id": "bdfaa73c-2f96-418a-b358-ea7a8629da22",
+      "version": 96,
+      "opponent": "newbies",
+      "side": "b",
+      "map": "collision",
+      "rounds": 958,
+      "win": false,
+      "ours": 882,
+      "theirs": 1002,
+      "outcome": "Gem Victory 1002 : 882",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/a3e62057-0562-4da3-8318-da8ea957c6bb",
+      "match_id": "608668d7-de11-401c-b7de-5385b656f365",
+      "version": 96,
+      "opponent": "kata",
+      "side": "b",
+      "map": "lanes",
+      "rounds": 503,
+      "win": true,
+      "ours": 1002,
+      "theirs": 862,
+      "outcome": "Gem Victory 862 : 1002",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/a3e62057-0562-4da3-8318-da8ea957c6bb",
+      "match_id": "b255b7e6-6816-48ad-be11-81530840b2d1",
+      "version": 96,
+      "opponent": "kata",
+      "side": "b",
+      "map": "monolith",
+      "rounds": 475,
+      "win": true,
+      "ours": 1004,
+      "theirs": 914,
+      "outcome": "Gem Victory 914 : 1004",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/a3e62057-0562-4da3-8318-da8ea957c6bb",
+      "match_id": "be718c33-e0d8-4c96-9aec-a8089ab1ba30",
+      "version": 96,
+      "opponent": "kata",
+      "side": "b",
+      "map": "rushbait_v2",
+      "rounds": 555,
+      "win": false,
+      "ours": 876,
+      "theirs": 1010,
+      "outcome": "Gem Victory 1010 : 876",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/a3e62057-0562-4da3-8318-da8ea957c6bb",
+      "match_id": "bfdba6bd-1825-42cf-8527-6237d83854ef",
+      "version": 96,
+      "opponent": "kata",
+      "side": "b",
+      "map": "stampede",
+      "rounds": 1038,
+      "win": true,
+      "ours": 1080,
+      "theirs": 360,
+      "outcome": "Gem Victory 360 : 1080",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/a3e62057-0562-4da3-8318-da8ea957c6bb",
+      "match_id": "9f2cb55b-b619-4400-83e9-9152a98b5afe",
+      "version": 96,
+      "opponent": "kata",
+      "side": "b",
+      "map": "packs",
+      "rounds": 442,
+      "win": true,
+      "ours": 1052,
+      "theirs": 840,
+      "outcome": "Gem Victory 840 : 1052",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/d43273ca-f0d0-434d-ad39-733364d52197",
+      "match_id": "2d6c1735-d423-4f0a-89d3-a3eb779f2334",
+      "version": 96,
+      "opponent": "Pikachu",
+      "side": "a",
+      "map": "collision",
+      "rounds": 990,
+      "win": true,
+      "ours": 1018,
+      "theirs": 352,
+      "outcome": "Gem Victory 1018 : 352",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/d43273ca-f0d0-434d-ad39-733364d52197",
+      "match_id": "863614ae-f237-4acd-aa88-cbe563588f38",
+      "version": 96,
+      "opponent": "Pikachu",
+      "side": "a",
+      "map": "rushbait_v2",
+      "rounds": 702,
+      "win": false,
+      "ours": 930,
+      "theirs": 1008,
+      "outcome": "Gem Victory 930 : 1008",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/d43273ca-f0d0-434d-ad39-733364d52197",
+      "match_id": "f3d90a31-dcda-4b78-86fb-81f19aa56671",
+      "version": 96,
+      "opponent": "Pikachu",
+      "side": "a",
+      "map": "rows",
+      "rounds": 442,
+      "win": true,
+      "ours": 1023,
+      "theirs": 858,
+      "outcome": "Gem Victory 1023 : 858",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/d43273ca-f0d0-434d-ad39-733364d52197",
+      "match_id": "fac1d2e7-242b-4421-9f3d-5505f867a52b",
+      "version": 96,
+      "opponent": "Pikachu",
+      "side": "a",
+      "map": "pilgrimage",
+      "rounds": 1037,
+      "win": false,
+      "ours": 892,
+      "theirs": 1000,
+      "outcome": "Gem Victory 892 : 1000",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/d43273ca-f0d0-434d-ad39-733364d52197",
+      "match_id": "249e220c-481b-4095-adfe-a7977b5d0df5",
+      "version": 96,
+      "opponent": "Pikachu",
+      "side": "a",
+      "map": "monolith",
+      "rounds": 513,
+      "win": false,
+      "ours": 996,
+      "theirs": 1016,
+      "outcome": "Gem Victory 996 : 1016",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/9f1b79d2-e55b-4b0c-8c37-ac9da29137b6",
+      "match_id": "ff2314f3-9c7a-47fe-8cf7-06cdce4e0127",
+      "version": 95,
+      "opponent": "edcr",
+      "side": "a",
+      "map": "expanse",
+      "rounds": 639,
+      "win": false,
+      "ours": 922,
+      "theirs": 1020,
+      "outcome": "Gem Victory 922 : 1020",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/9f1b79d2-e55b-4b0c-8c37-ac9da29137b6",
+      "match_id": "37d671a9-372c-44f9-8343-d462c4164cf3",
+      "version": 95,
+      "opponent": "edcr",
+      "side": "a",
+      "map": "monolith",
+      "rounds": 465,
+      "win": false,
+      "ours": 784,
+      "theirs": 1038,
+      "outcome": "Gem Victory 784 : 1038",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/9f1b79d2-e55b-4b0c-8c37-ac9da29137b6",
+      "match_id": "d4fd7101-f901-4dd4-9ebc-19eee826f357",
+      "version": 95,
+      "opponent": "edcr",
+      "side": "a",
+      "map": "packs",
+      "rounds": 538,
+      "win": false,
+      "ours": 444,
+      "theirs": 1000,
+      "outcome": "Gem Victory 444 : 1000",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/9f1b79d2-e55b-4b0c-8c37-ac9da29137b6",
+      "match_id": "c60b501f-9041-4145-8344-ee0ad8e0bfe1",
+      "version": 95,
+      "opponent": "edcr",
+      "side": "a",
+      "map": "elkring",
+      "rounds": 487,
+      "win": false,
+      "ours": 558,
+      "theirs": 1026,
+      "outcome": "Gem Victory 558 : 1026",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/9f1b79d2-e55b-4b0c-8c37-ac9da29137b6",
+      "match_id": "92d87cbf-48c5-49b3-9a64-0a31630cc137",
+      "version": 95,
+      "opponent": "edcr",
+      "side": "a",
+      "map": "swirl",
+      "rounds": 411,
+      "win": true,
+      "ours": 1080,
+      "theirs": 176,
+      "outcome": "Gem Victory 1080 : 176",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3eaa907f-3e75-438e-9353-998df76a808d",
+      "match_id": "c9cd0651-5a45-4e29-8495-67162747b297",
+      "version": 95,
+      "opponent": "WYYL",
+      "side": "b",
+      "map": "pilgrimage",
+      "rounds": 987,
+      "win": false,
+      "ours": 680,
+      "theirs": 1044,
+      "outcome": "Gem Victory 1044 : 680",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3eaa907f-3e75-438e-9353-998df76a808d",
+      "match_id": "3acc78f4-450b-4b04-8e27-6bd6b21f1727",
+      "version": 95,
+      "opponent": "WYYL",
+      "side": "b",
+      "map": "ambush",
+      "rounds": 869,
+      "win": true,
+      "ours": 1062,
+      "theirs": 644,
+      "outcome": "Gem Victory 644 : 1062",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3eaa907f-3e75-438e-9353-998df76a808d",
+      "match_id": "934f2510-0231-4327-a3ff-d9a69f8f19fe",
+      "version": 95,
+      "opponent": "WYYL",
+      "side": "b",
+      "map": "swirl",
+      "rounds": 993,
+      "win": false,
+      "ours": 212,
+      "theirs": 1074,
+      "outcome": "Gem Victory 1074 : 212",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3eaa907f-3e75-438e-9353-998df76a808d",
+      "match_id": "02e1ecb6-84a1-476a-929d-0285235d243e",
+      "version": 95,
+      "opponent": "WYYL",
+      "side": "b",
+      "map": "stampede",
+      "rounds": 1515,
+      "win": false,
+      "ours": 720,
+      "theirs": 1080,
+      "outcome": "Gem Victory 1080 : 720",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3eaa907f-3e75-438e-9353-998df76a808d",
+      "match_id": "20f889fc-33d3-4961-8543-bee00cac420b",
+      "version": 95,
+      "opponent": "WYYL",
+      "side": "b",
+      "map": "interlock",
+      "rounds": 634,
+      "win": false,
+      "ours": 558,
+      "theirs": 1004,
+      "outcome": "Gem Victory 1004 : 558",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3985fc27-e159-4400-b60f-9dceef7d097d",
+      "match_id": "b00866bb-b9ce-4dc2-b477-0515a9a0bcef",
+      "version": 95,
+      "opponent": "E-Rank",
+      "side": "b",
+      "map": "elkring",
+      "rounds": 569,
+      "win": false,
+      "ours": 882,
+      "theirs": 1008,
+      "outcome": "Gem Victory 1008 : 882",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3985fc27-e159-4400-b60f-9dceef7d097d",
+      "match_id": "b89343ee-6df7-48cf-9153-5724ec8ff0df",
+      "version": 95,
+      "opponent": "E-Rank",
+      "side": "b",
+      "map": "rows",
+      "rounds": 456,
+      "win": true,
+      "ours": 1023,
+      "theirs": 660,
+      "outcome": "Gem Victory 660 : 1023",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3985fc27-e159-4400-b60f-9dceef7d097d",
+      "match_id": "fc4572f3-78ab-4692-9bc0-d93624229085",
+      "version": 95,
+      "opponent": "E-Rank",
+      "side": "b",
+      "map": "interlock",
+      "rounds": 602,
+      "win": true,
+      "ours": 1046,
+      "theirs": 744,
+      "outcome": "Gem Victory 744 : 1046",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3985fc27-e159-4400-b60f-9dceef7d097d",
+      "match_id": "7655886a-7e97-48d4-af4c-606154669f6a",
+      "version": 95,
+      "opponent": "E-Rank",
+      "side": "b",
+      "map": "packs",
+      "rounds": 471,
+      "win": false,
+      "ours": 856,
+      "theirs": 1064,
+      "outcome": "Gem Victory 1064 : 856",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/3985fc27-e159-4400-b60f-9dceef7d097d",
+      "match_id": "043f613e-c724-41ae-a93b-f915e3329575",
+      "version": 95,
+      "opponent": "E-Rank",
+      "side": "b",
+      "map": "lanes",
+      "rounds": 556,
+      "win": true,
+      "ours": 1008,
+      "theirs": 782,
+      "outcome": "Gem Victory 782 : 1008",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e8ba76fe-3dfe-4bdf-a8fc-3fe0e233125f",
+      "match_id": "2a2ee38e-4299-4646-aa99-e1d31411b71a",
+      "version": 92,
+      "opponent": "Kamikaze",
+      "side": "a",
+      "map": "stampede",
+      "rounds": 536,
+      "win": false,
+      "ours": 0,
+      "theirs": 1080,
+      "outcome": "Gem Victory 0 : 1080",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e8ba76fe-3dfe-4bdf-a8fc-3fe0e233125f",
+      "match_id": "2408e589-f55c-4267-83e2-a35cd9f34dfe",
+      "version": 92,
+      "opponent": "Kamikaze",
+      "side": "a",
+      "map": "swirl",
+      "rounds": 693,
+      "win": true,
+      "ours": 1004,
+      "theirs": 36,
+      "outcome": "Gem Victory 1004 : 36",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e8ba76fe-3dfe-4bdf-a8fc-3fe0e233125f",
+      "match_id": "4736534d-1697-41cb-a106-a3a06da4275b",
+      "version": 92,
+      "opponent": "Kamikaze",
+      "side": "a",
+      "map": "rows",
+      "rounds": 438,
+      "win": true,
+      "ours": 1023,
+      "theirs": 858,
+      "outcome": "Gem Victory 1023 : 858",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e8ba76fe-3dfe-4bdf-a8fc-3fe0e233125f",
+      "match_id": "2891d30d-3283-4a44-a5cd-60b34c3b354a",
+      "version": 92,
+      "opponent": "Kamikaze",
+      "side": "a",
+      "map": "fragment",
+      "rounds": 904,
+      "win": false,
+      "ours": 973,
+      "theirs": 1011,
+      "outcome": "Gem Victory 973 : 1011",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    },
+    {
+      "series": "https://2026a.battlecode.co.uk/game/match-groups/e8ba76fe-3dfe-4bdf-a8fc-3fe0e233125f",
+      "match_id": "2da375ba-2818-4220-84fa-d422b0989284",
+      "version": 92,
+      "opponent": "Kamikaze",
+      "side": "a",
+      "map": "interlock",
+      "rounds": 537,
+      "win": true,
+      "ours": 1046,
+      "theirs": 490,
+      "outcome": "Gem Victory 1046 : 490",
+      "opponent_version": null,
+      "detail_status": "not_downloaded"
+    }
+  ],
+  "by_version_map": [
+    {
+      "version": 99,
+      "map": "ambush",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 340.0,
+      "scored_n": 1,
+      "rounds": [
+        669
+      ]
+    },
+    {
+      "version": 99,
+      "map": "collision",
+      "n": 2,
+      "wins": 0,
+      "mean_gem_margin": -150.0,
+      "scored_n": 2,
+      "rounds": [
+        823,
+        862
+      ]
+    },
+    {
+      "version": 99,
+      "map": "contest",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -1000.0,
+      "scored_n": 1,
+      "rounds": [
+        1100
+      ]
+    },
+    {
+      "version": 99,
+      "map": "corners",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -252.0,
+      "scored_n": 1,
+      "rounds": [
+        459
+      ]
+    },
+    {
+      "version": 99,
+      "map": "eight",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -954.0,
+      "scored_n": 1,
+      "rounds": [
+        522
+      ]
+    },
+    {
+      "version": 99,
+      "map": "interlock",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 540.0,
+      "scored_n": 1,
+      "rounds": [
+        588
+      ]
+    },
+    {
+      "version": 99,
+      "map": "pilgrimage",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 152.0,
+      "scored_n": 1,
+      "rounds": [
+        937
+      ]
+    },
+    {
+      "version": 99,
+      "map": "rows",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 308.0,
+      "scored_n": 1,
+      "rounds": [
+        470
+      ]
+    },
+    {
+      "version": 99,
+      "map": "stampede",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 720.0,
+      "scored_n": 1,
+      "rounds": [
+        839
+      ]
+    },
+    {
+      "version": 97,
+      "map": "collision",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -278.0,
+      "scored_n": 1,
+      "rounds": [
+        814
+      ]
+    },
+    {
+      "version": 97,
+      "map": "contest",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -800.0,
+      "scored_n": 1,
+      "rounds": [
+        2000
+      ]
+    },
+    {
+      "version": 97,
+      "map": "corners",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -244.0,
+      "scored_n": 1,
+      "rounds": [
+        578
+      ]
+    },
+    {
+      "version": 97,
+      "map": "eight",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -736.0,
+      "scored_n": 1,
+      "rounds": [
+        558
+      ]
+    },
+    {
+      "version": 97,
+      "map": "rushbait_v2",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 130.0,
+      "scored_n": 1,
+      "rounds": [
+        663
+      ]
+    },
+    {
+      "version": 96,
+      "map": "ambush",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 78.0,
+      "scored_n": 1,
+      "rounds": [
+        920
+      ]
+    },
+    {
+      "version": 96,
+      "map": "collision",
+      "n": 2,
+      "wins": 1,
+      "mean_gem_margin": 273.0,
+      "scored_n": 2,
+      "rounds": [
+        958,
+        990
+      ]
+    },
+    {
+      "version": 96,
+      "map": "corners",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -190.0,
+      "scored_n": 1,
+      "rounds": [
+        589
+      ]
+    },
+    {
+      "version": 96,
+      "map": "eight",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -580.0,
+      "scored_n": 1,
+      "rounds": [
+        612
+      ]
+    },
+    {
+      "version": 96,
+      "map": "lanes",
+      "n": 2,
+      "wins": 2,
+      "mean_gem_margin": 129.0,
+      "scored_n": 2,
+      "rounds": [
+        512,
+        503
+      ]
+    },
+    {
+      "version": 96,
+      "map": "monolith",
+      "n": 3,
+      "wins": 2,
+      "mean_gem_margin": 86.66666666666667,
+      "scored_n": 3,
+      "rounds": [
+        504,
+        475,
+        513
+      ]
+    },
+    {
+      "version": 96,
+      "map": "packs",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 212.0,
+      "scored_n": 1,
+      "rounds": [
+        442
+      ]
+    },
+    {
+      "version": 96,
+      "map": "pilgrimage",
+      "n": 2,
+      "wins": 0,
+      "mean_gem_margin": -402.0,
+      "scored_n": 2,
+      "rounds": [
+        750,
+        1037
+      ]
+    },
+    {
+      "version": 96,
+      "map": "rows",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 165.0,
+      "scored_n": 1,
+      "rounds": [
+        442
+      ]
+    },
+    {
+      "version": 96,
+      "map": "rushbait_v2",
+      "n": 2,
+      "wins": 0,
+      "mean_gem_margin": -106.0,
+      "scored_n": 2,
+      "rounds": [
+        555,
+        702
+      ]
+    },
+    {
+      "version": 96,
+      "map": "stampede",
+      "n": 3,
+      "wins": 2,
+      "mean_gem_margin": 280.0,
+      "scored_n": 3,
+      "rounds": [
+        1396,
+        2000,
+        1038
+      ]
+    },
+    {
+      "version": 96,
+      "map": "swirl",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -704.0,
+      "scored_n": 1,
+      "rounds": [
+        471
+      ]
+    },
+    {
+      "version": 95,
+      "map": "ambush",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 418.0,
+      "scored_n": 1,
+      "rounds": [
+        869
+      ]
+    },
+    {
+      "version": 95,
+      "map": "elkring",
+      "n": 2,
+      "wins": 0,
+      "mean_gem_margin": -297.0,
+      "scored_n": 2,
+      "rounds": [
+        487,
+        569
+      ]
+    },
+    {
+      "version": 95,
+      "map": "expanse",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -98.0,
+      "scored_n": 1,
+      "rounds": [
+        639
+      ]
+    },
+    {
+      "version": 95,
+      "map": "interlock",
+      "n": 2,
+      "wins": 1,
+      "mean_gem_margin": -72.0,
+      "scored_n": 2,
+      "rounds": [
+        634,
+        602
+      ]
+    },
+    {
+      "version": 95,
+      "map": "lanes",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 226.0,
+      "scored_n": 1,
+      "rounds": [
+        556
+      ]
+    },
+    {
+      "version": 95,
+      "map": "monolith",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -254.0,
+      "scored_n": 1,
+      "rounds": [
+        465
+      ]
+    },
+    {
+      "version": 95,
+      "map": "packs",
+      "n": 2,
+      "wins": 0,
+      "mean_gem_margin": -382.0,
+      "scored_n": 2,
+      "rounds": [
+        538,
+        471
+      ]
+    },
+    {
+      "version": 95,
+      "map": "pilgrimage",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -364.0,
+      "scored_n": 1,
+      "rounds": [
+        987
+      ]
+    },
+    {
+      "version": 95,
+      "map": "rows",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 363.0,
+      "scored_n": 1,
+      "rounds": [
+        456
+      ]
+    },
+    {
+      "version": 95,
+      "map": "stampede",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -360.0,
+      "scored_n": 1,
+      "rounds": [
+        1515
+      ]
+    },
+    {
+      "version": 95,
+      "map": "swirl",
+      "n": 2,
+      "wins": 1,
+      "mean_gem_margin": 21.0,
+      "scored_n": 2,
+      "rounds": [
+        411,
+        993
+      ]
+    },
+    {
+      "version": 92,
+      "map": "fragment",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -38.0,
+      "scored_n": 1,
+      "rounds": [
+        904
+      ]
+    },
+    {
+      "version": 92,
+      "map": "interlock",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 556.0,
+      "scored_n": 1,
+      "rounds": [
+        537
+      ]
+    },
+    {
+      "version": 92,
+      "map": "rows",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 165.0,
+      "scored_n": 1,
+      "rounds": [
+        438
+      ]
+    },
+    {
+      "version": 92,
+      "map": "stampede",
+      "n": 1,
+      "wins": 0,
+      "mean_gem_margin": -1080.0,
+      "scored_n": 1,
+      "rounds": [
+        536
+      ]
+    },
+    {
+      "version": 92,
+      "map": "swirl",
+      "n": 1,
+      "wins": 1,
+      "mean_gem_margin": 968.0,
+      "scored_n": 1,
+      "rounds": [
+        693
+      ]
+    }
+  ]
+}

@@ -424,3 +424,13 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - On eight we have the losers' profile: an early gold lead (r50) turns into deaths by r150, and we first bank at ~r140 (theirs ~r90).
   - On contest we are 2.6× behind on gold by r150.
   - Its `extract.mjs` fix is merged.
+
+## ~17:20 UTC: r1 strong-map check; Kurians' follow-up
+- **r1** (7 teams × 5 strong maps): v19f 4 vs v18x 6. Of the 4 games that differed, v19f lost interlock, fragment and swirl and won pilgrimage. A small sample, but early economy looks map-dependent. **Net: +4 weak maps, −2 strong maps.** v19f stays live.
+- **Kurians (#22), all five weak maps from the top-vs-top openings:**
+  - Collision: the gap is conversion after r150.
+  - Corners: winners hold more items early, and Ryth was in 10/10 winning drafts.
+  - **Stampede winners skip early shopping** to race the herd. On our identical games, stampede wins were v19f 5 = v18x 5, so no harm seen yet.
+  - Nobody wins any of these maps by invading.
+  - Their opponent-style model spots invaders (AUC 0.85–0.91 by r60–100), but only ~9% of top opponents invade.
+- **Running:** t1i (v19i, focus valuation on single-altar maps only), then **ct** = a contest-only paired test, v19j (contest solo farmers may use the middle third) vs v19f, 10 teams × 5 contest games each.

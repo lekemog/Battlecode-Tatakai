@@ -1,5 +1,7 @@
 # NOTES: findings and experiment log
 
+> **Historical log.** Entries below retain their original wording and attribution; claims may be superseded by later experiments. Current checkpoint: [README](README.md). Consolidated findings and corrections: [team review](docs/TEAM_REVIEW_2026-10-18.md). The latest recorded final bot is v19n/v148; see [SUBMISSIONS](SUBMISSIONS.md). Read dated entries in order, not as simultaneously current guidance.
+
 Last updated: Sat 17 Oct, about 19:20 (Irish time). Ladder rank is roughly 245–280.
 
 ## How the bot works (bots/v12c/src)

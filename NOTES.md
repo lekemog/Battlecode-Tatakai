@@ -445,3 +445,5 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - **Rec 2, current-HP group estimate → v19l:** gauntlet 87. Rejected for tonight.
 - **Recs 3/4 (convoy plan, route ranking):** designs only. No time to validate before the freeze.
 - **Ladder queue:** t1i (v19i), ct (contest-only, v19j vs v19f), t1m (v19m). v19f stays live.
+
+- 18:40 UTC t1i: v19i 6/75 (eight 2, corners 0, collision 0). The corners/collision loss is not from focus valuation; suspect v18z resets. v19f stays live.

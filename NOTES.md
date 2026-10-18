@@ -313,3 +313,21 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - v18k = v18f + winners' 6-pick draft (Ryth over Tavi) + health items for frontliners.
   - v18l = v18f + health items only.
   - v18f is the baseline and stays live afterwards.
+
+## ~12:30 UTC: weak-map fixes (contest convoy, collision solo), c9w/c10w
+- **c8w replays, weak maps, ours vs theirs:**
+  - **Contest:** they bank 5 × 200 per game; we bank 0. Our 200-gem carrier walked alone from the monolith to the central altar and died to 2 enemies (e.g. `75c258e9`).
+  - **Eight:** we die 8–24 times per game, they die 0–8. 180 of 241 deaths were on our own side or at home. We bank 2–7 times; they bank 14–20 times.
+  - **Collision:** they take 29–37 22-gem camps and bank 20–28 times (first tribute ~r50, ~40-gem bags); our pack of 3 takes 13–22 and banks 4–15 times.
+- **v18m = v18f + monolith-bag convoy.**
+  - A carrier with 100+ gems recalls or walks home and sets a rally flag (`shared[slot]=255`). Allies come to it, and it walks to the altar only with 2 or more allies within 3. Caps: 60 rounds for the convoy, 70 rounds for each rally. The flag is cleared once the bag is under 100.
+  - The first version left the flag set after banking (allies rallied forever). That was caught locally and fixed.
+  - Contest locally: 3/4 vs v18f and fz_herd. Gauntlet 86/136 (v18f 84).
+- **v18n = v18m + collision-type rule:** on maps with 3 picks and ≥60% single-camp income, farm solo and bank 36–70-gem bags.
+  - Collision locally: 5/6 vs v18m, fz_solo and fz_hunt. Gauntlet 88/136.
+- **Rejected locally:**
+  - v18k (Ryth draft + health items): gauntlet 68.
+  - v18o (v18n + Ryth draft): lost eight 160–1106 to v18n. Our code doesn't play Ryth well, so copying the winners' draft doesn't transfer.
+- **Ladder:**
+  - c9w (weak maps): v18m, v18l (raid + frontline health), v18f. v18m stays live.
+  - c10w after it: v18n vs v18m, 15 teams.

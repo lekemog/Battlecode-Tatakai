@@ -21,7 +21,7 @@ opps = sorted(POOL, key=lambda p: (last.get(p[1], ''), random.random()))[:N]
 off = random.randrange(17)
 plan = [(rank, tid, name, ','.join(MAPS[(off + k * 5 + j) % 17] for j in range(5))) for k, (rank, tid, name) in enumerate(opps)]
 for b in BOTS:
-    print(cmd(['cambc', 'submit', f'bots/{b}'], cwd='/home/claude/proj').strip().split('\n')[-1], flush=True)
+    subprocess.run(['python3', '-I', '/home/claude/tools/submit.py', b])
     time.sleep(90)
     groups = []
     for rank, tid, name, maps in plan:
@@ -41,6 +41,6 @@ for b in BOTS:
             ms = json.loads(s).get('matches', [])
             if ms and all(m['status'] == 'finished' for m in ms): pending.discard(g)
     print(b, 'all finished', flush=True)
-if KEEP != BOTS[-1]: print(cmd(['cambc', 'submit', f'bots/{KEEP}'], cwd='/home/claude/proj').strip().split('\n')[-1], flush=True)
+if KEEP != BOTS[-1]: subprocess.run(['python3', '-I', '/home/claude/tools/submit.py', KEEP])
 for b in BOTS:
     subprocess.run(['python3', '-I', '/home/claude/tools/audit/cycle.py', f'{TAG}_{b}', '--resume'])

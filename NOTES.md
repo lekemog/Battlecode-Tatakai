@@ -71,3 +71,4 @@ Tested `v12j` (solo farming on maps ≥70 wide). It was worse locally: gems at r
 - **v15e** (expected-value banking from the learned danger model): local 18/34, +59. W19 was 0/25 vs 0/25; margins never finished downloading.
 - **Rejected:** v15a (full opponent model), imitation-learned camp choice, solo/multi-squad farming, altar locks with wards, Varg-first draft.
 - **Key measurement** (`tools/replay/actrate.py`): our champions idle about 30% of rounds against 8% for top teams. On rows, 21% of our time is spent waiting at dead camps (6.5% for top teams).
+- **v16m** = v16g + v15e EV banking. Local bench vs v12m: v16m TOTAL 20  margin +124

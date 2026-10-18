@@ -1,0 +1,656 @@
+{
+  "observed_utc": "2026-10-18 approximately 05:29–05:34",
+  "provenance": "Official rendered ladder, match overview, submissions source viewer; read-only. Existing session reused; no sign-in initiated.",
+  "ladder": {
+    "url": "https://2026a.battlecode.co.uk/game/ladder",
+    "ranks": [
+      {
+        "rank": 1,
+        "name": "Intercontinental Fish",
+        "rating": 2086
+      },
+      {
+        "rank": 2,
+        "name": "Nyxius",
+        "rating": 2055
+      },
+      {
+        "rank": 3,
+        "name": "Mite",
+        "rating": 2013
+      },
+      {
+        "rank": 4,
+        "name": "procless",
+        "rating": 1970
+      },
+      {
+        "rank": 5,
+        "name": "new team(4)",
+        "rating": 1939
+      },
+      {
+        "rank": 6,
+        "name": "AlphaSlop",
+        "rating": 1927
+      },
+      {
+        "rank": 7,
+        "name": "Sneaky Bush Campers",
+        "rating": 1926
+      },
+      {
+        "rank": 8,
+        "name": "Nyx",
+        "rating": 1919
+      },
+      {
+        "rank": 9,
+        "name": "Univardisty of Shingtonwash",
+        "rating": 1911
+      },
+      {
+        "rank": 10,
+        "name": "Boost",
+        "rating": 1897
+      },
+      {
+        "rank": 11,
+        "name": "invisibleAgain",
+        "rating": 1874
+      },
+      {
+        "rank": 12,
+        "name": "Let's LARP",
+        "rating": 1872
+      },
+      {
+        "rank": 13,
+        "name": "EMPEROR Tung",
+        "rating": 1868
+      },
+      {
+        "rank": 14,
+        "name": "VeryGood",
+        "rating": 1861
+      },
+      {
+        "rank": 15,
+        "name": "PTN Hyperion",
+        "rating": 1854
+      },
+      {
+        "rank": 16,
+        "name": "Zarzorki",
+        "rating": 1854
+      },
+      {
+        "rank": 17,
+        "name": "Shawn",
+        "rating": 1830
+      },
+      {
+        "rank": 18,
+        "name": "Ely2sh",
+        "rating": 1828
+      },
+      {
+        "rank": 19,
+        "name": "print dont int",
+        "rating": 1823
+      },
+      {
+        "rank": 20,
+        "name": "❤️Quantom❤️",
+        "rating": 1817
+      },
+      {
+        "rank": 21,
+        "name": "NotSoLonely",
+        "rating": 1813
+      },
+      {
+        "rank": 22,
+        "name": "meow",
+        "rating": 1810
+      },
+      {
+        "rank": 23,
+        "name": "geese geese go",
+        "rating": 1802
+      },
+      {
+        "rank": 24,
+        "name": "KratosMessi",
+        "rating": 1794
+      },
+      {
+        "rank": 25,
+        "name": "Ad Astra",
+        "rating": 1789
+      },
+      {
+        "rank": 26,
+        "name": "Cabbage",
+        "rating": 1786
+      },
+      {
+        "rank": 27,
+        "name": "剑桥夜爬者",
+        "rating": 1781
+      },
+      {
+        "rank": 28,
+        "name": "umamusume",
+        "rating": 1780
+      },
+      {
+        "rank": 29,
+        "name": "Still Testing",
+        "rating": 1779
+      },
+      {
+        "rank": 30,
+        "name": "hello",
+        "rating": 1777
+      },
+      {
+        "rank": 31,
+        "name": "Master of Betas",
+        "rating": 1772
+      },
+      {
+        "rank": 32,
+        "name": "KKB",
+        "rating": 1769
+      },
+      {
+        "rank": 33,
+        "name": "Memory?",
+        "rating": 1766
+      },
+      {
+        "rank": 34,
+        "name": "EvilMangohh",
+        "rating": 1764
+      },
+      {
+        "rank": 35,
+        "name": "Super Intelligence",
+        "rating": 1762
+      },
+      {
+        "rank": 36,
+        "name": "Stubborn Gold Clusters",
+        "rating": 1762
+      },
+      {
+        "rank": 37,
+        "name": "天使",
+        "rating": 1756
+      },
+      {
+        "rank": 38,
+        "name": "EggsAfter11AM",
+        "rating": 1751
+      },
+      {
+        "rank": 39,
+        "name": "Full Damage",
+        "rating": 1750
+      },
+      {
+        "rank": 40,
+        "name": "SilverSamurai",
+        "rating": 1749
+      },
+      {
+        "rank": 41,
+        "name": "conqueror_of_openai",
+        "rating": 1748
+      },
+      {
+        "rank": 42,
+        "name": "𓎼𓃭𓅱𓂋𓇌 𓏏𓅱 𓂋𓄿",
+        "rating": 1745
+      },
+      {
+        "rank": 43,
+        "name": "Conley",
+        "rating": 1743
+      },
+      {
+        "rank": 44,
+        "name": "Valenki",
+        "rating": 1737
+      },
+      {
+        "rank": 45,
+        "name": "Velvet Monoliths",
+        "rating": 1735
+      },
+      {
+        "rank": 46,
+        "name": "SHINK AI 6500",
+        "rating": 1734
+      },
+      {
+        "rank": 47,
+        "name": "Trzy Kwaterki",
+        "rating": 1733
+      },
+      {
+        "rank": 48,
+        "name": "Sponge(Albert and Bob)",
+        "rating": 1731
+      },
+      {
+        "rank": 49,
+        "name": "Bamboo Teahouse",
+        "rating": 1727
+      },
+      {
+        "rank": 50,
+        "name": "will think later",
+        "rating": 1726
+      }
+    ],
+    "caveat": "Scrolled snapshot, not atomic. Refresh requested; initially displayed update age six minutes. Preserve these ranks even when later profile/overview ratings change."
+  },
+  "selection": "Newest completed ranked series visible on Nyx, Still Testing and Shawn profiles; one series per current upper, lower and middle rank strata. Convenience sample, not representative.",
+  "matches": [
+    {
+      "id": "cccaea7b-bc90-4bd7-8113-cbc8f9d326e3",
+      "series": "0ac09331-430c-403a-afcd-340adbe7549e",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyx"
+      ],
+      "snapshot_ranks": [
+        9,
+        8
+      ],
+      "map": "elkring",
+      "rounds": 506,
+      "submitted_gems": [
+        1026,
+        666
+      ],
+      "result": "gem_victory",
+      "winner": "Univardisty of Shingtonwash",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "f8e81e95-3fc3-4889-a765-dcbb0bf2156e",
+      "series": "0ac09331-430c-403a-afcd-340adbe7549e",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyx"
+      ],
+      "snapshot_ranks": [
+        9,
+        8
+      ],
+      "map": "rushbait_v2",
+      "rounds": 643,
+      "submitted_gems": [
+        1008,
+        766
+      ],
+      "result": "gem_victory",
+      "winner": "Univardisty of Shingtonwash",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "097af15b-63ed-469b-a611-a15e8c03f8a0",
+      "series": "0ac09331-430c-403a-afcd-340adbe7549e",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyx"
+      ],
+      "snapshot_ranks": [
+        9,
+        8
+      ],
+      "map": "rows",
+      "rounds": 384,
+      "submitted_gems": [
+        1056,
+        990
+      ],
+      "result": "gem_victory",
+      "winner": "Univardisty of Shingtonwash",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "8dd198d7-d0af-48c5-987e-90b6fea0d735",
+      "series": "0ac09331-430c-403a-afcd-340adbe7549e",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyx"
+      ],
+      "snapshot_ranks": [
+        9,
+        8
+      ],
+      "map": "swirl",
+      "rounds": 825,
+      "submitted_gems": [
+        784,
+        1032
+      ],
+      "result": "gem_victory",
+      "winner": "Nyx",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "b6b6498a-c194-4a1b-aa2a-d91e79e51a25",
+      "series": "0ac09331-430c-403a-afcd-340adbe7549e",
+      "teams": [
+        "Univardisty of Shingtonwash",
+        "Nyx"
+      ],
+      "snapshot_ranks": [
+        9,
+        8
+      ],
+      "map": "pilgrimage",
+      "rounds": 920,
+      "submitted_gems": [
+        1036,
+        796
+      ],
+      "result": "gem_victory",
+      "winner": "Univardisty of Shingtonwash",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "792aaa6f-1659-4312-94ce-b1546137f61e",
+      "series": "65f99407-792e-4381-9ef4-f226d71db9a0",
+      "teams": [
+        "Still Testing",
+        "KKB"
+      ],
+      "snapshot_ranks": [
+        29,
+        32
+      ],
+      "map": "monolith",
+      "rounds": 396,
+      "submitted_gems": [
+        1032,
+        702
+      ],
+      "result": "gem_victory",
+      "winner": "Still Testing",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "574105ef-4c00-4f95-b0e9-2a25c9cb386b",
+      "series": "65f99407-792e-4381-9ef4-f226d71db9a0",
+      "teams": [
+        "Still Testing",
+        "KKB"
+      ],
+      "snapshot_ranks": [
+        29,
+        32
+      ],
+      "map": "rows",
+      "rounds": 364,
+      "submitted_gems": [
+        924,
+        1012
+      ],
+      "result": "gem_victory",
+      "winner": "KKB",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "f95cb3e4-1088-4b08-91df-c77b1dbad367",
+      "series": "65f99407-792e-4381-9ef4-f226d71db9a0",
+      "teams": [
+        "Still Testing",
+        "KKB"
+      ],
+      "snapshot_ranks": [
+        29,
+        32
+      ],
+      "map": "interlock",
+      "rounds": 537,
+      "submitted_gems": [
+        1010,
+        534
+      ],
+      "result": "gem_victory",
+      "winner": "Still Testing",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "7a1b1bd7-2e4d-4b0f-819e-0941ce92032d",
+      "series": "65f99407-792e-4381-9ef4-f226d71db9a0",
+      "teams": [
+        "Still Testing",
+        "KKB"
+      ],
+      "snapshot_ranks": [
+        29,
+        32
+      ],
+      "map": "collision",
+      "rounds": 666,
+      "submitted_gems": [
+        264,
+        1006
+      ],
+      "result": "gem_victory",
+      "winner": "KKB",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "14a53d0f-ab33-451b-9daf-376f2e015e16",
+      "series": "65f99407-792e-4381-9ef4-f226d71db9a0",
+      "teams": [
+        "Still Testing",
+        "KKB"
+      ],
+      "snapshot_ranks": [
+        29,
+        32
+      ],
+      "map": "corners",
+      "rounds": 534,
+      "submitted_gems": [
+        1106,
+        866
+      ],
+      "result": "gem_victory",
+      "winner": "Still Testing",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "d86f0b22-8ea1-49cb-8e10-38f07717f000",
+      "series": "30ab6533-7a2d-4e43-94f7-6af28de9ee50",
+      "teams": [
+        "Shawn",
+        "VeryGood"
+      ],
+      "snapshot_ranks": [
+        17,
+        14
+      ],
+      "map": "packs",
+      "rounds": 545,
+      "submitted_gems": [
+        584,
+        1008
+      ],
+      "result": "gem_victory",
+      "winner": "VeryGood",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "2944e84e-9ae1-4a50-a430-e5b1010b7008",
+      "series": "30ab6533-7a2d-4e43-94f7-6af28de9ee50",
+      "teams": [
+        "Shawn",
+        "VeryGood"
+      ],
+      "snapshot_ranks": [
+        17,
+        14
+      ],
+      "map": "fragment",
+      "rounds": 779,
+      "submitted_gems": [
+        220,
+        1056
+      ],
+      "result": "gem_victory",
+      "winner": "VeryGood",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "39ecf9b9-e2d0-481a-8fba-f28b38c654e5",
+      "series": "30ab6533-7a2d-4e43-94f7-6af28de9ee50",
+      "teams": [
+        "Shawn",
+        "VeryGood"
+      ],
+      "snapshot_ranks": [
+        17,
+        14
+      ],
+      "map": "swirl",
+      "rounds": 567,
+      "submitted_gems": [
+        108,
+        1032
+      ],
+      "result": "gem_victory",
+      "winner": "VeryGood",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "7392432a-ab93-46c6-b911-afce5b285efb",
+      "series": "30ab6533-7a2d-4e43-94f7-6af28de9ee50",
+      "teams": [
+        "Shawn",
+        "VeryGood"
+      ],
+      "snapshot_ranks": [
+        17,
+        14
+      ],
+      "map": "corners",
+      "rounds": 1029,
+      "submitted_gems": [
+        1002,
+        212
+      ],
+      "result": "gem_victory",
+      "winner": "Shawn",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    },
+    {
+      "id": "8e15dcce-12a5-4aeb-a5a8-0e26f97e47bd",
+      "series": "30ab6533-7a2d-4e43-94f7-6af28de9ee50",
+      "teams": [
+        "Shawn",
+        "VeryGood"
+      ],
+      "snapshot_ranks": [
+        17,
+        14
+      ],
+      "map": "expanse",
+      "rounds": 454,
+      "submitted_gems": [
+        888,
+        1018
+      ],
+      "result": "gem_victory",
+      "winner": "VeryGood",
+      "champion_count": null,
+      "bot_versions": null,
+      "summary": null
+    }
+  ],
+  "denominators": {
+    "games": 15,
+    "distinct_ids": 15,
+    "teams": 6,
+    "non_fish_games": 15,
+    "maps": 12,
+    "summary_attempts": 1,
+    "summary_successes": 0
+  },
+  "dedup": {
+    "prior_files": [
+      "results/chatgpt/top50-evidence-2026-10-17.json",
+      "results/chatgpt/review-2026-10-17-2234-evidence.json",
+      "results/chatgpt/review-2026-10-18-0530-evidence.json"
+    ],
+    "overlap": []
+  },
+  "summary_failure": {
+    "match": "097af15b-63ed-469b-a611-a15e8c03f8a0",
+    "message": "Too many requests. Please retry in 7 seconds.",
+    "stopped_batch": true
+  },
+  "missing_metrics": [
+    "first affordability",
+    "first purchase",
+    "first tribute",
+    "fixed-horizon gold/gems",
+    "deaths",
+    "carried-gem losses",
+    "item order",
+    "wards/locks/teleports",
+    "farming/combat conversion",
+    "draft count",
+    "bot version"
+  ],
+  "live": {
+    "version": 90,
+    "submission": "38ba07af-70b3-4384-b716-c0116ecf042d",
+    "repo": "bots/v16s",
+    "main_sha": "a04fd9a1b293dd1329c942c2e4d73916dd7f37e0",
+    "controller_fingerprint": "40449/e3b85bd4",
+    "draft_fingerprint": "2000/300a20b8",
+    "method": "FNV1a over text stripped of whole-line // comments and whitespace, plus normalized length; not cryptographic artifact validation. Headers/archive not compared."
+  },
+  "official_rule": {
+    "url": "https://2026a.battlecode.co.uk/game/docs/cassi-and-issac",
+    "paraphrase": "One draft pick creates two separately acting units; either dying kills both; both lose carried gems; one kill reward."
+  }
+}

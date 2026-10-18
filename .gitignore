@@ -2,3 +2,6 @@
 replays/
 *.repl26a
 __pycache__/
+.venv-faux/
+.engine-cache/
+results/local/

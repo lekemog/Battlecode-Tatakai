@@ -1,0 +1,2 @@
+# Match the repository SDK for reproducible offline experiments.
+cambc==2.2.4

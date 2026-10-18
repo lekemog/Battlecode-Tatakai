@@ -1,0 +1,42 @@
+{
+  "per_opponent": {
+    "fz_herd": {
+      "wins": 8,
+      "completed": 12,
+      "failed": 0
+    },
+    "fz_solo": {
+      "wins": 8,
+      "completed": 12,
+      "failed": 0
+    },
+    "fz_hunt": {
+      "wins": 8,
+      "completed": 12,
+      "failed": 0
+    },
+    "fz_tank": {
+      "wins": 9,
+      "completed": 12,
+      "failed": 0
+    },
+    "fz_herd_v4": {
+      "wins": 7,
+      "completed": 12,
+      "failed": 0
+    },
+    "fz_hunt_v3": {
+      "wins": 11,
+      "completed": 12,
+      "failed": 0
+    },
+    "fz_tank_v2": {
+      "wins": 8,
+      "completed": 12,
+      "failed": 0
+    }
+  },
+  "family_checks_planned": 48,
+  "family_checks_completed": 48,
+  "family_checks_passed": 28
+}

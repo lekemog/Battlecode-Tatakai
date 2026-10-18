@@ -36,7 +36,7 @@ def team_stats(d, team):
     tl = [t for t in d['teamTimelines'] if t['owner'] == team and t['metric'] == 'submittedGems'][0]['runs']
     reach = first_above(tl, 999)
     return {'gold50': tot('earnedGold', 50), 'gold100': tot('earnedGold', 100), 'gold150': tot('earnedGold', 150),
-            'first_buy': min(buys) if buys else None, 'spent100': tot('spentGold', 100),
+            'first_buy': min(buys) if buys else None, 'spent100': tot('spentGold', 100), 'deaths150': tot('deaths', 150),
             'gems300': at(tl, 300), 'to1000': reach if reach is not None else 2000}
 
 def main():
@@ -73,7 +73,7 @@ def main():
     def avg(k): v = [s[k] for s in res if s[k] is not None]; return st.mean(v) if v else float('nan')
     print(f"MEAN  wins {sum(s['win'] for s in res)}/{len(res)}  gold50 {avg('gold50'):.0f}  gold100 {avg('gold100'):.0f}  "
           f"gold150 {avg('gold150'):.0f}  first_buy {avg('first_buy'):.0f}  spent100 {avg('spent100'):.0f}  "
-          f"gems300 {avg('gems300'):.0f}  to1000 {avg('to1000'):.0f}")
+          f"gems300 {avg('gems300'):.0f}  to1000 {avg('to1000'):.0f}  deaths150 {avg('deaths150'):.1f}")
     os.makedirs(os.path.join(ROOT, 'results'), exist_ok=True)
     json.dump(res, open(os.path.join(ROOT, 'results', f'econ_{BOT}_vs_{OPP}.json'), 'w'), indent=1)
 

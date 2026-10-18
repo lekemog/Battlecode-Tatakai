@@ -1,68 +1,47 @@
-# How top teams win contest and eight: winner vs loser (Kurians' Claude, 18 Oct)
+# How top teams win the five weak maps: winner vs loser (Kurians' Claude, 18 Oct)
 
-**Data:** every contest and eight game in `top-replays/` (10 per map, top-20 vs top-20). Decoded with `tools/replay/extract.mjs`; the hashed engine-file fix is on branch `kurians/top-openings`. Analysed with `tools/openings.py MAP DIR`.
+**Data:** every contest, eight, collision, corners and stampede game in `top-replays/` (10/10/10/10/9 games, top-20 vs top-20). Decoded with `tools/replay/extract.mjs`.
 
-**Caveats:**
-- 10 games per map.
-- Top-vs-top only, so these are correlations, not causes.
-- Zones use each tile's distance to the two spawn centroids (thirds).
+**Tools:**
+- `tools/openings.py MAP DIR`: openings, winner vs loser.
+- `tools/captures.py MAP DIR`: who captures which camps.
 
-## Contest (10 games)
-| Measure | Winners | Losers |
-|---|---|---|
-| Gold earned r50 / r100 / r150 | 178 / **411** / **702** | 160 / 253 / 334 |
-| Items owned r100 / r150 | 5.1 / **8.7** | 4.8 / 5.6 |
-| Deaths by r150 | **2.0** | 4.1 |
-| Champion-time in the middle third, r0–150 | **71%** | 59% |
-| Champion-time in the enemy third, r0–150 | 0% | 0% |
-| First tribute (monolith gems) | r1210 | r1594 (5 of 10 never) |
+**Revised after the review on #22:**
+- Gold **spent** (earned minus held) replaces item counts, which fall when shards merge into an emblem.
+- The never-banked rate is shown next to first-tribute timing. The first-tribute average covers only teams that banked.
+- The consumable "measure" is dropped.
+- The enemy **third** is stated explicitly. It is stricter than the enemy *half* used by `tools/oppmodel.py`.
 
-- Nobody banks anything before about round 800.
-- Level at r50, then the winners earn **2.1× the gold by r150**.
-- **Nobody invades:** both sides stay out of the enemy third.
-- Winners hold the middle more and die half as often.
-- Drafts are nearly identical (Stellar, Cassi & Issac in almost every game). Winners lean slightly towards Tavi, Ryth and Prism; losers towards Varg and Willow.
+**Caveats:** 9–10 games per map, top-vs-top only, so these are correlations, not causes. Zones are thirds by distance to the two spawn centroids.
 
-## Eight (10 games)
-| Measure | Winners | Losers |
-|---|---|---|
-| First tribute | **r101** | r152 |
-| Banked r150 / r300 / r600 | **117 / 402 / 953** | 51 / 90 / 270 |
-| Gold earned r50 / r100 / r150 | 162 / **512** / **856** | **208** / 337 / 540 |
-| Items owned r100 / r150 | **7.9** / 9.4 | 5.2 / 7.2 |
-| Deaths by r150 | **1.3** | 3.0 |
-| Middle third, r0–150 | 44% | 44% |
-| Enemy third, r0–150 | 1% | 3% |
+## Summary table (winners vs losers)
+| Measure | Contest | Eight | Collision | Corners | Stampede |
+|---|---|---|---|---|---|
+| Never banked (whole game) | **20% vs 90%** | 0% vs 10% | 0% vs 0% | 0% vs 0% | **0% vs 56%** |
+| First tribute (teams that banked) | r1210 vs r1594 (1 team) | **r101 vs r152** | r81 vs r86 | r68 vs r69 | r410 vs r386 (4 teams) |
+| Banked r300 / r600 | 0 / 0 vs 0 / 0 | **402 / 953** vs 90 / 270 | 253 / **802** vs 180 / 367 | 399 / **872** vs 272 / 554 | 180 / **733** vs 60 / 100 |
+| Gold earned r150 | **702** vs 334 | **856** vs 540 | **748** vs 560 | 1039 vs 911 | 606 vs 658 |
+| Gold spent r50 / r100 / r150 | 50 / 259 / **495** vs 55 / 189 / 263 | 54 / **446** / 611 vs **124** / 293 / 439 | **139** / 334 / **599** vs 72 / 304 / 422 | **229 / 534** / 924 vs 159 / 397 / 767 | **3 / 57** / 461 vs 47 / 309 / 540 |
+| Deaths by r150 | **2.0** vs 4.1 | **1.3** vs 3.0 | **0.6** vs 1.6 | 0.6 vs 1.2 | 0.8 vs 0.9 |
+| Middle third, r0–150 | **71%** vs 59% | 44% vs 44% | 52% vs 47% | 47% vs 47% | 62% vs 56% |
+| Enemy third, r0–150 | 0% vs 0% | 1% vs 3% | 1% vs 0% | 1% vs 0% | 5% vs 2% |
 
-- **Losers are ahead on gold at r50, but winners lead by r100 and keep it.** The swing happens between r50 and r100.
-- Winners bank about 50 rounds earlier and convert continuously. By r300 they have 4.5× the losers' banked gems.
-- Winners don't invade more. The losers spend slightly *more* time in the enemy third, and die more.
-- Drafts are almost the same on both sides.
+## Per map
+- **Contest:** nobody banks before ~r800, and 9 of 10 losers never bank at all.
+  - Level at r50; winners earn 2.1× the gold by r150 and invest about twice as much.
+  - `tools/captures.py` (up to r150): winners make 6.3 captures vs 3.8 (65% of all captures). **The whole difference is middle-third gold clusters: 4.7 vs 2.3.** Own-third captures are equal (1.6 vs 1.5), and nobody captures in the enemy third. Kills: 3.2 vs 1.5.
+- **Eight:** losers spend *more* by r50 (124 vs 54 gold), but winners lead on both gold earned and spent from r100.
+  - Winners bank about 50 rounds earlier and convert continuously (402 vs 90 banked by r300).
+  - Winners die less than half as often by r150.
+- **Collision:** openings look alike (first bank ~r80 for both). The gap opens after r150 (802 vs 367 by r600), so it points at conversion (#18). Winners invest earlier (139 vs 72 gold spent by r50).
+- **Corners:** winners invest earlier and more (229 vs 159 by r50, 534 vs 397 by r100), consistent with v19f. Ryth was in all 10 winning drafts against 5 of 10 losing ones (small sample).
+- **Stampede:** winners spend almost nothing by r100 (57 vs 309 gold), then out-bank the losers 733 vs 100 by r600. **56% of losers never bank.** This suggests winners skip early shopping to race the 360-gem herd.
+  - On main Claude's identical 15-team games, v19f's early shopping hasn't hurt stampede yet (v19f 5 = v18x 5 wins).
 
-## What this suggests for our bot (hypotheses to test, not conclusions)
-1. **Contest:** winning is about earning gold safely in the middle third during r50–150 without dying, not about sieging early. Our ladder notes show we die about 50 times per contest game. Our bot's r150 gold and deaths on contest against these numbers would show how big our gap is.
-2. **Eight:** the r50→r100 window decides it, with the first bank around r100 and steady small banks after. That matches #18 (we lose bags while carrying them). Our first tribute and banked gems at r300 on eight, against 101 / 402, would size the gap.
-3. **Raiding/invading is not how top teams win these maps.** That's relevant to v18f's raid mode.
+## What this does and doesn't show
+- **Enemy third:** winners spend 0–5% of r0–150 there on all five maps. That's a statement about the opening third only. It doesn't rule out later pressure, or crossing the halfway line: on contest, 8 of 20 rows count as half-invaders over r0–250 in `tools/oppmodel.py`.
+- **Not converting is the common failure.** Never banking (contest, stampede) or banking late and rarely (eight) shows up on three of the five maps.
+- **The early economy depends on the map.** Investing earlier goes with winning on corners and collision, and the reverse holds on stampede.
 
-## Collision, corners, stampede (added later; 10 / 10 / 9 games)
-| Measure (winners vs losers) | Collision | Corners | Stampede |
-|---|---|---|---|
-| First tribute | r81 vs r86 | r68 vs r69 | r410 vs r386 |
-| Banked r300 | **253** vs 180 | **399** vs 272 | **180** vs 60 |
-| Banked r600 | **802** vs 367 | **872** vs 554 | **733** vs 100 |
-| Gold earned r100 / r150 | 411/748 vs 365/560 | 688/1039 vs 579/911 | **197/606 vs 388/658** |
-| Items owned r50 / r100 | 2.8/6.0 vs 2.0/8.1 | **4.0/9.6** vs 2.3/6.1 | **0.1/0.9 vs 1.6/7.9** |
-| Deaths by r150 | **0.6** vs 1.6 | 0.6 vs 1.2 | 0.8 vs 0.9 |
-| Middle third / enemy third | 52%/1% vs 47%/0% | 47%/1% vs 47%/0% | 62%/5% vs 56%/2% |
-
-- **Collision:** the openings look the same (first bank ~r80 for both). The gap opens *after* r150: by r600, 802 vs 367 banked. Winners die about a third as often early. Winners' drafts lean Ren, losers' lean Varg.
-- **Corners:** winners **own more items early** (4.0 vs 2.3 at r50, 9.6 vs 6.1 at r100), consistent with v19f's early-items result. **Ryth was in all 10 winning drafts**, against 5 of 10 losing ones; Tavi was the reverse (4 vs 8).
-- **Stampede is the exception:** winners have **less** gold and almost **no items** early (0.9 vs 7.9 at r100), but bank 3–7× more by r300–r600. That suggests they skip early shopping and gold to race the 360-gem herd. **An early-economy push could hurt on this map.** Winners lean Prism and Willow, losers Ryth.
-
-**Across all five weak maps:**
-- **Nobody wins by invading.** Winners spend 0–5% of the opening in the enemy third.
-- Winners die about half as often in the first 150 rounds.
-- How the early economy matters depends on the map: it's decisive on contest, eight and corners, but works against you on stampede.
-
-## Per-game detail
-Run `python tools/openings.py contest DIR` and `python tools/openings.py eight DIR` (match IDs are printed for every game).
+## Reproduce
+Run `python tools/openings.py MAP DIR` and `python tools/captures.py MAP DIR [ROUND]`. Both print the match IDs of every game.

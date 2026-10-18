@@ -1,9 +1,6 @@
 [
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.09181494661921709,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -20,14 +17,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.12415784408084697,
+"100": 0.16145181476846057
+},
 "map": "ambush",
-"game": "17930cf8-730c-43fd-8e9c-ccddd962355c"
+"game": "17930cf8-730c-43fd-8e9c-ccddd962355c",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.041168658698539175,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -44,14 +47,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.054385964912280704,
+"100": 0.06888888888888889
+},
 "map": "ambush",
-"game": "17930cf8-730c-43fd-8e9c-ccddd962355c"
+"game": "17930cf8-730c-43fd-8e9c-ccddd962355c",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0367965367965368,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -68,14 +77,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.05,
+"100": 0.06296296296296296
+},
 "map": "ambush",
-"game": "3b877ea5-7f37-4992-8f47-228e4d13f855"
+"game": "3b877ea5-7f37-4992-8f47-228e4d13f855",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.011288180610889775,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -92,14 +107,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.014912280701754385,
+"100": 0.01888888888888889
+},
 "map": "ambush",
-"game": "3b877ea5-7f37-4992-8f47-228e4d13f855"
+"game": "3b877ea5-7f37-4992-8f47-228e4d13f855",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.05776892430278884,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -116,14 +137,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07631578947368421,
+"100": 0.09666666666666666
+},
 "map": "ambush",
-"game": "3c33d342-2b0f-44b3-b236-f947002adb40"
+"game": "3c33d342-2b0f-44b3-b236-f947002adb40",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -140,110 +167,20 @@
 "their_banked": 0
 }
 },
-"map": "ambush",
-"game": "3c33d342-2b0f-44b3-b236-f947002adb40"
+"label": {
+"60": 0,
+"100": 0
 },
-{
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
-"feats": {
-"60": {
-"stun_picks": 2,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-},
-"100": {
-"stun_picks": 2,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-}
+"future_share": {
+"60": 0.0,
+"100": 0.0
 },
 "map": "ambush",
-"game": "49263c40-cc87-4ee0-a691-2f386ea51ec7"
+"game": "3c33d342-2b0f-44b3-b236-f947002adb40",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.009296148738379814,
-"feats": {
-"60": {
-"stun_picks": 3,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-},
-"100": {
-"stun_picks": 3,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-}
-},
-"map": "ambush",
-"game": "49263c40-cc87-4ee0-a691-2f386ea51ec7"
-},
-{
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
-"feats": {
-"60": {
-"stun_picks": 3,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-},
-"100": {
-"stun_picks": 3,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-}
-},
-"map": "ambush",
-"game": "4b84d400-6925-44e3-9a9d-94115d1a2204"
-},
-{
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
-"feats": {
-"60": {
-"stun_picks": 3,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-},
-"100": {
-"stun_picks": 3,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-}
-},
-"map": "ambush",
-"game": "4b84d400-6925-44e3-9a9d-94115d1a2204"
-},
-{
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -260,14 +197,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "ambush",
-"game": "84616023-b1b3-47ff-a6e7-ba24f0e4cd39"
+"game": "49263c40-cc87-4ee0-a691-2f386ea51ec7",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.06440903054448871,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -284,14 +227,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.012280701754385965,
+"100": 0.015555555555555555
+},
 "map": "ambush",
-"game": "84616023-b1b3-47ff-a6e7-ba24f0e4cd39"
+"game": "49263c40-cc87-4ee0-a691-2f386ea51ec7",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.04249667994687915,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -308,14 +257,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "ambush",
-"game": "b48452af-3910-4c06-ae16-42a7322603e3"
+"game": "4b84d400-6925-44e3-9a9d-94115d1a2204",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.008632138114209827,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -332,14 +287,50 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "ambush",
-"game": "b48452af-3910-4c06-ae16-42a7322603e3"
+"game": "4b84d400-6925-44e3-9a9d-94115d1a2204",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
+"feats": {
+"60": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 2,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
+"map": "ambush",
+"game": "84616023-b1b3-47ff-a6e7-ba24f0e4cd39",
+"opponent": "Boost"
+},
+{
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -356,14 +347,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08508771929824561,
+"100": 0.10777777777777778
+},
 "map": "ambush",
-"game": "b49e2e5c-e7fc-4a36-bc1c-5d9b64cb3cb2"
+"game": "84616023-b1b3-47ff-a6e7-ba24f0e4cd39",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -380,14 +377,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.056140350877192984,
+"100": 0.07111111111111111
+},
 "map": "ambush",
-"game": "b49e2e5c-e7fc-4a36-bc1c-5d9b64cb3cb2"
+"game": "b48452af-3910-4c06-ae16-42a7322603e3",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.165283540802213,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -404,14 +407,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.011403508771929825,
+"100": 0.014444444444444444
+},
 "map": "ambush",
-"game": "c3b6a017-8c43-4b02-8c09-60621ee3ea5c"
+"game": "b48452af-3910-4c06-ae16-42a7322603e3",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -428,14 +437,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "ambush",
-"game": "c3b6a017-8c43-4b02-8c09-60621ee3ea5c"
+"game": "b49e2e5c-e7fc-4a36-bc1c-5d9b64cb3cb2",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.035856573705179286,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -452,14 +467,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "ambush",
-"game": "dce4d409-cacb-4b67-9a38-de7a990ffe27"
+"game": "b49e2e5c-e7fc-4a36-bc1c-5d9b64cb3cb2",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0073041168658698535,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -476,14 +497,110 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 1
+},
+"future_share": {
+"60": 0.2212962962962963,
+"100": 0.2845238095238095
+},
 "map": "ambush",
-"game": "dce4d409-cacb-4b67-9a38-de7a990ffe27"
+"game": "c3b6a017-8c43-4b02-8c09-60621ee3ea5c",
+"opponent": "Mite"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 1,
-"half_share": 0.3286852589641434,
+"observer": 1,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
+"map": "ambush",
+"game": "c3b6a017-8c43-4b02-8c09-60621ee3ea5c",
+"opponent": "Nyxius"
+},
+{
+"observer": 0,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.04736842105263158,
+"100": 0.06
+},
+"map": "ambush",
+"game": "dce4d409-cacb-4b67-9a38-de7a990ffe27",
+"opponent": "Univardisty of Shingtonwash"
+},
+{
+"observer": 1,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.009649122807017544,
+"100": 0.012222222222222223
+},
+"map": "ambush",
+"game": "dce4d409-cacb-4b67-9a38-de7a990ffe27",
+"opponent": "AlphaSlop"
+},
+{
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -500,14 +617,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.37894736842105264,
+"100": 0.325
+},
 "map": "collision",
-"game": "4eb3e7bf-ba46-4330-b43a-e1d7f7292aff"
+"game": "4eb3e7bf-ba46-4330-b43a-e1d7f7292aff",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -524,14 +647,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "collision",
-"game": "4eb3e7bf-ba46-4330-b43a-e1d7f7292aff"
+"game": "4eb3e7bf-ba46-4330-b43a-e1d7f7292aff",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.11993769470404984,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -548,14 +677,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08536585365853659,
+"100": 0.05865921787709497
+},
 "map": "collision",
-"game": "7f133275-9e25-4c2a-9832-e587394d1a7f"
+"game": "7f133275-9e25-4c2a-9832-e587394d1a7f",
+"opponent": "PTN Hyperion"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.05065123010130246,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -572,14 +707,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0688976377952756,
+"100": 0.07962529274004684
+},
 "map": "collision",
-"game": "7f133275-9e25-4c2a-9832-e587394d1a7f"
+"game": "7f133275-9e25-4c2a-9832-e587394d1a7f",
+"opponent": "geese geese go"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.05046480743691899,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -596,14 +737,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06666666666666667,
+"100": 0.06666666666666667
+},
 "map": "collision",
-"game": "8834bef4-bb43-4cac-b825-8d0d8d0b9cd7"
+"game": "8834bef4-bb43-4cac-b825-8d0d8d0b9cd7",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.05625,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -620,14 +767,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0787746170678337,
+"100": 0.06705539358600583
+},
 "map": "collision",
-"game": "8834bef4-bb43-4cac-b825-8d0d8d0b9cd7"
+"game": "8834bef4-bb43-4cac-b825-8d0d8d0b9cd7",
+"opponent": "geese geese go"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.19213313161875945,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -644,14 +797,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.26569037656903766,
+"100": 0.2849162011173184
+},
 "map": "collision",
-"game": "973e6a9c-4d92-4d6f-8646-51213968120d"
+"game": "973e6a9c-4d92-4d6f-8646-51213968120d",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.09234507897934387,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -668,14 +827,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.09499136442141623,
+"100": 0.0
+},
 "map": "collision",
-"game": "973e6a9c-4d92-4d6f-8646-51213968120d"
+"game": "973e6a9c-4d92-4d6f-8646-51213968120d",
+"opponent": "PTN Hyperion"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.03884462151394422,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -692,14 +857,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.05131578947368421,
+"100": 0.043333333333333335
+},
 "map": "collision",
-"game": "a31987a0-fb20-4eb7-b34f-9d3c2af6def6"
+"game": "a31987a0-fb20-4eb7-b34f-9d3c2af6def6",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.10590631364562118,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -716,14 +887,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07723577235772358,
+"100": 0.07612456747404844
+},
 "map": "collision",
-"game": "a31987a0-fb20-4eb7-b34f-9d3c2af6def6"
+"game": "a31987a0-fb20-4eb7-b34f-9d3c2af6def6",
+"opponent": "Mite"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.05776892430278884,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -740,14 +917,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07631578947368421,
+"100": 0.056666666666666664
+},
 "map": "collision",
-"game": "a962e7fb-c798-4556-b228-ff5b1806710f"
+"game": "a962e7fb-c798-4556-b228-ff5b1806710f",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.05613577023498695,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -764,14 +947,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07854406130268199,
+"100": 0.09297052154195011
+},
 "map": "collision",
-"game": "a962e7fb-c798-4556-b228-ff5b1806710f"
+"game": "a962e7fb-c798-4556-b228-ff5b1806710f",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.04854368932038835,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -788,14 +977,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06896551724137931,
+"100": 0.07952286282306163
+},
 "map": "collision",
-"game": "ad0b9e14-9427-4df0-a3a4-c2d779c44074"
+"game": "ad0b9e14-9427-4df0-a3a4-c2d779c44074",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.10770975056689343,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -812,14 +1007,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.14890282131661442,
+"100": 0.100418410041841
+},
 "map": "collision",
-"game": "ad0b9e14-9427-4df0-a3a4-c2d779c44074"
+"game": "ad0b9e14-9427-4df0-a3a4-c2d779c44074",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.2051792828685259,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -836,14 +1037,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.24078947368421053,
+"100": 0.22166666666666668
+},
 "map": "collision",
-"game": "d4a9b8d2-28bd-401e-ad4a-cd98167ca3bc"
+"game": "d4a9b8d2-28bd-401e-ad4a-cd98167ca3bc",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0010604453870625664,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -860,14 +1067,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.001430615164520744,
+"100": 0.0018552875695732839
+},
 "map": "collision",
-"game": "d4a9b8d2-28bd-401e-ad4a-cd98167ca3bc"
+"game": "d4a9b8d2-28bd-401e-ad4a-cd98167ca3bc",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.03137254901960784,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -884,14 +1097,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03058103975535168,
+"100": 0.04424778761061947
+},
 "map": "collision",
-"game": "d617c043-c97a-40c6-b358-c1e07f3adb1d"
+"game": "d617c043-c97a-40c6-b358-c1e07f3adb1d",
+"opponent": "Boost"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.24036281179138322,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -908,14 +1127,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 1,
+"100": 0
+},
+"future_share": {
+"60": 0.32445141065830724,
+"100": 0.23
+},
 "map": "collision",
-"game": "d617c043-c97a-40c6-b358-c1e07f3adb1d"
+"game": "d617c043-c97a-40c6-b358-c1e07f3adb1d",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.07050359712230216,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -932,14 +1157,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.095703125,
+"100": 0.11734693877551021
+},
 "map": "collision",
-"game": "ed371eb1-0174-4c1c-bd29-d27380d994bd"
+"game": "ed371eb1-0174-4c1c-bd29-d27380d994bd",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.10159362549800798,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -956,14 +1187,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13421052631578947,
+"100": 0.12666666666666668
+},
 "map": "collision",
-"game": "ed371eb1-0174-4c1c-bd29-d27380d994bd"
+"game": "ed371eb1-0174-4c1c-bd29-d27380d994bd",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 5,
-"half_share": 0.4199203187250996,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -980,14 +1217,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.5147368421052632,
+"100": 0.4826666666666667
+},
 "map": "contest",
-"game": "3c38a883-b838-4242-966d-ae6aeeec40ec"
+"game": "3c38a883-b838-4242-966d-ae6aeeec40ec",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.06303501945525292,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1004,14 +1247,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08487486398258977,
+"100": 0.07905686546463246
+},
 "map": "contest",
-"game": "3c38a883-b838-4242-966d-ae6aeeec40ec"
+"game": "3c38a883-b838-4242-966d-ae6aeeec40ec",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 15,
-"half_share": 0.28066378066378067,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1028,14 +1277,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.3657142857142857,
+"100": 0.41797752808988764
+},
 "map": "contest",
-"game": "68545079-bef1-4b98-9716-03f85282f782"
+"game": "68545079-bef1-4b98-9716-03f85282f782",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.18156028368794327,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1052,14 +1307,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11168831168831168,
+"100": 0.03492063492063492
+},
 "map": "contest",
-"game": "68545079-bef1-4b98-9716-03f85282f782"
+"game": "68545079-bef1-4b98-9716-03f85282f782",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 6,
-"half_share": 0.28096885813148786,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1076,14 +1337,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.376274328081557,
+"100": 0.4195470798569726
+},
 "map": "contest",
-"game": "7f11d32c-f739-48d3-b70d-b7d09224f321"
+"game": "7f11d32c-f739-48d3-b70d-b7d09224f321",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0831146106736658,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1100,14 +1367,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06463414634146342,
+"100": 0.07571428571428572
+},
 "map": "contest",
-"game": "7f11d32c-f739-48d3-b70d-b7d09224f321"
+"game": "7f11d32c-f739-48d3-b70d-b7d09224f321",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 5,
-"half_share": 0.39575033200531207,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1124,14 +1397,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.41228070175438597,
+"100": 0.4711111111111111
+},
 "map": "contest",
-"game": "907b75e0-62c5-4411-a9de-cc07ed43e87f"
+"game": "907b75e0-62c5-4411-a9de-cc07ed43e87f",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.018302828618968387,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1148,14 +1427,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.02466367713004484,
+"100": 0.028534370946822308
+},
 "map": "contest",
-"game": "907b75e0-62c5-4411-a9de-cc07ed43e87f"
+"game": "907b75e0-62c5-4411-a9de-cc07ed43e87f",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 3,
-"half_share": 0.2837573385518591,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1172,14 +1457,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.3081232492997199,
+"100": 0.3191489361702128
+},
 "map": "contest",
-"game": "970d0fa1-c821-4863-8fb2-0b412f46a8b7"
+"game": "970d0fa1-c821-4863-8fb2-0b412f46a8b7",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 8,
-"half_share": 0.3859516616314199,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1196,14 +1487,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.49308300395256915,
+"100": 0.5559322033898305
+},
 "map": "contest",
-"game": "970d0fa1-c821-4863-8fb2-0b412f46a8b7"
+"game": "970d0fa1-c821-4863-8fb2-0b412f46a8b7",
+"opponent": "VeryGood"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 6,
-"half_share": 0.29071803852889666,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1220,14 +1517,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 1
+},
+"future_share": {
+"60": 0.24224343675417662,
+"100": 0.2553191489361702
+},
 "map": "contest",
-"game": "afc21731-48bd-4c53-a2c8-3d5d9c42b7cb"
+"game": "afc21731-48bd-4c53-a2c8-3d5d9c42b7cb",
+"opponent": "Shawn"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.08333333333333333,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1244,14 +1547,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11405529953917051,
+"100": 0.1383737517831669
+},
 "map": "contest",
-"game": "afc21731-48bd-4c53-a2c8-3d5d9c42b7cb"
+"game": "afc21731-48bd-4c53-a2c8-3d5d9c42b7cb",
+"opponent": "VeryGood"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 9,
-"half_share": 0.15315315315315314,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1268,14 +1577,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.2026221692491061,
+"100": 0.22372372372372373
+},
 "map": "contest",
-"game": "bae94a13-9006-4c81-9d73-83f929b93ba8"
+"game": "bae94a13-9006-4c81-9d73-83f929b93ba8",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.020114942528735632,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1292,14 +1607,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.028112449799196786,
+"100": 0.03343949044585987
+},
 "map": "contest",
-"game": "bae94a13-9006-4c81-9d73-83f929b93ba8"
+"game": "bae94a13-9006-4c81-9d73-83f929b93ba8",
+"opponent": "Mite"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 10,
-"half_share": 0.33134130146082336,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1316,14 +1637,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.3973684210526316,
+"100": 0.3
+},
 "map": "contest",
-"game": "c7d9e500-c451-46d5-a372-727484304fdf"
+"game": "c7d9e500-c451-46d5-a372-727484304fdf",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.015065913370998116,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1340,14 +1667,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.021551724137931036,
+"100": 0.02857142857142857
+},
 "map": "contest",
-"game": "c7d9e500-c451-46d5-a372-727484304fdf"
+"game": "c7d9e500-c451-46d5-a372-727484304fdf",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 7,
-"half_share": 0.2156505914467698,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1364,14 +1697,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.23328785811732605,
+"100": 0.2147887323943662
+},
 "map": "contest",
-"game": "e92351c5-18c0-4d09-8adf-6c7a713342a5"
+"game": "e92351c5-18c0-4d09-8adf-6c7a713342a5",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 7,
-"half_share": 0.1392174704276615,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1388,14 +1727,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1882673942701228,
+"100": 0.14684014869888476
+},
 "map": "contest",
-"game": "e92351c5-18c0-4d09-8adf-6c7a713342a5"
+"game": "e92351c5-18c0-4d09-8adf-6c7a713342a5",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.11632947976878613,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1412,14 +1757,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.14047151277013753,
+"100": 0.18251928020565553
+},
 "map": "contest",
-"game": "ed7ce8a2-c0f8-40b9-9071-7ea2b8f6adbb"
+"game": "ed7ce8a2-c0f8-40b9-9071-7ea2b8f6adbb",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.11169811320754718,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1436,14 +1787,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11470281543274244,
+"100": 0.08066759388038942
+},
 "map": "contest",
-"game": "ed7ce8a2-c0f8-40b9-9071-7ea2b8f6adbb"
+"game": "ed7ce8a2-c0f8-40b9-9071-7ea2b8f6adbb",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 0,
-"half_share": 0.26772908366533865,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1460,14 +1817,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.35368421052631577,
+"100": 0.412
+},
 "map": "corners",
-"game": "050ab0d8-2d49-4b0d-b180-dce4a7e3b6d7"
+"game": "050ab0d8-2d49-4b0d-b180-dce4a7e3b6d7",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1484,14 +1847,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "corners",
-"game": "050ab0d8-2d49-4b0d-b180-dce4a7e3b6d7"
+"game": "050ab0d8-2d49-4b0d-b180-dce4a7e3b6d7",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.0013280212483399733,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1508,14 +1877,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0017543859649122807,
+"100": 0.0022222222222222222
+},
 "map": "corners",
-"game": "1d7c8659-dba7-4fec-acd0-fcea6b29f4a4"
+"game": "1d7c8659-dba7-4fec-acd0-fcea6b29f4a4",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.07954545454545454,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1532,14 +1907,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07345132743362832,
+"100": 0.0898876404494382
+},
 "map": "corners",
-"game": "1d7c8659-dba7-4fec-acd0-fcea6b29f4a4"
+"game": "1d7c8659-dba7-4fec-acd0-fcea6b29f4a4",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.034528552456839307,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1556,14 +1937,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0456140350877193,
+"100": 0.057777777777777775
+},
 "map": "corners",
-"game": "21c02057-298c-4e4e-a111-e232cc76c540"
+"game": "21c02057-298c-4e4e-a111-e232cc76c540",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.04150943396226415,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1580,14 +1967,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.04692387904066736,
+"100": 0.03894297635605007
+},
 "map": "corners",
-"game": "21c02057-298c-4e4e-a111-e232cc76c540"
+"game": "21c02057-298c-4e4e-a111-e232cc76c540",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.11345454545454546,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1604,14 +1997,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.12091179385530228,
+"100": 0.13914174252275682
+},
 "map": "corners",
-"game": "65f5df50-04b6-4a56-aa50-26dd7eb2e379"
+"game": "65f5df50-04b6-4a56-aa50-26dd7eb2e379",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.10159362549800798,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1628,14 +2027,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13421052631578947,
+"100": 0.15333333333333332
+},
 "map": "corners",
-"game": "65f5df50-04b6-4a56-aa50-26dd7eb2e379"
+"game": "65f5df50-04b6-4a56-aa50-26dd7eb2e379",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.027365129007036748,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1652,14 +2057,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03176341730558598,
+"100": 0.04309063893016345
+},
 "map": "corners",
-"game": "6bf4777e-fd52-41d7-9bff-3e8fa4453c3e"
+"game": "6bf4777e-fd52-41d7-9bff-3e8fa4453c3e",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 7,
-"half_share": 0.06905710491367861,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1676,14 +2087,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08771929824561403,
+"100": 0.10111111111111111
+},
 "map": "corners",
-"game": "6bf4777e-fd52-41d7-9bff-3e8fa4453c3e"
+"game": "6bf4777e-fd52-41d7-9bff-3e8fa4453c3e",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.14037735849056604,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1700,14 +2117,20 @@
 "their_banked": 152
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.15954118873826903,
+"100": 0.07232267037552156
+},
 "map": "corners",
-"game": "8c092ccb-951d-45d4-a014-7461d4e4d32e"
+"game": "8c092ccb-951d-45d4-a014-7461d4e4d32e",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.14186851211072665,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1724,14 +2147,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.18664226898444647,
+"100": 0.2284434490481523
+},
 "map": "corners",
-"game": "8c092ccb-951d-45d4-a014-7461d4e4d32e"
+"game": "8c092ccb-951d-45d4-a014-7461d4e4d32e",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.11420982735723771,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1748,14 +2177,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11842105263157894,
+"100": 0.11888888888888889
+},
 "map": "corners",
-"game": "ba87bb2e-003b-42d5-a993-b32a88b421eb"
+"game": "ba87bb2e-003b-42d5-a993-b32a88b421eb",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0007541478129713424,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1772,14 +2207,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0010416666666666667,
+"100": 0.001388888888888889
+},
 "map": "corners",
-"game": "ba87bb2e-003b-42d5-a993-b32a88b421eb"
+"game": "ba87bb2e-003b-42d5-a993-b32a88b421eb",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.08630245447347586,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1796,14 +2237,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.12151616499442586,
+"100": 0.1588921282798834
+},
 "map": "corners",
-"game": "c1ffdaaf-78cf-4afa-a9de-9cabe931ab17"
+"game": "c1ffdaaf-78cf-4afa-a9de-9cabe931ab17",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.062134502923976605,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1820,14 +2267,20 @@
 "their_banked": 116
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08236434108527131,
+"100": 0.07290400972053462
+},
 "map": "corners",
-"game": "c1ffdaaf-78cf-4afa-a9de-9cabe931ab17"
+"game": "c1ffdaaf-78cf-4afa-a9de-9cabe931ab17",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.05776173285198556,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1844,14 +2297,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0745829244357213,
+"100": 0.09242618741976893
+},
 "map": "corners",
-"game": "d2910fee-12d4-4ef5-b74d-99d16da7dd0d"
+"game": "d2910fee-12d4-4ef5-b74d-99d16da7dd0d",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.028901734104046242,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1868,14 +2327,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0343811394891945,
+"100": 0.038560411311053984
+},
 "map": "corners",
-"game": "d2910fee-12d4-4ef5-b74d-99d16da7dd0d"
+"game": "d2910fee-12d4-4ef5-b74d-99d16da7dd0d",
+"opponent": "Nyx"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 7,
-"half_share": 0.24716157205240175,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -1892,14 +2357,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.2261904761904762,
+"100": 0.19375
+},
 "map": "corners",
-"game": "e8c47b6c-d468-40ad-b3f1-f69ab4fc0998"
+"game": "e8c47b6c-d468-40ad-b3f1-f69ab4fc0998",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.05267938237965486,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1916,14 +2387,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07351077313054499,
+"100": 0.0932475884244373
+},
 "map": "corners",
-"game": "e8c47b6c-d468-40ad-b3f1-f69ab4fc0998"
+"game": "e8c47b6c-d468-40ad-b3f1-f69ab4fc0998",
+"opponent": "VeryGood"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 9,
-"half_share": 0.14276228419654716,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1940,14 +2417,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.10964912280701754,
+"100": 0.11444444444444445
+},
 "map": "eight",
-"game": "07cbae51-8b28-40a0-94b0-256a0364a364"
+"game": "07cbae51-8b28-40a0-94b0-256a0364a364",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.01671583087512291,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1964,14 +2447,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.02418207681365576,
+"100": 0.02711323763955343
+},
 "map": "eight",
-"game": "07cbae51-8b28-40a0-94b0-256a0364a364"
+"game": "07cbae51-8b28-40a0-94b0-256a0364a364",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.006498194945848376,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -1988,14 +2477,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.008832188420019628,
+"100": 0.010778443113772455
+},
 "map": "eight",
-"game": "3d890a9c-30a4-4c58-8b18-47fa511edc20"
+"game": "3d890a9c-30a4-4c58-8b18-47fa511edc20",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 2,
-"half_share": 0.25145228215767634,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -2012,14 +2507,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 0
+},
+"future_share": {
+"60": 0.27413587604290823,
+"100": 0.21021897810218979
+},
 "map": "eight",
-"game": "3d890a9c-30a4-4c58-8b18-47fa511edc20"
+"game": "3d890a9c-30a4-4c58-8b18-47fa511edc20",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.12482946793997271,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -2036,14 +2537,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13090909090909092,
+"100": 0.15813953488372093
+},
 "map": "eight",
-"game": "472cbbae-d861-4c9c-94ee-92fa7c6a45eb"
+"game": "472cbbae-d861-4c9c-94ee-92fa7c6a45eb",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.04996326230712711,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -2060,14 +2567,20 @@
 "their_banked": 74
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06834170854271357,
+"100": 0.0847682119205298
+},
 "map": "eight",
-"game": "472cbbae-d861-4c9c-94ee-92fa7c6a45eb"
+"game": "472cbbae-d861-4c9c-94ee-92fa7c6a45eb",
+"opponent": "print dont int"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.05395417590539542,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2084,14 +2597,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07314629258517034,
+"100": 0.05889724310776942
+},
 "map": "eight",
-"game": "48d2bc15-1c0f-4079-a515-c4eeb8c344d4"
+"game": "48d2bc15-1c0f-4079-a515-c4eeb8c344d4",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.15184381778741865,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2108,14 +2627,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.17010816125860373,
+"100": 0.1994851994851995
+},
 "map": "eight",
-"game": "48d2bc15-1c0f-4079-a515-c4eeb8c344d4"
+"game": "48d2bc15-1c0f-4079-a515-c4eeb8c344d4",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0285204991087344,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2132,14 +2657,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.034869240348692404,
+"100": 0.03872752420470263
+},
 "map": "eight",
-"game": "52ab2021-e151-430a-b2ce-a035acc39c4f"
+"game": "52ab2021-e151-430a-b2ce-a035acc39c4f",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 7,
-"half_share": 0.13001383125864455,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2156,14 +2687,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1287037037037037,
+"100": 0.07882352941176471
+},
 "map": "eight",
-"game": "52ab2021-e151-430a-b2ce-a035acc39c4f"
+"game": "52ab2021-e151-430a-b2ce-a035acc39c4f",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.19144602851323828,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -2180,14 +2717,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.23125564588979222,
+"100": 0.24452133794694347
+},
 "map": "eight",
-"game": "7bf5c4ed-1e08-4a21-8e6f-8464483e6235"
+"game": "7bf5c4ed-1e08-4a21-8e6f-8464483e6235",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.21845949535192563,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2204,14 +2747,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.2885964912280702,
+"100": 0.34555555555555556
+},
 "map": "eight",
-"game": "7bf5c4ed-1e08-4a21-8e6f-8464483e6235"
+"game": "7bf5c4ed-1e08-4a21-8e6f-8464483e6235",
+"opponent": "new team(4)"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.19853917662682602,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -2228,14 +2777,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.2614035087719298,
+"100": 0.2788888888888889
+},
 "map": "eight",
-"game": "9217e4e2-87c5-47af-932c-508c96c2b825"
+"game": "9217e4e2-87c5-47af-932c-508c96c2b825",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.006329113924050633,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2252,14 +2807,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.003194888178913738,
+"100": 0.003663003663003663
+},
 "map": "eight",
-"game": "9217e4e2-87c5-47af-932c-508c96c2b825"
+"game": "9217e4e2-87c5-47af-932c-508c96c2b825",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.15656565656565657,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2276,14 +2837,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.2068627450980392,
+"100": 0.17435897435897435
+},
 "map": "eight",
-"game": "af52267e-53f6-4b01-bcc9-0c945ec5979d"
+"game": "af52267e-53f6-4b01-bcc9-0c945ec5979d",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.008718395815170008,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2300,14 +2867,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.008045977011494253,
+"100": 0.008962868117797696
+},
 "map": "eight",
-"game": "af52267e-53f6-4b01-bcc9-0c945ec5979d"
+"game": "af52267e-53f6-4b01-bcc9-0c945ec5979d",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.04004106776180698,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2324,14 +2897,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.05847076461769116,
+"100": 0.06643952299829642
+},
 "map": "eight",
-"game": "bdec398b-048c-4f0c-bb93-323212058a95"
+"game": "bdec398b-048c-4f0c-bb93-323212058a95",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 10,
-"half_share": 0.13756613756613756,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2348,14 +2927,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.16646562123039807,
+"100": 0.21144674085850557
+},
 "map": "eight",
-"game": "bdec398b-048c-4f0c-bb93-323212058a95"
+"game": "bdec398b-048c-4f0c-bb93-323212058a95",
+"opponent": "Boost"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 6,
-"half_share": 0.26734104046242774,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2372,14 +2957,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.2966601178781925,
+"100": 0.31748071979434445
+},
 "map": "eight",
-"game": "f1f83873-342a-4f50-bfe1-11771051fca7"
+"game": "f1f83873-342a-4f50-bfe1-11771051fca7",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.09128978224455611,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2396,14 +2987,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11978021978021978,
+"100": 0.13423645320197045
+},
 "map": "eight",
-"game": "f1f83873-342a-4f50-bfe1-11771051fca7"
+"game": "f1f83873-342a-4f50-bfe1-11771051fca7",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.08227848101265822,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2420,14 +3017,20 @@
 "their_banked": 72
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1194225721784777,
+"100": 0.10963455149501661
+},
 "map": "elkring",
-"game": "1a954dfc-5bc0-4846-92ce-b0907afeb414"
+"game": "1a954dfc-5bc0-4846-92ce-b0907afeb414",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 7,
-"half_share": 0.16401673640167364,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2444,14 +3047,20 @@
 "their_banked": 126
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.2101123595505618,
+"100": 0.19855072463768117
+},
 "map": "elkring",
-"game": "1a954dfc-5bc0-4846-92ce-b0907afeb414"
+"game": "1a954dfc-5bc0-4846-92ce-b0907afeb414",
+"opponent": "Boost"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 2,
-"half_share": 0.3741883116883117,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2468,14 +3077,20 @@
 "their_banked": 144
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.49730312837108953,
+"100": 0.4607977991746905
+},
 "map": "elkring",
-"game": "20ba5030-f070-4e2b-8d59-fe9a835d0a87"
+"game": "20ba5030-f070-4e2b-8d59-fe9a835d0a87",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2492,14 +3107,20 @@
 "their_banked": 72
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "elkring",
-"game": "20ba5030-f070-4e2b-8d59-fe9a835d0a87"
+"game": "20ba5030-f070-4e2b-8d59-fe9a835d0a87",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.08135860979462875,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2516,14 +3137,20 @@
 "their_banked": 144
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11444444444444445,
+"100": 0.1199421965317919
+},
 "map": "elkring",
-"game": "3bcf4f4c-9c40-4827-82fd-ec1b7213459c"
+"game": "3bcf4f4c-9c40-4827-82fd-ec1b7213459c",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 4,
-"half_share": 0.3306878306878307,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -2540,14 +3167,20 @@
 "their_banked": 144
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.4451145958986731,
+"100": 0.37756714060031593
+},
 "map": "elkring",
-"game": "3bcf4f4c-9c40-4827-82fd-ec1b7213459c"
+"game": "3bcf4f4c-9c40-4827-82fd-ec1b7213459c",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.03383977900552486,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2564,14 +3197,20 @@
 "their_banked": 90
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.04528650646950092,
+"100": 0.04513064133016627
+},
 "map": "elkring",
-"game": "4592dca2-728e-430c-9ce9-a36aea0b4ef4"
+"game": "4592dca2-728e-430c-9ce9-a36aea0b4ef4",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.022658610271903322,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2588,14 +3227,20 @@
 "their_banked": 108
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.031315240083507306,
+"100": 0.04172461752433936
+},
 "map": "elkring",
-"game": "4592dca2-728e-430c-9ce9-a36aea0b4ef4"
+"game": "4592dca2-728e-430c-9ce9-a36aea0b4ef4",
+"opponent": "new team(4)"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.20987654320987653,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2612,14 +3257,20 @@
 "their_banked": 108
 }
 },
+"label": {
+"60": 1,
+"100": 0
+},
+"future_share": {
+"60": 0.2870928829915561,
+"100": 0.22257551669316375
+},
 "map": "elkring",
-"game": "4b6dcb03-db4c-46ed-b091-5ddc6cd7ca5a"
+"game": "4b6dcb03-db4c-46ed-b091-5ddc6cd7ca5a",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.052187260168841135,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -2636,14 +3287,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.04589114194236926,
+"100": 0.004201680672268907
+},
 "map": "elkring",
-"game": "4b6dcb03-db4c-46ed-b091-5ddc6cd7ca5a"
+"game": "4b6dcb03-db4c-46ed-b091-5ddc6cd7ca5a",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.11944869831546708,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2660,14 +3317,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.16595744680851063,
+"100": 0.21606648199445982
+},
 "map": "elkring",
-"game": "52b134f1-9326-4ecf-93f6-e5f37a22d465"
+"game": "52b134f1-9326-4ecf-93f6-e5f37a22d465",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 4,
-"half_share": 0.3203187250996016,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2684,14 +3347,20 @@
 "their_banked": 108
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.41789473684210526,
+"100": 0.44133333333333336
+},
 "map": "elkring",
-"game": "52b134f1-9326-4ecf-93f6-e5f37a22d465"
+"game": "52b134f1-9326-4ecf-93f6-e5f37a22d465",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.05862361937128292,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2708,14 +3377,20 @@
 "their_banked": 72
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08508014796547472,
+"100": 0.11794871794871795
+},
 "map": "elkring",
-"game": "611167af-d739-4580-bbb7-b391513efe21"
+"game": "611167af-d739-4580-bbb7-b391513efe21",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 7,
-"half_share": 0.10225763612217796,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2732,14 +3407,20 @@
 "their_banked": 162
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13508771929824562,
+"100": 0.14777777777777779
+},
 "map": "elkring",
-"game": "611167af-d739-4580-bbb7-b391513efe21"
+"game": "611167af-d739-4580-bbb7-b391513efe21",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.08372404554588078,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2756,14 +3437,20 @@
 "their_banked": 144
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11091393078970718,
+"100": 0.10822998872604284
+},
 "map": "elkring",
-"game": "86f1c4cb-a8c5-4d1a-9c10-e464abe93852"
+"game": "86f1c4cb-a8c5-4d1a-9c10-e464abe93852",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.02947845804988662,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2780,14 +3467,20 @@
 "their_banked": 108
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.04075235109717868,
+"100": 0.05439330543933055
+},
 "map": "elkring",
-"game": "86f1c4cb-a8c5-4d1a-9c10-e464abe93852"
+"game": "86f1c4cb-a8c5-4d1a-9c10-e464abe93852",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.1750865051903114,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2804,14 +3497,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.2344763670064875,
+"100": 0.24076281287246723
+},
 "map": "elkring",
-"game": "ab040bb5-3a42-42b0-a783-9795a0fd5f62"
+"game": "ab040bb5-3a42-42b0-a783-9795a0fd5f62",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.07482993197278912,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2828,14 +3527,20 @@
 "their_banked": 90
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.09494324045407637,
+"100": 0.08842652795838751
+},
 "map": "elkring",
-"game": "ab040bb5-3a42-42b0-a783-9795a0fd5f62"
+"game": "ab040bb5-3a42-42b0-a783-9795a0fd5f62",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.1587183308494784,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -2852,14 +3557,20 @@
 "their_banked": 144
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.2151639344262295,
+"100": 0.10875331564986737
+},
 "map": "elkring",
-"game": "eb21fa12-163f-4e3f-b07c-d2468a96b9f1"
+"game": "eb21fa12-163f-4e3f-b07c-d2468a96b9f1",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.13280212483399734,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -2876,14 +3587,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.15350877192982457,
+"100": 0.14444444444444443
+},
 "map": "elkring",
-"game": "eb21fa12-163f-4e3f-b07c-d2468a96b9f1"
+"game": "eb21fa12-163f-4e3f-b07c-d2468a96b9f1",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.14442231075697212,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -2900,14 +3617,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.16842105263157894,
+"100": 0.14666666666666667
+},
 "map": "expanse",
-"game": "3578992a-a93a-4b1f-975a-2d782f6f1498"
+"game": "3578992a-a93a-4b1f-975a-2d782f6f1498",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -2924,14 +3647,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "3578992a-a93a-4b1f-975a-2d782f6f1498"
+"game": "3578992a-a93a-4b1f-975a-2d782f6f1498",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -2948,14 +3677,20 @@
 "their_banked": 80
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "53904c3d-9b87-49fb-9e65-594334e088be"
+"game": "53904c3d-9b87-49fb-9e65-594334e088be",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.09362549800796813,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -2972,14 +3707,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.12368421052631579,
+"100": 0.12166666666666667
+},
 "map": "expanse",
-"game": "53904c3d-9b87-49fb-9e65-594334e088be"
+"game": "53904c3d-9b87-49fb-9e65-594334e088be",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -2996,14 +3737,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "58cc6d0d-3c0f-4d2d-9bd5-1194248d8d72"
+"game": "58cc6d0d-3c0f-4d2d-9bd5-1194248d8d72",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.07768924302788845,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3020,14 +3767,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.10263157894736842,
+"100": 0.13
+},
 "map": "expanse",
-"game": "58cc6d0d-3c0f-4d2d-9bd5-1194248d8d72"
+"game": "58cc6d0d-3c0f-4d2d-9bd5-1194248d8d72",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3044,14 +3797,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "6828bffd-3750-48b3-8f0d-d8fe73fa95aa"
+"game": "6828bffd-3750-48b3-8f0d-d8fe73fa95aa",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3068,14 +3827,20 @@
 "their_banked": 58
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "6828bffd-3750-48b3-8f0d-d8fe73fa95aa"
+"game": "6828bffd-3750-48b3-8f0d-d8fe73fa95aa",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3092,14 +3857,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "6c7e4c11-3619-4ac4-a923-b464b8024450"
+"game": "6c7e4c11-3619-4ac4-a923-b464b8024450",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3116,14 +3887,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "6c7e4c11-3619-4ac4-a923-b464b8024450"
+"game": "6c7e4c11-3619-4ac4-a923-b464b8024450",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3140,14 +3917,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "913bbb48-dc80-46c3-9639-3d7a4f0cd564"
+"game": "913bbb48-dc80-46c3-9639-3d7a4f0cd564",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.07768924302788845,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3164,14 +3947,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.10263157894736842,
+"100": 0.13
+},
 "map": "expanse",
-"game": "913bbb48-dc80-46c3-9639-3d7a4f0cd564"
+"game": "913bbb48-dc80-46c3-9639-3d7a4f0cd564",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3188,14 +3977,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "9612a0c9-0ae8-4f13-aac0-de8f353c38a0"
+"game": "9612a0c9-0ae8-4f13-aac0-de8f353c38a0",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.04282868525896414,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3212,14 +4007,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.056578947368421055,
+"100": 0.07166666666666667
+},
 "map": "expanse",
-"game": "9612a0c9-0ae8-4f13-aac0-de8f353c38a0"
+"game": "9612a0c9-0ae8-4f13-aac0-de8f353c38a0",
+"opponent": "geese geese go"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.14043824701195218,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3236,14 +4037,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.18552631578947368,
+"100": 0.235
+},
 "map": "expanse",
-"game": "aae43f41-471d-43d1-b3eb-548d85699291"
+"game": "aae43f41-471d-43d1-b3eb-548d85699291",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.07828810020876827,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3260,14 +4067,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.10504201680672269,
+"100": 0.09747292418772563
+},
 "map": "expanse",
-"game": "aae43f41-471d-43d1-b3eb-548d85699291"
+"game": "aae43f41-471d-43d1-b3eb-548d85699291",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0647410358565737,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3284,14 +4097,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08552631578947369,
+"100": 0.07833333333333334
+},
 "map": "expanse",
-"game": "b80e5b57-5cac-4193-b409-c3fccbe55f6e"
+"game": "b80e5b57-5cac-4193-b409-c3fccbe55f6e",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3308,14 +4127,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "b80e5b57-5cac-4193-b409-c3fccbe55f6e"
+"game": "b80e5b57-5cac-4193-b409-c3fccbe55f6e",
+"opponent": "hello"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3332,14 +4157,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "expanse",
-"game": "d105814a-abba-499a-aa7e-f08b4218076c"
+"game": "d105814a-abba-499a-aa7e-f08b4218076c",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0249003984063745,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3356,14 +4187,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03289473684210526,
+"100": 0.041666666666666664
+},
 "map": "expanse",
-"game": "d105814a-abba-499a-aa7e-f08b4218076c"
+"game": "d105814a-abba-499a-aa7e-f08b4218076c",
+"opponent": "geese geese go"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.06674757281553398,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3379,15 +4216,21 @@
 "our_deaths": 0,
 "their_banked": 22
 }
+},
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.057432432432432436,
+"100": 0.06159420289855073
 },
 "map": "fragment",
-"game": "04e06bec-252b-43f6-b022-ff7aa449de31"
+"game": "04e06bec-252b-43f6-b022-ff7aa449de31",
+"opponent": "Let's LARP"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.179080824088748,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3404,14 +4247,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.25223214285714285,
+"100": 0.2896341463414634
+},
 "map": "fragment",
-"game": "04e06bec-252b-43f6-b022-ff7aa449de31"
+"game": "04e06bec-252b-43f6-b022-ff7aa449de31",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.11424541607898449,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3428,14 +4277,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.12473118279569892,
+"100": 0.11711711711711711
+},
 "map": "fragment",
-"game": "063b3ac0-7a2e-4ff7-b7b4-14cda13dd1bb"
+"game": "063b3ac0-7a2e-4ff7-b7b4-14cda13dd1bb",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.19004524886877827,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3452,14 +4307,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 1
+},
+"future_share": {
+"60": 0.24888888888888888,
+"100": 0.2759259259259259
+},
 "map": "fragment",
-"game": "063b3ac0-7a2e-4ff7-b7b4-14cda13dd1bb"
+"game": "063b3ac0-7a2e-4ff7-b7b4-14cda13dd1bb",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 6,
-"half_share": 0.27503974562798095,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3476,14 +4337,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.3032967032967033,
+"100": 0.32
+},
 "map": "fragment",
-"game": "0d53a33d-b7ca-489d-9ac3-d92b80226086"
+"game": "0d53a33d-b7ca-489d-9ac3-d92b80226086",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.11076443057722309,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3500,14 +4367,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11298076923076923,
+"100": 0.1024390243902439
+},
 "map": "fragment",
-"game": "0d53a33d-b7ca-489d-9ac3-d92b80226086"
+"game": "0d53a33d-b7ca-489d-9ac3-d92b80226086",
+"opponent": "geese geese go"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.16461916461916462,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3524,14 +4397,20 @@
 "their_banked": 102
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.22105263157894736,
+"100": 0.16341463414634147
+},
 "map": "fragment",
-"game": "6d1dee2f-5215-4891-bf1b-ed75b075ddb9"
+"game": "6d1dee2f-5215-4891-bf1b-ed75b075ddb9",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 5,
-"half_share": 0.022809123649459785,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3548,14 +4427,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.029079159935379646,
+"100": 0.03339517625231911
+},
 "map": "fragment",
-"game": "6d1dee2f-5215-4891-bf1b-ed75b075ddb9"
+"game": "6d1dee2f-5215-4891-bf1b-ed75b075ddb9",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.07415254237288135,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3572,14 +4457,20 @@
 "their_banked": 58
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06142857142857143,
+"100": 0.06759098786828423
+},
 "map": "fragment",
-"game": "70ae9b71-3468-4177-8fba-0ab5fca59a33"
+"game": "70ae9b71-3468-4177-8fba-0ab5fca59a33",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.1322314049586777,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3596,14 +4487,20 @@
 "their_banked": 80
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.17480314960629922,
+"100": 0.1891891891891892
+},
 "map": "fragment",
-"game": "70ae9b71-3468-4177-8fba-0ab5fca59a33"
+"game": "70ae9b71-3468-4177-8fba-0ab5fca59a33",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 5,
-"half_share": 0.13280212483399734,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3620,14 +4517,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.17543859649122806,
+"100": 0.18888888888888888
+},
 "map": "fragment",
-"game": "7764010c-0fa6-4203-9d01-1386a8a6a7f7"
+"game": "7764010c-0fa6-4203-9d01-1386a8a6a7f7",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.15572715572715573,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3644,14 +4547,20 @@
 "their_banked": 102
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.2270168855534709,
+"100": 0.15738498789346247
+},
 "map": "fragment",
-"game": "7764010c-0fa6-4203-9d01-1386a8a6a7f7"
+"game": "7764010c-0fa6-4203-9d01-1386a8a6a7f7",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.020186335403726708,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3668,14 +4577,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.018518518518518517,
+"100": 0.0
+},
 "map": "fragment",
-"game": "b045cc6f-8582-42a3-a538-6a8416723373"
+"game": "b045cc6f-8582-42a3-a538-6a8416723373",
+"opponent": "Let's LARP"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 7,
-"half_share": 0.1325556733828208,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3692,14 +4607,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.16022889842632332,
+"100": 0.2077922077922078
+},
 "map": "fragment",
-"game": "b045cc6f-8582-42a3-a538-6a8416723373"
+"game": "b045cc6f-8582-42a3-a538-6a8416723373",
+"opponent": "PTN Hyperion"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.16646415552855406,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3716,14 +4637,20 @@
 "their_banked": 80
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.23661485319516407,
+"100": 0.22673031026252982
+},
 "map": "fragment",
-"game": "b5106059-1877-4722-b0da-a0dbee8638a4"
+"game": "b5106059-1877-4722-b0da-a0dbee8638a4",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.07596371882086168,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -3740,14 +4667,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08307210031347963,
+"100": 0.08506616257088846
+},
 "map": "fragment",
-"game": "b5106059-1877-4722-b0da-a0dbee8638a4"
+"game": "b5106059-1877-4722-b0da-a0dbee8638a4",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.08439897698209718,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3764,14 +4697,20 @@
 "their_banked": 80
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.120817843866171,
+"100": 0.06349206349206349
+},
 "map": "fragment",
-"game": "c6ce8e57-4c6c-40b7-b103-76273546abaf"
+"game": "c6ce8e57-4c6c-40b7-b103-76273546abaf",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.1327334083239595,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3788,14 +4727,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.14108527131782947,
+"100": 0.18762886597938144
+},
 "map": "fragment",
-"game": "c6ce8e57-4c6c-40b7-b103-76273546abaf"
+"game": "c6ce8e57-4c6c-40b7-b103-76273546abaf",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.08265582655826559,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3812,14 +4757,20 @@
 "their_banked": 80
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.12348178137651822,
+"100": 0.08791208791208792
+},
 "map": "fragment",
-"game": "ec0d6de6-dfb2-4ed8-844b-e97b10b490a9"
+"game": "ec0d6de6-dfb2-4ed8-844b-e97b10b490a9",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 5,
-"half_share": 0.19249592169657423,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3836,14 +4787,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.21395348837209302,
+"100": 0.2238372093023256
+},
 "map": "fragment",
-"game": "ec0d6de6-dfb2-4ed8-844b-e97b10b490a9"
+"game": "ec0d6de6-dfb2-4ed8-844b-e97b10b490a9",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.11390284757118928,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -3860,14 +4817,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13498312710911137,
+"100": 0.15130674002751032
+},
 "map": "interlock",
-"game": "020267d7-ec7d-41da-820d-c094ff690acd"
+"game": "020267d7-ec7d-41da-820d-c094ff690acd",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.04939271255060729,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3884,14 +4847,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06559139784946237,
+"100": 0.0684931506849315
+},
 "map": "interlock",
-"game": "020267d7-ec7d-41da-820d-c094ff690acd"
+"game": "020267d7-ec7d-41da-820d-c094ff690acd",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.02262443438914027,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -3908,14 +4877,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03125,
+"100": 0.040160642570281124
+},
 "map": "interlock",
-"game": "0bf91a4d-3f92-470d-96c4-0293d95063ab"
+"game": "0bf91a4d-3f92-470d-96c4-0293d95063ab",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.17946645109135004,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -3932,14 +4907,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.21995708154506438,
+"100": 0.21311475409836064
+},
 "map": "interlock",
-"game": "0bf91a4d-3f92-470d-96c4-0293d95063ab"
+"game": "0bf91a4d-3f92-470d-96c4-0293d95063ab",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0375,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -3956,14 +4937,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.051533742331288344,
+"100": 0.03577235772357724
+},
 "map": "interlock",
-"game": "1b25e025-fa54-4db0-93f4-52e271d9687b"
+"game": "1b25e025-fa54-4db0-93f4-52e271d9687b",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.08844621513944223,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -3980,14 +4967,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1168421052631579,
+"100": 0.148
+},
 "map": "interlock",
-"game": "1b25e025-fa54-4db0-93f4-52e271d9687b"
+"game": "1b25e025-fa54-4db0-93f4-52e271d9687b",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.1280334728033473,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4004,14 +4997,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11573033707865168,
+"100": 0.13333333333333333
+},
 "map": "interlock",
-"game": "40567036-4bf8-4c17-9619-a4f4dea32bb3"
+"game": "40567036-4bf8-4c17-9619-a4f4dea32bb3",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0568,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4028,14 +5027,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.05396825396825397,
+"100": 0.04832214765100671
+},
 "map": "interlock",
-"game": "40567036-4bf8-4c17-9619-a4f4dea32bb3"
+"game": "40567036-4bf8-4c17-9619-a4f4dea32bb3",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.029955947136563875,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4052,14 +5057,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.04096385542168675,
+"100": 0.04885057471264368
+},
 "map": "interlock",
-"game": "54cab3d2-e587-45ba-b309-3bee514b401b"
+"game": "54cab3d2-e587-45ba-b309-3bee514b401b",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.22808764940239043,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4076,14 +5087,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.28421052631578947,
+"100": 0.29333333333333333
+},
 "map": "interlock",
-"game": "54cab3d2-e587-45ba-b309-3bee514b401b"
+"game": "54cab3d2-e587-45ba-b309-3bee514b401b",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.023408239700374533,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4100,14 +5117,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0327653997378768,
+"100": 0.04440497335701599
+},
 "map": "interlock",
-"game": "877faa5f-c117-4080-b743-1521f6f4c821"
+"game": "877faa5f-c117-4080-b743-1521f6f4c821",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 4,
-"half_share": 0.3035856573705179,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4124,14 +5147,20 @@
 "their_banked": 116
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.34421052631578947,
+"100": 0.36533333333333334
+},
 "map": "interlock",
-"game": "877faa5f-c117-4080-b743-1521f6f4c821"
+"game": "877faa5f-c117-4080-b743-1521f6f4c821",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.16331658291457288,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4148,14 +5177,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.140607424071991,
+"100": 0.12988826815642457
+},
 "map": "interlock",
-"game": "a1acc3e3-b258-4395-8e89-0ed064f42bc8"
+"game": "a1acc3e3-b258-4395-8e89-0ed064f42bc8",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.024669603524229075,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4172,14 +5207,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03132530120481928,
+"100": 0.03625377643504532
+},
 "map": "interlock",
-"game": "a1acc3e3-b258-4395-8e89-0ed064f42bc8"
+"game": "a1acc3e3-b258-4395-8e89-0ed064f42bc8",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.1745019920318725,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4196,14 +5237,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.17578947368421052,
+"100": 0.18266666666666667
+},
 "map": "interlock",
-"game": "be275757-5185-4283-84f3-8b5c41411f59"
+"game": "be275757-5185-4283-84f3-8b5c41411f59",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.05128205128205128,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4220,14 +5267,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.04372355430183357,
+"100": 0.0412573673870334
+},
 "map": "interlock",
-"game": "be275757-5185-4283-84f3-8b5c41411f59"
+"game": "be275757-5185-4283-84f3-8b5c41411f59",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.016765285996055226,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4244,14 +5297,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.01793103448275862,
+"100": 0.021487603305785124
+},
 "map": "interlock",
-"game": "e4744187-3bdb-4482-b16c-7fd6cb3a4b06"
+"game": "e4744187-3bdb-4482-b16c-7fd6cb3a4b06",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.11852589641434264,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4268,14 +5327,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13421052631578947,
+"100": 0.10333333333333333
+},
 "map": "interlock",
-"game": "e4744187-3bdb-4482-b16c-7fd6cb3a4b06"
+"game": "e4744187-3bdb-4482-b16c-7fd6cb3a4b06",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.13209302325581396,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4292,14 +5357,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11940298507462686,
+"100": 0.12573099415204678
+},
 "map": "interlock",
-"game": "ffc71923-e7f5-4faf-9f25-f78177763eaa"
+"game": "ffc71923-e7f5-4faf-9f25-f78177763eaa",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.16733067729083664,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4316,14 +5387,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.20105263157894737,
+"100": 0.184
+},
 "map": "interlock",
-"game": "ffc71923-e7f5-4faf-9f25-f78177763eaa"
+"game": "ffc71923-e7f5-4faf-9f25-f78177763eaa",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4340,14 +5417,20 @@
 "their_banked": 124
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "lanes",
-"game": "0ccc95e0-ba83-42f2-af0e-245e50051e9a"
+"game": "0ccc95e0-ba83-42f2-af0e-245e50051e9a",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.053784860557768925,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4364,14 +5447,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07105263157894737,
+"100": 0.09
+},
 "map": "lanes",
-"game": "0ccc95e0-ba83-42f2-af0e-245e50051e9a"
+"game": "0ccc95e0-ba83-42f2-af0e-245e50051e9a",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.07220216606498195,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4388,14 +5477,20 @@
 "their_banked": 154
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.09813542688910697,
+"100": 0.08729139922978177
+},
 "map": "lanes",
-"game": "1eb943f1-4cb2-4400-b7a7-fc7e7c3f626d"
+"game": "1eb943f1-4cb2-4400-b7a7-fc7e7c3f626d",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.05436447166921899,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4412,14 +5507,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07553191489361702,
+"100": 0.10142857142857142
+},
 "map": "lanes",
-"game": "1eb943f1-4cb2-4400-b7a7-fc7e7c3f626d"
+"game": "1eb943f1-4cb2-4400-b7a7-fc7e7c3f626d",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4436,14 +5537,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "lanes",
-"game": "2f2cc194-6edd-40f7-8789-053504523a95"
+"game": "2f2cc194-6edd-40f7-8789-053504523a95",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4460,14 +5567,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "lanes",
-"game": "2f2cc194-6edd-40f7-8789-053504523a95"
+"game": "2f2cc194-6edd-40f7-8789-053504523a95",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.03590785907859079,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4484,14 +5597,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.047747747747747746,
+"100": 0.059770114942528735
+},
 "map": "lanes",
-"game": "5e57b7f1-41c1-4efd-9a05-4dc60442ee21"
+"game": "5e57b7f1-41c1-4efd-9a05-4dc60442ee21",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.026734104046242775,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4508,14 +5627,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.036345776031434185,
+"100": 0.04755784061696658
+},
 "map": "lanes",
-"game": "5e57b7f1-41c1-4efd-9a05-4dc60442ee21"
+"game": "5e57b7f1-41c1-4efd-9a05-4dc60442ee21",
+"opponent": "new team(4)"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.01037344398340249,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4532,14 +5657,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.013888888888888888,
+"100": 0.017462165308498253
+},
 "map": "lanes",
-"game": "aca2f6d3-1bf8-4ec8-88ea-641f1912e792"
+"game": "aca2f6d3-1bf8-4ec8-88ea-641f1912e792",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.044712562100780694,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4556,14 +5687,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06040268456375839,
+"100": 0.0784557907845579
+},
 "map": "lanes",
-"game": "aca2f6d3-1bf8-4ec8-88ea-641f1912e792"
+"game": "aca2f6d3-1bf8-4ec8-88ea-641f1912e792",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4580,14 +5717,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "lanes",
-"game": "b04a2076-5af4-4d22-b631-553c25a5c3c6"
+"game": "b04a2076-5af4-4d22-b631-553c25a5c3c6",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0033200531208499337,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4604,14 +5747,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0043859649122807015,
+"100": 0.005555555555555556
+},
 "map": "lanes",
-"game": "b04a2076-5af4-4d22-b631-553c25a5c3c6"
+"game": "b04a2076-5af4-4d22-b631-553c25a5c3c6",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4628,14 +5777,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "lanes",
-"game": "b624efa1-93de-49d7-8259-1ec45cbb9b5e"
+"game": "b624efa1-93de-49d7-8259-1ec45cbb9b5e",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4652,14 +5807,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "lanes",
-"game": "b624efa1-93de-49d7-8259-1ec45cbb9b5e"
+"game": "b624efa1-93de-49d7-8259-1ec45cbb9b5e",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0073041168658698535,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -4676,14 +5837,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.009649122807017544,
+"100": 0.012222222222222223
+},
 "map": "lanes",
-"game": "d1c2376a-2ae6-4413-9526-5f0756ff2a4b"
+"game": "d1c2376a-2ae6-4413-9526-5f0756ff2a4b",
+"opponent": "Boost"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.00597609561752988,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4700,14 +5867,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.007894736842105263,
+"100": 0.01
+},
 "map": "lanes",
-"game": "d1c2376a-2ae6-4413-9526-5f0756ff2a4b"
+"game": "d1c2376a-2ae6-4413-9526-5f0756ff2a4b",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4724,14 +5897,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "lanes",
-"game": "e57a0690-26d2-4272-8dc0-659027259ab0"
+"game": "e57a0690-26d2-4272-8dc0-659027259ab0",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4748,14 +5927,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "lanes",
-"game": "e57a0690-26d2-4272-8dc0-659027259ab0"
+"game": "e57a0690-26d2-4272-8dc0-659027259ab0",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0006640106241699867,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4772,14 +5957,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0008771929824561404,
+"100": 0.0011111111111111111
+},
 "map": "lanes",
-"game": "f4f1699d-bb70-4d41-afb3-3c4fc98c3456"
+"game": "f4f1699d-bb70-4d41-afb3-3c4fc98c3456",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.04771784232365145,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4796,14 +5987,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06388888888888888,
+"100": 0.058333333333333334
+},
 "map": "lanes",
-"game": "f4f1699d-bb70-4d41-afb3-3c4fc98c3456"
+"game": "f4f1699d-bb70-4d41-afb3-3c4fc98c3456",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0551128818061089,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4820,14 +6017,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07280701754385965,
+"100": 0.09222222222222222
+},
 "map": "monolith",
-"game": "0c9ef773-f6fe-417c-beeb-71bfe8080c11"
+"game": "0c9ef773-f6fe-417c-beeb-71bfe8080c11",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.010169491525423728,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4844,14 +6047,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.013525698827772768,
+"100": 0.01726121979286536
+},
 "map": "monolith",
-"game": "0c9ef773-f6fe-417c-beeb-71bfe8080c11"
+"game": "0c9ef773-f6fe-417c-beeb-71bfe8080c11",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0423905489923558,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4868,14 +6077,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.05684995340167754,
+"100": 0.07322929171668667
+},
 "map": "monolith",
-"game": "1d2dacb9-995c-4538-b3b0-17bacaac292c"
+"game": "1d2dacb9-995c-4538-b3b0-17bacaac292c",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4892,14 +6107,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "monolith",
-"game": "1d2dacb9-995c-4538-b3b0-17bacaac292c"
+"game": "1d2dacb9-995c-4538-b3b0-17bacaac292c",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.04152249134948097,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4916,14 +6137,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.05560704355885079,
+"100": 0.07151370679380215
+},
 "map": "monolith",
-"game": "3cd8ed08-fa92-46e7-ba50-a657d28e0133"
+"game": "3cd8ed08-fa92-46e7-ba50-a657d28e0133",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.1111111111111111,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4940,14 +6167,20 @@
 "their_banked": 80
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.15098039215686274,
+"100": 0.18205128205128204
+},
 "map": "monolith",
-"game": "3cd8ed08-fa92-46e7-ba50-a657d28e0133"
+"game": "3cd8ed08-fa92-46e7-ba50-a657d28e0133",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.013944223107569721,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4964,14 +6197,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.018421052631578946,
+"100": 0.023333333333333334
+},
 "map": "monolith",
-"game": "3fdf82c1-b8b1-46b4-9c44-b509acd28a6c"
+"game": "3fdf82c1-b8b1-46b4-9c44-b509acd28a6c",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.017356475300400534,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -4988,14 +6227,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.022968197879858657,
+"100": 0.02914798206278027
+},
 "map": "monolith",
-"game": "3fdf82c1-b8b1-46b4-9c44-b509acd28a6c"
+"game": "3fdf82c1-b8b1-46b4-9c44-b509acd28a6c",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.017341040462427744,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5012,14 +6257,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.023575638506876228,
+"100": 0.030848329048843187
+},
 "map": "monolith",
-"game": "4e8f5f7b-651d-41e5-a664-6a9c6e0bea59"
+"game": "4e8f5f7b-651d-41e5-a664-6a9c6e0bea59",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.18707738542449287,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5036,14 +6287,20 @@
 "their_banked": 110
 }
 },
+"label": {
+"60": 1,
+"100": 0
+},
+"future_share": {
+"60": 0.25803108808290154,
+"100": 0.2386206896551724
+},
 "map": "monolith",
-"game": "4e8f5f7b-651d-41e5-a664-6a9c6e0bea59"
+"game": "4e8f5f7b-651d-41e5-a664-6a9c6e0bea59",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.07197231833910035,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5060,14 +6317,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0963855421686747,
+"100": 0.12395709177592372
+},
 "map": "monolith",
-"game": "55791658-0b9f-4aef-bef4-a560b2dee33a"
+"game": "55791658-0b9f-4aef-bef4-a560b2dee33a",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.08698539176626827,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5084,14 +6347,20 @@
 "their_banked": 80
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11491228070175438,
+"100": 0.13
+},
 "map": "monolith",
-"game": "55791658-0b9f-4aef-bef4-a560b2dee33a"
+"game": "55791658-0b9f-4aef-bef4-a560b2dee33a",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.05312084993359894,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5108,14 +6377,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07017543859649122,
+"100": 0.08888888888888889
+},
 "map": "monolith",
-"game": "58051850-f2df-4b59-a340-dc5bf7d074a0"
+"game": "58051850-f2df-4b59-a340-dc5bf7d074a0",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.010624169986719787,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5132,14 +6407,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.014035087719298246,
+"100": 0.015555555555555555
+},
 "map": "monolith",
-"game": "58051850-f2df-4b59-a340-dc5bf7d074a0"
+"game": "58051850-f2df-4b59-a340-dc5bf7d074a0",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.049136786188579015,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5156,14 +6437,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06491228070175438,
+"100": 0.08222222222222222
+},
 "map": "monolith",
-"game": "a8276f49-4a34-4a72-9acc-f2cce3edc2f1"
+"game": "a8276f49-4a34-4a72-9acc-f2cce3edc2f1",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.05581708137188971,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -5180,14 +6467,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07404103479036575,
+"100": 0.094211123723042
+},
 "map": "monolith",
-"game": "a8276f49-4a34-4a72-9acc-f2cce3edc2f1"
+"game": "a8276f49-4a34-4a72-9acc-f2cce3edc2f1",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.099601593625498,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5204,14 +6497,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13157894736842105,
+"100": 0.16666666666666666
+},
 "map": "monolith",
-"game": "a8e76d13-8d11-48e6-9997-c1f64f078ffd"
+"game": "a8e76d13-8d11-48e6-9997-c1f64f078ffd",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0199203187250996,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5228,14 +6527,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.02631578947368421,
+"100": 0.03
+},
 "map": "monolith",
-"game": "a8e76d13-8d11-48e6-9997-c1f64f078ffd"
+"game": "a8e76d13-8d11-48e6-9997-c1f64f078ffd",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.10026560424966799,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5252,14 +6557,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1324561403508772,
+"100": 0.16777777777777778
+},
 "map": "monolith",
-"game": "ba6aa062-b597-4cb1-a2a8-5c1701bf3b7f"
+"game": "ba6aa062-b597-4cb1-a2a8-5c1701bf3b7f",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.023240371845949535,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5276,14 +6587,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03070175438596491,
+"100": 0.03888888888888889
+},
 "map": "monolith",
-"game": "ba6aa062-b597-4cb1-a2a8-5c1701bf3b7f"
+"game": "ba6aa062-b597-4cb1-a2a8-5c1701bf3b7f",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.028056112224448898,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5300,14 +6617,20 @@
 "their_banked": 184
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03713527851458886,
+"100": 0.021885521885521887
+},
 "map": "packs",
-"game": "307bcd46-6b80-4c26-9b97-dd9b6cc78137"
+"game": "307bcd46-6b80-4c26-9b97-dd9b6cc78137",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.05296610169491525,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5324,14 +6647,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07142857142857142,
+"100": 0.09259259259259259
+},
 "map": "packs",
-"game": "307bcd46-6b80-4c26-9b97-dd9b6cc78137"
+"game": "307bcd46-6b80-4c26-9b97-dd9b6cc78137",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.04466501240694789,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5348,14 +6677,20 @@
 "their_banked": 92
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.05460750853242321,
+"100": 0.06126482213438735
+},
 "map": "packs",
-"game": "3e702334-9603-43ba-bfd4-e0ee276925d4"
+"game": "3e702334-9603-43ba-bfd4-e0ee276925d4",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.18212669683257918,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5372,14 +6707,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 1
+},
+"future_share": {
+"60": 0.2390625,
+"100": 0.31875
+},
 "map": "packs",
-"game": "3e702334-9603-43ba-bfd4-e0ee276925d4"
+"game": "3e702334-9603-43ba-bfd4-e0ee276925d4",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.058823529411764705,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5396,14 +6737,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0734375,
+"100": 0.075
+},
 "map": "packs",
-"game": "4eca1ba8-c864-41f7-931b-101cabaad4e1"
+"game": "4eca1ba8-c864-41f7-931b-101cabaad4e1",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.05091649694501019,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5420,14 +6767,20 @@
 "their_banked": 136
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.037940379403794036,
+"100": 0.04844290657439446
+},
 "map": "packs",
-"game": "4eca1ba8-c864-41f7-931b-101cabaad4e1"
+"game": "4eca1ba8-c864-41f7-931b-101cabaad4e1",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.01693227091633466,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5444,14 +6797,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.02236842105263158,
+"100": 0.028333333333333332
+},
 "map": "packs",
-"game": "b80f0bc5-cb21-491b-b72f-9e173ee0a798"
+"game": "b80f0bc5-cb21-491b-b72f-9e173ee0a798",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.15783898305084745,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -5468,14 +6827,20 @@
 "their_banked": 184
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1457142857142857,
+"100": 0.13518518518518519
+},
 "map": "packs",
-"game": "b80f0bc5-cb21-491b-b72f-9e173ee0a798"
+"game": "b80f0bc5-cb21-491b-b72f-9e173ee0a798",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5492,14 +6857,20 @@
 "their_banked": 184
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "packs",
-"game": "cb87c11d-b0fd-4986-b20a-fed0bbf1726e"
+"game": "cb87c11d-b0fd-4986-b20a-fed0bbf1726e",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.06673306772908366,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5516,14 +6887,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0881578947368421,
+"100": 0.07833333333333334
+},
 "map": "packs",
-"game": "cb87c11d-b0fd-4986-b20a-fed0bbf1726e"
+"game": "cb87c11d-b0fd-4986-b20a-fed0bbf1726e",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0928652321630804,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5540,14 +6917,20 @@
 "their_banked": 180
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0782472613458529,
+"100": 0.08559498956158663
+},
 "map": "packs",
-"game": "da169497-adf2-46c7-8328-8169dcf7c0df"
+"game": "da169497-adf2-46c7-8328-8169dcf7c0df",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.045550847457627115,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5564,14 +6947,20 @@
 "their_banked": 48
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.018361581920903956,
+"100": 0.0
+},
 "map": "packs",
-"game": "da169497-adf2-46c7-8328-8169dcf7c0df"
+"game": "da169497-adf2-46c7-8328-8169dcf7c0df",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.12350597609561753,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5588,14 +6977,20 @@
 "their_banked": 92
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.09868421052631579,
+"100": 0.125
+},
 "map": "packs",
-"game": "e221afff-c2a3-499d-8bff-89e5ead80b0f"
+"game": "e221afff-c2a3-499d-8bff-89e5ead80b0f",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.09433962264150944,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5612,14 +7007,20 @@
 "their_banked": 136
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13253012048192772,
+"100": 0.1301775147928994
+},
 "map": "packs",
-"game": "e221afff-c2a3-499d-8bff-89e5ead80b0f"
+"game": "e221afff-c2a3-499d-8bff-89e5ead80b0f",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.21812749003984064,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -5636,14 +7037,20 @@
 "their_banked": 140
 }
 },
+"label": {
+"60": 0,
+"100": 1
+},
+"future_share": {
+"60": 0.23421052631578948,
+"100": 0.25666666666666665
+},
 "map": "packs",
-"game": "f330c0ea-adb5-419b-8ce8-c40c946f416a"
+"game": "f330c0ea-adb5-419b-8ce8-c40c946f416a",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0647410358565737,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5660,14 +7067,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08552631578947369,
+"100": 0.09833333333333333
+},
 "map": "packs",
-"game": "f330c0ea-adb5-419b-8ce8-c40c946f416a"
+"game": "f330c0ea-adb5-419b-8ce8-c40c946f416a",
+"opponent": "Nyx"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.13047808764940239,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5684,14 +7097,20 @@
 "their_banked": 148
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.13815789473684212,
+"100": 0.17
+},
 "map": "packs",
-"game": "feaf32ad-bca5-4d1a-b20d-38237b61cd11"
+"game": "feaf32ad-bca5-4d1a-b20d-38237b61cd11",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0429042904290429,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5708,14 +7127,20 @@
 "their_banked": 136
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03007518796992481,
+"100": 0.039603960396039604
+},
 "map": "packs",
-"game": "feaf32ad-bca5-4d1a-b20d-38237b61cd11"
+"game": "feaf32ad-bca5-4d1a-b20d-38237b61cd11",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5732,14 +7157,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "0249fd99-05ed-4b21-83a9-9c53e74e8c49"
+"game": "0249fd99-05ed-4b21-83a9-9c53e74e8c49",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.00199203187250996,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5756,14 +7187,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.002631578947368421,
+"100": 0.0033333333333333335
+},
 "map": "pilgrimage",
-"game": "0249fd99-05ed-4b21-83a9-9c53e74e8c49"
+"game": "0249fd99-05ed-4b21-83a9-9c53e74e8c49",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -5780,14 +7217,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "038e2cb8-d3b5-4f39-a3b1-750297824827"
+"game": "038e2cb8-d3b5-4f39-a3b1-750297824827",
+"opponent": "Boost"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5804,14 +7247,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "038e2cb8-d3b5-4f39-a3b1-750297824827"
+"game": "038e2cb8-d3b5-4f39-a3b1-750297824827",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5828,14 +7277,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "116255ba-ae23-4b5f-9ca2-bed8354e6e50"
+"game": "116255ba-ae23-4b5f-9ca2-bed8354e6e50",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5852,14 +7307,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "116255ba-ae23-4b5f-9ca2-bed8354e6e50"
+"game": "116255ba-ae23-4b5f-9ca2-bed8354e6e50",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5876,14 +7337,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "30ac87b8-a7fe-4797-8bfc-7927154688bb"
+"game": "30ac87b8-a7fe-4797-8bfc-7927154688bb",
+"opponent": "Mite"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5900,14 +7367,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "30ac87b8-a7fe-4797-8bfc-7927154688bb"
+"game": "30ac87b8-a7fe-4797-8bfc-7927154688bb",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5924,14 +7397,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "3e99f587-1cb3-4f76-a7f4-c935d796734e"
+"game": "3e99f587-1cb3-4f76-a7f4-c935d796734e",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5948,14 +7427,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "3e99f587-1cb3-4f76-a7f4-c935d796734e"
+"game": "3e99f587-1cb3-4f76-a7f4-c935d796734e",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5972,14 +7457,20 @@
 "their_banked": 34
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "53cb8a7a-7860-498a-9e2c-51305bd6de10"
+"game": "53cb8a7a-7860-498a-9e2c-51305bd6de10",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.04799426934097421,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -5996,14 +7487,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.06504854368932039,
+"100": 0.060759493670886074
+},
 "map": "pilgrimage",
-"game": "53cb8a7a-7860-498a-9e2c-51305bd6de10"
+"game": "53cb8a7a-7860-498a-9e2c-51305bd6de10",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6020,14 +7517,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "80fd379f-a8a4-49b7-b44b-9d9bcd362638"
+"game": "80fd379f-a8a4-49b7-b44b-9d9bcd362638",
+"opponent": "Boost"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6044,14 +7547,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "80fd379f-a8a4-49b7-b44b-9d9bcd362638"
+"game": "80fd379f-a8a4-49b7-b44b-9d9bcd362638",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -6068,14 +7577,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "pilgrimage",
-"game": "a4f6482a-60a5-4ad9-999b-b6c311d59307"
+"game": "a4f6482a-60a5-4ad9-999b-b6c311d59307",
+"opponent": "Nyx"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 5,
-"half_share": 0.011412268188302425,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6092,14 +7607,20 @@
 "their_banked": 68
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.015444015444015444,
+"100": 0.020100502512562814
+},
 "map": "pilgrimage",
-"game": "a4f6482a-60a5-4ad9-999b-b6c311d59307"
+"game": "a4f6482a-60a5-4ad9-999b-b6c311d59307",
+"opponent": "hello"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -6116,38 +7637,50 @@
 "their_banked": 0
 }
 },
-"map": "pilgrimage",
-"game": "a917c3eb-97a1-491d-832a-84aed0be46c9"
+"label": {
+"60": 0,
+"100": 0
 },
-{
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.03996983408748114,
-"feats": {
-"60": {
-"stun_picks": 3,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-},
-"100": {
-"stun_picks": 3,
-"seen_in_half": 0,
-"near_spawn": 60,
-"our_deaths": 0,
-"their_banked": 0
-}
+"future_share": {
+"60": 0.0,
+"100": 0.0
 },
 "map": "pilgrimage",
-"game": "a917c3eb-97a1-491d-832a-84aed0be46c9"
+"game": "a917c3eb-97a1-491d-832a-84aed0be46c9",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
+"feats": {
+"60": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+},
+"100": {
+"stun_picks": 3,
+"seen_in_half": 0,
+"near_spawn": 60,
+"our_deaths": 0,
+"their_banked": 0
+}
+},
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.05520833333333333,
+"100": 0.06901041666666667
+},
+"map": "pilgrimage",
+"game": "a917c3eb-97a1-491d-832a-84aed0be46c9",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
+},
+{
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6164,14 +7697,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "22479fca-f1ce-4eaf-bc5b-c113f7e52286"
+"game": "22479fca-f1ce-4eaf-bc5b-c113f7e52286",
+"opponent": "Shawn"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -6188,14 +7727,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "22479fca-f1ce-4eaf-bc5b-c113f7e52286"
+"game": "22479fca-f1ce-4eaf-bc5b-c113f7e52286",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -6212,14 +7757,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "420d765d-5baa-43e3-98e0-c2036d3191c0"
+"game": "420d765d-5baa-43e3-98e0-c2036d3191c0",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6236,14 +7787,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "420d765d-5baa-43e3-98e0-c2036d3191c0"
+"game": "420d765d-5baa-43e3-98e0-c2036d3191c0",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -6260,14 +7817,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "61c79365-9597-4052-a4ab-f5dd8ce447f2"
+"game": "61c79365-9597-4052-a4ab-f5dd8ce447f2",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6284,14 +7847,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "61c79365-9597-4052-a4ab-f5dd8ce447f2"
+"game": "61c79365-9597-4052-a4ab-f5dd8ce447f2",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -6308,14 +7877,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "64d36d4f-aac1-4deb-a68c-04daa2f74215"
+"game": "64d36d4f-aac1-4deb-a68c-04daa2f74215",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6332,14 +7907,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "64d36d4f-aac1-4deb-a68c-04daa2f74215"
+"game": "64d36d4f-aac1-4deb-a68c-04daa2f74215",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6356,14 +7937,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "67f98a95-b28e-4bad-8768-4a90b75356d0"
+"game": "67f98a95-b28e-4bad-8768-4a90b75356d0",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6380,14 +7967,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "67f98a95-b28e-4bad-8768-4a90b75356d0"
+"game": "67f98a95-b28e-4bad-8768-4a90b75356d0",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6404,14 +7997,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "7f0eda5c-161a-4841-9541-febc4e22886d"
+"game": "7f0eda5c-161a-4841-9541-febc4e22886d",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6428,14 +8027,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "7f0eda5c-161a-4841-9541-febc4e22886d"
+"game": "7f0eda5c-161a-4841-9541-febc4e22886d",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -6452,14 +8057,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "b6a557f8-d9b2-410c-a9e2-bf7b9f8e1492"
+"game": "b6a557f8-d9b2-410c-a9e2-bf7b9f8e1492",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -6476,14 +8087,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "b6a557f8-d9b2-410c-a9e2-bf7b9f8e1492"
+"game": "b6a557f8-d9b2-410c-a9e2-bf7b9f8e1492",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6500,14 +8117,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "cde795c7-020f-4ec1-8b6d-9ca53fb8e2da"
+"game": "cde795c7-020f-4ec1-8b6d-9ca53fb8e2da",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6524,14 +8147,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "cde795c7-020f-4ec1-8b6d-9ca53fb8e2da"
+"game": "cde795c7-020f-4ec1-8b6d-9ca53fb8e2da",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6548,14 +8177,20 @@
 "their_banked": 198
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "d8390f11-acaf-4530-b5a9-763e887b4035"
+"game": "d8390f11-acaf-4530-b5a9-763e887b4035",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 1,
@@ -6572,14 +8207,20 @@
 "their_banked": 132
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rows",
-"game": "d8390f11-acaf-4530-b5a9-763e887b4035"
+"game": "d8390f11-acaf-4530-b5a9-763e887b4035",
+"opponent": "Nyxius"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.022295623451692816,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6596,14 +8237,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.029801324503311258,
+"100": 0.03824362606232295
+},
 "map": "rushbait_v2",
-"game": "07264da1-7991-4341-9475-9174ed5a1880"
+"game": "07264da1-7991-4341-9475-9174ed5a1880",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.14422310756972112,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6620,14 +8267,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.14736842105263157,
+"100": 0.13866666666666666
+},
 "map": "rushbait_v2",
-"game": "07264da1-7991-4341-9475-9174ed5a1880"
+"game": "07264da1-7991-4341-9475-9174ed5a1880",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.09651741293532339,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6644,14 +8297,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08050847457627118,
+"100": 0.09693877551020408
+},
 "map": "rushbait_v2",
-"game": "082f4af2-7b99-467c-83e5-61d4300d18b3"
+"game": "082f4af2-7b99-467c-83e5-61d4300d18b3",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.10728582866293035,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6668,14 +8327,20 @@
 "their_banked": 22
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11970338983050847,
+"100": 0.10752688172043011
+},
 "map": "rushbait_v2",
-"game": "082f4af2-7b99-467c-83e5-61d4300d18b3"
+"game": "082f4af2-7b99-467c-83e5-61d4300d18b3",
+"opponent": "PTN Hyperion"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.08844621513944223,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6692,14 +8357,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1168421052631579,
+"100": 0.148
+},
 "map": "rushbait_v2",
-"game": "0aa3fc03-8c36-4570-9cf8-b8a552282d0a"
+"game": "0aa3fc03-8c36-4570-9cf8-b8a552282d0a",
+"opponent": "hello"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6716,14 +8387,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rushbait_v2",
-"game": "0aa3fc03-8c36-4570-9cf8-b8a552282d0a"
+"game": "0aa3fc03-8c36-4570-9cf8-b8a552282d0a",
+"opponent": "Let's LARP"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.062151394422310755,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6740,14 +8417,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08210526315789474,
+"100": 0.07066666666666667
+},
 "map": "rushbait_v2",
-"game": "1f716dca-e764-4fdd-84cc-fedbba07a786"
+"game": "1f716dca-e764-4fdd-84cc-fedbba07a786",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.09402390438247012,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6764,14 +8447,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.11263157894736842,
+"100": 0.12133333333333333
+},
 "map": "rushbait_v2",
-"game": "1f716dca-e764-4fdd-84cc-fedbba07a786"
+"game": "1f716dca-e764-4fdd-84cc-fedbba07a786",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.059463986599664995,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6788,14 +8477,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.07874015748031496,
+"100": 0.09288824383164006
+},
 "map": "rushbait_v2",
-"game": "2893656f-2666-474d-8329-aa8402a726ed"
+"game": "2893656f-2666-474d-8329-aa8402a726ed",
+"opponent": "hello"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.07808764940239044,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6812,14 +8507,20 @@
 "their_banked": 66
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1031578947368421,
+"100": 0.05733333333333333
+},
 "map": "rushbait_v2",
-"game": "2893656f-2666-474d-8329-aa8402a726ed"
+"game": "2893656f-2666-474d-8329-aa8402a726ed",
+"opponent": "print dont int"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 0,
-"half_share": 0.2613545816733068,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6836,14 +8537,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.3031578947368421,
+"100": 0.2906666666666667
+},
 "map": "rushbait_v2",
-"game": "3132bb29-6085-4639-95eb-6f40311aeef5"
+"game": "3132bb29-6085-4639-95eb-6f40311aeef5",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6860,14 +8567,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rushbait_v2",
-"game": "3132bb29-6085-4639-95eb-6f40311aeef5"
+"game": "3132bb29-6085-4639-95eb-6f40311aeef5",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0350597609561753,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6884,14 +8597,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.04631578947368421,
+"100": 0.058666666666666666
+},
 "map": "rushbait_v2",
-"game": "8d1180ff-1286-4e27-b25d-9bdab5d2bce5"
+"game": "8d1180ff-1286-4e27-b25d-9bdab5d2bce5",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.14581673306772908,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6908,14 +8627,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1863157894736842,
+"100": 0.132
+},
 "map": "rushbait_v2",
-"game": "8d1180ff-1286-4e27-b25d-9bdab5d2bce5"
+"game": "8d1180ff-1286-4e27-b25d-9bdab5d2bce5",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 0,
-"half_share": 0.26666666666666666,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -6932,14 +8657,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 0
+},
+"future_share": {
+"60": 0.26931818181818185,
+"100": 0.20588235294117646
+},
 "map": "rushbait_v2",
-"game": "db66a9f6-1311-4705-99f9-c9db2ec0d298"
+"game": "db66a9f6-1311-4705-99f9-c9db2ec0d298",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.2446215139442231,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6956,14 +8687,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.23157894736842105,
+"100": 0.21066666666666667
+},
 "map": "rushbait_v2",
-"game": "db66a9f6-1311-4705-99f9-c9db2ec0d298"
+"game": "db66a9f6-1311-4705-99f9-c9db2ec0d298",
+"opponent": "geese geese go"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.06772908366533864,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -6980,14 +8717,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08947368421052632,
+"100": 0.11333333333333333
+},
 "map": "rushbait_v2",
-"game": "de68c216-b202-4a35-afbb-973e89852a6d"
+"game": "de68c216-b202-4a35-afbb-973e89852a6d",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.00796812749003984,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7004,14 +8747,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "rushbait_v2",
-"game": "de68c216-b202-4a35-afbb-973e89852a6d"
+"game": "de68c216-b202-4a35-afbb-973e89852a6d",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.1095890410958904,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7028,14 +8777,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.10054844606946983,
+"100": 0.11124121779859485
+},
 "map": "stampede",
-"game": "18c7cee7-3a93-4881-bdba-63de62cce37c"
+"game": "18c7cee7-3a93-4881-bdba-63de62cce37c",
+"opponent": "\u2764\ufe0fQuantom\u2764\ufe0f"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.03625377643504532,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7052,14 +8807,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.049484536082474224,
+"100": 0.06233766233766234
+},
 "map": "stampede",
-"game": "18c7cee7-3a93-4881-bdba-63de62cce37c"
+"game": "18c7cee7-3a93-4881-bdba-63de62cce37c",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.08698539176626827,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -7076,14 +8837,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.08771929824561403,
+"100": 0.1111111111111111
+},
 "map": "stampede",
-"game": "245ed53d-242c-4b32-928c-99fcaa4df8cc"
+"game": "245ed53d-242c-4b32-928c-99fcaa4df8cc",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7100,14 +8867,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "stampede",
-"game": "245ed53d-242c-4b32-928c-99fcaa4df8cc"
+"game": "245ed53d-242c-4b32-928c-99fcaa4df8cc",
+"opponent": "AlphaSlop"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -7124,14 +8897,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "stampede",
-"game": "2c3643ff-4e43-4d72-bdde-c7e3ea96e2c8"
+"game": "2c3643ff-4e43-4d72-bdde-c7e3ea96e2c8",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7148,14 +8927,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "stampede",
-"game": "2c3643ff-4e43-4d72-bdde-c7e3ea96e2c8"
+"game": "2c3643ff-4e43-4d72-bdde-c7e3ea96e2c8",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -7172,14 +8957,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "stampede",
-"game": "2cc7eaa2-de08-4c17-a53a-7078df498c43"
+"game": "2cc7eaa2-de08-4c17-a53a-7078df498c43",
+"opponent": "procless"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.025896414342629483,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -7196,14 +8987,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.034210526315789476,
+"100": 0.043333333333333335
+},
 "map": "stampede",
-"game": "2cc7eaa2-de08-4c17-a53a-7078df498c43"
+"game": "2cc7eaa2-de08-4c17-a53a-7078df498c43",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.20133111480865223,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7220,14 +9017,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.19617224880382775,
+"100": 0.19055374592833876
+},
 "map": "stampede",
-"game": "713303dc-bbcd-4475-aa67-9c9463c8a114"
+"game": "713303dc-bbcd-4475-aa67-9c9463c8a114",
+"opponent": "VeryGood"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 5,
-"half_share": 0.02656042496679947,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -7244,14 +9047,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03508771929824561,
+"100": 0.044444444444444446
+},
 "map": "stampede",
-"game": "713303dc-bbcd-4475-aa67-9c9463c8a114"
+"game": "713303dc-bbcd-4475-aa67-9c9463c8a114",
+"opponent": "Nyx"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.07490272373540856,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7268,14 +9077,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.09266943291839558,
+"100": 0.10416666666666667
+},
 "map": "stampede",
-"game": "8338f21d-c4b1-4809-915b-e58498bf2e96"
+"game": "8338f21d-c4b1-4809-915b-e58498bf2e96",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.0,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7292,14 +9107,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "stampede",
-"game": "8338f21d-c4b1-4809-915b-e58498bf2e96"
+"game": "8338f21d-c4b1-4809-915b-e58498bf2e96",
+"opponent": "Boost"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 1,
-"half_share": 0.43969204448246363,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7316,14 +9137,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.53125,
+"100": 0.49849397590361444
+},
 "map": "stampede",
-"game": "8bc20fc2-d1f4-4512-8761-eba87ce132eb"
+"game": "8bc20fc2-d1f4-4512-8761-eba87ce132eb",
+"opponent": "Zarzorki"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.2,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7340,14 +9167,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.2344763670064875,
+"100": 0.2061978545887962
+},
 "map": "stampede",
-"game": "8bc20fc2-d1f4-4512-8761-eba87ce132eb"
+"game": "8bc20fc2-d1f4-4512-8761-eba87ce132eb",
+"opponent": "VeryGood"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 1,
-"half_share": 0.0,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 4,
@@ -7364,14 +9197,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.0,
+"100": 0.0
+},
 "map": "stampede",
-"game": "bba61d24-5d17-4ad7-b201-a58ca6469fc6"
+"game": "bba61d24-5d17-4ad7-b201-a58ca6469fc6",
+"opponent": "Mite"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.2053941908713693,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7388,14 +9227,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 0
+},
+"future_share": {
+"60": 0.2564814814814815,
+"100": 0.1392857142857143
+},
 "map": "stampede",
-"game": "bba61d24-5d17-4ad7-b201-a58ca6469fc6"
+"game": "bba61d24-5d17-4ad7-b201-a58ca6469fc6",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 3,
-"half_share": 0.27032661570535094,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7412,14 +9257,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 0
+},
+"future_share": {
+"60": 0.2656104380242311,
+"100": 0.20958083832335328
+},
 "map": "stampede",
-"game": "bd7414a4-81ee-4661-871d-bec3f7717133"
+"game": "bd7414a4-81ee-4661-871d-bec3f7717133",
+"opponent": "Univardisty of Shingtonwash"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 2,
-"half_share": 0.01436130007558579,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7436,14 +9287,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.017616580310880828,
+"100": 0.02122347066167291
+},
 "map": "stampede",
-"game": "bd7414a4-81ee-4661-871d-bec3f7717133"
+"game": "bd7414a4-81ee-4661-871d-bec3f7717133",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 6,
-"half_share": 0.4633458646616541,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7460,14 +9317,20 @@
 "their_banked": 58
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.38939197930142305,
+"100": 0.4094616639477977
+},
 "map": "swirl",
-"game": "05ff5844-2f68-494a-8098-01d2a2f07f34"
+"game": "05ff5844-2f68-494a-8098-01d2a2f07f34",
+"opponent": "Sneaky Bush Campers"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 4,
-"half_share": 0.16293929712460065,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7484,14 +9347,20 @@
 "their_banked": 72
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.19242902208201892,
+"100": 0.21797752808988763
+},
 "map": "swirl",
-"game": "05ff5844-2f68-494a-8098-01d2a2f07f34"
+"game": "05ff5844-2f68-494a-8098-01d2a2f07f34",
+"opponent": "Mite"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.18274111675126903,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7508,14 +9377,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1580952380952381,
+"100": 0.07493540051679587
+},
 "map": "swirl",
-"game": "0afa7ce6-aaef-410a-9611-1bab1347c3ac"
+"game": "0afa7ce6-aaef-410a-9611-1bab1347c3ac",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 9,
-"half_share": 0.18141097424412095,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7532,14 +9407,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.16951566951566951,
+"100": 0.19156414762741653
+},
 "map": "swirl",
-"game": "0afa7ce6-aaef-410a-9611-1bab1347c3ac"
+"game": "0afa7ce6-aaef-410a-9611-1bab1347c3ac",
+"opponent": "procless"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 9,
-"half_share": 0.46361940298507465,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7556,14 +9437,20 @@
 "their_banked": 124
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.5697522816166884,
+"100": 0.5608465608465608
+},
 "map": "swirl",
-"game": "3b3ebbed-7dfb-4519-8f6a-aee6b10d80a3"
+"game": "3b3ebbed-7dfb-4519-8f6a-aee6b10d80a3",
+"opponent": "PTN Hyperion"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 3,
-"half_share": 0.29765013054830286,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7580,14 +9467,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.3771626297577855,
+"100": 0.40176600441501104
+},
 "map": "swirl",
-"game": "3b3ebbed-7dfb-4519-8f6a-aee6b10d80a3"
+"game": "3b3ebbed-7dfb-4519-8f6a-aee6b10d80a3",
+"opponent": "geese geese go"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.20903225806451614,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7604,14 +9497,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 1,
+"100": 0
+},
+"future_share": {
+"60": 0.2702702702702703,
+"100": 0.1863013698630137
+},
 "map": "swirl",
-"game": "42ca6dfb-9842-4a68-a07f-56dfa8594672"
+"game": "42ca6dfb-9842-4a68-a07f-56dfa8594672",
+"opponent": "Mite"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 8,
-"half_share": 0.15732758620689655,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7628,14 +9527,20 @@
 "their_banked": 36
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1404320987654321,
+"100": 0.06611570247933884
+},
 "map": "swirl",
-"game": "42ca6dfb-9842-4a68-a07f-56dfa8594672"
+"game": "42ca6dfb-9842-4a68-a07f-56dfa8594672",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 8,
-"half_share": 0.5203187250996016,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7652,14 +9557,20 @@
 "their_banked": 142
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.5610526315789474,
+"100": 0.5986666666666667
+},
 "map": "swirl",
-"game": "482e0785-28aa-4df2-b663-e91873b76930"
+"game": "482e0785-28aa-4df2-b663-e91873b76930",
+"opponent": "Intercontinental Fish"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 0,
-"half_share": 0.05216284987277354,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7676,14 +9587,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.03860294117647059,
+"100": 0.04585152838427948
+},
 "map": "swirl",
-"game": "482e0785-28aa-4df2-b663-e91873b76930"
+"game": "482e0785-28aa-4df2-b663-e91873b76930",
+"opponent": "Nyxius"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 5,
-"half_share": 0.2262357414448669,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7700,14 +9617,20 @@
 "their_banked": 44
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.1557377049180328,
+"100": 0.055944055944055944
+},
 "map": "swirl",
-"game": "c2b86761-4553-4f60-bf6b-09a4e4476773"
+"game": "c2b86761-4553-4f60-bf6b-09a4e4476773",
+"opponent": "Nyx"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 14,
-"half_share": 0.3385744234800839,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7724,14 +9647,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.3646341463414634,
+"100": 0.4217391304347826
+},
 "map": "swirl",
-"game": "c2b86761-4553-4f60-bf6b-09a4e4476773"
+"game": "c2b86761-4553-4f60-bf6b-09a4e4476773",
+"opponent": "hello"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 15,
-"half_share": 0.16835016835016836,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7748,14 +9677,20 @@
 "their_banked": 72
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.20943952802359883,
+"100": 0.23818897637795275
+},
 "map": "swirl",
-"game": "d0a3def8-f20b-4997-a703-ce31d0a8ae8c"
+"game": "d0a3def8-f20b-4997-a703-ce31d0a8ae8c",
+"opponent": "Shawn"
 },
 {
-"aggr": 1,
-"aggr_half": 0,
-"kills_on_us": 6,
-"half_share": 0.16666666666666666,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7772,14 +9707,20 @@
 "their_banked": 0
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.18181818181818182,
+"100": 0.18633540372670807
+},
 "map": "swirl",
-"game": "d0a3def8-f20b-4997-a703-ce31d0a8ae8c"
+"game": "d0a3def8-f20b-4997-a703-ce31d0a8ae8c",
+"opponent": "geese geese go"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 7,
-"half_share": 0.394017094017094,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7796,14 +9737,20 @@
 "their_banked": 124
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.4393063583815029,
+"100": 0.3879699248120301
+},
 "map": "swirl",
-"game": "dd0da7a8-e045-464b-8a4c-ef41afa893ea"
+"game": "dd0da7a8-e045-464b-8a4c-ef41afa893ea",
+"opponent": "new team(4)"
 },
 {
-"aggr": 0,
-"aggr_half": 0,
-"kills_on_us": 3,
-"half_share": 0.23432343234323433,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 3,
@@ -7820,14 +9767,20 @@
 "their_banked": 88
 }
 },
+"label": {
+"60": 0,
+"100": 0
+},
+"future_share": {
+"60": 0.15397350993377484,
+"100": 0.21287128712871287
+},
 "map": "swirl",
-"game": "dd0da7a8-e045-464b-8a4c-ef41afa893ea"
+"game": "dd0da7a8-e045-464b-8a4c-ef41afa893ea",
+"opponent": "Nyx"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 2,
-"half_share": 0.255278310940499,
+"observer": 0,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7844,14 +9797,20 @@
 "their_banked": 160
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.27951153324287653,
+"100": 0.2942271880819367
+},
 "map": "swirl",
-"game": "ed7ed51a-f79d-4f36-b5fd-0e9efdd48620"
+"game": "ed7ed51a-f79d-4f36-b5fd-0e9efdd48620",
+"opponent": "EMPEROR Tung"
 },
 {
-"aggr": 1,
-"aggr_half": 1,
-"kills_on_us": 4,
-"half_share": 0.44660194174757284,
+"observer": 1,
 "feats": {
 "60": {
 "stun_picks": 2,
@@ -7868,7 +9827,16 @@
 "their_banked": 154
 }
 },
+"label": {
+"60": 1,
+"100": 1
+},
+"future_share": {
+"60": 0.428743961352657,
+"100": 0.2961783439490446
+},
 "map": "swirl",
-"game": "ed7ed51a-f79d-4f36-b5fd-0e9efdd48620"
+"game": "ed7ed51a-f79d-4f36-b5fd-0e9efdd48620",
+"opponent": "VeryGood"
 }
 ]

@@ -96,3 +96,16 @@ Full report: `results/match-audit-2026-10-18.md`.
 - **Live:** v16o.
 - **Rejected:** v16q and v16r (more caution = worse locally).
 - **Next focus:** farming pace in top-100 games (18 of 50 losses had ≤2 deaths).
+
+## ~05:00 UTC: loop run 2. Cycle 1 audited, v16s deployed (version 90)
+- **Cycle 1 (v16o vs top 100):** 100 games decoded, 12 wins.
+  - Deaths: farm_caught 25%, outnumbered 23%, linked Cassi/Issac 12%.
+  - 30 of 88 losses had ≤2 deaths, so they were pure farming races.
+- **Finding: the draft on 3-pick maps** (collision, expanse, fragment, packs).
+  - We drafted Varg, Stellar and Tavi, which is 3 bodies.
+  - The top-100 opponent had Cassi & Issac in **28 of 28** games, so they had 4 bodies. Their usual pick is Cassi, Stellar, Varg.
+  - We won 4 of those 28 games.
+- **Finding: corners pace.** We never take the 22-gem single camps; opponents take 8 to 17 per game. Across the cycle our score timelines are identical (the bot is deterministic).
+- **v16s:** the 3-pick draft order is now Cassi & Issac, Varg, Stellar, Tavi, Ren.
+  - Local result vs v16o: 15/34, −18. On the 3-pick maps it was only 2 of 8, so self-play disagrees with the ladder.
+  - Deployed anyway to test it on the ladder: cycle 2 (`c2_v16s`, 30 groups vs the top 100). If cycle 2's 3-pick results don't beat cycle 1's 4/28, revert to v16o.

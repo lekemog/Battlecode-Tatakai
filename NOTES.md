@@ -121,3 +121,16 @@ Full report: `results/match-audit-2026-10-18.md`.
 - **v16t = v16o + "engage":** if the fight is favourable and an enemy within its range+1 can hit us, we move in and fight it.
   - Local result vs v16o: **18/34, +26**.
   - Deployed. Cycle 3 is `c3_v16t`.
+
+## ~08:00 UTC: loop run 4. Paired testing, item finding, v16v
+- **Cycle 3 (v16t, unpaired):** 17 of 150 wins. Unpaired cycles vary too much with the opponents to compare bots, so testing is now **paired** (`tools/paired.py`): every bot plays the same top-100 teams on the same maps, one after another.
+- **Cycle 4 (paired, 10 teams, 50 games each):** v16u 6, v16t 6, v16o 3.
+  - Only 9 games had different outcomes across the three bots, and v16t/v16u took 6 of them. **The "engage" change beats v16o.**
+  - v16u = v16t + Issac is never the lone gold farmer + Issac follows Cassi in solo play. Its outcomes were identical to v16t's; locally it was +6.
+- **Idle time is no longer the gap.** On corners/expanse/rows we act in 78–84% of rounds, the same as the opponents.
+- **The gap is items** (80 top-100 games, round 300):
+  - **Max HP:** opponents grow from 909 to 1126; ours stays at 830.
+  - **What they buy:** Power, Durability of Health (~100), Bruiser of Health (~83) and Jungle (~120).
+  - **What we buy:** mostly Monster plus Power, and no health at all.
+- **v16v = v16u + build Jungle, Power, Durability of Health, Power.** Local result vs v16u: 17/34, **+103**.
+- **Cycle 5 (paired):** v16u vs v16v on 15 teams. v16v stays live afterwards.

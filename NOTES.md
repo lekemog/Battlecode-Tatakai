@@ -80,3 +80,12 @@ From the audit of 39 recent ranked games (440 deaths, 4364 gems lost):
 - **Cassi & Issac linked deaths: 18%.** Cassi needs a 1.3× edge to fight.
 - **Caught farming as enemies closed in: 21%.** Evade starts at enemy range +3, where it used to be +1 outside defensive mode.
 - **Local result vs v16m:** 18/34, −17 (neutral, so no regression). Self-play can't show the gain because v16m doesn't invade like ranked opponents do. It will be judged on ranked results.
+
+## ~02:35 UTC: v16o deployed (contest fix on v16n)
+The audit now covers 65 games (851 deaths). **Contest alone accounts for about 500 deaths**: 10 games, 2 wins, ~50 deaths per game. Most games end 0–0 and are decided on the gold tiebreak, and most deaths were a lone farmer (no ally within 5) caught by 1–2 enemies.
+
+Fix, applied on gold-only maps only (`siege_group>=0`; other maps are unchanged):
+- Solo farmers stay on our half.
+- A champion with no ally within 6 never takes a fight away from home.
+
+**Local contest result vs v16n:** won both sides on the gold tiebreak, 9830 vs 7960 and 8445 vs 5545 gold, with fewer deaths in one game.

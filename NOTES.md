@@ -134,3 +134,19 @@ Full report: `results/match-audit-2026-10-18.md`.
   - **What we buy:** mostly Monster plus Power, and no health at all.
 - **v16v = v16u + build Jungle, Power, Durability of Health, Power.** Local result vs v16u: 17/34, **+103**.
 - **Cycle 5 (paired):** v16u vs v16v on 15 teams. v16v stays live afterwards.
+
+## ~09:30 UTC: loop run 5. Items confirmed, contest siege, v16w live (version 98)
+- **Cycle 5 (paired, 15 teams, 75 games each): v16v 10 wins vs v16u 6.** The 8 games that differed went 6–2 to v16v. **The item build (Jungle, Power, Durability of Health) is adopted.**
+- **Contest:** in 28 top-100 games we scored 0 gems and won 0.
+  - The opponent kills a 200-gem monolith at rounds ~420–1000, then again every ~150 rounds, and reaches 1000.
+  - Our `siege_group` was computed but never used.
+- **v16w = v16v + siege mode** (gold-only maps only):
+  - From round 300 the team stages 5–6 tiles from our monolith and attacks once 3 are there or after 12 rounds staged. While the monolith is respawning, everyone farms gold.
+  - Allies escort a visible carrier with 100+ gems. The carrier waits up to 20 rounds for the escort before walking to the central altar.
+  - Bugs found locally along the way:
+    - A lone carrier was killed and the enemy got the bag.
+    - The head-count only saw 2 allies because vision is short.
+  - **Local contest result vs v16v: won from both sides, 600–200 and 600–0** (it lost both before).
+- **Cycle 6 (paired, 10 teams):** v16x, v16y and v16w. v16w stays live.
+  - **v16x:** on swirl, deaths cluster on the central 36-gem camps. A death near a contested group (enemy_d ≤ home_d+4) now cuts its score ×0.45 (was ×0.7).
+  - **v16y:** first emblem per champion, as top teams open: Ren/Ryth Bruiser of Health, Varg Jungle, everyone else Power. Then Durability of Health.

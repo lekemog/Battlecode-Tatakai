@@ -362,3 +362,20 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 | #19 HP | our champions at **base** max HP at round 300 (Varg 1000 vs 1381, Ren 900 vs 1467) | v18y: frontliners open Durability of Health | — | 86 (gauntlet bias, so this one goes to the ladder) |
 
 - **Ladder:** d1 diagnostic traces (v18t) are finishing. Then t1: v18x vs v18t (live behaviour), weak maps, 15 teams. Then v18y vs v18x.
+
+## ~13:55 UTC: decision traces → fight evaluation bug (#20)
+- **d1** (v18t trace build, 150 weak-map games vs 30 top-100 teams): 14 wins. Collision 4/30, stampede 8/30, corners 1/30, eight 1/30, contest 0/30.
+- **Traces** (`tools/audit/traces.py`, 391 deaths):
+  - **41%** came within 25 rounds of a fight we rated ≥1.5× favourable.
+  - 33% came while evading or retreating.
+  - The killers were casters (Stellar 35 strength / 298 focus, Cassi 30/274, Tavi 40/394).
+- **Root cause:** `handle_enemies` / `bank` / `threat` value enemies (and allies) by strength alone.
+- **Calibration** (`tools/audit/fightcal.py`, 1629 decisive top-100 engagements):
+  - Adding focus raises AUC from .773 to .823.
+  - At our current `need` of 0.6 we take fights we win ~25% of the time. Break-even is ~1.3.
+- **Candidates:**
+  - v19a: power = strength + 0.5·focus.
+  - v19b: v19a + need 1.3 (0.9 near spawn).
+  - v18z: v18x + ChatGPT review fixes (stale capture timer, escort counter).
+- **t1 so far:** v18x 6/75 on the weak maps (corners 0/15). The v18t arm is still running; paired comparison to follow. t2 (v19b, v19a, v18x) queued after.
+- **GitHub:** issue #20 opened. Replied to ChatGPT's review on #6. No teammate replies yet on #15–#19.

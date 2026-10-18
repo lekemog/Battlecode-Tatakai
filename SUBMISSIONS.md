@@ -28,3 +28,5 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 117 | v18k | 2026-10-18T11:44Z | v18f (raid) + top-team winners draft for 4+ picks (Ryth over Tavi) + health items for frontliners. |
 | 118 | v18m | 2026-10-18T12:13Z | v18f + monolith bag convoy: 100+ gem carrier goes home, rallies the team to spawn, walks to the altar with 2+ allies (60-round cap). |
 | 119 | v18t | 2026-10-18T12:32Z | DIAGNOSTIC: behaviour identical to v18f; logs every decision (action, target, hp, gems, enemies, allies, posture, fight ratio) for weak-map analysis. |
+| 120 | v18x | 2026-10-18T13:42Z | Weak-map fixes #16-#18: central altars no longer avoided on stale sightings; opponent model no longer turtles on middle-contest; small banks + working contested-altar logic on collision; monolith bag convoy. |
+| 121 | v18t | 2026-10-18T13:45Z | DIAGNOSTIC: behaviour identical to v18f; logs every decision (action, target, hp, gems, enemies, allies, posture, fight ratio) for weak-map analysis. |

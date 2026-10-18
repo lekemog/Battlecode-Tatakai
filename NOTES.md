@@ -379,3 +379,16 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - v18z: v18x + ChatGPT review fixes (stale capture timer, escort counter).
 - **t1 so far:** v18x 6/75 on the weak maps (corners 0/15). The v18t arm is still running; paired comparison to follow. t2 (v19b, v19a, v18x) queued after.
 - **GitHub:** issue #20 opened. Replied to ChatGPT's review on #6. No teammate replies yet on #15–#19.
+
+## ~14:40 UTC: v19b live (Leke's call), top-10 fight study, early-gold question
+- **v19b deployed as version 122/123.** It's being tested on the exact t1 teams and maps (`paired.py --same-as t1_v18x`). v19c (strike-first rule) follows on the same games.
+- **Top-10 vs top-10 fights** (47 games, 1831 engagements):
+  - Strength + 0.5·focus predicts the winner at AUC .859 (strength only .780).
+  - **Striking first is worth +10 to 25 points:** initiators win 67% at power share .5–.6.
+  - Across all 163 top games, AUC keeps rising to ~.84 with focus weight 1–2.
+- **Early gold** (151 top-100 games):
+  - Gems are level until round 100, but they earn +26% gold and hold 2× our items at round 50.
+  - When they lead by 150+ gold at round 150, they win 98%.
+  - v19d (gold weight 0.4 for the first 200 rounds) gave mixed uncontested pace: corners slower, monolith faster.
+  - Next: earlier first item (shop on the way past spawn, earlier shop-recall).
+- **Traces:** `results/traces/d1_deaths_by_decision.txt`.

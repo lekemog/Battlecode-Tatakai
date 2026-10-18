@@ -72,3 +72,11 @@ Tested `v12j` (solo farming on maps ≥70 wide). It was worse locally: gems at r
 - **Rejected:** v15a (full opponent model), imitation-learned camp choice, solo/multi-squad farming, altar locks with wards, Varg-first draft.
 - **Key measurement** (`tools/replay/actrate.py`): our champions idle about 30% of rounds against 8% for top teams. On rows, 21% of our time is spent waiting at dead camps (6.5% for top teams).
 - **v16m** = v16g + v15e EV banking. Local bench vs v12m: v16m TOTAL 20  margin +124
+
+## Sun 18 Oct ~02:45 UTC: v16n deployed (audit-driven fixes on v16m)
+From the audit of 39 recent ranked games (440 deaths, 4364 gems lost):
+- **Altar deaths lost 1728 gems (40%).** `bank()`: for bags of 60 or more, the 12-round "unsafe" cap is removed and the learned danger (>.25) counts as unsafe. The tribute-cancel cap of 3 is removed for big bags.
+- **Fights taken while outnumbered: 26% of deaths.** `handle_enemies()`: not favourable when enemies outnumber us by 3 or more away from home.
+- **Cassi & Issac linked deaths: 18%.** Cassi needs a 1.3× edge to fight.
+- **Caught farming as enemies closed in: 21%.** Evade starts at enemy range +3, where it used to be +1 outside defensive mode.
+- **Local result vs v16m:** 18/34, −17 (neutral, so no regression). Self-play can't show the gain because v16m doesn't invade like ranked opponents do. It will be judged on ranked results.

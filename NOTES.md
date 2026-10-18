@@ -451,3 +451,5 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - 19:20 UTC: the ct test never ran. cambc rejects groups with repeated maps ("Choose exactly five different maps", HTTP 400), and paired.py logged every error as "quota wait", so v19j sat live as an untested arm from about 18:01 to 19:20. Fixed: paired.py now exits on HTTP 400. v19j is re-queued as t1j (identical t1 games; its contest results come from the same 15 games) after t1m (v19m, now live as the test arm). The ladder keeps v19f.
 
 - 19:30 UTC t1m: v19m 8/75 (corners 1, collision 1). Not deployed. t1j (v19j) running.
+
+- 19:55 UTC t1j: v19j 11/75 (contest 0; the +1 is on stampede, noise). Not deployed. v19n (v19f + eight-only focus, otherwise identical maths) is in test as t1n.

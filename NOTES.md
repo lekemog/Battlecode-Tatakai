@@ -254,3 +254,23 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - v17z (bolder solo camps on single-camp maps): gauntlet 70, no gain over v17x.
 - **Paired c7 (10 teams):** v17u, v17w, v17x. v17x stays live.
 - **Disk:** the disk filled up (decoded replays take ~17 GB). Local benches now delete their replays after scoring.
+
+## ~11:00 UTC: c7 result, margins, corners gem farmers (v18c)
+- **Paired c7 (10 teams, 50 games each): v17u 10, v17w 10, v17x 8.**
+  - v17u and v17w had identical results in all 50 games. Contest was 0/3 for all three.
+  - v17x's only differing games were 2 losses, on rushbait and lanes, where its single-camp solo rule applies. **v17x rejected; v17w is live.**
+- **Paired margins** (`tools/pairmargin.py`, games where both arms are decoded):
+  - c6: v17i − v16w = **−23 gems on average** over 32 games (better in 16, worse in 12). A wash.
+  - Per map, eight (−570 vs −169) and elkring were worse; packs, pilgrimage and lanes better. Only ~2 games per map, so mostly noise.
+- **Ladder corners losses (c6, 3 games, both sides had zero deaths):**
+  - Big groups were equal: both took 3 × 96 plus the 72s.
+  - Small camps were not: **they took 14–15 single 22-gem and 12–13 36-gem camps; we took zero 22s and 6 36s.**
+  - Their max HP at round 300 was 1150–1294 vs our ~1000.
+- **Ladder collision losses:** they took 29–40 22-gem camps vs our 13–16, with 4 bodies (Cassi & Issac) vs our 3. We died 4–7 times; they died 0–4.
+- **v18c = v17w + 2 gem farmers on single-camp maps** (5+ picks only): the two sturdiest non-carries outside Cassi & Issac solo the single camps on our side while the rest form squads.
+  - Uncontested corners pace: **654/658 → 602/628 rounds to 1000** (other maps unchanged).
+  - Gauntlet 69 (+538) vs v17w 67. Vs `fz_tank`: 21 vs 18.
+- **Rejected:**
+  - v18a: health-first frontliners, gauntlet 64.
+  - `fz_tank` (health-stacker faux bot): loses to v17w and v18c locally.
+- **Paired c8 (15 teams):** v18c vs v17w. v17w stays live after.

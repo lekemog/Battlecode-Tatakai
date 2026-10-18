@@ -47,3 +47,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 136 | v19f | 2026-10-18T17:04Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |
 | 137 | v19i | 2026-10-18T17:13Z | v19f + lifecycle resets + focus-inclusive fight valuation ONLY on single-central-altar brawl maps (eight): v19g won 2 eight games but lost corners/collision. |
 | 138 | v19f | 2026-10-18T17:48Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |
+| 139 | v19j | 2026-10-18T18:01Z | v19f + contest: solo farmers may use the middle third (winners spend 71% of the opening there; Kurians #22). |

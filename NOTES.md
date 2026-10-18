@@ -453,3 +453,5 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - 19:30 UTC t1m: v19m 8/75 (corners 1, collision 1). Not deployed. t1j (v19j) running.
 
 - 19:55 UTC t1j: v19j 11/75 (contest 0; the +1 is on stampede, noise). Not deployed. v19n (v19f + eight-only focus, otherwise identical maths) is in test as t1n.
+
+- 20:20 UTC t1n: v19n 12/75 (eight +1, the rest noise). Strong-map check r1n is running; deploy if it holds.

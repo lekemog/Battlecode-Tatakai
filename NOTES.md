@@ -90,3 +90,9 @@ Fix, applied on gold-only maps only (`siege_group>=0`; other maps are unchanged)
 
 **Local contest result vs v16n:** won both sides on the gold tiebreak, 9830 vs 7960 and 8445 vs 5545 gold, with fewer deaths in one game.
 - **v16p rejected:** counting enemy focus in the fight calculation and never letting Cassi fight alone went 11/34, −184 locally vs v16o (too cautious). **v16o stays live.**
+
+## ~04:20 UTC: audit report and status
+Full report: `results/match-audit-2026-10-18.md`.
+- **Live:** v16o.
+- **Rejected:** v16q and v16r (more caution = worse locally).
+- **Next focus:** farming pace in top-100 games (18 of 50 losses had ≤2 deaths).

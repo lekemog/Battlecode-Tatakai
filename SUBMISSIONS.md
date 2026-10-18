@@ -55,3 +55,5 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 144 | v19n | 2026-10-18T19:48Z | v19f + focus-inclusive fight valuation ONLY on single-central-altar contested maps; everywhere else byte-identical v19f maths (tests whether v19g/v19i lost corners/collision because of the v18z resets). |
 | 145 | v19f | 2026-10-18T19:55Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |
 | 146 | v19n | 2026-10-18T20:15Z | v19f + focus-inclusive fight valuation ONLY on single-central-altar contested maps; everywhere else byte-identical v19f maths (tests whether v19g/v19i lost corners/collision because of the v18z resets). |
+| 147 | v19f | 2026-10-18T20:18Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |
+| 148 | v19n | 2026-10-18T20:19Z | FINAL: v19f + focus-inclusive fight valuation only on single-central-altar contested maps (eight). Identical weak-map games 12/75 vs v19f 10; strong-map games 4/35 = v19f 4. |

@@ -150,3 +150,34 @@ Full report: `results/match-audit-2026-10-18.md`.
 - **Cycle 6 (paired, 10 teams):** v16x, v16y and v16w. v16w stays live.
   - **v16x:** on swirl, deaths cluster on the central 36-gem camps. A death near a contested group (enemy_d ≤ home_d+4) now cuts its score ×0.45 (was ×0.7).
   - **v16y:** first emblem per champion, as top teams open: Ren/Ryth Bruiser of Health, Varg Jungle, everyone else Power. Then Durability of Health.
+
+## ~09:15 UTC: map study and v17g (scenario detection by map features)
+Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score race, deaths, pickups by size, bank count and size, max HP, opponent drafts.
+
+| Map | Ranked win rate | Diagnosis |
+|---|---|---|
+| stampede | 49% | The only gems are a non-regenerating 360-gem herd (12 elks). Top teams take it 3 times (1080 total). Our pairs rejected it, and in losses our first tribute came at ~round 1660. |
+| contest | 19% | The only gems are monoliths. We never sieged them (fixed in v16w). |
+| eight | 38% | One central altar. 15k gems lost in bags over 42 games, mostly carriers alone at the altar. We bank 4 times a game, they bank 17. |
+| collision | 26% | Both altars sit on the mirror line. 10.7k gems lost in bags. |
+| corners | 32% | A farming race: they take 17–22 single 22-gem camps a game and bank 26 times with small bags; we bank 9 times with big bags. Still open. |
+
+**v17g = v16w + three behaviours, each triggered by map features (no map names, so it generalises to unseen maps):**
+1. **Big single gem source** (a monolith or a group with 8+ camps):
+   - The last slot plants a permanent ward next to it (wards don't expire), so we can see it being weakened and finish it.
+   - Everyone else keeps a ward pushed toward the enemy for early warning.
+2. **All altars contested** (at most 2 altars, each within 3 steps of equidistant from the two spawns, measured from walkable neighbours):
+   - Bag-less allies escort a carrier (40+ gems) when enemies are visible.
+   - A carrier facing enemies alone backs off to regroup for up to 12 rounds.
+3. **Gold-only map:** the siege from v16w.
+
+**Rejected along the way:**
+- v17b: one pack on herd maps (it died to the herd).
+- v17c: a weakened-herd rule without vision (no change).
+- v17e: had a bug where the contested-altar flag was true on every map; it went 13/34, −43 locally.
+
+**Local result vs v16w: 21/34, +191.**
+- Stampede, contest, swirl, packs, pilgrimage, rows, ambush and interlock: won from both sides.
+- Still losing: corners, lanes, monolith, elkring.
+
+**Cycle 6 (paired, 15 teams):** v16w vs v17g. v17g stays live.

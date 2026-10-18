@@ -1,0 +1,643 @@
+{
+  "observed_at_utc": "2026-10-18T04:28/04:32Z",
+  "source": "Official rendered Battlecode ladder and completed ranked match overview UI",
+  "ladder_source": "https://2026a.battlecode.co.uk/game/ladder",
+  "ladder_rows": [
+    {
+      "rank": 1,
+      "name": "Intercontinental Fish",
+      "rating": 2076
+    },
+    {
+      "rank": 2,
+      "name": "Nyxius",
+      "rating": 2047
+    },
+    {
+      "rank": 3,
+      "name": "Mite",
+      "rating": 2019
+    },
+    {
+      "rank": 4,
+      "name": "procless",
+      "rating": 1981
+    },
+    {
+      "rank": 5,
+      "name": "new team(4)",
+      "rating": 1941
+    },
+    {
+      "rank": 6,
+      "name": "AlphaSlop",
+      "rating": 1934
+    },
+    {
+      "rank": 7,
+      "name": "Sneaky Bush Campers",
+      "rating": 1920
+    },
+    {
+      "rank": 8,
+      "name": "Nyx",
+      "rating": 1918
+    },
+    {
+      "rank": 9,
+      "name": "Univardisty of Shingtonwash",
+      "rating": 1904
+    },
+    {
+      "rank": 10,
+      "name": "Boost",
+      "rating": 1895
+    },
+    {
+      "rank": 11,
+      "name": "EMPEROR Tung",
+      "rating": 1887
+    },
+    {
+      "rank": 12,
+      "name": "invisibleAgain",
+      "rating": 1873
+    },
+    {
+      "rank": 13,
+      "name": "VeryGood",
+      "rating": 1858
+    },
+    {
+      "rank": 14,
+      "name": "PTN Hyperion",
+      "rating": 1854
+    },
+    {
+      "rank": 15,
+      "name": "Let's LARP",
+      "rating": 1852
+    },
+    {
+      "rank": 16,
+      "name": "NotSoLonely",
+      "rating": 1842
+    },
+    {
+      "rank": 17,
+      "name": "Zarzorki",
+      "rating": 1831
+    },
+    {
+      "rank": 18,
+      "name": "Shawn",
+      "rating": 1824
+    },
+    {
+      "rank": 19,
+      "name": "❤️Quantom❤️",
+      "rating": 1821
+    },
+    {
+      "rank": 20,
+      "name": "geese geese go",
+      "rating": 1821
+    },
+    {
+      "rank": 21,
+      "name": "meow",
+      "rating": 1815
+    },
+    {
+      "rank": 22,
+      "name": "Ely2sh",
+      "rating": 1811
+    },
+    {
+      "rank": 23,
+      "name": "KratosMessi",
+      "rating": 1809
+    },
+    {
+      "rank": 24,
+      "name": "print dont int",
+      "rating": 1800
+    },
+    {
+      "rank": 25,
+      "name": "Cabbage",
+      "rating": 1787
+    },
+    {
+      "rank": 26,
+      "name": "Still Testing",
+      "rating": 1777
+    },
+    {
+      "rank": 27,
+      "name": "KKB",
+      "rating": 1775
+    },
+    {
+      "rank": 28,
+      "name": "hello",
+      "rating": 1773
+    },
+    {
+      "rank": 29,
+      "name": "EggsAfter11AM",
+      "rating": 1771
+    },
+    {
+      "rank": 30,
+      "name": "umamusume",
+      "rating": 1770
+    },
+    {
+      "rank": 31,
+      "name": "天使",
+      "rating": 1768
+    },
+    {
+      "rank": 32,
+      "name": "Ad Astra",
+      "rating": 1767
+    },
+    {
+      "rank": 33,
+      "name": "剑桥夜爬者",
+      "rating": 1765
+    },
+    {
+      "rank": 34,
+      "name": "Memory?",
+      "rating": 1765
+    },
+    {
+      "rank": 35,
+      "name": "Valenki",
+      "rating": 1762
+    },
+    {
+      "rank": 36,
+      "name": "Stubborn Gold Clusters",
+      "rating": 1761
+    },
+    {
+      "rank": 37,
+      "name": "EvilMangohh",
+      "rating": 1759
+    },
+    {
+      "rank": 38,
+      "name": "Master of Betas",
+      "rating": 1744
+    },
+    {
+      "rank": 39,
+      "name": "Sponge(Albert and Bob)",
+      "rating": 1744
+    },
+    {
+      "rank": 40,
+      "name": "Super Intelligence",
+      "rating": 1743
+    },
+    {
+      "rank": 41,
+      "name": "𓎼𓃭𓅱𓂋𓇌 𓏏𓅱 𓂋𓄿",
+      "rating": 1742
+    },
+    {
+      "rank": 42,
+      "name": "Please",
+      "rating": 1742
+    },
+    {
+      "rank": 43,
+      "name": "will think later",
+      "rating": 1738
+    },
+    {
+      "rank": 44,
+      "name": "conqueror_of_openai",
+      "rating": 1737
+    },
+    {
+      "rank": 45,
+      "name": "Velvet Monoliths",
+      "rating": 1736
+    },
+    {
+      "rank": 46,
+      "name": "Nameless",
+      "rating": 1732
+    },
+    {
+      "rank": 47,
+      "name": "SilverSamurai",
+      "rating": 1730
+    },
+    {
+      "rank": 48,
+      "name": "Conley",
+      "rating": 1729
+    },
+    {
+      "rank": 49,
+      "name": "Trzy Kwaterki",
+      "rating": 1726
+    },
+    {
+      "rank": 50,
+      "name": "SHINK AI 6500",
+      "rating": 1726
+    }
+  ],
+  "snapshot_caveat": "UI reported ladder updated about one minute ago; captured across scrolls. Later Mite profile/overview showed 2018 rather than snapshot 2019; preserve snapshot ranks, do not rewrite historical version strength.",
+  "selection": "Newest Still Testing completed ranked series (lower/lower), next series (middle/lower), newest completed ranked Mite series (upper/upper). Convenience sample stratified by current ranks, not random; 10/15 games non-Fish; 5 distinct teams; 13 maps.",
+  "matches": [
+    {
+      "match_id": "ea969258-3ff8-4afb-9506-95222a06e984",
+      "series_id": "346eb26d-cafe-415b-aa56-a04899445b80",
+      "map": "stampede",
+      "rounds": 1107,
+      "teams": [
+        "hello",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        28,
+        26
+      ],
+      "submitted_gems": [
+        0,
+        1080
+      ],
+      "outcome": "gem",
+      "winner": "Still Testing",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "df2ea9ef-b60e-444a-bc41-393e493cfd6e",
+      "series_id": "346eb26d-cafe-415b-aa56-a04899445b80",
+      "map": "rushbait_v2",
+      "rounds": 724,
+      "teams": [
+        "hello",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        28,
+        26
+      ],
+      "submitted_gems": [
+        476,
+        1018
+      ],
+      "outcome": "gem",
+      "winner": "Still Testing",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "038316a7-edcf-43fe-a349-fd715df3d3da",
+      "series_id": "346eb26d-cafe-415b-aa56-a04899445b80",
+      "map": "contest",
+      "rounds": 2000,
+      "teams": [
+        "hello",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        28,
+        26
+      ],
+      "submitted_gems": [
+        200,
+        0
+      ],
+      "outcome": "tiebreak_gems",
+      "winner": "hello",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "776898ef-4897-43fc-8d94-f35b436b31cf",
+      "series_id": "346eb26d-cafe-415b-aa56-a04899445b80",
+      "map": "ambush",
+      "rounds": 673,
+      "teams": [
+        "hello",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        28,
+        26
+      ],
+      "submitted_gems": [
+        722,
+        1054
+      ],
+      "outcome": "gem",
+      "winner": "Still Testing",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "66f00e74-9be3-4df7-8352-fa6ec239ff6e",
+      "series_id": "346eb26d-cafe-415b-aa56-a04899445b80",
+      "map": "corners",
+      "rounds": 1193,
+      "teams": [
+        "hello",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        28,
+        26
+      ],
+      "submitted_gems": [
+        1004,
+        804
+      ],
+      "outcome": "gem",
+      "winner": "hello",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "1b926dee-f653-4411-8778-8be69e939c34",
+      "series_id": "81ef10e8-1b67-4785-86b7-164a2f43caf2",
+      "map": "fragment",
+      "rounds": 934,
+      "teams": [
+        "Shawn",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        18,
+        26
+      ],
+      "submitted_gems": [
+        1044,
+        626
+      ],
+      "outcome": "gem",
+      "winner": "Shawn",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "055518cb-fd0d-42ac-adf0-f7a7c77df95e",
+      "series_id": "81ef10e8-1b67-4785-86b7-164a2f43caf2",
+      "map": "swirl",
+      "rounds": 928,
+      "teams": [
+        "Shawn",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        18,
+        26
+      ],
+      "submitted_gems": [
+        1032,
+        284
+      ],
+      "outcome": "gem",
+      "winner": "Shawn",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "538c3572-bccd-40cb-8544-39c2003b7693",
+      "series_id": "81ef10e8-1b67-4785-86b7-164a2f43caf2",
+      "map": "expanse",
+      "rounds": 484,
+      "teams": [
+        "Shawn",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        18,
+        26
+      ],
+      "submitted_gems": [
+        1052,
+        956
+      ],
+      "outcome": "gem",
+      "winner": "Shawn",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "8afe707e-367e-4cb6-9c12-68bf43f74498",
+      "series_id": "81ef10e8-1b67-4785-86b7-164a2f43caf2",
+      "map": "contest",
+      "rounds": 2000,
+      "teams": [
+        "Shawn",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        18,
+        26
+      ],
+      "submitted_gems": [
+        200,
+        800
+      ],
+      "outcome": "tiebreak_gems",
+      "winner": "Still Testing",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "cf6760d5-1fac-47bd-bfe9-648e6e6b9d4e",
+      "series_id": "81ef10e8-1b67-4785-86b7-164a2f43caf2",
+      "map": "lanes",
+      "rounds": 657,
+      "teams": [
+        "Shawn",
+        "Still Testing"
+      ],
+      "snapshot_ranks": [
+        18,
+        26
+      ],
+      "submitted_gems": [
+        1004,
+        992
+      ],
+      "outcome": "gem",
+      "winner": "Shawn",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "546b8126-023e-4067-9bbf-2ee69edb02f4",
+      "series_id": "cd41b03e-3a23-4cfb-a155-1b9b365ad3d3",
+      "map": "packs",
+      "rounds": 526,
+      "teams": [
+        "Intercontinental Fish",
+        "Mite"
+      ],
+      "snapshot_ranks": [
+        1,
+        3
+      ],
+      "submitted_gems": [
+        1044,
+        980
+      ],
+      "outcome": "gem",
+      "winner": "Intercontinental Fish",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "19b3207c-5fc7-4cbc-9021-d9b305d017c4",
+      "series_id": "cd41b03e-3a23-4cfb-a155-1b9b365ad3d3",
+      "map": "interlock",
+      "rounds": 530,
+      "teams": [
+        "Intercontinental Fish",
+        "Mite"
+      ],
+      "snapshot_ranks": [
+        1,
+        3
+      ],
+      "submitted_gems": [
+        678,
+        1018
+      ],
+      "outcome": "gem",
+      "winner": "Mite",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "64f3e19c-51b4-4ed2-b889-3f4aed7bc012",
+      "series_id": "cd41b03e-3a23-4cfb-a155-1b9b365ad3d3",
+      "map": "swirl",
+      "rounds": 429,
+      "teams": [
+        "Intercontinental Fish",
+        "Mite"
+      ],
+      "snapshot_ranks": [
+        1,
+        3
+      ],
+      "submitted_gems": [
+        1080,
+        284
+      ],
+      "outcome": "gem",
+      "winner": "Intercontinental Fish",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "4a7a7dd4-8776-4ba5-a0c5-0cd49f26cb02",
+      "series_id": "cd41b03e-3a23-4cfb-a155-1b9b365ad3d3",
+      "map": "collision",
+      "rounds": 484,
+      "teams": [
+        "Intercontinental Fish",
+        "Mite"
+      ],
+      "snapshot_ranks": [
+        1,
+        3
+      ],
+      "submitted_gems": [
+        1062,
+        66
+      ],
+      "outcome": "gem",
+      "winner": "Intercontinental Fish",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    },
+    {
+      "match_id": "2d93a19f-8842-4d4a-9e35-43bef69d1fde",
+      "series_id": "cd41b03e-3a23-4cfb-a155-1b9b365ad3d3",
+      "map": "monolith",
+      "rounds": 387,
+      "teams": [
+        "Intercontinental Fish",
+        "Mite"
+      ],
+      "snapshot_ranks": [
+        1,
+        3
+      ],
+      "submitted_gems": [
+        878,
+        1038
+      ],
+      "outcome": "gem",
+      "winner": "Mite",
+      "bot_versions": null,
+      "champion_count": null,
+      "summary_metrics": null
+    }
+  ],
+  "denominators": {
+    "completed_overview_games": 15,
+    "distinct_match_ids": 15,
+    "summary_attempts": 1,
+    "summary_exports": 0,
+    "non_fish_games": 10
+  },
+  "dedup": {
+    "compared_paths": [
+      "results/chatgpt/top50-evidence-2026-10-17.json",
+      "results/chatgpt/review-2026-10-17-2234-evidence.json"
+    ],
+    "overlap_ids": []
+  },
+  "export_failure": {
+    "match_id": "038316a7-edcf-43fe-a349-fd715df3d3da",
+    "message": "Too many requests. Please retry in 34 seconds.",
+    "batch_stopped": true
+  },
+  "missing": "All per-champion first affordability/purchase/tribute, gold/gems horizons, carried-gem losses, deaths, item order, wards/locks/teleports and capture/combat conversion; no detailed summary exported. No routes/playstyles inferred.",
+  "live": {
+    "platform_version": 89,
+    "submission_id": "83e68913-750b-4b56-826a-685702cda5f3",
+    "repo_version": "v16o",
+    "main_sha": "fb7e35c7b4ba9eb83d55acbc04364f07071b915f",
+    "normalized_fingerprints": {
+      "controller": {
+        "len": 40449,
+        "fnv1a32": "e3b85bd4"
+      },
+      "draft": {
+        "len": 1981,
+        "fnv1a32": "9cb8755e"
+      }
+    },
+    "normalization": "Drop whole-line // comments; remove whitespace; FNV-1a over JS code units. Matching fingerprints, not cryptographic artifact verification; headers/archive not compared."
+  }
+}

@@ -352,3 +352,13 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - **#17 Opponent model:** we are in defensive posture for 65% of contest games and 50% of eight; the stun-draft prior starts us at aggression 45. We concede the middle.
 - **#18 Conversion.** **#19 HP gap.**
 - **Live:** v18t (diagnostic trace build; behaviour identical to v18f). Diagnostic scrims d1: 30 top-100 teams × the 5 weak maps.
+
+## ~13:15 UTC: issues #16–#19 addressed one by one (evidence → fix → mechanism check)
+| Issue | Root cause (evidence) | Fix | Mechanism check | Gauntlet |
+|---|---|---|---|---|
+| #16 corners | 96% of our tributes at corner altars, bags held 79 rounds (them: 85% at the centre, 21 rounds). `bank()` treated "seen within 20 rounds" as a kill zone. | v18u: avoid an altar only when enemies are there now and danger > .25 | central tributes 0–3 → 10–11 per game | 93 (live v18f: 84) |
+| #17 opponent model | defensive for 65% of contest and 50% of eight; in defensive windows our kill ratio is worse (eight: 3.3 vs 0.7 deaths per 100 rounds). Stun-draft prior and "enemy in our half" made us turtle. | v18v: drop the prior and half-map evidence; defensive = group up and keep the middle (need 0.7 with 2+ allies) | defensive share 0.44 → 0.11 (contest), 0.35 → 0.20 (eight); 4/4 vs fz_hunt (was 2/4) | 94 |
+| #18 conversion | collision: lost bags median 58 gems, held 71 rounds (theirs bank at 22). Bug: `contested_altars = 0` on collision (one walled altar). | v18w: carry `clamp(22+ad-nearest,22,60)` on contested-altar maps; ignore unreachable altars. v18x: + monolith convoy | collision vs fz_solo 2/2 (was 1/2) | 96 / 96 |
+| #19 HP | our champions at **base** max HP at round 300 (Varg 1000 vs 1381, Ren 900 vs 1467) | v18y: frontliners open Durability of Health | — | 86 (gauntlet bias, so this one goes to the ladder) |
+
+- **Ladder:** d1 diagnostic traces (v18t) are finishing. Then t1: v18x vs v18t (live behaviour), weak maps, 15 teams. Then v18y vs v18x.

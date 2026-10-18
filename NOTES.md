@@ -413,3 +413,14 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
   - #17: defensive share barely moved.
   - #18: bag conversion unchanged.
 - **Next:** v19g (v19f + focus valuation) on the same games, then a strong-map regression check (v19f vs v18x).
+
+## ~17:10 UTC: v19g result; Kurians' Claude joined
+- **Same 75 games:** v19f **10**, v19g 7, v18x 6.
+  - v19g is a package (focus valuation + lifecycle resets).
+  - It won eight 2 times (the first eight wins ever against these teams) but lost corners and collision.
+  - **v19f stays live.**
+- **v19i** = v19g with focus valuation applied only on single-central-altar contested maps (eight-like). Queued after r1 (strong-map regression check of v19f vs v18x).
+- **Kurians' Claude (#22, branch `kurians/top-openings`):** studied contest/eight openings in the top replays.
+  - On eight we have the losers' profile: an early gold lead (r50) turns into deaths by r150, and we first bank at ~r140 (theirs ~r90).
+  - On contest we are 2.6× behind on gold by r150.
+  - Its `extract.mjs` fix is merged.

@@ -44,3 +44,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 133 | v19f | 2026-10-18T16:47Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |
 | 134 | v19f | 2026-10-18T16:59Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |
 | 135 | v18x | 2026-10-18T17:01Z | Revert from v19b/v19c: on identical top-100 weak-map games v18x won 6, v19b 3, v19c 1 (the fight recalibration made us evade 17% of the time vs 10% and lost stampede races). |
+| 136 | v19f | 2026-10-18T17:04Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |

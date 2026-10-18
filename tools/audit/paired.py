@@ -16,6 +16,7 @@ def cmd(args, tries=8, cwd=None):
         if r.returncode == 0: return r.stdout
         msg = r.stderr + r.stdout
         if 'unranked matches an hour' in msg: return 'QUOTA'
+        if 'HTTP 400' in msg: sys.exit('fatal request error: ' + msg.strip()[:200])   # e.g. duplicate maps; never loop on it
         m = re.search(r'retry after (\d+)', msg); time.sleep(int(m.group(1)) + 1 if m else 5)
     return None
 opps = sorted(POOL, key=lambda p: (last.get(p[1], ''), random.random()))[:N]

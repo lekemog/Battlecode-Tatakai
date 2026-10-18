@@ -1,50 +1,55 @@
-# Start here: guide for teammates' agents (Kurians', Szymon's, ChatGPT)
+# Contributor and agent guide
+Our shared working agreement. Updated18 October2026 against main `e9d3eb2`.
 
-Written by main Claude, which owns the ladder submissions and the scrim quota. Updated on Sun 18 Oct, ~16:30 UTC. **The ladder freezes at 22:59 UTC tonight. New ladder tests stop around 21:30 UTC.**
+## Protect the current checkpoint
+The latest repository-recorded final deployment is **v19n, version148**. [Submission log](SUBMISSIONS.md) and [final decision](https://github.com/lekemog/BattlecodeConversation/issues/20#issuecomment-6254676865). Main Claude's handoff says **no more ladder tests tonight**. The documented freeze is22:59 UTC /23:59 Irish time.
 
-## Ground rules (please follow, they protect our ranked games)
-1. **Never run `cambc submit` or `cambc match-groups create`.** Scrims always play whichever bot is submitted at that moment, and the team shares 30 unranked groups per hour, so one stray submission or scrim corrupts the running test. Ask main Claude in a GitHub issue instead.
-2. **Work on your own branch** (`<name>/<idea>`), with new bot versions in new folders (`bots/<name>-<idea>/`, copied from the live bot). Don't push to `main`.
-3. **Every claim needs evidence:** match IDs, maps, counts. Every change needs a mechanism: which code lines, and why they produce the effect.
-4. Official API only, no exploits.
+- Only the designated main Claude session runs `cambc submit` or `cambc match-groups create`.
+- Scrims use the submitted bot; concurrent submissions contaminate tests. The team also shares the group quota.
+- Work on your own branch, use new candidate folders, and open a PR. No direct pushes to main.
+- Official legal API only. Do not use offline replay omniscience in runtime decisions.
 
-## Current state
-- **Live:** `bots/v19f` (version 131). Every submission and its one-line reason is in `SUBMISSIONS.md`.
-- **How it was chosen:** paired ladder tests. Each candidate plays the **same 15 top-100 teams on the same maps** (`tools/audit/paired.py --same-as`). Weak-map score out of 75 identical games: v19f 10, v19a 7, v18x 6, v19b 3, v19c 1.
-- **Read first:** `NOTES.md` (bottom = newest), then issues **#15** (weak-map diagnosis) and **#16–#21** (one cause each).
+## Read in this order
+1. [README](README.md): current checkpoint and navigation.
+2. [Team review](docs/TEAM_REVIEW_2026-10-18.md): findings, regressions, next-version experiments and contributor credit.
+3. [NOTES](NOTES.md): chronological history, newest at bottom.
+4. The relevant issue below and its latest replies. Original issue bodies may describe older versions.
 
-## Where we lose and why (summary of #15)
-- **Weak maps:** contest, eight, collision, corners, stampede. Contest and eight are 0 wins vs the top 100 for every version.
-- **What top teams do better** (detail in #15 and #20):
-  - They earn ~26% more gold early and own 2× our items at round 50 (#21).
-  - They bank small bags often, at the nearest central altar, and lose almost none (#16, #18).
-  - They hold the middle and start fights 1.4–3.8× more often. Striking first is worth +10–25 points of win rate (#20).
-  - Their frontliners have +300–560 max HP (#19).
-- **Open problems with no working fix yet:**
-  - **#17:** our defensive posture on contest/eight concedes the middle.
-  - **#18:** we lose bags while carrying them.
-  - Contest and eight have 0 wins.
-
-## Data you can use
-| What | Where |
+## Discussion index
+| Issue | Topic |
 |---|---|
-| 164 top-vs-top replays (top-20 teams; both top 10 in 95) | `top-replays/` with an index README. Watch: `cambc view top-replays/<id>.repl26a` |
-| Replay → JSON decoder | `tools/replay/extract.mjs` (needs the visualiser assets that `cambc view` downloads) |
-| Our weak-map decision traces (what our bot decided before each death) | `results/traces/` |
-| Analysis scripts | `tools/audit/` (`weakmap.py`, `bags.py`, `posture.py`, `traces.py`, `fightcal.py`, `topfights.py`, `topfights_report.py`) and `tools/howtheywin.py` |
-| Map names ↔ files | see `README.md` |
+| [#15](https://github.com/lekemog/BattlecodeConversation/issues/15) | Cross-map diagnosis and code review |
+| [#16](https://github.com/lekemog/BattlecodeConversation/issues/16) | Altar routing |
+| [#17](https://github.com/lekemog/BattlecodeConversation/issues/17) | Posture and opponent adaptation |
+| [#18](https://github.com/lekemog/BattlecodeConversation/issues/18) | Gem delivery and escorts |
+| [#19](https://github.com/lekemog/BattlecodeConversation/issues/19) | Itemisation and combat capacity |
+| [#20](https://github.com/lekemog/BattlecodeConversation/issues/20) | Fight valuation and final candidate results |
+| [#21](https://github.com/lekemog/BattlecodeConversation/issues/21) | Early economy and recall |
+| [#22](https://github.com/lekemog/BattlecodeConversation/issues/22) | Kurian's opening/capture/model studies |
+| [#6](https://github.com/lekemog/BattlecodeConversation/issues/6) | Szymon's workstream and earlier review |
 
-Our own decoded top-100 games (~700) live in main Claude's container, not in the repo. Ask in an issue for specific match IDs or aggregates.
+## Current conclusions
+- v19n:12/75 weak-map games,4/35 strong-map subset; v19f:10/75 and4/35; v18x:6/75 and6/35.
+- Contest remains0/15. Eight is no longer universally zero: v19n wins1/15.
+- v19m's carrier/lifecycle package scored8/75. It is a useful implementation reference, not an accepted performance improvement.
+- v19i changed off-gate self-valuation; do not blame its regression solely on lifecycle resets.
+- First-strike associations are not causal instructions. Item counts are not gold spent. Missing first tribute needs a never-bank count.
+- The corrected opponent model is not suitable as a standalone global switch. Local context-sensitive adaptation remains a research proposal.
 
-## How to get something tested
-1. Open an issue (or comment on #15–#21) with your hypothesis, the evidence and your candidate folder or branch.
-2. Main Claude will:
-   - build it and run the local faux gauntlet (`tools/gauntlet.py`; useful as a crash/regression screen, biased against health/draft changes);
-   - run a paired ladder test on the same games as the live bot;
-   - post the per-game result back on your issue.
-3. Deployment only happens when the candidate wins more of the identical games than the live bot.
+## Evidence and testing
+For each candidate supply: parent/source hash, single hypothesis, changed functions, expected mechanism, fixtures, local results and a paired-test request. Preserve map, side, match ID, submission and opponent version where available; flag unknowns.
 
-## Good first tasks
-- **#18 bag conversion:** where exactly are our carriers dying between camp and altar? There are traces for every death.
-- **#17 defensive posture:** what should "defensive" do on a map whose only altar is in the middle?
-- **Contest / eight:** watch 2–3 top-vs-top games for each map in `top-replays/` and describe their opening (first 150 rounds) concretely. Who goes where, and when they first bank.
+Use baseline repeats to expose variability, fresh held-out opponents, and strong-map regression coverage. Faux bots help detect execution failures but are not substitutes for top-100 evaluation. Only the designated operator chooses deployment after reviewing tradeoffs.
+
+## Data
+| Resource | Location |
+|---|---|
+|164 top-vs-top replay files and index | `top-replays/` |
+| Replay decoder | `tools/replay/extract.mjs` |
+| Decision traces | `results/traces/` |
+| Audit scripts | `tools/audit/` |
+| Initial named-opponent study | `results/chatgpt/top50-study-2026-10-17.md` |
+| Kurian's corrected study | branch `kurians/top-openings`, `results/kurians/openings-contest-eight.md` |
+| Historical local discussion | `CONVERSATION.md` |
+
+The roughly700 own-game decodes were reported in the main session's environment, not committed here; request specific sanitized per-match evidence in the relevant issue. Do not claim access to them from the repository alone.

@@ -31,7 +31,7 @@ Written by main Claude, which owns the ladder submissions and the scrim quota. U
 | 164 top-vs-top replays (top-20 teams; both top 10 in 95) | `top-replays/` with an index README. Watch: `cambc view top-replays/<id>.repl26a` |
 | Replay → JSON decoder | `tools/replay/extract.mjs` (needs the visualiser assets that `cambc view` downloads) |
 | Our weak-map decision traces (what our bot decided before each death) | `results/traces/` |
-| Analysis scripts | `tools/audit/` (`weakmap.py`, `bags.py`, `posture.py`, `traces.py`, `fightcal.py`, `topfights.py`) and `tools/howtheywin.py` |
+| Analysis scripts | `tools/audit/` (`weakmap.py`, `bags.py`, `posture.py`, `traces.py`, `fightcal.py`, `topfights.py`, `topfights_report.py`) and `tools/howtheywin.py` |
 | Map names ↔ files | see `README.md` |
 
 Our own decoded top-100 games (~700) live in main Claude's container, not in the repo. Ask in an issue for specific match IDs or aggregates.

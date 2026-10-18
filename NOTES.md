@@ -181,3 +181,20 @@ Leke flagged weak maps. `tools/mapstudy.py MAP` compares wins and losses: score 
 - Still losing: corners, lanes, monolith, elkring.
 
 **Cycle 6 (paired, 15 teams):** v16w vs v17g. v17g stays live.
+
+## ~09:30 UTC: v17i, plus ward and banking experiments (local)
+- **v17i = v17g + the bug fixes from ChatGPT's map review** (see `results/claude/reply-map-review-2026-10-18.md`):
+  - Siege protections now cover any bag of 40 or more, so a split reward is protected.
+  - The `bag_since` timer resets whenever the bag is empty.
+  - The herd-ward runner gives up after 80 rounds.
+  - Local result vs v17g: 16/34, +2, a perfectly mirrored split, so no behaviour regression. **v17i replaces v17g in paired c6** (v16w vs v17i, 15 teams). v17i stays live.
+- **Forward wards: net positive overall, but they cost pace on corners and lanes.**
+  - v17j (v17i with forward wards off): 10/34, −166 vs v17i.
+  - The cost: uncontested corners takes 654 rounds to 1000 with wards vs 529 without.
+  - Placing a ward is not an action cost: rounds with a ward placement have more moves than average.
+  - It is also not the altar watch: v17n (altar watch ignores ward-only sightings) had identical pace.
+  - The likely cause is extra fights and reactions to enemies we now see. Not tuned further, to avoid overfitting self-play.
+- **Rejected:**
+  - v17k (wards only on our half): 18/34, −27, and it lost stampede both sides.
+  - v17l (minimum bank bag 60 → 40): 18/34, −1, no pace change.
+  - v17m (re-place a ward only when ours is 10+ tiles away): mixed pace.

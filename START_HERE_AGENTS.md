@@ -53,3 +53,7 @@ Use baseline repeats to expose variability, fresh held-out opponents, and strong
 | Historical local discussion | `CONVERSATION.md` |
 
 The roughly700 own-game decodes were reported in the main session's environment, not committed here; request specific sanitized per-match evidence in the relevant issue. Do not claim access to them from the repository alone.
+
+## Strategic replay reviews
+
+Use the [team replay-review guide](docs/REPLAY_REVIEW.md) for starter matches, focused questions and a copyable issue-comment format. A strategic observation can be submitted without implementation. Link the match and round, distinguish visible evidence from inference, and propose one alternative. The implementation and test follow-up should respond to that specific hypothesis.

@@ -7,7 +7,7 @@ ME = '9c16b699-cad2-453e-8042-dae23ff934d8'
 D = '/home/claude/data'; ST = f'{D}/scrimloop.json'; BUN = f'{D}/bundles_scrim'; os.makedirs(BUN, exist_ok=True)
 MAPS = ['rows', 'corners', 'lanes', 'swirl', 'monolith', 'fragment', 'packs', 'collision', 'expanse', 'rushbait_v2',
         'stampede', 'pilgrimage', 'elkring', 'interlock', 'eight', 'contest', 'ambush']
-BANDS = [((100, 150), 6), ((50, 99), 4)]
+BANDS = [('near', 6), ((100, 150), 4)]   # 19 Oct 16:30: Leke - beat the teams around us first (rank +-40), keep a few vs 100-150
 END = time.time() + float(sys.argv[1]) * 3600
 
 def cmd(a, tries=6):
@@ -24,7 +24,7 @@ def save(): json.dump(st, open(ST, 'w'), indent=0)
 
 def ladder():
     T = {}
-    for p in (2, 3):   # ranks 51-150
+    for p in (2, 3, 4, 5, 6, 7):   # ranks 51-350
         s = cmd(['cambc', 'ladder', '--page', str(p), '--limit', '50', '--json'])
         if s and s != 'QUOTA':
             for t in json.loads(s)['teams']: T[t['teamId']] = (t['rank'], t['name'], t['rating'])
@@ -58,17 +58,21 @@ def queue():
     T = ladder()
     if not T: return
     n = 0
-    for (lo, hi), want in BANDS:
+    me = 250
+    try: me = json.loads(cmd(['cambc', 'match-groups', 'quota', '--json']))['requesterRank']
+    except Exception: pass
+    for band, want in BANDS:
+        lo, hi = (me - 40, me + 40) if band == 'near' else band
         pool = [(tid, v) for tid, v in T.items() if lo <= v[0] <= hi and tid != ME]
         pool.sort(key=lambda kv: (st['last'].get(kv[0], ''), random.random()))
         for tid, (rank, name, rating) in pool[:want]:
-            FOCUS = ['contest', 'eight', 'monolith', 'elkring']   # 07:10 UTC 19 Oct: ranked-losing maps (28% vs 58% elsewhere)
+            FOCUS = ['contest', 'corners', 'monolith', 'pilgrimage']   # 16:30 UTC 19 Oct: worst maps vs teams within 50 ranks
             OTHER = [m for m in MAPS if m not in FOCUS]
             maps = ','.join(FOCUS + [OTHER[st['k'] % len(OTHER)]])
             s = cmd(['cambc', 'match-groups', 'create', tid, '--maps', maps, '--json'])
             if s == 'QUOTA' or s is None: save(); return n
             st['groups'].append({'group': json.loads(s)['groupId'], 'opp': name, 'opp_id': tid, 'rank': rank, 'rating': round(rating),
-                                 'band': f'{lo}-{hi}', 'maps': maps, 'bot': live_bot(), 'at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())})
+                                 'band': ('near' if band == 'near' else f'{lo}-{hi}'), 'maps': maps, 'bot': live_bot(), 'at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())})
             st['last'][tid] = st['groups'][-1]['at']; st['k'] += 1; n += 1
             print('queued', name, rank, maps, flush=True)
     save(); return n

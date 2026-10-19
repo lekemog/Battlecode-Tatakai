@@ -109,6 +109,7 @@ First run in **shadow mode**: log the proposed action change without taking it. 
 - Keep source corrections and observed performance separate. Propose a fix/test for each concern; mark it proposed, locally rejected, ladder-rejected or accepted. None is “solved” merely because code exists.
 
 ## Team credit and provenance
-This is shared team work. Leke directs the project; Szymon's workstream contributed replay decoding and farming calibration; Kurian's workstream contributed opening/capture analysis and corrected opponent modelling. Main Claude contributed controller development, experiments and integration; ChatGPT contributed independent studies, code/audit review and experiment design. These are complementary contributions, not a ranking.
 
-The four agent/workstream contributions visible in the record are main Claude, Szymon's Claude, Kurian's Claude and ChatGPT. They are not four verified human identities. Leke has requested credit for all four human contributors; the fourth human name is not established in the inspected records and must be confirmed rather than guessed. Preserve original authorship and AI-assistance provenance; shared wording does not imply every contributor endorsed every hypothesis.
+Polaris is a shared project by **Ben, Kurian, Leke and Szymon**. Our work spans strategy, replay analysis, implementation and testing. Original commit attribution and AI-assistance provenance are preserved. Shared wording does not imply unanimous endorsement of every hypothesis.
+
+See the [replay-review guide](REPLAY_REVIEW.md) for a common format that turns observations into testable changes.

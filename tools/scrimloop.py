@@ -52,6 +52,9 @@ def collect():
     save()
 
 def queue():
+    # Leke's rate: 10 groups per hour (6 at ranks 100-150, 4 at 50-99); never take the whole team quota.
+    recent = [g for g in st['groups'] if g['at'] >= time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time() - 3600))]
+    if len(recent) >= 10: return 0
     T = ladder()
     if not T: return
     n = 0
@@ -59,7 +62,9 @@ def queue():
         pool = [(tid, v) for tid, v in T.items() if lo <= v[0] <= hi and tid != ME]
         pool.sort(key=lambda kv: (st['last'].get(kv[0], ''), random.random()))
         for tid, (rank, name, rating) in pool[:want]:
-            maps = ','.join(MAPS[(st['k'] * 5 + j) % 17] for j in range(5))
+            FOCUS = ['contest', 'eight', 'monolith', 'elkring']   # 07:10 UTC 19 Oct: ranked-losing maps (28% vs 58% elsewhere)
+            OTHER = [m for m in MAPS if m not in FOCUS]
+            maps = ','.join(FOCUS + [OTHER[st['k'] % len(OTHER)]])
             s = cmd(['cambc', 'match-groups', 'create', tid, '--maps', maps, '--json'])
             if s == 'QUOTA' or s is None: save(); return n
             st['groups'].append({'group': json.loads(s)['groupId'], 'opp': name, 'opp_id': tid, 'rank': rank, 'rating': round(rating),
@@ -69,11 +74,11 @@ def queue():
     save(); return n
 
 def report():
-    bots = sorted({g.get('bot', '?') for g in st['groups'] if g.get('done')}, key=lambda b: min(g['at'] for g in st['groups'] if g.get('bot', '?') == b))
+    bots = sorted({g.get('bot', '?') for g in st['groups'] if g.get('done')}, key=lambda b: max(g['at'] for g in st['groups'] if g.get('bot', '?') == b))
     for bot in bots[-2:]:
         by = collections.defaultdict(lambda: [0, 0]); pm = collections.defaultdict(lambda: [0, 0])
         for g in st['groups']:
-            if not g.get('done') or g.get('bot', '?') != bot: continue
+            if not g.get('done') or g.get('bot', '?') != bot or (bot == 'v19n' and g['at'] < '2026-10-19T06:40'): continue
             by[g['band']][0] += g['wins']; by[g['band']][1] += 5
             for x in g['games']: pm[x['map']][0] += x['result'] == 'win'; pm[x['map']][1] += 1
         print('REPORT', bot, time.strftime('%H:%MZ', time.gmtime()), ' | '.join(f'{b}: {w}/{n}' for b, (w, n) in sorted(by.items())),

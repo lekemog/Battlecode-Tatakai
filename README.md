@@ -33,7 +33,10 @@ These are reused development cohorts, not overall ladder win rates. Contest rema
 | `docs/` | Curated team synthesis and planning |
 
 ## Shared ownership and credit
-Polaris belongs to the whole team. Leke leads the project; Szymon and Kurian's contributions are recorded alongside the controller, testing, integration and review work supported by our agents. See the [credit and provenance record](docs/TEAM_REVIEW_2026-10-18.md#team-credit-and-provenance). All four human contributors should receive named credit; the fourth name still needs confirmation in this documentation pass. We retain original attribution and AI-assistance provenance rather than rewriting history.
+
+Polaris is a shared project by **Ben, Kurian, Leke and Szymon**. Our work spans strategy, replay analysis, implementation and testing. We retain original commit attribution and AI-assistance provenance.
+
+Everyone can contribute a strategic review using the [replay-review guide](docs/REPLAY_REVIEW.md); observations and proposed alternatives are valuable independently of implementation.
 
 ## Collaboration
 1. Only the designated main Claude session submits bots or creates platform scrims. Other contributors request tests in an issue.

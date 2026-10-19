@@ -57,3 +57,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 146 | v19n | 2026-10-18T20:15Z | v19f + focus-inclusive fight valuation ONLY on single-central-altar contested maps; everywhere else byte-identical v19f maths (tests whether v19g/v19i lost corners/collision because of the v18z resets). |
 | 147 | v19f | 2026-10-18T20:18Z | Earlier first items (shop-recall at 110 gold before r250): on the identical 75 top-100 weak-map games 10 wins vs v18x 6 (corners 2, collision 3, stampede 5). |
 | 148 | v19n | 2026-10-18T20:19Z | FINAL: v19f + focus-inclusive fight valuation only on single-central-altar contested maps (eight). Identical weak-map games 12/75 vs v19f 10; strong-map games 4/35 = v19f 4. |
+| 149 | v20a | 2026-10-19T02:28Z | #25 test: v19n + corners solo farming (big-map rule from 70) + packs two squads. Local corners margin +180 vs +121; packs equal; other 15 maps byte-identical to v19n (control for the scrim A/B). |

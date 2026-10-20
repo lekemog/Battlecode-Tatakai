@@ -235,3 +235,7 @@ Every candidate found has a row. Autumn compatibility does not imply verified st
 For new URLs record season, enabled versus disabled behavior, source path/hash, measured results versus author claims, and a concrete Polaris test. Deduplicate identical trees and near-identical starter scaffolding. Retain negative results and rejected transfers.
 
 This sweep follows default branches and selected strategy paths. Unmerged branches, private/deleted/unindexed repositories and binary-only submissions remain outside coverage. Neither a username nor a README identifies a top100 team. New proposals require engine verification and tests against held-out external opponents.
+
+## Original implementation drafts and MIT archive follow-up
+
+The [implementation review](../research/implementation-drafts/README.md) now provides four original C++20 drafts, exact v21a integration points and native scenario checks. They are not integrated into the submitted bot; native checks do not establish engine legality, fuel cost or strength. The [MIT archive review](../research/implementation-drafts/MIT_ARCHIVE_RESEARCH.md) covers the supplied past-years index, three selected postmortems and three source spot checks. Those games remain separate from the90-candidate Cambridge catalogue.

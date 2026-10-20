@@ -1,0 +1,9 @@
+{
+  "cambc": "d05067b2d0aaec04deccf85e08f400b9841415e62c11e6f2eacef1421af6c106",
+  "wasi-sdk-33.0-x86_64-linux.tar.gz": "0ba8b5bfaeb2adf3f29bab5841d76cf5318ab8e1642ea195f88baba1abd47bce",
+  "cmake-3.31.8-linux-x86_64.tar.gz": "630615d8e98ac33eba7fbe472626dff5c899c85af3c024585ae109166a6909d0",
+  "cambc.h": "bd7fc64bb367fc849b6e43c81c182dab5b6b6684da3e6b9f79a22ea4015f085f",
+  "imports.h": "a993025b1027ff24f1f429e5d0ad0eec5f0c3d54fee85285d3328f2e788ec0c4",
+  "wasm_simd128.h": "254cb9207bb773a6b88d9a11ae8c8e2dd869675142d6f686a59a41d46af10196"
+}
+

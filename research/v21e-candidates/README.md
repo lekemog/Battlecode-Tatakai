@@ -31,10 +31,14 @@ The cycle model is an experiment, not a calibrated simulator: recovery uses the 
 - Baseline reproduced **127/170 tuning**, **137/170 held-out**, zero reported bot faults.
 - The tuning mean per-game margin is **+332.56 gems**. The sum of the five opponent means is **+1662.82**, explaining the earlier rounded +1663 figure.
 - Native policy scenarios/400 monotonicity cases pass with strict C++20 and UndefinedBehaviorSanitizer.
-- Full candidate results are still running; see the results document when added. No candidate is recommended until both sets are complete.
+- **All 1,700 games completed. None passed the two-set win requirement.** See [RESULTS.md](RESULTS.md), the paired CSV and comparison JSON for every outcome and regression.
 - A candidate must improve wins on **both sets** before main Claude considers a guarded ranked trial. Local strength does not establish ladder strength; the bench previously over-rated health builds.
 
 Main Claude owns wards/tripwires, centre income, capture punishment, draft, banking mechanics and all ranked decisions. No submission or platform match group was created here.
+
+The no-switch control in `bots/cg_control` produces byte-identical release Wasm to v21e. The measured capture candidate has a small-bag eligibility failure case; [followups/capture-small-bags.patch](followups/capture-small-bags.patch) supplies an unapplied repair for a separate test. Its applicability was checked with `git apply --check`; it has not been engine-tested.
+
+Generate the complete comparison after the five panels finish with `python tools/compare_v21e_candidates.py`, followed by `python tools/render_v21e_report.py`. The report includes map regressions and a replay review queue. Freeze files and `environment.json` record the measured source, map, SDK and toolchain hashes.
 
 ## Reproduce
 

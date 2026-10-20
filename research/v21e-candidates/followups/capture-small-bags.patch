@@ -1,0 +1,21 @@
+--- a/research/v21e-candidates/src/bot.cpp
++++ b/research/v21e-candidates/src/bot.cpp
+@@ -663,7 +663,7 @@
+     if(!invalid){
+         invalid=!ally_alive(stored);
+         try{const auto c=roster[stored];if(stored==slot||c.is_visible())
+-            invalid=invalid||c.is_recalling()||c.is_submitting_gems()||c.gem_count()>0;
++            invalid=invalid||c.is_recalling()||c.is_submitting_gems();
+         }catch(const error&){}
+     }
+     std::vector<polaris_draft::Capturer> candidates;
+@@ -671,7 +671,7 @@
+         if(!ally_alive(k))continue;
+         try{
+             const auto c=roster[k];if(k!=slot&&!c.is_visible())continue;
+-            if(c.is_recalling()||c.is_submitting_gems()||c.gem_count()>0)continue;
++            if(c.is_recalling()||c.is_submitting_gems())continue;
+             int arrival=100000;for(auto p:g.probes)arrival=std::min(arrival,dist(c.position(),p));
+             candidates.push_back({k,true,static_cast<double>(arrival),0});
+         }catch(const error&){}
+

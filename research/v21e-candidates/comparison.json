@@ -1,0 +1,1838 @@
+{
+  "baseline": {
+    "tuning": {
+      "expected": 170,
+      "completed": 170,
+      "wins": 127,
+      "losses": 43,
+      "draws": 0,
+      "margin_sum": 56536,
+      "own_faults": 0,
+      "opponent_faults": 0,
+      "opponents": {
+        "x_daniel7": {
+          "completed": 34,
+          "wins": 20,
+          "losses": 14,
+          "draws": 0,
+          "margin_sum": 5246
+        },
+        "x_simon6": {
+          "completed": 34,
+          "wins": 21,
+          "losses": 13,
+          "draws": 0,
+          "margin_sum": 7959
+        },
+        "x_jame4": {
+          "completed": 34,
+          "wins": 27,
+          "losses": 7,
+          "draws": 0,
+          "margin_sum": 11381
+        },
+        "x_tarotsq21": {
+          "completed": 34,
+          "wins": 26,
+          "losses": 8,
+          "draws": 0,
+          "margin_sum": 11090
+        },
+        "x_tarot16": {
+          "completed": 34,
+          "wins": 33,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 20860
+        }
+      },
+      "maps": {
+        "p_25d81311.map26a": {
+          "completed": 10,
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "margin_sum": 4081
+        },
+        "p_2e9820ee.map26a": {
+          "completed": 10,
+          "wins": 7,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 3882
+        },
+        "p_3991a8b3.map26a": {
+          "completed": 10,
+          "wins": 6,
+          "losses": 4,
+          "draws": 0,
+          "margin_sum": 536
+        },
+        "p_3a5c2468.map26a": {
+          "completed": 10,
+          "wins": 3,
+          "losses": 7,
+          "draws": 0,
+          "margin_sum": -2000
+        },
+        "p_3e2df5be.map26a": {
+          "completed": 10,
+          "wins": 8,
+          "losses": 2,
+          "draws": 0,
+          "margin_sum": 4736
+        },
+        "p_699c96a0.map26a": {
+          "completed": 10,
+          "wins": 9,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 6240
+        },
+        "p_7bfc2edd.map26a": {
+          "completed": 10,
+          "wins": 8,
+          "losses": 2,
+          "draws": 0,
+          "margin_sum": 2926
+        },
+        "p_81929320.map26a": {
+          "completed": 10,
+          "wins": 7,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 2132
+        },
+        "p_93852276.map26a": {
+          "completed": 10,
+          "wins": 6,
+          "losses": 4,
+          "draws": 0,
+          "margin_sum": 864
+        },
+        "p_9925f416.map26a": {
+          "completed": 10,
+          "wins": 9,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 5353
+        },
+        "p_b135e0fc.map26a": {
+          "completed": 10,
+          "wins": 7,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 1648
+        },
+        "p_b777c8c8.map26a": {
+          "completed": 10,
+          "wins": 9,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 4336
+        },
+        "p_bb12893c.map26a": {
+          "completed": 10,
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "margin_sum": 5652
+        },
+        "p_df22386f.map26a": {
+          "completed": 10,
+          "wins": 4,
+          "losses": 6,
+          "draws": 0,
+          "margin_sum": -1658
+        },
+        "p_e3c29b68.map26a": {
+          "completed": 10,
+          "wins": 4,
+          "losses": 6,
+          "draws": 0,
+          "margin_sum": -938
+        },
+        "p_f2b6903f.map26a": {
+          "completed": 10,
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "margin_sum": 9768
+        },
+        "p_f930f43f.map26a": {
+          "completed": 10,
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "margin_sum": 8978
+        }
+      },
+      "mean_margin": 332.56470588235294,
+      "complete": true
+    },
+    "heldout": {
+      "expected": 170,
+      "completed": 170,
+      "wins": 137,
+      "losses": 33,
+      "draws": 0,
+      "margin_sum": 60959,
+      "own_faults": 0,
+      "opponent_faults": 0,
+      "opponents": {
+        "h_mohnish": {
+          "completed": 34,
+          "wins": 24,
+          "losses": 10,
+          "draws": 0,
+          "margin_sum": 4517
+        },
+        "h_deysag": {
+          "completed": 34,
+          "wins": 16,
+          "losses": 18,
+          "draws": 0,
+          "margin_sum": 673
+        },
+        "h_vatsal": {
+          "completed": 34,
+          "wins": 31,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 14695
+        },
+        "h_photon": {
+          "completed": 34,
+          "wins": 33,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 23330
+        },
+        "h_apex": {
+          "completed": 34,
+          "wins": 33,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 17744
+        }
+      },
+      "maps": {
+        "p_25d81311.map26a": {
+          "completed": 10,
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "margin_sum": 4169
+        },
+        "p_2e9820ee.map26a": {
+          "completed": 10,
+          "wins": 8,
+          "losses": 2,
+          "draws": 0,
+          "margin_sum": 3670
+        },
+        "p_3991a8b3.map26a": {
+          "completed": 10,
+          "wins": 7,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 1732
+        },
+        "p_3a5c2468.map26a": {
+          "completed": 10,
+          "wins": 2,
+          "losses": 8,
+          "draws": 0,
+          "margin_sum": -3600
+        },
+        "p_3e2df5be.map26a": {
+          "completed": 10,
+          "wins": 9,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 6024
+        },
+        "p_699c96a0.map26a": {
+          "completed": 10,
+          "wins": 8,
+          "losses": 2,
+          "draws": 0,
+          "margin_sum": 2351
+        },
+        "p_7bfc2edd.map26a": {
+          "completed": 10,
+          "wins": 7,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 3130
+        },
+        "p_81929320.map26a": {
+          "completed": 10,
+          "wins": 7,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 1526
+        },
+        "p_93852276.map26a": {
+          "completed": 10,
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "margin_sum": 3748
+        },
+        "p_9925f416.map26a": {
+          "completed": 10,
+          "wins": 7,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 4023
+        },
+        "p_b135e0fc.map26a": {
+          "completed": 10,
+          "wins": 9,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 3336
+        },
+        "p_b777c8c8.map26a": {
+          "completed": 10,
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "margin_sum": 5710
+        },
+        "p_bb12893c.map26a": {
+          "completed": 10,
+          "wins": 9,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 4860
+        },
+        "p_df22386f.map26a": {
+          "completed": 10,
+          "wins": 7,
+          "losses": 3,
+          "draws": 0,
+          "margin_sum": 2838
+        },
+        "p_e3c29b68.map26a": {
+          "completed": 10,
+          "wins": 9,
+          "losses": 1,
+          "draws": 0,
+          "margin_sum": 3138
+        },
+        "p_f2b6903f.map26a": {
+          "completed": 10,
+          "wins": 8,
+          "losses": 2,
+          "draws": 0,
+          "margin_sum": 6012
+        },
+        "p_f930f43f.map26a": {
+          "completed": 10,
+          "wins": 10,
+          "losses": 0,
+          "draws": 0,
+          "margin_sum": 8292
+        }
+      },
+      "mean_margin": 358.58235294117645,
+      "complete": true
+    }
+  },
+  "candidates": {
+    "cg_cycle": {
+      "groups": {
+        "tuning": {
+          "expected": 170,
+          "completed": 170,
+          "wins": 131,
+          "losses": 39,
+          "draws": 0,
+          "margin_sum": 59457,
+          "own_faults": 0,
+          "opponent_faults": 0,
+          "opponents": {
+            "x_daniel7": {
+              "completed": 34,
+              "wins": 18,
+              "losses": 16,
+              "draws": 0,
+              "margin_sum": 5083
+            },
+            "x_simon6": {
+              "completed": 34,
+              "wins": 21,
+              "losses": 13,
+              "draws": 0,
+              "margin_sum": 7132
+            },
+            "x_jame4": {
+              "completed": 34,
+              "wins": 28,
+              "losses": 6,
+              "draws": 0,
+              "margin_sum": 12039
+            },
+            "x_tarotsq21": {
+              "completed": 34,
+              "wins": 31,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 14257
+            },
+            "x_tarot16": {
+              "completed": 34,
+              "wins": 33,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 20946
+            }
+          },
+          "maps": {
+            "p_25d81311.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 3740
+            },
+            "p_2e9820ee.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 3964
+            },
+            "p_3991a8b3.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 2666
+            },
+            "p_3a5c2468.map26a": {
+              "completed": 10,
+              "wins": 3,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": -2000
+            },
+            "p_3e2df5be.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 4028
+            },
+            "p_699c96a0.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8052
+            },
+            "p_7bfc2edd.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 3666
+            },
+            "p_81929320.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2132
+            },
+            "p_93852276.map26a": {
+              "completed": 10,
+              "wins": 6,
+              "losses": 4,
+              "draws": 0,
+              "margin_sum": 864
+            },
+            "p_9925f416.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 4237
+            },
+            "p_b135e0fc.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2236
+            },
+            "p_b777c8c8.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2548
+            },
+            "p_bb12893c.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 4014
+            },
+            "p_df22386f.map26a": {
+              "completed": 10,
+              "wins": 5,
+              "losses": 5,
+              "draws": 0,
+              "margin_sum": 958
+            },
+            "p_e3c29b68.map26a": {
+              "completed": 10,
+              "wins": 6,
+              "losses": 4,
+              "draws": 0,
+              "margin_sum": 1480
+            },
+            "p_f2b6903f.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 7680
+            },
+            "p_f930f43f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 9192
+            }
+          },
+          "mean_margin": 349.7470588235294,
+          "complete": true
+        },
+        "heldout": {
+          "expected": 170,
+          "completed": 170,
+          "wins": 135,
+          "losses": 35,
+          "draws": 0,
+          "margin_sum": 64017,
+          "own_faults": 0,
+          "opponent_faults": 0,
+          "opponents": {
+            "h_mohnish": {
+              "completed": 34,
+              "wins": 24,
+              "losses": 10,
+              "draws": 0,
+              "margin_sum": 7132
+            },
+            "h_deysag": {
+              "completed": 34,
+              "wins": 16,
+              "losses": 18,
+              "draws": 0,
+              "margin_sum": 2485
+            },
+            "h_vatsal": {
+              "completed": 34,
+              "wins": 29,
+              "losses": 5,
+              "draws": 0,
+              "margin_sum": 15226
+            },
+            "h_photon": {
+              "completed": 34,
+              "wins": 33,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 22593
+            },
+            "h_apex": {
+              "completed": 34,
+              "wins": 33,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 16581
+            }
+          },
+          "maps": {
+            "p_25d81311.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 3597
+            },
+            "p_2e9820ee.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 4462
+            },
+            "p_3991a8b3.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2596
+            },
+            "p_3a5c2468.map26a": {
+              "completed": 10,
+              "wins": 2,
+              "losses": 8,
+              "draws": 0,
+              "margin_sum": -3600
+            },
+            "p_3e2df5be.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 6378
+            },
+            "p_699c96a0.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 6601
+            },
+            "p_7bfc2edd.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2786
+            },
+            "p_81929320.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1526
+            },
+            "p_93852276.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 3748
+            },
+            "p_9925f416.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 6953
+            },
+            "p_b135e0fc.map26a": {
+              "completed": 10,
+              "wins": 5,
+              "losses": 5,
+              "draws": 0,
+              "margin_sum": 2250
+            },
+            "p_b777c8c8.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 3032
+            },
+            "p_bb12893c.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 4500
+            },
+            "p_df22386f.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2386
+            },
+            "p_e3c29b68.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1778
+            },
+            "p_f2b6903f.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 6498
+            },
+            "p_f930f43f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8526
+            }
+          },
+          "mean_margin": 376.5705882352941,
+          "complete": true
+        }
+      },
+      "paired": {
+        "tuning": {
+          "gained_wins": 14,
+          "lost_wins": 10,
+          "margin_delta": 17.18235294117647,
+          "at150_common_games": 170,
+          "at150_mean_delta": {
+            "earnedGold": 30.029411764705884,
+            "spentGold": -24.88235294117647,
+            "deaths": -0.12941176470588237,
+            "collectedGems": 5.952941176470588,
+            "submittedGems": -5.188235294117647
+          }
+        },
+        "heldout": {
+          "gained_wins": 9,
+          "lost_wins": 11,
+          "margin_delta": 17.988235294117647,
+          "at150_common_games": 170,
+          "at150_mean_delta": {
+            "earnedGold": 30.352941176470587,
+            "spentGold": -9.705882352941176,
+            "deaths": -0.2647058823529412,
+            "collectedGems": 5.2823529411764705,
+            "submittedGems": -1.4705882352941178
+          }
+        }
+      },
+      "passes_local_gate": false
+    },
+    "cg_task": {
+      "groups": {
+        "tuning": {
+          "expected": 170,
+          "completed": 170,
+          "wins": 133,
+          "losses": 37,
+          "draws": 0,
+          "margin_sum": 60831,
+          "own_faults": 0,
+          "opponent_faults": 0,
+          "opponents": {
+            "x_daniel7": {
+              "completed": 34,
+              "wins": 23,
+              "losses": 11,
+              "draws": 0,
+              "margin_sum": 6598
+            },
+            "x_simon6": {
+              "completed": 34,
+              "wins": 23,
+              "losses": 11,
+              "draws": 0,
+              "margin_sum": 9863
+            },
+            "x_jame4": {
+              "completed": 34,
+              "wins": 28,
+              "losses": 6,
+              "draws": 0,
+              "margin_sum": 11794
+            },
+            "x_tarotsq21": {
+              "completed": 34,
+              "wins": 26,
+              "losses": 8,
+              "draws": 0,
+              "margin_sum": 10895
+            },
+            "x_tarot16": {
+              "completed": 34,
+              "wins": 33,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 21681
+            }
+          },
+          "maps": {
+            "p_25d81311.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 4081
+            },
+            "p_2e9820ee.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 3784
+            },
+            "p_3991a8b3.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1122
+            },
+            "p_3a5c2468.map26a": {
+              "completed": 10,
+              "wins": 2,
+              "losses": 8,
+              "draws": 0,
+              "margin_sum": -2600
+            },
+            "p_3e2df5be.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 4206
+            },
+            "p_699c96a0.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 7578
+            },
+            "p_7bfc2edd.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 3014
+            },
+            "p_81929320.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2194
+            },
+            "p_93852276.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 1384
+            },
+            "p_9925f416.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 5586
+            },
+            "p_b135e0fc.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1964
+            },
+            "p_b777c8c8.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 4094
+            },
+            "p_bb12893c.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 5976
+            },
+            "p_df22386f.map26a": {
+              "completed": 10,
+              "wins": 4,
+              "losses": 6,
+              "draws": 0,
+              "margin_sum": -880
+            },
+            "p_e3c29b68.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1380
+            },
+            "p_f2b6903f.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 9288
+            },
+            "p_f930f43f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8660
+            }
+          },
+          "mean_margin": 357.82941176470587,
+          "complete": true
+        },
+        "heldout": {
+          "expected": 170,
+          "completed": 170,
+          "wins": 137,
+          "losses": 33,
+          "draws": 0,
+          "margin_sum": 63597,
+          "own_faults": 0,
+          "opponent_faults": 0,
+          "opponents": {
+            "h_mohnish": {
+              "completed": 34,
+              "wins": 23,
+              "losses": 11,
+              "draws": 0,
+              "margin_sum": 6785
+            },
+            "h_deysag": {
+              "completed": 34,
+              "wins": 18,
+              "losses": 16,
+              "draws": 0,
+              "margin_sum": 1005
+            },
+            "h_vatsal": {
+              "completed": 34,
+              "wins": 31,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 14679
+            },
+            "h_photon": {
+              "completed": 34,
+              "wins": 32,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 22663
+            },
+            "h_apex": {
+              "completed": 34,
+              "wins": 33,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 18465
+            }
+          },
+          "maps": {
+            "p_25d81311.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 4235
+            },
+            "p_2e9820ee.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 4122
+            },
+            "p_3991a8b3.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2218
+            },
+            "p_3a5c2468.map26a": {
+              "completed": 10,
+              "wins": 3,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": -2600
+            },
+            "p_3e2df5be.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 6354
+            },
+            "p_699c96a0.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2799
+            },
+            "p_7bfc2edd.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 3538
+            },
+            "p_81929320.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1526
+            },
+            "p_93852276.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 3040
+            },
+            "p_9925f416.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 3629
+            },
+            "p_b135e0fc.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2860
+            },
+            "p_b777c8c8.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 5612
+            },
+            "p_bb12893c.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 5310
+            },
+            "p_df22386f.map26a": {
+              "completed": 10,
+              "wins": 5,
+              "losses": 5,
+              "draws": 0,
+              "margin_sum": 1186
+            },
+            "p_e3c29b68.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 3134
+            },
+            "p_f2b6903f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8628
+            },
+            "p_f930f43f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8006
+            }
+          },
+          "mean_margin": 374.1,
+          "complete": true
+        }
+      },
+      "paired": {
+        "tuning": {
+          "gained_wins": 12,
+          "lost_wins": 6,
+          "margin_delta": 25.264705882352942,
+          "at150_common_games": 170,
+          "at150_mean_delta": {
+            "earnedGold": 14.588235294117647,
+            "spentGold": -3.3529411764705883,
+            "deaths": 0.01764705882352941,
+            "collectedGems": 2.8588235294117648,
+            "submittedGems": 0.3764705882352941
+          }
+        },
+        "heldout": {
+          "gained_wins": 8,
+          "lost_wins": 8,
+          "margin_delta": 15.51764705882353,
+          "at150_common_games": 170,
+          "at150_mean_delta": {
+            "earnedGold": 8.029411764705882,
+            "spentGold": 4.235294117647059,
+            "deaths": 0.03529411764705882,
+            "collectedGems": 2.458823529411765,
+            "submittedGems": 2.1294117647058823
+          }
+        }
+      },
+      "passes_local_gate": false
+    },
+    "cg_capture": {
+      "groups": {
+        "tuning": {
+          "expected": 170,
+          "completed": 170,
+          "wins": 119,
+          "losses": 51,
+          "draws": 0,
+          "margin_sum": 41385,
+          "own_faults": 0,
+          "opponent_faults": 0,
+          "opponents": {
+            "x_daniel7": {
+              "completed": 34,
+              "wins": 18,
+              "losses": 16,
+              "draws": 0,
+              "margin_sum": 1932
+            },
+            "x_simon6": {
+              "completed": 34,
+              "wins": 19,
+              "losses": 15,
+              "draws": 0,
+              "margin_sum": 6066
+            },
+            "x_jame4": {
+              "completed": 34,
+              "wins": 26,
+              "losses": 8,
+              "draws": 0,
+              "margin_sum": 8037
+            },
+            "x_tarotsq21": {
+              "completed": 34,
+              "wins": 25,
+              "losses": 9,
+              "draws": 0,
+              "margin_sum": 8934
+            },
+            "x_tarot16": {
+              "completed": 34,
+              "wins": 31,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 16416
+            }
+          },
+          "maps": {
+            "p_25d81311.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 2871
+            },
+            "p_2e9820ee.map26a": {
+              "completed": 10,
+              "wins": 3,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": -3914
+            },
+            "p_3991a8b3.map26a": {
+              "completed": 10,
+              "wins": 3,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": -150
+            },
+            "p_3a5c2468.map26a": {
+              "completed": 10,
+              "wins": 3,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": -2000
+            },
+            "p_3e2df5be.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 3124
+            },
+            "p_699c96a0.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 6941
+            },
+            "p_7bfc2edd.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 3198
+            },
+            "p_81929320.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2132
+            },
+            "p_93852276.map26a": {
+              "completed": 10,
+              "wins": 6,
+              "losses": 4,
+              "draws": 0,
+              "margin_sum": 864
+            },
+            "p_9925f416.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 3605
+            },
+            "p_b135e0fc.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2656
+            },
+            "p_b777c8c8.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 3500
+            },
+            "p_bb12893c.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 3654
+            },
+            "p_df22386f.map26a": {
+              "completed": 10,
+              "wins": 2,
+              "losses": 8,
+              "draws": 0,
+              "margin_sum": -4500
+            },
+            "p_e3c29b68.map26a": {
+              "completed": 10,
+              "wins": 6,
+              "losses": 4,
+              "draws": 0,
+              "margin_sum": 1128
+            },
+            "p_f2b6903f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8856
+            },
+            "p_f930f43f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 9420
+            }
+          },
+          "mean_margin": 243.44117647058823,
+          "complete": true
+        },
+        "heldout": {
+          "expected": 170,
+          "completed": 170,
+          "wins": 117,
+          "losses": 53,
+          "draws": 0,
+          "margin_sum": 40895,
+          "own_faults": 0,
+          "opponent_faults": 0,
+          "opponents": {
+            "h_mohnish": {
+              "completed": 34,
+              "wins": 18,
+              "losses": 16,
+              "draws": 0,
+              "margin_sum": 1758
+            },
+            "h_deysag": {
+              "completed": 34,
+              "wins": 12,
+              "losses": 22,
+              "draws": 0,
+              "margin_sum": -4777
+            },
+            "h_vatsal": {
+              "completed": 34,
+              "wins": 27,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": 12572
+            },
+            "h_photon": {
+              "completed": 34,
+              "wins": 32,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 19650
+            },
+            "h_apex": {
+              "completed": 34,
+              "wins": 28,
+              "losses": 6,
+              "draws": 0,
+              "margin_sum": 11692
+            }
+          },
+          "maps": {
+            "p_25d81311.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 2871
+            },
+            "p_2e9820ee.map26a": {
+              "completed": 10,
+              "wins": 3,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": -1456
+            },
+            "p_3991a8b3.map26a": {
+              "completed": 10,
+              "wins": 5,
+              "losses": 5,
+              "draws": 0,
+              "margin_sum": 1120
+            },
+            "p_3a5c2468.map26a": {
+              "completed": 10,
+              "wins": 2,
+              "losses": 8,
+              "draws": 0,
+              "margin_sum": -3600
+            },
+            "p_3e2df5be.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2594
+            },
+            "p_699c96a0.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2404
+            },
+            "p_7bfc2edd.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 3654
+            },
+            "p_81929320.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1526
+            },
+            "p_93852276.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 3748
+            },
+            "p_9925f416.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 4734
+            },
+            "p_b135e0fc.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2342
+            },
+            "p_b777c8c8.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 4230
+            },
+            "p_bb12893c.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 3528
+            },
+            "p_df22386f.map26a": {
+              "completed": 10,
+              "wins": 3,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": -3420
+            },
+            "p_e3c29b68.map26a": {
+              "completed": 10,
+              "wins": 6,
+              "losses": 4,
+              "draws": 0,
+              "margin_sum": 2360
+            },
+            "p_f2b6903f.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 5868
+            },
+            "p_f930f43f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8392
+            }
+          },
+          "mean_margin": 240.55882352941177,
+          "complete": true
+        }
+      },
+      "paired": {
+        "tuning": {
+          "gained_wins": 7,
+          "lost_wins": 15,
+          "margin_delta": -89.12352941176471,
+          "at150_common_games": 170,
+          "at150_mean_delta": {
+            "earnedGold": -15.970588235294118,
+            "spentGold": -38.11764705882353,
+            "deaths": 0.17647058823529413,
+            "collectedGems": -1.035294117647059,
+            "submittedGems": -4.035294117647059
+          }
+        },
+        "heldout": {
+          "gained_wins": 5,
+          "lost_wins": 25,
+          "margin_delta": -118.02352941176471,
+          "at150_common_games": 170,
+          "at150_mean_delta": {
+            "earnedGold": -13.647058823529411,
+            "spentGold": -16.058823529411764,
+            "deaths": -0.07647058823529412,
+            "collectedGems": -4.017647058823529,
+            "submittedGems": 0.27647058823529413
+          }
+        }
+      },
+      "passes_local_gate": false
+    },
+    "cg_siege": {
+      "groups": {
+        "tuning": {
+          "expected": 170,
+          "completed": 170,
+          "wins": 126,
+          "losses": 44,
+          "draws": 0,
+          "margin_sum": 55634,
+          "own_faults": 0,
+          "opponent_faults": 0,
+          "opponents": {
+            "x_daniel7": {
+              "completed": 34,
+              "wins": 20,
+              "losses": 14,
+              "draws": 0,
+              "margin_sum": 5246
+            },
+            "x_simon6": {
+              "completed": 34,
+              "wins": 21,
+              "losses": 13,
+              "draws": 0,
+              "margin_sum": 7857
+            },
+            "x_jame4": {
+              "completed": 34,
+              "wins": 27,
+              "losses": 7,
+              "draws": 0,
+              "margin_sum": 11381
+            },
+            "x_tarotsq21": {
+              "completed": 34,
+              "wins": 26,
+              "losses": 8,
+              "draws": 0,
+              "margin_sum": 10490
+            },
+            "x_tarot16": {
+              "completed": 34,
+              "wins": 32,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 20660
+            }
+          },
+          "maps": {
+            "p_25d81311.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 4081
+            },
+            "p_2e9820ee.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 3882
+            },
+            "p_3991a8b3.map26a": {
+              "completed": 10,
+              "wins": 6,
+              "losses": 4,
+              "draws": 0,
+              "margin_sum": 536
+            },
+            "p_3a5c2468.map26a": {
+              "completed": 10,
+              "wins": 2,
+              "losses": 8,
+              "draws": 0,
+              "margin_sum": -3000
+            },
+            "p_3e2df5be.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 4736
+            },
+            "p_699c96a0.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 6240
+            },
+            "p_7bfc2edd.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2926
+            },
+            "p_81929320.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2132
+            },
+            "p_93852276.map26a": {
+              "completed": 10,
+              "wins": 6,
+              "losses": 4,
+              "draws": 0,
+              "margin_sum": 864
+            },
+            "p_9925f416.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 5353
+            },
+            "p_b135e0fc.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1648
+            },
+            "p_b777c8c8.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 4336
+            },
+            "p_bb12893c.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 5652
+            },
+            "p_df22386f.map26a": {
+              "completed": 10,
+              "wins": 4,
+              "losses": 6,
+              "draws": 0,
+              "margin_sum": -1658
+            },
+            "p_e3c29b68.map26a": {
+              "completed": 10,
+              "wins": 4,
+              "losses": 6,
+              "draws": 0,
+              "margin_sum": -840
+            },
+            "p_f2b6903f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 9768
+            },
+            "p_f930f43f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8978
+            }
+          },
+          "mean_margin": 327.25882352941176,
+          "complete": true
+        },
+        "heldout": {
+          "expected": 170,
+          "completed": 170,
+          "wins": 139,
+          "losses": 31,
+          "draws": 0,
+          "margin_sum": 62327,
+          "own_faults": 0,
+          "opponent_faults": 0,
+          "opponents": {
+            "h_mohnish": {
+              "completed": 34,
+              "wins": 24,
+              "losses": 10,
+              "draws": 0,
+              "margin_sum": 4917
+            },
+            "h_deysag": {
+              "completed": 34,
+              "wins": 17,
+              "losses": 17,
+              "draws": 0,
+              "margin_sum": 1073
+            },
+            "h_vatsal": {
+              "completed": 34,
+              "wins": 32,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 14895
+            },
+            "h_photon": {
+              "completed": 34,
+              "wins": 33,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 23098
+            },
+            "h_apex": {
+              "completed": 34,
+              "wins": 33,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 18344
+            }
+          },
+          "maps": {
+            "p_25d81311.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 4169
+            },
+            "p_2e9820ee.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 3670
+            },
+            "p_3991a8b3.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1700
+            },
+            "p_3a5c2468.map26a": {
+              "completed": 10,
+              "wins": 4,
+              "losses": 6,
+              "draws": 0,
+              "margin_sum": -2200
+            },
+            "p_3e2df5be.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 6024
+            },
+            "p_699c96a0.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 2351
+            },
+            "p_7bfc2edd.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 3130
+            },
+            "p_81929320.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 1526
+            },
+            "p_93852276.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 3748
+            },
+            "p_9925f416.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 4023
+            },
+            "p_b135e0fc.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 3336
+            },
+            "p_b777c8c8.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 5710
+            },
+            "p_bb12893c.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 4860
+            },
+            "p_df22386f.map26a": {
+              "completed": 10,
+              "wins": 7,
+              "losses": 3,
+              "draws": 0,
+              "margin_sum": 2838
+            },
+            "p_e3c29b68.map26a": {
+              "completed": 10,
+              "wins": 9,
+              "losses": 1,
+              "draws": 0,
+              "margin_sum": 3138
+            },
+            "p_f2b6903f.map26a": {
+              "completed": 10,
+              "wins": 8,
+              "losses": 2,
+              "draws": 0,
+              "margin_sum": 6012
+            },
+            "p_f930f43f.map26a": {
+              "completed": 10,
+              "wins": 10,
+              "losses": 0,
+              "draws": 0,
+              "margin_sum": 8292
+            }
+          },
+          "mean_margin": 366.6294117647059,
+          "complete": true
+        }
+      },
+      "paired": {
+        "tuning": {
+          "gained_wins": 0,
+          "lost_wins": 1,
+          "margin_delta": -5.305882352941176,
+          "at150_common_games": 170,
+          "at150_mean_delta": {
+            "earnedGold": 0.0,
+            "spentGold": 0.0,
+            "deaths": 0.0,
+            "collectedGems": 0.0,
+            "submittedGems": 0.0
+          }
+        },
+        "heldout": {
+          "gained_wins": 3,
+          "lost_wins": 1,
+          "margin_delta": 8.047058823529412,
+          "at150_common_games": 170,
+          "at150_mean_delta": {
+            "earnedGold": 0.0,
+            "spentGold": 0.0,
+            "deaths": 0.0,
+            "collectedGems": 0.0,
+            "submittedGems": 0.0
+          }
+        }
+      },
+      "passes_local_gate": false
+    }
+  }
+}

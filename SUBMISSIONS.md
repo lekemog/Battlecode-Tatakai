@@ -80,3 +80,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 169 | v21h | 2026-10-20T03:00Z | v21a + walled-camp farming fix (new pool bench 310/420 vs v21a 273) |
 | 170 | v21m | 2026-10-20T04:33Z | v21h + whole-cycle camp cost + C&I in 3-pick drafts (new-pool bench 337/420 vs v21h 310; v21h ranked 25-15). Stop rule <45% after 30 -> v21h |
 | 171 | v21p | 2026-10-20T06:26Z | v21m + out-of-reach camp fix (expanse Varg stuck on a chest 2 tiles away). Bench 343/420 vs v21m 337; ranked v21m expanse 0/4. Stop rule <45% after 30 -> v21m |
+| 172 | v22f | 2026-10-20T12:45Z | Patch 3.0: v21p + gold weight 1.0 (post-patch ranked losses: gold@600 1767 vs 2702; games now go ~1700 rounds, gold decides fights and the tiebreak). 3.0 bench 307/420 vs v21p 299, both sets up. Stop rule <45% after 30 -> v21p |

@@ -1,0 +1,989 @@
+[
+  {
+    "name": "x_daniel7",
+    "repo": "dpark2380/cambridge-battlecode",
+    "tree": "77d4a7aa0c67998bf2a8fcbe4b781e1bd898e0d9",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/daniel/v7/src/bot.cpp",
+        "sha": "e4ccb36582526acc19c166c4ae6f53960dd714f0",
+        "size": 43886,
+        "local": "bots/x_daniel7/src/bot.cpp"
+      },
+      {
+        "path": "bots/daniel/v7/src/bot.h",
+        "sha": "1aca5caeb2aad3653fcda4e3c0f0d14ad3afbcdc",
+        "size": 2698,
+        "local": "bots/x_daniel7/src/bot.h"
+      },
+      {
+        "path": "bots/daniel/v7/src/draft.cpp",
+        "sha": "995f5167a0425f144c7c4ef3a35ee496ca6436d7",
+        "size": 13012,
+        "local": "bots/x_daniel7/src/draft.cpp"
+      },
+      {
+        "path": "bots/daniel/v7/src/draft.h",
+        "sha": "b0b8200d76ac19e331276ffeb4221d106f88fdc1",
+        "size": 478,
+        "local": "bots/x_daniel7/src/draft.h"
+      },
+      {
+        "path": "bots/daniel/v7/src/main.cpp",
+        "sha": "165cc6bd746c79f2e7074d82f4edcd86245d919a",
+        "size": 581,
+        "local": "bots/x_daniel7/src/main.cpp"
+      },
+      {
+        "path": "bots/daniel/v7/src/map_profile.cpp",
+        "sha": "96b8bdf8396fb3521f8d033af9d40e453fd59c5d",
+        "size": 6079,
+        "local": "bots/x_daniel7/src/map_profile.cpp"
+      },
+      {
+        "path": "bots/daniel/v7/src/map_profile.h",
+        "sha": "7d6bc80e99178345f5714839ea7c501ed3addd15",
+        "size": 1501,
+        "local": "bots/x_daniel7/src/map_profile.h"
+      },
+      {
+        "path": "bots/daniel/v7/src/plan.h",
+        "sha": "56cb431cd1e5d98eac1399fb9d505f9f35630c7b",
+        "size": 2546,
+        "local": "bots/x_daniel7/src/plan.h"
+      },
+      {
+        "path": "bots/daniel/v7/src/world.cpp",
+        "sha": "4fb34b73e56155b1e1da27e8fba3e329c4ec2ad3",
+        "size": 4542,
+        "local": "bots/x_daniel7/src/world.cpp"
+      },
+      {
+        "path": "bots/daniel/v7/src/world.h",
+        "sha": "8e2407e6ba42682c836d894d798afe81d6a30db8",
+        "size": 2755,
+        "local": "bots/x_daniel7/src/world.h"
+      }
+    ]
+  },
+  {
+    "name": "x_simon6",
+    "repo": "dpark2380/cambridge-battlecode",
+    "tree": "77d4a7aa0c67998bf2a8fcbe4b781e1bd898e0d9",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/simon/v6/src/bot.cpp",
+        "sha": "c80d1302c40a857be63883f36cef74adcff768cf",
+        "size": 40357,
+        "local": "bots/x_simon6/src/bot.cpp"
+      },
+      {
+        "path": "bots/simon/v6/src/bot.h",
+        "sha": "9cef4c95a1a114d221514e3c1d432d0e3fbc4abc",
+        "size": 2448,
+        "local": "bots/x_simon6/src/bot.h"
+      },
+      {
+        "path": "bots/simon/v6/src/draft.cpp",
+        "sha": "995f5167a0425f144c7c4ef3a35ee496ca6436d7",
+        "size": 13012,
+        "local": "bots/x_simon6/src/draft.cpp"
+      },
+      {
+        "path": "bots/simon/v6/src/draft.h",
+        "sha": "b0b8200d76ac19e331276ffeb4221d106f88fdc1",
+        "size": 478,
+        "local": "bots/x_simon6/src/draft.h"
+      },
+      {
+        "path": "bots/simon/v6/src/main.cpp",
+        "sha": "165cc6bd746c79f2e7074d82f4edcd86245d919a",
+        "size": 581,
+        "local": "bots/x_simon6/src/main.cpp"
+      },
+      {
+        "path": "bots/simon/v6/src/map_profile.cpp",
+        "sha": "96b8bdf8396fb3521f8d033af9d40e453fd59c5d",
+        "size": 6079,
+        "local": "bots/x_simon6/src/map_profile.cpp"
+      },
+      {
+        "path": "bots/simon/v6/src/map_profile.h",
+        "sha": "7d6bc80e99178345f5714839ea7c501ed3addd15",
+        "size": 1501,
+        "local": "bots/x_simon6/src/map_profile.h"
+      },
+      {
+        "path": "bots/simon/v6/src/plan.h",
+        "sha": "56cb431cd1e5d98eac1399fb9d505f9f35630c7b",
+        "size": 2546,
+        "local": "bots/x_simon6/src/plan.h"
+      },
+      {
+        "path": "bots/simon/v6/src/world.cpp",
+        "sha": "93651248d2a2305eec2c2b38fb9bc63f245beb37",
+        "size": 3824,
+        "local": "bots/x_simon6/src/world.cpp"
+      },
+      {
+        "path": "bots/simon/v6/src/world.h",
+        "sha": "8a9fb77e4ffd8cc4311c6090af86b7aa047e28a3",
+        "size": 2531,
+        "local": "bots/x_simon6/src/world.h"
+      }
+    ]
+  },
+  {
+    "name": "x_jame4",
+    "repo": "dpark2380/cambridge-battlecode",
+    "tree": "77d4a7aa0c67998bf2a8fcbe4b781e1bd898e0d9",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/jame/v4/src/actions.cpp",
+        "sha": "f13ade29535a1779aecd937803cc0940d105613e",
+        "size": 6281,
+        "local": "bots/x_jame4/src/actions.cpp"
+      },
+      {
+        "path": "bots/jame/v4/src/actions.h",
+        "sha": "f54a5b3f163696dc04dd575a40456c2e3ba83d02",
+        "size": 674,
+        "local": "bots/x_jame4/src/actions.h"
+      },
+      {
+        "path": "bots/jame/v4/src/bot.cpp",
+        "sha": "167532ed6ebae9b3ec2efecc2ceeeb51bd929289",
+        "size": 22349,
+        "local": "bots/x_jame4/src/bot.cpp"
+      },
+      {
+        "path": "bots/jame/v4/src/bot.h",
+        "sha": "528ee244eb6816e2180bca15397d0cf719146619",
+        "size": 2012,
+        "local": "bots/x_jame4/src/bot.h"
+      },
+      {
+        "path": "bots/jame/v4/src/combat_model.h",
+        "sha": "e259b3cd892fed16aace9ca277c308b93bb5273f",
+        "size": 1914,
+        "local": "bots/x_jame4/src/combat_model.h"
+      },
+      {
+        "path": "bots/jame/v4/src/draft.cpp",
+        "sha": "7b84c4d07878c4ca7bf2a70466bf3eff874b3161",
+        "size": 652,
+        "local": "bots/x_jame4/src/draft.cpp"
+      },
+      {
+        "path": "bots/jame/v4/src/draft.h",
+        "sha": "23d8d05d3715d42fbdd387fb1db9dc982824d3dd",
+        "size": 52,
+        "local": "bots/x_jame4/src/draft.h"
+      },
+      {
+        "path": "bots/jame/v4/src/economy.h",
+        "sha": "23f5953c62c29b0186f595c656b3892440e0504d",
+        "size": 1038,
+        "local": "bots/x_jame4/src/economy.h"
+      },
+      {
+        "path": "bots/jame/v4/src/features.h",
+        "sha": "344e24cc1faeb81b64ebe6fe949741fac2a5f907",
+        "size": 497,
+        "local": "bots/x_jame4/src/features.h"
+      },
+      {
+        "path": "bots/jame/v4/src/main.cpp",
+        "sha": "5c6654799b35285a771839603f227fa6bb09484f",
+        "size": 1743,
+        "local": "bots/x_jame4/src/main.cpp"
+      },
+      {
+        "path": "bots/jame/v4/src/navigation.cpp",
+        "sha": "67c885b4d9711b005c23e2a70045bbf0cf5891f7",
+        "size": 3306,
+        "local": "bots/x_jame4/src/navigation.cpp"
+      },
+      {
+        "path": "bots/jame/v4/src/navigation.h",
+        "sha": "35b4dc705acbeb80a4cec2c4219bfb4e03999a4b",
+        "size": 279,
+        "local": "bots/x_jame4/src/navigation.h"
+      },
+      {
+        "path": "bots/jame/v4/src/progress.h",
+        "sha": "e4c351be1db13b50e320d580877cf41aa51f1095",
+        "size": 710,
+        "local": "bots/x_jame4/src/progress.h"
+      },
+      {
+        "path": "bots/jame/v4/src/shop.cpp",
+        "sha": "f606406431eb171fcb09a0bd942bae1e4970ea01",
+        "size": 2870,
+        "local": "bots/x_jame4/src/shop.cpp"
+      },
+      {
+        "path": "bots/jame/v4/src/shop.h",
+        "sha": "91bf043881de72efbd78185d1285168079a087d4",
+        "size": 241,
+        "local": "bots/x_jame4/src/shop.h"
+      }
+    ]
+  },
+  {
+    "name": "x_tarotsq21",
+    "repo": "FHL-08/Tarot-Club-Cambc2026",
+    "tree": "672adda33897bd88c18784a96dcff4bbc188afc5",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/squad-v21/src/bot.cpp",
+        "sha": "3e0aa7cf24c223e9938af87b671cfd269622170e",
+        "size": 80304,
+        "local": "bots/x_tarotsq21/src/bot.cpp"
+      },
+      {
+        "path": "bots/squad-v21/src/bot.h",
+        "sha": "a5aba5a8e720c3b7f55a5e8d4115a14b199ecece",
+        "size": 1469,
+        "local": "bots/x_tarotsq21/src/bot.h"
+      },
+      {
+        "path": "bots/squad-v21/src/draft.cpp",
+        "sha": "5f312f349cfafbd061b8e00babfdb9af567b1898",
+        "size": 1661,
+        "local": "bots/x_tarotsq21/src/draft.cpp"
+      },
+      {
+        "path": "bots/squad-v21/src/draft.h",
+        "sha": "7be98bb8a0ed5674e1828fefe6258378d2bf4fdf",
+        "size": 33,
+        "local": "bots/x_tarotsq21/src/draft.h"
+      },
+      {
+        "path": "bots/squad-v21/src/main.cpp",
+        "sha": "98eca2dcd3f35f252cb7491114b263f3162003e5",
+        "size": 605,
+        "local": "bots/x_tarotsq21/src/main.cpp"
+      },
+      {
+        "path": "bots/squad-v21/src/team.h",
+        "sha": "a504270d10b8e0de3dff06a52a121d7174cbaf74",
+        "size": 2664,
+        "local": "bots/x_tarotsq21/src/team.h"
+      }
+    ]
+  },
+  {
+    "name": "x_tarot16",
+    "repo": "FHL-08/Tarot-Club-Cambc2026",
+    "tree": "672adda33897bd88c18784a96dcff4bbc188afc5",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/foundry-v16/src/atlas.cpp",
+        "sha": "9c9901f9e1cf31aa1937e4c5172b9b2ac0846434",
+        "size": 10718,
+        "local": "bots/x_tarot16/src/atlas.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/atlas.h",
+        "sha": "e3be72245843ab2a88bb4a8b0d2c88c465895e56",
+        "size": 3009,
+        "local": "bots/x_tarot16/src/atlas.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/bot.cpp",
+        "sha": "07bb552fd0c021f42198bb15a79a5e3a84d17488",
+        "size": 3258,
+        "local": "bots/x_tarot16/src/bot.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/bot.h",
+        "sha": "c63d1183f88301813f718ddb03baab8201129314",
+        "size": 645,
+        "local": "bots/x_tarot16/src/bot.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/camp_scoring.h",
+        "sha": "a5af7d9f0763179d9f6be506d544715cb1739e22",
+        "size": 3868,
+        "local": "bots/x_tarot16/src/camp_scoring.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/draft.cpp",
+        "sha": "9259808e430500d7e46942efb377b45a5fecf980",
+        "size": 5876,
+        "local": "bots/x_tarot16/src/draft.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/draft.h",
+        "sha": "7be98bb8a0ed5674e1828fefe6258378d2bf4fdf",
+        "size": 33,
+        "local": "bots/x_tarot16/src/draft.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/econ.cpp",
+        "sha": "7f8f688c52a9275602bcaf53dd2290fed5e437a6",
+        "size": 10871,
+        "local": "bots/x_tarot16/src/econ.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/econ.h",
+        "sha": "816dee3a3c81c5f39192c9b62be4831ee9c1b6d5",
+        "size": 1365,
+        "local": "bots/x_tarot16/src/econ.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/exec.cpp",
+        "sha": "0ee121302f623dcb6f15746e2c5b16c403816371",
+        "size": 97468,
+        "local": "bots/x_tarot16/src/exec.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/exec.h",
+        "sha": "7c47cb679788ceb4034eb26ad5faa73edfa1f5de",
+        "size": 3171,
+        "local": "bots/x_tarot16/src/exec.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/ledger.cpp",
+        "sha": "f3b03879ed255ea105e7de70e2891adb4d28ceef",
+        "size": 4956,
+        "local": "bots/x_tarot16/src/ledger.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/ledger.h",
+        "sha": "dddeaf1a6684fd3cbfbddbc44927f0d0d454f30d",
+        "size": 1391,
+        "local": "bots/x_tarot16/src/ledger.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/main.cpp",
+        "sha": "165cc6bd746c79f2e7074d82f4edcd86245d919a",
+        "size": 581,
+        "local": "bots/x_tarot16/src/main.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/nav.cpp",
+        "sha": "41d5c26bd1f90ccb8fb3b7c54a88f670cd0bb9eb",
+        "size": 3629,
+        "local": "bots/x_tarot16/src/nav.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/nav.h",
+        "sha": "e4e6b7e36fe6eabbc5c0ab025244709bd40544be",
+        "size": 1231,
+        "local": "bots/x_tarot16/src/nav.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/obs.h",
+        "sha": "4e5aafd951089633020be7ab014e18d92005e0d3",
+        "size": 6418,
+        "local": "bots/x_tarot16/src/obs.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/plan.h",
+        "sha": "3305ee18a68ea25f43439909c2d721a9ab2341e1",
+        "size": 11617,
+        "local": "bots/x_tarot16/src/plan.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/planner.cpp",
+        "sha": "ec52a6183ec5f6c49982d0ffacee07d2b7574a43",
+        "size": 17077,
+        "local": "bots/x_tarot16/src/planner.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/planner.h",
+        "sha": "3b01557e558cfbc1eac60ed8251e7e42814adace",
+        "size": 1090,
+        "local": "bots/x_tarot16/src/planner.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/random.h",
+        "sha": "39bcc2db34dd9f9c16cece2227c6ec0f4d7c5125",
+        "size": 742,
+        "local": "bots/x_tarot16/src/random.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/burst.cpp",
+        "sha": "c2cd3c90325383c29d6607a411044cb27fe53ef0",
+        "size": 10727,
+        "local": "bots/x_tarot16/src/tactic/burst.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/deny.cpp",
+        "sha": "a47cda7d33a489b8c155b5b835fc955fc6c73c3c",
+        "size": 5646,
+        "local": "bots/x_tarot16/src/tactic/deny.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/gank.cpp",
+        "sha": "c4e8599cb363392c8b43d7bdb4a0461ab92e667b",
+        "size": 11241,
+        "local": "bots/x_tarot16/src/tactic/gank.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/lock.cpp",
+        "sha": "84c4aad86e2433d5eb0a7f4727743828e7cd4e31",
+        "size": 2972,
+        "local": "bots/x_tarot16/src/tactic/lock.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/peel.cpp",
+        "sha": "eabb7b5395ec0a0904f2074654525622c8e25b84",
+        "size": 6892,
+        "local": "bots/x_tarot16/src/tactic/peel.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/poke.cpp",
+        "sha": "81563c4d77d8743b5f6d6c8aef56c3a8e69e6871",
+        "size": 1374,
+        "local": "bots/x_tarot16/src/tactic/poke.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/support.h",
+        "sha": "6856110ee71f4860c8158e946c483fac6df5a53f",
+        "size": 4994,
+        "local": "bots/x_tarot16/src/tactic/support.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/tactic.cpp",
+        "sha": "8265c3d8ea74d2c8a71ad39f66f9302791e5b3b7",
+        "size": 907,
+        "local": "bots/x_tarot16/src/tactic/tactic.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/tactic/tactic.h",
+        "sha": "9f210e23e3e1d799c680298b6b15d90757cc1122",
+        "size": 1643,
+        "local": "bots/x_tarot16/src/tactic/tactic.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/turn.h",
+        "sha": "afd96c57d941e8e0af6048bd037cef0d566a0194",
+        "size": 18656,
+        "local": "bots/x_tarot16/src/turn.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/warding.cpp",
+        "sha": "28e7c7b8344d6c559779d33a56da5dd4033f169f",
+        "size": 7149,
+        "local": "bots/x_tarot16/src/warding.cpp"
+      },
+      {
+        "path": "bots/foundry-v16/src/warding.h",
+        "sha": "2760bddbaff1e0c841784971dff0df6910102ddb",
+        "size": 257,
+        "local": "bots/x_tarot16/src/warding.h"
+      },
+      {
+        "path": "bots/foundry-v16/src/wire.h",
+        "sha": "0b75da8e68a1024674471c2e26c624ffe72b709a",
+        "size": 6919,
+        "local": "bots/x_tarot16/src/wire.h"
+      }
+    ]
+  },
+  {
+    "name": "h_mohnish",
+    "repo": "MohnishDhangar/Cambc",
+    "tree": "d62088071e0e48b3e4540e087241d235b98adb3d",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/Bot1/src/bot.cpp",
+        "sha": "e98225ad12121ef8fbc090dad01447b219fb3ca9",
+        "size": 25984,
+        "local": "bots/h_mohnish/src/bot.cpp"
+      },
+      {
+        "path": "bots/Bot1/src/bot.h",
+        "sha": "9563eb4f3bc0d3cccffecb601834e56e7bdf53ce",
+        "size": 2072,
+        "local": "bots/h_mohnish/src/bot.h"
+      },
+      {
+        "path": "bots/Bot1/src/draft.cpp",
+        "sha": "88c89aac78e2f40f49edd143de17903d3784216b",
+        "size": 2446,
+        "local": "bots/h_mohnish/src/draft.cpp"
+      },
+      {
+        "path": "bots/Bot1/src/draft.h",
+        "sha": "7be98bb8a0ed5674e1828fefe6258378d2bf4fdf",
+        "size": 33,
+        "local": "bots/h_mohnish/src/draft.h"
+      },
+      {
+        "path": "bots/Bot1/src/main.cpp",
+        "sha": "1b60183ccec0a940756e1621be1e95e52482b0d6",
+        "size": 910,
+        "local": "bots/h_mohnish/src/main.cpp"
+      },
+      {
+        "path": "bots/Bot1/src/random.h",
+        "sha": "39bcc2db34dd9f9c16cece2227c6ec0f4d7c5125",
+        "size": 742,
+        "local": "bots/h_mohnish/src/random.h"
+      }
+    ]
+  },
+  {
+    "name": "h_deysag",
+    "repo": "DeySag/Cambridge-Battlecode",
+    "tree": "844ee8ae3661792aae7d41f1fd730dc43e973311",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/baseline/src/bot.cpp",
+        "sha": "d8a466b060e41117b90f762b58062ad2500073ca",
+        "size": 40781,
+        "local": "bots/h_deysag/src/bot.cpp"
+      },
+      {
+        "path": "bots/baseline/src/bot.h",
+        "sha": "f6205ad4c2c4a6283fd9a69c8dc43bf213e62618",
+        "size": 3136,
+        "local": "bots/h_deysag/src/bot.h"
+      },
+      {
+        "path": "bots/baseline/src/draft.cpp",
+        "sha": "4642d5d185430eb06ce8b225cd3aac4b1b55abeb",
+        "size": 961,
+        "local": "bots/h_deysag/src/draft.cpp"
+      },
+      {
+        "path": "bots/baseline/src/draft.h",
+        "sha": "7be98bb8a0ed5674e1828fefe6258378d2bf4fdf",
+        "size": 33,
+        "local": "bots/h_deysag/src/draft.h"
+      },
+      {
+        "path": "bots/baseline/src/main.cpp",
+        "sha": "5dff473bc3c9ecb1b75f833630f729be52695983",
+        "size": 1300,
+        "local": "bots/h_deysag/src/main.cpp"
+      },
+      {
+        "path": "bots/baseline/src/random.h",
+        "sha": "39bcc2db34dd9f9c16cece2227c6ec0f4d7c5125",
+        "size": 742,
+        "local": "bots/h_deysag/src/random.h"
+      }
+    ]
+  },
+  {
+    "name": "h_vatsal",
+    "repo": "userVatsal/Cambridge-battlecode",
+    "tree": "e4564f11607a7b38f04b8b10937d2f7e6ce0dc53",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/goldrush-cpp-v5/src/bot.cpp",
+        "sha": "867f1f0d85c933a04736ee2647e46bc7c14b7f07",
+        "size": 3810,
+        "local": "bots/h_vatsal/src/bot.cpp"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/bot.h",
+        "sha": "038949be475b48eab9a91342380107da0527e896",
+        "size": 189,
+        "local": "bots/h_vatsal/src/bot.h"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/combat.cpp",
+        "sha": "f52e17ec658bd9139e7e37c9c3943a71653c685a",
+        "size": 3892,
+        "local": "bots/h_vatsal/src/combat.cpp"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/combat.h",
+        "sha": "7ab1f794abd8b552461755668cdb7b454740c25f",
+        "size": 2757,
+        "local": "bots/h_vatsal/src/combat.h"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/config.h",
+        "sha": "b9e9c6e54d6db034703c7ae6a9a9add6bc84bdd5",
+        "size": 2775,
+        "local": "bots/h_vatsal/src/config.h"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/draft.cpp",
+        "sha": "040629ede8b742b61b175e3c670343dc58f8b8c5",
+        "size": 574,
+        "local": "bots/h_vatsal/src/draft.cpp"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/draft.h",
+        "sha": "7d9640e296534293497c759d9f71c6c1f6e6a39f",
+        "size": 312,
+        "local": "bots/h_vatsal/src/draft.h"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/economy.cpp",
+        "sha": "1c1af5a8801ff4c1bdb2c79603d12b5b3ff57c22",
+        "size": 3792,
+        "local": "bots/h_vatsal/src/economy.cpp"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/economy.h",
+        "sha": "daf042ed5af05d0862efd99f0e99b14389898bb3",
+        "size": 385,
+        "local": "bots/h_vatsal/src/economy.h"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/farming.cpp",
+        "sha": "31775aea0e583cf0ec1eda89074f243572d837c3",
+        "size": 4062,
+        "local": "bots/h_vatsal/src/farming.cpp"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/farming.h",
+        "sha": "6a1b86c834d1706e8084d62baab195361d323215",
+        "size": 536,
+        "local": "bots/h_vatsal/src/farming.h"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/main.cpp",
+        "sha": "bfba70c9213312eac7be096553f65efc77876af4",
+        "size": 984,
+        "local": "bots/h_vatsal/src/main.cpp"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/navigation.cpp",
+        "sha": "a66a448017bb1fad6f40f065c9dc8c9f299837a1",
+        "size": 1946,
+        "local": "bots/h_vatsal/src/navigation.cpp"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/navigation.h",
+        "sha": "01902966d0521c379baab408bdfdaff3184598c9",
+        "size": 452,
+        "local": "bots/h_vatsal/src/navigation.h"
+      },
+      {
+        "path": "bots/goldrush-cpp-v5/src/state.h",
+        "sha": "25c355d732bf5babf1c471317670b84a0a79376c",
+        "size": 902,
+        "local": "bots/h_vatsal/src/state.h"
+      }
+    ]
+  },
+  {
+    "name": "h_photon",
+    "repo": "S0ulSyte/Photon-Battlecode",
+    "tree": "909fc067422ae30b5c709ad4024c2c43535bbff6",
+    "branch": "main",
+    "files": [
+      {
+        "path": "bots/merged/src/ability_util.cpp",
+        "sha": "12542d85b03bb62e5560d73a583d3bc5eac39478",
+        "size": 7139,
+        "local": "bots/h_photon/src/ability_util.cpp"
+      },
+      {
+        "path": "bots/merged/src/ability_util.h",
+        "sha": "92cca8be82f28dfb53211df5e7a9d45fe74404a3",
+        "size": 5340,
+        "local": "bots/h_photon/src/ability_util.h"
+      },
+      {
+        "path": "bots/merged/src/altar_info.h",
+        "sha": "90fb551d652cb145ceb873e8738d21eb25757aef",
+        "size": 810,
+        "local": "bots/h_photon/src/altar_info.h"
+      },
+      {
+        "path": "bots/merged/src/bot.cpp",
+        "sha": "e0ea453839266ab09be9d34af325d86c504d0445",
+        "size": 11731,
+        "local": "bots/h_photon/src/bot.cpp"
+      },
+      {
+        "path": "bots/merged/src/bot.h",
+        "sha": "545ec6d1ac18b4893f28ad67795057f105659084",
+        "size": 19262,
+        "local": "bots/h_photon/src/bot.h"
+      },
+      {
+        "path": "bots/merged/src/bot_setup.cpp",
+        "sha": "7f6e6d5aeb82ebd049ff5bb3c03037894d204242",
+        "size": 6191,
+        "local": "bots/h_photon/src/bot_setup.cpp"
+      },
+      {
+        "path": "bots/merged/src/camp_info.h",
+        "sha": "30b6040813a6c8ef392adba04e6bd99df0dea03f",
+        "size": 1905,
+        "local": "bots/h_photon/src/camp_info.h"
+      },
+      {
+        "path": "bots/merged/src/camp_memory.cpp",
+        "sha": "aa3da16dfa13e7c1e39c7c47a5fe899289bd65ba",
+        "size": 6315,
+        "local": "bots/h_photon/src/camp_memory.cpp"
+      },
+      {
+        "path": "bots/merged/src/champion_util.cpp",
+        "sha": "149ee5559a0f7f5c5da0f5cc4366a1e7464a7e6e",
+        "size": 3316,
+        "local": "bots/h_photon/src/champion_util.cpp"
+      },
+      {
+        "path": "bots/merged/src/champion_util.h",
+        "sha": "f73845efadc3d978e9fc87a424a5d794366997ad",
+        "size": 2259,
+        "local": "bots/h_photon/src/champion_util.h"
+      },
+      {
+        "path": "bots/merged/src/config.h",
+        "sha": "98c56b33fbb6b7ed52d151d1a53286e50324c8e9",
+        "size": 25849,
+        "local": "bots/h_photon/src/config.h"
+      },
+      {
+        "path": "bots/merged/src/draft.cpp",
+        "sha": "95644b15c3ff88fa3a507b53ebd9d7612b21709a",
+        "size": 33112,
+        "local": "bots/h_photon/src/draft.cpp"
+      },
+      {
+        "path": "bots/merged/src/draft.h",
+        "sha": "60f96aaafc1cc340b2c14228a4bc4a63356ad0c0",
+        "size": 242,
+        "local": "bots/h_photon/src/draft.h"
+      },
+      {
+        "path": "bots/merged/src/draft_memory.cpp",
+        "sha": "625931cc1b06aa64a20d9348f6f6adbc0e4d3149",
+        "size": 9499,
+        "local": "bots/h_photon/src/draft_memory.cpp"
+      },
+      {
+        "path": "bots/merged/src/draft_memory.h",
+        "sha": "f233ec0c3f938af18a3d28185f83934c5f0c6283",
+        "size": 1861,
+        "local": "bots/h_photon/src/draft_memory.h"
+      },
+      {
+        "path": "bots/merged/src/enemy_memory.cpp",
+        "sha": "732f6fb029f1727a1c8c2d28fcfc06af864348b1",
+        "size": 10310,
+        "local": "bots/h_photon/src/enemy_memory.cpp"
+      },
+      {
+        "path": "bots/merged/src/fight.cpp",
+        "sha": "33bc141f62acd747d7914cdab8154cc4760f33d7",
+        "size": 27357,
+        "local": "bots/h_photon/src/fight.cpp"
+      },
+      {
+        "path": "bots/merged/src/fight_check.cpp",
+        "sha": "fc2cc49e816880a6764c90e8318fdb264df686b6",
+        "size": 19165,
+        "local": "bots/h_photon/src/fight_check.cpp"
+      },
+      {
+        "path": "bots/merged/src/fight_check.h",
+        "sha": "ed6db1bafa1d19ebba71f31efe4b37952c29fb93",
+        "size": 6442,
+        "local": "bots/h_photon/src/fight_check.h"
+      },
+      {
+        "path": "bots/merged/src/fuel_profile.h",
+        "sha": "0f9bad2770617c5bda6288d9ce134a9e380e9a07",
+        "size": 5448,
+        "local": "bots/h_photon/src/fuel_profile.h"
+      },
+      {
+        "path": "bots/merged/src/log.h",
+        "sha": "8c98b8b92a2ebb6a55c900ded94589c5852b3b30",
+        "size": 1675,
+        "local": "bots/h_photon/src/log.h"
+      },
+      {
+        "path": "bots/merged/src/main.cpp",
+        "sha": "0d3612f0215db112761e2147e13580e6e4825f60",
+        "size": 1030,
+        "local": "bots/h_photon/src/main.cpp"
+      },
+      {
+        "path": "bots/merged/src/movement.cpp",
+        "sha": "1fd5be88668e77e57ae66c4d0819ae2cbddb61e0",
+        "size": 4848,
+        "local": "bots/h_photon/src/movement.cpp"
+      },
+      {
+        "path": "bots/merged/src/moves.cpp",
+        "sha": "95306484ea58186dc83b8bc7de9a6e4d81fb5ac2",
+        "size": 5375,
+        "local": "bots/h_photon/src/moves.cpp"
+      },
+      {
+        "path": "bots/merged/src/moves.h",
+        "sha": "32de22f4ca1bbe96b75e54bde74e80d6b080227e",
+        "size": 1902,
+        "local": "bots/h_photon/src/moves.h"
+      },
+      {
+        "path": "bots/merged/src/plan.cpp",
+        "sha": "c903cdcd6895925f79ffed0050db31078d6e36e7",
+        "size": 14263,
+        "local": "bots/h_photon/src/plan.cpp"
+      },
+      {
+        "path": "bots/merged/src/plan.h",
+        "sha": "3a187edda21240bab87bcbd3b790b5a8ecfb6e87",
+        "size": 5055,
+        "local": "bots/h_photon/src/plan.h"
+      },
+      {
+        "path": "bots/merged/src/random.h",
+        "sha": "e94b417e3158aafc9e62798e63092c19d525b5bc",
+        "size": 1031,
+        "local": "bots/h_photon/src/random.h"
+      },
+      {
+        "path": "bots/merged/src/route_info.h",
+        "sha": "56f65f20d3aee7157d94365c1812ae525b2932dc",
+        "size": 580,
+        "local": "bots/h_photon/src/route_info.h"
+      },
+      {
+        "path": "bots/merged/src/shared_memory.cpp",
+        "sha": "939983006a6af11438fd63861aad1ad6c639e859",
+        "size": 5580,
+        "local": "bots/h_photon/src/shared_memory.cpp"
+      },
+      {
+        "path": "bots/merged/src/shop.cpp",
+        "sha": "485c9b3900e752a08b8d8b1efd33a5fe729a5c8b",
+        "size": 2888,
+        "local": "bots/h_photon/src/shop.cpp"
+      },
+      {
+        "path": "bots/merged/src/state_bank.cpp",
+        "sha": "2c44184936bf472bbd99b475041a4f6b0cc63655",
+        "size": 4205,
+        "local": "bots/h_photon/src/state_bank.cpp"
+      },
+      {
+        "path": "bots/merged/src/state_camp_attack.cpp",
+        "sha": "dea6346992b3e5e3eca99cd8744cda1693a092a0",
+        "size": 12743,
+        "local": "bots/h_photon/src/state_camp_attack.cpp"
+      },
+      {
+        "path": "bots/merged/src/state_combat.cpp",
+        "sha": "e9dced0fbe99c69914df1524de30e0e02a2d7c98",
+        "size": 1837,
+        "local": "bots/h_photon/src/state_combat.cpp"
+      },
+      {
+        "path": "bots/merged/src/state_default.cpp",
+        "sha": "5380f02532e39da95b645679d2de011221387ab4",
+        "size": 17003,
+        "local": "bots/h_photon/src/state_default.cpp"
+      },
+      {
+        "path": "bots/merged/src/target_select.cpp",
+        "sha": "3889cc1bbe127daa447c8dbb2c299ba3cd9a30b2",
+        "size": 11982,
+        "local": "bots/h_photon/src/target_select.cpp"
+      },
+      {
+        "path": "bots/merged/src/target_select.h",
+        "sha": "7c16157359f408ab5fcecbd171682509d6ce6389",
+        "size": 3300,
+        "local": "bots/h_photon/src/target_select.h"
+      },
+      {
+        "path": "bots/merged/src/targets.cpp",
+        "sha": "83fd23d6b5dc2844faa1138f73fcda9bdcf67bda",
+        "size": 3009,
+        "local": "bots/h_photon/src/targets.cpp"
+      },
+      {
+        "path": "bots/merged/src/turn_end.cpp",
+        "sha": "a75c294b5223a5cc77e32b1dee80ccf5cf3a8166",
+        "size": 7771,
+        "local": "bots/h_photon/src/turn_end.cpp"
+      }
+    ]
+  },
+  {
+    "name": "h_apex",
+    "repo": "rayhankhilji/battlecode-hack",
+    "tree": "3c349c10be663bafae75d2e92b4cd7302c5c1d63",
+    "branch": "claude/battlecode-2026-strategy-s63vv9",
+    "files": [
+      {
+        "path": "bots/apex/src/bot.cpp",
+        "sha": "c6a269f64264d7cda39aac4eb885b0ba58124ceb",
+        "size": 46462,
+        "local": "bots/h_apex/src/bot.cpp"
+      },
+      {
+        "path": "bots/apex/src/bot.h",
+        "sha": "de857bae3cc6e85abf3e7ffcbf4db531a72dcf28",
+        "size": 5069,
+        "local": "bots/h_apex/src/bot.h"
+      },
+      {
+        "path": "bots/apex/src/combat.cpp",
+        "sha": "0cc7ddd937a123a0383bfb23c95153362c194a6e",
+        "size": 23111,
+        "local": "bots/h_apex/src/combat.cpp"
+      },
+      {
+        "path": "bots/apex/src/combat.h",
+        "sha": "6ed58760223936881250e08c9a73f87401ebea03",
+        "size": 1898,
+        "local": "bots/h_apex/src/combat.h"
+      },
+      {
+        "path": "bots/apex/src/common.h",
+        "sha": "0f29be57f6d26141fb70ccc1b472ea6563e2e8a0",
+        "size": 2877,
+        "local": "bots/h_apex/src/common.h"
+      },
+      {
+        "path": "bots/apex/src/draft.cpp",
+        "sha": "86d6590f26d2dbd063f9a04ce69639fb49440578",
+        "size": 14865,
+        "local": "bots/h_apex/src/draft.cpp"
+      },
+      {
+        "path": "bots/apex/src/draft.h",
+        "sha": "f4f9aeb53aed99fbae6d2fe4fcebdfdc8434f993",
+        "size": 51,
+        "local": "bots/h_apex/src/draft.h"
+      },
+      {
+        "path": "bots/apex/src/main.cpp",
+        "sha": "afc97178ab2f660a76122ce3ab6bd7dac9e209ec",
+        "size": 582,
+        "local": "bots/h_apex/src/main.cpp"
+      },
+      {
+        "path": "bots/apex/src/model.h",
+        "sha": "04fff816b70e147a5ff5305528ecb025517e8e29",
+        "size": 3414,
+        "local": "bots/h_apex/src/model.h"
+      },
+      {
+        "path": "bots/apex/src/plan.h",
+        "sha": "02b7135d40c8409875e360bea68d1718d7c11617",
+        "size": 2554,
+        "local": "bots/h_apex/src/plan.h"
+      }
+    ]
+  }
+]
+

@@ -78,3 +78,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 167 | v19n | 2026-10-19T23:17Z | Revert v20q trial: contest+eight 0/11 since 19:20 (eight heal change and contest gold change did not convert). Back to plain v19n. |
 | 168 | v21a | 2026-10-20T00:00Z | Bounded trial (#33): in enemy range with no ready dash -> fight back instead of walking away. External-bot bench 124/170 vs v19n 118/170, margin +1654 vs +1359. Stop rule: <45% after 30 ranked games -> v19n. |
 | 169 | v21h | 2026-10-20T03:00Z | v21a + walled-camp farming fix (new pool bench 310/420 vs v21a 273) |
+| 170 | v21m | 2026-10-20T04:33Z | v21h + whole-cycle camp cost + C&I in 3-pick drafts (new-pool bench 337/420 vs v21h 310; v21h ranked 25-15). Stop rule <45% after 30 -> v21h |

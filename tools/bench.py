@@ -1,5 +1,5 @@
 """Benchmark bots on the full map pool: wins vs each opponent and mean rounds-to-finish when winning on gems."""
-import json, os, subprocess, sys, time, statistics
+import json, os, subprocess, sys, time, statistics, shutil
 
 PROJ = '/home/claude/proj'
 MAPS = (os.environ.get('MAPS') or open('/home/claude/tools/pool.txt').read().strip()).split(',')
@@ -34,6 +34,12 @@ def run(a, b):
         if won and gems[side] >= 1000:
             speed.append(rounds)
         per_map.setdefault(m, []).append(('W' if won else 'L') + str(rounds))
+    for f in os.listdir(out):   # 3.0 writes replay bundles under other names too: keep only stats/manifest
+        p = os.path.join(out, f)
+        if not f.endswith(('.json', '.txt')):
+            try:
+                (shutil.rmtree if os.path.isdir(p) else os.remove)(p)
+            except OSError: pass
     for m, first, second, tag in rows:   # replays are large; stats JSON is kept
         try: os.remove(f'{out}/{tag}.repl26a')
         except OSError: pass

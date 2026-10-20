@@ -77,3 +77,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 166 | v20q | 2026-10-19T21:08Z | Bounded trial: v20p (contest central gold) + eight: carriers below 85% HP recall to heal before the altar (#32 fight study: we engage altar fights at 74-76% HP vs their 83-84%; lose 916 vs 731 HP per fight). Local eight 6/8 vs v19n 1/8, deaths 9.2 vs 15.1. Map-gated; guard: overall <45% after 30 games -> v19n. |
 | 167 | v19n | 2026-10-19T23:17Z | Revert v20q trial: contest+eight 0/11 since 19:20 (eight heal change and contest gold change did not convert). Back to plain v19n. |
 | 168 | v21a | 2026-10-20T00:00Z | Bounded trial (#33): in enemy range with no ready dash -> fight back instead of walking away. External-bot bench 124/170 vs v19n 118/170, margin +1654 vs +1359. Stop rule: <45% after 30 ranked games -> v19n. |
+| 169 | v21h | 2026-10-20T03:00Z | v21a + walled-camp farming fix (new pool bench 310/420 vs v21a 273) |

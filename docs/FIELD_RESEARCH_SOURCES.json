@@ -1,0 +1,2332 @@
+{
+  "reviewed_on_utc": "2026-10-20",
+  "scope": "90 repository candidates; default-branch inventories and selected files, not every historical version or an exhaustive internet census.",
+  "search_queries": [
+    "Cambridge battlecode 2026",
+    "cambc",
+    "cambridge-battlecode",
+    "battlecode 2026 in:name,description,readme",
+    "\"battlecode.cam\" in:readme",
+    "\"cambc2026a\" in:readme",
+    "\"Cambridge Battlecode\" in:readme created:>=2026-01-01",
+    "battlecode Cambridge fork:true",
+    "battlecode created:>=2026-10-12",
+    "cambc in:readme created:>=2026-10-12",
+    "\"Cambridge Battlecode\" archived:true"
+  ],
+  "records": [
+    {
+      "repository": "HerbertTheBird/Cambridge-Battlecode",
+      "classification": "spring",
+      "observation": "Khaos secure.py uses bitboard claims and defers securing an ore tile when a harvest action will secure it next turn. Useful principle: two individually sensible policies can obstruct each other; reserve the complete operation. README reports Grand Finals first place in the spring game.",
+      "branch": "main",
+      "root_tree_sha": "daf417410854b4563898412c9b2699ac4dedc7ee",
+      "tree_truncated": false,
+      "files_in_tree": 1321,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "8f7305e65e3b97c595f16a018c002af5e2fdcf72",
+          "source_url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/HerbertTheBird/Cambridge-Battlecode/git/blobs/8f7305e65e3b97c595f16a018c002af5e2fdcf72"
+        },
+        {
+          "path": "_PONG/pong_bot/main.py",
+          "blob_sha": "264d47ed82d939470be3c1e1de77b50c1d1fd1aa",
+          "source_url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/main/_PONG/pong_bot/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/HerbertTheBird/Cambridge-Battlecode/git/blobs/264d47ed82d939470be3c1e1de77b50c1d1fd1aa"
+        },
+        {
+          "path": "bots/Khaos/units/states/secure.py",
+          "blob_sha": "698e6e143dd53e846275889f7f2e6e18bdf43940",
+          "source_url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/main/bots/Khaos/units/states/secure.py",
+          "immutable_blob_url": "https://api.github.com/repos/HerbertTheBird/Cambridge-Battlecode/git/blobs/698e6e143dd53e846275889f7f2e6e18bdf43940"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "lxorb/muteki",
+      "classification": "spring",
+      "observation": "README identifies uewomirudake as the main bot and reports international finals 5th/6th. Its main dispatches persistent entity-specific agents and profiles elapsed work. Useful architecture reference; the initial framing experiment is a different snapshot, not evidence for the finals policy.",
+      "branch": "main",
+      "root_tree_sha": "79328f3119c1ad84ff898464368e4ccb8e9f8c1c",
+      "tree_truncated": false,
+      "files_in_tree": 382,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "13b385f6dc8fe236e1354bfb574d39bfa0353679",
+          "source_url": "https://github.com/lxorb/muteki/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/lxorb/muteki/git/blobs/13b385f6dc8fe236e1354bfb574d39bfa0353679"
+        },
+        {
+          "path": "bots/framing/main.py",
+          "blob_sha": "fb47ca7460daefeb39e957a26849953d57b3d15e",
+          "source_url": "https://github.com/lxorb/muteki/blob/main/bots/framing/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/lxorb/muteki/git/blobs/fb47ca7460daefeb39e957a26849953d57b3d15e"
+        },
+        {
+          "path": "bots/uewomirudake/main.py",
+          "blob_sha": "827de10787051ac09c73b4536bead2177f53a739",
+          "source_url": "https://github.com/lxorb/muteki/blob/main/bots/uewomirudake/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/lxorb/muteki/git/blobs/827de10787051ac09c73b4536bead2177f53a739"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "HubertM6/CambridgeBattlecode",
+      "classification": "spring",
+      "observation": "Representative assassin controller stores candidate enemy-core locations and persistent pathfinding state. Review scope is that controller, not every almost_gm version. Identical root tree to Konticjusz; count as one implementation family.",
+      "branch": "main",
+      "root_tree_sha": "176beaf644b2bf6dbc3a20eea4a2850dc7f72dc7",
+      "tree_truncated": false,
+      "files_in_tree": 622,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/almost_gm/assasin_bot.py",
+          "blob_sha": "f952c1665ef286b3a23ea154d02490ab1eb16928",
+          "source_url": "https://github.com/HubertM6/CambridgeBattlecode/blob/main/bots/almost_gm/assasin_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/HubertM6/CambridgeBattlecode/git/blobs/f952c1665ef286b3a23ea154d02490ab1eb16928"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "CoffeeCoder1015/cambridge-battlecode",
+      "classification": "spring",
+      "observation": "Navigation source implements terrain/symmetry memory; README links bucketed A*, resource routing and frontier exploration. Transfer bounded integer-grid search only after profiling our SDK pathfinding; supply-line hijacking is an older mechanic.",
+      "branch": "main",
+      "root_tree_sha": "02714fdfa9d687d7c908271868b129e0cf95391f",
+      "tree_truncated": false,
+      "files_in_tree": 113,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "6fb844a5fa052367618fe70c50cedadf971d93b8",
+          "source_url": "https://github.com/CoffeeCoder1015/cambridge-battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/CoffeeCoder1015/cambridge-battlecode/git/blobs/6fb844a5fa052367618fe70c50cedadf971d93b8"
+        },
+        {
+          "path": "bots/do_nothing/main.py",
+          "blob_sha": "36a9e58b150f67c6480037cfb434be948e41a8ff",
+          "source_url": "https://github.com/CoffeeCoder1015/cambridge-battlecode/blob/main/bots/do_nothing/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/CoffeeCoder1015/cambridge-battlecode/git/blobs/36a9e58b150f67c6480037cfb434be948e41a8ff"
+        },
+        {
+          "path": "bots/k_learning/builderbot/navigation.py",
+          "blob_sha": "3c8d8c8c250299c3336704069a9bfdf7d1af4a84",
+          "source_url": "https://github.com/CoffeeCoder1015/cambridge-battlecode/blob/main/bots/k_learning/builderbot/navigation.py",
+          "immutable_blob_url": "https://api.github.com/repos/CoffeeCoder1015/cambridge-battlecode/git/blobs/3c8d8c8c250299c3336704069a9bfdf7d1af4a84"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "SubhanAfz/cambridge-battlecode-bot",
+      "classification": "spring",
+      "observation": "Builder rewrite composes explicit economy states, pathfinding, discovered map and typed messaging. Good separation of observation, plan and execution. README reports novice second place; this is author-reported spring evidence.",
+      "branch": "main",
+      "root_tree_sha": "8797278a29fe7d9ca6203d149a45cc254cc7bad4",
+      "tree_truncated": false,
+      "files_in_tree": 383,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "7643a9128b2fad9114a6fe64bf8070c061b8013c",
+          "source_url": "https://github.com/SubhanAfz/cambridge-battlecode-bot/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/SubhanAfz/cambridge-battlecode-bot/git/blobs/7643a9128b2fad9114a6fe64bf8070c061b8013c"
+        },
+        {
+          "path": "bots/dav_bot_rewrite/builder_bot.py",
+          "blob_sha": "96824154567b4c533f444accaa9392639541b1a9",
+          "source_url": "https://github.com/SubhanAfz/cambridge-battlecode-bot/blob/main/bots/dav_bot_rewrite/builder_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/SubhanAfz/cambridge-battlecode-bot/git/blobs/96824154567b4c533f444accaa9392639541b1a9"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "BenjaminKovacs/Blue-Dragon-2026-Cambridge-Battlecode",
+      "classification": "spring",
+      "observation": "README names Albiorix as the final real bot. Its builder actions check affordability/legality and distinguish whether movement or construction actually happened. Useful action-result contracts; Pong artifacts are separate from the real finals bot.",
+      "branch": "main",
+      "root_tree_sha": "18fbfaa3139220d76db4faeefef042ca0573fefa",
+      "tree_truncated": false,
+      "files_in_tree": 57,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.txt",
+          "blob_sha": "f42ca3c01ef70d340d2b275c307f91e8b94857b5",
+          "source_url": "https://github.com/BenjaminKovacs/Blue-Dragon-2026-Cambridge-Battlecode/blob/main/README.txt",
+          "immutable_blob_url": "https://api.github.com/repos/BenjaminKovacs/Blue-Dragon-2026-Cambridge-Battlecode/git/blobs/f42ca3c01ef70d340d2b275c307f91e8b94857b5"
+        },
+        {
+          "path": "albiorix/bots/builder_bot.py",
+          "blob_sha": "f4de04d1ace3a91b8825fce758f66d6041db4167",
+          "source_url": "https://github.com/BenjaminKovacs/Blue-Dragon-2026-Cambridge-Battlecode/blob/main/albiorix/bots/builder_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/BenjaminKovacs/Blue-Dragon-2026-Cambridge-Battlecode/git/blobs/f4de04d1ace3a91b8825fce758f66d6041db4167"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "john-s-kim/battlecode",
+      "classification": "empty",
+      "observation": "Search result exists, but GitHub reports an empty repository (HTTP409). No code to analyze.",
+      "branch": null,
+      "root_tree_sha": null,
+      "tree_truncated": null,
+      "files_in_tree": null,
+      "root_license_files": [],
+      "reviewed_files": [],
+      "depth": "inventory/README only"
+    },
+    {
+      "repository": "ask8000/cambattlecode26",
+      "classification": "spring",
+      "observation": "v4 builder has explicit exploring/harvesting/linking states and a state-switch routine. Useful lifecycle audit reference; task state alone does not establish successful delivery or a competitive result.",
+      "branch": "main",
+      "root_tree_sha": "5907f225c269a64c38e53f67b19aa60667ff9700",
+      "tree_truncated": false,
+      "files_in_tree": 210,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "27a21a9fd48ff014d899e43b7eb12bdc22536116",
+          "source_url": "https://github.com/ask8000/cambattlecode26/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/ask8000/cambattlecode26/git/blobs/27a21a9fd48ff014d899e43b7eb12bdc22536116"
+        },
+        {
+          "path": "bots/v4/builder_bot.py",
+          "blob_sha": "460f3f1396ad31d4ca05eaa912a17778eb7c8c2f",
+          "source_url": "https://github.com/ask8000/cambattlecode26/blob/main/bots/v4/builder_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/ask8000/cambattlecode26/git/blobs/460f3f1396ad31d4ca05eaa912a17778eb7c8c2f"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "TymonM/cambc2026",
+      "classification": "spring",
+      "observation": "Read playground opening and main-dev shared brain. Playground is an API experiment with fixed construction coordinates, not the submission. Keep experiment artifacts separate from release evidence.",
+      "branch": "main",
+      "root_tree_sha": "b7aa30f1bf002630396987763617a656e09cd607",
+      "tree_truncated": false,
+      "files_in_tree": 62,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/_playground/main.py",
+          "blob_sha": "64ae1490bb7c57207da5bd572ba6b08a24efa697",
+          "source_url": "https://github.com/TymonM/cambc2026/blob/main/bots/_playground/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/TymonM/cambc2026/git/blobs/64ae1490bb7c57207da5bd572ba6b08a24efa697"
+        },
+        {
+          "path": "bots/main-dev/shared/brain.py",
+          "blob_sha": "721056ca968a82b8a75d8d33b2874fac407e932e",
+          "source_url": "https://github.com/TymonM/cambc2026/blob/main/bots/main-dev/shared/brain.py",
+          "immutable_blob_url": "https://api.github.com/repos/TymonM/cambc2026/git/blobs/721056ca968a82b8a75d8d33b2874fac407e932e"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "rafancoding/cambridge-battlecode",
+      "classification": "autumn",
+      "observation": "Starter-derived Python bot exposes separate banking, recall and avoidance switches. Most experimental thresholds default to starter values; FLEE_DIST is active at 5. Useful small ablations and event logging, not evidence that the suggested settings win.",
+      "branch": "main",
+      "root_tree_sha": "c3e0739fef07be48c637428c0512ce14764360ee",
+      "tree_truncated": false,
+      "files_in_tree": 169,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "3647ce75618b93a983983d2c23fecdae23ae3574",
+          "source_url": "https://github.com/rafancoding/cambridge-battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/rafancoding/cambridge-battlecode/git/blobs/3647ce75618b93a983983d2c23fecdae23ae3574"
+        },
+        {
+          "path": "bots/my-bot/src/bot.py",
+          "blob_sha": "7251e313a147667258e42b5449144d7050796d47",
+          "source_url": "https://github.com/rafancoding/cambridge-battlecode/blob/main/bots/my-bot/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/rafancoding/cambridge-battlecode/git/blobs/7251e313a147667258e42b5449144d7050796d47"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "prawek/CambridgeBattlecode",
+      "classification": "spring",
+      "observation": "Final builder imports PlanningBudget, SearchMemory, construction access and explicit stall limits. README says final combines exploration/economy with another combat component. Useful bounded planning and progress recovery; old infrastructure economics do not transfer literally.",
+      "branch": "master",
+      "root_tree_sha": "f4472452c71f53d4365fec8004f82acc98572017",
+      "tree_truncated": false,
+      "files_in_tree": 165,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "cb6e15765cc14c859efbe42b7c2b93bb8431ad11",
+          "source_url": "https://github.com/prawek/CambridgeBattlecode/blob/master/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/prawek/CambridgeBattlecode/git/blobs/cb6e15765cc14c859efbe42b7c2b93bb8431ad11"
+        },
+        {
+          "path": "bots/final/builder_bot.py",
+          "blob_sha": "206b96d54e3cc8462ed9344a0b5f1a4610dee3f4",
+          "source_url": "https://github.com/prawek/CambridgeBattlecode/blob/master/bots/final/builder_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/prawek/CambridgeBattlecode/git/blobs/206b96d54e3cc8462ed9344a0b5f1a4610dee3f4"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "stanislawzapala/Cambridge_Battlecode",
+      "classification": "spring",
+      "observation": "Read archived BFS and the detailed PUDEL changelog. The changelog records blocked routes, repeated rebuilding and missing post-siege ownership transitions. Useful negative cases for completion tests; archived BFS is not claimed to be final v21 code.",
+      "branch": "main",
+      "root_tree_sha": "f1ac5bef99bb8e29afbb8bbb21a08ec8bb49c409",
+      "tree_truncated": false,
+      "files_in_tree": 65,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "00a07a28407823dcd1aedc581ce9ed256a545ecf",
+          "source_url": "https://github.com/stanislawzapala/Cambridge_Battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/stanislawzapala/Cambridge_Battlecode/git/blobs/00a07a28407823dcd1aedc581ce9ed256a545ecf"
+        },
+        {
+          "path": "bots/archive/bfs_v1/main.py",
+          "blob_sha": "898e85adbe2408e9d23bf945a1d1f25643831fab",
+          "source_url": "https://github.com/stanislawzapala/Cambridge_Battlecode/blob/main/bots/archive/bfs_v1/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/stanislawzapala/Cambridge_Battlecode/git/blobs/898e85adbe2408e9d23bf945a1d1f25643831fab"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "turtletiny/cambridge-battlecode",
+      "classification": "autumn",
+      "observation": "Starter-like Rust distance-field movement, camp farming and random stat builds. Multi-goal routing is useful as a simple control. No ranking or strength verified; early-return combat can displace banking in this policy.",
+      "branch": "main",
+      "root_tree_sha": "db099c983b728ace3023763a84d32916e9e8bed5",
+      "tree_truncated": false,
+      "files_in_tree": 48,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "src/bot.rs",
+          "blob_sha": "28ba19c65fadb00ff8b34e710e249eab67658259",
+          "source_url": "https://github.com/turtletiny/cambridge-battlecode/blob/main/src/bot.rs",
+          "immutable_blob_url": "https://api.github.com/repos/turtletiny/cambridge-battlecode/git/blobs/28ba19c65fadb00ff8b34e710e249eab67658259"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "charitra10/Cambridge_Battlecode",
+      "classification": "spring",
+      "observation": "Single-file controller defines separate builder movement and cardinal supply routing offsets. Highlights that action-specific geometry differs; no current-game combat or performance claim.",
+      "branch": "main",
+      "root_tree_sha": "4562b7138c647d1ce6ac074a7b770dc2358789cd",
+      "tree_truncated": false,
+      "files_in_tree": 1,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "battlebot/battlebot.py",
+          "blob_sha": "74f41903e5a29aedd1d1cd1b9a00192a00b48b8b",
+          "source_url": "https://github.com/charitra10/Cambridge_Battlecode/blob/main/battlebot/battlebot.py",
+          "immutable_blob_url": "https://api.github.com/repos/charitra10/Cambridge_Battlecode/git/blobs/74f41903e5a29aedd1d1cd1b9a00192a00b48b8b"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "ZhigaMason/cambridge-battlecode",
+      "classification": "spring",
+      "observation": "D* Lite maintains g/rhs values, a lazy priority queue and multiple approach goals around a core. Interesting incremental navigation reference; no measured benefit over our native DistanceField established.",
+      "branch": "master",
+      "root_tree_sha": "79012cf1afdaa6c1fab423ccea26c2844724235d",
+      "tree_truncated": false,
+      "files_in_tree": 19,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "source_url": "https://github.com/ZhigaMason/cambridge-battlecode/blob/master/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/ZhigaMason/cambridge-battlecode/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+          "path": "main.py",
+          "blob_sha": "a23b0fa93102f1614d2152373d5ac754d1fa168d",
+          "source_url": "https://github.com/ZhigaMason/cambridge-battlecode/blob/master/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/ZhigaMason/cambridge-battlecode/git/blobs/a23b0fa93102f1614d2152373d5ac754d1fa168d"
+        },
+        {
+          "path": "bots/starter/dstar_lite.py",
+          "blob_sha": "220021361e88d440b3d3b372b34191162218c428",
+          "source_url": "https://github.com/ZhigaMason/cambridge-battlecode/blob/master/bots/starter/dstar_lite.py",
+          "immutable_blob_url": "https://api.github.com/repos/ZhigaMason/cambridge-battlecode/git/blobs/220021361e88d440b3d3b372b34191162218c428"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "AdUhTkJm/cambridge-battlecode",
+      "classification": "spring",
+      "observation": "EXPLORER/WAIT_FOR_HARVEST/BUILD_CONVEYOR states. README explicitly records infinite stalling after failed pathfinding and mismatch between movement and construction routes. Add bounded failure recovery rather than merely retrying a target.",
+      "branch": "main",
+      "root_tree_sha": "77b5e6c0f08727f76f692685b7bfb755496a026c",
+      "tree_truncated": false,
+      "files_in_tree": 6,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "38fb52c9d4ee85b9074901a5c2315f972a599e3d",
+          "source_url": "https://github.com/AdUhTkJm/cambridge-battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/AdUhTkJm/cambridge-battlecode/git/blobs/38fb52c9d4ee85b9074901a5c2315f972a599e3d"
+        },
+        {
+          "path": "bots/defect/main.py",
+          "blob_sha": "4ffa7012ed3d1b51cd040d99d9bd165b151854a3",
+          "source_url": "https://github.com/AdUhTkJm/cambridge-battlecode/blob/main/bots/defect/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/AdUhTkJm/cambridge-battlecode/git/blobs/4ffa7012ed3d1b51cd040d99d9bd165b151854a3"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "jamesrdainton-jpg/Cambridge-Battlecode",
+      "classification": "autumn",
+      "observation": "Meta bot has champion/stat-specific build queues. The dated research report documents large local gains failing to transfer and unspent-gold/boss-economy failures. Preserve that as their reported experiment, not our result; branch/version descriptions in the historical report are not current branch truth.",
+      "branch": "main",
+      "root_tree_sha": "a88abc2a4dbd55edf1ad91a04ee9d4c347b4c2a1",
+      "tree_truncated": false,
+      "files_in_tree": 256,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/meta/src/bot.py",
+          "blob_sha": "fd372d23ec032f83fcb9b584855b69ff4b323e5a",
+          "source_url": "https://github.com/jamesrdainton-jpg/Cambridge-Battlecode/blob/main/bots/meta/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/jamesrdainton-jpg/Cambridge-Battlecode/git/blobs/fd372d23ec032f83fcb9b584855b69ff4b323e5a"
+        },
+        {
+          "path": "research/2026-10-19/REPORT.md",
+          "blob_sha": "2b328f541a3beb17c2bacb129bdf8d8e7ffb3c44",
+          "source_url": "https://github.com/jamesrdainton-jpg/Cambridge-Battlecode/blob/main/research/2026-10-19/REPORT.md",
+          "immutable_blob_url": "https://api.github.com/repos/jamesrdainton-jpg/Cambridge-Battlecode/git/blobs/2b328f541a3beb17c2bacb129bdf8d8e7ffb3c44"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "AKhubgit/Cambridge_Battlecode",
+      "classification": "spring",
+      "observation": "Single-file grid logistics bot with explicit transport/building categories. Its header resembles charitra10; similarity is not proof of provenance. Do not count near-identical scaffolding as independent strategic evidence.",
+      "branch": "main",
+      "root_tree_sha": "923ede662bdbe27fac2e03deb224392d2c0695f6",
+      "tree_truncated": false,
+      "files_in_tree": 2,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "940a2aa7dab883018fce73bfe29037433c34ba46",
+          "source_url": "https://github.com/AKhubgit/Cambridge_Battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/AKhubgit/Cambridge_Battlecode/git/blobs/940a2aa7dab883018fce73bfe29037433c34ba46"
+        },
+        {
+          "path": "bot.py",
+          "blob_sha": "8236a266602f51b32d2fce5b110f6e672ff423e6",
+          "source_url": "https://github.com/AKhubgit/Cambridge_Battlecode/blob/main/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/AKhubgit/Cambridge_Battlecode/git/blobs/8236a266602f51b32d2fce5b110f6e672ff423e6"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "dpark2380/cambridge-battlecode",
+      "classification": "autumn",
+      "observation": "Daniel v7 choose_target divides rewards among assigned bodies and prices travel/respawn overlap, clear, capture, delivery and healing. Bounded help/stall waits and separate siege jobs. Strong reference for a complete resource cycle; its constants and approximate ally DPS need independent calibration.",
+      "branch": "main",
+      "root_tree_sha": "77d4a7aa0c67998bf2a8fcbe4b781e1bd898e0d9",
+      "tree_truncated": false,
+      "files_in_tree": 378,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "81ea72a66825bcafbe012376ff7399aab2d39893",
+          "source_url": "https://github.com/dpark2380/cambridge-battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/dpark2380/cambridge-battlecode/git/blobs/81ea72a66825bcafbe012376ff7399aab2d39893"
+        },
+        {
+          "path": "bots/jame/v4/src/bot.cpp",
+          "blob_sha": "167532ed6ebae9b3ec2efecc2ceeeb51bd929289",
+          "source_url": "https://github.com/dpark2380/cambridge-battlecode/blob/main/bots/jame/v4/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/dpark2380/cambridge-battlecode/git/blobs/167532ed6ebae9b3ec2efecc2ceeeb51bd929289"
+        },
+        {
+          "path": "bots/daniel/v7/src/bot.cpp",
+          "blob_sha": "e4ccb36582526acc19c166c4ae6f53960dd714f0",
+          "source_url": "https://github.com/dpark2380/cambridge-battlecode/blob/main/bots/daniel/v7/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/dpark2380/cambridge-battlecode/git/blobs/e4ccb36582526acc19c166c4ae6f53960dd714f0"
+        },
+        {
+          "path": "bots/simon/docs/research/league_macro.md",
+          "blob_sha": "b860dfdff971e5cd08f55fd3d0d693e5e42c8376",
+          "source_url": "https://github.com/dpark2380/cambridge-battlecode/blob/main/bots/simon/docs/research/league_macro.md",
+          "immutable_blob_url": "https://api.github.com/repos/dpark2380/cambridge-battlecode/git/blobs/b860dfdff971e5cd08f55fd3d0d693e5e42c8376"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "Cope-Pasta/cambridge-battlecode",
+      "classification": "spring",
+      "observation": "Bot exposes FAILED/DONE/PROGRESS and tile-claim results, plus expiring claims and a resumable execution interface. Particularly useful for our false-success and stale-commitment concerns. No measured win-rate claim.",
+      "branch": "main",
+      "root_tree_sha": "6dd81079e82a09fce87accc84430d2f526ce81fd",
+      "tree_truncated": false,
+      "files_in_tree": 90,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "source_url": "https://github.com/Cope-Pasta/cambridge-battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Cope-Pasta/cambridge-battlecode/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+          "path": "bots/starter/bot/bot.py",
+          "blob_sha": "15432326a0db16cef740064a808201ff474283eb",
+          "source_url": "https://github.com/Cope-Pasta/cambridge-battlecode/blob/main/bots/starter/bot/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Cope-Pasta/cambridge-battlecode/git/blobs/15432326a0db16cef740064a808201ff474283eb"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "PreslavGG/Cambridge-Battlecode",
+      "classification": "autumn",
+      "observation": "Inspected the starter C++ controller: native multi-goal DistanceField, random persistent stat buying and basic farming. Useful baseline mechanics, not an independent advanced policy or verified strong opponent.",
+      "branch": "main",
+      "root_tree_sha": "9a1cc611c04746cd85980ca9cb0681f94a2dfc60",
+      "tree_truncated": false,
+      "files_in_tree": 86,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "087ffc647b197e12b312c79284584a700f3b430c",
+          "source_url": "https://github.com/PreslavGG/Cambridge-Battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/PreslavGG/Cambridge-Battlecode/git/blobs/087ffc647b197e12b312c79284584a700f3b430c"
+        },
+        {
+          "path": "bots/starter-cpp/src/bot.cpp",
+          "blob_sha": "066c585052aec010226cc29f06fbfc326ce99ee4",
+          "source_url": "https://github.com/PreslavGG/Cambridge-Battlecode/blob/main/bots/starter-cpp/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/PreslavGG/Cambridge-Battlecode/git/blobs/066c585052aec010226cc29f06fbfc326ce99ee4"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "DeySag/Cambridge-Battlecode",
+      "classification": "autumn",
+      "observation": "Baseline v2 combines camp claims, delivery routing, spell threat estimates and fading death memory. Their diagnostic report checks gem conservation and distinguishes linked-body deaths from kill rewards. Excellent measurement template; their 25 selected games are not an overall win-rate sample.",
+      "branch": "main",
+      "root_tree_sha": "844ee8ae3661792aae7d41f1fd730dc43e973311",
+      "tree_truncated": false,
+      "files_in_tree": 129,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/baseline/src/bot.cpp",
+          "blob_sha": "d8a466b060e41117b90f762b58062ad2500073ca",
+          "source_url": "https://github.com/DeySag/Cambridge-Battlecode/blob/main/bots/baseline/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/DeySag/Cambridge-Battlecode/git/blobs/d8a466b060e41117b90f762b58062ad2500073ca"
+        },
+        {
+          "path": "bots/baseline/README.md",
+          "blob_sha": "0e45416d323d283f8c809274e1b4d4be944692aa",
+          "source_url": "https://github.com/DeySag/Cambridge-Battlecode/blob/main/bots/baseline/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/DeySag/Cambridge-Battlecode/git/blobs/0e45416d323d283f8c809274e1b4d4be944692aa"
+        },
+        {
+          "path": "docs/diagnostics/2026-10-19-ranked-review.md",
+          "blob_sha": "ae47517b6c252d04641a689123a603a95a4e383e",
+          "source_url": "https://github.com/DeySag/Cambridge-Battlecode/blob/main/docs/diagnostics/2026-10-19-ranked-review.md",
+          "immutable_blob_url": "https://api.github.com/repos/DeySag/Cambridge-Battlecode/git/blobs/ae47517b6c252d04641a689123a603a95a4e383e"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "userVatsal/Cambridge-battlecode",
+      "classification": "autumn",
+      "observation": "Farming caches a seen respawn deadline beyond vision; bot tracks movement history to detect loops. README reports starter and own-version tests, not a proven top-team ranking. Persistent camp memory and healing timing are more defensible takeaways than copying its draft.",
+      "branch": "main",
+      "root_tree_sha": "e4564f11607a7b38f04b8b10937d2f7e6ce0dc53",
+      "tree_truncated": false,
+      "files_in_tree": 151,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "f0478009cd20b4d7ab3a2d2e1274b9e940b39d0c",
+          "source_url": "https://github.com/userVatsal/Cambridge-battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/userVatsal/Cambridge-battlecode/git/blobs/f0478009cd20b4d7ab3a2d2e1274b9e940b39d0c"
+        },
+        {
+          "path": "bots/goldrush-cpp-v5/src/bot.cpp",
+          "blob_sha": "867f1f0d85c933a04736ee2647e46bc7c14b7f07",
+          "source_url": "https://github.com/userVatsal/Cambridge-battlecode/blob/main/bots/goldrush-cpp-v5/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/userVatsal/Cambridge-battlecode/git/blobs/867f1f0d85c933a04736ee2647e46bc7c14b7f07"
+        },
+        {
+          "path": "bots/goldrush-cpp/src/farming.cpp",
+          "blob_sha": "31775aea0e583cf0ec1eda89074f243572d837c3",
+          "source_url": "https://github.com/userVatsal/Cambridge-battlecode/blob/main/bots/goldrush-cpp/src/farming.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/userVatsal/Cambridge-battlecode/git/blobs/31775aea0e583cf0ec1eda89074f243572d837c3"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "marcus-nguyen37/cambridge-battlecode-2026",
+      "classification": "placeholder",
+      "observation": "Tree contains two files and no inspected bot implementation. No tactical inference available.",
+      "branch": "main",
+      "root_tree_sha": "273ecd6ecc171bff5b4e4b4bf9b1807dc0d68962",
+      "tree_truncated": false,
+      "files_in_tree": 2,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "4d5276ce1765887a9dc4997881f06a96972a38d6",
+          "source_url": "https://github.com/marcus-nguyen37/cambridge-battlecode-2026/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/marcus-nguyen37/cambridge-battlecode-2026/git/blobs/4d5276ce1765887a9dc4997881f06a96972a38d6"
+        }
+      ],
+      "depth": "inventory/README only"
+    },
+    {
+      "repository": "TMCG1915/BattleCode",
+      "classification": "autumn",
+      "observation": "UCL brain runs role-adjustable behaviors over one snapshot with per-behavior fuel profiling and optional-work floors. Exceptions in one behavior permit later behavior evaluation. Audit return-value semantics and partially executed actions before adopting that fallback pattern.",
+      "branch": "Thomas",
+      "root_tree_sha": "6a4d9c30988d74f2e6fa2768136d4f00102d4277",
+      "tree_truncated": false,
+      "files_in_tree": 288,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "7ac859b880100a2fd0cd982fa3aac8b5728998c9",
+          "source_url": "https://github.com/TMCG1915/BattleCode/blob/Thomas/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/TMCG1915/BattleCode/git/blobs/7ac859b880100a2fd0cd982fa3aac8b5728998c9"
+        },
+        {
+          "path": "bots/ucl-bot-v0/src/main.py",
+          "blob_sha": "2c878762b8cdf2ba446bfbf162c3bd11440eb1bb",
+          "source_url": "https://github.com/TMCG1915/BattleCode/blob/Thomas/bots/ucl-bot-v0/src/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/TMCG1915/BattleCode/git/blobs/2c878762b8cdf2ba446bfbf162c3bd11440eb1bb"
+        },
+        {
+          "path": "bots/ucl-bot/src/brain.py",
+          "blob_sha": "c1ab6275496ca1df1760a40e932d22ba9cc101a5",
+          "source_url": "https://github.com/TMCG1915/BattleCode/blob/Thomas/bots/ucl-bot/src/brain.py",
+          "immutable_blob_url": "https://api.github.com/repos/TMCG1915/BattleCode/git/blobs/c1ab6275496ca1df1760a40e932d22ba9cc101a5"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "Eyad-dev/battlecode_26",
+      "classification": "spring",
+      "observation": "Curse controller checks action cooldown and available resources before conveyors. Navigation/sniping experiments exist, but the sampled controller does not establish a final strategy. Useful legal-action and affordability discipline.",
+      "branch": "main",
+      "root_tree_sha": "aff1fc63b02a18af4b17d4c876f2c2efc3bd027e",
+      "tree_truncated": false,
+      "files_in_tree": 159,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "d97e59327fa074dba406f5749c9366f0c42a6254",
+          "source_url": "https://github.com/Eyad-dev/battlecode_26/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Eyad-dev/battlecode_26/git/blobs/d97e59327fa074dba406f5749c9366f0c42a6254"
+        },
+        {
+          "path": "Curse_bot.py",
+          "blob_sha": "8267ee253753fc1bd7246bb1eae88ad5d17944c6",
+          "source_url": "https://github.com/Eyad-dev/battlecode_26/blob/main/Curse_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Eyad-dev/battlecode_26/git/blobs/8267ee253753fc1bd7246bb1eae88ad5d17944c6"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "PabloVc-77/Battlecode_Cambridge_2026",
+      "classification": "spring",
+      "observation": "README names trucha_v2_8 active and describes BugNav plus incremental A*, distinct healer/attacker/defender roles. Sampled Sprint1 entry is historical. Good indexed version history; current tactical claims remain documentation-level.",
+      "branch": "main",
+      "root_tree_sha": "7eee7f15417d25ccb3d4b14321b1f10092bd1a1d",
+      "tree_truncated": false,
+      "files_in_tree": 542,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "c90159e8b3fee2b35a3b5ffe2ee5ce3ac75d5256",
+          "source_url": "https://github.com/PabloVc-77/Battlecode_Cambridge_2026/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/PabloVc-77/Battlecode_Cambridge_2026/git/blobs/c90159e8b3fee2b35a3b5ffe2ee5ce3ac75d5256"
+        },
+        {
+          "path": "bots/Sprint_1/camalar_v1.0/main.py",
+          "blob_sha": "f7211c4cd21c4afc40aea4f96ff34044bc85fe26",
+          "source_url": "https://github.com/PabloVc-77/Battlecode_Cambridge_2026/blob/main/bots/Sprint_1/camalar_v1.0/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/PabloVc-77/Battlecode_Cambridge_2026/git/blobs/f7211c4cd21c4afc40aea4f96ff34044bc85fe26"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Coook13/cambridge-battlecode-bot",
+      "classification": "spring",
+      "observation": "v100 dispatcher uses explicit economy/miner/raider/repair/healer roles and a round-dependent raider cap. Useful constrained resource allocation; README explains folders are separate hypotheses, not one cumulative winning package.",
+      "branch": "main",
+      "root_tree_sha": "27e6855ff213af80084c899fc9c3519f3c2c525d",
+      "tree_truncated": false,
+      "files_in_tree": 746,
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "2df2a469134b348f86d6c8e19321863d88fbdf7a",
+          "source_url": "https://github.com/Coook13/cambridge-battlecode-bot/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Coook13/cambridge-battlecode-bot/git/blobs/2df2a469134b348f86d6c8e19321863d88fbdf7a"
+        },
+        {
+          "path": "bots/v100_v47_defender/main.py",
+          "blob_sha": "cfe55daf5a7ca669fd93469746e1f33210bfb51d",
+          "source_url": "https://github.com/Coook13/cambridge-battlecode-bot/blob/main/bots/v100_v47_defender/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Coook13/cambridge-battlecode-bot/git/blobs/cfe55daf5a7ca669fd93469746e1f33210bfb51d"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "halfcomplete/Cambridge-Battlecode-26",
+      "classification": "spring",
+      "observation": "v4 allocates paver/builder/explorer jobs and guards spawning with a resource reserve. Useful economic budget before adding combat units. Same team family appears in Temoffy's collection.",
+      "branch": "main",
+      "root_tree_sha": "c9ceaf8f9205c233b69865020d1af29553029706",
+      "tree_truncated": false,
+      "files_in_tree": 61,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "1c386e485066c55be268193f5efc275c94fa6742",
+          "source_url": "https://github.com/halfcomplete/Cambridge-Battlecode-26/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/halfcomplete/Cambridge-Battlecode-26/git/blobs/1c386e485066c55be268193f5efc275c94fa6742"
+        },
+        {
+          "path": "bots/v4/main.py",
+          "blob_sha": "33cbd983730b75587a4924e72541dd40f4e5b7d0",
+          "source_url": "https://github.com/halfcomplete/Cambridge-Battlecode-26/blob/main/bots/v4/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/halfcomplete/Cambridge-Battlecode-26/git/blobs/33cbd983730b75587a4924e72541dd40f4e5b7d0"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "aqibfaruqui/cambridge-battlecode-26",
+      "classification": "spring",
+      "observation": "v4 splits builders between logistics and offensive exploration; README reports UK ladder first and qualification third, and discusses profiling the newer v10. Read scope does not establish the final combat implementation. Keep real runtime enforcement distinct from permissive local runs.",
+      "branch": "main",
+      "root_tree_sha": "d8baa9a0bde08fed2cbf3755b51226abef691568",
+      "tree_truncated": false,
+      "files_in_tree": 377,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "f9f0e8abc30cffc57830d146ede24bb9577335da",
+          "source_url": "https://github.com/aqibfaruqui/cambridge-battlecode-26/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/aqibfaruqui/cambridge-battlecode-26/git/blobs/f9f0e8abc30cffc57830d146ede24bb9577335da"
+        },
+        {
+          "path": "bots/v4/main.py",
+          "blob_sha": "cc3a97826e97461d0c27030fc6c7a61bec506111",
+          "source_url": "https://github.com/aqibfaruqui/cambridge-battlecode-26/blob/main/bots/v4/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/aqibfaruqui/cambridge-battlecode-26/git/blobs/cc3a97826e97461d0c27030fc6c7a61bec506111"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Jewels2001/gym-cambridge-battlecode",
+      "classification": "spring-tooling",
+      "observation": "Gymnasium wrapper experiment; sampled agent repeatedly issues spawn actions. A training environment is not evidence of a trained strong policy. Audit legality and observation/action fidelity before any learning project.",
+      "branch": "main",
+      "root_tree_sha": "5262e092a032834b4af97b8114fb12d5efed1647",
+      "tree_truncated": false,
+      "files_in_tree": 31,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "41c71b4d779ed55d1ad3b62f135c644e487f1514",
+          "source_url": "https://github.com/Jewels2001/gym-cambridge-battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Jewels2001/gym-cambridge-battlecode/git/blobs/41c71b4d779ed55d1ad3b62f135c644e487f1514"
+        },
+        {
+          "path": "bots/agent/main.py",
+          "blob_sha": "543c08aab2beeaeca582451d8785e79af0a0a381",
+          "source_url": "https://github.com/Jewels2001/gym-cambridge-battlecode/blob/main/bots/agent/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Jewels2001/gym-cambridge-battlecode/git/blobs/543c08aab2beeaeca582451d8785e79af0a0a381"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Jewels2001/cambridge-battlecode-26",
+      "classification": "spring",
+      "observation": "Find-core controller explores/mines with a scale-based spawn rule. README reports peak 1626 and Sprint1-only participation. Limited baseline, not a current opponent.",
+      "branch": "main",
+      "root_tree_sha": "a8efdcbb83708f9bbb761c9b6ceffb3acf621cf9",
+      "tree_truncated": false,
+      "files_in_tree": 4,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "20d09bc0922b161d3bc8721ffd3483e3f2e8ae1a",
+          "source_url": "https://github.com/Jewels2001/cambridge-battlecode-26/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Jewels2001/cambridge-battlecode-26/git/blobs/20d09bc0922b161d3bc8721ffd3483e3f2e8ae1a"
+        },
+        {
+          "path": "bots/find_core/main.py",
+          "blob_sha": "2d223cd775c5a15eda71e7f3c7a9d4ed3c2d4194",
+          "source_url": "https://github.com/Jewels2001/cambridge-battlecode-26/blob/main/bots/find_core/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Jewels2001/cambridge-battlecode-26/git/blobs/2d223cd775c5a15eda71e7f3c7a9d4ed3c2d4194"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Scr1pting/cambridge-battlecode-26",
+      "classification": "spring",
+      "observation": "Builder assembles many policies around a shared World; README documents weighted arbitration and cheap interrupts. Relevant to our competing subsystems. Large policy menus require score comparability and progress contracts. Author reports top-eight qualifier.",
+      "branch": "master",
+      "root_tree_sha": "c9d60564f38b08a1889038aca10c119401b09c10",
+      "tree_truncated": false,
+      "files_in_tree": 333,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "f2d84d84f96d164536f355924d92eb7de05958c3",
+          "source_url": "https://github.com/Scr1pting/cambridge-battlecode-26/blob/master/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Scr1pting/cambridge-battlecode-26/git/blobs/f2d84d84f96d164536f355924d92eb7de05958c3"
+        },
+        {
+          "path": "bots/baseline/main.py",
+          "blob_sha": "404422b84e56bad004689e331f09440ce86a39af",
+          "source_url": "https://github.com/Scr1pting/cambridge-battlecode-26/blob/master/bots/baseline/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Scr1pting/cambridge-battlecode-26/git/blobs/404422b84e56bad004689e331f09440ce86a39af"
+        },
+        {
+          "path": "bots/starter/entities/builder.py",
+          "blob_sha": "77cb24d4db34559f8550d9ce256fa890d3e5186c",
+          "source_url": "https://github.com/Scr1pting/cambridge-battlecode-26/blob/master/bots/starter/entities/builder.py",
+          "immutable_blob_url": "https://api.github.com/repos/Scr1pting/cambridge-battlecode-26/git/blobs/77cb24d4db34559f8550d9ce256fa890d3e5186c"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "OggyP/2026-cambridge-battlecode",
+      "classification": "spring",
+      "observation": "Builder retains typed objectives, claim durations and stuck timeouts. Interesting task ownership and expiry reference; spring Easter ruleset explicitly identified.",
+      "branch": "master",
+      "root_tree_sha": "1c95ecf9d1050fc6ee431574e8d9f06e79d6d34a",
+      "tree_truncated": false,
+      "files_in_tree": 249,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "74ad28c5155b779b3c866f7889f44fa664deaee9",
+          "source_url": "https://github.com/OggyP/2026-cambridge-battlecode/blob/master/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/OggyP/2026-cambridge-battlecode/git/blobs/74ad28c5155b779b3c866f7889f44fa664deaee9"
+        },
+        {
+          "path": "bots/bot_v10/builder_bot.py",
+          "blob_sha": "b98b2045a3400e771169fa6e5a632938c8d6f5fc",
+          "source_url": "https://github.com/OggyP/2026-cambridge-battlecode/blob/master/bots/bot_v10/builder_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/OggyP/2026-cambridge-battlecode/git/blobs/b98b2045a3400e771169fa6e5a632938c8d6f5fc"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "ismailfateen/makefire-battlecode",
+      "classification": "spring",
+      "observation": "Entity dispatch uses init_turn/run/end_turn phases. Prior postmortem research remains linked in our existing work; this sweep inspected source entry structure rather than rerunning that team's experiments.",
+      "branch": "main",
+      "root_tree_sha": "646290099dc881470f749e1a4de90867231d9396",
+      "tree_truncated": false,
+      "files_in_tree": 209,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/ahmed57_bot/updated_som3a/main.py",
+          "blob_sha": "acfa0eec3eb226ac552ba384e26d9eb4e3c8635b",
+          "source_url": "https://github.com/ismailfateen/makefire-battlecode/blob/main/bots/ahmed57_bot/updated_som3a/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/ismailfateen/makefire-battlecode/git/blobs/acfa0eec3eb226ac552ba384e26d9eb4e3c8635b"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "kfilipekk/Cambridge_Battlebots",
+      "classification": "spring",
+      "observation": "Controller infers an opposing core by rotation and sends builders/launchers accordingly. Counterexample: symmetry assumptions need verification and fallbacks; do not assume hidden dynamic enemy state.",
+      "branch": "main",
+      "root_tree_sha": "e8e0f31a1ad129f490151e23128a32be2f52889c",
+      "tree_truncated": false,
+      "files_in_tree": 14,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "8ac5b96c74c91b390228d287c14321efcd8c1e67",
+          "source_url": "https://github.com/kfilipekk/Cambridge_Battlebots/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/kfilipekk/Cambridge_Battlebots/git/blobs/8ac5b96c74c91b390228d287c14321efcd8c1e67"
+        },
+        {
+          "path": "bots/my_bot/main.py",
+          "blob_sha": "2349bc0c804d3b2f3a9f7e2d348ab9284dd2a294",
+          "source_url": "https://github.com/kfilipekk/Cambridge_Battlebots/blob/main/bots/my_bot/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/kfilipekk/Cambridge_Battlebots/git/blobs/2349bc0c804d3b2f3a9f7e2d348ab9284dd2a294"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Not-TNB/cambridge-battlecode-season-2",
+      "classification": "autumn",
+      "observation": "Champion hooks over shared world/combat/farm modules; tank-squad farm remembers respawns and uses a gold-to-gems phase filter. Fight code can retaliate after retreat and returns false on blocked pursuit. Useful execution detail; fixed round700 phase and assumed duel estimates are hypotheses.",
+      "branch": "main",
+      "root_tree_sha": "bc8e9f8eaef7ccaa4e50846782adc49765e1971b",
+      "tree_truncated": false,
+      "files_in_tree": 294,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/my-bot/src/bot.rs",
+          "blob_sha": "2f2fa24ab27897b8da623e88d1bf47356061d075",
+          "source_url": "https://github.com/Not-TNB/cambridge-battlecode-season-2/blob/main/bots/my-bot/src/bot.rs",
+          "immutable_blob_url": "https://api.github.com/repos/Not-TNB/cambridge-battlecode-season-2/git/blobs/2f2fa24ab27897b8da623e88d1bf47356061d075"
+        },
+        {
+          "path": "docs/writeup.md",
+          "blob_sha": "f859b08a5cd5cfbb66601d1c965ca23f81648763",
+          "source_url": "https://github.com/Not-TNB/cambridge-battlecode-season-2/blob/main/docs/writeup.md",
+          "immutable_blob_url": "https://api.github.com/repos/Not-TNB/cambridge-battlecode-season-2/git/blobs/f859b08a5cd5cfbb66601d1c965ca23f81648763"
+        },
+        {
+          "path": "bots/tavi-tank-squad/src/common/farm.rs",
+          "blob_sha": "d9f2f4cee5eb690e7d12e794ad9c556ec0efe935",
+          "source_url": "https://github.com/Not-TNB/cambridge-battlecode-season-2/blob/main/bots/tavi-tank-squad/src/common/farm.rs",
+          "immutable_blob_url": "https://api.github.com/repos/Not-TNB/cambridge-battlecode-season-2/git/blobs/d9f2f4cee5eb690e7d12e794ad9c556ec0efe935"
+        },
+        {
+          "path": "bots/tavi-tank-squad/src/common/fight.rs",
+          "blob_sha": "eebebf681a44a48aade71a91682bba2e4ece3deb",
+          "source_url": "https://github.com/Not-TNB/cambridge-battlecode-season-2/blob/main/bots/tavi-tank-squad/src/common/fight.rs",
+          "immutable_blob_url": "https://api.github.com/repos/Not-TNB/cambridge-battlecode-season-2/git/blobs/eebebf681a44a48aade71a91682bba2e4ece3deb"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "IriqGx/Cambridge-BattleCode-Bot",
+      "classification": "spring",
+      "observation": "Separates scanning, defense, pathfinding, exploration, resource management and supply lines, with per-unit persistent task state. Architectural reference only; no measured strength established.",
+      "branch": "main",
+      "root_tree_sha": "788092bd6ff8f8266b855afb82252b881285ab9e",
+      "tree_truncated": false,
+      "files_in_tree": 18,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "b36b0556aa350f8555b59f01eaf2a86dcf174f08",
+          "source_url": "https://github.com/IriqGx/Cambridge-BattleCode-Bot/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/IriqGx/Cambridge-BattleCode-Bot/git/blobs/b36b0556aa350f8555b59f01eaf2a86dcf174f08"
+        },
+        {
+          "path": "main.py",
+          "blob_sha": "c23925dd04316d0028e4671b7ef7801e2474f5a2",
+          "source_url": "https://github.com/IriqGx/Cambridge-BattleCode-Bot/blob/main/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/IriqGx/Cambridge-BattleCode-Bot/git/blobs/c23925dd04316d0028e4671b7ef7801e2474f5a2"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "mikhail10101/BattlecodeCam2026",
+      "classification": "spring",
+      "observation": "Complex main dispatches persistent core/builder brains and turret roles, with GameError logging behavior. Inspect subsystem completion before treating modularity as strategic quality; no current-game transfer claim.",
+      "branch": "main",
+      "root_tree_sha": "5d637869aa6d948e98f525d0887bc1a118564e75",
+      "tree_truncated": false,
+      "files_in_tree": 682,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "69b1089b1fce20cf37e19e8294c16e7b026f6390",
+          "source_url": "https://github.com/mikhail10101/BattlecodeCam2026/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/mikhail10101/BattlecodeCam2026/git/blobs/69b1089b1fce20cf37e19e8294c16e7b026f6390"
+        },
+        {
+          "path": "bots/Complex/main.py",
+          "blob_sha": "5b6ecd99fbb48d861d10cde91c4a641f7260f610",
+          "source_url": "https://github.com/mikhail10101/BattlecodeCam2026/blob/main/bots/Complex/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/mikhail10101/BattlecodeCam2026/git/blobs/5b6ecd99fbb48d861d10cde91c4a641f7260f610"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Extra51900/Avocado-Phone-Charger-Cambridge-Battlecode",
+      "classification": "placeholder",
+      "observation": "README-only repository at inspected tree. No bot code to analyze.",
+      "branch": "main",
+      "root_tree_sha": "d965ba254f6dea3a80663e43881d8efd1a2729ea",
+      "tree_truncated": false,
+      "files_in_tree": 1,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "7d49bb9b2f5b8261f8ce7deb14e47b507fc31f73",
+          "source_url": "https://github.com/Extra51900/Avocado-Phone-Charger-Cambridge-Battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Extra51900/Avocado-Phone-Charger-Cambridge-Battlecode/git/blobs/7d49bb9b2f5b8261f8ce7deb14e47b507fc31f73"
+        }
+      ],
+      "depth": "inventory/README only"
+    },
+    {
+      "repository": "CS50Crab/The-Blades-Cambridge-Battlecode-2026",
+      "classification": "spring",
+      "observation": "Sampled batleth controller stores role/state, symmetry candidates and infrastructure memory; mass-test tools appear in tree. Useful test/replay organization; not a new autumn-game opponent.",
+      "branch": "main",
+      "root_tree_sha": "337448fa5f3e946b28682db36a7fbe0f76a9b63c",
+      "tree_truncated": false,
+      "files_in_tree": 727,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "1fe4503a1edaaf90fb4771bc3fecf8166fffa024",
+          "source_url": "https://github.com/CS50Crab/The-Blades-Cambridge-Battlecode-2026/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/CS50Crab/The-Blades-Cambridge-Battlecode-2026/git/blobs/1fe4503a1edaaf90fb4771bc3fecf8166fffa024"
+        },
+        {
+          "path": "bots/batlethV1/main.py",
+          "blob_sha": "c96faf7205f4787db8f9901b5ea00dbf24695f7e",
+          "source_url": "https://github.com/CS50Crab/The-Blades-Cambridge-Battlecode-2026/blob/main/bots/batlethV1/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/CS50Crab/The-Blades-Cambridge-Battlecode-2026/git/blobs/c96faf7205f4787db8f9901b5ea00dbf24695f7e"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Konticjusz/CambridgeBattlecode",
+      "classification": "duplicate-spring",
+      "observation": "Exact same root tree as HubertM6 at inspection. Reviewed the same assassin-controller blob; count once when inferring independent ideas.",
+      "branch": "main",
+      "root_tree_sha": "176beaf644b2bf6dbc3a20eea4a2850dc7f72dc7",
+      "tree_truncated": false,
+      "files_in_tree": 622,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/almost_gm/assasin_bot.py",
+          "blob_sha": "f952c1665ef286b3a23ea154d02490ab1eb16928",
+          "source_url": "https://github.com/Konticjusz/CambridgeBattlecode/blob/main/bots/almost_gm/assasin_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Konticjusz/CambridgeBattlecode/git/blobs/f952c1665ef286b3a23ea154d02490ab1eb16928"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Temoffy/CamBattlecode26OpenSource",
+      "classification": "spring-collection",
+      "observation": "Collection includes MindOfMetalAndWheels versions. Sampled role factory currently always returns ConveyorBot while other roles are commented out. Distinguish implemented options from enabled behavior; overlaps halfcomplete's team.",
+      "branch": "main",
+      "root_tree_sha": "eeee958293fe6042325f4fd4e608c693b61d62b7",
+      "tree_truncated": false,
+      "files_in_tree": 242,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "4f48ff59302dab5114c0269821685f271fb6fd83",
+          "source_url": "https://github.com/Temoffy/CamBattlecode26OpenSource/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Temoffy/CamBattlecode26OpenSource/git/blobs/4f48ff59302dab5114c0269821685f271fb6fd83"
+        },
+        {
+          "path": "MindOfMetalAndWheels/10_conveyoroad/10_conveyoroad/bot.py",
+          "blob_sha": "0fe727279092a594a53f57d9950f99603c647bc1",
+          "source_url": "https://github.com/Temoffy/CamBattlecode26OpenSource/blob/main/MindOfMetalAndWheels/10_conveyoroad/10_conveyoroad/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Temoffy/CamBattlecode26OpenSource/git/blobs/0fe727279092a594a53f57d9950f99603c647bc1"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "NureSynenkoIvan/cambridge-battlecode",
+      "classification": "spring-placeholder",
+      "observation": "Blank README, root hello-world entry and an old mining starter. No independent advanced strategy found.",
+      "branch": "master",
+      "root_tree_sha": "11478d4d06751f9a6f3fba1b772f1ac52196a52b",
+      "tree_truncated": false,
+      "files_in_tree": 14,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "source_url": "https://github.com/NureSynenkoIvan/cambridge-battlecode/blob/master/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/NureSynenkoIvan/cambridge-battlecode/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+        },
+        {
+          "path": "main.py",
+          "blob_sha": "a23b0fa93102f1614d2152373d5ac754d1fa168d",
+          "source_url": "https://github.com/NureSynenkoIvan/cambridge-battlecode/blob/master/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/NureSynenkoIvan/cambridge-battlecode/git/blobs/a23b0fa93102f1614d2152373d5ac754d1fa168d"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "asil-khalifa/Cambridge-Battlecode",
+      "classification": "duplicate-spring",
+      "observation": "Exact same root tree as HerbertTheBird. Same Pantheon family and spring result; not independent confirmation of a second winning system.",
+      "branch": "main",
+      "root_tree_sha": "daf417410854b4563898412c9b2699ac4dedc7ee",
+      "tree_truncated": false,
+      "files_in_tree": 1321,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "8f7305e65e3b97c595f16a018c002af5e2fdcf72",
+          "source_url": "https://github.com/asil-khalifa/Cambridge-Battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/asil-khalifa/Cambridge-Battlecode/git/blobs/8f7305e65e3b97c595f16a018c002af5e2fdcf72"
+        },
+        {
+          "path": "_PONG/pong_bot/main.py",
+          "blob_sha": "264d47ed82d939470be3c1e1de77b50c1d1fd1aa",
+          "source_url": "https://github.com/asil-khalifa/Cambridge-Battlecode/blob/main/_PONG/pong_bot/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/asil-khalifa/Cambridge-Battlecode/git/blobs/264d47ed82d939470be3c1e1de77b50c1d1fd1aa"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Grzybiarzzzz/battlecode-strategy-lab",
+      "classification": "spring",
+      "observation": "README documents economy, disruption and map-plan experiments with modest results; baseline imports initial strategy. Earlier sprint-job analysis remains useful. A named strategy is not measured competitive success.",
+      "branch": "main",
+      "root_tree_sha": "cd0bb0fc352fa4f826718d357056d0f830598751",
+      "tree_truncated": false,
+      "files_in_tree": 84,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "897e107612eb57266b3d5d4d5e2ce295da7238f7",
+          "source_url": "https://github.com/Grzybiarzzzz/battlecode-strategy-lab/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Grzybiarzzzz/battlecode-strategy-lab/git/blobs/897e107612eb57266b3d5d4d5e2ce295da7238f7"
+        },
+        {
+          "path": "strategies/baseline/main.py",
+          "blob_sha": "b12b217a11da32594205d1c45410245d3dd4187a",
+          "source_url": "https://github.com/Grzybiarzzzz/battlecode-strategy-lab/blob/main/strategies/baseline/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Grzybiarzzzz/battlecode-strategy-lab/git/blobs/b12b217a11da32594205d1c45410245d3dd4187a"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "itz-lakshya/battlecode",
+      "classification": "autumn",
+      "observation": "v4 CampPlanner caches static designs/remaining HP and respawn deadlines; rescoring interval10 and switch margin1.3 provide commitment. Rebuilds blockers after a dash changes vision. Good source for oscillation and stale-observation fixtures; assume-helper factor1.5 is unverified.",
+      "branch": "main",
+      "root_tree_sha": "4523ba9d8d5827d5733c3863b99765bc777ef522",
+      "tree_truncated": false,
+      "files_in_tree": 152,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "b794d580641dd62019ce3992e655bcdcbbaca9ee",
+          "source_url": "https://github.com/itz-lakshya/battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/itz-lakshya/battlecode/git/blobs/b794d580641dd62019ce3992e655bcdcbbaca9ee"
+        },
+        {
+          "path": "bots/v4/src/bot.py",
+          "blob_sha": "2462bdd7936abd678fc0add37d15d8f17fb45458",
+          "source_url": "https://github.com/itz-lakshya/battlecode/blob/main/bots/v4/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/itz-lakshya/battlecode/git/blobs/2462bdd7936abd678fc0add37d15d8f17fb45458"
+        },
+        {
+          "path": "bots/v4/src/camps.py",
+          "blob_sha": "9ce77a94539e5549b9e2113a74b660f6b7c8ea62",
+          "source_url": "https://github.com/itz-lakshya/battlecode/blob/main/bots/v4/src/camps.py",
+          "immutable_blob_url": "https://api.github.com/repos/itz-lakshya/battlecode/git/blobs/9ce77a94539e5549b9e2113a74b660f6b7c8ea62"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "ankushkumar14092-dot/gamebot",
+      "classification": "autumn",
+      "observation": "Submission-v4 narrowly skips api_not_in_vision/api_not_found targets and annotates failing operations. Useful observability and action-level stale-target handling; elaborate automation README is not proof of strategic strength.",
+      "branch": "main",
+      "root_tree_sha": "c2b1c1df039e92e340937949055e19fdab46002a",
+      "tree_truncated": false,
+      "files_in_tree": 220,
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "5578b2235046e69406f9c3828504b7e083f56192",
+          "source_url": "https://github.com/ankushkumar14092-dot/gamebot/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/ankushkumar14092-dot/gamebot/git/blobs/5578b2235046e69406f9c3828504b7e083f56192"
+        },
+        {
+          "path": "bots/submission-v4/src/bot.cpp",
+          "blob_sha": "e98abf1a06e85f315f80883dc924492ace99013c",
+          "source_url": "https://github.com/ankushkumar14092-dot/gamebot/blob/main/bots/submission-v4/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/ankushkumar14092-dot/gamebot/git/blobs/e98abf1a06e85f315f80883dc924492ace99013c"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Mada21v/CAMBC-2026-Midnight-Wardens",
+      "classification": "autumn",
+      "observation": "ProjectAlpha2 has shop/tribute/combat/farm modules; core recalls for low HP or150 gold before its15-gem banking branch. Farming favors low-HP monsters and an early grouping rule. Test arbitration explicitly: adding a bank threshold cannot affect turns already consumed by recall.",
+      "branch": "main",
+      "root_tree_sha": "78602b83351b05903f8e612178b6ae396995b4d7",
+      "tree_truncated": false,
+      "files_in_tree": 137,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "8d1c8b69c3fce7bea45c73efd06983e3c419a92f",
+          "source_url": "https://github.com/Mada21v/CAMBC-2026-Midnight-Wardens/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Mada21v/CAMBC-2026-Midnight-Wardens/git/blobs/8d1c8b69c3fce7bea45c73efd06983e3c419a92f"
+        },
+        {
+          "path": "bots/ProjectAlpha2/src/core/bot.cpp",
+          "blob_sha": "294823e91a1a7a155acbdba06b28568d8c36ddb1",
+          "source_url": "https://github.com/Mada21v/CAMBC-2026-Midnight-Wardens/blob/main/bots/ProjectAlpha2/src/core/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/Mada21v/CAMBC-2026-Midnight-Wardens/git/blobs/294823e91a1a7a155acbdba06b28568d8c36ddb1"
+        },
+        {
+          "path": "bots/ProjectAlpha2/src/behaviors/farming.cpp",
+          "blob_sha": "51a3b7dbe9ed4179e55d364a987e7caa8d30905a",
+          "source_url": "https://github.com/Mada21v/CAMBC-2026-Midnight-Wardens/blob/main/bots/ProjectAlpha2/src/behaviors/farming.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/Mada21v/CAMBC-2026-Midnight-Wardens/git/blobs/51a3b7dbe9ed4179e55d364a987e7caa8d30905a"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "frkns/cambc26",
+      "classification": "spring",
+      "observation": "README distinguishes readable src/FINALS from packaged bots/FINALS. Sampled bot3v4 dispatcher is historical, with per-turn seeded RNG and error logs. Packaging/readable-source correspondence should be hash-checked before evaluating finals claims.",
+      "branch": "main",
+      "root_tree_sha": "745a7c36c89c040993783c9310d265053f904cd0",
+      "tree_truncated": false,
+      "files_in_tree": 4438,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "fc4101264ab89a895a1e4fb1bd7fc2fda0fa16f7",
+          "source_url": "https://github.com/frkns/cambc26/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/frkns/cambc26/git/blobs/fc4101264ab89a895a1e4fb1bd7fc2fda0fa16f7"
+        },
+        {
+          "path": "bots/bot3v4/main.py",
+          "blob_sha": "9e86324873f1f764ad0215d26f5ee34fee3542c5",
+          "source_url": "https://github.com/frkns/cambc26/blob/main/bots/bot3v4/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/frkns/cambc26/git/blobs/9e86324873f1f764ad0215d26f5ee34fee3542c5"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "MohnishDhangar/Cambc",
+      "classification": "autumn",
+      "observation": "Bot1 v4 elects one recipient, releases helpers and re-elects invalid recipients; separates ordinary farming from ranged siege on content-classified large objectives. Geometry note distinguishes Chebyshev monster range from Euclidean spell range. Reported102 local games are their evidence, not a top-team win rate.",
+      "branch": "main",
+      "root_tree_sha": "d62088071e0e48b3e4540e087241d235b98adb3d",
+      "tree_truncated": false,
+      "files_in_tree": 1991,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "ca8391a55bd48d71a8ab358bb84ee2b06b113485",
+          "source_url": "https://github.com/MohnishDhangar/Cambc/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/MohnishDhangar/Cambc/git/blobs/ca8391a55bd48d71a8ab358bb84ee2b06b113485"
+        },
+        {
+          "path": "bots/BaselineV1/src/bot.cpp",
+          "blob_sha": "5c46f089f70bb947a8590b8ccaae9f1cd092bdf6",
+          "source_url": "https://github.com/MohnishDhangar/Cambc/blob/main/bots/BaselineV1/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/MohnishDhangar/Cambc/git/blobs/5c46f089f70bb947a8590b8ccaae9f1cd092bdf6"
+        },
+        {
+          "path": "bots/Bot1/src/bot.cpp",
+          "blob_sha": "e98225ad12121ef8fbc090dad01447b219fb3ca9",
+          "source_url": "https://github.com/MohnishDhangar/Cambc/blob/main/bots/Bot1/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/MohnishDhangar/Cambc/git/blobs/e98225ad12121ef8fbc090dad01447b219fb3ca9"
+        },
+        {
+          "path": "bots/Bot1/STRATEGY.md",
+          "blob_sha": "adb1c28d619a032dca23a82986fbac51ea5e58dc",
+          "source_url": "https://github.com/MohnishDhangar/Cambc/blob/main/bots/Bot1/STRATEGY.md",
+          "immutable_blob_url": "https://api.github.com/repos/MohnishDhangar/Cambc/git/blobs/adb1c28d619a032dca23a82986fbac51ea5e58dc"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "EricZhou-Krey/cambc-bongcloud",
+      "classification": "spring",
+      "observation": "v4 chip classes dispatch by entity and keep one persistent controller. Extensive role files are present; sampled entry alone supports architecture, not tactical performance.",
+      "branch": "master",
+      "root_tree_sha": "a6f1f6757d6ad58575db6baa7b9e07d9cc77d65d",
+      "tree_truncated": false,
+      "files_in_tree": 186,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/v4/main.py",
+          "blob_sha": "8b25e039a1618ca4fb20891317e55ea9537934d0",
+          "source_url": "https://github.com/EricZhou-Krey/cambc-bongcloud/blob/master/bots/v4/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/EricZhou-Krey/cambc-bongcloud/git/blobs/8b25e039a1618ca4fb20891317e55ea9537934d0"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "PixelRifts/cheesynachos-cambc-26",
+      "classification": "spring",
+      "observation": "README identifies quals as latest and reports top12 international. Inspected base lifecycle and quals micro. Useful micro/lifecycle separation; older-game ranking cannot be assigned to an autumn controller.",
+      "branch": "master",
+      "root_tree_sha": "a4132bab1bdbceeff25a58becd6b4b669f152aaf",
+      "tree_truncated": false,
+      "files_in_tree": 401,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "59a1642a3ee5ec26fb9421fa05ab04c4f57abf01",
+          "source_url": "https://github.com/PixelRifts/cheesynachos-cambc-26/blob/master/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/PixelRifts/cheesynachos-cambc-26/git/blobs/59a1642a3ee5ec26fb9421fa05ab04c4f57abf01"
+        },
+        {
+          "path": "bots/quals/bot.py",
+          "blob_sha": "c7b431247a6836095953120a67876e6dbb0b7150",
+          "source_url": "https://github.com/PixelRifts/cheesynachos-cambc-26/blob/master/bots/quals/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/PixelRifts/cheesynachos-cambc-26/git/blobs/c7b431247a6836095953120a67876e6dbb0b7150"
+        },
+        {
+          "path": "bots/quals/micro.py",
+          "blob_sha": "072eaa920fd9a4f83f1b126244d3e210820c26bb",
+          "source_url": "https://github.com/PixelRifts/cheesynachos-cambc-26/blob/master/bots/quals/micro.py",
+          "immutable_blob_url": "https://api.github.com/repos/PixelRifts/cheesynachos-cambc-26/git/blobs/072eaa920fd9a4f83f1b126244d3e210820c26bb"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "FHL-08/Tarot-Club-Cambc2026",
+      "classification": "autumn",
+      "observation": "Foundry compiles routes and altar stops, then executes a bounded FSM with capture ownership, commitment, route-failure/failed-sortie cooldowns and idle diagnostics. Squad-v21 instead permits nearby capture sharing. This disagreement creates a recipient-allocation experiment, not a universal never-share rule.",
+      "branch": "main",
+      "root_tree_sha": "672adda33897bd88c18784a96dcff4bbc188afc5",
+      "tree_truncated": false,
+      "files_in_tree": 839,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "675998157fbb9bd6edfbc5115f1e19de50c2e305",
+          "source_url": "https://github.com/FHL-08/Tarot-Club-Cambc2026/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/FHL-08/Tarot-Club-Cambc2026/git/blobs/675998157fbb9bd6edfbc5115f1e19de50c2e305"
+        },
+        {
+          "path": "bots/foundry-v4/src/bot.cpp",
+          "blob_sha": "4e472c37e524a109a669e7ac483ebcf3a11af717",
+          "source_url": "https://github.com/FHL-08/Tarot-Club-Cambc2026/blob/main/bots/foundry-v4/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/FHL-08/Tarot-Club-Cambc2026/git/blobs/4e472c37e524a109a669e7ac483ebcf3a11af717"
+        },
+        {
+          "path": "bots/foundry/src/planner.cpp",
+          "blob_sha": "ec52a6183ec5f6c49982d0ffacee07d2b7574a43",
+          "source_url": "https://github.com/FHL-08/Tarot-Club-Cambc2026/blob/main/bots/foundry/src/planner.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/FHL-08/Tarot-Club-Cambc2026/git/blobs/ec52a6183ec5f6c49982d0ffacee07d2b7574a43"
+        },
+        {
+          "path": "bots/foundry/src/exec.cpp",
+          "blob_sha": "7734fce62e9a6b22754d9432fdf61ede4ac655cc",
+          "source_url": "https://github.com/FHL-08/Tarot-Club-Cambc2026/blob/main/bots/foundry/src/exec.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/FHL-08/Tarot-Club-Cambc2026/git/blobs/7734fce62e9a6b22754d9432fdf61ede4ac655cc"
+        },
+        {
+          "path": "bots/squad-v21/src/bot.cpp",
+          "blob_sha": "3e0aa7cf24c223e9938af87b671cfd269622170e",
+          "source_url": "https://github.com/FHL-08/Tarot-Club-Cambc2026/blob/main/bots/squad-v21/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/FHL-08/Tarot-Club-Cambc2026/git/blobs/3e0aa7cf24c223e9938af87b671cfd269622170e"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "riic10/Battlecode-Bot",
+      "classification": "autumn",
+      "observation": "Main remains largely starter-shaped: blocked masks, nearest available farming and persistent chosen stat. Baseline/main snapshots are preserved. Useful simple regression control; no verified rank.",
+      "branch": "main",
+      "root_tree_sha": "14123a021495cd903d79b00ed2ac05b9c3aadd39",
+      "tree_truncated": false,
+      "files_in_tree": 32,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "84ba415be95c23fbba79f451c31bbf455a6a8bb9",
+          "source_url": "https://github.com/riic10/Battlecode-Bot/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/riic10/Battlecode-Bot/git/blobs/84ba415be95c23fbba79f451c31bbf455a6a8bb9"
+        },
+        {
+          "path": "bots/baseline/src/bot.py",
+          "blob_sha": "cfc5e7ed0991c753e9ac100e36dce722baa24620",
+          "source_url": "https://github.com/riic10/Battlecode-Bot/blob/main/bots/baseline/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/riic10/Battlecode-Bot/git/blobs/cfc5e7ed0991c753e9ac100e36dce722baa24620"
+        },
+        {
+          "path": "bots/main/src/bot.py",
+          "blob_sha": "cfc5e7ed0991c753e9ac100e36dce722baa24620",
+          "source_url": "https://github.com/riic10/Battlecode-Bot/blob/main/bots/main/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/riic10/Battlecode-Bot/git/blobs/cfc5e7ed0991c753e9ac100e36dce722baa24620"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "mustbethewayforward/bird-business-battlecode-camb26",
+      "classification": "autumn",
+      "observation": "Sprint2 uses shared target bytes, kit-specific builds, attack resets and retaliation. Failed exp-assembly snapshot explicitly documents bounded assembly and cooldown ideas. Use its hunter/ganker as candidate opponent styles only after validation, not inferred top100 strength.",
+      "branch": "claude/battlecode-sprint-1-bot-6uc0vg",
+      "root_tree_sha": "f11eb2622420ebf066ba66e89d3a7100035481e6",
+      "tree_truncated": false,
+      "files_in_tree": 54,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "56a52f24098a8d558a880202e2578137ffac5403",
+          "source_url": "https://github.com/mustbethewayforward/bird-business-battlecode-camb26/blob/claude/battlecode-sprint-1-bot-6uc0vg/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/mustbethewayforward/bird-business-battlecode-camb26/git/blobs/56a52f24098a8d558a880202e2578137ffac5403"
+        },
+        {
+          "path": "bots/exp-assembly/src/bot.py",
+          "blob_sha": "2415f7915792345ce7969f26d17f58ff968297bb",
+          "source_url": "https://github.com/mustbethewayforward/bird-business-battlecode-camb26/blob/claude/battlecode-sprint-1-bot-6uc0vg/bots/exp-assembly/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/mustbethewayforward/bird-business-battlecode-camb26/git/blobs/2415f7915792345ce7969f26d17f58ff968297bb"
+        },
+        {
+          "path": "bots/sprint2/src/bot.py",
+          "blob_sha": "ca4555055386e0257a40edd160471c0c80671f9e",
+          "source_url": "https://github.com/mustbethewayforward/bird-business-battlecode-camb26/blob/claude/battlecode-sprint-1-bot-6uc0vg/bots/sprint2/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/mustbethewayforward/bird-business-battlecode-camb26/git/blobs/ca4555055386e0257a40edd160471c0c80671f9e"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "CarsonBurke/cb-bc",
+      "classification": "spring-learning",
+      "observation": "PPO/PyTorch model uses multiple action heads and replay/training infrastructure. It is an older mining-game learning system. Possible offline action-ranking research, with substantial simulator/training/runtime cost; no demonstrated Polaris improvement.",
+      "branch": "main",
+      "root_tree_sha": "baf93946a415afb7218f1229d7db68d59fec8e59",
+      "tree_truncated": false,
+      "files_in_tree": 334,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "03c6489c71566f029fb020db0f890294736f1a90",
+          "source_url": "https://github.com/CarsonBurke/cb-bc/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/CarsonBurke/cb-bc/git/blobs/03c6489c71566f029fb020db0f890294736f1a90"
+        },
+        {
+          "path": "bots/tensor_dummy/main.py",
+          "blob_sha": "83d0894401e390b220a25a565f6fb587b3c0d2a4",
+          "source_url": "https://github.com/CarsonBurke/cb-bc/blob/main/bots/tensor_dummy/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/CarsonBurke/cb-bc/git/blobs/83d0894401e390b220a25a565f6fb587b3c0d2a4"
+        },
+        {
+          "path": "bots/tensor/torch/model.py",
+          "blob_sha": "e88de948e17da7310f6d77f0954ca80d9076a5a6",
+          "source_url": "https://github.com/CarsonBurke/cb-bc/blob/main/bots/tensor/torch/model.py",
+          "immutable_blob_url": "https://api.github.com/repos/CarsonBurke/cb-bc/git/blobs/e88de948e17da7310f6d77f0954ca80d9076a5a6"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "bence-hervay/battlecode",
+      "classification": "spring",
+      "observation": "Rush25 preserves two economy miners to fund an otherwise aggressive wave. Useful counterexample to aggression without a funding plan; rush timing and static infrastructure cannot be transplanted directly.",
+      "branch": "main",
+      "root_tree_sha": "9633764d16405dc83a93f59efc40939971280215",
+      "tree_truncated": false,
+      "files_in_tree": 38,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "fdca26c34389d457cfb2cd6ce5f4aae1870d84e7",
+          "source_url": "https://github.com/bence-hervay/battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/bence-hervay/battlecode/git/blobs/fdca26c34389d457cfb2cd6ce5f4aae1870d84e7"
+        },
+        {
+          "path": "bots/rush25/main.py",
+          "blob_sha": "1306c23136fe18c33a1a8b5b2b7c9e3db2591ef9",
+          "source_url": "https://github.com/bence-hervay/battlecode/blob/main/bots/rush25/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/bence-hervay/battlecode/git/blobs/1306c23136fe18c33a1a8b5b2b7c9e3db2591ef9"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "georgeh1066/battle-code",
+      "classification": "spring-starter",
+      "observation": "README and sampled example are a template with placeholder guidance. Use official current API for mechanics; no advanced strategy established.",
+      "branch": "main",
+      "root_tree_sha": "c912269c6ef412f5b01c17b48034bd1984c4cd7c",
+      "tree_truncated": false,
+      "files_in_tree": 35,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "readme.md",
+          "blob_sha": "78fab1a32be525fdfc36440abe82fac525659b1f",
+          "source_url": "https://github.com/georgeh1066/battle-code/blob/main/readme.md",
+          "immutable_blob_url": "https://api.github.com/repos/georgeh1066/battle-code/git/blobs/78fab1a32be525fdfc36440abe82fac525659b1f"
+        },
+        {
+          "path": "bots/example_bot/main.py",
+          "blob_sha": "b8e4e8735efbadc630b58febebf63a3e3a409df2",
+          "source_url": "https://github.com/georgeh1066/battle-code/blob/main/bots/example_bot/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/georgeh1066/battle-code/git/blobs/b8e4e8735efbadc630b58febebf63a3e3a409df2"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Beervanu/MinorAI",
+      "classification": "spring",
+      "observation": "README describes task prioritization; closedAI main selects specialized core/defender/builder/explorer/turret classes. A useful architecture comparison, with task-scoring implementation not deeply audited.",
+      "branch": "core-attack",
+      "root_tree_sha": "57c42e57578883e10449dd3e2731ff09bd253488",
+      "tree_truncated": false,
+      "files_in_tree": 89,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "08387ee8fc06a5044646e08d8f40b5bbec106eea",
+          "source_url": "https://github.com/Beervanu/MinorAI/blob/core-attack/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Beervanu/MinorAI/git/blobs/08387ee8fc06a5044646e08d8f40b5bbec106eea"
+        },
+        {
+          "path": "bots/closedAI/main.py",
+          "blob_sha": "1127e99b4a5da9f881038932e627bc866163105b",
+          "source_url": "https://github.com/Beervanu/MinorAI/blob/core-attack/bots/closedAI/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Beervanu/MinorAI/git/blobs/1127e99b4a5da9f881038932e627bc866163105b"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "intgrah/battlecode",
+      "classification": "spring",
+      "observation": "Beacon v4 retains chain, repair, patrol and BugNav progress state. Relevant to bounded repair/work ownership; many historical versions, no full repository-wide line audit.",
+      "branch": "master",
+      "root_tree_sha": "c7504565e42d15aecfc63c95522ad790a0e2a2aa",
+      "tree_truncated": false,
+      "files_in_tree": 5111,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "7124cf772607318906844f58fa8e8ffddf46d562",
+          "source_url": "https://github.com/intgrah/battlecode/blob/master/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/intgrah/battlecode/git/blobs/7124cf772607318906844f58fa8e8ffddf46d562"
+        },
+        {
+          "path": "bots/beacon/v4/main.py",
+          "blob_sha": "123150805d935bfa0d3b1aed157fc21650d73c67",
+          "source_url": "https://github.com/intgrah/battlecode/blob/master/bots/beacon/v4/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/intgrah/battlecode/git/blobs/123150805d935bfa0d3b1aed157fc21650d73c67"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Benj998/BattleCode",
+      "classification": "spring",
+      "observation": "Rush controller documents marker fields for scout/kamikaze/resource roles and enemy-core possibilities. Useful compact coordination example, but old suicide mechanics and marker packing do not transfer directly.",
+      "branch": "main",
+      "root_tree_sha": "f793205241cf0dc18f64bfb91ad991bea9c1cc45",
+      "tree_truncated": false,
+      "files_in_tree": 12,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "890e8e31a49b832a309c7fb3c903631437ae828d",
+          "source_url": "https://github.com/Benj998/BattleCode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Benj998/BattleCode/git/blobs/890e8e31a49b832a309c7fb3c903631437ae828d"
+        },
+        {
+          "path": "bots/rush/main.py",
+          "blob_sha": "db9dfab9b406dae6b54f9853a9777d39c31aefd6",
+          "source_url": "https://github.com/Benj998/BattleCode/blob/main/bots/rush/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Benj998/BattleCode/git/blobs/db9dfab9b406dae6b54f9853a9777d39c31aefd6"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "dragonier23/battlecode",
+      "classification": "spring",
+      "observation": "Builder combines persistent state, memory, D* Lite and BFS with distinct movement/transport routing. Sample contains a fixed target coordinate, underscoring the need to distinguish development settings from submitted behavior.",
+      "branch": "main",
+      "root_tree_sha": "fa53b6a829f517a73fce93dcb53fc3dd4f35c5b5",
+      "tree_truncated": false,
+      "files_in_tree": 56,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "466392488ca2353fd646da6e67c340aa9c982548",
+          "source_url": "https://github.com/dragonier23/battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/dragonier23/battlecode/git/blobs/466392488ca2353fd646da6e67c340aa9c982548"
+        },
+        {
+          "path": "bots/common/builder_bot.py",
+          "blob_sha": "02213e99358975e284acbb6acdcea8e0a5bf431e",
+          "source_url": "https://github.com/dragonier23/battlecode/blob/main/bots/common/builder_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/dragonier23/battlecode/git/blobs/02213e99358975e284acbb6acdcea8e0a5bf431e"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Coderz75/battlecod26CAM",
+      "classification": "spring",
+      "observation": "README identifies early solo Spring bot and claims peak second, rating2375 and Sprint2 second. Sampled historical dispatch is not the final merged team bot. Bucketed pathfinding is documentation-level in this sweep.",
+      "branch": "main",
+      "root_tree_sha": "7dec74c9e1da0a71051814e621bbd3949e04c39a",
+      "tree_truncated": false,
+      "files_in_tree": 160,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "4e13f6352f5a9ec3267365edaf91634717ce8652",
+          "source_url": "https://github.com/Coderz75/battlecod26CAM/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Coderz75/battlecod26CAM/git/blobs/4e13f6352f5a9ec3267365edaf91634717ce8652"
+        },
+        {
+          "path": "bots/bot2v4/main.py",
+          "blob_sha": "ee2a7485c050542e9a317f7d4968d767cf8d1f62",
+          "source_url": "https://github.com/Coderz75/battlecod26CAM/blob/main/bots/bot2v4/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Coderz75/battlecod26CAM/git/blobs/ee2a7485c050542e9a317f7d4968d767cf8d1f62"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Swapnanil-06/Battlecode",
+      "classification": "autumn",
+      "observation": "v16 documentation separates five-layout farm changes and Packs from retained behavior elsewhere; records fuel aborts and zero-death economic losses. objective_policy.py is explicitly NOT enabled in main. Treat its expected-score and job matcher as design proposals, never a proven runtime feature.",
+      "branch": "main",
+      "root_tree_sha": "570d19f74b78922194c3cf88cdead02dcf764fa7",
+      "tree_truncated": false,
+      "files_in_tree": 102,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "9f75cbc6b6bace04a4a041418932f840d2343fc5",
+          "source_url": "https://github.com/Swapnanil-06/Battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Swapnanil-06/Battlecode/git/blobs/9f75cbc6b6bace04a4a041418932f840d2343fc5"
+        },
+        {
+          "path": "bots/sparring-meta/src/bot.py",
+          "blob_sha": "d2f57b00e6f4481d309c9285fb2563fd62cadca4",
+          "source_url": "https://github.com/Swapnanil-06/Battlecode/blob/main/bots/sparring-meta/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Swapnanil-06/Battlecode/git/blobs/d2f57b00e6f4481d309c9285fb2563fd62cadca4"
+        },
+        {
+          "path": "bots/main/src/objective_policy.py",
+          "blob_sha": "50ad745cd50e9de7bb50757003516031bfcf2f12",
+          "source_url": "https://github.com/Swapnanil-06/Battlecode/blob/main/bots/main/src/objective_policy.py",
+          "immutable_blob_url": "https://api.github.com/repos/Swapnanil-06/Battlecode/git/blobs/50ad745cd50e9de7bb50757003516031bfcf2f12"
+        },
+        {
+          "path": "docs/v16-strategy.md",
+          "blob_sha": "0811b39aed2b4a49eb537bdb95f82a35e5f704d2",
+          "source_url": "https://github.com/Swapnanil-06/Battlecode/blob/main/docs/v16-strategy.md",
+          "immutable_blob_url": "https://api.github.com/repos/Swapnanil-06/Battlecode/git/blobs/0811b39aed2b4a49eb537bdb95f82a35e5f704d2"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "rayhankhilji/battlecode-hack",
+      "classification": "autumn",
+      "observation": "Apex draft plans body/squad circuits using camp-clear, healing and delivery costs; runtime reads the encoded plan and resolves body slots. Useful precomputation with runtime repair; their model constants and floor gates need validation.",
+      "branch": "claude/battlecode-2026-strategy-s63vv9",
+      "root_tree_sha": "3c349c10be663bafae75d2e92b4cd7302c5c1d63",
+      "tree_truncated": false,
+      "files_in_tree": 101,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "b8c5f8ccc175b1e98264184fccea618c76e21291",
+          "source_url": "https://github.com/rayhankhilji/battlecode-hack/blob/claude/battlecode-2026-strategy-s63vv9/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/rayhankhilji/battlecode-hack/git/blobs/b8c5f8ccc175b1e98264184fccea618c76e21291"
+        },
+        {
+          "path": "bots/apex/src/bot.cpp",
+          "blob_sha": "c6a269f64264d7cda39aac4eb885b0ba58124ceb",
+          "source_url": "https://github.com/rayhankhilji/battlecode-hack/blob/claude/battlecode-2026-strategy-s63vv9/bots/apex/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/rayhankhilji/battlecode-hack/git/blobs/c6a269f64264d7cda39aac4eb885b0ba58124ceb"
+        },
+        {
+          "path": "bots/apex/src/draft.cpp",
+          "blob_sha": "86d6590f26d2dbd063f9a04ce69639fb49440578",
+          "source_url": "https://github.com/rayhankhilji/battlecode-hack/blob/claude/battlecode-2026-strategy-s63vv9/bots/apex/src/draft.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/rayhankhilji/battlecode-hack/git/blobs/86d6590f26d2dbd063f9a04ce69639fb49440578"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "MathWizard7777/BC26-Cambridge",
+      "classification": "spring",
+      "observation": "README describes cheap robust economy/navigation and later conversion to attack; sampled deprecated v4 builder delegates to Manager. Documentation and source-depth limits are explicit; no current combat claim.",
+      "branch": "main",
+      "root_tree_sha": "371febcb710a23130f72bf400c39d536d6e3b5eb",
+      "tree_truncated": false,
+      "files_in_tree": 208,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "5facff78d61b3995b0c6d7d678ef3410644cd1fa",
+          "source_url": "https://github.com/MathWizard7777/BC26-Cambridge/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/MathWizard7777/BC26-Cambridge/git/blobs/5facff78d61b3995b0c6d7d678ef3410644cd1fa"
+        },
+        {
+          "path": "bots/deprecated/v4/builder_bot.py",
+          "blob_sha": "7c521754835ad6092c32b13f5e29c40563c17a4a",
+          "source_url": "https://github.com/MathWizard7777/BC26-Cambridge/blob/main/bots/deprecated/v4/builder_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/MathWizard7777/BC26-Cambridge/git/blobs/7c521754835ad6092c32b13f5e29c40563c17a4a"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "keanucz/hackagent",
+      "classification": "excluded",
+      "observation": "Hackathon discovery/messaging product mentioning Cambridge Battlecode, not a competition bot. Excluded from strategy evidence.",
+      "branch": "main",
+      "root_tree_sha": "4c127a25425d575cd4a59265b613a28237f2598c",
+      "tree_truncated": false,
+      "files_in_tree": 6,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "d927520824ca8c2b4924f1032a4d5fd6d79da14f",
+          "source_url": "https://github.com/keanucz/hackagent/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/keanucz/hackagent/git/blobs/d927520824ca8c2b4924f1032a4d5fd6d79da14f"
+        }
+      ],
+      "depth": "inventory/README only"
+    },
+    {
+      "repository": "micache/battlecode",
+      "classification": "autumn-tooling",
+      "observation": "arena/evaluate.py pairs candidate/incumbent map-side cases, records missing/fault/unknown reliability and separates holdouts. Strong benchmark-accounting reference; elaborate continuous-development setup is not gameplay evidence.",
+      "branch": "main",
+      "root_tree_sha": "08c622cef3feb83d0707e5d60f9ac1b2cd74d7ef",
+      "tree_truncated": false,
+      "files_in_tree": 226,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "ede992c22bda7d0508459ae2480e3b5f8a6008c8",
+          "source_url": "https://github.com/micache/battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/micache/battlecode/git/blobs/ede992c22bda7d0508459ae2480e3b5f8a6008c8"
+        },
+        {
+          "path": "fixtures/crash/src/main.cpp",
+          "blob_sha": "e11808b2711a9a273be4596d9d45ea67bb93c544",
+          "source_url": "https://github.com/micache/battlecode/blob/main/fixtures/crash/src/main.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/micache/battlecode/git/blobs/e11808b2711a9a273be4596d9d45ea67bb93c544"
+        },
+        {
+          "path": "arena/evaluate.py",
+          "blob_sha": "70bf8981678388165a7be12ac074f9a8e2047cf1",
+          "source_url": "https://github.com/micache/battlecode/blob/main/arena/evaluate.py",
+          "immutable_blob_url": "https://api.github.com/repos/micache/battlecode/git/blobs/70bf8981678388165a7be12ac074f9a8e2047cf1"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "Jyosnorkel/2026_cam_battlecode",
+      "classification": "spring",
+      "observation": "README documents path-stack and logistics variants; sampled Dump/Dumb controller is an old aggressive swarm experiment with marker communication. Do not mistake archive code for a current autumn policy.",
+      "branch": "main",
+      "root_tree_sha": "b8029ad4202c16680960e84831f873867a58b7a2",
+      "tree_truncated": false,
+      "files_in_tree": 145,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "3313dd4ab13875d2cdc6eb5b21a67d84abac4ae1",
+          "source_url": "https://github.com/Jyosnorkel/2026_cam_battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Jyosnorkel/2026_cam_battlecode/git/blobs/3313dd4ab13875d2cdc6eb5b21a67d84abac4ae1"
+        },
+        {
+          "path": "bots/Dump/Dumb/main.py",
+          "blob_sha": "8b052ccc5343d16cb72f693ca05c88356ef2fa6c",
+          "source_url": "https://github.com/Jyosnorkel/2026_cam_battlecode/blob/main/bots/Dump/Dumb/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/Jyosnorkel/2026_cam_battlecode/git/blobs/8b052ccc5343d16cb72f693ca05c88356ef2fa6c"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "nekooo2404/battlecode",
+      "classification": "excluded",
+      "observation": "Independent TypeScript tutorial/demo arena; no Cambridge bot implementation. Excluded.",
+      "branch": "main",
+      "root_tree_sha": "fd88a86ff74460365896beab191b19c4acf1e8f2",
+      "tree_truncated": false,
+      "files_in_tree": 30,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "44601394c46f94649208c868b04044be2d180e1b",
+          "source_url": "https://github.com/nekooo2404/battlecode/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/nekooo2404/battlecode/git/blobs/44601394c46f94649208c868b04044be2d180e1b"
+        }
+      ],
+      "depth": "inventory/README only"
+    },
+    {
+      "repository": "k-cubeee/battlecode",
+      "classification": "autumn",
+      "observation": "v18 ball.py farms first then gathers with minimum/maximum waits, bounded convoy holds and formation radius. Alternative staged grouping opponent for testing. Global gather rounds can sacrifice cheap local income; compare group duration and arrival spread.",
+      "branch": "main",
+      "root_tree_sha": "5218fb832017ea8967d03ab7165d403f0e51dae6",
+      "tree_truncated": false,
+      "files_in_tree": 5795,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "archive/v4/src/bot.py",
+          "blob_sha": "dc49f86a8807a0d91a0205295da7abcc40c12f19",
+          "source_url": "https://github.com/k-cubeee/battlecode/blob/main/archive/v4/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/k-cubeee/battlecode/git/blobs/dc49f86a8807a0d91a0205295da7abcc40c12f19"
+        },
+        {
+          "path": "bots/v18/src/ball.py",
+          "blob_sha": "fbde53b645ffa6476a4b49cc38d3708ffb4ecc99",
+          "source_url": "https://github.com/k-cubeee/battlecode/blob/main/bots/v18/src/ball.py",
+          "immutable_blob_url": "https://api.github.com/repos/k-cubeee/battlecode/git/blobs/fbde53b645ffa6476a4b49cc38d3708ffb4ecc99"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "EirikRB98/Battlecode",
+      "classification": "empty",
+      "observation": "Search result exists, but GitHub reports an empty repository (HTTP409). No code to analyze.",
+      "branch": null,
+      "root_tree_sha": null,
+      "tree_truncated": null,
+      "files_in_tree": null,
+      "root_license_files": [],
+      "reviewed_files": [],
+      "depth": "inventory/README only"
+    },
+    {
+      "repository": "DarianTr/battlecodetest",
+      "classification": "autumn",
+      "observation": "Custom Farm action scores capture holding above normal farming, attacks a low-HP in-range camp, then allows a post-movement attack. Useful action arbitration and completion behavior. The initial compiler-generated file was discarded as irrelevant.",
+      "branch": "main",
+      "root_tree_sha": "c90822269923399d03f3bc3423a0cff87056d841",
+      "tree_truncated": false,
+      "files_in_tree": 264,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/starter-cpp/src/bot.cpp",
+          "blob_sha": "791c486ad9e68971e7196ad09803737aa1d9639b",
+          "source_url": "https://github.com/DarianTr/battlecodetest/blob/main/bots/starter-cpp/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/DarianTr/battlecodetest/git/blobs/791c486ad9e68971e7196ad09803737aa1d9639b"
+        },
+        {
+          "path": "bots/starter-cpp/src/lib/actions/Farm.cpp",
+          "blob_sha": "e469cdc1954a632f292daf5dee05433702e2ae66",
+          "source_url": "https://github.com/DarianTr/battlecodetest/blob/main/bots/starter-cpp/src/lib/actions/Farm.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/DarianTr/battlecodetest/git/blobs/e469cdc1954a632f292daf5dee05433702e2ae66"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "RealAhmedKhairi/battlecode_Bot",
+      "classification": "autumn",
+      "observation": "my-bot v6 packs role/status, sightings and tribute coordination into8 bytes, expires sightings and uses dashes/teleports plus resets. Header speed multipliers are author claims, not measured here. Compare ability/travel efficiency and linked-body failure handling.",
+      "branch": "master",
+      "root_tree_sha": "86b1abf86a27308ebddc3aeeb368f2a7caaa6e3d",
+      "tree_truncated": false,
+      "files_in_tree": 140,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "Readme.md",
+          "blob_sha": "53bacc3e7b95eb22f7910f4dd83d887380de9140",
+          "source_url": "https://github.com/RealAhmedKhairi/battlecode_Bot/blob/master/Readme.md",
+          "immutable_blob_url": "https://api.github.com/repos/RealAhmedKhairi/battlecode_Bot/git/blobs/53bacc3e7b95eb22f7910f4dd83d887380de9140"
+        },
+        {
+          "path": "bots/benchmark/src/bot.cpp",
+          "blob_sha": "28848906a2452bc386bf415659fb5024a9b68ac6",
+          "source_url": "https://github.com/RealAhmedKhairi/battlecode_Bot/blob/master/bots/benchmark/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/RealAhmedKhairi/battlecode_Bot/git/blobs/28848906a2452bc386bf415659fb5024a9b68ac6"
+        },
+        {
+          "path": "bots/my-bot/src/bot.cpp",
+          "blob_sha": "28848906a2452bc386bf415659fb5024a9b68ac6",
+          "source_url": "https://github.com/RealAhmedKhairi/battlecode_Bot/blob/master/bots/my-bot/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/RealAhmedKhairi/battlecode_Bot/git/blobs/28848906a2452bc386bf415659fb5024a9b68ac6"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "Abhyrejikumar18923/cam-battlecode",
+      "classification": "autumn",
+      "observation": "Active play_turn is a navigation test toward a fixed point five tiles right of spawn; normal gameplay is preserved as play_turn_old. Useful pathfinding experiment only. Do not compile it as a representative competitive farmer without changing its intended test scope.",
+      "branch": "main",
+      "root_tree_sha": "09d9c64097dfd81a5f835feacdcb0682e87bf0de",
+      "tree_truncated": false,
+      "files_in_tree": 6,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/mybot-python/src/bot.py",
+          "blob_sha": "a44befaf635a85a75b1c19bc6757eb669632c2d5",
+          "source_url": "https://github.com/Abhyrejikumar18923/cam-battlecode/blob/main/bots/mybot-python/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Abhyrejikumar18923/cam-battlecode/git/blobs/a44befaf635a85a75b1c19bc6757eb669632c2d5"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "DE41H/battlecode-bot",
+      "classification": "autumn",
+      "observation": "v1 separates knowledge/nav/combat/shop, caches camp designs and respawn state, increases linked-pair low-HP threshold and bounds contested-capture/backoff. Useful linked-life risk and task failure scenarios; constants are not universal.",
+      "branch": "main",
+      "root_tree_sha": "ee3eceb55103e79341f83133f63741c2509419df",
+      "tree_truncated": false,
+      "files_in_tree": 243,
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "reviewed_files": [
+        {
+          "path": "bots/v1/src/bot.py",
+          "blob_sha": "eee2f95fbb12a3b2a0561c222f482380fab0763b",
+          "source_url": "https://github.com/DE41H/battlecode-bot/blob/main/bots/v1/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/DE41H/battlecode-bot/git/blobs/eee2f95fbb12a3b2a0561c222f482380fab0763b"
+        },
+        {
+          "path": "bots/v1/src/knowledge.py",
+          "blob_sha": "4c0358410837d7a699b5e8e39b79dd4b75ba2e93",
+          "source_url": "https://github.com/DE41H/battlecode-bot/blob/main/bots/v1/src/knowledge.py",
+          "immutable_blob_url": "https://api.github.com/repos/DE41H/battlecode-bot/git/blobs/4c0358410837d7a699b5e8e39b79dd4b75ba2e93"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "S0ulSyte/Photon-Battlecode",
+      "classification": "autumn",
+      "observation": "Merged dispatcher documents transition order; bank code centralizes bank_wanted and latches a deposit trip across small-bag/off-spawn states. Excellent explicit state/transition logging reference. Must test higher-priority combat/recall preemption and safe completion.",
+      "branch": "main",
+      "root_tree_sha": "909fc067422ae30b5c709ad4024c2c43535bbff6",
+      "tree_truncated": false,
+      "files_in_tree": 169,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/merged/src/bot.cpp",
+          "blob_sha": "e0ea453839266ab09be9d34af325d86c504d0445",
+          "source_url": "https://github.com/S0ulSyte/Photon-Battlecode/blob/main/bots/merged/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/S0ulSyte/Photon-Battlecode/git/blobs/e0ea453839266ab09be9d34af325d86c504d0445"
+        },
+        {
+          "path": "bots/merged/src/state_bank.cpp",
+          "blob_sha": "2c44184936bf472bbd99b475041a4f6b0cc63655",
+          "source_url": "https://github.com/S0ulSyte/Photon-Battlecode/blob/main/bots/merged/src/state_bank.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/S0ulSyte/Photon-Battlecode/git/blobs/2c44184936bf472bbd99b475041a4f6b0cc63655"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "hasungkr/battlecode26-scaffold",
+      "classification": "excluded",
+      "observation": "MIT Battlecode Java/Python scaffold using battlecode26 and play.battlecode.org; different competition. Excluded from current-ruleset tactics.",
+      "branch": "main",
+      "root_tree_sha": "f69e2ab872a0061c9d4a684aa1dd798a0829da85",
+      "tree_truncated": false,
+      "files_in_tree": 16,
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "1fcdaccdbf35e9c46cf843ca281132849cba34e1",
+          "source_url": "https://github.com/hasungkr/battlecode26-scaffold/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/hasungkr/battlecode26-scaffold/git/blobs/1fcdaccdbf35e9c46cf843ca281132849cba34e1"
+        },
+        {
+          "path": "src/examplefuncsplayer_py/bot.py",
+          "blob_sha": "c4c3dbf87084de614581bce88f77b6dccd49d418",
+          "source_url": "https://github.com/hasungkr/battlecode26-scaffold/blob/main/src/examplefuncsplayer_py/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/hasungkr/battlecode26-scaffold/git/blobs/c4c3dbf87084de614581bce88f77b6dccd49d418"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Marcusydz/CamB-Battlecode",
+      "classification": "autumn",
+      "observation": "v15 uses shared farm claims, solo capture,150-gold empty-bag shop recall and fuel reserve. RALLY and MONOLITH flags are disabled with negative-test comments. Useful rejected experiments and recipient ownership; do not promote disabled ideas as active features.",
+      "branch": "claude/sharp-mayer-maf56h",
+      "root_tree_sha": "d6ee35b1d1044555fea51d73f928ccc5529c698c",
+      "tree_truncated": false,
+      "files_in_tree": 101,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/aggro/src/bot.py",
+          "blob_sha": "e2326d67d1e4c02f0a1f7a8bd5194c128c283b8c",
+          "source_url": "https://github.com/Marcusydz/CamB-Battlecode/blob/claude/sharp-mayer-maf56h/bots/aggro/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Marcusydz/CamB-Battlecode/git/blobs/e2326d67d1e4c02f0a1f7a8bd5194c128c283b8c"
+        },
+        {
+          "path": "bots/v15/src/bot.py",
+          "blob_sha": "8307e5f9201189c1687d3a388675def602c8be89",
+          "source_url": "https://github.com/Marcusydz/CamB-Battlecode/blob/claude/sharp-mayer-maf56h/bots/v15/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Marcusydz/CamB-Battlecode/git/blobs/8307e5f9201189c1687d3a388675def602c8be89"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "Vers-AI/Battlecode-2026--Vecticons",
+      "classification": "autumn",
+      "observation": "Utility layer compares capture, bank, recall, combat and farm with deterministic tie order and hard feasibility filters. Useful explicit candidate arbitration; gem score vs kill-gold score uses different scales, so utility comparability requires calibration.",
+      "branch": "main",
+      "root_tree_sha": "3df0bee65783c56789febd579148d9e63ebfdedd",
+      "tree_truncated": false,
+      "files_in_tree": 106,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/vecticons/src/bot.py",
+          "blob_sha": "86120c73e85257ef15f96f48694157adc7a1372e",
+          "source_url": "https://github.com/Vers-AI/Battlecode-2026--Vecticons/blob/main/bots/vecticons/src/bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/Vers-AI/Battlecode-2026--Vecticons/git/blobs/86120c73e85257ef15f96f48694157adc7a1372e"
+        },
+        {
+          "path": "bots/vecticons/src/managers/utility.py",
+          "blob_sha": "076c9e4cb44184ab704558da655c6c4b5a73dbd5",
+          "source_url": "https://github.com/Vers-AI/Battlecode-2026--Vecticons/blob/main/bots/vecticons/src/managers/utility.py",
+          "immutable_blob_url": "https://api.github.com/repos/Vers-AI/Battlecode-2026--Vecticons/git/blobs/076c9e4cb44184ab704558da655c6c4b5a73dbd5"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "Sammy-The-Fish/battlecode-round-2",
+      "classification": "autumn",
+      "observation": "Rust source adds a champion role table but play_turn still uses random stat buying, immediate low-HP recall, in-range attacks before banking, then starter farming. The role table alone does not establish specialized runtime play. Username does not identify Intercontinental Fish or any ladder rank.",
+      "branch": "main",
+      "root_tree_sha": "a90ef3a0adb6e536a973f17445cdf677704aed4e",
+      "tree_truncated": false,
+      "files_in_tree": 101,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "bots/the-first/src/bot.rs",
+          "blob_sha": "4d9f5d5e540d2cfda5673b6894019a2cac3159d0",
+          "source_url": "https://github.com/Sammy-The-Fish/battlecode-round-2/blob/main/bots/the-first/src/bot.rs",
+          "immutable_blob_url": "https://api.github.com/repos/Sammy-The-Fish/battlecode-round-2/git/blobs/4d9f5d5e540d2cfda5673b6894019a2cac3159d0"
+        }
+      ],
+      "depth": "selected strategy functions and associated notes"
+    },
+    {
+      "repository": "juntegral/unsw-battlecode-portfolio",
+      "classification": "excluded-other-game",
+      "observation": "UNSW dragon/snake-game engineering archive. Profile/build provenance may inform test operations; not Cambridge champions or a directly reusable policy.",
+      "branch": "main",
+      "root_tree_sha": "47c2fd9f56ba7b54c55018e1e055b6ccf2f5ac64",
+      "tree_truncated": false,
+      "files_in_tree": 9888,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "830174a62d7167528c51060cbf14bbc83dff017c",
+          "source_url": "https://github.com/juntegral/unsw-battlecode-portfolio/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/juntegral/unsw-battlecode-portfolio/git/blobs/830174a62d7167528c51060cbf14bbc83dff017c"
+        },
+        {
+          "path": "card-loop/work/server_bot.py",
+          "blob_sha": "25fce2e387c4561367239bd17ae64012163772a4",
+          "source_url": "https://github.com/juntegral/unsw-battlecode-portfolio/blob/main/card-loop/work/server_bot.py",
+          "immutable_blob_url": "https://api.github.com/repos/juntegral/unsw-battlecode-portfolio/git/blobs/25fce2e387c4561367239bd17ae64012163772a4"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "tuld1806/BattleCode-UET",
+      "classification": "excluded",
+      "observation": "Independent9x9 rock-paper-scissors arena. Excluded from Cambridge tactical evidence.",
+      "branch": "main",
+      "root_tree_sha": "200233beaf8f0c9c1369d0387f51dee066b21f4c",
+      "tree_truncated": false,
+      "files_in_tree": 112,
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "5ee135841c40a9a32ab2502d6a2791091e844456",
+          "source_url": "https://github.com/tuld1806/BattleCode-UET/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/tuld1806/BattleCode-UET/git/blobs/5ee135841c40a9a32ab2502d6a2791091e844456"
+        },
+        {
+          "path": "main.py",
+          "blob_sha": "f55159a7ebe6b74e37e6fccddb81368295e432d0",
+          "source_url": "https://github.com/tuld1806/BattleCode-UET/blob/main/main.py",
+          "immutable_blob_url": "https://api.github.com/repos/tuld1806/BattleCode-UET/git/blobs/f55159a7ebe6b74e37e6fccddb81368295e432d0"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "Mango-Bird/mini-battlecode-platform",
+      "classification": "excluded",
+      "observation": "Independent multiplayer rock-paper-scissors/number-guessing platform. Excluded.",
+      "branch": "main",
+      "root_tree_sha": "74cd88cb9f074ad638ad84f0749069c4a20e7bd0",
+      "tree_truncated": false,
+      "files_in_tree": 153,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "30bcb01bf5d2efd1195f7b449e842423d6057643",
+          "source_url": "https://github.com/Mango-Bird/mini-battlecode-platform/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Mango-Bird/mini-battlecode-platform/git/blobs/30bcb01bf5d2efd1195f7b449e842423d6057643"
+        }
+      ],
+      "depth": "inventory/README only"
+    },
+    {
+      "repository": "Z15-N/unsw-battlecode-2026",
+      "classification": "excluded-other-game",
+      "observation": "UNSW C++ snake/queen game; source has pearl-value and splitting parameters. Statistical release discipline may inspire evaluation, but those actions/maps are incompatible with Polaris.",
+      "branch": "main",
+      "root_tree_sha": "fdba8370371210a81cc9e28f7d64384266324eda",
+      "tree_truncated": false,
+      "files_in_tree": 84,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "654fc6c5875aaa6b6ebd585773079589fc4a7c1f",
+          "source_url": "https://github.com/Z15-N/unsw-battlecode-2026/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/Z15-N/unsw-battlecode-2026/git/blobs/654fc6c5875aaa6b6ebd585773079589fc4a7c1f"
+        },
+        {
+          "path": "bot/main.cpp",
+          "blob_sha": "5da76edef50a2679703a09d9f9d6eee4fd79dcb4",
+          "source_url": "https://github.com/Z15-N/unsw-battlecode-2026/blob/main/bot/main.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/Z15-N/unsw-battlecode-2026/git/blobs/5da76edef50a2679703a09d9f9d6eee4fd79dcb4"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "hungdo2006/battlecode_MIT_Group_8",
+      "classification": "excluded",
+      "observation": "Independent NEON ARENA and robot engine. Not the Cambridge champion ruleset; excluded.",
+      "branch": "main",
+      "root_tree_sha": "5472501de0e0d86c260f03aacfd61587b9dad977",
+      "tree_truncated": false,
+      "files_in_tree": 304,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "6a624b9642ecc8029aae65a6130e98f511e5802d",
+          "source_url": "https://github.com/hungdo2006/battlecode_MIT_Group_8/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/hungdo2006/battlecode_MIT_Group_8/git/blobs/6a624b9642ecc8029aae65a6130e98f511e5802d"
+        },
+        {
+          "path": "backend/engine/robot.py",
+          "blob_sha": "ee4a81f1103e309c151c8e50f3da1f9b3c4a01f3",
+          "source_url": "https://github.com/hungdo2006/battlecode_MIT_Group_8/blob/main/backend/engine/robot.py",
+          "immutable_blob_url": "https://api.github.com/repos/hungdo2006/battlecode_MIT_Group_8/git/blobs/ee4a81f1103e309c151c8e50f3da1f9b3c4a01f3"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "anicolao/bc-planner",
+      "classification": "excluded",
+      "observation": "Planning system and proposed Battlecode2023 experiments; no Cambridge2026 champion strategy. Excluded.",
+      "branch": "main",
+      "root_tree_sha": "4d4c46a546437cd3ee26299541e04e5decc9660b",
+      "tree_truncated": false,
+      "files_in_tree": 48,
+      "root_license_files": [
+        "LICENSE"
+      ],
+      "reviewed_files": [
+        {
+          "path": "README.md",
+          "blob_sha": "a0e04626d50ed9bfd2f8ae1c2749668651b40c01",
+          "source_url": "https://github.com/anicolao/bc-planner/blob/main/README.md",
+          "immutable_blob_url": "https://api.github.com/repos/anicolao/bc-planner/git/blobs/a0e04626d50ed9bfd2f8ae1c2749668651b40c01"
+        },
+        {
+          "path": "experiments/sshd/test.py",
+          "blob_sha": "b2ddef17a965adff5e896e9af5b0f3bb07264e75",
+          "source_url": "https://github.com/anicolao/bc-planner/blob/main/experiments/sshd/test.py",
+          "immutable_blob_url": "https://api.github.com/repos/anicolao/bc-planner/git/blobs/b2ddef17a965adff5e896e9af5b0f3bb07264e75"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "abdallahrali/battlecode_Bot",
+      "classification": "duplicate-autumn",
+      "observation": "Exact same root tree as RealAhmedKhairi at inspection. Same strategy family; do not double-weight it as independent confirmation.",
+      "branch": "master",
+      "root_tree_sha": "86b1abf86a27308ebddc3aeeb368f2a7caaa6e3d",
+      "tree_truncated": false,
+      "files_in_tree": 140,
+      "root_license_files": [],
+      "reviewed_files": [
+        {
+          "path": "Readme.md",
+          "blob_sha": "53bacc3e7b95eb22f7910f4dd83d887380de9140",
+          "source_url": "https://github.com/abdallahrali/battlecode_Bot/blob/master/Readme.md",
+          "immutable_blob_url": "https://api.github.com/repos/abdallahrali/battlecode_Bot/git/blobs/53bacc3e7b95eb22f7910f4dd83d887380de9140"
+        },
+        {
+          "path": "bots/benchmark/src/bot.cpp",
+          "blob_sha": "28848906a2452bc386bf415659fb5024a9b68ac6",
+          "source_url": "https://github.com/abdallahrali/battlecode_Bot/blob/master/bots/benchmark/src/bot.cpp",
+          "immutable_blob_url": "https://api.github.com/repos/abdallahrali/battlecode_Bot/git/blobs/28848906a2452bc386bf415659fb5024a9b68ac6"
+        }
+      ],
+      "depth": "representative source and available README"
+    },
+    {
+      "repository": "coleseven/unsw-battlebot-research",
+      "classification": "excluded-readme",
+      "observation": "Tree request had a transport failure; README fetched successfully. Explicitly a UNSW snake-game archive with learned movement/tuning. Top100 is described as an objective, not verified achievement. Excluded from Cambridge tactics; no deep source audit claimed.",
+      "branch": null,
+      "root_tree_sha": null,
+      "tree_truncated": null,
+      "files_in_tree": null,
+      "root_license_files": [],
+      "reviewed_files": [],
+      "depth": "inventory/README only"
+    }
+  ]
+}

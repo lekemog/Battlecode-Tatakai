@@ -1,5 +1,5 @@
-// SUBMISSION NOTE (v23r, 2026-10-21 09:01 UTC)
-// Engine 1.0.2: v23m + post-Stellar-nerf draft (5-6 picks Ryth, Varg, Vesper, Vendetta, Ren, C&I; 3 picks Varg, Vesper, Ryth). Screen vs Daniel v8 + DE41H v4 (140 games, 35 maps): 80 vs v23m 57 vs v22w 51, margins positive. Guard <40% after 30 -> v23m
+// SUBMISSION NOTE (v24c, 2026-10-21 13:08 UTC)
+// v23v + no banking while every altar submit tile is within 2 of a live monolith (boss battle: carriers stood by the monolith-ringed altar all game, 0 banked; now the pack kills the monoliths and banks). Boss battle vs DE41H/Mohnish/Apex: 0-0 x3 -> wins 1147-920, 1008-8, 1612-0. Screen 81/140 +263 (v23v 80 +234); held-out 285/350 (v23v 283). Guard <40% after 30 -> v23v
 // END NOTE
 // Dispatch draft and gameplay; a failed turn is logged and still yields.
 #include <cambc.h>

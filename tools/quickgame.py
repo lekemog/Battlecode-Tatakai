@@ -5,7 +5,7 @@ S=tempfile.mkdtemp(dir='/tmp/claude-0/-home-claude/1a6e1a21-0974-5904-af74-73034
 out=subprocess.run(['cambc','run',A,B,'--map',f'maps/{M}.map26a','--release','-o',S],cwd='/home/claude/proj',capture_output=True,text=True).stdout
 print('\n'.join(l for l in out.split('\n') if l.strip().startswith(('A ','B '))))
 z=glob.glob(f'{S}/*.repl26a')[0];zipfile.ZipFile(z).extractall(S)
-subprocess.run(['node','/home/claude/tools/replay/extract.mjs','/home/claude/data/vis/assets',f'{S}/replay.repl26a',f'{S}/r.json'],capture_output=True)
+subprocess.run(['node','/home/claude/tools/replay/extract3.mjs','/home/claude/data/vis3/assets',f'{S}/replay.repl26a',f'{S}/r.json'],capture_output=True)
 R=json.load(open(f'{S}/r.json'))['rounds']
 dead=[0,0];pa={};lost=[0,0];prev={}
 marks={}

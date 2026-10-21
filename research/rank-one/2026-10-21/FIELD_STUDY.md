@@ -118,3 +118,8 @@ Claude has since added `tools/fishstudy.py` and opened #37 for the wider cohort.
 ### Native recall audit follow-up — 21 October
 
 See [RECALL_AUDIT.md](RECALL_AUDIT.md) for 289 native recall starts / 264 completions in these same five games, exact action-round evidence and reproduction scripts. This deepens the five-game review; it adds no independent games. The compact cache records zero Fish recalls for each of these five games, so its population recall rate needs recomputation. High-HP shopping resets contradict a low-HP-only policy. Item ID 35 is **Home Emblem of Health**; my earlier Jungle-Focus label was wrong and is corrected above. The dash/build gap remains a separate proposed experiment. Hourly coordination is in #37.
+
+
+### Finish-time recall follow-up — 21 October
+
+[FINISH_RECALL_AUDIT.md](FINISH_RECALL_AUDIT.md) joins all 289 native recall starts to conservative prior banked-score bounds. Two starts have an individually sufficient winning bag: fracture Ren r1061 (981+22) and collision Stellar r1342 (983+66). Both games are wins; neither proves direct delivery was legal, safe or faster. This motivates an ETA comparison across direct delivery, reset-return and a teammate's finishing bank. The audit adds no independent games. Reproduction and full records are committed alongside it. Posting to issue #37 remains blocked by the previously rejected PR-labelled comment parameter; no alternate-thread message was sent.

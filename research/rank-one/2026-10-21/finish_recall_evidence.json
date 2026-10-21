@@ -1,0 +1,120 @@
+{
+  "question": "Does Fish recall with an individually sufficient winning bag?",
+  "games": 5,
+  "native_recall_starts": 289,
+  "qualifying_events": 2,
+  "source_file_sha256": {
+    "recall_evidence.json": "93457ba9471bb6935ba1a7a0e5d3fb4c22f37df2c5081a73f66fc472a28d8837",
+    "series_evidence.json": "7dde1b5114296c5b79d654e280dca42f6a7ed15dee587b04325c457184e6eec9"
+  },
+  "events": [
+    {
+      "match_id": "3a6c4ece-f962-4241-9369-234a5939d6a1",
+      "replay_sha256": "acffacbc2106d34c25bc805c2b337f88a660b23079322b669699d2996b077adc",
+      "engine": "v1_0_1",
+      "fish_side": "B",
+      "recall": {
+        "round": 1061,
+        "input": 24227,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 1486,
+        "max_hp": 1900,
+        "gold": 90,
+        "gems": 22,
+        "position": {
+          "x": 58,
+          "y": 36
+        },
+        "timer": 5,
+        "end_round": 1066,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 22
+      },
+      "prior_score_observed_round": 1041,
+      "prior_banked_score": 981,
+      "banked_plus_carrier": 1003,
+      "next_carrier_bank": null,
+      "final_round": 1067,
+      "final_score": [
+        830,
+        1011
+      ],
+      "final_bank_observations": [
+        {
+          "r": 1067,
+          "id": 6,
+          "team": 1,
+          "gems": 30,
+          "pos": {
+            "x": 25,
+            "y": 34
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "engine": "v1_0_1",
+      "fish_side": "B",
+      "recall": {
+        "round": 1342,
+        "input": 15744,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1392,
+        "max_hp": 1500,
+        "gold": 400,
+        "gems": 66,
+        "position": {
+          "x": 37,
+          "y": 36
+        },
+        "timer": 3,
+        "end_round": 1345,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 66
+      },
+      "prior_score_observed_round": 1330,
+      "prior_banked_score": 983,
+      "banked_plus_carrier": 1049,
+      "next_carrier_bank": null,
+      "final_round": 1370,
+      "final_score": [
+        760,
+        1016
+      ],
+      "final_bank_observations": [
+        {
+          "r": 1370,
+          "id": 4,
+          "team": 1,
+          "gems": 22,
+          "pos": {
+            "x": 26,
+            "y": 21
+          }
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "No legal delivery ETA or counterfactual replay.",
+    "No new independent games.",
+    "Bank timestamps are round-boundary observations; recall times are native action rounds.",
+    "Fish and opponent submission IDs remain unknown."
+  ]
+}

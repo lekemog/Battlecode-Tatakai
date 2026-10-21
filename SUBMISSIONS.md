@@ -97,3 +97,5 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 186 | v24z | 2026-10-21T20:25Z | v24w + solo farming on the new map road_of_riches (40x40, 2 altars, 51 groups, 132 camps). 7-opp bench on it: 9/14 vs v24w 4/14 (margin -2173 -> +2582); other maps unchanged. Guard <40% after 30 -> v24w |
 | 187 | v25a | 2026-10-21T21:40Z | Scrim test (Leke approved): v24z + lone non-pack farmers recall below 50% HP (was 30%). Scrims vs top 4 on v24z: 0/20, 14.5 deaths/game vs 1.6, mostly lone farmers at low HP. Revert to v24z if scrims/ranked are worse. |
 | 188 | v24z | 2026-10-21T21:53Z | revert: v25a (lone recall at 50%) showed no gain in 20 top-4 scrims (0/20 both; deaths 14.5->13.8, gold r400 987->921) |
+| 189 | v25c | 2026-10-21T22:14Z | Scrim test: v24z + health item build for every champion (top-4 had 1700-3100 max HP vs our 900-1000 at r300-770). Revert to v24z unless scrims improve. |
+| 190 | v24z | 2026-10-21T22:22Z | revert: v25c (health build for all) worse in top-4 scrims (gems 351->266, gold r400 987->868; 0/20 both) |

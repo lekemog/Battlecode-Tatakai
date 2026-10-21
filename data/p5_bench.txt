@@ -1,0 +1,64 @@
+== v22w post-patch-1.0.2
+x_daniel8 v22w TOTAL 27  margin -38
+x_de41h4 v22w TOTAL 24  margin -163
+GAUNTLET v22w wins 51 / 68 margin -201
+== v23g post-patch-1.0.2
+x_daniel8 v23g TOTAL 29  margin -118
+x_de41h4 v23g TOTAL 23  margin -153
+GAUNTLET v23g wins 52 / 68 margin -271
+== v23n post-patch-1.0.2
+x_daniel8 v23n TOTAL 28  margin -98
+x_de41h4 v23n TOTAL 18  margin -244
+GAUNTLET v23n wins 46 / 68 margin -342
+== v22f post-patch-1.0.2
+x_daniel8 v22f TOTAL 27  margin -75
+x_de41h4 v22f TOTAL 26  margin -114
+GAUNTLET v22f wins 53 / 68 margin -189
+== v23m post-patch-1.0.2
+x_daniel8 v23m TOTAL 34  margin -47
+x_de41h4 v23m TOTAL 23  margin -153
+GAUNTLET v23m wins 57 / 68 margin -200
+== v23k post-patch-1.0.2
+x_daniel8 v23k TOTAL 25  margin -149
+x_de41h4 v23k TOTAL 29  margin -124
+GAUNTLET v23k wins 54 / 68 margin -273
+== v22p post-patch-1.0.2
+x_daniel8 v22p TOTAL 25  margin -95
+x_de41h4 v22p TOTAL 23  margin -254
+GAUNTLET v22p wins 48 / 68 margin -349
+== v23q post-patch-1.0.2
+x_daniel8 v23q TOTAL 25  margin -143
+x_de41h4 v23q TOTAL 28  margin -140
+GAUNTLET v23q wins 53 / 68 margin -283
+== v23m heldout-1.0.2
+h_mohnish v23m TOTAL 34  margin -50
+h_deysag v23m TOTAL 33  margin -105
+h_vatsal v23m TOTAL 61  margin +430
+h_photon v23m TOTAL 66  margin +606
+h_apex v23m TOTAL 63  margin +563
+GAUNTLET v23m wins 257 / 170 margin 1444
+== v22w heldout-1.0.2
+h_mohnish v22w TOTAL 35  margin -34
+h_deysag v22w TOTAL 38  margin -69
+h_vatsal v22w TOTAL 60  margin +433
+h_photon v22w TOTAL 67  margin +594
+h_apex v22w TOTAL 65  margin +602
+GAUNTLET v22w wins 265 / 170 margin 1526
+== v23r post-patch-1.0.2
+x_daniel8 v23r TOTAL 41  margin +48
+x_de41h4 v23r TOTAL 39  margin +129
+GAUNTLET v23r wins 80 / 68 margin 177
+== v23r heldout-1.0.2
+h_mohnish v23r TOTAL 38  margin +99
+h_deysag v23r TOTAL 47  margin +265
+h_vatsal v23r TOTAL 61  margin +553
+h_photon v23r TOTAL 67  margin +605
+h_apex v23r TOTAL 65  margin +643
+GAUNTLET v23r wins 278 / 170 margin 2165
+== v23r tuning-1.0.2
+x_daniel7 v23r TOTAL 43  margin +126
+x_simon6 v23r TOTAL 51  margin +269
+x_jame4 v23r TOTAL 47  margin +205
+x_tarotsq21 v23r TOTAL 60  margin +506
+x_tarot16 v23r TOTAL 65  margin +687
+GAUNTLET v23r wins 266 / 170 margin 1793

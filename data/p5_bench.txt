@@ -135,3 +135,35 @@ h_vatsal v24i TOTAL 66  margin +630
 h_photon v24i TOTAL 67  margin +656
 h_apex v24i TOTAL 68  margin +701
 GAUNTLET v24i wins 378 / 238 margin 2713
+== v24j weak13 (always pack diag)
+x_daniel8 v24j TOTAL 9  margin -92
+x_de41h4 v24j TOTAL 14  margin +3
+h_mohnish v24j TOTAL 9  margin -116
+h_deysag v24j TOTAL 13  margin +26
+h_vatsal v24j TOTAL 22  margin +416
+h_photon v24j TOTAL 24  margin +551
+h_apex v24j TOTAL 24  margin +644
+GAUNTLET v24j wins 115 / 238 margin 1432
+== v24k contest-only (v24i + forced pack on contest)
+x_daniel8 v24k TOTAL 1  margin +0
+x_de41h4 v24k TOTAL 2  margin +700
+h_mohnish v24k TOTAL 2  margin +1000
+h_deysag v24k TOTAL 2  margin +600
+h_vatsal v24k TOTAL 2  margin +700
+h_photon v24k TOTAL 1  margin +500
+h_apex v24k TOTAL 2  margin +900
+GAUNTLET v24k wins 12 / 238 margin 4400
+== v24l/v24m weak13 diag (smaller banks / bolder pack)
+GAUNTLET v24l wins 122 / 238 margin 1503
+GAUNTLET v24m wins 121 / 238 margin 1471
+== v24k weak13 baseline
+GAUNTLET v24k wins 116 / 238 margin 1378
+== v24n full 7-opp (v24k + per-map small banks / bold pack)
+x_daniel8 v24n TOTAL 42  margin +153
+x_de41h4 v24n TOTAL 45  margin +218
+h_mohnish v24n TOTAL 42  margin +185
+h_deysag v24n TOTAL 56  margin +415
+h_vatsal v24n TOTAL 66  margin +639
+h_photon v24n TOTAL 67  margin +670
+h_apex v24n TOTAL 69  margin +732
+GAUNTLET v24n wins 387 / 238 margin 3012

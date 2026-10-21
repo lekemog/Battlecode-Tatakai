@@ -282,3 +282,21 @@ h_vatsal v24w TOTAL 76  margin +675
 h_photon v24w TOTAL 74  margin +677
 h_apex v24w TOTAL 78  margin +721
 GAUNTLET v24w wins 448 / 238 margin 3123
+== v24w road-of-riches
+x_daniel8 v24w TOTAL 0  margin -840
+x_de41h4 v24w TOTAL 0  margin -496
+h_mohnish v24w TOTAL 0  margin -731
+h_deysag v24w TOTAL 0  margin -408
+h_vatsal v24w TOTAL 2  margin +504
+h_photon v24w TOTAL 1  margin -328
+h_apex v24w TOTAL 1  margin +126
+GAUNTLET v24w wins 4 / 238 margin -2173
+== v24z road-of-riches
+x_daniel8 v24z TOTAL 0  margin -472
+x_de41h4 v24z TOTAL 2  margin +532
+h_mohnish v24z TOTAL 0  margin -218
+h_deysag v24z TOTAL 2  margin +582
+h_vatsal v24z TOTAL 2  margin +970
+h_photon v24z TOTAL 1  margin +330
+h_apex v24z TOTAL 2  margin +858
+GAUNTLET v24z wins 9 / 238 margin 2582

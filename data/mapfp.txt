@@ -37,3 +37,4 @@
 00gemfight 30 30 2 19 36
 00great-wall 50 40 4 17 80
 00lost-world 35 31 3 34 78
+00road-of-riches 40 40 2 51 132

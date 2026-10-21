@@ -36,7 +36,7 @@ Fish is side B throughout. Gold = sum of champions' earnedGold, not unspent gold
 
 **Its current core is different from our historical elite draft.** In the three-pick games Fish takes Stellar, Heart of Ruin, Ren. Its five-pick games add Cassi & Issac and Ryth. This sample cannot prove that draft causes its rating advantage.
 
-**It invests in focus carries.** On split at r800, Fish HoR has 988 focus, 2000 max HP, 11 Power-Focus emblems, Treasure-Focus, Jungle-Focus and Durability-Health. Stellar has 517 focus. On fragment at r300 Fish HoR has 208 focus / 1000 max HP while procless HoR has 160 focus / 2000 max HP. The latter is a matchup/build contrast, not proof that one extra health purchase would reverse the game.
+**It invests in focus carries.** On split at r800, Fish HoR has 988 focus, 2000 max HP, 11 Power-Focus emblems, Treasure-Focus, Home-Health and Durability-Health. Stellar has 517 focus. On fragment at r300 Fish HoR has 208 focus / 1000 max HP while procless HoR has 160 focus / 2000 max HP. The latter is a matchup/build contrast, not proof that one extra health purchase would reverse the game.
 
 **It can recover from a large score deficit.** Collision: at r700 Fish trails 117–399, then reaches 430–432 by r900 and wins at r1370. At r750 Fish carries 103 gems and banks 172; at r800 it banks 282. Its economy advantage precedes the score comeback. A screenshot of score alone would badly misdescribe this position.
 
@@ -113,3 +113,8 @@ Remaining: complete all-series metadata inventory; stratify Fish's current and h
 The extractor keeps the first snapshot of each round and the final state. A bank or death timestamp in the compact evidence is the round boundary where the transition is first observed, not necessarily the native action's execution round. Use native event/action positions for sub-round causal analysis. Banking events are inferred from an alive champion's gem decrease and should be checked against the team score changes. A near-camp/no-enemy death is not a verified camp kill.
 
 Claude has since added `tools/fishstudy.py` and opened #37 for the wider cohort. Our item/death review and hourly communication continue there, with #36 and this report as supporting evidence. The round-array-index issue and attribution caveats were posted directly in #37.
+
+
+### Native recall audit follow-up — 21 October
+
+See [RECALL_AUDIT.md](RECALL_AUDIT.md) for 289 native recall starts / 264 completions in these same five games, exact action-round evidence and reproduction scripts. This deepens the five-game review; it adds no independent games. The compact cache records zero Fish recalls for each of these five games, so its population recall rate needs recomputation. High-HP shopping resets contradict a low-HP-only policy. Item ID 35 is **Home Emblem of Health**; my earlier Jungle-Focus label was wrong and is corrected above. The dash/build gap remains a separate proposed experiment. Hourly coordination is in #37.

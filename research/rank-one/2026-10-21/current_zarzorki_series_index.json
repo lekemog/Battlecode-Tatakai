@@ -1,0 +1,73 @@
+{
+  "collected_date": "2026-10-21",
+  "source": "https://2026a.battlecode.co.uk/game/match-groups/cc704b06-5855-4546-905e-437066b0d46a",
+  "series_id": "cc704b06-5855-4546-905e-437066b0d46a",
+  "kind": "ranked",
+  "fish_team_id": "1890540d-1ffc-4847-adbf-d0d08772f268",
+  "opponent": "Zarzorki",
+  "opponent_team_id": "c0a5d0a5-eb8f-4aa7-8d6a-8e74ed78874c",
+  "fish_series_score": [
+    4,
+    1
+  ],
+  "engine": null,
+  "fish_submission_id": null,
+  "opponent_submission_id": null,
+  "decoded": false,
+  "source_type": "Observed platform UI, not decoded replay",
+  "games": [
+    {
+      "match_id": "5df5de95-3863-416b-be80-eed57ddec4a8",
+      "map": "01corridors",
+      "rounds": 1448,
+      "fish_gems": 1325,
+      "opponent_gems": 331,
+      "result": "win",
+      "replay_sha256": null,
+      "decoded": false
+    },
+    {
+      "match_id": "ba001e3b-7005-44b0-a455-c2f2ee3db8d2",
+      "map": "01big_world",
+      "rounds": 1272,
+      "fish_gems": 1033,
+      "opponent_gems": 798,
+      "result": "win",
+      "replay_sha256": null,
+      "decoded": false
+    },
+    {
+      "match_id": "2bb13804-c845-49ad-9c1d-f6e06dc35a8a",
+      "map": "01shortcut",
+      "rounds": 1607,
+      "fish_gems": 1187,
+      "opponent_gems": 532,
+      "result": "win",
+      "replay_sha256": null,
+      "decoded": false
+    },
+    {
+      "match_id": "9128bedb-1c2e-446c-b1b3-731ca51152cf",
+      "map": "00quadrants",
+      "rounds": 721,
+      "fish_gems": 1033,
+      "opponent_gems": 985,
+      "result": "win",
+      "replay_sha256": null,
+      "decoded": false
+    },
+    {
+      "match_id": "344ce20a-87e9-4ffd-bf4d-f22a1355384f",
+      "map": "00rushbait_v2",
+      "rounds": 1314,
+      "fish_gems": 674,
+      "opponent_gems": 1007,
+      "result": "loss",
+      "replay_sha256": null,
+      "decoded": false
+    }
+  ],
+  "deduplication": "Five distinct match IDs; content-level replay deduplication remains unverified.",
+  "blocker": "Browser reports download completed, but synchronized file not available to local analysis after repeated checks; raw bundle not decoded.",
+  "next_question": "In the close quadrants win and rushbait loss, does native dash availability or carrier delivery timing explain the decisive transition?"
+}

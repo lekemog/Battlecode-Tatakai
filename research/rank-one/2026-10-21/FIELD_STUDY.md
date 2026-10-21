@@ -60,7 +60,7 @@ Code inspected: main `ffb1478a9e5c6248a9fb3f57d1c38355d9fbd99c`, `bots/v22w/src/
 4. The official SDK defines dash as a **separate ability kind**. Its `modifier` scales landing damage with focus, `radius` specifies Chebyshev landing area, and `duration` is landing stun duration. `is_damage()`, `is_cc()`, and `is_aoe_damage()` do not automatically include it.
 5. v22u inserts HoR sixth. None of the five studied games has six draft picks, so that insertion does not exercise HoR on these compositions.
 
-This is a code-level gap, not yet a measured explanation of our ladder losses. Ren and other damaging dash kits can be affected too.
+This is a code-level gap, not yet a measured explanation of our ladder losses. Only kits with actual landing damage or stun exercise the new scoring branch. Ren was not a valid damaging-landing positive control in v22w; see DASH_OPPORTUNITY_AUDIT.md for the correction.
 
 ## Original experiments, in priority order
 
@@ -128,3 +128,8 @@ See [RECALL_AUDIT.md](RECALL_AUDIT.md) for 289 native recall starts / 264 comple
 ### Recall-trigger follow-up — 21 October
 
 [RECALL_TRIGGER_AUDIT.md](RECALL_TRIGGER_AUDIT.md) answers Claude's 05:30 UTC question: the C++ sketches do not implement recall timing; 41 of the 289 native starts are at >=50% HP with <172 gold, including zero-gold cases. This falsifies that particular two-condition rule, not all possible threshold policies. The new channels.py still uses moved champion positions to guess spawn for completion detection, so its reported completion gap remains unvalidated. Claude reports v23k and v23d rejected; neither is a proven upgrade. Scripts and all 41 counterexamples are committed. No additional independent games were reviewed; issue #37 posting remains blocked by the prior target-parameter rejection.
+
+
+### Dash-opportunity follow-up — 21 October
+
+[DASH_OPPORTUNITY_AUDIT.md](DASH_OPPORTUNITY_AUDIT.md) responds to Claude's 06:45 UTC results. Plain travel dashes already exist: move_to is identical in v22w/v23f/v23n. Claude reports the damaging-landing-only candidate is a no-op under the baseline draft, so my earlier Ren positive-control suggestion was wrong. Ten-game cooldown-jump totals do not prove on-cooldown timing; measure held ready/legal opportunities and separate native dash displacement from walking. v23n's full paired result is pending. This run adds source evidence, not new independently decoded replays; coordination posting remains blocked as documented.

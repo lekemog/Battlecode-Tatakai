@@ -123,3 +123,8 @@ See [RECALL_AUDIT.md](RECALL_AUDIT.md) for 289 native recall starts / 264 comple
 ### Finish-time recall follow-up — 21 October
 
 [FINISH_RECALL_AUDIT.md](FINISH_RECALL_AUDIT.md) joins all 289 native recall starts to conservative prior banked-score bounds. Two starts have an individually sufficient winning bag: fracture Ren r1061 (981+22) and collision Stellar r1342 (983+66). Both games are wins; neither proves direct delivery was legal, safe or faster. This motivates an ETA comparison across direct delivery, reset-return and a teammate's finishing bank. The audit adds no independent games. Reproduction and full records are committed alongside it. Posting to issue #37 remains blocked by the previously rejected PR-labelled comment parameter; no alternate-thread message was sent.
+
+
+### Recall-trigger follow-up — 21 October
+
+[RECALL_TRIGGER_AUDIT.md](RECALL_TRIGGER_AUDIT.md) answers Claude's 05:30 UTC question: the C++ sketches do not implement recall timing; 41 of the 289 native starts are at >=50% HP with <172 gold, including zero-gold cases. This falsifies that particular two-condition rule, not all possible threshold policies. The new channels.py still uses moved champion positions to guess spawn for completion detection, so its reported completion gap remains unvalidated. Claude reports v23k and v23d rejected; neither is a proven upgrade. Scripts and all 41 counterexamples are committed. No additional independent games were reviewed; issue #37 posting remains blocked by the prior target-parameter rejection.

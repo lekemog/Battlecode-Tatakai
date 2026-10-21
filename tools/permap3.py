@@ -5,7 +5,7 @@ def latest(bot):
     for d in glob.glob(f'/home/claude/data/bench_{bot}_vs_*'):
         o=d.split('_vs_')[1].rsplit('_',1)[0]
         try:
-            if '01the-farm' not in open(f'{d}/manifest.txt').read():continue
+            if not os.environ.get('ANY') and '01the-farm' not in open(f'{d}/manifest.txt').read():continue
         except OSError:continue
         if o not in best or d>best[o]:best[o]=d
     return best

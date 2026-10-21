@@ -1,0 +1,53 @@
+{
+  "match_id": "d148b5ea-d71d-4480-bff4-0fba938d6429",
+  "replay_sha256": "23b0a77455ca5adaace65c8680d29c200aa8707f1478cc1734b5549342a601d4",
+  "source_engine": "v1_0_1",
+  "snapshot_round": 800,
+  "rows": [
+    {
+      "entity": 0,
+      "team": 0,
+      "type": 12,
+      "focus": 568,
+      "old_modifier": 1.75,
+      "new_modifier": 1.5,
+      "old_raw": 994,
+      "new_raw": 852
+    },
+    {
+      "entity": 2,
+      "team": 0,
+      "type": 9,
+      "focus": 244,
+      "old_modifier": 1.25,
+      "new_modifier": 0.75,
+      "old_raw": 305,
+      "new_raw": 183
+    },
+    {
+      "entity": 6,
+      "team": 1,
+      "type": 12,
+      "focus": 988,
+      "old_modifier": 1.75,
+      "new_modifier": 1.5,
+      "old_raw": 1729,
+      "new_raw": 1482
+    },
+    {
+      "entity": 7,
+      "team": 1,
+      "type": 9,
+      "focus": 199,
+      "old_modifier": 1.25,
+      "new_modifier": 0.75,
+      "old_raw": 248.75,
+      "new_raw": 149.25
+    }
+  ],
+  "limits": [
+    "Arithmetic at fixed old-snapshot focus, not a 1.0.2 replay or simulated outcome.",
+    "No shields, mitigation, HoR passive, stun, sequencing or changed purchases included.",
+    "All five reviewed games remain engine 1.0.1; zero new independently decoded games."
+  ]
+}

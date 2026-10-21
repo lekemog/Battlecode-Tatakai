@@ -193,3 +193,38 @@ h_vatsal v24u TOTAL 4  margin +731
 h_photon v24u TOTAL 4  margin +612
 h_apex v24u TOTAL 4  margin +578
 GAUNTLET v24u wins 23 / 238 margin 2400
+x_daniel8 v24t TOTAL 51  margin +282
+x_de41h4 v24t TOTAL 44  margin +181
+h_mohnish v24t TOTAL 45  margin +240
+h_deysag v24t TOTAL 54  margin +369
+h_vatsal v24t TOTAL 68  margin +585
+h_photon v24t TOTAL 69  margin +714
+h_apex v24t TOTAL 69  margin +709
+GAUNTLET v24t wins 400 / 238 margin 3080
+== v24s full 7-opp (GPT opponent-response port on v24p, Claude-tuned; s=learned t=fixed)
+x_daniel8 v24s TOTAL 46  margin +205
+x_de41h4 v24s TOTAL 45  margin +201
+h_mohnish v24s TOTAL 41  margin +190
+h_deysag v24s TOTAL 56  margin +422
+h_vatsal v24s TOTAL 69  margin +632
+h_photon v24s TOTAL 67  margin +691
+h_apex v24s TOTAL 69  margin +702
+GAUNTLET v24s wins 393 / 238 margin 3043
+== v24v full 7-opp pool4
+x_daniel8 v24v TOTAL 54  margin +256
+x_de41h4 v24v TOTAL 46  margin +176
+h_mohnish v24v TOTAL 52  margin +251
+h_deysag v24v TOTAL 62  margin +451
+h_vatsal v24v TOTAL 72  margin +671
+h_photon v24v TOTAL 70  margin +685
+h_apex v24v TOTAL 74  margin +715
+GAUNTLET v24v wins 430 / 238 margin 3205
+== v24u full 7-opp pool4
+x_daniel8 v24u TOTAL 50  margin +207
+x_de41h4 v24u TOTAL 49  margin +253
+h_mohnish v24u TOTAL 50  margin +229
+h_deysag v24u TOTAL 61  margin +445
+h_vatsal v24u TOTAL 71  margin +667
+h_photon v24u TOTAL 72  margin +686
+h_apex v24u TOTAL 73  margin +739
+GAUNTLET v24u wins 426 / 238 margin 3226

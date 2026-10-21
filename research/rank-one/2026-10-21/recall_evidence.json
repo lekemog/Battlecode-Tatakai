@@ -1,0 +1,7015 @@
+[
+  {
+    "match_id": "3a6c4ece-f962-4241-9369-234a5939d6a1",
+    "engine": "v1_0_1",
+    "final_round": 1067,
+    "replay_sha256": "acffacbc2106d34c25bc805c2b337f88a660b23079322b669699d2996b077adc",
+    "starts": 57,
+    "completions": 56,
+    "manual_cancellations": 1,
+    "damage_interruptions": 0,
+    "hp_median": 0.2714285714285714,
+    "high_hp_starts": 7,
+    "starts_with_gems": 23,
+    "home_timer_starts": 12,
+    "recalls": [
+      {
+        "round": 41,
+        "input": 1012,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 850,
+        "max_hp": 1000,
+        "gold": 210,
+        "gems": 30,
+        "position": {
+          "x": 44,
+          "y": 45
+        },
+        "timer": 5,
+        "end_round": 46,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 103,
+        "input": 2514,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 260,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 19,
+          "y": 46
+        },
+        "timer": 5,
+        "end_round": 108,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 157,
+        "input": 3758,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 180,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 23,
+          "y": 65
+        },
+        "timer": 5,
+        "end_round": 162,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 158,
+        "input": 3774,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 316,
+        "max_hp": 1000,
+        "gold": 20,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 163,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 58,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 188,
+        "input": 4358,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 630,
+        "max_hp": 750,
+        "gold": 310,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 34
+        },
+        "timer": 5,
+        "end_round": 193,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 200,
+        "input": 4617,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 200,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 42,
+          "y": 53
+        },
+        "timer": 5,
+        "end_round": 205,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 237,
+        "input": 5463,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 860,
+        "max_hp": 1000,
+        "gold": 344,
+        "gems": 34,
+        "position": {
+          "x": 44,
+          "y": 45
+        },
+        "timer": 5,
+        "end_round": 242,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 34
+      },
+      {
+        "round": 242,
+        "input": 5587,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 220,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 39,
+          "y": 42
+        },
+        "timer": 5,
+        "end_round": 245,
+        "end_kind": 16,
+        "end_timer": 2,
+        "completed": false,
+        "end_position": {
+          "x": 39,
+          "y": 42
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 245,
+        "input": 5655,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 220,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 41,
+          "y": 40
+        },
+        "timer": 5,
+        "end_round": 250,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 272,
+        "input": 6267,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 220,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 17,
+          "y": 61
+        },
+        "timer": 5,
+        "end_round": 277,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 15
+      },
+      {
+        "round": 320,
+        "input": 7363,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 180,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 325,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 342,
+        "input": 7882,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 120,
+        "max_hp": 600,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 347,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 359,
+        "input": 8298,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 220,
+        "max_hp": 1200,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 364,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 374,
+        "input": 8634,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1108,
+        "max_hp": 1700,
+        "gold": 386,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 34
+        },
+        "timer": 3,
+        "end_round": 377,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 374,
+        "input": 8640,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 398,
+        "max_hp": 1300,
+        "gold": 40,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 379,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 389,
+        "input": 8978,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 510,
+        "max_hp": 750,
+        "gold": 228,
+        "gems": 19,
+        "position": {
+          "x": 17,
+          "y": 61
+        },
+        "timer": 5,
+        "end_round": 394,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 19
+      },
+      {
+        "round": 422,
+        "input": 9672,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1784,
+        "max_hp": 2000,
+        "gold": 278,
+        "gems": 30,
+        "position": {
+          "x": 44,
+          "y": 45
+        },
+        "timer": 3,
+        "end_round": 425,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 431,
+        "input": 9883,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 380,
+        "max_hp": 1400,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 33,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 436,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 444,
+        "input": 10173,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 255,
+        "max_hp": 1275,
+        "gold": 8,
+        "gems": 19,
+        "position": {
+          "x": 35,
+          "y": 41
+        },
+        "timer": 3,
+        "end_round": 447,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 19
+      },
+      {
+        "round": 508,
+        "input": 11693,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 1400,
+        "max_hp": 1400,
+        "gold": 200,
+        "gems": 0,
+        "position": {
+          "x": 31,
+          "y": 36
+        },
+        "timer": 5,
+        "end_round": 513,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 517,
+        "input": 11914,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 180,
+        "max_hp": 900,
+        "gold": 130,
+        "gems": 15,
+        "position": {
+          "x": 19,
+          "y": 45
+        },
+        "timer": 5,
+        "end_round": 522,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 15
+      },
+      {
+        "round": 518,
+        "input": 11931,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 400,
+        "max_hp": 1200,
+        "gold": 60,
+        "gems": 4,
+        "position": {
+          "x": 18,
+          "y": 47
+        },
+        "timer": 5,
+        "end_round": 523,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 58,
+          "y": 69
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 562,
+        "input": 12923,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 538.94921875,
+        "max_hp": 2000,
+        "gold": 368,
+        "gems": 0,
+        "position": {
+          "x": 18,
+          "y": 41
+        },
+        "timer": 3,
+        "end_round": 565,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 566,
+        "input": 13022,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 120,
+        "max_hp": 600,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 18,
+          "y": 41
+        },
+        "timer": 5,
+        "end_round": 571,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 572,
+        "input": 13167,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 240,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 15,
+        "position": {
+          "x": 18,
+          "y": 41
+        },
+        "timer": 5,
+        "end_round": 577,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 15
+      },
+      {
+        "round": 593,
+        "input": 13705,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 400,
+        "max_hp": 1300,
+        "gold": 20,
+        "gems": 4,
+        "position": {
+          "x": 27,
+          "y": 41
+        },
+        "timer": 5,
+        "end_round": 598,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 606,
+        "input": 14001,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 334,
+        "max_hp": 1900,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 611,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 609,
+        "input": 14063,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 795,
+        "max_hp": 1275,
+        "gold": 536,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 36
+        },
+        "timer": 3,
+        "end_round": 612,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 58,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 625,
+        "input": 14446,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1838,
+        "max_hp": 2000,
+        "gold": 184,
+        "gems": 15,
+        "position": {
+          "x": 17,
+          "y": 61
+        },
+        "timer": 3,
+        "end_round": 628,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 15
+      },
+      {
+        "round": 648,
+        "input": 14964,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 1432,
+        "max_hp": 1900,
+        "gold": 220,
+        "gems": 30,
+        "position": {
+          "x": 44,
+          "y": 46
+        },
+        "timer": 5,
+        "end_round": 653,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 656,
+        "input": 15153,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 380,
+        "max_hp": 1300,
+        "gold": 10,
+        "gems": 4,
+        "position": {
+          "x": 39,
+          "y": 42
+        },
+        "timer": 5,
+        "end_round": 661,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 688,
+        "input": 15867,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 240,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 15,
+        "position": {
+          "x": 14,
+          "y": 51
+        },
+        "timer": 5,
+        "end_round": 693,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 15
+      },
+      {
+        "round": 690,
+        "input": 15902,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 100,
+        "max_hp": 600,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 26,
+          "y": 60
+        },
+        "timer": 5,
+        "end_round": 695,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 2
+      },
+      {
+        "round": 693,
+        "input": 15957,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 999.780029296875,
+        "max_hp": 1500,
+        "gold": 256,
+        "gems": 0,
+        "position": {
+          "x": 31,
+          "y": 36
+        },
+        "timer": 3,
+        "end_round": 696,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 58,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 701,
+        "input": 16132,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 463.025146484375,
+        "max_hp": 2000,
+        "gold": 124,
+        "gems": 0,
+        "position": {
+          "x": 18,
+          "y": 41
+        },
+        "timer": 3,
+        "end_round": 704,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 722,
+        "input": 16579,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 40,
+        "max_hp": 1300,
+        "gold": 0,
+        "gems": 4,
+        "position": {
+          "x": 18,
+          "y": 41
+        },
+        "timer": 5,
+        "end_round": 727,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 732,
+        "input": 16795,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 442,
+        "max_hp": 1900,
+        "gold": 40,
+        "gems": 0,
+        "position": {
+          "x": 18,
+          "y": 41
+        },
+        "timer": 5,
+        "end_round": 737,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 754,
+        "input": 17292,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 180,
+        "max_hp": 600,
+        "gold": 20,
+        "gems": 2,
+        "position": {
+          "x": 19,
+          "y": 42
+        },
+        "timer": 5,
+        "end_round": 759,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 2
+      },
+      {
+        "round": 772,
+        "input": 17740,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 180,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 777,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 779,
+        "input": 17915,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 550,
+        "max_hp": 1900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 42,
+          "y": 53
+        },
+        "timer": 5,
+        "end_round": 784,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 792,
+        "input": 18237,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 120,
+        "max_hp": 600,
+        "gold": 10,
+        "gems": 2,
+        "position": {
+          "x": 42,
+          "y": 53
+        },
+        "timer": 5,
+        "end_round": 797,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 2
+      },
+      {
+        "round": 793,
+        "input": 18258,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 276,
+        "max_hp": 1500,
+        "gold": 402,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 39
+        },
+        "timer": 3,
+        "end_round": 796,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 794,
+        "input": 18285,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 160,
+        "max_hp": 1300,
+        "gold": 0,
+        "gems": 4,
+        "position": {
+          "x": 23,
+          "y": 65
+        },
+        "timer": 5,
+        "end_round": 799,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 805,
+        "input": 18544,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 200,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 43,
+          "y": 52
+        },
+        "timer": 5,
+        "end_round": 810,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 826,
+        "input": 18968,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 1540,
+        "max_hp": 1900,
+        "gold": 210,
+        "gems": 30,
+        "position": {
+          "x": 44,
+          "y": 45
+        },
+        "timer": 5,
+        "end_round": 831,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 854,
+        "input": 19600,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 582,
+        "max_hp": 1500,
+        "gold": 242,
+        "gems": 0,
+        "position": {
+          "x": 31,
+          "y": 36
+        },
+        "timer": 3,
+        "end_round": 857,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 855,
+        "input": 19627,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 60,
+        "max_hp": 600,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 860,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 895,
+        "input": 20523,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 360,
+        "max_hp": 900,
+        "gold": 288,
+        "gems": 37,
+        "position": {
+          "x": 20,
+          "y": 46
+        },
+        "timer": 5,
+        "end_round": 900,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 37
+      },
+      {
+        "round": 898,
+        "input": 20587,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 280,
+        "max_hp": 1900,
+        "gold": 0,
+        "gems": 30,
+        "position": {
+          "x": 12,
+          "y": 42
+        },
+        "timer": 5,
+        "end_round": 903,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 919,
+        "input": 21095,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 120,
+        "max_hp": 1300,
+        "gold": 0,
+        "gems": 4,
+        "position": {
+          "x": 12,
+          "y": 43
+        },
+        "timer": 5,
+        "end_round": 924,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 958,
+        "input": 21983,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 180,
+        "max_hp": 600,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 20,
+          "y": 42
+        },
+        "timer": 5,
+        "end_round": 963,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 964,
+        "input": 22113,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 420,
+        "max_hp": 1500,
+        "gold": 22,
+        "gems": 0,
+        "position": {
+          "x": 20,
+          "y": 42
+        },
+        "timer": 3,
+        "end_round": 967,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 970,
+        "input": 22250,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1460,
+        "max_hp": 2000,
+        "gold": 374,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 34
+        },
+        "timer": 3,
+        "end_round": 973,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 986,
+        "input": 22648,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 160,
+        "max_hp": 1300,
+        "gold": 0,
+        "gems": 4,
+        "position": {
+          "x": 23,
+          "y": 65
+        },
+        "timer": 5,
+        "end_round": 991,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 999,
+        "input": 22953,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 180,
+        "max_hp": 600,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 43,
+          "y": 48
+        },
+        "timer": 5,
+        "end_round": 1004,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1009,
+        "input": 23179,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 604,
+        "max_hp": 1900,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 1014,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1061,
+        "input": 24227,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 1486,
+        "max_hp": 1900,
+        "gold": 90,
+        "gems": 22,
+        "position": {
+          "x": 58,
+          "y": 36
+        },
+        "timer": 5,
+        "end_round": 1066,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 69
+        },
+        "end_gems": 22
+      }
+    ]
+  },
+  {
+    "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+    "engine": "v1_0_1",
+    "final_round": 1370,
+    "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+    "starts": 57,
+    "completions": 56,
+    "manual_cancellations": 1,
+    "damage_interruptions": 0,
+    "hp_median": 0.5587515869140625,
+    "high_hp_starts": 17,
+    "starts_with_gems": 47,
+    "home_timer_starts": 32,
+    "recalls": [
+      {
+        "round": 39,
+        "input": 516,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 730,
+        "max_hp": 750,
+        "gold": 220,
+        "gems": 8,
+        "position": {
+          "x": 17,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 44,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 8
+      },
+      {
+        "round": 45,
+        "input": 592,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 400,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 16,
+          "y": 38
+        },
+        "timer": 5,
+        "end_round": 50,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 62,
+        "input": 811,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 380,
+        "max_hp": 1000,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 36
+        },
+        "timer": 5,
+        "end_round": 67,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 118,
+        "input": 1524,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 80,
+        "max_hp": 750,
+        "gold": 334,
+        "gems": 56,
+        "position": {
+          "x": 18,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 123,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 56
+      },
+      {
+        "round": 122,
+        "input": 1577,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 355,
+        "max_hp": 900,
+        "gold": 100,
+        "gems": 4,
+        "position": {
+          "x": 17,
+          "y": 28
+        },
+        "timer": 5,
+        "end_round": 127,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 135,
+        "input": 1743,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 290,
+        "max_hp": 1000,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 15,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 140,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 2
+      },
+      {
+        "round": 188,
+        "input": 2353,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 750,
+        "max_hp": 1350,
+        "gold": 148,
+        "gems": 18,
+        "position": {
+          "x": 24,
+          "y": 25
+        },
+        "timer": 3,
+        "end_round": 189,
+        "end_kind": 16,
+        "end_timer": 2,
+        "completed": false,
+        "end_position": {
+          "x": 24,
+          "y": 25
+        },
+        "end_gems": 18
+      },
+      {
+        "round": 191,
+        "input": 2389,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 640,
+        "max_hp": 1350,
+        "gold": 148,
+        "gems": 18,
+        "position": {
+          "x": 24,
+          "y": 26
+        },
+        "timer": 3,
+        "end_round": 194,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 18
+      },
+      {
+        "round": 196,
+        "input": 2471,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 424,
+        "max_hp": 1000,
+        "gold": 120,
+        "gems": 17,
+        "position": {
+          "x": 20,
+          "y": 22
+        },
+        "timer": 5,
+        "end_round": 201,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 17
+      },
+      {
+        "round": 232,
+        "input": 2884,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1446,
+        "max_hp": 1500,
+        "gold": 196,
+        "gems": 26,
+        "position": {
+          "x": 14,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 235,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 26
+      },
+      {
+        "round": 273,
+        "input": 3356,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 651.9500122070312,
+        "max_hp": 1000,
+        "gold": 120,
+        "gems": 28,
+        "position": {
+          "x": 28,
+          "y": 17
+        },
+        "timer": 5,
+        "end_round": 278,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 28
+      },
+      {
+        "round": 316,
+        "input": 3889,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 609.349853515625,
+        "max_hp": 1500,
+        "gold": 40,
+        "gems": 0,
+        "position": {
+          "x": 8,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 321,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 325,
+        "input": 3997,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 627.5,
+        "max_hp": 1000,
+        "gold": 72,
+        "gems": 32,
+        "position": {
+          "x": 7,
+          "y": 38
+        },
+        "timer": 5,
+        "end_round": 330,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 32
+      },
+      {
+        "round": 360,
+        "input": 4439,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 491.799560546875,
+        "max_hp": 1600,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 18,
+          "y": 23
+        },
+        "timer": 5,
+        "end_round": 365,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 397,
+        "input": 4885,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 562.738525390625,
+        "max_hp": 1600,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 21,
+          "y": 21
+        },
+        "timer": 5,
+        "end_round": 402,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 486,
+        "input": 5915,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 761.5872192382812,
+        "max_hp": 1600,
+        "gold": 162,
+        "gems": 10,
+        "position": {
+          "x": 15,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 489,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 10
+      },
+      {
+        "round": 486,
+        "input": 5919,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 896.07373046875,
+        "max_hp": 1600,
+        "gold": 160,
+        "gems": 9,
+        "position": {
+          "x": 15,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 491,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 9
+      },
+      {
+        "round": 527,
+        "input": 6396,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1500,
+        "max_hp": 1500,
+        "gold": 232,
+        "gems": 19,
+        "position": {
+          "x": 21,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 530,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 19
+      },
+      {
+        "round": 544,
+        "input": 6600,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1784,
+        "max_hp": 2000,
+        "gold": 192,
+        "gems": 32,
+        "position": {
+          "x": 29,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 547,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 32
+      },
+      {
+        "round": 548,
+        "input": 6653,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 550,
+        "max_hp": 1900,
+        "gold": 10,
+        "gems": 9,
+        "position": {
+          "x": 32,
+          "y": 38
+        },
+        "timer": 5,
+        "end_round": 553,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 9
+      },
+      {
+        "round": 577,
+        "input": 7001,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 980.1102905273438,
+        "max_hp": 1900,
+        "gold": 10,
+        "gems": 9,
+        "position": {
+          "x": 15,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 582,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 9
+      },
+      {
+        "round": 582,
+        "input": 7060,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 528,
+        "max_hp": 1500,
+        "gold": 142,
+        "gems": 23,
+        "position": {
+          "x": 32,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 585,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 23
+      },
+      {
+        "round": 596,
+        "input": 7258,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 232.9136505126953,
+        "max_hp": 2000,
+        "gold": 228,
+        "gems": 36,
+        "position": {
+          "x": 20,
+          "y": 29
+        },
+        "timer": 3,
+        "end_round": 599,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 36
+      },
+      {
+        "round": 631,
+        "input": 7649,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 766,
+        "max_hp": 1900,
+        "gold": 10,
+        "gems": 9,
+        "position": {
+          "x": 24,
+          "y": 38
+        },
+        "timer": 5,
+        "end_round": 636,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 9
+      },
+      {
+        "round": 632,
+        "input": 7651,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1428,
+        "max_hp": 1500,
+        "gold": 238,
+        "gems": 31,
+        "position": {
+          "x": 14,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 635,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 31
+      },
+      {
+        "round": 650,
+        "input": 7875,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1117.503173828125,
+        "max_hp": 2000,
+        "gold": 198,
+        "gems": 51,
+        "position": {
+          "x": 15,
+          "y": 33
+        },
+        "timer": 3,
+        "end_round": 653,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 51
+      },
+      {
+        "round": 659,
+        "input": 7994,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 465.7730407714844,
+        "max_hp": 1500,
+        "gold": 28,
+        "gems": 31,
+        "position": {
+          "x": 14,
+          "y": 29
+        },
+        "timer": 3,
+        "end_round": 662,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 31
+      },
+      {
+        "round": 694,
+        "input": 8410,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1482,
+        "max_hp": 1500,
+        "gold": 172,
+        "gems": 35,
+        "position": {
+          "x": 14,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 697,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 35
+      },
+      {
+        "round": 731,
+        "input": 8880,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 420.8624267578125,
+        "max_hp": 1900,
+        "gold": 110,
+        "gems": 20,
+        "position": {
+          "x": 31,
+          "y": 38
+        },
+        "timer": 5,
+        "end_round": 736,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 20
+      },
+      {
+        "round": 739,
+        "input": 8970,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1446,
+        "max_hp": 1500,
+        "gold": 286,
+        "gems": 72,
+        "position": {
+          "x": 28,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 742,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 72
+      },
+      {
+        "round": 744,
+        "input": 9018,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1427.0810546875,
+        "max_hp": 2000,
+        "gold": 162,
+        "gems": 11,
+        "position": {
+          "x": 19,
+          "y": 26
+        },
+        "timer": 3,
+        "end_round": 747,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 11
+      },
+      {
+        "round": 774,
+        "input": 9392,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 2000,
+        "max_hp": 2000,
+        "gold": 228,
+        "gems": 19,
+        "position": {
+          "x": 14,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 777,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 19
+      },
+      {
+        "round": 805,
+        "input": 9777,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 337.9114074707031,
+        "max_hp": 1900,
+        "gold": 200,
+        "gems": 26,
+        "position": {
+          "x": 18,
+          "y": 23
+        },
+        "timer": 5,
+        "end_round": 810,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 26
+      },
+      {
+        "round": 829,
+        "input": 10033,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 966.794921875,
+        "max_hp": 1500,
+        "gold": 232,
+        "gems": 37,
+        "position": {
+          "x": 23,
+          "y": 22
+        },
+        "timer": 3,
+        "end_round": 832,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 37
+      },
+      {
+        "round": 836,
+        "input": 10103,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1514,
+        "max_hp": 2000,
+        "gold": 474,
+        "gems": 100,
+        "position": {
+          "x": 36,
+          "y": 36
+        },
+        "timer": 3,
+        "end_round": 839,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 100
+      },
+      {
+        "round": 857,
+        "input": 10326,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 766,
+        "max_hp": 1900,
+        "gold": 20,
+        "gems": 26,
+        "position": {
+          "x": 28,
+          "y": 37
+        },
+        "timer": 5,
+        "end_round": 862,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 48
+      },
+      {
+        "round": 861,
+        "input": 10356,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1041.9427490234375,
+        "max_hp": 2000,
+        "gold": 144,
+        "gems": 100,
+        "position": {
+          "x": 15,
+          "y": 25
+        },
+        "timer": 3,
+        "end_round": 864,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 100
+      },
+      {
+        "round": 864,
+        "input": 10379,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1500,
+        "max_hp": 1500,
+        "gold": 190,
+        "gems": 45,
+        "position": {
+          "x": 14,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 867,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 45
+      },
+      {
+        "round": 919,
+        "input": 11002,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1099.0550537109375,
+        "max_hp": 2000,
+        "gold": 192,
+        "gems": 37,
+        "position": {
+          "x": 21,
+          "y": 2
+        },
+        "timer": 3,
+        "end_round": 922,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 37
+      },
+      {
+        "round": 928,
+        "input": 11091,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1410,
+        "max_hp": 1500,
+        "gold": 190,
+        "gems": 0,
+        "position": {
+          "x": 26,
+          "y": 21
+        },
+        "timer": 3,
+        "end_round": 931,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 933,
+        "input": 11155,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 555.93994140625,
+        "max_hp": 1900,
+        "gold": 110,
+        "gems": 0,
+        "position": {
+          "x": 32,
+          "y": 4
+        },
+        "timer": 5,
+        "end_round": 938,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 959,
+        "input": 11389,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1500,
+        "max_hp": 1500,
+        "gold": 178,
+        "gems": 13,
+        "position": {
+          "x": 19,
+          "y": 27
+        },
+        "timer": 3,
+        "end_round": 962,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 13
+      },
+      {
+        "round": 979,
+        "input": 11646,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 1144,
+        "max_hp": 1900,
+        "gold": 170,
+        "gems": 17,
+        "position": {
+          "x": 21,
+          "y": 37
+        },
+        "timer": 5,
+        "end_round": 984,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 17
+      },
+      {
+        "round": 999,
+        "input": 11857,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1176,
+        "max_hp": 1500,
+        "gold": 160,
+        "gems": 35,
+        "position": {
+          "x": 28,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 1002,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 35
+      },
+      {
+        "round": 1031,
+        "input": 12216,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 927.77490234375,
+        "max_hp": 1900,
+        "gold": 100,
+        "gems": 19,
+        "position": {
+          "x": 19,
+          "y": 22
+        },
+        "timer": 5,
+        "end_round": 1036,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 19
+      },
+      {
+        "round": 1085,
+        "input": 12855,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1568,
+        "max_hp": 2000,
+        "gold": 480,
+        "gems": 81,
+        "position": {
+          "x": 36,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 1088,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 81
+      },
+      {
+        "round": 1097,
+        "input": 13006,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 226,
+        "max_hp": 1900,
+        "gold": 10,
+        "gems": 19,
+        "position": {
+          "x": 29,
+          "y": 37
+        },
+        "timer": 5,
+        "end_round": 1102,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 41
+      },
+      {
+        "round": 1151,
+        "input": 13612,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1500,
+        "max_hp": 1500,
+        "gold": 190,
+        "gems": 8,
+        "position": {
+          "x": 14,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 1154,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 8
+      },
+      {
+        "round": 1158,
+        "input": 13686,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1498.385009765625,
+        "max_hp": 2000,
+        "gold": 240,
+        "gems": 0,
+        "position": {
+          "x": 26,
+          "y": 19
+        },
+        "timer": 3,
+        "end_round": 1161,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1195,
+        "input": 14097,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1500,
+        "max_hp": 1500,
+        "gold": 274,
+        "gems": 45,
+        "position": {
+          "x": 30,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 1198,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 45
+      },
+      {
+        "round": 1201,
+        "input": 14150,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1946,
+        "max_hp": 2000,
+        "gold": 324,
+        "gems": 66,
+        "position": {
+          "x": 36,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 1204,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 66
+      },
+      {
+        "round": 1234,
+        "input": 14559,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 1380.52001953125,
+        "max_hp": 1900,
+        "gold": 180,
+        "gems": 11,
+        "position": {
+          "x": 23,
+          "y": 22
+        },
+        "timer": 5,
+        "end_round": 1239,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 11
+      },
+      {
+        "round": 1264,
+        "input": 14918,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 77.4278564453125,
+        "max_hp": 2000,
+        "gold": 192,
+        "gems": 56,
+        "position": {
+          "x": 18,
+          "y": 23
+        },
+        "timer": 3,
+        "end_round": 1267,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 56
+      },
+      {
+        "round": 1271,
+        "input": 14997,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1500,
+        "max_hp": 1500,
+        "gold": 184,
+        "gems": 22,
+        "position": {
+          "x": 28,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 1274,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 22
+      },
+      {
+        "round": 1287,
+        "input": 15188,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 280,
+        "max_hp": 1900,
+        "gold": 0,
+        "gems": 11,
+        "position": {
+          "x": 22,
+          "y": 21
+        },
+        "timer": 5,
+        "end_round": 1292,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 11
+      },
+      {
+        "round": 1308,
+        "input": 15375,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 2000,
+        "max_hp": 2000,
+        "gold": 180,
+        "gems": 0,
+        "position": {
+          "x": 26,
+          "y": 19
+        },
+        "timer": 3,
+        "end_round": 1311,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1342,
+        "input": 15744,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1392,
+        "max_hp": 1500,
+        "gold": 400,
+        "gems": 66,
+        "position": {
+          "x": 37,
+          "y": 36
+        },
+        "timer": 3,
+        "end_round": 1345,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 3,
+          "y": 39
+        },
+        "end_gems": 66
+      }
+    ]
+  },
+  {
+    "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+    "engine": "v1_0_1",
+    "final_round": 1863,
+    "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+    "starts": 65,
+    "completions": 55,
+    "manual_cancellations": 8,
+    "damage_interruptions": 2,
+    "hp_median": 0.4714285714285714,
+    "high_hp_starts": 5,
+    "starts_with_gems": 33,
+    "home_timer_starts": 25,
+    "recalls": [
+      {
+        "round": 24,
+        "input": 358,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 540,
+        "max_hp": 1000,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 29,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 24,
+        "input": 363,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 520,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 15
+        },
+        "timer": 5,
+        "end_round": 29,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 27,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 29,
+        "input": 417,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 350,
+        "max_hp": 750,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 16
+        },
+        "timer": 5,
+        "end_round": 34,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 47,
+        "input": 667,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 450,
+        "max_hp": 900,
+        "gold": 100,
+        "gems": 0,
+        "position": {
+          "x": 19,
+          "y": 17
+        },
+        "timer": 5,
+        "end_round": 52,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 53,
+        "input": 741,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 330,
+        "max_hp": 750,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 17,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 58,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 26
+      },
+      {
+        "round": 96,
+        "input": 1244,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 537.6666870117188,
+        "max_hp": 1200,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 15,
+          "y": 9
+        },
+        "timer": 5,
+        "end_round": 99,
+        "end_kind": 16,
+        "end_timer": 2,
+        "completed": false,
+        "end_position": {
+          "x": 15,
+          "y": 9
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 102,
+        "input": 1324,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 624.5492553710938,
+        "max_hp": 1000,
+        "gold": 60,
+        "gems": 4,
+        "position": {
+          "x": 19,
+          "y": 17
+        },
+        "timer": 5,
+        "end_round": 107,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 113,
+        "input": 1478,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 147,
+        "max_hp": 750,
+        "gold": 72,
+        "gems": 0,
+        "position": {
+          "x": 23,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 118,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 134,
+        "input": 1751,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 590.2340087890625,
+        "max_hp": 1000,
+        "gold": 0,
+        "gems": 4,
+        "position": {
+          "x": 20,
+          "y": 19
+        },
+        "timer": 5,
+        "end_round": 139,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 138,
+        "input": 1798,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 330,
+        "max_hp": 750,
+        "gold": 12,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 143,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 171,
+        "input": 2215,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 136.23574829101562,
+        "max_hp": 1000,
+        "gold": 0,
+        "gems": 4,
+        "position": {
+          "x": 22,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 176,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 182,
+        "input": 2346,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 658.0855712890625,
+        "max_hp": 1200,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 21,
+          "y": 18
+        },
+        "timer": 5,
+        "end_round": 183,
+        "end_kind": 5,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 21,
+          "y": 18
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 186,
+        "input": 2400,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 608.1251831054688,
+        "max_hp": 1200,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 15
+        },
+        "timer": 5,
+        "end_round": 187,
+        "end_kind": 16,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 22,
+          "y": 15
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 191,
+        "input": 2461,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 608.1251831054688,
+        "max_hp": 1200,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 26,
+          "y": 11
+        },
+        "timer": 5,
+        "end_round": 196,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 215,
+        "input": 2727,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 576.0020751953125,
+        "max_hp": 1000,
+        "gold": 0,
+        "gems": 4,
+        "position": {
+          "x": 21,
+          "y": 18
+        },
+        "timer": 5,
+        "end_round": 220,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 217,
+        "input": 2745,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 600,
+        "max_hp": 1200,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 12
+        },
+        "timer": 5,
+        "end_round": 222,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 239,
+        "input": 3002,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 659.0830688476562,
+        "max_hp": 1200,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "timer": 5,
+        "end_round": 244,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 269,
+        "input": 3387,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 745,
+        "max_hp": 825,
+        "gold": 204,
+        "gems": 4,
+        "position": {
+          "x": 27,
+          "y": 18
+        },
+        "timer": 5,
+        "end_round": 274,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 278,
+        "input": 3493,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 900,
+        "max_hp": 1000,
+        "gold": 210,
+        "gems": 4,
+        "position": {
+          "x": 27,
+          "y": 24
+        },
+        "timer": 5,
+        "end_round": 283,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 285,
+        "input": 3589,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 372.72003173828125,
+        "max_hp": 1200,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 20,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 290,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 304,
+        "input": 3821,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 660,
+        "max_hp": 1200,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 309,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 336,
+        "input": 4235,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 250,
+        "max_hp": 1200,
+        "gold": 85,
+        "gems": 13,
+        "position": {
+          "x": 21,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 341,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 13
+      },
+      {
+        "round": 350,
+        "input": 4397,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 528.753662109375,
+        "max_hp": 1000,
+        "gold": 90,
+        "gems": 0,
+        "position": {
+          "x": 12,
+          "y": 11
+        },
+        "timer": 5,
+        "end_round": 351,
+        "end_kind": 5,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 12,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 361,
+        "input": 4549,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 660,
+        "max_hp": 1400,
+        "gold": 25,
+        "gems": 13,
+        "position": {
+          "x": 22,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 366,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 13
+      },
+      {
+        "round": 395,
+        "input": 4958,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 72.31362915039062,
+        "max_hp": 1400,
+        "gold": 25,
+        "gems": 13,
+        "position": {
+          "x": 16,
+          "y": 10
+        },
+        "timer": 5,
+        "end_round": 397,
+        "end_kind": 16,
+        "end_timer": 3,
+        "completed": false,
+        "end_position": {
+          "x": 16,
+          "y": 10
+        },
+        "end_gems": 13
+      },
+      {
+        "round": 401,
+        "input": 5020,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 72.31362915039062,
+        "max_hp": 1400,
+        "gold": 25,
+        "gems": 13,
+        "position": {
+          "x": 15,
+          "y": 8
+        },
+        "timer": 5,
+        "end_round": 406,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 13
+      },
+      {
+        "round": 443,
+        "input": 5486,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 504,
+        "max_hp": 1200,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 27,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 448,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 478,
+        "input": 5949,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 699.1756591796875,
+        "max_hp": 1400,
+        "gold": 85,
+        "gems": 17,
+        "position": {
+          "x": 26,
+          "y": 10
+        },
+        "timer": 5,
+        "end_round": 483,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 17
+      },
+      {
+        "round": 500,
+        "input": 6267,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 194.5000457763672,
+        "max_hp": 1200,
+        "gold": 120,
+        "gems": 21,
+        "position": {
+          "x": 16,
+          "y": 5
+        },
+        "timer": 5,
+        "end_round": 505,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 21
+      },
+      {
+        "round": 518,
+        "input": 6479,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 751.4201049804688,
+        "max_hp": 1600,
+        "gold": 0,
+        "gems": 21,
+        "position": {
+          "x": 26,
+          "y": 10
+        },
+        "timer": 3,
+        "end_round": 521,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 21
+      },
+      {
+        "round": 543,
+        "input": 6734,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 840.280029296875,
+        "max_hp": 1600,
+        "gold": 0,
+        "gems": 21,
+        "position": {
+          "x": 23,
+          "y": 13
+        },
+        "timer": 3,
+        "end_round": 546,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 21
+      },
+      {
+        "round": 548,
+        "input": 6796,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 449.1921691894531,
+        "max_hp": 1600,
+        "gold": 25,
+        "gems": 17,
+        "position": {
+          "x": 15,
+          "y": 9
+        },
+        "timer": 5,
+        "end_round": 550,
+        "end_kind": 16,
+        "end_timer": 3,
+        "completed": false,
+        "end_position": {
+          "x": 15,
+          "y": 9
+        },
+        "end_gems": 17
+      },
+      {
+        "round": 551,
+        "input": 6830,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 449.1921691894531,
+        "max_hp": 1600,
+        "gold": 25,
+        "gems": 17,
+        "position": {
+          "x": 15,
+          "y": 8
+        },
+        "timer": 5,
+        "end_round": 555,
+        "end_kind": 16,
+        "end_timer": 1,
+        "completed": false,
+        "end_position": {
+          "x": 15,
+          "y": 8
+        },
+        "end_gems": 17
+      },
+      {
+        "round": 556,
+        "input": 6890,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 449.1921691894531,
+        "max_hp": 1600,
+        "gold": 25,
+        "gems": 17,
+        "position": {
+          "x": 16,
+          "y": 7
+        },
+        "timer": 5,
+        "end_round": 561,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 17
+      },
+      {
+        "round": 595,
+        "input": 7427,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 209,
+        "max_hp": 1275,
+        "gold": 24,
+        "gems": 0,
+        "position": {
+          "x": 19,
+          "y": 13
+        },
+        "timer": 3,
+        "end_round": 598,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 677,
+        "input": 8423,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 709.000244140625,
+        "max_hp": 1600,
+        "gold": 25,
+        "gems": 0,
+        "position": {
+          "x": 26,
+          "y": 16
+        },
+        "timer": 5,
+        "end_round": 682,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 691,
+        "input": 8597,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 912.840087890625,
+        "max_hp": 1500,
+        "gold": 6,
+        "gems": 4,
+        "position": {
+          "x": 27,
+          "y": 24
+        },
+        "timer": 3,
+        "end_round": 694,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 719,
+        "input": 8968,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 347.1370849609375,
+        "max_hp": 1600,
+        "gold": 72,
+        "gems": 4,
+        "position": {
+          "x": 19,
+          "y": 12
+        },
+        "timer": 3,
+        "end_round": 721,
+        "end_kind": 16,
+        "end_timer": 1,
+        "completed": false,
+        "end_position": {
+          "x": 19,
+          "y": 12
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 723,
+        "input": 9014,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 347.1370849609375,
+        "max_hp": 1600,
+        "gold": 72,
+        "gems": 4,
+        "position": {
+          "x": 18,
+          "y": 11
+        },
+        "timer": 3,
+        "end_round": 726,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 724,
+        "input": 9033,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 439.4000244140625,
+        "max_hp": 1600,
+        "gold": 85,
+        "gems": 4,
+        "position": {
+          "x": 24,
+          "y": 13
+        },
+        "timer": 5,
+        "end_round": 729,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 731,
+        "input": 9113,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 870.43603515625,
+        "max_hp": 1500,
+        "gold": 6,
+        "gems": 4,
+        "position": {
+          "x": 22,
+          "y": 17
+        },
+        "timer": 3,
+        "end_round": 733,
+        "end_kind": 16,
+        "end_timer": 1,
+        "completed": false,
+        "end_position": {
+          "x": 22,
+          "y": 17
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 748,
+        "input": 9364,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 908.0001220703125,
+        "max_hp": 1800,
+        "gold": 12,
+        "gems": 4,
+        "position": {
+          "x": 25,
+          "y": 13
+        },
+        "timer": 3,
+        "end_round": 751,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 748,
+        "input": 9367,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 911.2000732421875,
+        "max_hp": 1800,
+        "gold": 25,
+        "gems": 4,
+        "position": {
+          "x": 24,
+          "y": 13
+        },
+        "timer": 5,
+        "end_round": 753,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 766,
+        "input": 9583,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1029.3116455078125,
+        "max_hp": 1800,
+        "gold": 12,
+        "gems": 4,
+        "position": {
+          "x": 19,
+          "y": 12
+        },
+        "timer": 3,
+        "end_round": 769,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 769,
+        "input": 9620,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 382.40032958984375,
+        "max_hp": 1500,
+        "gold": 6,
+        "gems": 4,
+        "position": {
+          "x": 24,
+          "y": 12
+        },
+        "timer": 3,
+        "end_round": 772,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 769,
+        "input": 9626,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 676.135498046875,
+        "max_hp": 1800,
+        "gold": 25,
+        "gems": 4,
+        "position": {
+          "x": 24,
+          "y": 13
+        },
+        "timer": 5,
+        "end_round": 774,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 907,
+        "input": 11237,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 617.0999755859375,
+        "max_hp": 1500,
+        "gold": 18,
+        "gems": 0,
+        "position": {
+          "x": 27,
+          "y": 13
+        },
+        "timer": 3,
+        "end_round": 910,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 908,
+        "input": 11244,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1146.5,
+        "max_hp": 2000,
+        "gold": 24,
+        "gems": 0,
+        "position": {
+          "x": 26,
+          "y": 13
+        },
+        "timer": 3,
+        "end_round": 911,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 27,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1003,
+        "input": 12383,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 940.60009765625,
+        "max_hp": 1900,
+        "gold": 25,
+        "gems": 0,
+        "position": {
+          "x": 27,
+          "y": 23
+        },
+        "timer": 5,
+        "end_round": 1008,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1024,
+        "input": 12634,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1304.900146484375,
+        "max_hp": 2000,
+        "gold": 132,
+        "gems": 6,
+        "position": {
+          "x": 23,
+          "y": 25
+        },
+        "timer": 3,
+        "end_round": 1027,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 6
+      },
+      {
+        "round": 1026,
+        "input": 12654,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 987,
+        "max_hp": 1500,
+        "gold": 174,
+        "gems": 2,
+        "position": {
+          "x": 22,
+          "y": 23
+        },
+        "timer": 3,
+        "end_round": 1029,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 2
+      },
+      {
+        "round": 1032,
+        "input": 12740,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 690.1298828125,
+        "max_hp": 1900,
+        "gold": 25,
+        "gems": 0,
+        "position": {
+          "x": 23,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 1037,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1067,
+        "input": 13135,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 1856,
+        "max_hp": 2000,
+        "gold": 192,
+        "gems": 0,
+        "position": {
+          "x": 13,
+          "y": 6
+        },
+        "timer": 3,
+        "end_round": 1070,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1179,
+        "input": 14311,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1334.219970703125,
+        "max_hp": 1500,
+        "gold": 198,
+        "gems": 8,
+        "position": {
+          "x": 25,
+          "y": 20
+        },
+        "timer": 3,
+        "end_round": 1182,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 8
+      },
+      {
+        "round": 1217,
+        "input": 14655,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 996,
+        "max_hp": 1500,
+        "gold": 318,
+        "gems": 34,
+        "position": {
+          "x": 17,
+          "y": 14
+        },
+        "timer": 3,
+        "end_round": 1220,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 34
+      },
+      {
+        "round": 1424,
+        "input": 16725,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 484.63916015625,
+        "max_hp": 1500,
+        "gold": 138,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 11
+        },
+        "timer": 3,
+        "end_round": 1427,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1544,
+        "input": 17882,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 811.159912109375,
+        "max_hp": 2000,
+        "gold": 12,
+        "gems": 0,
+        "position": {
+          "x": 23,
+          "y": 14
+        },
+        "timer": 3,
+        "end_round": 1547,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1566,
+        "input": 18158,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 1048.599853515625,
+        "max_hp": 1900,
+        "gold": 25,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 14
+        },
+        "timer": 5,
+        "end_round": 1571,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1571,
+        "input": 18216,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 763.219970703125,
+        "max_hp": 2000,
+        "gold": 12,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 15
+        },
+        "timer": 3,
+        "end_round": 1574,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1635,
+        "input": 18919,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 351.0150146484375,
+        "max_hp": 1500,
+        "gold": 120,
+        "gems": 0,
+        "position": {
+          "x": 19,
+          "y": 12
+        },
+        "timer": 3,
+        "end_round": 1638,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1733,
+        "input": 19925,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 486.77008056640625,
+        "max_hp": 2000,
+        "gold": 24,
+        "gems": 0,
+        "position": {
+          "x": 27,
+          "y": 17
+        },
+        "timer": 3,
+        "end_round": 1736,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1749,
+        "input": 20114,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1065.840087890625,
+        "max_hp": 1500,
+        "gold": 240,
+        "gems": 30,
+        "position": {
+          "x": 19,
+          "y": 15
+        },
+        "timer": 3,
+        "end_round": 1752,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 1785,
+        "input": 20453,
+        "champion_id": 3,
+        "champion_type": 5,
+        "hp": 1500,
+        "max_hp": 1500,
+        "gold": 180,
+        "gems": 26,
+        "position": {
+          "x": 11,
+          "y": 16
+        },
+        "timer": 3,
+        "end_round": 1788,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 26
+      },
+      {
+        "round": 1819,
+        "input": 20845,
+        "champion_id": 5,
+        "champion_type": 9,
+        "hp": 832.6064453125,
+        "max_hp": 1900,
+        "gold": 25,
+        "gems": 0,
+        "position": {
+          "x": 12,
+          "y": 12
+        },
+        "timer": 5,
+        "end_round": 1820,
+        "end_kind": 16,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 12,
+          "y": 12
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1848,
+        "input": 21171,
+        "champion_id": 4,
+        "champion_type": 12,
+        "hp": 924.0049438476562,
+        "max_hp": 2000,
+        "gold": 24,
+        "gems": 0,
+        "position": {
+          "x": 23,
+          "y": 14
+        },
+        "timer": 3,
+        "end_round": 1851,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 28,
+          "y": 11
+        },
+        "end_gems": 0
+      }
+    ]
+  },
+  {
+    "match_id": "8f0bc4a5-9eb5-426d-a180-fffe6083ad04",
+    "engine": "v1_0_1",
+    "final_round": 1226,
+    "replay_sha256": "3874b867aff9e6f0076cade379875e1da464cbbc056e511c76fd4761531c4887",
+    "starts": 56,
+    "completions": 44,
+    "manual_cancellations": 9,
+    "damage_interruptions": 3,
+    "hp_median": 0.3368047926161024,
+    "high_hp_starts": 9,
+    "starts_with_gems": 17,
+    "home_timer_starts": 12,
+    "recalls": [
+      {
+        "round": 86,
+        "input": 2084,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 275.3079833984375,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 23,
+          "y": 28
+        },
+        "timer": 5,
+        "end_round": 91,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 95,
+        "input": 2313,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 304.9992980957031,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 30,
+          "y": 25
+        },
+        "timer": 5,
+        "end_round": 96,
+        "end_kind": 16,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 30,
+          "y": 25
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 96,
+        "input": 2337,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 304.9992980957031,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 29,
+          "y": 26
+        },
+        "timer": 5,
+        "end_round": 98,
+        "end_kind": 16,
+        "end_timer": 3,
+        "completed": false,
+        "end_position": {
+          "x": 29,
+          "y": 26
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 98,
+        "input": 2387,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 304.9992980957031,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 28,
+          "y": 27
+        },
+        "timer": 5,
+        "end_round": 103,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 103,
+        "input": 2503,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 311.4393005371094,
+        "max_hp": 1000,
+        "gold": 330,
+        "gems": 0,
+        "position": {
+          "x": 35,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 108,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 112,
+        "input": 2720,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 210,
+        "max_hp": 600,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 27,
+          "y": 27
+        },
+        "timer": 5,
+        "end_round": 113,
+        "end_kind": 5,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 27,
+          "y": 27
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 116,
+        "input": 2825,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 165,
+        "max_hp": 600,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 31,
+          "y": 26
+        },
+        "timer": 5,
+        "end_round": 117,
+        "end_kind": 16,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 31,
+          "y": 26
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 124,
+        "input": 3027,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 240,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 58,
+          "y": 54
+        },
+        "timer": 5,
+        "end_round": 129,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 126,
+        "input": 3078,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 65,
+        "max_hp": 600,
+        "gold": 100,
+        "gems": 0,
+        "position": {
+          "x": 31,
+          "y": 27
+        },
+        "timer": 5,
+        "end_round": 129,
+        "end_kind": 16,
+        "end_timer": 2,
+        "completed": false,
+        "end_position": {
+          "x": 31,
+          "y": 27
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 130,
+        "input": 3166,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 65,
+        "max_hp": 600,
+        "gold": 100,
+        "gems": 0,
+        "position": {
+          "x": 29,
+          "y": 25
+        },
+        "timer": 5,
+        "end_round": 135,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 148,
+        "input": 3560,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 330,
+        "max_hp": 1200,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 153,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 152,
+        "input": 3633,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 175,
+        "max_hp": 750,
+        "gold": 120,
+        "gems": 4,
+        "position": {
+          "x": 35,
+          "y": 31
+        },
+        "timer": 5,
+        "end_round": 157,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 184,
+        "input": 4322,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 240,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 35,
+          "y": 35
+        },
+        "timer": 5,
+        "end_round": 189,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 220,
+        "input": 5150,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 240,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 29
+        },
+        "timer": 5,
+        "end_round": 223,
+        "end_kind": 16,
+        "end_timer": 2,
+        "completed": false,
+        "end_position": {
+          "x": 25,
+          "y": 29
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 237,
+        "input": 5553,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 100,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 29
+        },
+        "timer": 5,
+        "end_round": 242,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 246,
+        "input": 5748,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 920,
+        "max_hp": 1100,
+        "gold": 528,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 25
+        },
+        "timer": 5,
+        "end_round": 251,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 273,
+        "input": 6398,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 300,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 58,
+          "y": 54
+        },
+        "timer": 5,
+        "end_round": 278,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 314,
+        "input": 7411,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 200,
+        "max_hp": 600,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 25
+        },
+        "timer": 5,
+        "end_round": 319,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 328,
+        "input": 7720,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 420,
+        "max_hp": 900,
+        "gold": 285,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 24
+        },
+        "timer": 5,
+        "end_round": 333,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 343,
+        "input": 8083,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 240.15000915527344,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 32,
+          "y": 32
+        },
+        "timer": 5,
+        "end_round": 348,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 348,
+        "input": 8190,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 387.40008544921875,
+        "max_hp": 1200,
+        "gold": 165,
+        "gems": 0,
+        "position": {
+          "x": 32,
+          "y": 34
+        },
+        "timer": 5,
+        "end_round": 352,
+        "end_kind": 16,
+        "end_timer": 1,
+        "completed": false,
+        "end_position": {
+          "x": 32,
+          "y": 34
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 355,
+        "input": 8346,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 365.60009765625,
+        "max_hp": 1200,
+        "gold": 165,
+        "gems": 0,
+        "position": {
+          "x": 32,
+          "y": 34
+        },
+        "timer": 5,
+        "end_round": 360,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 360,
+        "input": 8458,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 168.3500213623047,
+        "max_hp": 750,
+        "gold": 60,
+        "gems": 0,
+        "position": {
+          "x": 34,
+          "y": 36
+        },
+        "timer": 5,
+        "end_round": 365,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 440,
+        "input": 10310,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 440,
+        "max_hp": 600,
+        "gold": 175,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 25
+        },
+        "timer": 5,
+        "end_round": 445,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 58,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 441,
+        "input": 10337,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 974,
+        "max_hp": 2000,
+        "gold": 348,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 24
+        },
+        "timer": 3,
+        "end_round": 444,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 465,
+        "input": 10918,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 70,
+        "max_hp": 750,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 1,
+          "y": 58
+        },
+        "timer": 5,
+        "end_round": 470,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 15
+      },
+      {
+        "round": 519,
+        "input": 12173,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1802,
+        "max_hp": 2000,
+        "gold": 270,
+        "gems": 30,
+        "position": {
+          "x": 31,
+          "y": 47
+        },
+        "timer": 3,
+        "end_round": 522,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 523,
+        "input": 12241,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 560,
+        "max_hp": 900,
+        "gold": 170,
+        "gems": 23,
+        "position": {
+          "x": 29,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 524,
+        "end_kind": 5,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 29,
+          "y": 30
+        },
+        "end_gems": 23
+      },
+      {
+        "round": 524,
+        "input": 12278,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 1040,
+        "max_hp": 1800,
+        "gold": 185,
+        "gems": 25,
+        "position": {
+          "x": 29,
+          "y": 31
+        },
+        "timer": 5,
+        "end_round": 528,
+        "end_kind": 16,
+        "end_timer": 1,
+        "completed": false,
+        "end_position": {
+          "x": 29,
+          "y": 31
+        },
+        "end_gems": 25
+      },
+      {
+        "round": 525,
+        "input": 12300,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 540,
+        "max_hp": 900,
+        "gold": 170,
+        "gems": 23,
+        "position": {
+          "x": 29,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 530,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 23
+      },
+      {
+        "round": 529,
+        "input": 12383,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 1020,
+        "max_hp": 1700,
+        "gold": 125,
+        "gems": 23,
+        "position": {
+          "x": 29,
+          "y": 29
+        },
+        "timer": 5,
+        "end_round": 534,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 23
+      },
+      {
+        "round": 541,
+        "input": 12649,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 820,
+        "max_hp": 1800,
+        "gold": 185,
+        "gems": 25,
+        "position": {
+          "x": 30,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 546,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 25
+      },
+      {
+        "round": 547,
+        "input": 12790,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 250,
+        "max_hp": 750,
+        "gold": 6,
+        "gems": 15,
+        "position": {
+          "x": 1,
+          "y": 58
+        },
+        "timer": 5,
+        "end_round": 552,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 661,
+        "input": 15316,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1622,
+        "max_hp": 2000,
+        "gold": 252,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 25
+        },
+        "timer": 3,
+        "end_round": 664,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 679,
+        "input": 15671,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 1594,
+        "max_hp": 1900,
+        "gold": 175,
+        "gems": 4,
+        "position": {
+          "x": 34,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 684,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 747,
+        "input": 17211,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1784,
+        "max_hp": 2000,
+        "gold": 192,
+        "gems": 26,
+        "position": {
+          "x": 17,
+          "y": 43
+        },
+        "timer": 3,
+        "end_round": 750,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 26
+      },
+      {
+        "round": 749,
+        "input": 17260,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 1792,
+        "max_hp": 1900,
+        "gold": 355,
+        "gems": 0,
+        "position": {
+          "x": 36,
+          "y": 36
+        },
+        "timer": 5,
+        "end_round": 754,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 765,
+        "input": 17634,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 200,
+        "max_hp": 600,
+        "gold": 25,
+        "gems": 0,
+        "position": {
+          "x": 5,
+          "y": 54
+        },
+        "timer": 5,
+        "end_round": 770,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 819,
+        "input": 18881,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 340,
+        "max_hp": 900,
+        "gold": 470,
+        "gems": 71,
+        "position": {
+          "x": 32,
+          "y": 32
+        },
+        "timer": 5,
+        "end_round": 820,
+        "end_kind": 16,
+        "end_timer": 4,
+        "completed": false,
+        "end_position": {
+          "x": 32,
+          "y": 32
+        },
+        "end_gems": 71
+      },
+      {
+        "round": 820,
+        "input": 18907,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 340,
+        "max_hp": 900,
+        "gold": 470,
+        "gems": 71,
+        "position": {
+          "x": 31,
+          "y": 31
+        },
+        "timer": 5,
+        "end_round": 825,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 71
+      },
+      {
+        "round": 842,
+        "input": 19410,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 760,
+        "max_hp": 2100,
+        "gold": 175,
+        "gems": 4,
+        "position": {
+          "x": 26,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 847,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 861,
+        "input": 19863,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 200,
+        "max_hp": 600,
+        "gold": 65,
+        "gems": 4,
+        "position": {
+          "x": 5,
+          "y": 54
+        },
+        "timer": 5,
+        "end_round": 866,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 905,
+        "input": 20840,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 580,
+        "max_hp": 900,
+        "gold": 228,
+        "gems": 4,
+        "position": {
+          "x": 25,
+          "y": 30
+        },
+        "timer": 5,
+        "end_round": 910,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 906,
+        "input": 20876,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1415,
+        "max_hp": 2000,
+        "gold": 342,
+        "gems": 0,
+        "position": {
+          "x": 23,
+          "y": 25
+        },
+        "timer": 3,
+        "end_round": 909,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 908,
+        "input": 20916,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 714.699951171875,
+        "max_hp": 1900,
+        "gold": 350,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 24
+        },
+        "timer": 5,
+        "end_round": 913,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 968,
+        "input": 22247,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 388.0200500488281,
+        "max_hp": 1700,
+        "gold": 20,
+        "gems": 0,
+        "position": {
+          "x": 34,
+          "y": 36
+        },
+        "timer": 3,
+        "end_round": 970,
+        "end_kind": 16,
+        "end_timer": 1,
+        "completed": false,
+        "end_position": {
+          "x": 34,
+          "y": 36
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 970,
+        "input": 22296,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 388.0200500488281,
+        "max_hp": 1700,
+        "gold": 20,
+        "gems": 0,
+        "position": {
+          "x": 31,
+          "y": 37
+        },
+        "timer": 3,
+        "end_round": 973,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 977,
+        "input": 22460,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 362.7047119140625,
+        "max_hp": 2200,
+        "gold": 105,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 27
+        },
+        "timer": 5,
+        "end_round": 979,
+        "end_kind": 6,
+        "end_timer": 3,
+        "completed": false,
+        "end_position": null,
+        "end_gems": 0
+      },
+      {
+        "round": 1003,
+        "input": 23040,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 200.8328857421875,
+        "max_hp": 600,
+        "gold": 5,
+        "gems": 0,
+        "position": {
+          "x": 18,
+          "y": 25
+        },
+        "timer": 5,
+        "end_round": 1008,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1020,
+        "input": 23432,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1946,
+        "max_hp": 2000,
+        "gold": 264,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 24
+        },
+        "timer": 3,
+        "end_round": 1023,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1021,
+        "input": 23450,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 7.2628326416015625,
+        "max_hp": 1700,
+        "gold": 20,
+        "gems": 0,
+        "position": {
+          "x": 36,
+          "y": 28
+        },
+        "timer": 3,
+        "end_round": 1024,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1074,
+        "input": 24547,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 430.4261779785156,
+        "max_hp": 1900,
+        "gold": 80,
+        "gems": 0,
+        "position": {
+          "x": 19,
+          "y": 24
+        },
+        "timer": 5,
+        "end_round": 1079,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1077,
+        "input": 24609,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 785,
+        "max_hp": 1425,
+        "gold": 114,
+        "gems": 19,
+        "position": {
+          "x": 11,
+          "y": 33
+        },
+        "timer": 3,
+        "end_round": 1080,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 58,
+          "y": 31
+        },
+        "end_gems": 19
+      },
+      {
+        "round": 1124,
+        "input": 25677,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 430.03515625,
+        "max_hp": 1900,
+        "gold": 20,
+        "gems": 0,
+        "position": {
+          "x": 29,
+          "y": 37
+        },
+        "timer": 5,
+        "end_round": 1129,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 1143,
+        "input": 26069,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 1700,
+        "max_hp": 1700,
+        "gold": 224,
+        "gems": 4,
+        "position": {
+          "x": 34,
+          "y": 30
+        },
+        "timer": 3,
+        "end_round": 1146,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 4
+      },
+      {
+        "round": 1188,
+        "input": 27097,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1874,
+        "max_hp": 2000,
+        "gold": 516,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 25
+        },
+        "timer": 3,
+        "end_round": 1191,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 59,
+          "y": 31
+        },
+        "end_gems": 0
+      }
+    ]
+  },
+  {
+    "match_id": "d148b5ea-d71d-4480-bff4-0fba938d6429",
+    "engine": "v1_0_1",
+    "final_round": 809,
+    "replay_sha256": "23b0a77455ca5adaace65c8680d29c200aa8707f1478cc1734b5549342a601d4",
+    "starts": 54,
+    "completions": 53,
+    "manual_cancellations": 1,
+    "damage_interruptions": 0,
+    "hp_median": 0.4666666666666667,
+    "high_hp_starts": 7,
+    "starts_with_gems": 21,
+    "home_timer_starts": 13,
+    "recalls": [
+      {
+        "round": 65,
+        "input": 1549,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 830,
+        "max_hp": 1000,
+        "gold": 350,
+        "gems": 27,
+        "position": {
+          "x": 40,
+          "y": 21
+        },
+        "timer": 5,
+        "end_round": 70,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 27
+      },
+      {
+        "round": 72,
+        "input": 1724,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 240,
+        "max_hp": 600,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 37,
+          "y": 25
+        },
+        "timer": 5,
+        "end_round": 77,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 75,
+        "input": 1797,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 210,
+        "max_hp": 750,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 37,
+          "y": 24
+        },
+        "timer": 5,
+        "end_round": 80,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 84,
+        "input": 1980,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 420,
+        "max_hp": 900,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 33,
+          "y": 17
+        },
+        "timer": 5,
+        "end_round": 89,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 86,
+        "input": 2032,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 380,
+        "max_hp": 1200,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 32,
+          "y": 20
+        },
+        "timer": 5,
+        "end_round": 91,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 102,
+        "input": 2403,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 180,
+        "max_hp": 900,
+        "gold": 90,
+        "gems": 0,
+        "position": {
+          "x": 29,
+          "y": 16
+        },
+        "timer": 5,
+        "end_round": 107,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 166,
+        "input": 3914,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 540,
+        "max_hp": 900,
+        "gold": 160,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 31
+        },
+        "timer": 5,
+        "end_round": 171,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 194,
+        "input": 4568,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 360,
+        "max_hp": 900,
+        "gold": 150,
+        "gems": 0,
+        "position": {
+          "x": 40,
+          "y": 20
+        },
+        "timer": 5,
+        "end_round": 199,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 195,
+        "input": 4584,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 580,
+        "max_hp": 1100,
+        "gold": 200,
+        "gems": 15,
+        "position": {
+          "x": 41,
+          "y": 22
+        },
+        "timer": 5,
+        "end_round": 200,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 33,
+          "y": 1
+        },
+        "end_gems": 15
+      },
+      {
+        "round": 195,
+        "input": 4590,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 480,
+        "max_hp": 1200,
+        "gold": 0,
+        "gems": 0,
+        "position": {
+          "x": 39,
+          "y": 20
+        },
+        "timer": 5,
+        "end_round": 200,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 203,
+        "input": 4744,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 750,
+        "max_hp": 750,
+        "gold": 290,
+        "gems": 12,
+        "position": {
+          "x": 40,
+          "y": 21
+        },
+        "timer": 5,
+        "end_round": 208,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 12
+      },
+      {
+        "round": 220,
+        "input": 5164,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 240,
+        "max_hp": 900,
+        "gold": 34,
+        "gems": 0,
+        "position": {
+          "x": 34,
+          "y": 13
+        },
+        "timer": 5,
+        "end_round": 225,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 272,
+        "input": 6284,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 600,
+        "max_hp": 1200,
+        "gold": 160,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 31
+        },
+        "timer": 5,
+        "end_round": 276,
+        "end_kind": 16,
+        "end_timer": 1,
+        "completed": false,
+        "end_position": {
+          "x": 22,
+          "y": 31
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 279,
+        "input": 6437,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 480,
+        "max_hp": 1200,
+        "gold": 160,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 28
+        },
+        "timer": 5,
+        "end_round": 284,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 285,
+        "input": 6545,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 750,
+        "max_hp": 750,
+        "gold": 260,
+        "gems": 24,
+        "position": {
+          "x": 40,
+          "y": 19
+        },
+        "timer": 5,
+        "end_round": 290,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 24
+      },
+      {
+        "round": 290,
+        "input": 6651,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1088,
+        "max_hp": 1700,
+        "gold": 200,
+        "gems": 30,
+        "position": {
+          "x": 42,
+          "y": 16
+        },
+        "timer": 3,
+        "end_round": 293,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 299,
+        "input": 6857,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 660,
+        "max_hp": 1400,
+        "gold": 100,
+        "gems": 8,
+        "position": {
+          "x": 37,
+          "y": 20
+        },
+        "timer": 5,
+        "end_round": 304,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 8
+      },
+      {
+        "round": 333,
+        "input": 7656,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 223.7080535888672,
+        "max_hp": 1700,
+        "gold": 110,
+        "gems": 0,
+        "position": {
+          "x": 26,
+          "y": 28
+        },
+        "timer": 5,
+        "end_round": 338,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 338,
+        "input": 7759,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 260,
+        "max_hp": 600,
+        "gold": 20,
+        "gems": 0,
+        "position": {
+          "x": 27,
+          "y": 16
+        },
+        "timer": 5,
+        "end_round": 343,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 366,
+        "input": 8379,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 380,
+        "max_hp": 900,
+        "gold": 4,
+        "gems": 0,
+        "position": {
+          "x": 33,
+          "y": 23
+        },
+        "timer": 5,
+        "end_round": 371,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 378,
+        "input": 8648,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 915,
+        "max_hp": 1275,
+        "gold": 212,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 381,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 400,
+        "input": 9154,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1184,
+        "max_hp": 2000,
+        "gold": 284,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 403,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 400,
+        "input": 9160,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 800,
+        "max_hp": 1700,
+        "gold": 10,
+        "gems": 8,
+        "position": {
+          "x": 35,
+          "y": 15
+        },
+        "timer": 5,
+        "end_round": 405,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 8
+      },
+      {
+        "round": 429,
+        "input": 9850,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 880,
+        "max_hp": 2000,
+        "gold": 20,
+        "gems": 0,
+        "position": {
+          "x": 40,
+          "y": 22
+        },
+        "timer": 5,
+        "end_round": 434,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 434,
+        "input": 9958,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 380,
+        "max_hp": 900,
+        "gold": 4,
+        "gems": 0,
+        "position": {
+          "x": 42,
+          "y": 12
+        },
+        "timer": 5,
+        "end_round": 439,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 438,
+        "input": 10057,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 420,
+        "max_hp": 600,
+        "gold": 220,
+        "gems": 12,
+        "position": {
+          "x": 40,
+          "y": 19
+        },
+        "timer": 5,
+        "end_round": 443,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 12
+      },
+      {
+        "round": 446,
+        "input": 10223,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 1104,
+        "max_hp": 1500,
+        "gold": 206,
+        "gems": 15,
+        "position": {
+          "x": 42,
+          "y": 15
+        },
+        "timer": 3,
+        "end_round": 449,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 15
+      },
+      {
+        "round": 450,
+        "input": 10339,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 860,
+        "max_hp": 1700,
+        "gold": 10,
+        "gems": 8,
+        "position": {
+          "x": 30,
+          "y": 13
+        },
+        "timer": 5,
+        "end_round": 455,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 8
+      },
+      {
+        "round": 459,
+        "input": 10545,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 860,
+        "max_hp": 1700,
+        "gold": 10,
+        "gems": 8,
+        "position": {
+          "x": 40,
+          "y": 4
+        },
+        "timer": 5,
+        "end_round": 464,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 8
+      },
+      {
+        "round": 478,
+        "input": 10982,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 420,
+        "max_hp": 900,
+        "gold": 4,
+        "gems": 0,
+        "position": {
+          "x": 28,
+          "y": 16
+        },
+        "timer": 5,
+        "end_round": 483,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 479,
+        "input": 11004,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 920,
+        "max_hp": 2000,
+        "gold": 20,
+        "gems": 0,
+        "position": {
+          "x": 33,
+          "y": 17
+        },
+        "timer": 5,
+        "end_round": 484,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 502,
+        "input": 11509,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1532.9000244140625,
+        "max_hp": 2000,
+        "gold": 326,
+        "gems": 0,
+        "position": {
+          "x": 23,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 505,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 515,
+        "input": 11814,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 1194,
+        "max_hp": 1500,
+        "gold": 182,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 518,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 543,
+        "input": 12458,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 380,
+        "max_hp": 900,
+        "gold": 4,
+        "gems": 0,
+        "position": {
+          "x": 36,
+          "y": 15
+        },
+        "timer": 5,
+        "end_round": 548,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 554,
+        "input": 12717,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 280,
+        "max_hp": 600,
+        "gold": 10,
+        "gems": 12,
+        "position": {
+          "x": 37,
+          "y": 16
+        },
+        "timer": 5,
+        "end_round": 559,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 12
+      },
+      {
+        "round": 562,
+        "input": 12893,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 840,
+        "max_hp": 1700,
+        "gold": 100,
+        "gems": 7,
+        "position": {
+          "x": 43,
+          "y": 17
+        },
+        "timer": 5,
+        "end_round": 567,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 7
+      },
+      {
+        "round": 563,
+        "input": 12904,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 1500,
+        "max_hp": 1500,
+        "gold": 242,
+        "gems": 12,
+        "position": {
+          "x": 40,
+          "y": 20
+        },
+        "timer": 3,
+        "end_round": 566,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 12
+      },
+      {
+        "round": 582,
+        "input": 13354,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 420,
+        "max_hp": 900,
+        "gold": 4,
+        "gems": 0,
+        "position": {
+          "x": 30,
+          "y": 13
+        },
+        "timer": 5,
+        "end_round": 587,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 589,
+        "input": 13522,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 460,
+        "max_hp": 2000,
+        "gold": 40,
+        "gems": 0,
+        "position": {
+          "x": 30,
+          "y": 13
+        },
+        "timer": 5,
+        "end_round": 594,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 592,
+        "input": 13591,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 120,
+        "max_hp": 600,
+        "gold": 10,
+        "gems": 12,
+        "position": {
+          "x": 29,
+          "y": 13
+        },
+        "timer": 5,
+        "end_round": 597,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 12
+      },
+      {
+        "round": 606,
+        "input": 13905,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1191.2601318359375,
+        "max_hp": 2000,
+        "gold": 446,
+        "gems": 30,
+        "position": {
+          "x": 27,
+          "y": 26
+        },
+        "timer": 3,
+        "end_round": 609,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 30
+      },
+      {
+        "round": 620,
+        "input": 14231,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 360,
+        "max_hp": 900,
+        "gold": 4,
+        "gems": 0,
+        "position": {
+          "x": 30,
+          "y": 16
+        },
+        "timer": 5,
+        "end_round": 625,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 627,
+        "input": 14371,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 807.9403076171875,
+        "max_hp": 1900,
+        "gold": 110,
+        "gems": 7,
+        "position": {
+          "x": 17,
+          "y": 23
+        },
+        "timer": 5,
+        "end_round": 632,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 33,
+          "y": 1
+        },
+        "end_gems": 7
+      },
+      {
+        "round": 629,
+        "input": 14404,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 1284,
+        "max_hp": 1500,
+        "gold": 194,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 632,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 646,
+        "input": 14774,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 880,
+        "max_hp": 2100,
+        "gold": 10,
+        "gems": 0,
+        "position": {
+          "x": 25,
+          "y": 21
+        },
+        "timer": 5,
+        "end_round": 651,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 663,
+        "input": 15130,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 2000,
+        "max_hp": 2000,
+        "gold": 182,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 666,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 668,
+        "input": 15253,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 300,
+        "max_hp": 900,
+        "gold": 4,
+        "gems": 0,
+        "position": {
+          "x": 27,
+          "y": 26
+        },
+        "timer": 5,
+        "end_round": 673,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 7
+      },
+      {
+        "round": 682,
+        "input": 15567,
+        "champion_id": 5,
+        "champion_type": 5,
+        "hp": 258,
+        "max_hp": 1500,
+        "gold": 38,
+        "gems": 0,
+        "position": {
+          "x": 36,
+          "y": 21
+        },
+        "timer": 3,
+        "end_round": 685,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 725,
+        "input": 16576,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1874,
+        "max_hp": 2000,
+        "gold": 194,
+        "gems": 0,
+        "position": {
+          "x": 22,
+          "y": 31
+        },
+        "timer": 3,
+        "end_round": 728,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 735,
+        "input": 16812,
+        "champion_id": 9,
+        "champion_type": 4,
+        "hp": 420,
+        "max_hp": 900,
+        "gold": 4,
+        "gems": 7,
+        "position": {
+          "x": 39,
+          "y": 19
+        },
+        "timer": 5,
+        "end_round": 740,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 7
+      },
+      {
+        "round": 746,
+        "input": 17039,
+        "champion_id": 10,
+        "champion_type": 0,
+        "hp": 1080,
+        "max_hp": 2100,
+        "gold": 210,
+        "gems": 12,
+        "position": {
+          "x": 41,
+          "y": 21
+        },
+        "timer": 5,
+        "end_round": 751,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 12
+      },
+      {
+        "round": 751,
+        "input": 17158,
+        "champion_id": 8,
+        "champion_type": 3,
+        "hp": 260,
+        "max_hp": 600,
+        "gold": 10,
+        "gems": 7,
+        "position": {
+          "x": 33,
+          "y": 19
+        },
+        "timer": 5,
+        "end_round": 756,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 7
+      },
+      {
+        "round": 760,
+        "input": 17375,
+        "champion_id": 7,
+        "champion_type": 9,
+        "hp": 636.8499755859375,
+        "max_hp": 1900,
+        "gold": 150,
+        "gems": 0,
+        "position": {
+          "x": 24,
+          "y": 29
+        },
+        "timer": 5,
+        "end_round": 765,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 0
+      },
+      {
+        "round": 773,
+        "input": 17635,
+        "champion_id": 6,
+        "champion_type": 12,
+        "hp": 1568,
+        "max_hp": 2000,
+        "gold": 170,
+        "gems": 33,
+        "position": {
+          "x": 26,
+          "y": 22
+        },
+        "timer": 3,
+        "end_round": 776,
+        "end_kind": 4,
+        "end_timer": 0,
+        "completed": true,
+        "end_position": {
+          "x": 34,
+          "y": 1
+        },
+        "end_gems": 33
+      }
+    ]
+  }
+]

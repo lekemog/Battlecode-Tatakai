@@ -1,0 +1,1108 @@
+{
+  "question": "Can HP below 50% or gold at least 172 explain every observed recall start?",
+  "source_sha256": "93457ba9471bb6935ba1a7a0e5d3fb4c22f37df2c5081a73f66fc472a28d8837",
+  "engine": "v1_0_1",
+  "fish_side": "B",
+  "games": 5,
+  "starts": 289,
+  "buckets": {
+    "hp_at_least_50_gold_at_least_172": {
+      "starts": 75,
+      "completed": 74,
+      "manual_cancel": 1,
+      "damage_interrupt": 0
+    },
+    "hp_below_50_gold_below_172": {
+      "starts": 157,
+      "completed": 141,
+      "manual_cancel": 14,
+      "damage_interrupt": 2
+    },
+    "hp_below_50_gold_at_least_172": {
+      "starts": 16,
+      "completed": 15,
+      "manual_cancel": 1,
+      "damage_interrupt": 0
+    },
+    "hp_at_least_50_gold_below_172": {
+      "starts": 41,
+      "completed": 34,
+      "manual_cancel": 4,
+      "damage_interrupt": 3
+    }
+  },
+  "outside_both_conditions": [
+    {
+      "match_id": "3a6c4ece-f962-4241-9369-234a5939d6a1",
+      "replay_sha256": "acffacbc2106d34c25bc805c2b337f88a660b23079322b669699d2996b077adc",
+      "round": 1061,
+      "input": 24227,
+      "champion_id": 7,
+      "champion_type": 9,
+      "hp": 1486,
+      "max_hp": 1900,
+      "gold": 90,
+      "gems": 22,
+      "position": {
+        "x": 58,
+        "y": 36
+      },
+      "timer": 5,
+      "end_round": 1066,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 59,
+        "y": 69
+      },
+      "end_gems": 22
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 188,
+      "input": 2353,
+      "champion_id": 3,
+      "champion_type": 5,
+      "hp": 750,
+      "max_hp": 1350,
+      "gold": 148,
+      "gems": 18,
+      "position": {
+        "x": 24,
+        "y": 25
+      },
+      "timer": 3,
+      "end_round": 189,
+      "end_kind": 16,
+      "end_timer": 2,
+      "completed": false,
+      "end_position": {
+        "x": 24,
+        "y": 25
+      },
+      "end_gems": 18
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 273,
+      "input": 3356,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 651.9500122070312,
+      "max_hp": 1000,
+      "gold": 120,
+      "gems": 28,
+      "position": {
+        "x": 28,
+        "y": 17
+      },
+      "timer": 5,
+      "end_round": 278,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 3,
+        "y": 39
+      },
+      "end_gems": 28
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 325,
+      "input": 3997,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 627.5,
+      "max_hp": 1000,
+      "gold": 72,
+      "gems": 32,
+      "position": {
+        "x": 7,
+        "y": 38
+      },
+      "timer": 5,
+      "end_round": 330,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 3,
+        "y": 39
+      },
+      "end_gems": 32
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 486,
+      "input": 5919,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 896.07373046875,
+      "max_hp": 1600,
+      "gold": 160,
+      "gems": 9,
+      "position": {
+        "x": 15,
+        "y": 30
+      },
+      "timer": 5,
+      "end_round": 491,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 3,
+        "y": 39
+      },
+      "end_gems": 9
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 577,
+      "input": 7001,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 980.1102905273438,
+      "max_hp": 1900,
+      "gold": 10,
+      "gems": 9,
+      "position": {
+        "x": 15,
+        "y": 30
+      },
+      "timer": 5,
+      "end_round": 582,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 3,
+        "y": 39
+      },
+      "end_gems": 9
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 744,
+      "input": 9018,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 1427.0810546875,
+      "max_hp": 2000,
+      "gold": 162,
+      "gems": 11,
+      "position": {
+        "x": 19,
+        "y": 26
+      },
+      "timer": 3,
+      "end_round": 747,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 3,
+        "y": 39
+      },
+      "end_gems": 11
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 861,
+      "input": 10356,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 1041.9427490234375,
+      "max_hp": 2000,
+      "gold": 144,
+      "gems": 100,
+      "position": {
+        "x": 15,
+        "y": 25
+      },
+      "timer": 3,
+      "end_round": 864,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 3,
+        "y": 39
+      },
+      "end_gems": 100
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 979,
+      "input": 11646,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 1144,
+      "max_hp": 1900,
+      "gold": 170,
+      "gems": 17,
+      "position": {
+        "x": 21,
+        "y": 37
+      },
+      "timer": 5,
+      "end_round": 984,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 3,
+        "y": 39
+      },
+      "end_gems": 17
+    },
+    {
+      "match_id": "793352d2-2946-44a1-b89b-225a5879311d",
+      "replay_sha256": "c4f88a897df875638a7f370f1ee5e94ba74f5d284c9445bed932c03b9aecf8c5",
+      "round": 999,
+      "input": 11857,
+      "champion_id": 3,
+      "champion_type": 5,
+      "hp": 1176,
+      "max_hp": 1500,
+      "gold": 160,
+      "gems": 35,
+      "position": {
+        "x": 28,
+        "y": 37
+      },
+      "timer": 3,
+      "end_round": 1002,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 3,
+        "y": 39
+      },
+      "end_gems": 35
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 24,
+      "input": 358,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 540,
+      "max_hp": 1000,
+      "gold": 0,
+      "gems": 0,
+      "position": {
+        "x": 22,
+        "y": 14
+      },
+      "timer": 5,
+      "end_round": 29,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 24,
+      "input": 363,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 520,
+      "max_hp": 900,
+      "gold": 0,
+      "gems": 0,
+      "position": {
+        "x": 22,
+        "y": 15
+      },
+      "timer": 5,
+      "end_round": 29,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 27,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 47,
+      "input": 667,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 450,
+      "max_hp": 900,
+      "gold": 100,
+      "gems": 0,
+      "position": {
+        "x": 19,
+        "y": 17
+      },
+      "timer": 5,
+      "end_round": 52,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 102,
+      "input": 1324,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 624.5492553710938,
+      "max_hp": 1000,
+      "gold": 60,
+      "gems": 4,
+      "position": {
+        "x": 19,
+        "y": 17
+      },
+      "timer": 5,
+      "end_round": 107,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 4
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 134,
+      "input": 1751,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 590.2340087890625,
+      "max_hp": 1000,
+      "gold": 0,
+      "gems": 4,
+      "position": {
+        "x": 20,
+        "y": 19
+      },
+      "timer": 5,
+      "end_round": 139,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 4
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 182,
+      "input": 2346,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 658.0855712890625,
+      "max_hp": 1200,
+      "gold": 10,
+      "gems": 0,
+      "position": {
+        "x": 21,
+        "y": 18
+      },
+      "timer": 5,
+      "end_round": 183,
+      "end_kind": 5,
+      "end_timer": 4,
+      "completed": false,
+      "end_position": {
+        "x": 21,
+        "y": 18
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 186,
+      "input": 2400,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 608.1251831054688,
+      "max_hp": 1200,
+      "gold": 10,
+      "gems": 0,
+      "position": {
+        "x": 22,
+        "y": 15
+      },
+      "timer": 5,
+      "end_round": 187,
+      "end_kind": 16,
+      "end_timer": 4,
+      "completed": false,
+      "end_position": {
+        "x": 22,
+        "y": 15
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 191,
+      "input": 2461,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 608.1251831054688,
+      "max_hp": 1200,
+      "gold": 10,
+      "gems": 0,
+      "position": {
+        "x": 26,
+        "y": 11
+      },
+      "timer": 5,
+      "end_round": 196,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 215,
+      "input": 2727,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 576.0020751953125,
+      "max_hp": 1000,
+      "gold": 0,
+      "gems": 4,
+      "position": {
+        "x": 21,
+        "y": 18
+      },
+      "timer": 5,
+      "end_round": 220,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 4
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 217,
+      "input": 2745,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 600,
+      "max_hp": 1200,
+      "gold": 10,
+      "gems": 0,
+      "position": {
+        "x": 24,
+        "y": 12
+      },
+      "timer": 5,
+      "end_round": 222,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 239,
+      "input": 3002,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 659.0830688476562,
+      "max_hp": 1200,
+      "gold": 10,
+      "gems": 0,
+      "position": {
+        "x": 20,
+        "y": 15
+      },
+      "timer": 5,
+      "end_round": 244,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 304,
+      "input": 3821,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 660,
+      "max_hp": 1200,
+      "gold": 10,
+      "gems": 0,
+      "position": {
+        "x": 22,
+        "y": 14
+      },
+      "timer": 5,
+      "end_round": 309,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 350,
+      "input": 4397,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 528.753662109375,
+      "max_hp": 1000,
+      "gold": 90,
+      "gems": 0,
+      "position": {
+        "x": 12,
+        "y": 11
+      },
+      "timer": 5,
+      "end_round": 351,
+      "end_kind": 5,
+      "end_timer": 4,
+      "completed": false,
+      "end_position": {
+        "x": 12,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 543,
+      "input": 6734,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 840.280029296875,
+      "max_hp": 1600,
+      "gold": 0,
+      "gems": 21,
+      "position": {
+        "x": 23,
+        "y": 13
+      },
+      "timer": 3,
+      "end_round": 546,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 21
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 691,
+      "input": 8597,
+      "champion_id": 3,
+      "champion_type": 5,
+      "hp": 912.840087890625,
+      "max_hp": 1500,
+      "gold": 6,
+      "gems": 4,
+      "position": {
+        "x": 27,
+        "y": 24
+      },
+      "timer": 3,
+      "end_round": 694,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 4
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 731,
+      "input": 9113,
+      "champion_id": 3,
+      "champion_type": 5,
+      "hp": 870.43603515625,
+      "max_hp": 1500,
+      "gold": 6,
+      "gems": 4,
+      "position": {
+        "x": 22,
+        "y": 17
+      },
+      "timer": 3,
+      "end_round": 733,
+      "end_kind": 16,
+      "end_timer": 1,
+      "completed": false,
+      "end_position": {
+        "x": 22,
+        "y": 17
+      },
+      "end_gems": 4
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 748,
+      "input": 9364,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 908.0001220703125,
+      "max_hp": 1800,
+      "gold": 12,
+      "gems": 4,
+      "position": {
+        "x": 25,
+        "y": 13
+      },
+      "timer": 3,
+      "end_round": 751,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 4
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 748,
+      "input": 9367,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 911.2000732421875,
+      "max_hp": 1800,
+      "gold": 25,
+      "gems": 4,
+      "position": {
+        "x": 24,
+        "y": 13
+      },
+      "timer": 5,
+      "end_round": 753,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 4
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 766,
+      "input": 9583,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 1029.3116455078125,
+      "max_hp": 1800,
+      "gold": 12,
+      "gems": 4,
+      "position": {
+        "x": 19,
+        "y": 12
+      },
+      "timer": 3,
+      "end_round": 769,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 4
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 908,
+      "input": 11244,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 1146.5,
+      "max_hp": 2000,
+      "gold": 24,
+      "gems": 0,
+      "position": {
+        "x": 26,
+        "y": 13
+      },
+      "timer": 3,
+      "end_round": 911,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 27,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 1024,
+      "input": 12634,
+      "champion_id": 4,
+      "champion_type": 12,
+      "hp": 1304.900146484375,
+      "max_hp": 2000,
+      "gold": 132,
+      "gems": 6,
+      "position": {
+        "x": 23,
+        "y": 25
+      },
+      "timer": 3,
+      "end_round": 1027,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 6
+    },
+    {
+      "match_id": "7a568552-0496-47aa-a018-67af3b520a35",
+      "replay_sha256": "9fbb2b1f1d456acf5200471da92c7855c847eb885a50e45f82c60505b58e27f6",
+      "round": 1566,
+      "input": 18158,
+      "champion_id": 5,
+      "champion_type": 9,
+      "hp": 1048.599853515625,
+      "max_hp": 1900,
+      "gold": 25,
+      "gems": 0,
+      "position": {
+        "x": 22,
+        "y": 14
+      },
+      "timer": 5,
+      "end_round": 1571,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 28,
+        "y": 11
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "8f0bc4a5-9eb5-426d-a180-fffe6083ad04",
+      "replay_sha256": "3874b867aff9e6f0076cade379875e1da464cbbc056e511c76fd4761531c4887",
+      "round": 523,
+      "input": 12241,
+      "champion_id": 9,
+      "champion_type": 4,
+      "hp": 560,
+      "max_hp": 900,
+      "gold": 170,
+      "gems": 23,
+      "position": {
+        "x": 29,
+        "y": 30
+      },
+      "timer": 5,
+      "end_round": 524,
+      "end_kind": 5,
+      "end_timer": 4,
+      "completed": false,
+      "end_position": {
+        "x": 29,
+        "y": 30
+      },
+      "end_gems": 23
+    },
+    {
+      "match_id": "8f0bc4a5-9eb5-426d-a180-fffe6083ad04",
+      "replay_sha256": "3874b867aff9e6f0076cade379875e1da464cbbc056e511c76fd4761531c4887",
+      "round": 525,
+      "input": 12300,
+      "champion_id": 9,
+      "champion_type": 4,
+      "hp": 540,
+      "max_hp": 900,
+      "gold": 170,
+      "gems": 23,
+      "position": {
+        "x": 29,
+        "y": 30
+      },
+      "timer": 5,
+      "end_round": 530,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 59,
+        "y": 31
+      },
+      "end_gems": 23
+    },
+    {
+      "match_id": "8f0bc4a5-9eb5-426d-a180-fffe6083ad04",
+      "replay_sha256": "3874b867aff9e6f0076cade379875e1da464cbbc056e511c76fd4761531c4887",
+      "round": 529,
+      "input": 12383,
+      "champion_id": 10,
+      "champion_type": 0,
+      "hp": 1020,
+      "max_hp": 1700,
+      "gold": 125,
+      "gems": 23,
+      "position": {
+        "x": 29,
+        "y": 29
+      },
+      "timer": 5,
+      "end_round": 534,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 59,
+        "y": 31
+      },
+      "end_gems": 23
+    },
+    {
+      "match_id": "8f0bc4a5-9eb5-426d-a180-fffe6083ad04",
+      "replay_sha256": "3874b867aff9e6f0076cade379875e1da464cbbc056e511c76fd4761531c4887",
+      "round": 1077,
+      "input": 24609,
+      "champion_id": 5,
+      "champion_type": 5,
+      "hp": 785,
+      "max_hp": 1425,
+      "gold": 114,
+      "gems": 19,
+      "position": {
+        "x": 11,
+        "y": 33
+      },
+      "timer": 3,
+      "end_round": 1080,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 58,
+        "y": 31
+      },
+      "end_gems": 19
+    },
+    {
+      "match_id": "d148b5ea-d71d-4480-bff4-0fba938d6429",
+      "replay_sha256": "23b0a77455ca5adaace65c8680d29c200aa8707f1478cc1734b5549342a601d4",
+      "round": 166,
+      "input": 3914,
+      "champion_id": 9,
+      "champion_type": 4,
+      "hp": 540,
+      "max_hp": 900,
+      "gold": 160,
+      "gems": 0,
+      "position": {
+        "x": 22,
+        "y": 31
+      },
+      "timer": 5,
+      "end_round": 171,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 34,
+        "y": 1
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "d148b5ea-d71d-4480-bff4-0fba938d6429",
+      "replay_sha256": "23b0a77455ca5adaace65c8680d29c200aa8707f1478cc1734b5549342a601d4",
+      "round": 272,
+      "input": 6284,
+      "champion_id": 10,
+      "champion_type": 0,
+      "hp": 600,
+      "max_hp": 1200,
+      "gold": 160,
+      "gems": 0,
+      "position": {
+        "x": 22,
+        "y": 31
+      },
+      "timer": 5,
+      "end_round": 276,
+      "end_kind": 16,
+      "end_timer": 1,
+      "completed": false,
+      "end_position": {
+        "x": 22,
+        "y": 31
+      },
+      "end_gems": 0
+    },
+    {
+      "match_id": "d148b5ea-d71d-4480-bff4-0fba938d6429",
+      "replay_sha256": "23b0a77455ca5adaace65c8680d29c200aa8707f1478cc1734b5549342a601d4",
+      "round": 450,
+      "input": 10339,
+      "champion_id": 7,
+      "champion_type": 9,
+      "hp": 860,
+      "max_hp": 1700,
+      "gold": 10,
+      "gems": 8,
+      "position": {
+        "x": 30,
+        "y": 13
+      },
+      "timer": 5,
+      "end_round": 455,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 34,
+        "y": 1
+      },
+      "end_gems": 8
+    },
+    {
+      "match_id": "d148b5ea-d71d-4480-bff4-0fba938d6429",
+      "replay_sha256": "23b0a77455ca5adaace65c8680d29c200aa8707f1478cc1734b5549342a601d4",
+      "round": 459,
+      "input": 10545,
+      "champion_id": 7,
+      "champion_type": 9,
+      "hp": 860,
+      "max_hp": 1700,
+      "gold": 10,
+      "gems": 8,
+      "position": {
+        "x": 40,
+        "y": 4
+      },
+      "timer": 5,
+      "end_round": 464,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 34,
+        "y": 1
+      },
+      "end_gems": 8
+    },
+    {
+      "match_id": "d148b5ea-d71d-4480-bff4-0fba938d6429",
+      "replay_sha256": "23b0a77455ca5adaace65c8680d29c200aa8707f1478cc1734b5549342a601d4",
+      "round": 773,
+      "input": 17635,
+      "champion_id": 6,
+      "champion_type": 12,
+      "hp": 1568,
+      "max_hp": 2000,
+      "gold": 170,
+      "gems": 33,
+      "position": {
+        "x": 26,
+        "y": 22
+      },
+      "timer": 3,
+      "end_round": 776,
+      "end_kind": 4,
+      "end_timer": 0,
+      "completed": true,
+      "end_position": {
+        "x": 34,
+        "y": 1
+      },
+      "end_gems": 33
+    }
+  ],
+  "limits": [
+    "Positive recall starts only; no non-recall comparison states.",
+    "Selected five-game single-opponent series; no new games.",
+    "172 gold is a descriptive probe, not a causal or optimal threshold.",
+    "Submission identifiers remain unknown."
+  ]
+}

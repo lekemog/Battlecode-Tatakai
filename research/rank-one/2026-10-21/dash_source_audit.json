@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "repository": "lekemog/BattlecodeConversation",
+  "files": [
+    {
+      "path": "bots/v22w/src/bot.cpp",
+      "blob_sha": "e5b891441c2e3054a479b0aa8f1f0ad8517d9459"
+    },
+    {
+      "path": "bots/v23f/src/bot.cpp",
+      "blob_sha": "484c0042ec6f87ae0edfa9670433753a1e2ff81a"
+    },
+    {
+      "path": "bots/v23n/src/bot.cpp",
+      "blob_sha": "a7a685d1e498e30fc0dcd4ecf2402040824ea850"
+    }
+  ],
+  "move_to_identical": true,
+  "move_to": "bool Bot::move_to(bitboard goals,bool flee){\n    auto& me=self();\n    goals&=~(terrain|occupied);\n    if(goals.is_empty()||goals.is_set(me.position()))return false;\n    bitboard walls=terrain|occupied,visited;\n    auto here=me.position();\n    // Search outward from the goals only until our neighbourhood is reached (dash range 2).\n    bitboard near=disk(here,2)&~walls;near.set(here,true);\n    distance_field field;field.compute_to(walls,goals,near,visited);\n    auto here_d=field.get(here);\n    // Allies or camps standing in a corridor can cut every path to the goal; path through\n    // them instead (they move) rather than freezing in place.\n    if(here_d==distance_field::unreachable){\n        walls=terrain;visited.clear();field.compute_to(walls,goals,near,visited);here_d=field.get(here);\n        walls=terrain|occupied;\n    }\n    vec2 best=here;double best_v=1e18;\n    for(auto p:walls.reachable_tiles(here,1).positions()){\n        if(p==here||field.get(p)==distance_field::unreachable)continue;\n        if(!flee&&field.get(p)>=here_d)continue;\n        double v=field.get(p)+threat(p)*(flee?.08:.01);\n        if(flee){int near=99;for(auto& e:enemies)near=std::min(near,dist(p,e.pos));if(near<99)v-=2.0*near;}\n        if(stalled>3&&p==last_pos)v+=3;\n        if(v<best_v){best_v=v;best=p;}\n    }\n    if(me.can_cast()&&(flee||here_d>2)){\n        for(auto a:me.abilities())if(a.info()&&a.is_dash()&&a.is_ready()){\n            vec2 jump=here;double jv=best==here?1e18:best_v-.5;\n            for(auto p:(a.valid_tiles()&~walls).positions()){\n                if(field.get(p)==distance_field::unreachable)continue;\n                double v=field.get(p)+threat(p)*(flee?.08:.01);\n                if(v<jv){jv=v;jump=p;}\n            }\n            if(jump!=here)try{if(a.use(jump))return true;}catch(const error&){}\n        }\n    }\n    if(best!=here&&me.can_move())try{if(me.move_absolute(best))return true;}catch(const error&){}\n    return false;\n}\n\n",
+  "new_replays_reviewed": 0,
+  "limitations": [
+    "Claude's 10-game cooldown-jump aggregates were not independently decoded in this run.",
+    "Native cast timing and legal action-opportunity denominators are missing.",
+    "Initial five-game evidence remains engine 1.0.1; submission IDs unknown."
+  ]
+}

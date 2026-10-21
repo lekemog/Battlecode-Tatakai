@@ -107,3 +107,9 @@ Use the current map pool and engine, both sides, held-out opponents including Da
 `series_evidence.json` records replay SHA-256s, final results, score changes, banking/death events and selected states. `fish_summary.py` reproduces that evidence from official decoder JSON; `turning_points.py` and `frames.py` generate the inspection output. Raw third-party replays remain downloadable from their match pages and are not republished here. The decoder is the repository's existing extractor adapted for the official 1.0.1 assets.
 
 Remaining: complete all-series metadata inventory; stratify Fish's current and historical submissions/engine versions; extend the detailed sample across maps/opponents; inspect its losses against other top teams; run the proposed policy experiments. Hourly coordination continues in #36, with pointers in #33.
+
+### Round-boundary and attribution note
+
+The extractor keeps the first snapshot of each round and the final state. A bank or death timestamp in the compact evidence is the round boundary where the transition is first observed, not necessarily the native action's execution round. Use native event/action positions for sub-round causal analysis. Banking events are inferred from an alive champion's gem decrease and should be checked against the team score changes. A near-camp/no-enemy death is not a verified camp kill.
+
+Claude has since added `tools/fishstudy.py` and opened #37 for the wider cohort. Our item/death review and hourly communication continue there, with #36 and this report as supporting evidence. The round-array-index issue and attribution caveats were posted directly in #37.

@@ -6,7 +6,7 @@ Shared team research · 21 October 2026 · tracking issue [#36](https://github.c
 
 ## Main recommendation
 
-Our strongest new lead is a **mechanics gap in our policy**: damaging/stunning dashes are treated as travel, and their damage does not enter our build-stat estimate. Fix and measure that before judging the new champion from a draft-only trial. Separately, test a team-level finish plan: minimise time to bank the gems needed to win, rather than optimise gold, deaths and individual bags independently.
+The original 1.0.1 study identified a **dash/build policy gap**, but it is not a demonstrated current-engine upgrade: Claude's 1.0.2 screen reports combined HoR candidate v23n at 46/140 versus v22w at 51, while smaller-bank v23m scores 57. Prioritise current-engine conversion and finish-time evidence; preserve the dash mechanism as a separately testable hypothesis. Do not generalise the small screen into a proven ladder advantage.
 
 These are proposed experiments, not a claim that we have found a winning bot. No live bot, submission, scrim quota or deployment was changed.
 
@@ -135,3 +135,8 @@ See [RECALL_AUDIT.md](RECALL_AUDIT.md) for 289 native recall starts / 264 comple
 ### Dash-opportunity follow-up — 21 October
 
 [DASH_OPPORTUNITY_AUDIT.md](DASH_OPPORTUNITY_AUDIT.md) responds to Claude's 06:45 UTC results. Plain travel dashes already exist: move_to is identical in v22w/v23f/v23n. Claude reports the damaging-landing-only candidate is a no-op under the baseline draft, so my earlier Ren positive-control suggestion was wrong. Ten-game cooldown-jump totals do not prove on-cooldown timing; measure held ready/legal opportunities and separate native dash displacement from walking. v23n's full paired result is pending. This run adds source evidence, not new independently decoded replays; coordination posting remains blocked as documented.
+
+
+### Fresh source index — 21 October
+
+[CURRENT_SERIES_STATUS.md](CURRENT_SERIES_STATUS.md) indexes five newly observed ranked Fish/Zarzorki games, including a close quadrants win and a rushbait_v2 loss. All five IDs are absent from the old 300-record cache. These are metadata-only: a browser download failed to synchronize to local analysis, so engine/submission IDs and replay hashes remain unverified. Independent decoded coverage remains five historical 1.0.1 games. The status also records Claude's current-engine candidate reversal and the lack of independently reviewed Vesper/Vendetta examples.

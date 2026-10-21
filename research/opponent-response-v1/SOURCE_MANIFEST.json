@@ -1,0 +1,22 @@
+{
+  "base_commit": "ec32c5f156678f9a10506d72638d37f2e9f76129",
+  "baseline_bot": "v23v",
+  "sdk_checked": "cambc 3.0.4",
+  "baseline_sha256": {
+    "bot.cpp": "751a6b5424eaa0d1581f7c8c28144dab3b067c94d9f27d7724c666f6953b4528",
+    "bot.h": "e7d15305d383d913d3c2aa575290a2f95208dffbb0e9512ef4507379f69c6598",
+    "draft.cpp": "5dd9beb5f313330afd436e92909076881aafdd69b476500f379ffc3069a5322d",
+    "draft.h": "15ddeaeb4ab39f6e3e80647fad56de9c0da7fc728d4c24ca83475060703a7bfd",
+    "main.cpp": "aa08436cbba7fa0630146a4b57e568a895841e4f77efec39b8542cede6d2a339"
+  },
+  "candidate_sha256": {
+    "bot.cpp": "0bc181e6661641e1d2c10e46507758f56bd0e0bcbd9775accacf56fd06a856f9",
+    "bot.h": "c5dd0b42e41140a59eb6aa6e192db9cab00f9e237b4706a53ce73db5eaa1c38f",
+    "draft.cpp": "5dd9beb5f313330afd436e92909076881aafdd69b476500f379ffc3069a5322d",
+    "draft.h": "15ddeaeb4ab39f6e3e80647fad56de9c0da7fc728d4c24ca83475060703a7bfd",
+    "main.cpp": "4bb043ce042fe8b351a14304b098d384ff4ef65cdb0b48070fbb501a1c0e79cd",
+    "opponent_adapter.cpp": "e3f047445c1905d70ea2d29fec476a8b7f6a8db790713c0b16b3155b0a7cc972",
+    "opponent_config.h": "26a29582dd5ebbb193c477586ba575fa226d1114ee3c18e7ff672e9fb67f6996",
+    "opponent_response.h": "048d967bc5e4b7ffe0eae25f539c1cfcfd44476648afbc9f8f0b24360b56673a"
+  }
+}

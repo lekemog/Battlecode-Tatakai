@@ -167,3 +167,15 @@ h_vatsal v24n TOTAL 66  margin +639
 h_photon v24n TOTAL 67  margin +670
 h_apex v24n TOTAL 69  margin +732
 GAUNTLET v24n wins 387 / 238 margin 3012
+== v24o weak13 (v24n + Vesper/Willow draft diag)
+GAUNTLET v24o wins 122 / 238 margin 1657
+GAUNTLET v24n wins 121 / 238 margin 1502
+== v24p full 7-opp (v24n + per-map Vesper/Willow draft on quadrants, reverse_spiral, fracture, contest)
+x_daniel8 v24p TOTAL 47  margin +199
+x_de41h4 v24p TOTAL 46  margin +236
+h_mohnish v24p TOTAL 43  margin +194
+h_deysag v24p TOTAL 57  margin +435
+h_vatsal v24p TOTAL 66  margin +647
+h_photon v24p TOTAL 68  margin +683
+h_apex v24p TOTAL 69  margin +743
+GAUNTLET v24p wins 396 / 238 margin 3137

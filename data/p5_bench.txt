@@ -179,3 +179,17 @@ h_vatsal v24p TOTAL 66  margin +647
 h_photon v24p TOTAL 68  margin +683
 h_apex v24p TOTAL 69  margin +743
 GAUNTLET v24p wins 396 / 238 margin 3137
+== v24q weak13 (Fish draft diag)
+GAUNTLET v24q wins 79 / 238 margin -753
+== v24r weak13 (Varg-first/Willow 5-pick diag)
+== v24t full 7-opp (GPT opponent-response port on v24p, Claude-tuned; s=learned t=fixed)
+GAUNTLET v24r wins 124 / 238 margin 1666
+== v24u rows+rushbait (v24p + Varg/Willow 5-pick there)
+x_daniel8 v24u TOTAL 2  margin -30
+x_de41h4 v24u TOTAL 3  margin +306
+h_mohnish v24u TOTAL 4  margin +157
+h_deysag v24u TOTAL 2  margin +46
+h_vatsal v24u TOTAL 4  margin +731
+h_photon v24u TOTAL 4  margin +612
+h_apex v24u TOTAL 4  margin +578
+GAUNTLET v24u wins 23 / 238 margin 2400

@@ -33,3 +33,5 @@
 01starvation 80 80 2 14 40
 01the-farm 50 40 6 28 114
 01yellow-brick-road 40 30 10 28 160
+00gem-fields 50 40 4 18 50
+00gemfight 30 30 2 19 36

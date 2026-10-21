@@ -62,3 +62,76 @@ x_jame4 v23r TOTAL 47  margin +205
 x_tarotsq21 v23r TOTAL 60  margin +506
 x_tarot16 v23r TOTAL 65  margin +687
 GAUNTLET v23r wins 266 / 170 margin 1793
+== v23s screen-1.0.2
+x_daniel8 v23s TOTAL 41  margin +122
+x_de41h4 v23s TOTAL 37  margin -17
+GAUNTLET v23s wins 78 / 68 margin 105
+== v23t screen-1.0.2
+x_daniel8 v23t TOTAL 40  margin +185
+x_de41h4 v23t TOTAL 36  margin +80
+GAUNTLET v23t wins 76 / 68 margin 265
+== v23u screen-1.0.2
+x_daniel8 v23u TOTAL 38  margin +89
+x_de41h4 v23u TOTAL 32  margin -1
+GAUNTLET v23u wins 70 / 68 margin 88
+== v23r screen-1.0.2 rerun (noise check)
+x_daniel8 v23r TOTAL 41  margin +48
+x_de41h4 v23r TOTAL 39  margin +129
+GAUNTLET v23r wins 80 / 68 margin 177
+== v23v screen-1.0.2
+x_daniel8 v23v TOTAL 41  margin +82
+x_de41h4 v23v TOTAL 39  margin +152
+GAUNTLET v23v wins 80 / 68 margin 234
+== v23v heldout-1.0.2
+h_mohnish v23v TOTAL 39  margin +103
+h_deysag v23v TOTAL 48  margin +307
+h_vatsal v23v TOTAL 64  margin +565
+h_photon v23v TOTAL 67  margin +607
+h_apex v23v TOTAL 65  margin +656
+GAUNTLET v23v wins 283 / 170 margin 2238
+== v24a screen-1.0.2 (v23v + bank path through allies + altar-risk hysteresis)
+x_daniel8 v24a TOTAL 37  margin +80
+x_de41h4 v24a TOTAL 40  margin +164
+GAUNTLET v24a wins 77 / 68 margin 244
+== v24b screen-1.0.2 (v23v + altar-risk hysteresis only)
+x_daniel8 v24b TOTAL 39  margin +86
+x_de41h4 v24b TOTAL 39  margin +140
+GAUNTLET v24b wins 78 / 68 margin 226
+== v24c screen-1.0.2 (v23v + no banking at monolith-guarded altars)
+x_daniel8 v24c TOTAL 41  margin +98
+x_de41h4 v24c TOTAL 40  margin +165
+GAUNTLET v24c wins 81 / 68 margin 263
+== v24c heldout-1.0.2
+h_mohnish v24c TOTAL 40  margin +135
+h_deysag v24c TOTAL 50  margin +312
+h_vatsal v24c TOTAL 63  margin +573
+h_photon v24c TOTAL 67  margin +626
+h_apex v24c TOTAL 65  margin +688
+GAUNTLET v24c wins 285 / 170 margin 2334
+== v24e screen+heldout-1.0.2 (mode study)
+x_daniel8 v24e TOTAL 32  margin +34
+x_de41h4 v24e TOTAL 36  margin +55
+h_mohnish v24e TOTAL 37  margin +53
+h_deysag v24e TOTAL 42  margin +166
+h_vatsal v24e TOTAL 58  margin +523
+h_photon v24e TOTAL 63  margin +576
+h_apex v24e TOTAL 68  margin +686
+GAUNTLET v24e wins 336 / 238 margin 2093
+== v24h screen+heldout-1.0.2 (mode study)
+x_daniel8 v24h TOTAL 30  margin -87
+x_de41h4 v24h TOTAL 21  margin -198
+h_mohnish v24h TOTAL 28  margin -171
+h_deysag v24h TOTAL 28  margin -134
+h_vatsal v24h TOTAL 59  margin +364
+h_photon v24h TOTAL 62  margin +472
+h_apex v24h TOTAL 59  margin +459
+GAUNTLET v24h wins 287 / 238 margin 705
+== v24i screen+heldout-1.0.2 (v24c + per-map solo on 5 maps + capture-contested for >=20-camp groups)
+x_daniel8 v24i TOTAL 40  margin +92
+x_de41h4 v24i TOTAL 44  margin +187
+h_mohnish v24i TOTAL 39  margin +111
+h_deysag v24i TOTAL 54  margin +336
+h_vatsal v24i TOTAL 66  margin +630
+h_photon v24i TOTAL 67  margin +656
+h_apex v24i TOTAL 68  margin +701
+GAUNTLET v24i wins 378 / 238 margin 2713

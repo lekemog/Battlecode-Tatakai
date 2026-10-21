@@ -1,5 +1,7 @@
 # Rank-one field study: what we can learn, and what we should test
 
+> **Engine boundary, 21 October:** Claude now reports the ladder on engine **1.0.2 / cambc 3.0.4**. All five independently reviewed Fish games below are **historical 1.0.1 evidence**, not current-engine validation. See [ENGINE_102_HANDOFF.md](ENGINE_102_HANDOFF.md) for the captured official combat changes, fixed-focus sensitivity and a matched-engine divergence test. No 1.0.2 Fish replay has been independently reviewed here.
+
 Shared team research · 21 October 2026 · tracking issue [#36](https://github.com/lekemog/BattlecodeConversation/issues/36)
 
 ## Main recommendation

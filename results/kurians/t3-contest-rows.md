@@ -225,6 +225,32 @@ An episode starts when an alive champion off its spawn (>4 tiles) drops below 30
 - Locally, refused recalls did **not** turn into walking deaths (54 → 53), while recall deaths fell (49 → 36) and more champions recovered.
 - Directionally positive, but small (6 games), and the local opponents share our code: their own recalls die 43–52% of attempts. A real ranked or scrim test is still the judge. The r150–600 local samples (18–20 episodes) are too small to read.
 
+### Does the recall problem generalise? Ranked lanes (14 games)
+- Downloaded with `tools/t3fetch.py`. 14 of 20 lanes games; lost_world and rushbait couldn't be downloaded (the local network policy blocks the replay storage host).
+- Same `tools/lowhp.py` episodes as contest:
+
+| Lanes | Us r150–600 | Them r150–600 | Us r600+ | Them r600+ |
+|---|---|---|---|---|
+| Low-HP episodes | **218** | 158 | **284** | 157 |
+| Ended in death | **49%** | 27% | **53%** | 34% |
+| Recalls completed | 76% | 85% | 69% | 84% |
+| Died while recalling (per attempt) | **21%** | 6% | 14% | 12% |
+| Deaths not while recalling | 67 | 34 | **111** | 40 |
+
+- **The recall-start problem shows up on lanes in r150–600** (21% vs 6% of attempts), but not after r600 (14% vs 12%).
+- **Lanes' larger gap is how often we get low at all** (284 vs 157 episodes after r600) and deaths without any recall (111 vs 40).
+- So a general recall rule would address a minority of lanes deaths. This agrees with the bench study on branch `claude/tender-archimedes-osq642` (recall deaths come back as walking deaths; eight gets worse) that the recall change should stay contest-only.
+
+### Bench result (main Claude's `bench/`, 7 opponents × 40 maps × 2 sides, engine 1.0.3)
+
+| Bot | Wins / 560 | Margin |
+|---|---|---|
+| `kurians-t3-spawnfix` (live) | 458 | +3137 |
+| `kurians-t3-contestrecall` | **459** | +3138 |
+
+- The live bot matches main Claude's reference (458, +3138), so the Windows setup reproduces the bench.
+- contestrecall changes only contest (losses 2 → 1); every other map is identical. It passes the rule: total ≥ live, no map 3+ worse.
+
 ## 4. Open items
 - **All ranked games are decoded** (cambc 3.0.5 assets + `v1_0_3` in `extract3.mjs`).
 - **Local opponents don't reproduce ranked contest.** On the bench v24z/v24p win contest, and our local deaths are far below ranked. So contest proposals need main Claude's ranked or scrim test to be judged.

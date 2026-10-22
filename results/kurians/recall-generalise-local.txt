@@ -1,0 +1,35 @@
+=== 00contest ===
+  lh-recallall  games  14 wins  13 margin/game   +786 deaths/game  16.1
+      r150-600   93 eps | died  49% (recalling   6, otherwise  40) | resumed  51% | recalls  69: completed  81%, died-while-recalling   9%
+      r600+     262 eps | died  56% (recalling   6, otherwise 142) | resumed  44% | recalls 153: completed  75%, died-while-recalling   4%
+  lh-spawnfix   games  14 wins  13 margin/game   +786 deaths/game  17.4
+      r150-600   60 eps | died  50% (recalling   3, otherwise  27) | resumed  50% | recalls  39: completed  82%, died-while-recalling   8%
+      r600+     279 eps | died  63% (recalling  11, otherwise 166) | resumed  37% | recalls 160: completed  71%, died-while-recalling   7%
+=== 00eight ===
+  lh-recallall  games  14 wins  10 margin/game   +335 deaths/game  19.0
+      r150-600  244 eps | died  38% (recalling   4, otherwise  88) | resumed  62% | recalls 190: completed  93%, died-while-recalling   2%
+      r600+     229 eps | died  41% (recalling   1, otherwise  93) | resumed  59% | recalls 177: completed  97%, died-while-recalling   1%
+  lh-spawnfix   games  14 wins  11 margin/game   +448 deaths/game  16.7
+      r150-600  221 eps | died  37% (recalling   8, otherwise  73) | resumed  63% | recalls 220: completed  88%, died-while-recalling   4%
+      r600+     208 eps | died  41% (recalling   7, otherwise  79) | resumed  59% | recalls 191: completed  85%, died-while-recalling   4%
+=== 00lanes ===
+  lh-recallall  games  14 wins  10 margin/game   +293 deaths/game  13.1
+      r150-600  199 eps | died  32% (recalling   0, otherwise  63) | resumed  68% | recalls 170: completed  99%, died-while-recalling   0%
+      r600+     153 eps | died  44% (recalling   0, otherwise  67) | resumed  56% | recalls 131: completed  95%, died-while-recalling   0%
+  lh-spawnfix   games  14 wins  10 margin/game   +286 deaths/game  13.7
+      r150-600  206 eps | died  34% (recalling   3, otherwise  68) | resumed  66% | recalls 192: completed  94%, died-while-recalling   2%
+      r600+     175 eps | died  41% (recalling   0, otherwise  72) | resumed  59% | recalls 168: completed  96%, died-while-recalling   0%
+=== 00rushbait-v2 ===
+  lh-recallall  games  14 wins  12 margin/game   +458 deaths/game   7.6
+      r150-600  110 eps | died  32% (recalling   1, otherwise  34) | resumed  68% | recalls  89: completed  90%, died-while-recalling   1%
+      r600+     106 eps | died  42% (recalling   1, otherwise  44) | resumed  57% | recalls  77: completed  94%, died-while-recalling   1%
+  lh-spawnfix   games  14 wins  13 margin/game   +532 deaths/game   7.2
+      r150-600  109 eps | died  35% (recalling   1, otherwise  37) | resumed  65% | recalls  94: completed  91%, died-while-recalling   1%
+      r600+     106 eps | died  40% (recalling   3, otherwise  39) | resumed  60% | recalls  94: completed  90%, died-while-recalling   3%
+=== ALL non-contest ===
+  lh-recallall  games  42 wins  32 margin/game   +362 deaths/game  13.3
+      r150-600  553 eps | died  34% (recalling   5, otherwise 185) | resumed  66% | recalls 449: completed  94%, died-while-recalling   1%
+      r600+     488 eps | died  42% (recalling   2, otherwise 204) | resumed  58% | recalls 385: completed  95%, died-while-recalling   1%
+  lh-spawnfix   games  42 wins  34 margin/game   +422 deaths/game  12.5
+      r150-600  536 eps | died  35% (recalling  12, otherwise 178) | resumed  65% | recalls 506: completed  91%, died-while-recalling   2%
+      r600+     489 eps | died  41% (recalling  10, otherwise 190) | resumed  59% | recalls 453: completed  90%, died-while-recalling   2%

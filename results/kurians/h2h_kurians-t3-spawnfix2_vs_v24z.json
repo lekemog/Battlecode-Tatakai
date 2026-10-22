@@ -1,0 +1,642 @@
+[
+ {
+  "map": "00ambush",
+  "side": 0,
+  "cand": 1024,
+  "base": 616,
+  "win": true,
+  "rounds": 1928
+ },
+ {
+  "map": "00ambush",
+  "side": 1,
+  "cand": 1029,
+  "base": 887,
+  "win": true,
+  "rounds": 1980
+ },
+ {
+  "map": "00collision",
+  "side": 0,
+  "cand": 1015,
+  "base": 559,
+  "win": true,
+  "rounds": 1621
+ },
+ {
+  "map": "00collision",
+  "side": 1,
+  "cand": 559,
+  "base": 1015,
+  "win": false,
+  "rounds": 1621
+ },
+ {
+  "map": "00contest",
+  "side": 0,
+  "cand": 0,
+  "base": 1000,
+  "win": false,
+  "rounds": 1920
+ },
+ {
+  "map": "00contest",
+  "side": 1,
+  "cand": 1000,
+  "base": 0,
+  "win": true,
+  "rounds": 1920
+ },
+ {
+  "map": "00corners",
+  "side": 0,
+  "cand": 1000,
+  "base": 965,
+  "win": true,
+  "rounds": 1274
+ },
+ {
+  "map": "00corners",
+  "side": 1,
+  "cand": 965,
+  "base": 1000,
+  "win": false,
+  "rounds": 1274
+ },
+ {
+  "map": "00eight",
+  "side": 0,
+  "cand": 1009,
+  "base": 643,
+  "win": true,
+  "rounds": 1465
+ },
+ {
+  "map": "00eight",
+  "side": 1,
+  "cand": 643,
+  "base": 1009,
+  "win": false,
+  "rounds": 1465
+ },
+ {
+  "map": "00elkring",
+  "side": 0,
+  "cand": 913,
+  "base": 1001,
+  "win": false,
+  "rounds": 1072
+ },
+ {
+  "map": "00elkring",
+  "side": 1,
+  "cand": 1001,
+  "base": 913,
+  "win": true,
+  "rounds": 1072
+ },
+ {
+  "map": "00expanse",
+  "side": 0,
+  "cand": 740,
+  "base": 1010,
+  "win": false,
+  "rounds": 1705
+ },
+ {
+  "map": "00expanse",
+  "side": 1,
+  "cand": 1010,
+  "base": 740,
+  "win": true,
+  "rounds": 1705
+ },
+ {
+  "map": "00fragment",
+  "side": 0,
+  "cand": 312,
+  "base": 1004,
+  "win": false,
+  "rounds": 1981
+ },
+ {
+  "map": "00fragment",
+  "side": 1,
+  "cand": 1001,
+  "base": 303,
+  "win": true,
+  "rounds": 1944
+ },
+ {
+  "map": "00gem-fields",
+  "side": 0,
+  "cand": 1012,
+  "base": 472,
+  "win": true,
+  "rounds": 737
+ },
+ {
+  "map": "00gem-fields",
+  "side": 1,
+  "cand": 275,
+  "base": 1029,
+  "win": false,
+  "rounds": 783
+ },
+ {
+  "map": "00gemfight",
+  "side": 0,
+  "cand": 205,
+  "base": 1049,
+  "win": false,
+  "rounds": 1010
+ },
+ {
+  "map": "00gemfight",
+  "side": 1,
+  "cand": 1049,
+  "base": 205,
+  "win": true,
+  "rounds": 1010
+ },
+ {
+  "map": "00great-wall",
+  "side": 0,
+  "cand": 731,
+  "base": 1030,
+  "win": false,
+  "rounds": 1786
+ },
+ {
+  "map": "00great-wall",
+  "side": 1,
+  "cand": 1030,
+  "base": 731,
+  "win": true,
+  "rounds": 1786
+ },
+ {
+  "map": "00interlock",
+  "side": 0,
+  "cand": 811,
+  "base": 1035,
+  "win": false,
+  "rounds": 1426
+ },
+ {
+  "map": "00interlock",
+  "side": 1,
+  "cand": 1035,
+  "base": 811,
+  "win": true,
+  "rounds": 1426
+ },
+ {
+  "map": "00lanes",
+  "side": 0,
+  "cand": 956,
+  "base": 1013,
+  "win": false,
+  "rounds": 1452
+ },
+ {
+  "map": "00lanes",
+  "side": 1,
+  "cand": 1006,
+  "base": 986,
+  "win": true,
+  "rounds": 1607
+ },
+ {
+  "map": "00lost-world",
+  "side": 0,
+  "cand": 954,
+  "base": 1002,
+  "win": false,
+  "rounds": 892
+ },
+ {
+  "map": "00lost-world",
+  "side": 1,
+  "cand": 1002,
+  "base": 954,
+  "win": true,
+  "rounds": 892
+ },
+ {
+  "map": "00monolith",
+  "side": 0,
+  "cand": 606,
+  "base": 1036,
+  "win": false,
+  "rounds": 1216
+ },
+ {
+  "map": "00monolith",
+  "side": 1,
+  "cand": 1036,
+  "base": 606,
+  "win": true,
+  "rounds": 1216
+ },
+ {
+  "map": "00packs",
+  "side": 0,
+  "cand": 1002,
+  "base": 490,
+  "win": true,
+  "rounds": 1328
+ },
+ {
+  "map": "00packs",
+  "side": 1,
+  "cand": 490,
+  "base": 1002,
+  "win": false,
+  "rounds": 1328
+ },
+ {
+  "map": "00pilgrimage",
+  "side": 0,
+  "cand": 1009,
+  "base": 454,
+  "win": true,
+  "rounds": 1909
+ },
+ {
+  "map": "00pilgrimage",
+  "side": 1,
+  "cand": 557,
+  "base": 1009,
+  "win": false,
+  "rounds": 1925
+ },
+ {
+  "map": "00quadrants",
+  "side": 0,
+  "cand": 1038,
+  "base": 667,
+  "win": true,
+  "rounds": 924
+ },
+ {
+  "map": "00quadrants",
+  "side": 1,
+  "cand": 667,
+  "base": 1038,
+  "win": false,
+  "rounds": 924
+ },
+ {
+  "map": "00reverse-spiral",
+  "side": 0,
+  "cand": 514,
+  "base": 1008,
+  "win": false,
+  "rounds": 1895
+ },
+ {
+  "map": "00reverse-spiral",
+  "side": 1,
+  "cand": 1008,
+  "base": 514,
+  "win": true,
+  "rounds": 1898
+ },
+ {
+  "map": "00road-of-riches",
+  "side": 0,
+  "cand": 626,
+  "base": 884,
+  "win": false,
+  "rounds": 2000
+ },
+ {
+  "map": "00road-of-riches",
+  "side": 1,
+  "cand": 884,
+  "base": 626,
+  "win": true,
+  "rounds": 2000
+ },
+ {
+  "map": "00rows",
+  "side": 0,
+  "cand": 856,
+  "base": 1016,
+  "win": false,
+  "rounds": 1692
+ },
+ {
+  "map": "00rows",
+  "side": 1,
+  "cand": 1096,
+  "base": 913,
+  "win": true,
+  "rounds": 1727
+ },
+ {
+  "map": "00rushbait-v2",
+  "side": 0,
+  "cand": 1021,
+  "base": 927,
+  "win": true,
+  "rounds": 1611
+ },
+ {
+  "map": "00rushbait-v2",
+  "side": 1,
+  "cand": 927,
+  "base": 1021,
+  "win": false,
+  "rounds": 1611
+ },
+ {
+  "map": "00split",
+  "side": 0,
+  "cand": 1057,
+  "base": 936,
+  "win": true,
+  "rounds": 1621
+ },
+ {
+  "map": "00split",
+  "side": 1,
+  "cand": 528,
+  "base": 1010,
+  "win": false,
+  "rounds": 1239
+ },
+ {
+  "map": "00stampede",
+  "side": 0,
+  "cand": 1056,
+  "base": 160,
+  "win": true,
+  "rounds": 1830
+ },
+ {
+  "map": "00stampede",
+  "side": 1,
+  "cand": 160,
+  "base": 1056,
+  "win": false,
+  "rounds": 1830
+ },
+ {
+  "map": "00swirl",
+  "side": 0,
+  "cand": 174,
+  "base": 1001,
+  "win": false,
+  "rounds": 1254
+ },
+ {
+  "map": "00swirl",
+  "side": 1,
+  "cand": 1001,
+  "base": 174,
+  "win": true,
+  "rounds": 1254
+ },
+ {
+  "map": "01big-world",
+  "side": 0,
+  "cand": 711,
+  "base": 1016,
+  "win": false,
+  "rounds": 1926
+ },
+ {
+  "map": "01big-world",
+  "side": 1,
+  "cand": 1016,
+  "base": 711,
+  "win": true,
+  "rounds": 1926
+ },
+ {
+  "map": "01boss-battle",
+  "side": 0,
+  "cand": 393,
+  "base": 1538,
+  "win": false,
+  "rounds": 1924
+ },
+ {
+  "map": "01boss-battle",
+  "side": 1,
+  "cand": 188,
+  "base": 1023,
+  "win": false,
+  "rounds": 1263
+ },
+ {
+  "map": "01broken-curve",
+  "side": 0,
+  "cand": 1017,
+  "base": 580,
+  "win": true,
+  "rounds": 1278
+ },
+ {
+  "map": "01broken-curve",
+  "side": 1,
+  "cand": 580,
+  "base": 1017,
+  "win": false,
+  "rounds": 1278
+ },
+ {
+  "map": "01concentrated-wealth",
+  "side": 0,
+  "cand": 606,
+  "base": 929,
+  "win": false,
+  "rounds": 2000
+ },
+ {
+  "map": "01concentrated-wealth",
+  "side": 1,
+  "cand": 1017,
+  "base": 469,
+  "win": true,
+  "rounds": 1784
+ },
+ {
+  "map": "01corridors",
+  "side": 0,
+  "cand": 554,
+  "base": 1104,
+  "win": false,
+  "rounds": 1678
+ },
+ {
+  "map": "01corridors",
+  "side": 1,
+  "cand": 1104,
+  "base": 554,
+  "win": true,
+  "rounds": 1678
+ },
+ {
+  "map": "01elk-arena",
+  "side": 0,
+  "cand": 1008,
+  "base": 216,
+  "win": true,
+  "rounds": 1986
+ },
+ {
+  "map": "01elk-arena",
+  "side": 1,
+  "cand": 360,
+  "base": 840,
+  "win": false,
+  "rounds": 2000
+ },
+ {
+  "map": "01fracture",
+  "side": 0,
+  "cand": 955,
+  "base": 977,
+  "win": false,
+  "rounds": 2000
+ },
+ {
+  "map": "01fracture",
+  "side": 1,
+  "cand": 977,
+  "base": 955,
+  "win": true,
+  "rounds": 2000
+ },
+ {
+  "map": "01gold-rush",
+  "side": 0,
+  "cand": 627,
+  "base": 825,
+  "win": false,
+  "rounds": 2000
+ },
+ {
+  "map": "01gold-rush",
+  "side": 1,
+  "cand": 825,
+  "base": 627,
+  "win": true,
+  "rounds": 2000
+ },
+ {
+  "map": "01hooks",
+  "side": 0,
+  "cand": 22,
+  "base": 1001,
+  "win": false,
+  "rounds": 1314
+ },
+ {
+  "map": "01hooks",
+  "side": 1,
+  "cand": 1001,
+  "base": 22,
+  "win": true,
+  "rounds": 1314
+ },
+ {
+  "map": "01islands",
+  "side": 0,
+  "cand": 1021,
+  "base": 812,
+  "win": true,
+  "rounds": 1894
+ },
+ {
+  "map": "01islands",
+  "side": 1,
+  "cand": 812,
+  "base": 1021,
+  "win": false,
+  "rounds": 1894
+ },
+ {
+  "map": "01shortcut",
+  "side": 0,
+  "cand": 0,
+  "base": 74,
+  "win": false,
+  "rounds": 2000
+ },
+ {
+  "map": "01shortcut",
+  "side": 1,
+  "cand": 74,
+  "base": 0,
+  "win": true,
+  "rounds": 2000
+ },
+ {
+  "map": "01starfish",
+  "side": 0,
+  "cand": 1060,
+  "base": 319,
+  "win": true,
+  "rounds": 1893
+ },
+ {
+  "map": "01starfish",
+  "side": 1,
+  "cand": 170,
+  "base": 1058,
+  "win": false,
+  "rounds": 1684
+ },
+ {
+  "map": "01starvation",
+  "side": 0,
+  "cand": 400,
+  "base": 544,
+  "win": false,
+  "rounds": 2000
+ },
+ {
+  "map": "01starvation",
+  "side": 1,
+  "cand": 544,
+  "base": 400,
+  "win": true,
+  "rounds": 2000
+ },
+ {
+  "map": "01the-farm",
+  "side": 0,
+  "cand": 408,
+  "base": 1012,
+  "win": false,
+  "rounds": 1446
+ },
+ {
+  "map": "01the-farm",
+  "side": 1,
+  "cand": 1012,
+  "base": 408,
+  "win": true,
+  "rounds": 1446
+ },
+ {
+  "map": "01yellow-brick-road",
+  "side": 0,
+  "cand": 1024,
+  "base": 666,
+  "win": true,
+  "rounds": 859
+ },
+ {
+  "map": "01yellow-brick-road",
+  "side": 1,
+  "cand": 622,
+  "base": 1011,
+  "win": false,
+  "rounds": 822
+ }
+]

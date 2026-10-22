@@ -90,7 +90,7 @@ function run(x) {
 }
 
 let res, err;
-for (const v of ['v1_0_2', 'v1_0_1', 'v1_0_0', 'v0_1_0', 'v0_0_4']) {
+for (const v of ['v1_0_3', 'v1_0_2', 'v1_0_1', 'v1_0_0', 'v0_1_0', 'v0_0_4']) {
   try { res = run(await load(v)); res.version = v; break; } catch (e) { err = e; }
 }
 if (!res) { console.error('FAILED', replayPath, err.message); process.exit(1); }

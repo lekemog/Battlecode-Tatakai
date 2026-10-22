@@ -99,3 +99,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 188 | v24z | 2026-10-21T21:53Z | revert: v25a (lone recall at 50%) showed no gain in 20 top-4 scrims (0/20 both; deaths 14.5->13.8, gold r400 987->921) |
 | 189 | v25c | 2026-10-21T22:14Z | Scrim test: v24z + health item build for every champion (top-4 had 1700-3100 max HP vs our 900-1000 at r300-770). Revert to v24z unless scrims improve. |
 | 190 | v24z | 2026-10-21T22:22Z | revert: v25c (health build for all) worse in top-4 scrims (gems 351->266, gold r400 987->868; 0/20 both) |
+| 191 | kurians-t3-spawnfix | 2026-10-22T11:22Z | Kurians' T3 fix (#40): v24z + step off a respawning group's spawn tile when none of its camps is visible (rows respawn deadlock: farmer froze 1055 rounds; 3 ranked rows losses). Monolith groups excluded. 7-opp 40-map bench 458/560 (= v24z level: 449 on the 39 shared maps vs v24w 448). Revert to v24z if ranked worse. |

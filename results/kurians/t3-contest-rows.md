@@ -23,7 +23,27 @@
   - Detailed tables below were first computed on the 11 + 12 games decodable earlier. Rerun on all 29 games, the headline numbers barely move:
     - **Contest:** captures r150 6.7 vs 7.3, r600 22.7 vs 33.3 (middle 15.5 vs 23.7); gold r600 2430 vs 3337; **48.4 deaths per game, 12.2 while recalling.**
     - **Rows:** captures r150 2.3 vs 4.1; gold r150 415 vs 552.
-    - **The rows deadlock (≥100 rounds) appears in 3 of our 11 side-A games, all losses.** None of the newer 1.0.3 games show it.
+    - **The rows deadlock (≥100 rounds) appears in 3 of our 11 side-A games, all losses.** Only 1 side-A rows game has been played on engine 1.0.3 so far, so "absent on 1.0.3" is not established either way.
+
+**Ranked games by live bot version and engine** (live version from `SUBMISSIONS.md` submit times; a game counts under the last submission before it started):
+
+| Map | Live bot | Engine | Games | Wins | Rows: side-A games / deadlock games |
+|---|---|---|---|---|---|
+| contest | v24p | 1.0.2 | 2 | 1 | |
+| contest | v24u | 1.0.2 | 1 | 1 | |
+| contest | v24z | 1.0.2 | 8 | 1 | |
+| contest | v24z | 1.0.3 | 2 | 1 | |
+| rows | v24k | 1.0.2 | 1 | 0 | 1 / 0 |
+| rows | v24n | 1.0.2 | 1 | 0 | 1 / 0 |
+| rows | v24u | 1.0.2 | 1 | 0 | 1 / 1 |
+| rows | v24v | 1.0.2 | 1 | 1 | 0 / 0 |
+| rows | v24w | 1.0.2 | 1 | 0 | 0 / 0 |
+| rows | v24z | 1.0.2 | 9 | 4 | 7 / 2 |
+| rows | v24z | 1.0.3 | 2 | 2 | 1 / 0 |
+
+- **Contest** behaviour is the same from v24p (its Vesper/Willow contest draft) through v24z; the later versions only change other maps. So the 13 contest games are one cohort, apart from the engine.
+- **Rows changed twice in this window:** v24n (smaller banks on rows) and v24u (Varg-first/Willow draft on rows for teams of 4+). So 12 of the 16 rows games (v24u onward) share today's rows code; the 4 earlier ones don't. The deadlock code path (line 1425) is unchanged in all of them.
+- The rows and contest averages in sections 2–3 pool all cohorts; the table lets anyone re-split them.
 - **Local:** the current 40-map pool (`cambc maps pull`), engine 1.0.2 (cambc 3.0.4).
 
 **Definitions:**
@@ -76,6 +96,26 @@ A pure "didn't move" measure misses these, because the champion shuffles between
 - 41/80, mean gem margin −1.
 - Every map splits like v24z vs itself except **ambush, where spawnfix wins both** (1024–616, 1029–887).
 - boss_battle and corners mirror v24z.
+
+### Engine 1.0.3 recheck with mechanism numbers (review follow-up)
+Tools: `tools/t3engine103.ps1`, `tools/t3engine103_report.py` and `tools/spawnblock.py` (cambc 3.0.5, 22 games, all decoded as `v1_0_3`). spawnblock counts:
+- rounds a non-monolith group was due (timer 0, no live camps) while one of our champions stood on its spawn tiles
+- the delay from "due" to the camps actually reappearing
+- any champion staying 10+ rounds on a due group's tile (the occupied/unreachable-ring edge case)
+
+| Rows, side A | v24z: blocking rounds | v24z: respawn delay | spawnfix: blocking | spawnfix: delay |
+|---|---|---|---|---|
+| vs fz_solo | **1426** (group 0 never respawned) | — | 0 | ≤ 1 |
+| vs cc_contest | **346** | 347 | 0 | 0 |
+| vs starter-cpp / v24c | ≤ 1 | ≤ 2 | ≤ 1 | ≤ 2 |
+
+- Side-B rows games: no blocking for either bot.
+- **Results are identical to the 1.0.2 runs, to the gem.**
+- **Controls:** corners (1000–965 as side A) and boss_battle (1034–717 as side A) mirror v24z, and corners' total respawn delay is identical to v24z (15 rounds).
+- **Edge case seen once:** on corners as side B, a champion stayed 11 rounds on a due group's tile (group 26), then left by itself, with no extra delay compared with v24z. No lasting stall from an occupied or unreachable ring was observed; not ruled out.
+
+### Status
+Main Claude's 7-opponent bench on engine 1.0.3: 458/560 (449 vs v24w's 448 on the 39 shared maps), neutral. **Submitted as live on 22 Oct (#40).** Contest recall: 13/14 on the bench, same as v24z. It follows after ~40 ranked games of spawnfix.
 
 ## 2. Rows opening (diagnosed; proposal rejected locally)
 - **Ranked:** we take 2.3 captures by r150 vs their 4.4, and earn 415 gold vs 601. Not a fighting problem: 2.0 deaths by r600 vs 3.3.
@@ -153,6 +193,38 @@ spawnfix + **on contest only** (the existing `forced_pack` fingerprint): low-HP 
 - **Verdict:** the mechanism moves the right way (fewer recall deaths, less gold fed), but the bench can't judge the outcome. Both versions win every bench game, while ranked contest is 3/12, and these opponents rarely chase. This is a contest-only, low-risk candidate for a ranked or scrim test, not a proven win.
 - `t3contest.py` decides the winner from tributed gems, then gold earned. (The first run read the snapshot's `outcome` code as 0/1 by side, which is wrong; results above are recomputed from the printed gems/gold.)
 
+### Low-HP episodes (review follow-up, `tools/lowhp.py`)
+An episode starts when an alive champion off its spawn (>4 tiles) drops below 30% HP (the bot's retreat threshold). It ends at death, or when the champion is back off spawn with ≥90% HP ("recovered"). Recall = `channelType` 1, identified from replays: median 5 rounds; ends at spawn 671 times, in death 85, cancelled 60.
+
+**Ranked contest, 13 games, us vs them:**
+
+| | Us r150–600 | Them r150–600 | Us r600+ | Them r600+ |
+|---|---|---|---|---|
+| Episodes | 152 | 147 | 496 | 364 |
+| Ended in death | **74%** | 49% | **73%** | 59% |
+| Recall attempts / episode | 0.51 | 0.61 | 0.59 | 0.56 |
+| Recalls completed | **60%** | 77% | **48%** | 71% |
+| **Died while recalling (per attempt)** | **25%** | 9% | **45%** | 23% |
+| Died when no recall was tried | 100% | 91% | 98% | 96% |
+
+- **We recall about as often as opponents, but our recalls fail far more.** Where and when the recall starts is the problem, not whether we recall.
+- **Not recalling is not a safe fallback either:** a low-HP champion that never recalls dies 96–100% of the time, for both teams. So refusing a recall could just move the death (the review's concern).
+
+**Local check of that concern** (contest, 6 games per bot: fz_hunt, v24c, cc_contest × both sides; r600+, where most episodes are):
+
+| | spawnfix | contestrecall |
+|---|---|---|
+| Episodes | 161 | 148 |
+| Ended in death | 64% | **60%** |
+| Recovered | 36% | **40%** |
+| Recall attempts | 139 | 118 |
+| Completed | 55% | **61%** |
+| Died while recalling (per attempt) | 35% | **31%** |
+| Deaths not while recalling | 54 | 53 |
+
+- Locally, refused recalls did **not** turn into walking deaths (54 → 53), while recall deaths fell (49 → 36) and more champions recovered.
+- Directionally positive, but small (6 games), and the local opponents share our code: their own recalls die 43–52% of attempts. A real ranked or scrim test is still the judge. The r150–600 local samples (18–20 episodes) are too small to read.
+
 ## 4. Open items
-- **4 ranked games on engine 1.0.3** (1 contest, 3 rows) weren't decodable with cambc 3.0.4. cambc 3.0.5 is published.
+- **All ranked games are decoded** (cambc 3.0.5 assets + `v1_0_3` in `extract3.mjs`).
 - **Local opponents don't reproduce ranked contest.** On the bench v24z/v24p win contest, and our local deaths are far below ranked. So contest proposals need main Claude's ranked or scrim test to be judged.

@@ -17,7 +17,7 @@ The candidate plays every map in the ranked pool against 7 fixed opponents, once
 
 ```bash
 pip install cambc==3.0.5            # engine 1.0.3, same as the ladder (check: cambc --version)
-cambc init myproj --yes && cd myproj && cambc maps pull
+cambc init myproj --yes && cd myproj && cp <repo>/bench/maps/*.map26a maps/   # the 40 ranked maps (or: cambc maps pull)
 cp -r <repo>/bench/bots/* bots/      # the 7 bench opponents
 cp -r <repo>/bots/<candidate> bots/  # candidate and the live bot (bots/kurians-t3-spawnfix right now)
 rm -rf bots/*/.cambc                 # ALWAYS: a copied build cache makes cambc reuse the wrong binary

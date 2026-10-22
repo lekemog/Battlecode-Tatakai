@@ -14,7 +14,7 @@
 | kurians-t3-contestrecall | **243/294** | +3264 |
 | kurians-t3-spawnfix (live) | 242/294 | +3263 |
 
-- Per-opponent results are identical except x_daniel8 (+1) and h_mohnish (margin +19).
+- **Per opponent:** wins are identical except x_daniel8 (30 vs 29). Margins move by up to ±19 per opponent: these are the contest games, since contest is the only map whose decisions change.
 - Per map, every map has the same losses except **contest: 1 vs 2**. That's expected: the rule only fires on the contest fingerprint.
 - **Pass rule:** not below the live bot, no per-map regression. It passes on this 21-map subset.
 

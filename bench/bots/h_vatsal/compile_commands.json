@@ -1,0 +1,44 @@
+[
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/bot.cpp.obj -c /home/claude/proj/bots/h_vatsal/src/bot.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_vatsal/.cambc/build",
+    "file": "/home/claude/proj/bots/h_vatsal/src/bot.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/bot.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/combat.cpp.obj -c /home/claude/proj/bots/h_vatsal/src/combat.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_vatsal/.cambc/build",
+    "file": "/home/claude/proj/bots/h_vatsal/src/combat.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/combat.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/draft.cpp.obj -c /home/claude/proj/bots/h_vatsal/src/draft.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_vatsal/.cambc/build",
+    "file": "/home/claude/proj/bots/h_vatsal/src/draft.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/draft.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/economy.cpp.obj -c /home/claude/proj/bots/h_vatsal/src/economy.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_vatsal/.cambc/build",
+    "file": "/home/claude/proj/bots/h_vatsal/src/economy.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/economy.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/farming.cpp.obj -c /home/claude/proj/bots/h_vatsal/src/farming.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_vatsal/.cambc/build",
+    "file": "/home/claude/proj/bots/h_vatsal/src/farming.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/farming.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/main.cpp.obj -c /home/claude/proj/bots/h_vatsal/src/main.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_vatsal/.cambc/build",
+    "file": "/home/claude/proj/bots/h_vatsal/src/main.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/main.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/navigation.cpp.obj -c /home/claude/proj/bots/h_vatsal/src/navigation.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_vatsal/.cambc/build",
+    "file": "/home/claude/proj/bots/h_vatsal/src/navigation.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_vatsal/src/navigation.cpp.obj"
+  }
+]

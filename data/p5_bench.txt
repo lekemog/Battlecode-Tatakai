@@ -388,3 +388,50 @@ h_photon v25h TOTAL 27  margin +641
 h_apex v25h TOTAL 27  margin +674
 GAUNTLET v25h wins 128 / 238 margin 1849
 == kurians-t3-contestrecall full 7-opp pool6 (Kurian contestrecall)
+x_daniel8 kurians-t3-contestrecall TOTAL 54  margin +196
+x_de41h4 kurians-t3-contestrecall TOTAL 51  margin +188
+h_mohnish kurians-t3-contestrecall TOTAL 53  margin +249
+h_deysag kurians-t3-contestrecall TOTAL 66  margin +408
+h_vatsal kurians-t3-contestrecall TOTAL 79  margin +678
+h_photon kurians-t3-contestrecall TOTAL 76  margin +684
+h_apex kurians-t3-contestrecall TOTAL 80  margin +736
+GAUNTLET kurians-t3-contestrecall wins 459 / 238 margin 3139
+== v25i full 7-opp pool6 (fight threshold)
+x_daniel8 v25i TOTAL 48  margin +178
+x_de41h4 v25i TOTAL 52  margin +224
+h_mohnish v25i TOTAL 46  margin +137
+h_deysag v25i TOTAL 55  margin +339
+h_vatsal v25i TOTAL 76  margin +655
+h_photon v25i TOTAL 76  margin +721
+h_apex v25i TOTAL 78  margin +722
+GAUNTLET v25i wins 431 / 238 margin 2976
+== v25j full 7-opp pool6 (fight threshold)
+x_daniel8 v25j TOTAL 50  margin +197
+x_de41h4 v25j TOTAL 52  margin +223
+h_mohnish v25j TOTAL 50  margin +182
+h_deysag v25j TOTAL 58  margin +346
+h_vatsal v25j TOTAL 75  margin +673
+h_photon v25j TOTAL 74  margin +712
+h_apex v25j TOTAL 79  margin +716
+GAUNTLET v25j wins 438 / 238 margin 3049
+== sparring: v24z vs s_marcus (Marcusydz main, v1.8.1-era) pool6
+v24z TOTAL 17  margin -363
+== sparring: v25j vs s_marcus pool6
+v25j TOTAL 13  margin -402
+== sparring: v25i vs s_marcus pool6
+v25i TOTAL 12  margin -406
+== sparring: v25k vs s_marcus pool6
+v25k TOTAL 25  margin -198
+== sparring: v24z vs s_siege pool6
+v24z TOTAL 5  margin -557
+== sparring: v25k vs s_siege pool6
+v25k TOTAL 11  margin -522
+== v25k full 7-opp pool6 (Bruiser build)
+x_daniel8 v25k TOTAL 54  margin +256
+x_de41h4 v25k TOTAL 60  margin +310
+h_mohnish v25k TOTAL 56  margin +310
+h_deysag v25k TOTAL 64  margin +466
+h_vatsal v25k TOTAL 79  margin +678
+h_photon v25k TOTAL 76  margin +734
+h_apex v25k TOTAL 79  margin +758
+GAUNTLET v25k wins 468 / 238 margin 3512

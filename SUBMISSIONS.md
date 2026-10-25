@@ -107,3 +107,5 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 196 | v25m | 2026-10-25T09:31Z | v25k + siege-bot 5-pick draft (Vendetta, Vesper, Ryth, Tavi, Marcella) on maps without a per-map draft. Bench 482/560 +3700 (v25k 468 +3512). Sparring vs Marcus 29/80 (v25k 25), vs siege 16/80 (v25k 11). Guard: revert to v25k if ranked worse. |
 | 197 | v25u | 2026-10-25T12:01Z | v25m + camp/golem stats fix, Heart of Ruin dash+focus build, top-4 draft below 60x60 area, Kurians spawnfix+contestrecall, altar locks, no recall inside camp reach. Bench 508/560 +4405 (v25m 482 +3700); sparring vs siege/warlord/marcus 85/240 (v25m 64). Guard: revert to v25m if ranked worse. |
 | 198 | v25u | 2026-10-25T12:01Z | Duplicate upload of the same v25u (two login watchers fired). |
+| 199 | v25y | 2026-10-25T14:55Z | SCRIM TEST vs top 10 (Leke approved): v25u + walking-distance solo targets + top-10 all-Bruiser build. 20 groups (100 games) paired with v25u: 0 vs 0 wins, gems 248 vs 238, deaths 17.2 vs 17.1 - no measurable change. |
+| 200 | v25u | 2026-10-25T14:58Z | Revert after the v25y scrim test (v25u ranked 42/75 since 12:02, rank 333 -> 301). |

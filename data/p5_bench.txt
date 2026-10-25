@@ -435,3 +435,20 @@ h_vatsal v25k TOTAL 79  margin +678
 h_photon v25k TOTAL 76  margin +734
 h_apex v25k TOTAL 79  margin +758
 GAUNTLET v25k wins 468 / 238 margin 3512
+== sparring: v25l vs s_marcus pool6
+v25l TOTAL 25  margin -190
+== sparring: v25l vs s_siege pool6
+v25l TOTAL 8  margin -515
+== sparring: v25m vs s_marcus pool6
+v25m TOTAL 29  margin -167
+== sparring: v25m vs s_siege pool6
+v25m TOTAL 16  margin -424
+== v25m full 7-opp pool6 (siege draft)
+x_daniel8 v25m TOTAL 60  margin +319
+x_de41h4 v25m TOTAL 61  margin +378
+h_mohnish v25m TOTAL 59  margin +352
+h_deysag v25m TOTAL 64  margin +426
+h_vatsal v25m TOTAL 80  margin +713
+h_photon v25m TOTAL 79  margin +743
+h_apex v25m TOTAL 79  margin +769
+GAUNTLET v25m wins 482 / 238 margin 3700

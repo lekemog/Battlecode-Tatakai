@@ -452,3 +452,44 @@ h_vatsal v25m TOTAL 80  margin +713
 h_photon v25m TOTAL 79  margin +743
 h_apex v25m TOTAL 79  margin +769
 GAUNTLET v25m wins 482 / 238 margin 3700
+== v25n/v25p/v25u full 7-opp pool6 (sweep 25 Oct, session 2)
+x_daniel8 v25n TOTAL 59  margin +309
+x_de41h4 v25n TOTAL 60  margin +342
+h_mohnish v25n TOTAL 60  margin +376
+h_deysag v25n TOTAL 66  margin +430
+h_vatsal v25n TOTAL 79  margin +711
+h_photon v25n TOTAL 78  margin +746
+h_apex v25n TOTAL 77  margin +718
+GAUNTLET v25n wins 479 / 490 margin 3632
+x_daniel8 v25p TOTAL 61  margin +325
+x_de41h4 v25p TOTAL 64  margin +391
+h_mohnish v25p TOTAL 59  margin +363
+h_deysag v25p TOTAL 65  margin +439
+h_vatsal v25p TOTAL 79  margin +680
+h_photon v25p TOTAL 79  margin +713
+h_apex v25p TOTAL 77  margin +718
+GAUNTLET v25p wins 484 / 490 margin 3629
+x_daniel8 v25u TOTAL 65  margin +410
+x_de41h4 v25u TOTAL 69  margin +480
+h_mohnish v25u TOTAL 66  margin +467
+h_deysag v25u TOTAL 68  margin +573
+h_vatsal v25u TOTAL 80  margin +844
+h_photon v25u TOTAL 80  margin +818
+h_apex v25u TOTAL 80  margin +813
+GAUNTLET v25u wins 508 / 490 margin 4405
+== sparring 25 Oct session 2 (s_siege, s_warlord = MathCosine/cmbc; s_marcus = Marcusydz main)
+v25m vs s_siege: 18/80  margin
+v25m vs s_warlord: 17/80  margin
+v25m vs s_marcus: 29/80  margin
+v25q vs s_siege: 16/80  margin
+v25q vs s_warlord: 23/80  margin
+v25q vs s_marcus: 25/80  margin
+v25p vs s_siege: 18/80  margin
+v25p vs s_warlord: 23/80  margin
+v25p vs s_marcus: 23/80  margin
+v25s vs s_siege: 23/80  margin
+v25s vs s_warlord: 29/80  margin
+v25s vs s_marcus: 20/80  margin
+v25u vs s_siege: 26/80  margin
+v25u vs s_warlord: 29/80  margin
+v25u vs s_marcus: 30/80  margin

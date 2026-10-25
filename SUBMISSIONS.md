@@ -115,3 +115,5 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 204 | v25u | 2026-10-25T15:3xZ | Revert after the v26b scrim test. |
 | 205 | v26b | 2026-10-25T16:1xZ | SCRIM TEST vs ranks 55-136 (10 teams x 2 map sets, side a): 0/100 wins vs v25u baseline 4/100; gems 394 vs 419, deaths 17.9 vs 18.1 - rejected. |
 | 206 | v25u | 2026-10-25T16:2xZ | Revert after the v26b mid-rank scrim test. |
+| 207 | v27b | 2026-10-25T16:5xZ | SCRIM TEST vs ranks 55-136: rebuilt core v27b. 90 paired games vs v25u: wins 1 vs 4, gems 381 vs 429, deaths 15.3 vs 17.9, kills 2.7 vs 2.1, gold 4585 vs 4212, champion dmg 17.9k vs 12.8k. Better fights/economy, fewer gems collected (486 vs 508). |
+| 208 | v25u | 2026-10-25T17:1xZ | Revert after the v27b scrim test. |

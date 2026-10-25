@@ -43,8 +43,7 @@ MapPlan& map_plan() {
             case cambc::camp_type::wolf: hp += 1350; str += 20; break;
             case cambc::camp_type::elk: hp += 2400; str += 60; break;
             case cambc::camp_type::monolith: hp += 20000; str += 200; monolith = true; break;
-            case cambc::camp_type::golem: hp += 5000; str += 120; break;   // v25n: was the 500-HP default
-            default: hp += 120; break;
+            default: hp += 500; break;
             }
         }
         if (g.gem_value() == 0 || monolith) continue;

@@ -23,10 +23,6 @@ void camp_stats_for(camp_type k,double& hp,double& str){
     case camp_type::wolf:hp=1350;str=20;break;
     case camp_type::elk:hp=2400;str=60;break;
     case camp_type::monolith:hp=20000;str=200;break;
-    // v25n: golems (5000 HP, 120 str, range 4; 6 ranked maps) fell to the default and looked like harmless 500-HP
-    // camps, and gem/gold clusters have 120 HP, not 500 (SDK camp_type docs).
-    case camp_type::golem:hp=5000;str=120;break;
-    case camp_type::gem_cluster:case camp_type::gold_cluster:hp=120;str=0;break;
     default:hp=500;str=0;break;
     }
 }
@@ -894,9 +890,10 @@ bool Bot::bank(){
     // lost bags median 58 gems held 71 rounds; theirs banked at 22 gems after 20 rounds, 95% banked vs
     // our 63%). Bank as soon as a camp's worth is in hand.
     if(contested_altars==1&&siege_group<0)carry=std::clamp(22+ad-nearest_group,22,60);
+    const bool cf=careful();if(cf)carry=std::min(carry,10);   // v25n careful mode
     my_danger=danger_at(me.position(),gems);
     const bool risky_bag=gems>=22&&my_danger*gems>=6.0;
-    const bool go=win||endgame||rush||gems>=carry||(gems>=20&&ad<=6)||me.health()<me.max_health()*.4f||risky_bag;
+    const bool go=win||endgame||rush||gems>=carry||(gems>=20&&ad<=6)||me.health()<me.max_health()*(cf?.55f:.4f)||risky_bag;
     if(!go)return false;
     // v24c: boss battle - the only altar sits between two monoliths (they wake within 2 tiles), so every submit tile
     // is guarded. Carriers walked to it and stood for the whole game (952 bank turns, 0 gems banked) instead of
@@ -948,7 +945,7 @@ bool Bot::bank(){
         } else bank_alone_since=-1;
     }
     const bool big=gems>=60;
-    const bool unsafe=foes_near>0&&(our<their||(big&&danger_at(me.position(),gems)>.25))&&(bank_wait<(big?80:12));   // bounded even for big bags
+    const bool unsafe=foes_near>0&&(our<their||(big&&danger_at(me.position(),gems)>.25)||(!win&&threat(me.position())*ticks>me.health()))&&(bank_wait<(big?80:12));   // v25n: never start a channel the enemies in reach would kill   // bounded even for big bags
     if(unsafe)++bank_wait;
     for(auto altar:map::altars().positions()){
         if(dist(me.position(),altar)>constants::submit_gems_range)continue;
@@ -1022,57 +1019,65 @@ bool Bot::bank(){
     return true;
 }
 
+bool Bot::careful() const {int n=0;for(auto r:team_deaths)if(round<r+150)++n;return n>=3;}
+
+// v25n: stand-and-fight model (idea from MathCosine's siege README, re-implemented): allies count
+// out to 8 tiles, more enemy heads than ours within 6 means leave, an ally beside us holds a fight
+// that is not clearly lost, ranged champions let enemies walk into range, and we only run when in
+// real danger. Careful mode (3 team deaths in 150 rounds) treats even fights as lost.
 bool Bot::handle_enemies(){
     auto& me=self();
-    if(enemies.empty())return false;
+    if(enemies.empty()){hold_turns=0;return false;}
     const auto pos=me.position();
+    const bool spawn=map::spawn_region(team::ally).is_set(pos);
     const double fw2=focus_w();
+    auto on_their_spawn=[&](const Enemy& e){return map::spawn_region(team::enemy).is_set(e.pos);};
     double ours=fw2>0?(me.strength()+fw2*me.focus())*1.5*me.health():dps()*me.health(),theirs=0;
-    int near_enemies=0;
-    for(auto c:allies)if(dist(c.position(),pos)<=6)ours+=(c.strength()+fw2*c.focus())*1.5*c.health();
-    for(auto& e:enemies)if(dist(e.pos,pos)<=e.range+4){theirs+=(e.strength+fw2*e.focus)*1.5*e.hp;++near_enemies;}
-    int near_allies=0;for(auto c:allies)if(dist(c.position(),pos)<=6)++near_allies;
-    if(!near_enemies)return false;
-    // Posture: against invaders we only take even fights, except next to our spawn where we
-    // heal fully every round and they cannot follow (the "tower" advantage in LoL terms).
-    int home_d=home_distance.get(pos);
-    // Issue #17: defensive windows on eight/contest/swirl had worse kill ratios (eight 3.3 vs 0.7 deaths
-    // per 100 rounds) - turtling did not protect us. Grouped fights at need .7 instead of 1.05.
-    double need=defensive?(home_d<=5?.5:(near_allies>=2?.7:1.0)):.6;
-    // Audit: 26% of deaths were fights taken while outnumbered, 18% Cassi&Issac linked deaths
-    // (losing Cassi kills Issac too): Cassi needs a clearer edge, and 2+ extra enemies means leave.
-    if(raid&&me.gem_count()<30)need=std::min(need,.5);
-    if(me.champion_name()==champion_type::cassi)need*=1.3;
-
-    tr_ratio=theirs>0?ours/theirs:9.99;
-    bool favourable=ours>=theirs*need&&(near_enemies<near_allies+3||home_d<=5);
-    // Alone (no ally within 6) against 1+ enemies on a gold-only map: never take it, kills are their tiebreak.
-    if(siege_group>=0&&near_allies==0&&home_d>5&&round<POLARIS_SIEGE_R)favourable=false;
-    bool in_range=false;
-    for(auto& e:enemies)if(dist(e.pos,pos)<=me.attack_range()||(e.channel&&dist(e.pos,pos)<=4))in_range=true;
-    if(favourable){
-        if(in_range&&combat(-1,true)){log("fight");return true;}
-        // Chase only a real kill: a tribute channel, or a target our side can burst down.
-        double burst=dps()*3;for(auto c:allies)if(dist(c.position(),pos)<=5)burst+=c.strength()*3;
-        // Bag hunting: the killer takes the victim's gems, so a carrier with a real bag is worth
-        // a longer chase when the local fight is already ours.
-        for(auto& e:enemies)if((dist(e.pos,pos)<=5&&(e.channel||e.hp<burst))||(dist(e.pos,pos)<=(raid?11:7)&&e.gems>=(raid?30:60)&&e.hp<burst*(raid?3.0:2.5))){
-            move_to(disk(e.pos,me.attack_range()));combat(-1,true);log("chase");return true;}
-        // Audit (cycle 2, 326 deaths): most "caught farming" deaths logged action=farm against 1-2
-        // enemies: the fight was favourable but the enemy stood outside our range and poked us while
-        // we kept hitting the camp. If an enemy can hit us, step in and fight it instead of farming.
-        {const Enemy* tgt=nullptr;int bd=1000;
-         for(auto& e:enemies){const int d=dist(e.pos,pos);if(d<=e.range+1&&d<bd){bd=d;tgt=&e;}}
-         if(tgt){move_to(disk(tgt->pos,me.attack_range()));combat(-1,true);log("engage");return true;}}
-        return false;
+    for(auto c:allies)if(dist(c.position(),pos)<=8)ours+=(c.strength()+fw2*c.focus())*1.5*c.health();
+    const Enemy* nearest=nullptr;int nd=1000,their_heads=0,our_heads=1,beside=0;
+    for(auto& e:enemies){
+        const int d=dist(e.pos,pos);
+        if(on_their_spawn(e)&&d>e.range+1)continue;
+        if(d<=8)theirs+=(e.strength+fw2*e.focus)*1.5*e.hp;
+        if(d<=6)++their_heads;
+        if(d<nd){nd=d;nearest=&e;}
     }
-    bool pressed=false;
-    for(auto& e:enemies)if(dist(e.pos,pos)<=e.range+3)pressed=true;   // audit: 21% of deaths were champions still farming as enemies closed in
-    if(pressed||(me.gem_count()>=30&&threat(pos)>0)){
-        move_to(map::spawn_region(team::ally),true);
+    for(auto c:allies){const int d=dist(c.position(),pos);if(d<=6)++our_heads;if(d<=3)++beside;}
+    if(!nearest||nd>7)return false;
+    const bool cf=careful();
+    const bool outnumbered=their_heads>our_heads;
+    const double ratio=theirs>0?ours/theirs:9.99;tr_ratio=ratio;
+    const bool losing=ratio<(cf?1.0:1/1.3);
+    const bool clearly=ratio<(cf?1/1.3:1/1.6)||outnumbered;
+    const double thr=threat(pos);
+    const bool in_danger=me.health()<thr*2.5+me.max_health()*.1;
+    const Enemy* target=nullptr;
+    const int reach=me.attack_range()>=3?me.attack_range():me.attack_range()+1;
+    for(auto& e:enemies)if(!on_their_spawn(e)&&dist(e.pos,pos)<=reach&&(!target||e.hp<target->hp))target=&e;
+    const bool can_finish=target&&target->hp<=me.strength()*1.05;
+    const bool committed=beside>=1&&!clearly&&me.health()>me.max_health()*.25;
+    bool retreating=(in_danger||(clearly&&nd<=nearest->range+2))&&!can_finish&&!committed;
+    if(retreating&&!spawn&&nearest->range<=1&&nd<=2&&target&&dist(target->pos,pos)<=me.attack_range())retreating=false;
+    if(retreating){
         combat(-1,true);
-        log("evade");
-        return true;
+        if(spawn){log("hold-spawn");return me.health()<me.max_health()*.9;}
+        move_to(map::spawn_region(team::ally),true);combat(-1,true);log("evade");return true;
+    }
+    if(target&&dist(target->pos,pos)<=me.attack_range()&&combat(-1,true)){hold_turns=0;log("fight");return true;}
+    if(!losing&&!outnumbered){
+        // Bag hunting / channel interrupts as before: worth a longer chase.
+        double burst=dps()*3;for(auto c:allies)if(dist(c.position(),pos)<=5)burst+=c.strength()*3;
+        for(auto& e:enemies)if(!on_their_spawn(e)&&((dist(e.pos,pos)<=5&&e.channel)||(dist(e.pos,pos)<=(raid?11:7)&&e.gems>=(raid?30:60)&&e.hp<burst*(raid?3.0:2.5)))){
+            move_to(disk(e.pos,me.attack_range()));combat(-1,true);log("chase");return true;}
+        const Enemy* goal=nullptr;
+        for(auto& e:enemies)if(!on_their_spawn(e)&&dist(e.pos,pos)<=5&&(!goal||e.hp<goal->hp))goal=&e;
+        if(goal){
+            bool busy=false;for(auto c:allies)if(dist(c.position(),goal->pos)<=2)busy=true;
+            const bool low=goal->hp<=me.strength()*2;
+            if(me.attack_range()>=3&&!busy&&!low&&hold_turns<6){++hold_turns;combat(-1,true);log("hold");return true;}
+            hold_turns=0;
+            move_to(disk(goal->pos,me.attack_range()));combat(-1,true);log("engage");return true;
+        }
     }
     return false;
 }
@@ -1256,7 +1261,7 @@ void Bot::play_turn(){
         if(!combat(-1,true)){const Enemy* t=nullptr;int bd=1000;for(auto& e:enemies){int d=dist(e.pos,me.position());if(d<bd){bd=d;t=&e;}}
             if(t){move_to(disk(t->pos,me.attack_range()));combat(-1,true);}}
         log("stand");return;}
-    if(!spawn&&(me.health()<me.max_health()*.3f||danger*2.5>me.health())){
+    if(!spawn&&(me.health()<me.max_health()*(careful()?.45f:.3f)||danger*2.5>me.health())){
         bool close=false;for(auto& e:enemies)if(dist(e.pos,me.position())<=e.range+2)close=true;
         if(!close&&danger<me.health()*.05){try{me.recall();log("recall");return;}catch(const error&){}}
         move_to(map::spawn_region(team::ally),true);combat(-1,true);log("retreat");return;

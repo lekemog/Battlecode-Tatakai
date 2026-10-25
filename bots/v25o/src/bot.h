@@ -50,7 +50,7 @@ class Bot {
     std::vector<cambc::map::camp_group> pending_groups;
     cambc::bitboard enemy_base;
     int slot=0,team_size=1;
-    unsigned round=0,last_log=0,flee_round=0;
+    unsigned round=0,last_log=0;
     int objective=-1;
     bool focus_build=false,frontline=false;
     std::vector<Group> groups;

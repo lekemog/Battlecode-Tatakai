@@ -102,7 +102,8 @@ class Bot {
 
     std::vector<cambc::vec2> altar_pos;std::vector<unsigned> altar_seen;
     std::vector<bool> altar_contested;std::vector<cambc::bitboard> altar_disk;
-    int bank_wait=0,tribute_cancels=0;
+    int bank_wait=0,tribute_cancels=0,hold_turns=0;
+    bool careful() const;
     void init();
     void observe();
     void shop();

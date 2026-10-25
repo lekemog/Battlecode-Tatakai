@@ -23,10 +23,6 @@ void camp_stats_for(camp_type k,double& hp,double& str){
     case camp_type::wolf:hp=1350;str=20;break;
     case camp_type::elk:hp=2400;str=60;break;
     case camp_type::monolith:hp=20000;str=200;break;
-    // v25n: golems (5000 HP, 120 str, range 4; 6 ranked maps) fell to the default and looked like harmless 500-HP
-    // camps, and gem/gold clusters have 120 HP, not 500 (SDK camp_type docs).
-    case camp_type::golem:hp=5000;str=120;break;
-    case camp_type::gem_cluster:case camp_type::gold_cluster:hp=120;str=0;break;
     default:hp=500;str=0;break;
     }
 }
@@ -166,9 +162,6 @@ void Bot::init(){
     if(me.champion_name()==champion_type::ren)focus_value+=st.focus_growth*.2*2.5;
     if(me.champion_name()==champion_type::varg)strength_value*=1.8;
     focus_build=focus_value>strength_value*1.05;
-    // v25o: Heart of Ruin's dash (1.5x focus area hit + stun) and shield scale with focus (growth 12 vs strength 3.5);
-    // the #1 team's HoR (300 games) builds Treasure-focus, Home-health, Durability-health, then Power-focus.
-    if(me.champion_name()==champion_type::heart_of_ruin)focus_build=true;
     frontline=!is_carry(me.champion_name());
     plan_team();
     last_pos=me.position();initialized=true;
@@ -511,9 +504,6 @@ void Bot::shop(){
     const Step PH{item_type::power_shard_of_health,item_type::power_emblem_of_health},DH{item_type::durability_shard_of_health,item_type::durability_emblem_of_health},
         JH{item_type::jungle_shard_of_health,item_type::jungle_emblem_of_health},TH{item_type::treasure_shard_of_health,item_type::treasure_emblem_of_health};
     if(tank)order={PH,DH,JH,TH};
-    const bool hor=me.champion_name()==champion_type::heart_of_ruin;
-    const Step HOME{item_type::home_shard_of_health,item_type::home_emblem_of_health};
-    if(hor)order={T,HOME,D};
     auto counts=me.item_count();
     for(unsigned j=0;j<order.size();++j){
         const auto& st=order[j];
@@ -525,7 +515,7 @@ void Bot::shop(){
         if(n>0)try{if(me.can_buy(st.shard,n))me.buy(st.shard,n);}catch(const error&){}
         return;
     }
-    const auto extra=tank?item_type::power_shard_of_health:hor?item_type::power_shard_of_focus:(focus_build?item_type::bruiser_shard_of_focus:item_type::bruiser_shard_of_strength);   // v25k: Bruiser, not Power
+    const auto extra=tank?item_type::power_shard_of_health:(focus_build?item_type::bruiser_shard_of_focus:item_type::bruiser_shard_of_strength);   // v25k: Bruiser, not Power
     unsigned n=me.gold_count()/extra.cost();
     while(n>0){
         try{if(me.can_buy(extra,n)){me.buy(extra,n);break;}}catch(const error&){}
@@ -535,7 +525,6 @@ void Bot::shop(){
 
 bool Bot::move_to(bitboard goals,bool flee){
     auto& me=self();
-    if(flee)flee_round=round+1;
     goals&=~(terrain|occupied);
     if(goals.is_empty()||goals.is_set(me.position()))return false;
     bitboard walls=terrain|occupied,visited;
@@ -560,7 +549,7 @@ bool Bot::move_to(bitboard goals,bool flee){
         if(v<best_v){best_v=v;best=p;}
     }
     if(me.can_cast()&&(flee||here_d>2)){
-        for(auto a:me.abilities())if(a.info()&&a.is_dash()&&a.is_ready()&&(flee||spell_modifier(a)<=0)){   // v25o: a damaging dash is kept for fights
+        for(auto a:me.abilities())if(a.info()&&a.is_dash()&&a.is_ready()){
             vec2 jump=here;double jv=best==here?1e18:best_v-.5;
             for(auto p:(a.valid_tiles()&~walls).positions()){
                 if(field.get(p)==distance_field::unreachable)continue;
@@ -634,20 +623,6 @@ bool Bot::combat(int group,bool players){
             const bool stun_useful=on_enemy&&!enemies[target].stunned&&enemies[target].type!=champion_type::marcella;
             if(a.is_cc())v+=on_enemy?(stun_useful?(enemies[target].channel?250:enemies[target].strength*1.5+60):0):monsters[target].strength;
             if(v>cast.v)cast={s,-1,false,a.can_target_ground(),tp,v};}
-        // v25o: damaging dashes (Heart of Ruin: 1.5x focus to every target within 1 of the landing tile, 1-turn stun)
-        // were only ever spent on travel. Land where the hit is worth most; never while fleeing this turn.
-        if(a.is_dash()&&spell_modifier(a)>0&&flee_round!=round+1){
-            auto meta=a.get<ability_dash>();
-            const double hit=meta.modifier*focus;
-            for(auto c:(a.valid_tiles()&~(terrain|occupied)).positions()){
-                double v=0;
-                for(auto& m:monsters)if((group<0||m.group==group)&&dist(c,m.pos)<=meta.radius)v+=std::min(static_cast<double>(m.hp),hit);
-                if(players)for(auto& e:enemies)if(dist(c,e.pos)<=meta.radius){
-                    v+=std::min(static_cast<double>(e.hp),hit);
-                    if(meta.duration>0&&!e.stunned&&e.type!=champion_type::marcella)v+=e.channel?250:e.strength*1.5+60;}
-                if(v>cast.v)cast={s,-1,false,true,c,v};
-            }
-        }
         if(a.is_aoe_damage()){
             auto meta=a.get<ability_aoe_damage>();
             auto centers=disk(tp,1)&disk(pos,static_cast<int>(meta.range));
@@ -691,7 +666,7 @@ int Bot::choose_group(vec2 from,double pack_dps,double pack_hp,std::array<int,3>
     bitboard seen;distance_field travel_field;
     travel_field.compute(terrain,disk(from,0),seen,cg_far?static_cast<std::uint16_t>(400):static_cast<std::uint16_t>(70));
     bool any_gems=false;for(auto& g:groups)if(g.gems>0)any_gems=true;
-    double gold_w=!any_gems?1.0:1.0;   // v22f: patch 3.0 - gold decides fights and the r2000 tiebreak (post-patch ranked losses: gold@600 1767 vs 2702)
+    double gold_w=!any_gems?1.0:.15;   // v25o: siege weighs gold .15 vs gems   // v22f: patch 3.0 - gold decides fights and the r2000 tiebreak (post-patch ranked losses: gold@600 1767 vs 2702)
     int best=-1;double best_s=-1e18;
 #if POLARIS_OPP_MODEL > 0
     int opp_base_best=-1;double opp_base_score=-1e18;
@@ -752,6 +727,7 @@ int Bot::choose_group(vec2 from,double pack_dps,double pack_hp,std::array<int,3>
         // v21k: charge the whole cycle (walk to altar + bank channel for our share), not 15% of the altar walk.
         const double share_gems=static_cast<double>(g.gems)/std::max(1,static_cast<int>(active_members().size()));
         double cost=travel+std::max(0,wait-travel)*2.0+clear+constants::capture_time+(g.gems>0?g.altar_d+std::ceil(share_gems/10.0):0)+4;
+        if(!g.reward)cost+=incoming/std::max(1.0,pack_hp)*(2.0*g.home_d+10);   // v25o: rounds spent walking home to heal the damage this fight costs
         double s=value*side_w*death_w/cost;
         if(weak_herd)s*=3.0;
         if(!merged()&&g.sector>=0&&g.sector!=active_squad())s*=.55;

@@ -1,0 +1,458 @@
+== v22w post-patch-1.0.2
+x_daniel8 v22w TOTAL 27  margin -38
+x_de41h4 v22w TOTAL 24  margin -163
+GAUNTLET v22w wins 51 / 68 margin -201
+== v23g post-patch-1.0.2
+x_daniel8 v23g TOTAL 29  margin -118
+x_de41h4 v23g TOTAL 23  margin -153
+GAUNTLET v23g wins 52 / 68 margin -271
+== v23n post-patch-1.0.2
+x_daniel8 v23n TOTAL 28  margin -98
+x_de41h4 v23n TOTAL 18  margin -244
+GAUNTLET v23n wins 46 / 68 margin -342
+== v22f post-patch-1.0.2
+x_daniel8 v22f TOTAL 27  margin -75
+x_de41h4 v22f TOTAL 26  margin -114
+GAUNTLET v22f wins 53 / 68 margin -189
+== v23m post-patch-1.0.2
+x_daniel8 v23m TOTAL 34  margin -47
+x_de41h4 v23m TOTAL 23  margin -153
+GAUNTLET v23m wins 57 / 68 margin -200
+== v23k post-patch-1.0.2
+x_daniel8 v23k TOTAL 25  margin -149
+x_de41h4 v23k TOTAL 29  margin -124
+GAUNTLET v23k wins 54 / 68 margin -273
+== v22p post-patch-1.0.2
+x_daniel8 v22p TOTAL 25  margin -95
+x_de41h4 v22p TOTAL 23  margin -254
+GAUNTLET v22p wins 48 / 68 margin -349
+== v23q post-patch-1.0.2
+x_daniel8 v23q TOTAL 25  margin -143
+x_de41h4 v23q TOTAL 28  margin -140
+GAUNTLET v23q wins 53 / 68 margin -283
+== v23m heldout-1.0.2
+h_mohnish v23m TOTAL 34  margin -50
+h_deysag v23m TOTAL 33  margin -105
+h_vatsal v23m TOTAL 61  margin +430
+h_photon v23m TOTAL 66  margin +606
+h_apex v23m TOTAL 63  margin +563
+GAUNTLET v23m wins 257 / 170 margin 1444
+== v22w heldout-1.0.2
+h_mohnish v22w TOTAL 35  margin -34
+h_deysag v22w TOTAL 38  margin -69
+h_vatsal v22w TOTAL 60  margin +433
+h_photon v22w TOTAL 67  margin +594
+h_apex v22w TOTAL 65  margin +602
+GAUNTLET v22w wins 265 / 170 margin 1526
+== v23r post-patch-1.0.2
+x_daniel8 v23r TOTAL 41  margin +48
+x_de41h4 v23r TOTAL 39  margin +129
+GAUNTLET v23r wins 80 / 68 margin 177
+== v23r heldout-1.0.2
+h_mohnish v23r TOTAL 38  margin +99
+h_deysag v23r TOTAL 47  margin +265
+h_vatsal v23r TOTAL 61  margin +553
+h_photon v23r TOTAL 67  margin +605
+h_apex v23r TOTAL 65  margin +643
+GAUNTLET v23r wins 278 / 170 margin 2165
+== v23r tuning-1.0.2
+x_daniel7 v23r TOTAL 43  margin +126
+x_simon6 v23r TOTAL 51  margin +269
+x_jame4 v23r TOTAL 47  margin +205
+x_tarotsq21 v23r TOTAL 60  margin +506
+x_tarot16 v23r TOTAL 65  margin +687
+GAUNTLET v23r wins 266 / 170 margin 1793
+== v23s screen-1.0.2
+x_daniel8 v23s TOTAL 41  margin +122
+x_de41h4 v23s TOTAL 37  margin -17
+GAUNTLET v23s wins 78 / 68 margin 105
+== v23t screen-1.0.2
+x_daniel8 v23t TOTAL 40  margin +185
+x_de41h4 v23t TOTAL 36  margin +80
+GAUNTLET v23t wins 76 / 68 margin 265
+== v23u screen-1.0.2
+x_daniel8 v23u TOTAL 38  margin +89
+x_de41h4 v23u TOTAL 32  margin -1
+GAUNTLET v23u wins 70 / 68 margin 88
+== v23r screen-1.0.2 rerun (noise check)
+x_daniel8 v23r TOTAL 41  margin +48
+x_de41h4 v23r TOTAL 39  margin +129
+GAUNTLET v23r wins 80 / 68 margin 177
+== v23v screen-1.0.2
+x_daniel8 v23v TOTAL 41  margin +82
+x_de41h4 v23v TOTAL 39  margin +152
+GAUNTLET v23v wins 80 / 68 margin 234
+== v23v heldout-1.0.2
+h_mohnish v23v TOTAL 39  margin +103
+h_deysag v23v TOTAL 48  margin +307
+h_vatsal v23v TOTAL 64  margin +565
+h_photon v23v TOTAL 67  margin +607
+h_apex v23v TOTAL 65  margin +656
+GAUNTLET v23v wins 283 / 170 margin 2238
+== v24a screen-1.0.2 (v23v + bank path through allies + altar-risk hysteresis)
+x_daniel8 v24a TOTAL 37  margin +80
+x_de41h4 v24a TOTAL 40  margin +164
+GAUNTLET v24a wins 77 / 68 margin 244
+== v24b screen-1.0.2 (v23v + altar-risk hysteresis only)
+x_daniel8 v24b TOTAL 39  margin +86
+x_de41h4 v24b TOTAL 39  margin +140
+GAUNTLET v24b wins 78 / 68 margin 226
+== v24c screen-1.0.2 (v23v + no banking at monolith-guarded altars)
+x_daniel8 v24c TOTAL 41  margin +98
+x_de41h4 v24c TOTAL 40  margin +165
+GAUNTLET v24c wins 81 / 68 margin 263
+== v24c heldout-1.0.2
+h_mohnish v24c TOTAL 40  margin +135
+h_deysag v24c TOTAL 50  margin +312
+h_vatsal v24c TOTAL 63  margin +573
+h_photon v24c TOTAL 67  margin +626
+h_apex v24c TOTAL 65  margin +688
+GAUNTLET v24c wins 285 / 170 margin 2334
+== v24e screen+heldout-1.0.2 (mode study)
+x_daniel8 v24e TOTAL 32  margin +34
+x_de41h4 v24e TOTAL 36  margin +55
+h_mohnish v24e TOTAL 37  margin +53
+h_deysag v24e TOTAL 42  margin +166
+h_vatsal v24e TOTAL 58  margin +523
+h_photon v24e TOTAL 63  margin +576
+h_apex v24e TOTAL 68  margin +686
+GAUNTLET v24e wins 336 / 238 margin 2093
+== v24h screen+heldout-1.0.2 (mode study)
+x_daniel8 v24h TOTAL 30  margin -87
+x_de41h4 v24h TOTAL 21  margin -198
+h_mohnish v24h TOTAL 28  margin -171
+h_deysag v24h TOTAL 28  margin -134
+h_vatsal v24h TOTAL 59  margin +364
+h_photon v24h TOTAL 62  margin +472
+h_apex v24h TOTAL 59  margin +459
+GAUNTLET v24h wins 287 / 238 margin 705
+== v24i screen+heldout-1.0.2 (v24c + per-map solo on 5 maps + capture-contested for >=20-camp groups)
+x_daniel8 v24i TOTAL 40  margin +92
+x_de41h4 v24i TOTAL 44  margin +187
+h_mohnish v24i TOTAL 39  margin +111
+h_deysag v24i TOTAL 54  margin +336
+h_vatsal v24i TOTAL 66  margin +630
+h_photon v24i TOTAL 67  margin +656
+h_apex v24i TOTAL 68  margin +701
+GAUNTLET v24i wins 378 / 238 margin 2713
+== v24j weak13 (always pack diag)
+x_daniel8 v24j TOTAL 9  margin -92
+x_de41h4 v24j TOTAL 14  margin +3
+h_mohnish v24j TOTAL 9  margin -116
+h_deysag v24j TOTAL 13  margin +26
+h_vatsal v24j TOTAL 22  margin +416
+h_photon v24j TOTAL 24  margin +551
+h_apex v24j TOTAL 24  margin +644
+GAUNTLET v24j wins 115 / 238 margin 1432
+== v24k contest-only (v24i + forced pack on contest)
+x_daniel8 v24k TOTAL 1  margin +0
+x_de41h4 v24k TOTAL 2  margin +700
+h_mohnish v24k TOTAL 2  margin +1000
+h_deysag v24k TOTAL 2  margin +600
+h_vatsal v24k TOTAL 2  margin +700
+h_photon v24k TOTAL 1  margin +500
+h_apex v24k TOTAL 2  margin +900
+GAUNTLET v24k wins 12 / 238 margin 4400
+== v24l/v24m weak13 diag (smaller banks / bolder pack)
+GAUNTLET v24l wins 122 / 238 margin 1503
+GAUNTLET v24m wins 121 / 238 margin 1471
+== v24k weak13 baseline
+GAUNTLET v24k wins 116 / 238 margin 1378
+== v24n full 7-opp (v24k + per-map small banks / bold pack)
+x_daniel8 v24n TOTAL 42  margin +153
+x_de41h4 v24n TOTAL 45  margin +218
+h_mohnish v24n TOTAL 42  margin +185
+h_deysag v24n TOTAL 56  margin +415
+h_vatsal v24n TOTAL 66  margin +639
+h_photon v24n TOTAL 67  margin +670
+h_apex v24n TOTAL 69  margin +732
+GAUNTLET v24n wins 387 / 238 margin 3012
+== v24o weak13 (v24n + Vesper/Willow draft diag)
+GAUNTLET v24o wins 122 / 238 margin 1657
+GAUNTLET v24n wins 121 / 238 margin 1502
+== v24p full 7-opp (v24n + per-map Vesper/Willow draft on quadrants, reverse_spiral, fracture, contest)
+x_daniel8 v24p TOTAL 47  margin +199
+x_de41h4 v24p TOTAL 46  margin +236
+h_mohnish v24p TOTAL 43  margin +194
+h_deysag v24p TOTAL 57  margin +435
+h_vatsal v24p TOTAL 66  margin +647
+h_photon v24p TOTAL 68  margin +683
+h_apex v24p TOTAL 69  margin +743
+GAUNTLET v24p wins 396 / 238 margin 3137
+== v24q weak13 (Fish draft diag)
+GAUNTLET v24q wins 79 / 238 margin -753
+== v24r weak13 (Varg-first/Willow 5-pick diag)
+== v24t full 7-opp (GPT opponent-response port on v24p, Claude-tuned; s=learned t=fixed)
+GAUNTLET v24r wins 124 / 238 margin 1666
+== v24u rows+rushbait (v24p + Varg/Willow 5-pick there)
+x_daniel8 v24u TOTAL 2  margin -30
+x_de41h4 v24u TOTAL 3  margin +306
+h_mohnish v24u TOTAL 4  margin +157
+h_deysag v24u TOTAL 2  margin +46
+h_vatsal v24u TOTAL 4  margin +731
+h_photon v24u TOTAL 4  margin +612
+h_apex v24u TOTAL 4  margin +578
+GAUNTLET v24u wins 23 / 238 margin 2400
+x_daniel8 v24t TOTAL 51  margin +282
+x_de41h4 v24t TOTAL 44  margin +181
+h_mohnish v24t TOTAL 45  margin +240
+h_deysag v24t TOTAL 54  margin +369
+h_vatsal v24t TOTAL 68  margin +585
+h_photon v24t TOTAL 69  margin +714
+h_apex v24t TOTAL 69  margin +709
+GAUNTLET v24t wins 400 / 238 margin 3080
+== v24s full 7-opp (GPT opponent-response port on v24p, Claude-tuned; s=learned t=fixed)
+x_daniel8 v24s TOTAL 46  margin +205
+x_de41h4 v24s TOTAL 45  margin +201
+h_mohnish v24s TOTAL 41  margin +190
+h_deysag v24s TOTAL 56  margin +422
+h_vatsal v24s TOTAL 69  margin +632
+h_photon v24s TOTAL 67  margin +691
+h_apex v24s TOTAL 69  margin +702
+GAUNTLET v24s wins 393 / 238 margin 3043
+== v24v full 7-opp pool4
+x_daniel8 v24v TOTAL 54  margin +256
+x_de41h4 v24v TOTAL 46  margin +176
+h_mohnish v24v TOTAL 52  margin +251
+h_deysag v24v TOTAL 62  margin +451
+h_vatsal v24v TOTAL 72  margin +671
+h_photon v24v TOTAL 70  margin +685
+h_apex v24v TOTAL 74  margin +715
+GAUNTLET v24v wins 430 / 238 margin 3205
+== v24u full 7-opp pool4
+x_daniel8 v24u TOTAL 50  margin +207
+x_de41h4 v24u TOTAL 49  margin +253
+h_mohnish v24u TOTAL 50  margin +229
+h_deysag v24u TOTAL 61  margin +445
+h_vatsal v24u TOTAL 71  margin +667
+h_photon v24u TOTAL 72  margin +686
+h_apex v24u TOTAL 73  margin +739
+GAUNTLET v24u wins 426 / 238 margin 3226
+== v24w new2 maps
+x_daniel8 v24w TOTAL 0  margin -362
+x_de41h4 v24w TOTAL 2  margin -60
+h_mohnish v24w TOTAL 2  margin +41
+h_deysag v24w TOTAL 2  margin -112
+h_vatsal v24w TOTAL 4  margin +746
+h_photon v24w TOTAL 4  margin +530
+h_apex v24w TOTAL 4  margin +835
+GAUNTLET v24w wins 18 / 238 margin 1618
+== v24v new2 maps
+x_daniel8 v24v TOTAL 0  margin -637
+x_de41h4 v24v TOTAL 0  margin -866
+h_mohnish v24v TOTAL 0  margin -580
+h_deysag v24v TOTAL 0  margin -797
+h_vatsal v24v TOTAL 3  margin +156
+h_photon v24v TOTAL 2  margin +271
+h_apex v24v TOTAL 3  margin +102
+GAUNTLET v24v wins 8 / 238 margin -2351
+== v24x gem2 maps
+x_daniel8 v24x TOTAL 1  margin -288
+x_de41h4 v24x TOTAL 3  margin +179
+h_mohnish v24x TOTAL 2  margin +47
+h_deysag v24x TOTAL 2  margin -4
+h_vatsal v24x TOTAL 2  margin +64
+h_photon v24x TOTAL 3  margin +459
+h_apex v24x TOTAL 4  margin +509
+GAUNTLET v24x wins 17 / 238 margin 966
+== v24w gem2 maps
+x_daniel8 v24w TOTAL 3  margin +382
+x_de41h4 v24w TOTAL 2  margin +246
+h_mohnish v24w TOTAL 4  margin +634
+h_deysag v24w TOTAL 3  margin +450
+h_vatsal v24w TOTAL 4  margin +867
+h_photon v24w TOTAL 4  margin +749
+h_apex v24w TOTAL 4  margin +559
+GAUNTLET v24w wins 24 / 238 margin 3887
+== v24y full 7-opp pool5
+x_daniel8 v24y TOTAL 50  margin +180
+x_de41h4 v24y TOTAL 51  margin +235
+h_mohnish v24y TOTAL 51  margin +213
+h_deysag v24y TOTAL 63  margin +417
+h_vatsal v24y TOTAL 75  margin +671
+h_photon v24y TOTAL 76  margin +678
+h_apex v24y TOTAL 77  margin +744
+GAUNTLET v24y wins 443 / 238 margin 3138
+== v24w full 7-opp pool5
+x_daniel8 v24w TOTAL 54  margin +224
+x_de41h4 v24w TOTAL 48  margin +163
+h_mohnish v24w TOTAL 54  margin +240
+h_deysag v24w TOTAL 64  margin +423
+h_vatsal v24w TOTAL 76  margin +675
+h_photon v24w TOTAL 74  margin +677
+h_apex v24w TOTAL 78  margin +721
+GAUNTLET v24w wins 448 / 238 margin 3123
+== v24w road-of-riches
+x_daniel8 v24w TOTAL 0  margin -840
+x_de41h4 v24w TOTAL 0  margin -496
+h_mohnish v24w TOTAL 0  margin -731
+h_deysag v24w TOTAL 0  margin -408
+h_vatsal v24w TOTAL 2  margin +504
+h_photon v24w TOTAL 1  margin -328
+h_apex v24w TOTAL 1  margin +126
+GAUNTLET v24w wins 4 / 238 margin -2173
+== v24z road-of-riches
+x_daniel8 v24z TOTAL 0  margin -472
+x_de41h4 v24z TOTAL 2  margin +532
+h_mohnish v24z TOTAL 0  margin -218
+h_deysag v24z TOTAL 2  margin +582
+h_vatsal v24z TOTAL 2  margin +970
+h_photon v24z TOTAL 1  margin +330
+h_apex v24z TOTAL 2  margin +858
+GAUNTLET v24z wins 9 / 238 margin 2582
+== v25a full 7-opp pool6
+x_daniel8 v25a TOTAL 52  margin +167
+x_de41h4 v25a TOTAL 51  margin +202
+h_mohnish v25a TOTAL 52  margin +210
+h_deysag v25a TOTAL 65  margin +421
+h_vatsal v25a TOTAL 78  margin +684
+== v24z full 7-opp pool6
+x_daniel8 v24z TOTAL 54  margin +207
+x_de41h4 v24z TOTAL 50  margin +173
+h_mohnish v24z TOTAL 54  margin +229
+h_deysag v24z TOTAL 66  margin +427
+h_vatsal v24z TOTAL 78  margin +682
+h_photon v24z TOTAL 75  margin +669
+h_apex v24z TOTAL 80  margin +725
+GAUNTLET v24z wins 457 / 238 margin 3112
+== v24w full 7-opp pool5 ENGINE 1.0.3
+x_daniel8 v24w TOTAL 54  margin +224
+x_de41h4 v24w TOTAL 48  margin +163
+h_mohnish v24w TOTAL 54  margin +240
+h_deysag v24w TOTAL 64  margin +423
+h_vatsal v24w TOTAL 76  margin +675
+h_photon v24w TOTAL 74  margin +677
+h_apex v24w TOTAL 78  margin +721
+GAUNTLET v24w wins 448 / 238 margin 3123
+== kurians-t3-spawnfix full 7-opp pool6 (Kurian T3)
+x_daniel8 kurians-t3-spawnfix TOTAL 53  margin +198
+x_de41h4 kurians-t3-spawnfix TOTAL 51  margin +183
+h_mohnish kurians-t3-spawnfix TOTAL 53  margin +239
+h_deysag kurians-t3-spawnfix TOTAL 66  margin +418
+h_vatsal kurians-t3-spawnfix TOTAL 79  margin +683
+h_photon kurians-t3-spawnfix TOTAL 76  margin +681
+h_apex kurians-t3-spawnfix TOTAL 80  margin +736
+GAUNTLET kurians-t3-spawnfix wins 458 / 238 margin 3138
+== kurians-t3-contestrecall contest only (Kurian T3)
+x_daniel8 kurians-t3-contestrecall TOTAL 2  margin +300
+x_de41h4 kurians-t3-contestrecall TOTAL 2  margin +1000
+h_mohnish kurians-t3-contestrecall TOTAL 2  margin +1000
+h_deysag kurians-t3-contestrecall TOTAL 2  margin +500
+h_vatsal kurians-t3-contestrecall TOTAL 2  margin +700
+h_photon kurians-t3-contestrecall TOTAL 1  margin +400
+h_apex kurians-t3-contestrecall TOTAL 2  margin +1000
+GAUNTLET kurians-t3-contestrecall wins 13 / 238 margin 4900
+== v25d full 7-opp pool6 (ally snapshot fix)
+x_daniel8 v25d TOTAL 47  margin +179
+x_de41h4 v25d TOTAL 48  margin +169
+h_mohnish v25d TOTAL 49  margin +257
+h_deysag v25d TOTAL 65  margin +386
+h_vatsal v25d TOTAL 78  margin +648
+h_photon v25d TOTAL 77  margin +704
+h_apex v25d TOTAL 78  margin +726
+GAUNTLET v25d wins 442 / 238 margin 3069
+== v25e v25d-bad14 site isolation
+x_daniel8 v25e TOTAL 10  margin -89
+x_de41h4 v25e TOTAL 12  margin -63
+h_mohnish v25e TOTAL 8  margin -122
+h_deysag v25e TOTAL 19  margin +286
+h_vatsal v25e TOTAL 27  margin +604
+h_photon v25e TOTAL 28  margin +682
+h_apex v25e TOTAL 28  margin +670
+GAUNTLET v25e wins 132 / 238 margin 1968
+== v25f v25d-bad14 site isolation
+x_daniel8 v25f TOTAL 7  margin -143
+x_de41h4 v25f TOTAL 16  margin +44
+h_mohnish v25f TOTAL 9  margin -100
+h_deysag v25f TOTAL 17  margin +203
+h_vatsal v25f TOTAL 28  margin +615
+h_photon v25f TOTAL 27  margin +622
+h_apex v25f TOTAL 28  margin +655
+GAUNTLET v25f wins 132 / 238 margin 1896
+== v25g v25d-bad14 site isolation
+x_daniel8 v25g TOTAL 8  margin -105
+x_de41h4 v25g TOTAL 12  margin -107
+h_mohnish v25g TOTAL 10  margin -56
+h_deysag v25g TOTAL 20  margin +239
+h_vatsal v25g TOTAL 27  margin +602
+h_photon v25g TOTAL 26  margin +633
+h_apex v25g TOTAL 27  margin +665
+GAUNTLET v25g wins 130 / 238 margin 1871
+== v25h v25d-bad14 site isolation (log)
+x_daniel8 v25h TOTAL 8  margin -119
+x_de41h4 v25h TOTAL 10  margin -95
+h_mohnish v25h TOTAL 9  margin -91
+h_deysag v25h TOTAL 20  margin +263
+h_vatsal v25h TOTAL 27  margin +576
+h_photon v25h TOTAL 27  margin +641
+h_apex v25h TOTAL 27  margin +674
+GAUNTLET v25h wins 128 / 238 margin 1849
+== kurians-t3-contestrecall full 7-opp pool6 (Kurian contestrecall)
+x_daniel8 kurians-t3-contestrecall TOTAL 54  margin +196
+x_de41h4 kurians-t3-contestrecall TOTAL 51  margin +188
+h_mohnish kurians-t3-contestrecall TOTAL 53  margin +249
+h_deysag kurians-t3-contestrecall TOTAL 66  margin +408
+h_vatsal kurians-t3-contestrecall TOTAL 79  margin +678
+h_photon kurians-t3-contestrecall TOTAL 76  margin +684
+h_apex kurians-t3-contestrecall TOTAL 80  margin +736
+GAUNTLET kurians-t3-contestrecall wins 459 / 238 margin 3139
+== v25i full 7-opp pool6 (fight threshold)
+x_daniel8 v25i TOTAL 48  margin +178
+x_de41h4 v25i TOTAL 52  margin +224
+h_mohnish v25i TOTAL 46  margin +137
+h_deysag v25i TOTAL 55  margin +339
+h_vatsal v25i TOTAL 76  margin +655
+h_photon v25i TOTAL 76  margin +721
+h_apex v25i TOTAL 78  margin +722
+GAUNTLET v25i wins 431 / 238 margin 2976
+== v25j full 7-opp pool6 (fight threshold)
+x_daniel8 v25j TOTAL 50  margin +197
+x_de41h4 v25j TOTAL 52  margin +223
+h_mohnish v25j TOTAL 50  margin +182
+h_deysag v25j TOTAL 58  margin +346
+h_vatsal v25j TOTAL 75  margin +673
+h_photon v25j TOTAL 74  margin +712
+h_apex v25j TOTAL 79  margin +716
+GAUNTLET v25j wins 438 / 238 margin 3049
+== sparring: v24z vs s_marcus (Marcusydz main, v1.8.1-era) pool6
+v24z TOTAL 17  margin -363
+== sparring: v25j vs s_marcus pool6
+v25j TOTAL 13  margin -402
+== sparring: v25i vs s_marcus pool6
+v25i TOTAL 12  margin -406
+== sparring: v25k vs s_marcus pool6
+v25k TOTAL 25  margin -198
+== sparring: v24z vs s_siege pool6
+v24z TOTAL 5  margin -557
+== sparring: v25k vs s_siege pool6
+v25k TOTAL 11  margin -522
+== v25k full 7-opp pool6 (Bruiser build)
+x_daniel8 v25k TOTAL 54  margin +256
+x_de41h4 v25k TOTAL 60  margin +310
+h_mohnish v25k TOTAL 56  margin +310
+h_deysag v25k TOTAL 64  margin +466
+h_vatsal v25k TOTAL 79  margin +678
+h_photon v25k TOTAL 76  margin +734
+h_apex v25k TOTAL 79  margin +758
+GAUNTLET v25k wins 468 / 238 margin 3512
+== sparring: v25l vs s_marcus pool6
+v25l TOTAL 25  margin -190
+== sparring: v25l vs s_siege pool6
+v25l TOTAL 8  margin -515
+== sparring: v25m vs s_marcus pool6
+v25m TOTAL 29  margin -167
+== sparring: v25m vs s_siege pool6
+v25m TOTAL 16  margin -424
+== v25m full 7-opp pool6 (siege draft)
+x_daniel8 v25m TOTAL 60  margin +319
+x_de41h4 v25m TOTAL 61  margin +378
+h_mohnish v25m TOTAL 59  margin +352
+h_deysag v25m TOTAL 64  margin +426
+h_vatsal v25m TOTAL 80  margin +713
+h_photon v25m TOTAL 79  margin +743
+h_apex v25m TOTAL 79  margin +769
+GAUNTLET v25m wins 482 / 238 margin 3700
+== sparring: v25n vs s_siege pool6
+v25n vs s_siege: 15/80  margin -360  mean rounds to 1000 when winning: 1331
+v25n TOTAL 15  margin -360
+== sparring: v25n vs s_marcus pool6

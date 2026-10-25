@@ -818,6 +818,7 @@ void Bot::team_power(double& dps,double& hp) const{
     if(dps<=0){dps=dps_self*team_size;hp=1000.0*team_size;}
 }
 
+static const double kUnlockBy=1500;   // v27j
 bool Bot::guards_altar(int i) const{
     if(!groups[i].monolith)return false;
     for(auto q:altar_goals.positions())for(auto p:groups[i].probes)if(dist(p,q)<=2)return true;
@@ -847,14 +848,15 @@ int Bot::squad_target(){
     for(unsigned i=0;i<groups.size();++i){
         auto& g=groups[i];
         if(harmless(g)||banned(i))continue;
-        const double value=g.gems+kGoldW*g.gold+(walled&&guards_altar(i)?1000:0);
-        if(value<=0)continue;
         int travel=100000;for(auto p:g.probes)travel=std::min<int>(travel,field.get(p));
         if(travel>=static_cast<int>(distance_field::unreachable))continue;
         const int wait=g.ready_round>round?static_cast<int>(g.ready_round-round):0;
-        if(wait>travel+40)continue;
         double dmg,rounds;forecast(i,tdps,dmg,rounds);
-        const bool unlock=walled&&guards_altar(i);
+        // v27j: a walled-altar siege only earns the +1000 if it can finish well before the end; otherwise farm gold (breaks the round-2000 tie)
+        const bool unlock=walled&&guards_altar(i)&&static_cast<double>(round)+std::max(travel,wait)+rounds<=kUnlockBy;
+        const double value=g.gems+kGoldW*g.gold+(unlock?1000:0);
+        if(value<=0)continue;
+        if(wait>travel+40)continue;
         double extra=0;
         if(dmg>thp*(unlock?.8:.55)){
             if(!unlock&&round<kSiegeFrom)continue;

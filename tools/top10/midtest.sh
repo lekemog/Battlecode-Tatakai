@@ -1,7 +1,7 @@
 #!/bin/bash
 # midtest.sh BOT LABEL [NOTE] -> (submit BOT unless v25u), queue 20 groups vs the 10 mid teams (2 map sets, side a), wait, save, restore v25u
-S=/tmp/claude-0/-home-user-BattlecodeConversation/efdc7f3e-edfb-5016-b385-eb414f18c8fe/scratchpad;P=$S/proj;B=$1;L=$2;NOTE=$3
-if [ "$B" != "v25u" ]; then
+S=/tmp/claude-0/-home-user-BattlecodeConversation/efdc7f3e-edfb-5016-b385-eb414f18c8fe/scratchpad;P=$S/proj;B=$1;L=$2;NOTE=$3;R=${RESTORE:-v25u}   # R = bot to put back live afterwards (RESTORE=v29e)
+if [ "$B" != "$R" ]; then
  rm -rf $P/bots/$B; cp -r /home/user/BattlecodeConversation/bots/$B $P/bots/$B; rm -rf $P/bots/$B/.cambc
  python3 - "$P/bots/$B/src/main.cpp" "$B" "$NOTE" <<'PY'
 import sys,time
@@ -35,4 +35,4 @@ while time.time()-t0<3600:
 print('finished',len(done),flush=True)
 json.dump(done,open(S+'/mid_%s.json'%L,'w'))
 PY
-if [ "$B" != "v25u" ]; then cd $P && cambc submit bots/v25u 2>&1 | tail -1; fi
+if [ "$B" != "$R" ]; then cd $P && rm -rf bots/$R/.cambc 2>/dev/null; cambc submit bots/$R 2>&1 | tail -1; fi

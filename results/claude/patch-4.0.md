@@ -29,7 +29,7 @@ Probe (`MAPINFO`, round 1, whole-map totals of camp-group gold/gems; numbers inc
 | mean walls | 157 | 270 |
 | mean elk camps | 9.4 | 2.6 |
 
-Notable: `adgato-gemcombat1..5` have **zero gold** (gem clusters only, 126-735 gems on the map total), so nothing but kill gold (100) buys items there, and gold weighting in target choice (`kGoldW`) is irrelevant. `00breadcrumbs` has 34 tiny groups (240 gold, 154 gems, no walls). `00galaxy` (93x93, 160 gold total) and `00vault` (359 gems, 49 gem clusters) are gem-starved/gem-rich extremes. Several `02*` maps are very gold-rich (`02the-pack` 3480 gold with 62 wolves, `02treasure-box` 3070, `02gift-wrapping` 3020, `02cuts` 2840 gold and 908 gems). Per-map details: `scratchpad/mapinfo.txt` equivalents are reproducible with the `mapinfo` probe (see section 6).
+Notable: `adgato-gemcombat1..5` have **zero gold** (gem clusters only, 126-735 gems on the map total), so nothing but kill gold (100) buys items there, and gold weighting in target choice (`kGoldW`) is irrelevant. `00breadcrumbs` has 34 tiny groups (240 gold, 154 gems, no walls). `00galaxy` (93x93, 160 gold total) and `00vault` (359 gems, 49 gem clusters) are gem-starved/gem-rich extremes. Several `02*` maps are very gold-rich (`02the-pack` 3480 gold with 62 wolves, `02treasure-box` 3070, `02gift-wrapping` 3020, `02cuts` 2840 gold and 908 gems). Per-map details: `scratchpad/mapinfo.txt` equivalents are reproducible with the `mapinfo` probe (see section 7).
 
 ## 2. Item table (measured with `item_type::info()` on 4.0.0, effects measured in games)
 
@@ -78,7 +78,7 @@ Run with the usual `gauntlet.py` (JOBS=4, two gauntlets in parallel; all 80 game
 | **Total /560** | **508** | **492** | **508** | **491** |
 | margin | +4405 | +4127 | +4464 | +4000 |
 
-Both bots compile on 4.0.0 with **no errors or new warnings from our code** (the old API is source compatible: only additions). They lose about 16-17 games, concentrated against the four tuning/strong opponents (daniel8, de41h4, mohnish, deysag). Games are chaotic (only 1 of 380 compared game outcomes+scores were identical to the old run), so +-5 per opponent is noise-sized, but the drop is in the same direction on 10 of the 14 rows, and the changed numbers (treasure halved, monster +50%) hit both our openers. Treat it as a real ~3% drop from the patch, not a bot problem.
+Both bots (v25u, v27o) compile and run on 4.0.0 with **no errors** (the old API is source compatible: the patch only adds things; I did not diff compiler warnings). They lose about 16-17 games, concentrated against the four tuning/strong opponents (daniel8, de41h4, mohnish, deysag). Games are chaotic (only 1 of 380 compared game outcomes+scores were identical to the old run), so +-5 per opponent is noise-sized, but the drop is in the same direction on 8 of the 14 rows (only 1 row rose), and the changed numbers (treasure halved, monster +50%) hit both our openers. Treat it as a real ~3% drop from the patch, not a bot problem.
 
 ## 5. Which of our assumptions are affected
 
@@ -91,7 +91,34 @@ Both bots compile on 4.0.0 with **no errors or new warnings from our code** (the
 7. **First draft turn has 100x fuel**: the draft heavy computation (per-map draft tables) can now be done on the first draft turn; no code change needed.
 8. Games vs h_* opponents and ladder opponents will shift as they adopt new items (hunter/capture/prospector openers are likely to appear on the ladder within days; check scrim replays for `item_passive` 6..11).
 
-EXPERIMENT_SECTION
+## 6. Experiments with the new items (v27o with one opener swapped, same bench)
+
+Variants differ from v27o only in the shop: `order={ranged?T:M, JH2, D}` becomes `{X, JH2, D}` with X as below (focus/strength per `focus_build`), or the post-emblem filler shard changes. Same 560-game protocol for pros and greed; capture and monster only ran on the four tuning/strong opponents (320 games) to save time. Games are chaotic: treat +-5 wins per opponent (+-8 on the 4-opponent subset) as noise.
+
+| Variant (opener X / change) | daniel8 | de41h4 | mohnish | deysag | 4-opp sum /320 | vatsal | photon | apex | Total |
+|---|---|---|---|---|---|---|---|---|---|
+| **v27o baseline** (T for ranged, M for melee) | 58 | 68 | 62 | 65 | **253** | 80 | 79 | 79 | **491** /560 (+4000) |
+| e4_pros: prospector for everyone | 57 | 71 | 64 | 62 | 254 | 80 | 79 | 78 | **491** (+3978) |
+| e4_cap: capture for everyone | 55 | 67 | 65 | 64 | 251 | - | - | - | not run |
+| e4_mon: monster for everyone | 56 | 65 | 65 | 62 | 248 | - | - | - | not run |
+| e4_greed: greed shards (not Bruiser) as post-emblem filler | 55 | 65 | 60 | 62 | 242 | 80 | 78 | 78 | **478** (+3807) |
+
+Reading: on the old 40-map pool nothing beats the baseline. Prospector exactly ties it (and replaces a nerfed treasure with a stronger effect), capture and monster are within noise of it, **greed as filler is worse (-13)**. The likely reason greed loses: Bruiser's +1 health/+1 focus per 5 shards matter more than I assumed, and 25-shard stacks hold gold hostage until complete. Do not adopt greed in that form.
+
+Prospector's edge cannot show on the old pool because its gold is spread over many mixed groups; it matters where income is concentrated in clusters. Estimate from the `00ambush` 1100-round log: 55% of gold income came from cluster groups, so prospector is worth about +14% gold against treasure's +10%, and on `adgato-gemcombat1..5` (all income is gem clusters) it is +25% of the only income. That is untested because the new maps were not benchmarked (see recommendations).
+
+## 6b. Recommended changes, ranked by expected value
+
+1. **Benchmark the 30 new maps before anything else.** The ladder pool will almost certainly include them (70 maps ship in the project). Run v27o and v25u over `S/proj/maps_new` (`MAPS=` with the 30 new names; I did not have time to bench them). Several of them break assumptions: no gold at all (`adgato-gemcombat*`), very low gold (`00galaxy`, `00breadcrumbs`), huge wolf-heavy gold maps (`02the-pack`, `02treasure-box`, `02gift-wrapping`). Expected value: highest, because the unknown is large and the cost is one gauntlet.
+2. **Ranged opener Treasure -> Prospector** (one line in `shop()`: `order={prospector, JH2, D}`; melee can keep Monster, which is now +15%). Old pool: tied (491 vs 491, 254 vs 253 on the hard four). Expected gain on cluster-heavy and gem-cluster-only maps, positive in theory; verify on the new maps (step 1) before shipping. Risk: low.
+3. **Use the real capture state** (`g.handle.capture_state()`): (a) replace `constants::capture_time` in the cost formulas by 5 or by 3 once we own a capture emblem; (b) when a visible target group reads `enemy_capturing` or `contested`, drop it from the target list (we cannot win that race) instead of walking there; (c) when our squad is `ally_capturing`, hold position until the timer hits 0 instead of re-planning. EV: small positive, mostly less wasted travel. Needs a bench because chasing logic is fragile.
+4. **Swap Treasure out everywhere it is used** (hor opener `T`, ranged opener, tank list `TH` for Ryth): +10% gold is the weakest passive in the game now. For Ryth the `TH` slot could become a Monster-health or Capture-health emblem; untested.
+5. **Hunter / skirmish / collectors / tribute**: do not buy until their effects are pinned down. Hunter (+50 gold per kill, inferred) is worth at most a few hundred gold per game for a bot with ~14 kills. Tribute shortens the submit channel by about a round, a minor gain per bank (we bank ~17-37 times per game, so 20-35 rounds of channel time spread over the team). Skirmish and collectors have no visible effect in my logs: they need a dedicated test (fights, long carries) before spending 150 gold per champion.
+6. **Greed**: only as a late-game gold sink after all useful emblems, not as the Bruiser replacement (that lost 13 games). If tested again, buy greed only after, say, 10 Bruiser shards, so the off-stat points are kept first.
+7. **Expect opponents to change**: any frozen-opponent score will drift with their own builds. Re-baseline the whole pool after the next patch; also the 3.0.5 -> 4.0.0 drop (508 -> 491/492) shows our 'passes bench' thresholds (>= previous bot) must be re-measured with 4.0.0 numbers: compare candidates against v27o 491 / v25u 492, not against 508.
+8. **Draft turn fuel is 100x**: if any per-map precompute is done in champion turn 1 (fuel 2x), part of it could move into the draft turn and travel via draft memory (`draft_memory_bytes`), if the memory budget allows. Low priority.
+
+
 
 ## 7. Reproducing
 

@@ -121,3 +121,5 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 210 | v25u | 2026-10-25T1xZ | Revert after the v27i scrim test, pending the 560-game bench. |
 | 211 | v27o | 2026-10-25T22:0xZ | SCRIM TEST vs ranks 55-136: v27o (v27i squad core + v25u solo farming; bench 508/560 +4464, ties v25u). 100 paired games vs v25u: wins 6 vs 4, gems 396 vs 419, deaths 15.0 vs 18.1, kills 2.3 vs 1.9, gold 3862 vs 4148, champion dmg 15.9k vs 12.3k; rows 3/10 vs 0/10. No clear edge. |
 | 212 | v25u | 2026-10-25T22:1xZ | Revert after the v27o scrim test. v25u stays live. |
+| 213 | v29a | 2026-10-26T02:0xZ | SCRIM TEST vs ranks 55-136 (old-map set): v29a (v27o + capture give-up fix; 4.0.0 bench old 491/560, new 374/420 vs v25u 492/338). 100 paired games vs v25u: wins 5 vs 4, gems 376 vs 419, deaths 15.3 vs 18.1, kills 2.1 vs 1.9, gold 3729 vs 4148, champion dmg 16.5k vs 12.3k. |
+| 214 | v25u | 2026-10-26T03:0xZ | Revert after the v29a scrim test. v25u stays live pending a decision. |

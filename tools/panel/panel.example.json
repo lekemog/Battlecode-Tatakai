@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy to panel.json. One entry per opponent: pick 10-15 teams ranked ~50-200. team_id is the opponent's team UUID; source_group is any earlier match group against them (UUID or website link), which pins the bot version they used there, so every candidate meets the same opponent. Five different maps per entry (the site rejects repeats); sides alternate so both spawns are tested.",
+  "opponents": [
+    {
+      "name": "example-team",
+      "team_id": "00000000-0000-0000-0000-000000000000",
+      "source_group": "https://2026a.battlecode.co.uk/game/match-groups/00000000-0000-0000-0000-000000000000",
+      "maps": ["corners", "fracture", "shortcut", "big-world", "expanse"],
+      "sides": ["a", "b", "a", "b", "a"]
+    }
+  ]
+}

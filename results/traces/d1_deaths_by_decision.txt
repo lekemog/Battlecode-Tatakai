@@ -1,0 +1,105 @@
+== corners (27 games) last 3 logged decisions before each of our deaths
+  deaths carrying 20+: 18
+       4  farm > farm > farm
+       3  bank > bank > bank
+       2  farm > retreat > retreat
+       1  engage > retreat > recall
+       1  fight > evade > retreat
+       1  capture > bank-recall > bank
+  deaths without a bag: 45
+      18  farm > farm > retreat
+       3  farm > chase > evade
+       3  evade > retreat > retreat
+       3  farm > farm > engage
+       2  farm > farm > farm
+       1  retreat > chase > retreat
+     e.g. Varg r205 bag 0: farm > farm > retreat | last: hp 180 near-enemy 99 e6 0 a5 3 flags 00 agg 0 ratio 0.00
+     e.g. Varg r346 bag 0: retreat > chase > retreat | last: hp 404 near-enemy 2 e6 3 a5 1 flags 00 agg 23 ratio 0.79
+     e.g. Cassi r346 bag 36: farm > farm > farm | last: hp 700 near-enemy 7 e6 0 a5 3 flags 00 agg 26 ratio 0.92
+     e.g. Issac r346 bag 36: engage > retreat > recall | last: hp 184 near-enemy 5 e6 1 a5 1 flags 00 agg 22 ratio 0.73
+     e.g. Stellar r367 bag 36: fight > evade > retreat | last: hp 431 near-enemy 2 e6 2 a5 1 flags 10 agg 87 ratio 0.61
+     e.g. Tavi r377 bag 0: evade > retreat > recall | last: hp 210 near-enemy 6 e6 1 a5 0 flags 10 agg 118 ratio 0.06
+== contest (27 games) last 3 logged decisions before each of our deaths
+  deaths carrying 20+: 16
+       1  bank > bank > chase
+       1  siege-gather > bank > recall
+       1  siege-gather > siege-gather > retreat
+       1  siege-gather > bank-recall > bank
+       1  evade > bank > retreat
+       1  siege-gather > siege-gather > bank
+  deaths without a bag: 975
+      78  farm > farm > farm
+      54  evade > evade > retreat
+      34  evade > retreat > retreat
+      25  farm > evade > farm
+      24  siege-wait > siege-wait > siege-wait
+      23  farm > farm > engage
+     e.g. Stellar r64 bag 0: evade > engage > retreat | last: hp 140 near-enemy 4 e6 1 a5 1 flags 10 agg 48 ratio 2.17
+     e.g. Cassi r96 bag 0: evade > evade > retreat | last: hp 300 near-enemy 3 e6 2 a5 2 flags 10 agg 169 ratio 0.77
+     e.g. Issac r96 bag 0: evade > evade > evade | last: hp 700 near-enemy 3 e6 3 a5 2 flags 10 agg 159 ratio 0.36
+     e.g. Ren r136 bag 0: retreat > retreat > retreat | last: hp 60 near-enemy 3 e6 1 a5 0 flags 10 agg 234 ratio 0.81
+     e.g. Tavi r196 bag 0: evade > evade > retreat | last: hp 173 near-enemy 2 e6 1 a5 0 flags 10 agg 255 ratio 0.13
+     e.g. Cassi r219 bag 0: chase > evade > farm | last: hp 640 near-enemy 6 e6 1 a5 4 flags 10 agg 255 ratio 0.83
+== eight (27 games) last 3 logged decisions before each of our deaths
+  deaths carrying 20+: 129
+       6  capture > bank > bank
+       5  bank > evade > retreat
+       5  bank > retreat > recall
+       4  bank > bank > tribute
+       4  evade > evade > retreat
+       3  retreat > recall > retreat
+  deaths without a bag: 293
+      18  farm > farm > farm
+       8  retreat > retreat > recall
+       8  evade > retreat > retreat
+       8  chase > fight > retreat
+       7  farm > retreat > recall
+       7  farm > farm > retreat
+     e.g. Varg r100 bag 0: engage > fight > chase | last: hp 405 near-enemy 1 e6 4 a5 3 flags 00 agg 3 ratio 1.96
+     e.g. Cassi r282 bag 0: chase > retreat > retreat | last: hp 46 near-enemy 3 e6 1 a5 3 flags 00 agg 0 ratio 3.33
+     e.g. Issac r282 bag 0: escort > chase > escort | last: hp 410 near-enemy 5 e6 1 a5 4 flags 00 agg 0 ratio 15.11
+     e.g. Ren r388 bag 72: bank > evade > retreat | last: hp 425 near-enemy 1 e6 4 a5 0 flags 00 agg 0 ratio 0.08
+     e.g. Cassi r398 bag 132: capture > bank > bank | last: hp 645 near-enemy 5 e6 2 a5 1 flags 00 agg 26 ratio 2.33
+     e.g. Issac r398 bag 72: chase > fight > retreat | last: hp 151 near-enemy 3 e6 3 a5 3 flags 00 agg 26 ratio 7.34
+== stampede (28 games) last 3 logged decisions before each of our deaths
+  deaths carrying 20+: 12
+       6  bank > bank > bank
+       1  capture > bank-recall > retreat
+       1  chase > fight > engage
+       1  bank > evade > bank
+       1  farm > chase > fight
+       1  farm > evade > retreat
+  deaths without a bag: 252
+      39  farm > farm > farm
+       9  farm > retreat > recall
+       8  evade > retreat > retreat
+       8  farm > evade > retreat
+       7  retreat > retreat > recall
+       7  farm > farm > retreat
+     e.g. Ren r212 bag 0: recall > retreat > recall | last: hp 168 near-enemy 5 e6 1 a5 0 flags 00 agg 0 ratio 1.02
+     e.g. Cassi r458 bag 0: evade > retreat > retreat | last: hp 169 near-enemy 2 e6 1 a5 0 flags 00 agg 9 ratio 0.41
+     e.g. Issac r458 bag 0: farm > farm > farm | last: hp 900 near-enemy 99 e6 0 a5 2 flags 00 agg 8 ratio 1.08
+     e.g. Ren r462 bag 0: evade > farm > retreat | last: hp 212 near-enemy 2 e6 2 a5 0 flags 00 agg 35 ratio 0.14
+     e.g. Cassi r595 bag 0: evade > fight > retreat | last: hp 30 near-enemy 1 e6 2 a5 3 flags 00 agg 10 ratio 2.24
+     e.g. Issac r595 bag 0: evade > fight > chase | last: hp 592 near-enemy 1 e6 2 a5 3 flags 00 agg 9 ratio 2.15
+== collision (27 games) last 3 logged decisions before each of our deaths
+  deaths carrying 20+: 126
+       5  engage > retreat > retreat
+       5  evade > retreat > retreat
+       5  bank > chase > retreat
+       5  evade > bank > retreat
+       5  bank > engage > retreat
+       4  fight > retreat > retreat
+  deaths without a bag: 55
+       5  evade > retreat > retreat
+       3  farm > farm > farm
+       3  evade > evade > retreat
+       3  fight > retreat > retreat
+       2  chase > fight > retreat
+       2  fight > engage > retreat
+     e.g. Varg r62 bag 44: chase > engage > retreat | last: hp 35 near-enemy 2 e6 3 a5 2 flags 00 agg 0 ratio 1.29
+     e.g. Stellar r78 bag 22: fight > retreat > retreat | last: hp 65 near-enemy 2 e6 2 a5 1 flags 00 agg 22 ratio 0.72
+     e.g. Tavi r290 bag 80: evade > retreat > recall | last: hp 220 near-enemy 7 e6 0 a5 0 flags 00 agg 0 ratio 0.46
+     e.g. Varg r354 bag 102: tribute > engage > retreat | last: hp 346 near-enemy 2 e6 2 a5 0 flags 00 agg 0 ratio 1.24
+     e.g. Stellar r373 bag 94: fight > retreat > retreat | last: hp 144 near-enemy 4 e6 1 a5 0 flags 00 agg 20 ratio 0.98
+     e.g. Tavi r438 bag 36: engage > fight > chase | last: hp 546 near-enemy 4 e6 2 a5 0 flags 00 agg 29 ratio 1.08

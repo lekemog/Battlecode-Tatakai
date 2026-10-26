@@ -1,0 +1,140 @@
+[
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/ability_util.cpp.obj -c /home/claude/proj/bots/h_photon/src/ability_util.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/ability_util.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/ability_util.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/bot.cpp.obj -c /home/claude/proj/bots/h_photon/src/bot.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/bot.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/bot.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/bot_setup.cpp.obj -c /home/claude/proj/bots/h_photon/src/bot_setup.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/bot_setup.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/bot_setup.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/camp_memory.cpp.obj -c /home/claude/proj/bots/h_photon/src/camp_memory.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/camp_memory.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/camp_memory.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/champion_util.cpp.obj -c /home/claude/proj/bots/h_photon/src/champion_util.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/champion_util.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/champion_util.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/draft.cpp.obj -c /home/claude/proj/bots/h_photon/src/draft.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/draft.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/draft.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/draft_memory.cpp.obj -c /home/claude/proj/bots/h_photon/src/draft_memory.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/draft_memory.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/draft_memory.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/enemy_memory.cpp.obj -c /home/claude/proj/bots/h_photon/src/enemy_memory.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/enemy_memory.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/enemy_memory.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/fight.cpp.obj -c /home/claude/proj/bots/h_photon/src/fight.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/fight.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/fight.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/fight_check.cpp.obj -c /home/claude/proj/bots/h_photon/src/fight_check.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/fight_check.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/fight_check.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/main.cpp.obj -c /home/claude/proj/bots/h_photon/src/main.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/main.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/main.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/movement.cpp.obj -c /home/claude/proj/bots/h_photon/src/movement.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/movement.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/movement.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/moves.cpp.obj -c /home/claude/proj/bots/h_photon/src/moves.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/moves.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/moves.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/plan.cpp.obj -c /home/claude/proj/bots/h_photon/src/plan.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/plan.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/plan.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/shared_memory.cpp.obj -c /home/claude/proj/bots/h_photon/src/shared_memory.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/shared_memory.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/shared_memory.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/shop.cpp.obj -c /home/claude/proj/bots/h_photon/src/shop.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/shop.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/shop.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/state_bank.cpp.obj -c /home/claude/proj/bots/h_photon/src/state_bank.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/state_bank.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/state_bank.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/state_camp_attack.cpp.obj -c /home/claude/proj/bots/h_photon/src/state_camp_attack.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/state_camp_attack.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/state_camp_attack.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/state_combat.cpp.obj -c /home/claude/proj/bots/h_photon/src/state_combat.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/state_combat.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/state_combat.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/state_default.cpp.obj -c /home/claude/proj/bots/h_photon/src/state_default.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/state_default.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/state_default.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/target_select.cpp.obj -c /home/claude/proj/bots/h_photon/src/target_select.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/target_select.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/target_select.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/targets.cpp.obj -c /home/claude/proj/bots/h_photon/src/targets.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/targets.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/targets.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/home/claude/proj/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/turn_end.cpp.obj -c /home/claude/proj/bots/h_photon/src/turn_end.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/home/claude/proj/bots/h_photon/.cambc/build",
+    "file": "/home/claude/proj/bots/h_photon/src/turn_end.cpp",
+    "output": "CMakeFiles/bot.dir/home/claude/proj/bots/h_photon/src/turn_end.cpp.obj"
+  }
+]

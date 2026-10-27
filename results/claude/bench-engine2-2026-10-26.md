@@ -66,3 +66,13 @@ h_vatsal v29t TOTAL 79  margin +815
 h_photon v29t TOTAL 80  margin +824
 h_apex v29t TOTAL 78  margin +756
 ```
+
+## v27 core fixes (27 Oct)
+| Bot | Change | Wins /560 | Margin |
+|---|---|---|---|
+| v27k | v27j + no long-range chase mid-capture (gemfight flip-flop) | 472 | +3723 |
+| v27l | v27k + squad gives up on a target not captured in 120 rounds | 465 | +3557 |
+| v27m | v27l + commit enough squad members to clear the squad target | 446 | +3385 |
+
+Only v27k's fix holds up (+3 over v27j); v27l and v27m are rejected. The v27 line stays below v25u (492), so work moves
+to v25u directly, driven by tools/scan/scan.py.

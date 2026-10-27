@@ -76,3 +76,16 @@ h_apex v29t TOTAL 78  margin +756
 
 Only v27k's fix holds up (+3 over v27j); v27l and v27m are rejected. The v27 line stays below v25u (492), so work moves
 to v25u directly, driven by tools/scan/scan.py.
+
+## Scanner round 1: v25v (27 Oct)
+`tools/scan/scan.py` over 560 logged v25u games: 2.8 deaths a game to camps (40% of deaths). Traces showed a retreat
+without hysteresis (retreat at ~30% HP, step out of camp reach, walk straight back). v25v = v25u + hold the retreat
+below 50% HP until 60% or spawn.
+
+| Bot | Wins /560 | Margin | Camp deaths/game | Champion deaths/game | Kills/game | Gems lost/game |
+|---|---|---|---|---|---|---|
+| v25u | 492 | +4127 | 2.82 | 4.12 | 16.46 | 65.8 |
+| v25v | 491 | +4083 | 2.77 | 4.22 | 16.43 | 63.1 |
+
+Fixed the traced game (reverse-spiral vs h_photon: 725-143 at r2000 -> 1001-229 at r1573, deaths 42 -> 16) but no
+effect overall: camp deaths are not mainly this loop. Not a candidate; next scanner item.

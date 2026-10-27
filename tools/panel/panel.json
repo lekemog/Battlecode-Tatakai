@@ -1,0 +1,185 @@
+{
+ "_comment": "10 teams ranked ~55-136 on 25 Oct (tools/top10/mid_teams.json). Map names as accepted by the site in tools/top10/groups_spec.json. 10 groups (50 games) per run. Run the baseline first (no --pin), then each candidate with --pin BASELINE so both face the same opponent versions.",
+ "opponents": [
+  {
+   "name": "mid1-ee3e7b98",
+   "team_id": "ee3e7b98-f09f-46b9-8e52-348e3d07f551",
+   "maps": [
+    "00corners",
+    "00contest",
+    "00eight",
+    "00monolith",
+    "01gold_rush"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "mid2-2afdf30d",
+   "team_id": "2afdf30d-c49f-4272-af87-6597b1e955ec",
+   "maps": [
+    "00expanse",
+    "00lanes",
+    "00lost_world",
+    "00rows",
+    "00rushbait_v2"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "mid3-67f45d6d",
+   "team_id": "67f45d6d-9cd8-403d-ade2-14aad9202201",
+   "maps": [
+    "00corners",
+    "00contest",
+    "00eight",
+    "00monolith",
+    "01gold_rush"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "mid4-fbae2ae9",
+   "team_id": "fbae2ae9-2794-44b5-9db1-489c24e1a43b",
+   "maps": [
+    "00expanse",
+    "00lanes",
+    "00lost_world",
+    "00rows",
+    "00rushbait_v2"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "mid5-3ad833e0",
+   "team_id": "3ad833e0-635d-4164-9f86-26d82c5f18b0",
+   "maps": [
+    "00corners",
+    "00contest",
+    "00eight",
+    "00monolith",
+    "01gold_rush"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "mid6-3a198334",
+   "team_id": "3a198334-2725-4d97-99cd-d285932cdf80",
+   "maps": [
+    "00expanse",
+    "00lanes",
+    "00lost_world",
+    "00rows",
+    "00rushbait_v2"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "mid7-e747283d",
+   "team_id": "e747283d-a801-4175-8b9d-ee36df006daa",
+   "maps": [
+    "00corners",
+    "00contest",
+    "00eight",
+    "00monolith",
+    "01gold_rush"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "mid8-07d9e1b8",
+   "team_id": "07d9e1b8-29af-448a-be52-ecf6df542d89",
+   "maps": [
+    "00expanse",
+    "00lanes",
+    "00lost_world",
+    "00rows",
+    "00rushbait_v2"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "mid9-a3b6f213",
+   "team_id": "a3b6f213-47dd-4948-91cb-3832d03d8c57",
+   "maps": [
+    "00corners",
+    "00contest",
+    "00eight",
+    "00monolith",
+    "01gold_rush"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "mid10-7348a083",
+   "team_id": "7348a083-dc1d-45ec-a355-c4bede12dd6a",
+   "maps": [
+    "00expanse",
+    "00lanes",
+    "00lost_world",
+    "00rows",
+    "00rushbait_v2"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+name: Baseline execution audit
+on:
+  push:
+    branches: [chatgpt/baseline-audit-20261027]
+    paths: ['tools/baseline_audit/**', '.github/workflows/baseline-audit.yml']
+permissions:
+  contents: read
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install cambc==3.0.5
+      - name: Prepare official engine and pinned baseline
+        run: |
+          cambc init /tmp/bc-audit --yes
+          cp -r bots/v25u /tmp/bc-audit/bots/
+          cp -r bench/bots/x_daniel8 /tmp/bc-audit/bots/
+          cp bench/maps/*.map26a /tmp/bc-audit/maps/
+      - name: Run all maps, both sides, retaining diagnostic evidence
+        run: python tools/baseline_audit/run.py --project /tmp/bc-audit --out audit-out
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: baseline-execution-evidence
+          path: audit-out/
+          retention-days: 7

@@ -120,3 +120,9 @@ v25z = v25u + stand-and-fight only above 30% HP (was 12%). Full 560-game logged 
 
 Per map (wins of 14) no map loses 3+: rushbait-v2 +3, split +3; great-wall, rows, starvation -2. Passes the bench
 rule. Next: real-opponent panel (tools/panel), v25u baseline then v25z with --pin.
+
+### v25z on the ladder (27 Oct): submitted as v219 by Szymon
+Re-played against the teams that recently beat v25u (screenshot from the site, unranked series):
+Camalares 2-3, Warwick Wuants 3-2, AI Coliseum >>> Cambridge Battlecode 3-2, Unimportant 4-1, Unimportant 4-1, QS2 3-2.
+5 of 6 series won (19-13 in games). Opponent versions were not pinned, so some of the swing may be their changes;
+a pinned panel run (tools/panel, --pin) would make it a clean paired result.

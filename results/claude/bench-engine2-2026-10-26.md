@@ -126,3 +126,16 @@ Re-played against the teams that recently beat v25u (screenshot from the site, u
 Camalares 2-3, Warwick Wuants 3-2, AI Coliseum >>> Cambridge Battlecode 3-2, Unimportant 4-1, Unimportant 4-1, QS2 3-2.
 5 of 6 series won (19-13 in games). Opponent versions were not pinned, so some of the swing may be their changes;
 a pinned panel run (tools/panel, --pin) would make it a clean paired result.
+
+## Scanner round 3 on v25z (27 Oct)
+v25z deaths: camps 2.83/game (78% while retreating), champions 3.56/game (76% while retreating; 'stand' now only 7%).
+Monster-damage timelines for the 1530 camp deaths during a retreat: median 620 damage in the 10 rounds before turning,
+then 300 (13% of max HP) over the 3 rounds of walking out: the retreat starts too late, the route is not the problem.
+
+| Bot | Change from v25z | Games | Wins | Margin/game | Camp deaths/game | Champion deaths/game |
+|---|---|---|---|---|---|---|
+| v30a | retreat when 4 rounds of the 4-turn average HP drain + 10% would empty us | 56 worst | 44 -> 42 | +349 -> +320 | 10.6 -> 9.7 | 3.4 -> 3.3 |
+
+Same trade-off as v25x: earlier exits save camp deaths but cost about as much farming. Camp deaths look like the price
+of aggressive farming on this bench rather than a bug; parked. Remaining scanner leads: shortcut (dead-end group 5:
+monoliths wall both altars, 0 gems banked in losses), starvation and gold-rush death hotspots vs champions.

@@ -139,3 +139,17 @@ then 300 (13% of max HP) over the 3 rounds of walking out: the retreat starts to
 Same trade-off as v25x: earlier exits save camp deaths but cost about as much farming. Camp deaths look like the price
 of aggressive farming on this bench rather than a bug; parked. Remaining scanner leads: shortcut (dead-end group 5:
 monoliths wall both altars, 0 gems banked in losses), starvation and gold-rush death hotspots vs champions.
+
+## v30b: retreat to a healthy teammate (27 Oct), rejected
+v30b = v25z + when retreating with enemies visible, go to a teammate (>50% HP, within 8) instead of spawn and keep
+fighting beside it.
+
+| | v25z | v30b |
+|---|---|---|
+| Wins /560 | 495 | 476 |
+| Margin/game | +595 | +557 |
+| Champion deaths/game | 3.56 | 4.34 |
+| Camp deaths/game | 2.83 | 2.99 |
+High-death maps (starvation, gold-rush, yellow-brick-road, concentrated-wealth; 56 games): 38 -> 39 wins, champion
+deaths 5.89 -> 5.68. Elsewhere worse: lost-world 12 -> 8, rushbait-v2 13 -> 9, several maps -2. Likely cause: a
+champion under 30% HP keeps fighting once beside the teammate, and the chaser follows it there.

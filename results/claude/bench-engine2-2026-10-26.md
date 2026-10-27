@@ -153,3 +153,15 @@ fighting beside it.
 High-death maps (starvation, gold-rush, yellow-brick-road, concentrated-wealth; 56 games): 38 -> 39 wins, champion
 deaths 5.89 -> 5.68. Elsewhere worse: lost-world 12 -> 8, rushbait-v2 13 -> 9, several maps -2. Likely cause: a
 champion under 30% HP keeps fighting once beside the teammate, and the chaser follows it there.
+
+## Map study on v25z (27 Oct)
+Win rate per map (560 bench games, 14 per map): 64% on quadrants, concentrated-wealth, gold-rush, shortcut,
+yellow-brick-road; 71% broken-curve, islands; 100% on 16 maps. In losses our camp damage equals our wins' but the
+opponent's is far higher (islands 24.7k vs 14.2k in wins, quadrants 42.7k vs 25.5k): we lose to faster farmers.
+- quadrants: pack mode farmed only the two 120-gem groups (15, 16: 95% of farm time); the eight solo-sized gem groups
+  (25-57 gems, 4 camps, 1710 HP) were never touched, while opponents cleared 27 groups by r600 vs our 7.
+- Forced solo, 14 games per map vs v25z: quadrants 9 -> 11, broken-curve 10 -> 11, concentrated-wealth 9 -> 8,
+  pilgrimage 11 -> 9, rows 11 -> 9, big-world 11 -> 8, shortcut 9 -> 7, islands 10 -> 4. Only quadrants gains.
+- Side asymmetry (e.g. expanse A 4/7 vs B 7/7) is not our bot: our early farming is identical by side, and on
+  gold-rush/big-world/starvation both teams do better from the same spawn. Not pursued.
+v30c = v25z + quadrants in the solo-map list. Full run pending.

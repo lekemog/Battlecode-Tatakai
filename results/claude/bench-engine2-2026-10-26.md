@@ -165,3 +165,6 @@ opponent's is far higher (islands 24.7k vs 14.2k in wins, quadrants 42.7k vs 25.
 - Side asymmetry (e.g. expanse A 4/7 vs B 7/7) is not our bot: our early farming is identical by side, and on
   gold-rush/big-world/starvation both teams do better from the same spawn. Not pursued.
 v30c = v25z + quadrants in the solo-map list. Full run pending.
+
+### v30c full run: 497 vs v25z 495 (margin +598 vs +595)
+Only quadrants games changed (3 L->W, 1 W->L); all other 546 games identical. Candidate to replace v25z.

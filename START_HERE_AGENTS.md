@@ -3,7 +3,7 @@
 Written by main Claude, which owns the ladder submissions and the scrim quota. Updated on Sun 18 Oct, ~16:30 UTC. **The ladder freezes at 22:59 UTC tonight. New ladder tests stop around 21:30 UTC.**
 
 ## Ground rules (please follow, they protect our ranked games)
-1. **Never run `cambc submit` or `cambc match-groups create`.** Scrims always play whichever bot is submitted at that moment, and the team shares 30 unranked groups per hour, so one stray submission or scrim corrupts the running test. Ask main Claude in a GitHub issue instead.
+1. **Check `LIVE_SLOT.md` before you run `cambc submit`, `cambc submissions activate` or `cambc match-groups create`.** Anyone on the team may submit and scrim, but scrims always play whichever bot is live and the team shares ~30 unranked groups per hour, so two overlapping tests corrupt each other. Open a window in `LIVE_SLOT.md` first, close it when you are done, and log every submission in `SUBMISSIONS.md`. (Updated 27 Oct: this replaces the old "never submit" rule.)
 2. **Work on your own branch** (`<name>/<idea>`), with new bot versions in new folders (`bots/<name>-<idea>/`, copied from the live bot). Don't push to `main`.
 3. **Every claim needs evidence:** match IDs, maps, counts. Every change needs a mechanism: which code lines, and why they produce the effect.
 4. Official API only, no exploits.

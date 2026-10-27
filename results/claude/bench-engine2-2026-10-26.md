@@ -107,3 +107,16 @@ effect overall: camp deaths are not mainly this loop. Not a candidate; next scan
 
 v25x cuts camp deaths but lost split (10 -> 5 wins: it stopped farming the central group 18, whose good tiles lie in a
 neighbour's reach); v25y keeps split but no longer cuts deaths. None beats v25u on the bench; none goes live.
+
+## v25z: first candidate to beat v25u (27 Oct)
+v25z = v25u + stand-and-fight only above 30% HP (was 12%). Full 560-game logged run, same games as v25u:
+
+| | v25u | v25z |
+|---|---|---|
+| Wins /560 | 492 | **495** |
+| Mean gem margin | +590 | +595 |
+| Deaths to champions / game | 4.12 | **3.56** (-14%) |
+| Deaths to camps / game | 2.82 | 2.83 |
+
+Per map (wins of 14) no map loses 3+: rushbait-v2 +3, split +3; great-wall, rows, starvation -2. Passes the bench
+rule. Next: real-opponent panel (tools/panel), v25u baseline then v25z with --pin.

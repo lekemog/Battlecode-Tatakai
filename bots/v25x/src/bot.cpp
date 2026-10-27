@@ -837,11 +837,6 @@ int Bot::solo_target(){
         if(!taken&&wait<=dist(me.position(),g.center)+20)return objective;
     }
     solo_choose=round;
-    // v25x: score camps by walking distance, not straight-line distance. On winding maps (fracture) champions picked camps
-    // 30 tiles away in a straight line but far longer to walk, re-targeted halfway and earned 0 gold by r100 (top-10
-    // unranked: their gold at r50 is 2.2x ours). One capped BFS per rescore (every 8 rounds), only with fuel to spare.
-    bitboard seen_s;distance_field walk;bool have_walk=false;
-    if(fuel_remaining()>50000){walk.compute(terrain,disk(me.position(),0),seen_s,static_cast<std::uint16_t>(160));have_walk=true;}
     int best=-1;double best_s=-1e18;
     int fb=-1;double fb_s=-1e18;
 #if POLARIS_OPP_MODEL > 0
@@ -866,8 +861,6 @@ int Bot::solo_target(){
         const bool weak_herd_s=g.probes.size()>=8&&!g.reward&&hp<g.hp*.5;
         if(!weak_herd_s&&!g.reward&&g.str*clear*.6>my_hp*(pack_mode?.6:forced_solo?1.3:.85))continue;   // solo farmers recall to heal anyway
         int travel=dist(me.position(),g.center);
-        if(have_walk){int w=100000;for(auto p:g.probes)w=std::min<int>(w,walk.get(p));
-            travel=w<static_cast<int>(distance_field::unreachable)?w:std::max(travel*2,160);}
         int wait=g.ready_round>round?static_cast<int>(g.ready_round-round):0;
         if(wait>travel+10){   // v23v: respawning - remember the soonest one to pre-position at instead of idling
             const double fs=value/(wait+clear+constants::capture_time+.3*g.altar_d+2);
@@ -1494,6 +1487,16 @@ void Bot::play_turn(){
         else if(!found)goals=grow(g.spawns,1);   // v21h: camps unseen (walls block vision) -> walk up to them; range-3 champions idled outside walled pockets
         goals&=~terrain;
         if(g.reward)goals&=~g.spawns; // leave the capture to the claimant
+        // v25x: stand outside the reach of dangerous camps of OTHER groups. Death breakdown over 560 bench games: 34% of
+        // camp deaths were a camp that killed us 3+ times in the same game (gold-rush vs h_deysag: camp 24 killed us 14
+        // times while we farmed/captured the neighbouring groups 0-4, e.g. Vesper 2100 -> 966 HP in 10 rounds on group
+        // 0). Farm tiles in another group's reach are dropped whenever a safe one exists.
+        {bitboard avoid;avoid.clear();
+         for(auto& m:monsters){if(m.group==target||m.strength<=0)continue;
+            int r=1;try{r=m.handle.attack_range();}catch(const error&){}
+            avoid|=disk(m.pos,r+1);}
+         const bitboard safe=goals&~avoid;
+         if(!safe.is_empty())goals=safe;}
         move_to(goals);
         combat(target,false);
     }

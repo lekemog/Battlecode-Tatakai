@@ -52,6 +52,8 @@ class Bot {
     int slot=0,team_size=1;
     unsigned round=0,last_log=0,flee_round=0;
     float turn_hp=-1;bool unsafe_recall=false;cambc::bitboard camp_reach;
+    bool healing=false;   // v25v: low-HP retreat holds until healed (hysteresis)
+    float last_took=0;   // v25w: HP lost since our previous turn
     int objective=-1;
     bool focus_build=false,frontline=false;
     std::vector<Group> groups;

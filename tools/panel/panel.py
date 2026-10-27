@@ -7,7 +7,10 @@ bench cannot (bench bots are frozen pre-patch code that we beat 88% of the time)
 Setup: write tools/panel/panel.json (see panel.example.json): one entry per opponent with its team UUID, a previous
 match-group UUID or link that pins its bot version, five maps and five sides. Then, logged in with `cambc login`:
 
-  python3 -I tools/panel/panel.py run LABEL VERSION   # make VERSION live, play the panel, then restore the old live
+  python3 -I tools/panel/panel.py run LABEL VERSION [--pin BASE_LABEL]
+      make VERSION live, play the panel, restore the old live version. With --pin, each opponent plays the exact bot
+      version it used in BASE_LABEL's run (its match group is passed as --source-group), so a baseline run and a
+      candidate run face identical opponents. Entries without "source_group" and no --pin use the opponent's current bot.
   python3 -I tools/panel/panel.py compare LABEL_A LABEL_B   # paired per-game comparison
 
 Results go to results/panel/LABEL.json. Uses only official CLI commands. Run it from ONE place at a time: scrims
@@ -61,16 +64,16 @@ def live_version():
     raise RuntimeError(f'could not tell which version is live from: {json.dumps(data)[:400]}')
 
 
-def wait_group(gid):
-    while True:
-        g = cli('match-groups', 'show', gid)
-        matches = find(g, 'matches') or []
-        states = [str(find(m, 'status', 'state') or '').lower() for m in matches]
-        if matches and all(s in ('finished', 'completed', 'done', 'complete') for s in states):
-            return matches
-        if any(s in ('failed', 'error', 'cancelled') for s in states):
-            raise RuntimeError(f'group {gid} has failed matches: {states}')
+def wait_group(gid, n=5, timeout=3600):
+    """Finished matches of a group, via `cambc matches list` (the shape tools/top10/midtest.sh relies on)."""
+    t0 = time.time()
+    while time.time() - t0 < timeout:
+        d = cli('matches', 'list', '--team', 'me', '--kind', 'unranked', '--limit', '100')
+        ms = [m for m in (d.get('matches') or []) if m.get('groupId') == gid]
+        if len(ms) >= n and all(m.get('status') == 'finished' for m in ms):
+            return ms
         time.sleep(POLL)
+    raise RuntimeError(f'group {gid}: not finished after {timeout}s')
 
 
 def score(summary, side):
@@ -81,11 +84,13 @@ def score(summary, side):
             'deaths': count('death', me), 'kills': count('kill', me), 'rounds': summary['match']['roundsStarted']}
 
 
-def run(label, version):
+def run(label, version, pin=None):
     panel = json.load(open(os.path.join(HERE, 'panel.json')))
     os.makedirs(OUT, exist_ok=True)
+    pinned = json.load(open(os.path.join(OUT, f'{pin}.json'))).get('groups', {}) if pin else {}
     path = os.path.join(OUT, f'{label}.json')
-    result = json.load(open(path)) if os.path.exists(path) else {'label': label, 'version': version, 'games': {}}
+    result = json.load(open(path)) if os.path.exists(path) else {'label': label, 'version': version, 'games': {}, 'groups': {}}
+    result.setdefault('groups', {})
     before = live_version()
     print(f'live before: {before}; activating {version}', flush=True)
     cli('submissions', 'activate', str(version))
@@ -95,18 +100,35 @@ def run(label, version):
             if key in result['games']:
                 continue   # resumable: finished opponents are kept
             sides = opp['sides']
-            g = cli('match-groups', 'create', opp['team_id'], '--source-group', opp['source_group'],
-                    '--maps', ','.join(opp['maps']), '--sides', ','.join(sides))
-            gid = str(find(g, 'id', 'uuid', 'matchGroupId'))
-            print(f'{key}: group {gid}', flush=True)
+            source = pinned.get(key) or opp.get('source_group')
+            args = ['match-groups', 'create', opp['team_id'], '--maps', ','.join(opp['maps']), '--sides', ','.join(sides)]
+            if source:
+                args += ['--source-group', source]
+            for attempt in range(40):   # the shared quota refills over time
+                try:
+                    g = cli(*args)
+                    break
+                except RuntimeError as err:
+                    if '400' in str(err) or attempt == 39:
+                        raise   # a bad request (e.g. repeated maps) will not fix itself
+                    print(f'{key}: create failed ({str(err)[-120:]}), retrying in 60s', flush=True)
+                    time.sleep(60)
+            gid = str(find(g, 'groupId', 'id', 'uuid'))
+            result['groups'][key] = gid
+            json.dump(result, open(path, 'w'), indent=1)
+            print(f'{key}: group {gid}' + (f' (opponent pinned to {source})' if source else ''), flush=True)
             matches = wait_group(gid)
             games = []
             for i, m in enumerate(matches):
-                mid = str(find(m, 'id', 'uuid', 'matchId'))
+                mid = str(find(m, 'matchId', 'id', 'uuid'))
                 sp = os.path.join(OUT, 'summaries', f'{mid}.json')
                 os.makedirs(os.path.dirname(sp), exist_ok=True)
                 cli('matches', 'summary', mid, '-o', sp, '--json', parse=False)
-                games.append({'map': opp['maps'][i], 'side': sides[i], 'match': mid, **score(json.load(open(sp)), sides[i])})
+                # The list is not guaranteed to be in map order: match on the map's name when the entry carries one.
+                name = str(find(m, 'map', 'mapName', 'mapSlug') or '')
+                j = next((k for k, mp in enumerate(opp['maps']) if mp == name or mp.lstrip('0123456789') == name), i)
+                games.append({'map': opp['maps'][j], 'side': sides[j], 'match': mid, **score(json.load(open(sp)), sides[j])})
+            games.sort(key=lambda x: opp['maps'].index(x['map']))
             result['games'][key] = games
             json.dump(result, open(path, 'w'), indent=1)
             print(f"{key}: {sum(x['win'] for x in games)}/5 wins", flush=True)
@@ -138,8 +160,8 @@ def compare(a, b):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) == 4 and sys.argv[1] == 'run':
-        run(sys.argv[2], sys.argv[3])
+    if len(sys.argv) in (4, 6) and sys.argv[1] == 'run':
+        run(sys.argv[2], sys.argv[3], sys.argv[5] if len(sys.argv) == 6 and sys.argv[4] == '--pin' else None)
     elif len(sys.argv) == 4 and sys.argv[1] == 'compare':
         compare(sys.argv[2], sys.argv[3])
     else:

@@ -1,3 +1,4 @@
+// v41d = v35a + bush wards (kBushWards): the free ward is dropped at the end of every turn it is ready, on a bush within placement range when there is one, instead of only at altars and captures.
 // Polaris v27 (core rebuilt 25 Oct; see the v27 core section below). Was: Polaris V9 — adaptive squads, map-type rules, carrier safety, bag hunting, invasion-aware posture, map-aware draft. Cambridge Battlecode 2026a.
 #include "bot.h"
 #include <algorithm>
@@ -36,6 +37,7 @@ float spell_modifier(const ability& a){return std::visit([](const auto& x)->floa
     if constexpr(requires{x.modifier;})return x.modifier;else return 0;},*a.info());}
 // Shared memory (pack mode): 0-2 squad targets, 3-5 capture claim, 6 aggression estimate,
 // 7 last capturer. Solo mode: 0..n-1 per-champion targets, 6 aggression, 7 threat cell.
+constexpr bool kBushWards=true;   // v41d: drop the ward whenever ready, bush tiles first (false = v35a: altar/capture spots only)
 constexpr std::uint8_t kTarget=0,kClaimGroup=3,kClaimSlot=4,kClaimStamp=5,kAggression=6,kAltarSeen=7;
 #ifndef POLARIS_SIEGE_R
 #define POLARIS_SIEGE_R 600
@@ -184,6 +186,8 @@ bool Bot::ally_alive(int k) const {
     if(alive_round[k]!=round+1){alive_round[k]=round+1;bool a=true;try{a=roster[k].is_alive();}catch(const error&){}alive_val[k]=a;}
     return alive_val[k];
 }
+
+bool Bot::alive_now() const{try{return self().is_alive();}catch(const error&){return false;}}
 
 void Bot::observe(){
     enemies.clear();monsters.clear();allies.clear();
@@ -1095,7 +1099,34 @@ bool Bot::fight(){
     combat(-1,true);log("pvp-engage");return true;
 }
 
+// v41d: the ward costs nothing and refreshes every 10 rounds, so it is placed whenever ready: bush tiles first (they hide
+// camps and champions from everyone but the ward's team), then the nearest legal free tile.
+void Bot::drop_ward(){
+    auto& me=self();
+    if(round<ward_next||!alive_now())return;
+    if(me.is_recalling()||me.is_teleporting()||me.is_submitting_gems())return;
+    try{if(me.ward_cooldown()>0){ward_next=round+std::max(1,me.ward_cooldown());return;}}catch(const error&){return;}
+    std::vector<std::pair<int,vec2>> cand;
+    const auto here=me.position();
+    for(auto q:(me.ward_placement_tiles()&~terrain&~occupied).positions()){
+        if(q==here)continue;
+        cand.push_back({dist(q,here)+(map::bushes().is_set(q)?0:100),q});
+    }
+    std::sort(cand.begin(),cand.end(),[](const auto&a,const auto&b){return a.first<b.first;});
+    int tries=0;
+    for(auto& c:cand){
+        if(++tries>3)break;
+        try{if(me.place_ward(c.second)){ward_next=round+constants::ward_cooldown;return;}}catch(const error&){}
+    }
+    ward_next=round+3;   // nothing placeable now: do not burn fuel retrying every turn
+}
+
 void Bot::play_turn(){
+    play_turn_body();
+    if(kBushWards&&initialized)drop_ward();
+}
+
+void Bot::play_turn_body(){
     auto& me=self();
     round=round_number();
     if(!initialized){init();return;}
@@ -1143,7 +1174,7 @@ void Bot::play_turn(){
             if(lk.use(a)){log(channeling?"lock-cancel":"lock");break;}
         }}catch(const error&){}
     // Ward: drop the free ward where we farm or bank, so respawns and arrivals there stay in sight.
-    if(round>=ward_next&&!spawn){
+    if(!kBushWards&&round>=ward_next&&!spawn){
         bool spot=false;for(auto a:altar_pos)if(dist(a,me.position())<=2)spot=true;
         if(capturing>=0)spot=true;
         if(spot){for(auto q:disk(me.position(),1).positions())if(!terrain.is_set(q)&&!occupied.is_set(q)){

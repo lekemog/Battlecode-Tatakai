@@ -89,3 +89,21 @@ below 50% HP until 60% or spawn.
 
 Fixed the traced game (reverse-spiral vs h_photon: 725-143 at r2000 -> 1001-229 at r1573, deaths 42 -> 16) but no
 effect overall: camp deaths are not mainly this loop. Not a candidate; next scanner item.
+
+## Scanner round 2: what kills us (27 Oct)
+`tools/scan/deaths.py` over 560 logged v25u games (2.82 camp deaths + 4.12 champion deaths per game):
+- Camp deaths: 95% at <30% HP; 75% while retreating, the retreat starting at a median 12% HP, death 3 rounds later;
+  64% were farming just before. 34% are one camp killing us 3+ times in a game (gold-rush camp 24: 14 times, while we
+  farmed the neighbouring groups 0-4).
+- Champion deaths: 89% at <30% HP; 58% while retreating, 28% standing; the retreat starts at a median 6% HP, after
+  `stand` (the stand-and-fight rule) in 73% of cases.
+
+| Bot | Change from v25u | Games | Wins | Margin/game | Camp deaths/game | Champion deaths/game |
+|---|---|---|---|---|---|---|
+| v25w | (v25v) + retreat when 2.5x last round's damage leaves <10% | 16 worst | 12 -> 11 | | 10.8 -> 10.5 | 3.9 -> 3.6 |
+| v25x | farm tiles avoid other groups' dangerous camps | 560 | 492 -> 490 | +590 -> +580 | 2.82 -> 2.74 | 4.12 -> 4.11 |
+| v25x | same | 56 worst | 42 -> 39 | +346 -> +218 | 10.3 -> 9.2 | 3.5 -> 3.2 |
+| v25y | same, awake camps only | 56 worst | 42 -> 43 | +346 -> +325 | 10.3 -> 10.5 | 3.5 -> 3.3 |
+
+v25x cuts camp deaths but lost split (10 -> 5 wins: it stopped farming the central group 18, whose good tiles lie in a
+neighbour's reach); v25y keeps split but no longer cuts deaths. None beats v25u on the bench; none goes live.

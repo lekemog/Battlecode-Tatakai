@@ -104,6 +104,7 @@ class Bot {
     std::vector<cambc::vec2> altar_pos;std::vector<unsigned> altar_seen;
     std::vector<bool> altar_contested;std::vector<cambc::bitboard> altar_disk;
     int bank_wait=0,tribute_cancels=0;
+    bool fuel_ok(std::uint64_t need) const;bool alive_now() const;bool leave_camp_tiles();   // v41c
     void init();
     void observe();
     void shop();

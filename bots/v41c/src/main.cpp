@@ -7,6 +7,11 @@
 #include "bot.h"
 #include "draft.h"
 
+// v41c: a champion killed during its own turn (retaliation) makes later calls throw; that is not a bot error.
+static bool died_mid_turn() {
+    try { return !cambc::is_draft() && !cambc::self().is_alive(); } catch (...) { return false; }
+}
+
 int main() {
     Bot bot;
     while (true) {
@@ -16,9 +21,11 @@ int main() {
             else
                 bot.play_turn();
         } catch (const std::exception& error) {
-            std::cout << "bot error: " << error.what() << std::endl;
+            if (died_mid_turn()) std::cout << "died mid-turn" << std::endl;
+            else std::cout << "bot error: " << error.what() << std::endl;
         } catch (...) {
-            std::cout << "bot error: unknown exception" << std::endl;
+            if (died_mid_turn()) std::cout << "died mid-turn" << std::endl;
+            else std::cout << "bot error: unknown exception" << std::endl;
         }
 
         cambc::end_turn();

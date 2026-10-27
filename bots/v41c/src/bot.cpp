@@ -1,3 +1,4 @@
+// v41c = v35a + three flagged bundles: kLeaveCamp (idle/waiting champions never stand on a camp spawn tile; it delays the respawn), kMidDeath (quiet mid-turn death: no error line, no actions after dying) and kFuelReserve (14K held back: the solo planner reuses its cached target and leave_camp_tiles skips its search below 26K fuel; the v35a thresholds are unchanged because fuel here is only 25-50K per turn).
 // Polaris v27 (core rebuilt 25 Oct; see the v27 core section below). Was: Polaris V9 — adaptive squads, map-type rules, carrier safety, bag hunting, invasion-aware posture, map-aware draft. Cambridge Battlecode 2026a.
 #include "bot.h"
 #include <algorithm>
@@ -36,6 +37,9 @@ float spell_modifier(const ability& a){return std::visit([](const auto& x)->floa
     if constexpr(requires{x.modifier;})return x.modifier;else return 0;},*a.info());}
 // Shared memory (pack mode): 0-2 squad targets, 3-5 capture claim, 6 aggression estimate,
 // 7 last capturer. Solo mode: 0..n-1 per-champion targets, 6 aggression, 7 threat cell.
+constexpr bool kLeaveCamp=true;        // v41c: step off camp spawn tiles when idle or waiting for a respawn
+constexpr bool kMidDeath=true;         // v41c: stop acting once dead mid-turn (retaliation); main.cpp logs it without an error
+constexpr std::uint64_t kFuelReserve=14000;   // v41c: fuel kept back by every optional phase (0 = v35a)
 constexpr std::uint8_t kTarget=0,kClaimGroup=3,kClaimSlot=4,kClaimStamp=5,kAggression=6,kAltarSeen=7;
 #ifndef POLARIS_SIEGE_R
 #define POLARIS_SIEGE_R 600
@@ -183,6 +187,26 @@ bool Bot::ally_alive(int k) const {
     if(k==slot)return true;
     if(alive_round[k]!=round+1){alive_round[k]=round+1;bool a=true;try{a=roster[k].is_alive();}catch(const error&){}alive_val[k]=a;}
     return alive_val[k];
+}
+
+bool Bot::fuel_ok(std::uint64_t need) const{return fuel_remaining()>need+kFuelReserve;}
+bool Bot::alive_now() const{try{return self().is_alive();}catch(const error&){return false;}}
+
+// v41c: an idle champion on a camp spawn tile delays that group's respawn. Step to the neighbour that is no camp tile and
+// farther from the group centre; inside a block (no such neighbour) walk to the nearest tile off every camp.
+bool Bot::leave_camp_tiles(){
+    auto& me=self();const auto here=me.position();
+    if(!kLeaveCamp||!all_spawns.is_set(here)||!me.can_move()||capturing>=0)return false;
+    vec2 c=here;for(auto& g:groups)if(g.spawns.is_set(here)){c=g.center;break;}
+    vec2 best=here;int best_v=(all_spawns.is_set(here)?0:1000)+dist(here,c);
+    for(auto p:(terrain|occupied).reachable_tiles(here,1).positions()){
+        if(p==here)continue;
+        const int v=(all_spawns.is_set(p)?0:1000)+dist(p,c);
+        if(v>best_v){best_v=v;best=p;}
+    }
+    if(best!=here){try{if(me.move_absolute(best))return true;}catch(const error&){}}
+    if(!fuel_ok(12000))return false;
+    return move_to(disk(here,10)&~all_spawns&~terrain);
 }
 
 void Bot::observe(){
@@ -811,7 +835,7 @@ int Bot::solo_target(){
     }
     // Commit: straight-line distances jump around walls, so rescoring every turn made solo
     // champions flip between far camps. Keep a valid target and rescore every 8 rounds.
-    if(objective>=0&&objective<static_cast<int>(groups.size())&&round<solo_choose+8){
+    if(objective>=0&&objective<static_cast<int>(groups.size())&&(round<solo_choose+8||!fuel_ok(12000))){
         auto& g=groups[objective];
         bool taken=false;
         for(int k=0;k<std::min(team_size,5);++k)if(k<slot&&shared[kClaim0+k]==objective+1&&ally_alive(k))taken=true;
@@ -1255,7 +1279,7 @@ void Bot::play_turn(){
     if(slot<5){const std::uint8_t want=(solo&&target>=0)?static_cast<std::uint8_t>(target+1):0;if(shared[kClaim0+slot]!=want)write_byte(kClaim0+slot,want);}
     if(target<0){
         if(!spawn&&enemies.empty()&&me.health()<me.max_health()*.9f&&!unsafe_recall){try{me.recall();log("idle-recall");return;}catch(const error&){}}
-        combat(-1,false);log("idle");return;
+        combat(-1,false);if(!kMidDeath||alive_now())leave_camp_tiles();log("idle");return;
     }
     auto& g=groups[target];
     // Squad target: engage only when the champions present can clear it safely (or it is a siege we are wearing down);
@@ -1283,12 +1307,18 @@ void Bot::play_turn(){
         }
     }
     bool acted=combat(target,false);
+    if(kMidDeath&&!alive_now())return;
     if(!acted&&me.can_move()){
         bitboard goals;goals.clear();bool found=false;
         for(auto& m:monsters)if(m.group==target){goals|=disk(m.pos,me.attack_range());found=true;}
         if(!found&&!g.monolith&&g.spawns.is_set(me.position())){goals=grow(g.spawns,1)&~g.spawns&~terrain;if(goals.is_empty())goals=grow(g.spawns,2)&~g.spawns;}
         else if(!found)goals=grow(g.spawns,1);
         goals&=~terrain;
+        if(kLeaveCamp&&!found&&!g.reward&&g.ready_round>round){   // v41c: wait beside a respawning group, not on its tiles
+            bitboard ring=grow(g.spawns,2)&~all_spawns&~terrain;
+            if(!ring.is_empty())goals=ring;
+            if(all_spawns.is_set(me.position())&&leave_camp_tiles())goals.clear();
+        }
         if(g.reward)goals=g.spawns;
         move_to(goals);
         combat(target,false);

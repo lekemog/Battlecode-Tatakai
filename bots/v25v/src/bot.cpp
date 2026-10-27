@@ -1302,7 +1302,14 @@ void Bot::play_turn(){
     // kurians-t3 (#40, contestrecall; bench 459 vs 458): on contest a recall needs no visible enemy within 9 tiles, not
     // range+2 (132 ranked contest deaths came mid-recall, at 8-10% HP). Otherwise walk out (the retreat below).
     const int recall_clear=forced_pack?9:-1;
-    if(!spawn&&(me.health()<me.max_health()*.3f||danger*2.5>me.health())){
+    // v25v: hysteresis. Below 30% HP the champion retreated, stepped out of the camps' reach, saw no danger and (still at
+    // ~30%) walked straight back to the same camp. Scan of 560 bench games: 2.8 deaths a game to camps (40% of all
+    // deaths); reverse-spiral ~10 a game (Ryth: retreat 360 HP r50, farm 360 r51, retreat 220, dead to the camp r60).
+    // Once it retreats below 50% HP (low HP, or camp/enemy danger) it stays in the retreat branch (recall when safe, else
+    // walk home) until healed to 60% or back at spawn.
+    if(spawn||me.health()>=me.max_health()*.6f)healing=false;
+    if(!spawn&&(healing||me.health()<me.max_health()*.3f||danger*2.5>me.health())){
+        if(me.health()<me.max_health()*.5f)healing=true;
         bool close=false;for(auto& e:enemies)if(dist(e.pos,me.position())<=std::max(e.range+2,recall_clear))close=true;
         if(!close&&danger<me.health()*.05){if(!unsafe_recall)try{me.recall();log("recall");return;}catch(const error&){}}
         if(enemies.empty()&&!camp_reach.is_empty()&&camp_reach.is_set(me.position())){   // v25u: out of the camps' reach first
@@ -1344,32 +1351,6 @@ void Bot::play_turn(){
         capturing=-1;
     }
     int target=(pack_mode&&role==0)?leader_target():solo_target();
-    // v25v: altars walled in by monoliths (shortcut: a 235-gem monolith beside each of the 2 altars; boss_battle). bank()
-    // never tributes while every submit tile is guarded (v24c), and the pack's safety filter never picks a 20,000-HP
-    // monolith, so on shortcut we farmed 2000 rounds and banked 0 (sparring vs siege, every game). Camps never heal:
-    // wear the guard nearest our spawn down over several trips (the low-HP retreat brings each champion home).
-    if(siege_group<0&&round>=120&&!altar_goals.is_empty()){
-        int ug=-1,ud=1<<30;bool all=true;
-        for(auto q:altar_goals.positions()){
-            int gq=-1;
-            for(unsigned i=0;i<groups.size()&&gq<0;++i){auto& gg=groups[i];if(!gg.monolith||gg.reward||gg.ready_round>round)continue;
-                for(auto pr:gg.probes)if(dist(pr,q)<=2){gq=static_cast<int>(i);break;}}
-            if(gq<0){all=false;break;}
-            if(groups[gq].home_d<ud){ud=groups[gq].home_d;ug=gq;}
-        }
-        if(all&&ug>=0&&round>=unlock_cooldown){
-            if(unlock_since<0)unlock_since=static_cast<int>(round);
-            if(static_cast<int>(round)>unlock_since+400){unlock_cooldown=round+200;unlock_since=-1;}   // no kill in 400 rounds: farm a while
-            auto& mg=groups[ug];const int dme=dist(me.position(),mg.center);
-            int here=dme<=7?1:0;for(auto c:allies)if(dist(c.position(),mg.center)<=7)++here;
-            int alive=0;for(int k=0;k<team_size;++k)if(ally_alive(k))++alive;
-            const bool fresh=me.health()>=me.max_health()*.85f;
-            if(dme<=5&&(here>=2||!fresh)){target=ug;log("unlock-siege",ug);}            // engaged: keep hitting until the retreat check sends us home
-            else if(fresh&&here>=std::min(3,alive)){target=ug;log("unlock-siege",ug);}
-            else if(fresh){bitboard stage=disk(mg.center,7)&~disk(mg.center,6)&~terrain;
-                if(!stage.is_set(me.position()))move_to(stage);combat(-1,false);log("unlock-stage",ug);return;}
-        } else if(!all)unlock_since=-1;
-    }
     // Never fight a monolith down ourselves, but take one that someone left uncaptured nearby.
     for(unsigned i=0;i<groups.size();++i){
         auto& m=groups[i];

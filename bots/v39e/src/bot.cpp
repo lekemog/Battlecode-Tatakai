@@ -1,3 +1,4 @@
+// v39e (on v35a): 4.0 shop and capture: Monster first (no Treasure), one Capture+Prospector holder who is preferred as capturer, capture cost 3 for the holder, enemy_capturing groups dropped; flags POLARIS_SHOP39/HOLDER/CAPTIME/CAPSTATE.
 // Polaris v27 (core rebuilt 25 Oct; see the v27 core section below). Was: Polaris V9 — adaptive squads, map-type rules, carrier safety, bag hunting, invasion-aware posture, map-aware draft. Cambridge Battlecode 2026a.
 #include "bot.h"
 #include <algorithm>
@@ -8,6 +9,21 @@
 
 using namespace cambc;
 
+// ---- v39e flags (set -DPOLARIS_x=0 to ablate) ----
+#ifndef POLARIS_SHOP39
+#define POLARIS_SHOP39 1    // Monster first for everyone, Treasure dropped (4.0: Treasure 20% -> 10%, Monster 10% -> 15%)
+#endif
+#ifndef POLARIS_HOLDER
+#define POLARIS_HOLDER 1    // one designated Capture + Prospector holder per team, preferred as capturer
+#endif
+#ifndef POLARIS_CAPTIME
+#define POLARIS_CAPTIME 1   // capture cost 3 (not constants::capture_time) in the target scores of a Capture-emblem holder
+#endif
+#ifndef POLARIS_CAPSTATE
+#define POLARIS_CAPSTATE 1  // leave a group whose capture_state() reads enemy_capturing
+#endif
+constexpr bool kShop39=POLARIS_SHOP39,kHolder=POLARIS_HOLDER,kCapTime=POLARIS_CAPTIME,kCapState=POLARIS_CAPSTATE;
+constexpr int kHolderSlack=3;   // the holder captures when it is at most this many tiles farther than the nearest ally
 namespace {
 int dist(vec2 a,vec2 b){return a.chebyshev_distance(b);}
 unsigned id(const champion& c){return static_cast<unsigned>(static_cast<handle_champion_t>(c));}
@@ -313,6 +329,23 @@ double Bot::threat(vec2 p) const {
     return d;
 }
 
+// Capture rounds for this champion: 3 with a Capture emblem of its own (the discount applies when the capturer owns it), else the default.
+int Bot::cap_time() const{return kCapTime&&have_capture?3:constants::capture_time;}
+// The one champion that buys Capture + Prospector: first non-tank, non-HoR slot, frontliners before carries (they reach rewards first).
+int Bot::capture_holder(){
+    if(holder_slot>-2)return holder_slot;
+    holder_slot=-1;
+    for(int pass=0;pass<2&&holder_slot<0;++pass)
+        for(int k=0;k<team_size&&k<8;++k){
+            try{const auto t=roster[k].champion_name();
+                if(t==champion_type::ryth||t==champion_type::heart_of_ruin)continue;
+                if(pass==0&&is_carry(t))continue;
+                holder_slot=k;break;}catch(const error&){}
+        }
+    if(holder_slot<0)holder_slot=0;
+    return holder_slot;
+}
+
 constexpr unsigned kCaptureGiveUp=25;   // v29a: a capture takes 5 rounds (3 with the emblem); 60 let a blocked one eat a minute
 void Bot::shop(){
     auto& me=self();
@@ -344,17 +377,28 @@ void Bot::shop(){
     const Step T{focus_build?item_type::treasure_shard_of_focus:item_type::treasure_shard_of_strength,focus_build?item_type::treasure_emblem_of_focus:item_type::treasure_emblem_of_strength},
         JH2{item_type::jungle_shard_of_health,item_type::jungle_emblem_of_health};
     order={me.attack_range()>=3?T:M,JH2,D};
+    if(kShop39)order={M,JH2,D};   // v39e: 4.0 Monster 15% beats Treasure 10%, for ranged carries too
     // v22w: Ryth is the tank. Elite contest replay (team rated 1907): their Ryth stacked health emblems (Power, Durability,
     // Treasure, Jungle of Health) to 10,600 max HP, stood nearest the monolith (it hits only the nearest champion) and
     // let the carries kill it ~5x a game with 6 deaths in total.
     const bool tank=me.champion_name()==champion_type::ryth;
     const Step PH{item_type::power_shard_of_health,item_type::power_emblem_of_health},DH{item_type::durability_shard_of_health,item_type::durability_emblem_of_health},
         JH{item_type::jungle_shard_of_health,item_type::jungle_emblem_of_health},TH{item_type::treasure_shard_of_health,item_type::treasure_emblem_of_health};
-    if(tank)order={PH,DH,JH,TH};
+    const Step MH{item_type::monster_shard_of_health,item_type::monster_emblem_of_health};
+    if(tank)order={PH,DH,JH,kShop39?MH:TH};   // v39e: Monster of Health in Treasure's slot
     const bool hor=me.champion_name()==champion_type::heart_of_ruin;
     const Step HOME{item_type::home_shard_of_health,item_type::home_emblem_of_health};
-    if(hor)order={T,HOME,D};
+    if(hor)order={kShop39?M:T,HOME,D};
+    // v39e: one champion per team owns Capture (3-round captures) and Prospector (+25% of cluster rewards): the capturer is the holder.
+    const Step CAP{focus_build?item_type::capture_shard_of_focus:item_type::capture_shard_of_strength,focus_build?item_type::capture_emblem_of_focus:item_type::capture_emblem_of_strength},
+        PRO{focus_build?item_type::prospector_shard_of_focus:item_type::prospector_shard_of_strength,focus_build?item_type::prospector_emblem_of_focus:item_type::prospector_emblem_of_strength};
+    const bool holder=kHolder&&capture_holder()==slot;
+    if(holder)order.insert(order.begin()+1,{CAP,PRO});
     auto counts=me.item_count();
+    if(kHolder||kCapTime){   // v39e: the holder tells the team (byte 7) once the Capture emblem is in hand
+        const bool had=counts[CAP.emblem]>=1;
+        if(had!=have_capture){have_capture=had;if(holder)write_byte(kAltarSeen,had?1:0);}
+    }
     for(unsigned j=0;j<order.size();++j){
         const auto& st=order[j];
         unsigned need=0;for(unsigned k=0;k<=j;++k)if(order[k].emblem==st.emblem)++need;
@@ -851,12 +895,12 @@ int Bot::solo_target(){
             travel=t;}
         int wait=g.ready_round>round?static_cast<int>(g.ready_round-round):0;
         if(wait>travel+10){   // v23v: respawning - remember the soonest one to pre-position at instead of idling
-            const double fs=value/(wait+clear+constants::capture_time+.3*g.altar_d+2);
+            const double fs=value/(wait+clear+cap_time()+.3*g.altar_d+2);
             if(wait<400&&fs>fb_s){fb_s=fs;fb=static_cast<int>(i);}
             continue;}
         int taken=0;
         for(int k=0;k<std::min(team_size,5);++k)if(k!=slot&&shared[kClaim0+k]==i+1&&ally_alive(k))++taken;
-        double sc=value/(std::max(travel,wait)+clear+constants::capture_time+.3*g.altar_d+2);
+        double sc=value/(std::max(travel,wait)+clear+cap_time()+.3*g.altar_d+2);
         if(taken)sc*=.15;
         if(static_cast<int>(i)==objective)sc*=1.6;
         double enemy_side=static_cast<double>(g.home_d)/std::max(1,g.home_d+g.enemy_d);
@@ -912,7 +956,7 @@ double Bot::squad_rate(int i) const{
     const int travel=static_cast<int>(dist(self().position(),g.center)*1.3);
     const int wait=g.ready_round>round?static_cast<int>(g.ready_round-round):0;
     const double heal=dmg/std::max(1.0,thp)*(2.0*g.home_d+10);
-    const double cost=std::max(travel,wait)+rounds+heal+constants::capture_time+(g.gems>0?g.altar_d+g.gems/10.0:0)+4;
+    const double cost=std::max(travel,wait)+rounds+heal+cap_time()+(g.gems>0?g.altar_d+g.gems/10.0:0)+4;
     return (g.gems+kGoldW*g.gold)/cost;
 }
 
@@ -977,7 +1021,7 @@ int Bot::squad_target(){
         }
         const double heal=dmg/std::max(1.0,thp)*(2.0*g.home_d+10);
         const double bank_t=g.gems>0?g.altar_d+g.gems/10.0:0;
-        const double cost=std::max(travel,wait)+rounds+heal+extra+constants::capture_time+bank_t+4;
+        const double cost=std::max(travel,wait)+rounds+heal+extra+cap_time()+bank_t+4;
         const double side=static_cast<double>(g.home_d)/std::max(1,g.home_d+g.enemy_d);
         const double sw=side>.55?(cf?.15:.7):1.0;
         double s=value*sw/cost;
@@ -1015,7 +1059,7 @@ int Bot::cluster_target(double& score){
         if(wait>travel+10)continue;
         const double clear=g.reward?0:rem_hp(i)/std::max(1.0,dps_self*.9);
         const double heal=sdmg/std::max(1.0,static_cast<double>(self().max_health()))*(2.0*g.home_d+10);
-        const double cost=std::max(travel,wait)+clear+heal+constants::capture_time+.3*g.altar_d+2;
+        const double cost=std::max(travel,wait)+clear+heal+cap_time()+.3*g.altar_d+2;
         const double side=static_cast<double>(g.home_d)/std::max(1,g.home_d+g.enemy_d);
         double s=value*(side>.55?(cf?.1:.6):1.0)/cost;
         // v27f: the contested middle is where both teams fight; a lone champion there is the one picked off (starfish: lone
@@ -1199,7 +1243,10 @@ void Bot::play_turn(){
     // Finish a capture in progress.
     if(capturing>=0){
         auto& c=groups[capturing];
-        const bool vis=!(c.spawns&visible).is_empty()&&c.reward;
+        bool vis=!(c.spawns&visible).is_empty()&&c.reward;
+        if(kCapState&&vis)try{   // v39e: the enemy is capturing it alone: that race is lost
+            if(c.handle.capture_state().state==map::camp_group_capture_type::enemy_capturing){ban(capturing,30);capturing=-1;vis=false;}
+        }catch(const error&){}
         if(capture_group!=capturing){capture_since=round;capture_group=capturing;}
         if(vis&&round<static_cast<unsigned>(capture_since)+kCaptureGiveUp&&dist(me.position(),c.center)<=14){
             if(!c.spawns.is_set(me.position()))move_to(c.spawns);
@@ -1215,6 +1262,12 @@ void Bot::play_turn(){
         if(banned(i))continue;   // v29a: a capture we gave up on was re-started at once, so one champion stood on an uncapturable reward for 300 rounds (02the-pond)
         const int dm=dist(me.position(),g.center);bool mine=true;
         for(auto c:allies){int d=dist(c.position(),g.center);if(d<dm||(d==dm&&id(c)<id(me))){mine=false;break;}}
+        if(kHolder&&(shared[kAltarSeen]&1)){   // v39e: the Capture holder captures when it is within a few tiles of the nearest champion
+            const int hs=capture_holder();int hd=-1,dmin=dm;
+            for(auto c:allies)dmin=std::min(dmin,dist(c.position(),g.center));
+            if(hs==slot)hd=dm;else for(auto c:allies)if(id(c)==id(roster[hs]))hd=dist(c.position(),g.center);
+            if(hd>=0&&hd<=dmin+kHolderSlack)mine=hs==slot;
+        }
         if(mine){capturing=static_cast<int>(i);capture_since=round;capture_group=capturing;
             if(!g.spawns.is_set(me.position()))move_to(g.spawns);log("capture",capturing);return;}
         if(g.spawns.is_set(me.position())){bitboard off=grow(g.spawns,1)&~g.spawns&~terrain;if(move_to(off)){log("step-off",i);return;}}

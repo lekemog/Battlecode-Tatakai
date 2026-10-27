@@ -105,6 +105,8 @@ class Bot {
     std::vector<bool> altar_contested;std::vector<cambc::bitboard> altar_disk;
     int bank_wait=0,tribute_cancels=0;
     void init();
+    int capture_holder();int holder_slot=-2;bool have_capture=false;
+    int cap_time() const;
     void observe();
     void shop();
     double focus_w() const;

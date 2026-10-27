@@ -1,4 +1,4 @@
-// v41a = v35a + group news in shared byte 7 (kGroupNews): a champion that sees a camp group just cleared posts (group+1 | counter<<6); others mark it respawning without walking there.
+// v41a = v35a + group news in shared byte 7 (kGroupNews): a champion that sees a camp group just cleared posts ((group+2) in bits 0-5, toggle bit 6, bit 7 (0x80) reserved for the v39e holder flag and never touched; value 0/1/0x80/0x81 = no news); others mark it respawning without walking there.
 // Polaris v27 (core rebuilt 25 Oct; see the v27 core section below). Was: Polaris V9 — adaptive squads, map-type rules, carrier safety, bag hunting, invasion-aware posture, map-aware draft. Cambridge Battlecode 2026a.
 #include "bot.h"
 #include <algorithm>
@@ -294,13 +294,13 @@ void Bot::observe(){
                 monsters.push_back({c,c.position(),c.health(),c.strength(),static_cast<int>(i),c.is_awake()});
     }
     // v41a group news. A late or revived reader first syncs to the byte without applying it (it may be a stale post).
-    if(kGroupNews&&groups.size()<=62){
+    if(kGroupNews&&groups.size()<=61){
         if(news_round.size()!=groups.size())news_round.assign(groups.size(),0);
         const bool stale=last_observe_round==0||round>last_observe_round+2;
         last_observe_round=round;
-        if(shared[7]!=last_news_byte){
-            last_news_byte=shared[7];
-            const int g=(shared[7]&63)-1;
+        if((shared[7]&0x7f)!=last_news_byte){
+            last_news_byte=shared[7]&0x7f;
+            const int g=(shared[7]&63)-2;   // (group+2); low bits 0 or 1 = no news (v39e writes 1 into byte 7)
             if(!stale&&g>=0&&g<static_cast<int>(groups.size())){
                 auto& gr=groups[g];
                 news_round[g]=round;
@@ -321,8 +321,9 @@ void Bot::observe(){
             if(sc>pick_s){pick_s=sc;pick=static_cast<int>(i);}
         }
         if(pick>=0){
-            const std::uint8_t b=static_cast<std::uint8_t>(((pick+1)&63)|((((shared[7]>>6)+1)&3)<<6));
-            write_byte(7,b);last_news_byte=b;news_round[pick]=round;
+            {std::uint8_t cur=shared[7];try{shared_memory.read(7,std::span{&cur,1});}catch(const error&){}shared[7]=cur;}   // read-modify-write: keep the holder flag in bit 7
+            const std::uint8_t b=static_cast<std::uint8_t>((shared[7]&0x80)|(((shared[7]&0x40)^0x40))|(pick+2));
+            write_byte(7,b);last_news_byte=b&0x7f;news_round[pick]=round;
         }
     }
 }

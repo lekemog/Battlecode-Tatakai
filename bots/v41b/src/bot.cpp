@@ -1,3 +1,4 @@
+// v41b = v35a + capture handoff (kHandoff: one designated capturer per reward, lowest roster slot on a member tile; others ban it and leave), respawn travel timed to arrive at the respawn (kRespawnSlack 10 -> 0, wait beside the group not on its tiles) and capture_state().timer as the capture cost (kCaptureTimer).
 // Polaris v27 (core rebuilt 25 Oct; see the v27 core section below). Was: Polaris V9 — adaptive squads, map-type rules, carrier safety, bag hunting, invasion-aware posture, map-aware draft. Cambridge Battlecode 2026a.
 #include "bot.h"
 #include <algorithm>
@@ -36,6 +37,10 @@ float spell_modifier(const ability& a){return std::visit([](const auto& x)->floa
     if constexpr(requires{x.modifier;})return x.modifier;else return 0;},*a.info());}
 // Shared memory (pack mode): 0-2 squad targets, 3-5 capture claim, 6 aggression estimate,
 // 7 last capturer. Solo mode: 0..n-1 per-champion targets, 6 aggression, 7 threat cell.
+constexpr bool kHandoff=true;        // v41b: lowest-slot champion on a member tile keeps the capture, others ban the group and leave (false = v35a "nearest captures")
+constexpr bool kCaptureTimer=true;   // v41b: capture cost read from capture_state().timer (3 with the emblem) instead of constants::capture_time
+constexpr int kRespawnSlack=0;       // v41b: walk to a respawning group only if it respawns by arrival (v35a: 10)
+constexpr bool kWaitBeside=true;     // v41b: wait for a respawn beside the group; a champion on a member tile delays the respawn
 constexpr std::uint8_t kTarget=0,kClaimGroup=3,kClaimSlot=4,kClaimStamp=5,kAggression=6,kAltarSeen=7;
 #ifndef POLARIS_SIEGE_R
 #define POLARIS_SIEGE_R 600
@@ -185,6 +190,15 @@ bool Bot::ally_alive(int k) const {
     return alive_val[k];
 }
 
+// v41b: lowest roster slot among visible allies standing on a member tile of group i (99 = none; 98 = an unseen ally is capturing).
+int Bot::tile_holder(int i,bool on_tile) const{
+    const auto& g=groups[i];int low=99;
+    for(auto c:allies)if(g.spawns.is_set(c.position())){
+        for(int k=0;k<team_size;++k)if(id(roster[k])==id(c)){low=std::min(low,k);break;}}
+    if(low==99&&!on_tile)try{if(g.handle.capture_state().state==map::camp_group_capture_type::ally_capturing)low=98;}catch(const error&){}
+    return low;
+}
+
 void Bot::observe(){
     enemies.clear();monsters.clear();allies.clear();
     auto& me=self();visible=vision::visible_tiles();
@@ -279,6 +293,10 @@ void Bot::observe(){
             continue;
         }
         g.seen_round=round;
+        if(kCaptureTimer&&round>=cap_checked+10)try{   // timer reads the configured maximum while nobody is capturing
+            const auto cs=g.handle.capture_state();cap_checked=round;
+            if(cs.state!=map::camp_group_capture_type::ally_capturing&&cs.state!=map::camp_group_capture_type::contested&&cs.timer>=1&&cs.timer<=constants::capture_time)cap_time=cs.timer;
+        }catch(const error&){}
         try{
             auto state=g.handle.state();
             g.reward=std::holds_alternative<map::camp_group_reward_available>(state);
@@ -850,13 +868,13 @@ int Bot::solo_target(){
             if(t>=static_cast<int>(distance_field::unreachable))continue;
             travel=t;}
         int wait=g.ready_round>round?static_cast<int>(g.ready_round-round):0;
-        if(wait>travel+10){   // v23v: respawning - remember the soonest one to pre-position at instead of idling
-            const double fs=value/(wait+clear+constants::capture_time+.3*g.altar_d+2);
+        if(wait>travel+kRespawnSlack){   // v23v: respawning - remember the soonest one to pre-position at instead of idling
+            const double fs=value/(wait+clear+cap_time+.3*g.altar_d+2);
             if(wait<400&&fs>fb_s){fb_s=fs;fb=static_cast<int>(i);}
             continue;}
         int taken=0;
         for(int k=0;k<std::min(team_size,5);++k)if(k!=slot&&shared[kClaim0+k]==i+1&&ally_alive(k))++taken;
-        double sc=value/(std::max(travel,wait)+clear+constants::capture_time+.3*g.altar_d+2);
+        double sc=value/(std::max(travel,wait)+clear+cap_time+.3*g.altar_d+2);
         if(taken)sc*=.15;
         if(static_cast<int>(i)==objective)sc*=1.6;
         double enemy_side=static_cast<double>(g.home_d)/std::max(1,g.home_d+g.enemy_d);
@@ -912,7 +930,7 @@ double Bot::squad_rate(int i) const{
     const int travel=static_cast<int>(dist(self().position(),g.center)*1.3);
     const int wait=g.ready_round>round?static_cast<int>(g.ready_round-round):0;
     const double heal=dmg/std::max(1.0,thp)*(2.0*g.home_d+10);
-    const double cost=std::max(travel,wait)+rounds+heal+constants::capture_time+(g.gems>0?g.altar_d+g.gems/10.0:0)+4;
+    const double cost=std::max(travel,wait)+rounds+heal+cap_time+(g.gems>0?g.altar_d+g.gems/10.0:0)+4;
     return (g.gems+kGoldW*g.gold)/cost;
 }
 
@@ -977,7 +995,7 @@ int Bot::squad_target(){
         }
         const double heal=dmg/std::max(1.0,thp)*(2.0*g.home_d+10);
         const double bank_t=g.gems>0?g.altar_d+g.gems/10.0:0;
-        const double cost=std::max(travel,wait)+rounds+heal+extra+constants::capture_time+bank_t+4;
+        const double cost=std::max(travel,wait)+rounds+heal+extra+cap_time+bank_t+4;
         const double side=static_cast<double>(g.home_d)/std::max(1,g.home_d+g.enemy_d);
         const double sw=side>.55?(cf?.15:.7):1.0;
         double s=value*sw/cost;
@@ -1015,7 +1033,7 @@ int Bot::cluster_target(double& score){
         if(wait>travel+10)continue;
         const double clear=g.reward?0:rem_hp(i)/std::max(1.0,dps_self*.9);
         const double heal=sdmg/std::max(1.0,static_cast<double>(self().max_health()))*(2.0*g.home_d+10);
-        const double cost=std::max(travel,wait)+clear+heal+constants::capture_time+.3*g.altar_d+2;
+        const double cost=std::max(travel,wait)+clear+heal+cap_time+.3*g.altar_d+2;
         const double side=static_cast<double>(g.home_d)/std::max(1,g.home_d+g.enemy_d);
         double s=value*(side>.55?(cf?.1:.6):1.0)/cost;
         // v27f: the contested middle is where both teams fight; a lone champion there is the one picked off (starfish: lone
@@ -1201,7 +1219,14 @@ void Bot::play_turn(){
         auto& c=groups[capturing];
         const bool vis=!(c.spawns&visible).is_empty()&&c.reward;
         if(capture_group!=capturing){capture_since=round;capture_group=capturing;}
-        if(vis&&round<static_cast<unsigned>(capture_since)+kCaptureGiveUp&&dist(me.position(),c.center)<=14){
+        if(kHandoff&&vis&&enemies.empty()){   // v41b: an ally holds the tiles with a lower slot: leave, re-choose next turn
+            const bool on=c.spawns.is_set(me.position());const int low=tile_holder(capturing,on);
+            if(low<99&&!(on&&slot<low)){
+                const int gi=capturing;ban(gi,cap_time+2);capturing=-1;capture_group=-1;
+                if(on){bitboard off=grow(c.spawns,1)&~c.spawns&~terrain;if(move_to(off)){log("handoff",gi);return;}}
+            }
+        }
+        if(capturing>=0&&vis&&round<static_cast<unsigned>(capture_since)+kCaptureGiveUp&&dist(me.position(),c.center)<=14){
             if(!c.spawns.is_set(me.position()))move_to(c.spawns);
             combat(-1,false);log("capture",capturing);return;
         }
@@ -1214,6 +1239,15 @@ void Bot::play_turn(){
         if(!g.reward||(g.spawns&visible).is_empty()||dist(me.position(),g.center)>10)continue;
         if(banned(i))continue;   // v29a: a capture we gave up on was re-started at once, so one champion stood on an uncapturable reward for 300 rounds (02the-pond)
         const int dm=dist(me.position(),g.center);bool mine=true;
+        if(kHandoff&&enemies.empty()){   // v41b designated capturer: whoever stands on a member tile with the lowest slot
+            const bool on=g.spawns.is_set(me.position());const int low=tile_holder(static_cast<int>(i),on);
+            if(low<99&&!(on&&slot<low)){
+                ban(i,cap_time+2);
+                if(on){bitboard off=grow(g.spawns,1)&~g.spawns&~terrain;if(move_to(off)){log("handoff",i);return;}}
+                continue;
+            }
+            if(on&&low==99){capturing=static_cast<int>(i);capture_since=round;capture_group=capturing;log("capture",capturing);return;}
+        }
         for(auto c:allies){int d=dist(c.position(),g.center);if(d<dm||(d==dm&&id(c)<id(me))){mine=false;break;}}
         if(mine){capturing=static_cast<int>(i);capture_since=round;capture_group=capturing;
             if(!g.spawns.is_set(me.position()))move_to(g.spawns);log("capture",capturing);return;}
@@ -1289,6 +1323,7 @@ void Bot::play_turn(){
         if(!found&&!g.monolith&&g.spawns.is_set(me.position())){goals=grow(g.spawns,1)&~g.spawns&~terrain;if(goals.is_empty())goals=grow(g.spawns,2)&~g.spawns;}
         else if(!found)goals=grow(g.spawns,1);
         goals&=~terrain;
+        if(kWaitBeside&&!found&&!g.reward&&g.ready_round>round){{bitboard ring=grow(g.spawns,2)&~g.spawns&~terrain;if(!ring.is_empty())goals=ring;}}
         if(g.reward)goals=g.spawns;
         move_to(goals);
         combat(target,false);

@@ -19,4 +19,5 @@ and run tests, but announce it here first.
 ## Windows (newest first)
 | Who | What | Why | Start (UTC) | End (UTC) | Status |
 |---|---|---|---|---|---|
+| Leke / ChatGPT | deploy pinned v50c (2d93a14) | User requested v50c submission; no scrims | 2026-10-28 13:56 | 2026-10-28 14:15 | open; previous live v220 |
 | Leke / main Claude | panel base219 vs c217 (pinned, 50 games each) | compare v25z (219) with v29e (217) on frozen mid-rank teams | 2026-10-27 12:40 | 2026-10-27 14:30 | ended, live restored to 219 (then Szymon submitted 220) |

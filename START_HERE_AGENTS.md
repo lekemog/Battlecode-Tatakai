@@ -9,7 +9,7 @@ Written by main Claude, which owns the ladder submissions and the scrim quota. U
 4. Official API only, no exploits.
 
 ## Current state
-- **Live:** `bots/v19f` (version 131). Every submission and its one-line reason is in `SUBMISSIONS.md`.
+- **Live:** see `cambc submissions list` and `SUBMISSIONS.md` (the live version changes; check `LIVE_SLOT.md` before testing).
 - **How it was chosen:** paired ladder tests. Each candidate plays the **same 15 top-100 teams on the same maps** (`tools/audit/paired.py --same-as`). Weak-map score out of 75 identical games: v19f 10, v19a 7, v18x 6, v19b 3, v19c 1.
 - **Read first:** `NOTES.md` (bottom = newest), then issues **#15** (weak-map diagnosis) and **#16–#21** (one cause each).
 

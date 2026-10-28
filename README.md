@@ -1,29 +1,39 @@
-# Polaris: Battlecode 2026a bot (team LionelMSISS)
+# Tatakai — Cambridge Battlecode 2026a
 
-This is a shared workspace for Leke, Claude and ChatGPT. The bot is C++, built against the official `cambc` SDK 2.2.4. The ladder freezes on **Sunday 18 Oct 2026 at 23:59 (Irish time)**.
+Tatakai (formerly LionelMSISS) is our Cambridge Battlecode team. This repository holds the C++ bot, local benchmarks, replay analysis and team work queue.
 
-## Layout
-| Path | What |
+## Start here
+
+- **Current work and task claims:** [team coordination #40](../../issues/40).
+- **Latest source baseline used in our top-ten study:** v50c at `2d93a142df388db48596f82842cf7cca47809cec`, on `claude/vibrant-turing-rtpcwn`.
+- **Platform baseline:** submission 221, verified in the match UI on 28 October 2026. Treat this as a dated observation; check active submission before every test.
+- Read the newest entries in [NOTES.md](NOTES.md), [SUBMISSIONS.md](SUBMISSIONS.md) and [CONVERSATION.md](CONVERSATION.md). Older live-version, deadline and map-count statements in historical documents are snapshots, not current configuration.
+
+## Repository map
+
+| Path | Purpose |
 |---|---|
-| `bots/v12c/` | **Current best, live on the ladder** |
-| `bots/v12f/` | Candidate under test (v12c with fight memory and gold-map caution) |
-| `bots/v12a`, `v11a`, `v9c`, `v7n` | Earlier versions, kept as references and benchmark opponents |
-| `tools/` | Python scripts for scrims, A/B runs, benchmarks and match-summary analysis (see NOTES.md) |
-| `results/Polaris_Testing_Results.xlsx` | Every scrim and ranked result, plus a "Top teams vs us" comparison |
-| `maps/` | The 17 ladder maps (`p_<hash>.map26a`) |
-| `START_HERE_AGENTS.md` | **Guide for teammates and their agents: rules, current state, data, how to get tests run** |
-| `NOTES.md` | Findings, what was tried, and what to try next. **Read this first.** |
-| `CONVERSATION.md` | Message thread between Claude and ChatGPT (newest at the bottom) |
+| `bots/` | Versioned bot sources; keep historical versions for comparisons |
+| `bench/` | Portable benchmark materials |
+| `tools/` | Scrim, benchmark and replay-analysis utilities |
+| `maps/`, `maps2/` | Map assets; use the map hash and engine version recorded with each result |
+| `data/`, `results/` | Evidence, experiments and test outputs |
+| `top-replays/` | Reference replays; see its index |
+| `START_HERE_AGENTS.md` | Agent workflow; historical status sections need checking against current notes |
+| `HANDOFF_2026-10-25.md` | Dated handoff |
 
-## Collaboration rules
-1. **Only Claude submits to the ladder** (`cambc submit`). Each candidate is run in real scrims against the same opponents back to back with the current best, and is kept only if it wins more. Untested code going live costs ranked games.
-2. Work on your own branch: `chatgpt/<idea>` or `claude/<idea>`. Don't push straight to `main`.
-3. To propose a change, open a **GitHub Issue** or a PR from your branch. Say what it changes and why, and give the evidence (match IDs, maps, numbers). Claude will run it through the scrim pipeline and post the result.
-4. A new bot version goes in a new folder (`bots/v13x/`). Copy the closest parent and edit only what you need, so diffs stay readable.
-5. Stay legal: use the official API only, with no exploits.
+## Working together
 
-## Building and running locally
-```
-cambc run bots/v12c bots/v12a --map maps/p_2e9820ee.map26a --release --statistics out.json --json
-```
-Map hashes to names: 25d8 rows, 2e98 collision, 3991 monolith, 3a5c contest, 3e2d eight, 699c ambush, 7bfc pilgrimage, 8192 expanse, 9385 lanes, 9925 fragment, b135 packs, b777 interlock, bb12 elkring, df22 rushbait_v2, e3c2 corners, f2b6 stampede, f930 swirl.
+1. Claim one current issue before implementing, naming the owner and branch. Keep banking, combat and opening-economy experiments separate.
+2. Work on `chatgpt/<idea>`, `claude/<idea>` or `team/<person>/<task>`; submit a PR rather than pushing bot changes directly to `main`.
+3. Put each candidate in a new bot folder. Preserve the baseline and avoid unrelated edits.
+4. Include match IDs, maps, sides, engine build, submission version, numbers and the proposed mechanism. Distinguish observations from hypotheses.
+5. Coordinate scrim quota and active submissions through the test owner. Explicit instructions from Leke may authorize a particular unranked batch; otherwise follow the shared test queue. Only the deployment owner submits candidate bots.
+6. Compare candidates against the unchanged baseline on matched seeds/maps and both sides, then verify on fresh games. Reduced deaths alone is not success if income or banked gems deteriorate.
+7. Use only the official game API and legal observations. Never infer private opponent code from a team name or one draft.
+
+## Local testing
+
+Use the SDK and engine required by the candidate and its recorded benchmark. Historical SDK versions and old map-name tables are not a current compatibility guarantee. Start with the commands documented alongside the selected bot and benchmark; record the exact command and version with results.
+
+Keep reports and datasets in descriptive dated paths, and link active tasks from the coordination issue. Preserve historical evidence rather than deleting old experiments to tidy the repository.

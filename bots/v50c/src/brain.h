@@ -55,7 +55,10 @@ private:
     int target_{ -1 };
     int ring_gate_{ -1 };       // cfg::p5_ring: group whose siege opens the way to a ringed altar
     int ring_round_{ -1000 };   // round it was last wanted
-    int ring_gate(const Ctx& ctx, const cambc::distance_field& open_field);
+    int ring_gate(const Ctx& ctx, const cambc::distance_field& open_field);  // -2: path not walked yet
+    std::vector<int> ring_groups_;  // groups on the open path spawn -> altar, in order
+    vec2 ring_walk_{ -1, -1 };
+    bool ring_done_{};
     float gold_mult_{ 1.0f };  // our gold gain multiplier (cfg::passive_rewards: Vesper, Treasure)
     float gem_gold_{ 0.0f };   // gold we gain per gem we tribute (cfg::passive_rewards: Marcella)
     float target_score_{};

@@ -1974,32 +1974,44 @@ bool Brain::handle_low_health(Ctx& ctx, TurnActions& acts)
     return retreat(ctx, acts);
 }
 
-// First living camp group on the shortest open path (camp tiles passable) from us to the altar, or -1.
+// First living camp group on the shortest open path (camp tiles passable) from our spawn to the altar:
+// the path is walked once (a bounded number of steps per call, ~220 fuel a step) and its groups cached.
+// Returns -1 when no living group lies on it and -2 while the walk is unfinished.
 int Brain::ring_gate(const Ctx& ctx, const cambc::distance_field& open_field)
 {
     auto& world = World::get();
     const auto& kn = Knowledge::get();
-    vec2 p = ctx.route_pos;
-    for (int step = 0; step < 300; ++step)
+    (void)ctx;
+    if (!ring_done_)
     {
-        if (nearest_altar_cheb(p) <= static_cast<int>(cambc::constants::submit_gems_range)) return -1;
-        const auto d = open_field.get(p);
-        if (d == cambc::distance_field::unreachable || d == 0) return -1;
-        vec2 best = p;
-        auto best_d = d;
-        for (int dy = -1; dy <= 1; ++dy)
-            for (int dx = -1; dx <= 1; ++dx)
-            {
-                const vec2 q{ p.x + dx, p.y + dy };
-                if ((dx == 0 && dy == 0) || q.x < 0 || q.y < 0 || q.x >= world.width || q.y >= world.height) continue;
-                const auto dq = open_field.get(q);
-                if (dq != cambc::distance_field::unreachable && dq < best_d) { best_d = dq; best = q; }
-            }
-        if (best == p) return -1;
-        p = best;
-        const int g = world.group_at(p);
-        if (g >= 0 && kn.groups[static_cast<std::size_t>(g)].status == GroupStatus::alive) return g;
+        if (!fuel_ok(45000)) return -2;
+        if (ring_walk_.x < 0) ring_walk_ = world.ally_spawn_center;
+        vec2 p = ring_walk_;
+        for (int step = 0; step < 100; ++step)
+        {
+            if (nearest_altar_cheb(p) <= static_cast<int>(cambc::constants::submit_gems_range)) { ring_done_ = true; break; }
+            const auto d = open_field.get(p);
+            if (d == cambc::distance_field::unreachable || d == 0) { ring_done_ = true; break; }
+            vec2 best = p;
+            auto best_d = d;
+            for (int dy = -1; dy <= 1; ++dy)
+                for (int dx = -1; dx <= 1; ++dx)
+                {
+                    const vec2 q{ p.x + dx, p.y + dy };
+                    if ((dx == 0 && dy == 0) || q.x < 0 || q.y < 0 || q.x >= world.width || q.y >= world.height) continue;
+                    const auto dq = open_field.get(q);
+                    if (dq != cambc::distance_field::unreachable && dq < best_d) { best_d = dq; best = q; }
+                }
+            if (best == p) { ring_done_ = true; break; }
+            p = best;
+            const int g = world.group_at(p);
+            if (g >= 0 && (ring_groups_.empty() || ring_groups_.back() != g)) ring_groups_.push_back(g);
+        }
+        ring_walk_ = p;
+        if (!ring_done_) return -2;
     }
+    for (const int g : ring_groups_)
+        if (kn.groups[static_cast<std::size_t>(g)].status == GroupStatus::alive) return g;
     return -1;
 }
 
@@ -2036,13 +2048,14 @@ bool Brain::handle_tribute(Ctx& ctx, TurnActions& acts)
                 }
             }
         if constexpr (cfg::p5_ring)
-            if (!gated_reach && !via_gate && ctx.gems >= static_cast<std::uint32_t>(cfg::ring_min_gems) && fuel_ok(cfg::fuel_phase_farm))
+            if (!gated_reach && !via_gate && world.gate_group < 0 && ctx.gems >= static_cast<std::uint32_t>(cfg::ring_min_gems) && fuel_ok(cfg::fuel_phase_farm))
                 if (const auto* open = world.open_altar_field(true))
                 {
                     const int d_open = World::distance(open, ctx.route_pos, nearest_altar(ctx.route_pos));
                     if (d_open < (1 << 14))
                     {
                         const int gate = ring_gate(ctx, *open);
+                        if (gate == -2) return false;
                         if (gate >= 0)
                         {
                             ring_gate_ = gate;

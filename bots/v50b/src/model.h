@@ -105,7 +105,7 @@ inline FightForecast forecast_from_constants(const FightConstants& c, float dps,
     return out;
 }
 
-// Siege plan: camps keep damage while asleep (verified, mechanics.md), so a fight may take
+// Siege plan: camps keep damage while asleep (verified), so a fight may take
 // several trips: fight until the engaged health pool is spent, retreat, heal, return.
 // `pool` is health the team can spend per trip; `overhead` is rounds lost per extra trip.
 struct SiegePlan
@@ -148,7 +148,7 @@ inline std::uint64_t updated_step_cost(std::uint64_t current, bool measured, std
 
 // Two-pool variant: the first trip can spend `first_pool` (health left above the recall rule;
 // 0 means recall first), every later trip `full_pool`. A fresh champion (first == full) plans as
-// plan_siege(f, full_pool, ...); a drained one pays one extra trip.
+// plan_siege(f, full_pool,...); a drained one pays one extra trip.
 inline SiegePlan plan_siege(const FightForecast& f, float first_pool, float full_pool, int overhead, float margin, int max_trips)
 {
     SiegePlan p;
@@ -364,7 +364,7 @@ inline SkirmishOutcome simulate_skirmish(const Fighter* f, int n, int max_rounds
 // Exact one-entry cache for this pure function. Each production call site owns its
 // own instance; live observations and all subsequent decisions remain uncached.
 // Compare fields, not object padding, and preserve every floating-point bit.
-// D163: retained for diagnostics; production memoization remains disabled.
+// retained for diagnostics; production memoization remains disabled.
 class SkirmishMemo
 {
 public:

@@ -57,7 +57,7 @@ std::vector<champion_draft> preference()
         return { champion_draft::vendetta, champion_draft::heart_of_ruin, champion_draft::vesper_vale, champion_draft::varg,
                  champion_draft::ryth, champion_draft::marcella, champion_draft::ren, champion_draft::stellar,
                  champion_draft::tavi, champion_draft::cassi_and_issac, champion_draft::prism, champion_draft::willow };
-    // Sustain picks (dromedaries' online comp): 12 = Willow 4th, Cassi&Issac 5th; 14 = Willow and
+    // Sustain picks (a rival team's online comp): 12 = Willow 4th, Cassi&Issac 5th; 14 = Willow and
     // 15 = Cassi&Issac in place of Varg (5-pick maps only).
     if (mode == 16)  // burst comp seen online (r120): Heart, Ren, Ryth, Stellar, Cassi&Issac
         return { champion_draft::heart_of_ruin, champion_draft::ren, champion_draft::ryth, champion_draft::stellar,
@@ -116,7 +116,7 @@ std::vector<champion_draft> preference()
 
 namespace {
 
-// cfg::learned (D340): each champion's place in the order moves by its learned weight (in places;
+// cfg::learned: each champion's place in the order moves by its learned weight (in places;
 // zero weights keep the order), and the champions the order leaves out follow it.
 std::vector<champion_draft> learned_order(std::vector<champion_draft> order)
 {

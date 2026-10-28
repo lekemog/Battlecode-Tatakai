@@ -1,8 +1,8 @@
 #pragma once
-// Learned decision residuals (D340, cfg::learned): feature-weighted adjustments to v44's decision
+// Learned decision residuals: feature-weighted adjustments to vX's decision
 // quantities at six points - each group's target score, the fight verdict, the banking threshold,
 // the recall threshold, the draft order and the shop plan's order - trained by self-play
-// (bots/main/tools/train). Every weight zero reproduces the hand-written decisions exactly; with
+// (the training tools). Every weight zero reproduces the hand-written decisions exactly; with
 // cfg::learned 0 nothing here is used and the linker drops it. New blocks go at the end, so trained
 // weights of an earlier layout stay a valid prefix (zeros for the rest).
 #include <cstdint>
@@ -15,7 +15,7 @@ inline constexpr int kOffset[block_count] = { 0, 16, 32, 44, 56, 68, 80, 88 };
 inline constexpr int kCount = 94;
 inline constexpr int kMaxFeatures = 16;
 
-// The local runner (bots/main/tools/fastrun --params-a/-b) finds this block by its magic and writes
+// The local runner (the training tools --params-a/-b) finds this block by its magic and writes
 // candidate weights before the bot starts; a submitted bot carries its trained weights here.
 struct Params
 {

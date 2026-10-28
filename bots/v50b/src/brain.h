@@ -131,12 +131,12 @@ private:
     void share_pack(const Ctx& ctx);  // cfg::phantom_mode 2
     // cfg::carrier_capture: should this champion capture `group` rather than the allies beside it?
     bool designated_capturer(const Ctx& ctx, int group) const;
-    int escort(Ctx& ctx, TurnActions& acts);  // cfg::escort_until (D329)
-    int pick_opening_group() const;  // cfg::opening_party (D331)
+    int escort(Ctx& ctx, TurnActions& acts);  // cfg::escort_until
+    int pick_opening_group() const;  // cfg::opening_party
     int opening_group_{ -2 };        // -2: not chosen yet, -1: none
     bool opening_done_{};
     int capture_recall_group_{ -1 };  // cfg::capture_recall: the capture our recall channel overlaps
-    // cfg::tactics_s (D327): the local-power response replacing handle_threats.
+    // cfg::tactics_s: the local-power response replacing handle_threats.
     bool handle_threats_s(Ctx& ctx, TurnActions& acts);
     bool flee_s(Ctx& ctx, TurnActions& acts, bool allow_recall);
     const ChampView* focus_s(const Ctx& ctx, bool* killable) const;
@@ -149,11 +149,11 @@ private:
     void note_shop_signals(const Ctx& ctx, bool alive);
     float last_sim_[2]{ -1.0f, -1.0f };
     int none_logs_{};
-    mutable int last_reject_{};  // diagnostics: idle causes (fuel, no target, respawn wait, stall, blocked, other)  // diagnostics: turns per activity (pvp, heal, tribute, capture, fight, stage, travel, idle)
+    mutable int last_reject_{};  // diagnostics: idle causes (fuel, no target, respawn wait, stall, blocked, other) // diagnostics: turns per activity (pvp, heal, tribute, capture, fight, stage, travel, idle)
     const char* why_{ "-" };  // diagnostics: last farm branch
     int progress_best_{ 1 << 20 };
     int progress_round_{};
-    // cfg::learned (D340): the learned factor on a group's target score, given the travel used for
+    // cfg::learned: the learned factor on a group's target score, given the travel used for
     // it (the same in the bound and the full score, so pruning stays exact), and the banked-gem
     // gap the features read (enemy minus ours over 300, clamped to [-1, 1]; read once per turn).
     // Their state lives in brain.cpp, so with the layer off this class is unchanged.

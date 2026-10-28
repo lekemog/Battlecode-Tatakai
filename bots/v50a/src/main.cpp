@@ -1,4 +1,5 @@
-// bots/main entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
+// Polaris v50a: base import of the v50 line, only compile-checked against SDK 4.0.0 (no behaviour changes).
+// the bot entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
 #include <cambc.h>
 #include <cstdio>
 #include <exception>

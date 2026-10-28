@@ -1,5 +1,5 @@
 #pragma once
-// Tunable policy settings for bots/main. Every value here is a strategy choice; balance
+// Tunable policy settings for the bot. Every value here is a strategy choice; balance
 // numbers (health, damage, timers, costs) are always read from the SDK at runtime.
 #include <array>
 #include <cstdint>
@@ -22,13 +22,13 @@ inline constexpr bool p4_capture_time = true;
 inline constexpr bool p4_capture_state = true;
 
 // --- Learned layer --------------------------------------------------------------------------
-// Learned decision residuals (D340, learn.h): 1 applies the weights in learn.cpp to the target score,
+// Learned decision residuals: 1 applies the weights in learn.cpp to the target score,
 // fight verdict, banking and recall thresholds and the draft order (zero weights = the rules below
 // exactly, apart from fuel); 0 leaves the layer out.
 inline constexpr int learned = 1;
-// Learned death hazard (hazard_model.h, fitted on v44's online games; bots/main/tracks/long.md): 1 disengages
-// (v44's retreat) at a contact decision off spawn when P(killed by an enemy within 10 rounds) >= hazard_threshold,
-// for hazard_commit rounds. 0 replays v44. v54: 0.3 (D360).
+// Learned death hazard (hazard_model.h, fitted on vX's online games; the training tools): 1 disengages
+// (vX's retreat) at a contact decision off spawn when P(killed by an enemy within 10 rounds) >= hazard_threshold,
+// for hazard_commit rounds. 0 replays vX. vX: 0.3.
 inline constexpr int hazard = 1;
 inline constexpr float hazard_threshold = 0.3f;
 inline constexpr int hazard_commit = 3;
@@ -43,9 +43,9 @@ inline constexpr bool retreat_retaliation_guard = false;
 inline constexpr bool pvp_camp_basic = false;
 
 // --- Fuel ---------------------------------------------------------------------------------
-// Optional work never starts below this many fuel units (turn-end bookkeeping needs margin). D340 used
-// 20K with the learned layer; that reserve alone costs 41 wins in 1,638 (D344) and 14K was clean in
-// 10K+ games with the layer on, so v52 keeps 14K.
+// Optional work never starts below this many fuel units (turn-end bookkeeping needs margin). used
+// 20K with the learned layer; that reserve alone costs 41 wins in 1,638 and 14K was clean in
+// 10K+ games with the layer on, so vX keeps 14K.
 inline constexpr std::uint64_t fuel_reserve = 14000;
 // Evaluation seed: loop iterations of fuel burnt each turn (local experiments; 0 in submissions).
 inline constexpr int noise_burn = 0;
@@ -59,7 +59,7 @@ inline constexpr std::uint64_t field_tail_margin = 20000;
 // computes the target field keeping only this much free (0: normal margin).
 inline constexpr std::uint64_t stuck_field_margin = 0;
 // Distance-field cost model: fixed overhead per search, taken out of the per-step rate (0: the
-// pre-v22 rule that charged it to the steps; 2-step pocket searches then inflated the rate ~15x
+// pre-vX rule that charged it to the steps; 2-step pocket searches then inflated the rate ~15x
 // and blocked 7-35% of turns on fracture/big-world/ambush/quadrants: there 21/32 -> 30/32 wins).
 inline constexpr std::uint64_t field_overhead = 3000;
 // Below this (plus reserve) the farm phase keeps its target and computes no new fields.
@@ -71,7 +71,7 @@ inline constexpr std::uint64_t fuel_choose = 45000;
 // the reserve, the fight spent ~17K and the turn suspended). 0 = off.
 inline constexpr std::uint64_t choose_hold_fuel = 21000;
 // A no-target champion may spend a turn planning without paying for farm actions.
-// Full scores only, fair continuation, normal tail reserve; D164/D171 liveness repair.
+// Full scores only, fair continuation, normal tail reserve; liveness repair.
 inline constexpr bool planning_turn = true;
 inline constexpr std::uint64_t fuel_plan_score = 20000;
 // Optional steps gated by their measured worst case (spike logs, 2026-10-21): strike-dash landing
@@ -83,7 +83,7 @@ inline constexpr std::uint64_t fuel_escape_dash = 36000;
 inline constexpr std::uint64_t fuel_score_group = 26000;
 // Target scoring also reserves its dearest evaluation so far; partial route fields keep the full
 // field tail margin (both: a heavy farm turn ran out of fuel, 2026-10-21).
-inline constexpr bool score_reserve_dearest = false;  // also on with the opening ball (squad_size 9+, D328)
+inline constexpr bool score_reserve_dearest = false;  // also on with the opening ball
 inline constexpr bool route_field_full_margin = false;
 // Retreat safety field: bounded search (tiles) from tiles outside every threat's reach (~6K).
 inline constexpr std::uint64_t fuel_safety_field = 16000;
@@ -91,7 +91,7 @@ inline constexpr int safety_field_radius = 10;
 inline constexpr std::uint64_t fuel_phase_log = 25000;
 
 // --- Survival -----------------------------------------------------------------------------
-// Start recalling (when nothing can hit us) below this fraction of max health. Dev vs the v17
+// Start recalling (when nothing can hit us) below this fraction of max health. Dev vs the vX
 // set + hunter2: 0.30 94/216, 0.40 ~127, 0.50 148, 0.60 138, 0.70 131 (fewer deaths at 30-50%
 // health; more shop visits).
 inline constexpr float recall_health_frac = 0.50f;
@@ -100,7 +100,7 @@ inline constexpr float safe_recall_frac = 0.0f;
 // While fighting camps, disengage below this fraction (camps keep their damage while asleep).
 inline constexpr float disengage_health_frac = 0.30f;
 // Fraction of a camp fight's predicted damage our engaged health must cover before waking it.
-// At v23 (all maps /280, base 1.25 = 165): 1.1 150, 1.4 173, 1.6 181, 1.8 179; legacy (/136,
+// At vX (all maps /280, base 1.25 = 165): 1.1 150, 1.4 173, 1.6 181, 1.8 179; legacy (/136,
 // base 75): 1.4 72, 1.6 87.
 inline constexpr float camp_safety_margin = 1.6f;
 // Target choice charges the health a camp fight burns as this share of a recall trip (recall, heal,
@@ -116,15 +116,15 @@ inline constexpr float engage_progress = 0.35f;
 // Low health beside a cleared target whose reward is uncaptured (within this many tiles of a capture
 // tile, no enemy able to strike us): capture before recalling (0 = recall at once).
 inline constexpr int capture_before_recall = 0;
-// Keep walking to a visible respawning target that will return by arrival (D120). Off preserves
+// Keep walking to a visible respawning target that will return by arrival. Off preserves
 // the old execution path; waiting beside a camp never occupies a member tile.
-inline constexpr bool respawn_travel = true;  // isolated v39 candidate; engine-1.0.3 release gate
+inline constexpr bool respawn_travel = true;  // isolated vX candidate; engine-1.0.3 release gate
 inline constexpr int respawn_travel_near = 2;
 // Fresh timer-zero respawns are blocked now, not available now. Reject them until
-// live observation changes, and wait only beside a group. D158/D171 liveness repair.
+// live observation changes, and wait only beside a group. liveness repair.
 inline constexpr bool respawn_wait_liveness = true;
 // A disappearing capture intent may mean retreat/death, not a received reward. Trust explicit
-// cleared messages and host observations instead of inventing a respawn (D135 candidate).
+// cleared messages and host observations instead of inventing a respawn.
 inline constexpr bool shared_capture_confirmed_only = true;
 // Target rewards as this champion converts them: gold x (1 + Vesper 33% + Treasure 20%), gems + 2 gold
 // each for Marcella (tribute gold).
@@ -133,13 +133,13 @@ inline constexpr bool passive_rewards = false;
 // Direct damage and targeted channel-interruption scoring keep their existing treatment.
 inline constexpr bool control_immunity = false;
 // Before spending a melee attack on a distractor, take a legal step only if it
-// immediately delivers the simulated focus victim. D154: experimental, default off.
+// immediately delivers the simulated focus victim. experimental, default off.
 inline constexpr bool melee_focus_step = false;
 // After existing camp attacks/casts, use a remaining melee walk to reach a
 // higher-priority dangerous member instead of staying beside a distractor.
 inline constexpr bool camp_priority_step = false;
 // A confirmed camp death must stop contributing cached incoming damage this turn.
-// Keep unknown refresh failures conservative. D173 experimental/off.
+// Keep unknown refresh failures conservative. experimental/off.
 inline constexpr bool refresh_dead_camp = false;
 
 // --- Economy ------------------------------------------------------------------------------
@@ -163,25 +163,25 @@ inline constexpr int danger_rounds = 15;
 inline constexpr int danger_radius = 12;
 // Recall as transport when walking to the target takes this many rounds more than recalling
 // and walking from spawn (0 disables). Fires ~4x/game, mostly on corridor/big maps (01corridors
-// 31, 01big-world 26): dev 132/216 vs the v18 set + hunter2 (base 126), holdout 44/64 (40).
+// 31, 01big-world 26): dev 132/216 vs the vX set + hunter2 (base 126), holdout 44/64 (40).
 inline constexpr int travel_recall_margin = 4;
 // Shop recall: carrying at least this much gold (0 disables), recall when it costs at most
 // `shop_recall_detour` rounds more than walking to the target (unspent gold buys nothing).
-// All maps vs the v19 set + hunter3 (/280, base 163): 300/20 179, 500/20 176, 300/10 172,
+// All maps vs the vX set + hunter3 (/280, base 163): 300/20 179, 500/20 176, 300/10 172,
 // 200/6 171, 400/15 170; legacy maps (/136, base 74): 300/20 87, 500/20 72.
 inline constexpr int shop_recall_gold = 300;
 inline constexpr int shop_recall_detour = 20;
 // Opening shop recalls: until early_shop_until a purse of early_shop_gold is enough (0 = off).
 inline constexpr int early_shop_gold = 0;
 inline constexpr int early_shop_until = 250;
-// Target choice counts the travel recall in travel time (at v20 all maps 156/280 vs base 168:
+// Target choice counts the travel recall in travel time (at vX all maps 156/280 vs base 168:
 // draws champions to far targets; off); tribute trips recall as transport when the walk to the
 // altar exceeds the recall plus the walk from spawn by this margin (0 off; fires ~0.5x/game;
 // margin 4: all maps 174 vs 168, legacy 81 vs 75).
 inline constexpr bool recall_in_target_travel = false;
 inline constexpr int tribute_recall_margin = 4;
 // Weight of one gem relative to one gold when valuing a camp group. With Treasure + Bruiser
-// stacking, gold (items) wins more than gems: 1.0-2.0 all ~143/216 vs the v14 set + hunter2
+// stacking, gold (items) wins more than gems: 1.0-2.0 all ~143/216 vs the vX set + hunter2
 // (6.0: ~119; 4.5: 133; 3.0: 135; 0.5: 138).
 inline constexpr float gem_value = 1.5f;
 // Gem weight at the end of the game: the weight moves from gem_value to this with progress (the
@@ -196,7 +196,7 @@ inline constexpr float gem_rich_rate = 1.4f;
 // Gem weight from the marginal value of items (0 = off): a shard speeds the damage-limited share
 // (gold_dps_share) of income by growth / main stat for the gems still to bank by either team; the
 // weight is the inverse of that rate, at least the values above and at most gem_value_max.
-inline constexpr bool gem_value_model = false;  // D91: speedrun -18 (share 0.3) but robustness -15/640
+inline constexpr bool gem_value_model = false;  // speedrun -18 (share 0.3) but robustness -15/640
 // Race-aware gem weight: multiplied by 1 + race_gem_boost x (their banked - ours) / 100 while they
 // lead (0 = off), capped at gem_value_max.
 inline constexpr float race_gem_boost = 0.0f;
@@ -206,7 +206,7 @@ inline constexpr float gold_value = 1.0f;
 // Jackpots: a group yielding at least jackpot_share of the map's gem production (0 = off). Its gems
 // are worth 1 + jackpot_weight times more, its siege may count jackpot_joiners hypothetical allies
 // (others: max_hypothetical_joiners) and staging there waits jackpot_patience rounds.
-inline constexpr float jackpot_share = 0.0f;  // D98: 0.4 rejected (head-to-head 85 -> 64-72 of 112)
+inline constexpr float jackpot_share = 0.0f;  // 0.4 rejected (head-to-head 85 -> 64-72 of 112)
 inline constexpr float jackpot_weight = 2.0f;
 inline constexpr int jackpot_joiners = 4;
 inline constexpr int jackpot_patience = 30;
@@ -222,7 +222,7 @@ inline constexpr int enemy_group_radius = 6;
 // 1: stun/durability core seen in top ladder drafts: Heart, Ryth, Marcella, Ren, Stellar...
 // 2: mix: Heart, Marcella, Ryth, Vendetta, Vesper...
 // 3: mobile farmers: Vendetta, Heart, Vesper, Varg, Ryth...
-// 7/8: mode 2 with Ren / Varg fifth (8: pooled 118/216 vs v11/v12).
+// 7/8: mode 2 with Ren / Varg fifth (8: pooled 118/216 vs vX/vX).
 inline constexpr int draft_mode = 8;
 // Draft order on maps fielding at most four champions (0 = draft_mode).
 inline constexpr int small_draft_mode = 0;
@@ -235,13 +235,13 @@ inline constexpr std::array<int, 12> draft_pref4 = { -1, -1, -1, -1, -1, -1, -1,
 
 // --- Coordination ---------------------------------------------------------------------------
 // Squad size: 1 = everyone farms alone (commitments still apply), 2 = pairs, 3+ = two big squads.
-inline constexpr int squad_size = 1;  // 9+: one squad of everyone (the opening ball, D326)
-// The escorted ball (D329): before round escort_until (0 = off) the acting leader farms for the team
+inline constexpr int squad_size = 1;  // 9+: one squad of everyone
+// The escorted ball: before round escort_until (0 = off) the acting leader farms for the team
 // and everyone else escorts it within escort_radius tiles (Brain::escort). Pair with squad_size 9 and
 // squad_until_round = escort_until so the leader's targets count the whole team.
 inline constexpr int escort_until = 0;
 inline constexpr int escort_radius = 2;
-// The opening elk party (D331): the first opening_party drafted champions (0 = off) take the
+// The opening elk party: the first opening_party drafted champions (0 = off) take the
 // elk-bearing group nearest our spawn (within opening_radius tiles, nearer ours than theirs) together,
 // staging until all of them are there, before round opening_until; then everyone farms as usual.
 // Top teams' first elk capture: median r46-65 with 3+ champions; ours r104 (economy study).
@@ -249,27 +249,27 @@ inline constexpr int opening_party = 0;
 inline constexpr int opening_radius = 22;
 inline constexpr int opening_until = 120;
 // Squads (squad_size >= 2) only before this round (0 = all game).
-inline constexpr int squad_until_round = 0;  // D99: opening pairs/squads rejected (484 -> 449-457 of 640)
+inline constexpr int squad_until_round = 0;  // opening pairs/squads rejected (484 -> 449-457 of 640)
 // Keep the current target unless a new one scores this much better (hysteresis).
 inline constexpr float retarget_ratio = 1.35f;
 // Target choice scores at most this many groups (in descending upper-bound order) per decision;
-// the bound ignores fight time and team size. 8 (pre-v23) / 12 / 16: all maps 161 / 169 / 167 of
+// the bound ignores fight time and team size. 8 (pre-vX) / 12 / 16: all maps 161 / 169 / 167 of
 // 280, legacy 76 / 79 / 83 of 136.
 inline constexpr int max_target_evals = 16;
 // Farm routing (s-route): two-step lookahead in target choice. Each scored group is credited with
 // the best follow-up among the other scored groups walked from its centre (Brain::choose_chained);
 // the score is plain^(1-w) x chained^w for w = route_chain. 0 = off (the greedy choice).
-// 25 Oct, pool+train both sides vs v53/hx1/compound/starter (1,920 keys): w 1 -3 wins (p .93),
-// w 0.5 +20 (p .34), pace vs starter -1/-4 rounds: no effect; stays off.
+// 25 Oct, pool+train both sides vs vX/hx1/compound/starter (1,920 keys): w 1 -3 wins (p.93),
+// w 0.5 +20 (p.34), pace vs starter -1/-4 rounds: no effect; stays off.
 inline constexpr float route_chain = 0.0f;
 // With route_chain on, score at least this many groups (by bound) so follow-ups exist.
 inline constexpr int route_chain_evals = 6;
 // Capture handoff (s-route): with no enemy in view, one ally holds a cleared group's capture and
 // the others leave for new targets (Brain::handoff_capture). 0 off; 1 on; 2 only when the holder
-// has at least half health. 25 Oct: pool+train (1,920 keys) 1: +209/-143 (p .001), 2: +192/-139;
+// has at least half health. 25 Oct: pool+train (1,920 keys) 1: +209/-143 (p.001), 2: +192/-139;
 // claim on heldout+legacy+fresh (227 maps, both sides, 1,362 contested keys) 1: 916 -> 986 wins
 // (+197/-127, p 1.2e-4), margin +25, pace vs starter -17 +- 4 rounds, no own health flags.
-inline constexpr int capture_handoff = 1;  // v55 (D362)
+inline constexpr int capture_handoff = 1;  // vX
 // Rounds between re-scoring the current target against the others (a turn uses a median 24K of
 // its 100K fuel, so more frequent re-scoring is affordable).
 inline constexpr int rechoose_every = 8;
@@ -278,7 +278,7 @@ inline constexpr int max_hypothetical_joiners = 1;
 // A round spent waiting for a respawn counts this many rounds in a target's rate.
 inline constexpr float wait_weight = 1.0f;
 // Longest wait (after arrival) for a respawning group that we still plan around. 0: only go to
-// groups alive on arrival, never wait beside one (dev vs the v16 set + hunter2: 0 145/216,
+// groups alive on arrival, never wait beside one (dev vs the vX set + hunter2: 0 145/216,
 // 10 141, 20 133, 40 130, 80 ~126; 16 of 27 maps at >= 4/6; holdout 40/64).
 inline constexpr int max_respawn_wait = 0;
 // Disengage (and ban the target) after this many engaged rounds without an attack or spell.
@@ -289,7 +289,7 @@ inline constexpr int fight_watchdog = 25;
 inline constexpr bool fight_route_scoring = true;
 // Rounds a champion waits at a staging point for allies before giving up on a target.
 inline constexpr int staging_patience = 5;
-// ... or this long while other allies have published the same group (they are on their way;
+//... or this long while other allies have published the same group (they are on their way;
 // 0: same as staging_patience).
 inline constexpr int staging_patience_committed = 0;
 // Only groups worth at least this many gems (00stampede's 20-member group: 160) get the longer wait.
@@ -314,7 +314,7 @@ inline constexpr int retreat_ally_pull = 2;
 inline constexpr int retreat_mode = 0;
 inline constexpr float homeward_recall_frac = 0.7f;
 // 3 = mode 2's commitment only after chase_turns consecutive retreat turns.
-inline constexpr int chase_turns = 3;  // D92: mode 1 rejected (+1.5 deaths by r400 on trap maps)
+inline constexpr int chase_turns = 3;  // mode 1 rejected (+1.5 deaths by r400 on trap maps)
 // PvP: enemies seen within this many rounds and close enough to have reached us stay in the
 // fight simulation while hidden (0 disables).
 inline constexpr int enemy_memory_rounds = 5;
@@ -324,7 +324,7 @@ inline constexpr bool share_sightings = false;
 inline constexpr int sighting_age = 4;
 // Remembered (or ally-reported) enemies join the fight simulation within this many tiles + their age.
 inline constexpr int memory_join_radius = 6;
-// Phantoms (D323): live enemies out of sight whose last sighting (or their spawn at round 0) cannot
+// Phantoms: live enemies out of sight whose last sighting (or their spawn at round 0) cannot
 // rule out that they stand beside the nearest visible enemy (within phantom_radius tiles after
 // walking one tile a round since) join the fight simulation at that enemy's tile, arriving
 // phantom_delay rounds after it (at most phantom_max of them; 0 = off). Top teams move in groups:
@@ -338,7 +338,7 @@ inline constexpr int phantom_max = 4;
 // vision + age + pack_reach tiles of us. Members of that size not in view join at its centre.
 inline constexpr int pack_age = 15;
 inline constexpr int pack_reach = 4;
-// Local-power tactics (D327; fight study .cache/main/study/fights/report.md): S = (our health + the
+// Local-power tactics: S = (our health + the
 // visible allies' within 8) / (that + the enemies' within 8, visible or remembered). With an enemy
 // within 8: below s_flee disengage toward healthy allies or home for at least s_commit rounds
 // (farming cannot override it); at s_fight or more, or at s_flee or more with a kill in reach, fight
@@ -367,7 +367,7 @@ inline constexpr bool sim_ally_channels = false;
 // Diagnostic control: perform the same allied channel observations with the old policy.
 inline constexpr bool observe_ally_channels = false;
 // Reuse the pure fight forecast only when every ordered input field is identical.
-// Frees planning fuel in repeated unchanged contacts; D163, experimental/off.
+// Frees planning fuel in repeated unchanged contacts; experimental/off.
 inline constexpr bool skirmish_memo = false;
 // Focus fire on the most damage per remaining health (simulation and our first target).
 inline constexpr bool threat_focus = false;
@@ -376,14 +376,14 @@ inline constexpr bool threat_focus = false;
 inline constexpr bool sim_dash_damage = true;
 inline constexpr bool sim_shields = true;
 // Fight model: awake monsters that will strike us (at most sim_camp_max) fight on the enemy side.
-inline constexpr bool sim_camps = false;  // D92: no effect on trap-map deaths
+inline constexpr bool sim_camps = false;  // no effect on trap-map deaths
 // Fight model: an ally counts only within this distance of a visible enemy (0 = every ally within 6).
-inline constexpr int sim_ally_contact = 0;  // D93: 3 cuts deaths but loses ground (wins 56 -> 29/80)
+inline constexpr int sim_ally_contact = 0;  // 3 cuts deaths but loses ground (wins 56 -> 29/80)
 // PvP: with an enemy adjacent and simulated losses at most this much worse than theirs, strike back
 // in place instead of retreating (0 = off).
 // PvP: closing in on enemies needs this much more simulated advantage than fighting in place (0 = off).
-inline constexpr float approach_margin = 0.0f;  // D94: 0.5 / 1.0 rejected (wins 56 -> 47 / 31 of 80)
-inline constexpr float contact_hold = 0.0f;  // D93: 1.0 and 2.0 rejected (+1.9 to +2.3 deaths by r400)
+inline constexpr float approach_margin = 0.0f;  // 0.5 / 1.0 rejected (wins 56 -> 47 / 31 of 80)
+inline constexpr float contact_hold = 0.0f;  // 1.0 and 2.0 rejected (+1.9 to +2.3 deaths by r400)
 inline constexpr int sim_camp_max = 4;
 // Camp damage model: damaging dash landings count (Heart of Ruin's dash on cooldown).
 inline constexpr bool camp_dash_damage = true;
@@ -396,11 +396,11 @@ inline constexpr bool stand_with_engaged_allies = true;
 inline constexpr bool help_engaged_allies = true;
 // PvP: read visible champions' live ability cooldowns for the fight simulation (otherwise
 // everyone else is assumed ready), and add a ready dash's range to an enemy's threat reach.
-// Together: dev 133/216 vs the v15 set + hunter2 (each alone 125 / 117), holdout 40/64.
+// Together: dev 133/216 vs the vX set + hunter2 (each alone 125 / 117), holdout 40/64.
 inline constexpr bool live_cooldowns = true;
 inline constexpr bool dash_aware_reach = true;
 // Enlarge legacy immediate threat for ready runtime damage/CC/AoE cast geometry.
-// This is a spell augmentation, not a complete legal footprint. D176-D177.
+// This is a spell augmentation, not a complete legal footprint..
 inline constexpr bool ready_cast_reach = true;
 // PvP: chase only targets within reach (ranged: attack range + 1, melee: 3) and away from their spawn.
 inline constexpr bool limited_chase = true;
@@ -449,10 +449,10 @@ inline constexpr int standoff_recall_turns = 0;
 inline constexpr float standoff_recall_frac = 0.75f;
 // Calm farming: when a fight is not favourable, retreat only if an enemy can strike us next turn
 // (walk or dash plus attack); otherwise keep farming, give up targets within reach of a visible
-// enemy (contest_ban_rounds) and keep camp-fight tiles out of enemy reach. Online, v28 spent ~200
-// champion-rounds a game beside passive enemies (procless ~90) and 26% of its deaths followed
+// enemy (contest_ban_rounds) and keep camp-fight tiles out of enemy reach. Online, vX spent ~200
+// champion-rounds a game beside passive enemies (a rival ~90) and 26% of its deaths followed
 // such standoffs. 1 = keep farming only; 2 = also give up contested targets.
-inline constexpr int calm_farm = 1;  // D168/D171: avoid proximity-retreat/farm cycles.
+inline constexpr int calm_farm = 1;  // avoid proximity-retreat/farm cycles.
 inline constexpr int contest_ban_rounds = 30;
 // Leaving camp tiles: when no neighbour is strictly farther from the group's centre (a boundary tile
 // at a wall or map edge), walk the shortest path to the nearest free tile off every camp.
@@ -461,7 +461,7 @@ inline constexpr bool leave_camp_search = true;
 inline constexpr int capture_stall_turns = 3;
 // Turns a capture tile may be held before the capture counts as contested and is given up (0: never).
 inline constexpr int capture_patience = 100;
-// Carrier captures (D326): a cleared group goes to one designated capturer among us and the allies
+// Carrier captures: a cleared group goes to one designated capturer among us and the allies
 // in view beside it - Vesper for gold-bearing groups (her passive adds a third), Marcella, then
 // Prism for gem-only ones (tribute gold, carried Focus), then whoever stands on a member tile, then
 // the lowest roster index. Everyone else steps off and moves on instead of splitting the reward.
@@ -473,7 +473,7 @@ inline constexpr bool group_news = true;
 // Count current ally capacity from the already refreshed alive flags, without
 // erasing raw radio slots or confirmed group news. Experimental, default off.
 inline constexpr bool live_commitments = false;
-// Recall on the capture (D326): holding a capture with nothing hostile in view, start the recall
+// Recall on the capture: holding a capture with nothing hostile in view, start the recall
 // as soon as it lands after the reward (capture_time - recall turns + 1 holding turns), when we
 // want to shop (at least capture_recall_gold gold after the reward) or heal (below
 // capture_recall_hp). The capture wait and the recall channel then overlap (0 = off).
@@ -493,7 +493,7 @@ inline constexpr float capture_recall_hp = 0.6f;
 // steps for ranged champions too. A/B vs plan 0 (dev): 1 lost 16-38, 2 lost 5-49.
 // 5 = Treasure(main) (+20% gold) first, then plan 0; 6 = Treasure after Jungle.
 // 7 = plan 5 with Bruiser (5 chosen + 1 of each other stat: 7 shards' worth) instead of Power
-// (6) for the stacking steps: 97/162 vs the v13 set, 36-18 vs v12, 45-9 vs hunter.
+// (6) for the stacking steps: 97/162 vs the vX set, 36-18 vs vX, 45-9 vs hunter.
 // 14 = health first like the top online team: Treasure(health), Jungle(main), Bruiser(health),
 // Durability(health), Bruiser(main) forever.
 inline constexpr int shop_plan = 7;
@@ -516,7 +516,7 @@ inline constexpr std::array<int, 8> shop_seq_ranged = { 335, 435, 35, 630, -1, -
 // opponents; top online teams ~80%), first shop r195 -> r163, shop visits by r400 2.2 -> 2.8 per
 // champion. Plan 100 alone speedrun +20 +- 8 (weight 1) / +8 +- 7 (weight 2); recall mode 1 +
 // plan 100 (weight 2) 694, speedrun -17 +- 9; + shop_plan_margin 0.3: 691, speedrun -19 +- 9.
-inline constexpr int shop_recall_mode = 1;  // D115 (v38)
+inline constexpr int shop_recall_mode = 1;  // (vX)
 // Value-model priors, blended with the champion's own measurements over shop_prior_rounds rounds.
 inline constexpr float shop_prior_rounds = 120.0f;
 inline constexpr float shop_prior_fight = 0.36f;      // share of rounds fighting camps (economy analysis)
@@ -528,7 +528,7 @@ inline constexpr float shop_prior_income = 1.4f;      // gold per round
 inline constexpr float shop_prior_end = 1200.0f;      // expected last round before banking rates are known
 // Deaths ~ effective health^-hp_exp x damage^-dps_exp. A duel is won by the larger health x damage
 // product, so both count alike (with 1.5 / 0.75 plan 100 built Health first against the hunter
-// persona and won 66 vs 70 of 80; D88: our fights need the damage).
+// persona and won 66 vs 70 of 80; our fights need the damage).
 inline constexpr float shop_pvp_hp_exp = 1.0f;
 inline constexpr float shop_pvp_dps_exp = 1.0f;
 // Camp damage also gates which groups a champion may solo (siege pool = health / damage multiplier):
@@ -547,13 +547,13 @@ inline constexpr float shop_recall_scale = 1.0f;
 inline constexpr bool focus_builds = false;
 // Heart of Ruin builds Focus (shield 1.5 x Focus, stunning dash 1.5 x Focus; top online teams do).
 inline constexpr bool heart_focus = true;
-// Wards (vision 6, one per champion, permanent): 0 none (pre-v26); 1 leave it at the camp we
+// Wards (vision 6, one per champion, permanent): 0 none (pre-vX); 1 leave it at the camp we
 // capture; 2 drop it wherever we stand whenever it is ready (top online teams place 65-558 a game);
 // 3 as 2 but toward the target; 4 as 2 but on a bush within reach when there is one; 5 bushes only;
 // 6 where it uncovers the most tiles out of our sight (bushes favoured).
 // Mode 2 (~526/game): vs hunters +13 of 174 games (hunter5 59-11 vs 50-20 all maps, 26-8 vs 28-6
 // legacy; hunter3 62-8 vs 56-14), neutral vs our own versions; mode 1 147 vs 160. Mode 4 vs mode 2:
-// all maps 172 vs 162, legacy 89 vs 74, vs {v25, v24, hunter3} 144 vs 129; mode 3 160 vs 162.
+// all maps 172 vs 162, legacy 89 vs 74, vs {vX, vX, hunter3} 144 vs 129; mode 3 160 vs 162.
 inline constexpr int ward_mode = 4;
 // Mode 6 scores up to 10 candidate tiles by unseen coverage (bitboard ops) only with this much fuel.
 inline constexpr std::uint64_t fuel_ward_scan = 30000;
@@ -569,7 +569,7 @@ inline constexpr bool debug_targets = false;
 // Emitted after actions only with a 25K fuel cushion above the reserve; no per-contact trace.
 inline constexpr int debug_decision_probe = 0;
 // Diagnostic only: first low-health finish candidate per reach category, with a 45K fuel cushion.
-// The reference eligibility floor is v53's 0.15; traced games are not unmodified strength evidence.
+// The reference eligibility floor is vX's 0.15; traced games are not unmodified strength evidence.
 inline constexpr bool debug_finish_probe = false;
 // Score dump of every group for the traced champion every N rounds (0 disables; costly).
 inline constexpr int debug_scores_every = 0;
@@ -584,7 +584,7 @@ inline constexpr int debug_farm_fuel = 0;
 // turn-boundary catch (diagnostics only; false = no extra code).
 inline constexpr bool debug_error_phase = false;
 // A turn that throws because our champion was killed during it (retaliation) yields with a plain
-// "died mid-turn" line instead of an error line (v53 vs the brawl persona, g101-053-00reverse_spiral r105:
+// "died mid-turn" line instead of an error line (vX vs the brawl persona, a logged game_spiral r105:
 // alive 0 at the catch). Only turns that already threw change.
 inline constexpr bool died_mid_turn_quiet = true;
 // Engine probe (diagnostics, 0 = off): slot 0 starts a recall at the end of round R after its actions and
@@ -595,7 +595,7 @@ inline constexpr int debug_recall_probe = 0;
 // accepted; the next turn's cancel is free). 0 = off (recall waits for a turn without actions).
 inline constexpr int recall_tail = 0;
 // k > 0: cancel a recall in progress when an enemy off its spawn is within its attack range + k tiles
-// (the hit would interrupt it anyway; cancelling is free and lets the threat logic act). 0 = off (v44:
+// (the hit would interrupt it anyway; cancelling is free and lets the threat logic act). 0 = off (vX:
 // a recalling champion does nothing until the channel ends or is broken).
 inline constexpr int recall_cancel_reach = 0;
 

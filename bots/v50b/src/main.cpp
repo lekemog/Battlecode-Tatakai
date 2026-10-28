@@ -1,4 +1,5 @@
-// bots/main entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
+// Polaris v50b: v50a + patch-4.0 adaptation (flags cfg::p4_*: prospector opener, capture emblem + 3-round capture timing, capture_state skip).
+// the bot entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
 #include <cambc.h>
 #include <cstdio>
 #include <exception>

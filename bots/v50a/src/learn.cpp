@@ -5,7 +5,7 @@
 namespace mb::learn {
 
 Params params{ { 'm', 'b', '.', 'l', 'e', 'a', 'r', 'n', '.', 'p', 'a', 'r', 'a', 'm', 's', '\0' }, kCount, 1, {},
-               // weights BEGIN (written by bots/main/tools/train/bake.py; {} = all zero = the hand-written rules)
+               // weights BEGIN (written by the training tools; {} = all zero = the hand-written rules)
                { -0.553254008f, 0.641930997f, 0.454860985f, -0.0980266035f, 0.468465f, 0.222082004f, -0.182857007f, 0.0110422997f,
                  0.315113008f, 0.176387995f, 0.106861003f, -0.0993561968f, -0.131019995f, 0.333840996f, 0.101281002f, 0.0397620015f,
                  0.701274991f, 0.246496007f, 0.252770007f, 0.493638009f, -0.0473476984f, 0.087826401f, 0.0639004037f, -0.426218003f,

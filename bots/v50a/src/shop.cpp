@@ -74,7 +74,7 @@ std::vector<Step> plan_for(const Kit& k)
         if (plan.empty() || plan.back().shards != 0) plan.push_back({ Family::bruiser, main, 0 });
         return plan;
     }
-    if (cfg::shop_plan == 14)  // health first (procless, 19-21 of 23 games): team max HP r300 7.4K vs our 5.3K
+    if (cfg::shop_plan == 14)  // health first (a rival, 19-21 of 23 games): team max HP r300 7.4K vs our 5.3K
     {
         plan.push_back({ Family::treasure, Stat::health, 5 });
         plan.push_back({ Family::jungle, main, 5 });
@@ -85,7 +85,7 @@ std::vector<Step> plan_for(const Kit& k)
     }
     const bool tank = !k.ranged || cfg::shop_plan == 4;  // plan 4: ranged champions buy the melee survival steps too
     // Plans 12/13: plan 7 with Home (recall 5 -> 3 turn ends) after Treasure / after Monster.
-    // Plan 15 (D330): plan 7 with Jungle before Treasure (economy model E7/E20: one Jungle emblem
+    // Plan 15: plan 7 with Jungle before Treasure (economy model E7/E20: one Jungle emblem
     // turns a solo elk from 2-3 trips into one; Treasure first costs ~13 rounds).
     const bool bruiser = cfg::shop_plan == 7 || cfg::shop_plan == 12 || cfg::shop_plan == 13 || cfg::shop_plan == 15;
     if (cfg::shop_plan == 5 || (bruiser && cfg::shop_plan != 15)) plan.push_back({ Family::treasure, main, 5 });  // +20% gold first
@@ -622,7 +622,7 @@ Stat main_stat(const Kit& k)
 
 namespace {
 
-// cfg::learned (D340): the plan's steps move by their family's and stat's learned weights (in places;
+// cfg::learned: the plan's steps move by their family's and stat's learned weights (in places;
 // zero weights keep the plan). Five-shard steps of the families and stats the plan leaves out follow
 // its last step, which is unlimited, so they are reached only when weights move them before it.
 std::vector<Step> learned_plan(const Kit& k)

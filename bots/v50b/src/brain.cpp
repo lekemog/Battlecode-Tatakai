@@ -884,8 +884,8 @@ bool Brain::step_home(Ctx& ctx, TurnActions& acts)
     return true;
 }
 
-// ---- Local-power tactics (cfg::tactics_s, D327) ----------------------------------------------
-// Fight study (.cache/main/study/fights/report.md): 85% of our deaths start with the local health
+// ---- Local-power tactics ----------------------------------------------
+// Fight study (fight study): 85% of our deaths start with the local health
 // share S below 0.5, and our forecast already predicted the loss in 80% of them; the response was
 // wrong (holding, farming beside the fight, one-tile retreats, recalls in reach). This policy acts on
 // S directly and commits to a disengage.
@@ -1562,7 +1562,7 @@ bool Brain::handle_threats(Ctx& ctx, TurnActions& acts)
         static_cast<int>(cambc::global_submitted_gems(cambc::team::enemy)) - static_cast<int>(cambc::global_submitted_gems(cambc::team::ally)) >=
             cfg::behind_caution_gap)
         margin = cfg::behind_fight_margin;
-    // cfg::learned (D340): a learned edge added to the simulated enemy losses in the verdicts below.
+    // cfg::learned: a learned edge added to the simulated enemy losses in the verdicts below.
     float theirs = o.their_losses;
     if constexpr (cfg::learned > 0)
     {
@@ -1605,7 +1605,7 @@ bool Brain::handle_threats(Ctx& ctx, TurnActions& acts)
         // Capped: enemies idling near our spawn (00reverse-spiral) held us there all game. The
         // second simulation only decides a hold that can still happen: once the cap has run out
         // it cost every turn ~10K fuel for nothing, and with enemies on the adjacent spawn the
-        // farm phase then never had its fuel (v28 candidate: 0 clears in 2000 rounds there).
+        // farm phase then never had its fuel (vX candidate: 0 clears in 2000 rounds there).
         const bool may_hold = nearest <= cfg::spawn_hold_radius && (hold_since_ < 0 || ctx.round - hold_since_ <= cfg::spawn_hold_max);
         bool leave_ok = true;
         if (may_hold)
@@ -1678,7 +1678,7 @@ bool Brain::handle_threats(Ctx& ctx, TurnActions& acts)
             };
             float z = 0.0f;
             for (int i = 0; i < hazard::kFeatures; ++i) z += hazard::kWeights[i] * x[i];
-            // p >= t  <=>  z >= logit(t)
+            // p >= t <=> z >= logit(t)
             const float t = cfg::hazard_threshold;
             if (e8 > 0 && z >= std::log(t / (1.0f - t)))
             {
@@ -1790,7 +1790,7 @@ bool Brain::handle_threats(Ctx& ctx, TurnActions& acts)
     }
     if constexpr (cfg::tactics_s == 2)
     {
-        // D327 mode 2: the forecast's retreat verdict starts a committed disengage toward healthy
+        // mode 2: the forecast's retreat verdict starts a committed disengage toward healthy
         // allies or home (recall only out of engage reach); farming may not resume meanwhile.
         if (nearest <= 5 || reachable || ctx.round <= disengage_until_)
         {
@@ -1856,7 +1856,7 @@ bool Brain::handle_low_health(Ctx& ctx, TurnActions& acts)
             if (cheb(e.pos, ctx.pos) <= 8) seen = true;
         if (!seen) recall_frac = cfg::safe_recall_frac;
     }
-    // cfg::learned (D340): a learned factor on the health fraction that triggers the recall.
+    // cfg::learned: a learned factor on the health fraction that triggers the recall.
     if constexpr (cfg::learned > 0)
     {
         int enemies_near = 0, allies_near = 0;
@@ -2019,7 +2019,7 @@ bool Brain::handle_tribute(Ctx& ctx, TurnActions& acts)
         for (const auto& m : enemy_memory_)
             if (ctx.round - m.round <= cfg::danger_rounds && cheb(m.pos, ctx.pos) <= cfg::danger_radius)
                 bag = std::min(bag, static_cast<std::uint32_t>(cfg::tribute_gems_danger));
-    // cfg::learned (D340): a learned factor on the bag size that triggers banking.
+    // cfg::learned: a learned factor on the bag size that triggers banking.
     if constexpr (cfg::learned > 0)
     {
         bool hunted = false;
@@ -2123,7 +2123,7 @@ bool Brain::handle_tribute(Ctx& ctx, TurnActions& acts)
 }
 
 // Health one camp trip can spend before the recall rule pulls us out (siege planning). With
-// cfg::siege_pool_from_recall off: all current health, allies 80% (the pre-v19 planning).
+// cfg::siege_pool_from_recall off: all current health, allies 80% (the pre-vX planning).
 float Brain::trip_pool(const Ctx& ctx)
 {
     const float usable = cfg::siege_pool_from_recall ? std::max(0.0f, ctx.hp - cfg::recall_health_frac * ctx.max_hp) : ctx.hp;
@@ -2956,7 +2956,7 @@ bool Brain::leave_capture(Ctx& ctx, TurnActions& acts)
     why_ = "handoff";
     leave_camp_tiles(ctx, acts);
     // Choose the next target next turn: re-scoring every group on top of this turn's capture work
-    // exhausted fuel once (g101-001-01islands r140, farm 81K, D362).
+    // exhausted fuel once.
     return true;
 }
 
@@ -3167,7 +3167,7 @@ bool Brain::handle_farm(Ctx& ctx, TurnActions& acts)
 
     // Squad followers adopt the leader's published target (fights happen together).
     bool following = false;
-    // The opening elk party (cfg::opening_party, D331): the first K drafted champions take the
+    // The opening elk party: the first K drafted champions take the
     // elk-bearing group nearest our spawn together before farming on their own.
     if constexpr (cfg::opening_party > 0)
         if (!opening_done_ && ctx.round < cfg::opening_until && !capturing_)
@@ -3542,7 +3542,7 @@ void Brain::share_sightings(Ctx& ctx)
                                              // simulation takes remembered enemies from age 1)
 }
 
-// cfg::escort_until (D329): the opening ball. The acting leader - the lowest index alive with a
+// cfg::escort_until: the opening ball. The acting leader - the lowest index alive with a
 // published engaging/capturing target - farms for the whole team (score_group counts its squad);
 // everyone else escorts it: stays within escort_radius tiles, strikes the camps of its target in
 // reach, captures the cleared target when designated (carrier rule), and walks to the leader's
@@ -3693,7 +3693,7 @@ void Brain::share_news(const Ctx& ctx)
 {
     // cfg::group_news: read the team's news record, then post the most useful respawning group we see
     // now - one an ally is walking to first (it would find it gone on arrival: 14% of champion-rounds
-    // went to walks towards groups no longer alive, tracks/medium.md), else the richest. A record is
+    // went to walks towards groups no longer alive, the notes), else the richest. A record is
     // replaced only by news at least as urgent, so a later turn does not bury an ally's warning.
     auto& kn = Knowledge::get();
     const auto& world = World::get();

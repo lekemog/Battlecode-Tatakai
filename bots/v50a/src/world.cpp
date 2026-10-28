@@ -239,7 +239,7 @@ bool World::compute(std::unique_ptr<cambc::distance_field>& slot, const cambc::b
         }
         else
         {
-            // Pre-v22 rule: the costliest per-step rate seen (+15%), overhead included.
+            // Pre-vX rule: the costliest per-step rate seen (+15%), overhead included.
             const auto per_step = (before - after) * 115 / 100 / steps + 1;
             step_cost_ = measured_ ? std::max(step_cost_, per_step) : per_step;
             measured_ = true;

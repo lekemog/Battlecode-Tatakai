@@ -1,10 +1,10 @@
-import json, math, statistics, hashlib
+import json, math, statistics, hashlib, sys
 from pathlib import Path
-root=Path(__file__).parent
+root=Path(sys.argv[1]) if len(sys.argv)>1 else Path(__file__).parent
 out=root/'results/audit';out.mkdir(exist_ok=True)
 plan=json.loads((root/'results/experiment-plan.json').read_text())
 cache_path=out/'local-games.json';cache=json.loads(cache_path.read_text()) if cache_path.exists() else {}
-for folder in ['robustness','new-map-validation','baseline-validation']:
+for folder in ['robustness','new-map-validation','baseline-validation','learned-ablation']:
  p=root/'results'/folder
  if not (p/'index.json').exists():continue
  for row in json.loads((p/'index.json').read_text()):
@@ -37,7 +37,7 @@ for bot in [plan['baseline']]+plan['candidates']:
 print('completed',len(rows));print(json.dumps({b:v['all'] for b,v in summary.items()},indent=2))
 # Keep historical cohorts separate: versions/opponent selection/engine differ.
 history=[]
-for f,name in [('history-fish_cache_9c16b699.json','legacy-ranked-21oct'),('history-scrim_cache_v25c.json','v25c-top4')]:
+for f,name in [('history-fish_cache_9c16b699.json','legacy-ranked-21oct'),('history-scrim_cache.json','v24z-top4'),('history-scrim_cache_v24z.json','v24z-top4'),('history-scrim_cache_v25a.json','v25a-top4'),('history-scrim_cache_v25c.json','v25c-top4')]:
  for mid,r in json.loads((root/'results'/f).read_text()).items():history.append({'id':mid,'cohort':name,'map':r['map'],'win':r['result']=='win'})
 for r in json.loads((root/'results/history-top_vs_us_features.json').read_text()):
  if r['label']=='US':history.append({'id':r['file'].removesuffix('.json'),'cohort':'legacy-US-features','map':r['map'],'win':r['win']})

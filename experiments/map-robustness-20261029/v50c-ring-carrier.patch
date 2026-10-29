@@ -1,0 +1,31 @@
+--- a/src/brain.cpp
++++ b/src/brain.cpp
+@@ -1981,11 +1981,16 @@
+ {
+     auto& world = World::get();
+     const auto& kn = Knowledge::get();
+-    (void)ctx;
++    if (ring_done_ && ctx.round - ring_plan_round_ >= 16)
++    {
++        ring_done_ = false;
++        ring_groups_.clear();
++        ring_walk_ = { -1, -1 };
++    }
+     if (!ring_done_)
+     {
+         if (!fuel_ok(45000)) return -2;
+-        if (ring_walk_.x < 0) ring_walk_ = world.ally_spawn_center;
++        if (ring_walk_.x < 0) { ring_walk_ = ctx.route_pos; ring_plan_round_ = ctx.round; }
+         vec2 p = ring_walk_;
+         for (int step = 0; step < 100; ++step)
+         {
+--- a/src/brain.h
++++ b/src/brain.h
+@@ -59,6 +59,7 @@
+     std::vector<int> ring_groups_;  // groups on the open path spawn -> altar, in order
+     vec2 ring_walk_{ -1, -1 };
+     bool ring_done_{};
++    int ring_plan_round_{ -1000 };
+     float gold_mult_{ 1.0f };  // our gold gain multiplier (cfg::passive_rewards: Vesper, Treasure)
+     float gem_gold_{ 0.0f };   // gold we gain per gem we tribute (cfg::passive_rewards: Marcella)
+     float target_score_{};

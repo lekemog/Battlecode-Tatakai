@@ -1,0 +1,11 @@
+--- a/src/config.h
++++ b/src/config.h
+@@ -19,7 +19,7 @@
+ // Learned decision residuals: 1 applies the weights in learn.cpp to the target score,
+ // fight verdict, banking and recall thresholds and the draft order (zero weights = the rules below
+ // exactly, apart from fuel); 0 leaves the layer out.
+-inline constexpr int learned = 1;
++inline constexpr int learned = 0;
+ // Learned death hazard (hazard_model.h, fitted on vX's online games; the training tools): 1 disengages
+ // (vX's retreat) at a contact decision off spawn when P(killed by an enemy within 10 rounds) >= hazard_threshold,
+ // for hazard_commit rounds. 0 replays vX. vX: 0.3.

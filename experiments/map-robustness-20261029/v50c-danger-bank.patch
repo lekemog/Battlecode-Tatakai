@@ -1,0 +1,11 @@
+--- a/src/config.h
++++ b/src/config.h
+@@ -143,7 +143,7 @@
+ inline constexpr int tribute_detour_tiles = 8;
+ // With an enemy seen within danger_radius in the last danger_rounds rounds, bank bags from this many
+ // gems (0: tribute_gems always).
+-inline constexpr int tribute_gems_danger = 0;
++inline constexpr int tribute_gems_danger = 10;
+ // Prism battery (Prism gains 1.5 Focus per carried gem; the core of the #1 online team, ecosystem
+ // catalog section 2): our Prism keeps its bag until the tribute would win (banked + bag reaches
+ // winning_gems), the enemy has banked prism_cash_enemy, or the game nears its end; it buys the

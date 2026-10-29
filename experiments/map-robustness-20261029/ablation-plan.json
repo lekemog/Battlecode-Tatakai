@@ -1,0 +1,1 @@
+{"note":"Post-hoc diagnostic ablation after initial suite saturation was observed. No parameter tuning. Does not disable the separate death-hazard model.","bot":"v50c-no-learn","parent":"v50c","change":"cfg::learned 1 -> 0","maps":70,"opponents":["x_de41h4","x_daniel8","h_mohnish","v50c"],"cases":560}

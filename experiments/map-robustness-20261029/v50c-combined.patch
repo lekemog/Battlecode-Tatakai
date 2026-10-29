@@ -1,0 +1,128 @@
+--- a/src/brain.cpp
++++ b/src/brain.cpp
+@@ -4,6 +4,7 @@
+ #include <string_view>
+ #include "config.h"
+ #include "hazard_model.h"
++#include "hazard_history.h"
+ #include "knowledge.h"
+ #include "learn.h"
+ #include "nav.h"
+@@ -44,7 +45,8 @@
+ // cfg::hazard state (out of Brain for the same reason): health by round modulo 4, disengage count.
+ struct HazardState
+ {
+-    float hp[4]{ -1.0f, -1.0f, -1.0f, -1.0f };
++    hazard::HealthHistory history;
++    int until{ -1 };
+     int fires{};
+ };
+ 
+@@ -316,6 +318,7 @@
+ 
+     if (!me.is_alive())
+     {
++        if constexpr (cfg::hazard > 0) { hazard_state().history.clear(); hazard_state().until = -1; }
+         if constexpr (cfg::learned > 0)
+             if (!death_reported_) ++learn_state().deaths;
+         if (!death_reported_) report_death(kn.round);
+@@ -336,7 +339,7 @@
+     trace.mark("observe");
+     if constexpr (cfg::hazard > 0)
+     {
+-        hazard_state().hp[ctx.round % 4] = ctx.hp;
++        hazard_state().history.record(ctx.round, ctx.hp);
+         if (ctx.round % 500 == 0 && fuel_ok(cfg::fuel_phase_log)) MB_LOG("hazard r%d fires %d\n", ctx.round, hazard_state().fires);
+     }
+     if constexpr (cfg::shop_plan == 100 || cfg::shop_recall_mode > 0) note_shop_signals(ctx, true);
+@@ -1640,8 +1643,7 @@
+     // cfg::hazard: the learned death hazard (hazard_model.h) overrides the verdict with a disengage.
+     if constexpr (cfg::hazard > 0)
+     {
+-        static int hazard_until = -1;
+-        bool hot = ctx.round <= hazard_until;
++        bool hot = ctx.round <= hazard_state().until;
+         if (!hot)
+         {
+             const vec2 home = World::get().ally_spawn_center;
+@@ -1665,8 +1667,7 @@
+                 if (d <= 5 && e.range > 1) ++ranged5;
+                 if (d <= 5 && cheb(e.pos, home) < cheb(ctx.pos, home)) cut = 1;
+             }
+-            const float hp3 = hazard_state().hp[(ctx.round + 1) % 4];  // health three rounds ago (ring by round)
+-            const float lost = hp3 >= 0.0f ? (hp3 - ctx.hp) / std::max(1.0f, ctx.max_hp) : 0.0f;
++            const float lost = hazard_state().history.loss3(ctx.round, ctx.hp, ctx.max_hp);
+             const float x[hazard::kFeatures] = {
+                 1.0f, ctx.hp_frac(), ctx.hp / 1000.0f, ctx.max_hp / 2000.0f,
+                 static_cast<float>(a4) / 4.0f, static_cast<float>(a8) / 4.0f, static_cast<float>(e4) / 4.0f, static_cast<float>(e8) / 4.0f,
+@@ -1683,7 +1684,7 @@
+             if (e8 > 0 && z >= std::log(t / (1.0f - t)))
+             {
+                 hot = true;
+-                hazard_until = ctx.round + cfg::hazard_commit - 1;
++                hazard_state().until = ctx.round + cfg::hazard_commit - 1;
+                 ++hazard_state().fires;
+             }
+         }
+@@ -1981,11 +1982,16 @@
+ {
+     auto& world = World::get();
+     const auto& kn = Knowledge::get();
+-    (void)ctx;
++    if (ring_done_ && ctx.round - ring_plan_round_ >= 16)
++    {
++        ring_done_ = false;
++        ring_groups_.clear();
++        ring_walk_ = { -1, -1 };
++    }
+     if (!ring_done_)
+     {
+         if (!fuel_ok(45000)) return -2;
+-        if (ring_walk_.x < 0) ring_walk_ = world.ally_spawn_center;
++        if (ring_walk_.x < 0) { ring_walk_ = ctx.route_pos; ring_plan_round_ = ctx.round; }
+         vec2 p = ring_walk_;
+         for (int step = 0; step < 100; ++step)
+         {
+--- a/src/brain.h
++++ b/src/brain.h
+@@ -59,6 +59,7 @@
+     std::vector<int> ring_groups_;  // groups on the open path spawn -> altar, in order
+     vec2 ring_walk_{ -1, -1 };
+     bool ring_done_{};
++    int ring_plan_round_{ -1000 };
+     float gold_mult_{ 1.0f };  // our gold gain multiplier (cfg::passive_rewards: Vesper, Treasure)
+     float gem_gold_{ 0.0f };   // gold we gain per gem we tribute (cfg::passive_rewards: Marcella)
+     float target_score_{};
+--- a/src/config.h
++++ b/src/config.h
+@@ -143,7 +143,7 @@
+ inline constexpr int tribute_detour_tiles = 8;
+ // With an enemy seen within danger_radius in the last danger_rounds rounds, bank bags from this many
+ // gems (0: tribute_gems always).
+-inline constexpr int tribute_gems_danger = 0;
++inline constexpr int tribute_gems_danger = 10;
+ // Prism battery (Prism gains 1.5 Focus per carried gem; the core of the #1 online team, ecosystem
+ // catalog section 2): our Prism keeps its bag until the tribute would win (banked + bag reaches
+ // winning_gems), the enemy has banked prism_cash_enemy, or the game nears its end; it buys the
+--- a/src/hazard_history.h
++++ b/src/hazard_history.h
+@@ -0,0 +1,19 @@
++#pragma once
++#include <algorithm>
++namespace mb::hazard {
++struct HealthHistory {
++    float hp[4]{};
++    int rounds[4]{-1, -1, -1, -1};
++    void clear() { for (int& r : rounds) r = -1; }
++    void record(int round, float health) {
++        hp[round % 4] = health;
++        rounds[round % 4] = round;
++    }
++    float loss3(int round, float health, float max_health) const {
++        if (round < 3) return 0.0f;
++        const int slot = (round - 3) % 4;
++        return rounds[slot] == round - 3
++            ? (hp[slot] - health) / std::max(1.0f, max_health) : 0.0f;
++    }
++};
++}

@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-30",
+  "external_repository": "HerbertTheBird/Cambridge-Battlecode",
+  "external_commit": "daf417410854b4563898412c9b2699ac4dedc7ee",
+  "scope": "Selected Khaos runtime mechanisms, test tools and postmortem source; not every repository file. Retrieved complete named files and inspected selected sections.",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob_sha": "8f7305e65e3b97c595f16a018c002af5e2fdcf72",
+      "bytes": 378,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/README.md"
+    },
+    {
+      "path": "postmortem/postmortem.tex",
+      "git_blob_sha": "5de54d1997dc438270e291548a58a7578218a5f7",
+      "bytes": 94931,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/postmortem/postmortem.tex"
+    },
+    {
+      "path": "bots/Khaos/main.py",
+      "git_blob_sha": "d70411cd4647939b363775df6c5ca04e80e7ae8e",
+      "bytes": 1672,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/main.py"
+    },
+    {
+      "path": "bots/Khaos/pathing.py",
+      "git_blob_sha": "84b54d94b1ac591d9c1e60475ad2b41514e12933",
+      "bytes": 41208,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/pathing.py"
+    },
+    {
+      "path": "bots/Khaos/comms.py",
+      "git_blob_sha": "7ecf84eea6cd1379a46ac57d66a5e273dd58525e",
+      "bytes": 11186,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/comms.py"
+    },
+    {
+      "path": "bots/Khaos/geometry_core.py",
+      "git_blob_sha": "a882f84ae3e1ff5e353ab03f8c1dfc5c3261f54c",
+      "bytes": 22236,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/geometry_core.py"
+    },
+    {
+      "path": "bots/Khaos/chokepoint.py",
+      "git_blob_sha": "e83ec1ae9ff7f553d612c1b17cb82825e265487d",
+      "bytes": 72606,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/chokepoint.py"
+    },
+    {
+      "path": "bots/Khaos/map_info.py",
+      "git_blob_sha": "4491c13228b5dd87d4a8361ff6d4c695d8950e36",
+      "bytes": 79145,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/map_info.py"
+    },
+    {
+      "path": "bots/Khaos/units/builder.py",
+      "git_blob_sha": "3bbe268d19a82b943ae81ac420f53b9575725714",
+      "bytes": 14623,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/units/builder.py"
+    },
+    {
+      "path": "bots/Khaos/units/core.py",
+      "git_blob_sha": "1c94eb4de4658fe85bd61464878c6f5b462fa4dc",
+      "bytes": 4686,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/units/core.py"
+    },
+    {
+      "path": "bots/Khaos/units/spawn_plan.py",
+      "git_blob_sha": "661b83ec4cb4b37382cda40473970c8ad39f4058",
+      "bytes": 4475,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/units/spawn_plan.py"
+    },
+    {
+      "path": "bots/Khaos/units/states/attack.py",
+      "git_blob_sha": "3accc1ea4b1fbf79c6ef45f6fcdf459c74c1956d",
+      "bytes": 61186,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/units/states/attack.py"
+    },
+    {
+      "path": "bots/Khaos/units/states/heal.py",
+      "git_blob_sha": "c4e6f7ca22891044bafba44a1a3a433b6f358ff1",
+      "bytes": 23794,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/units/states/heal.py"
+    },
+    {
+      "path": "bots/Khaos/units/states/route.py",
+      "git_blob_sha": "81f75043c82b01a68a195fafd8e40785f38d89dc",
+      "bytes": 16360,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/units/states/route.py"
+    },
+    {
+      "path": "bots/Khaos/units/states/secure.py",
+      "git_blob_sha": "698e6e143dd53e846275889f7f2e6e18bdf43940",
+      "bytes": 17932,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/units/states/secure.py"
+    },
+    {
+      "path": "bots/Khaos/units/turret_priority.py",
+      "git_blob_sha": "e42572e1e4254d47bc670219dd11fc6dffe896b2",
+      "bytes": 19066,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/bots/Khaos/units/turret_priority.py"
+    },
+    {
+      "path": "tools/benchmark.py",
+      "git_blob_sha": "70fb462125a543170800f17fff2a8c3e12b4393f",
+      "bytes": 12317,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/tools/benchmark.py"
+    },
+    {
+      "path": "tools/bidir_test.py",
+      "git_blob_sha": "ed2d4f3c8f02c3d46a2a53b6036eff1f4e1ac35f",
+      "bytes": 3651,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/tools/bidir_test.py"
+    },
+    {
+      "path": "tools/_test_side_asymmetry.py",
+      "git_blob_sha": "b140743edcd01b16001c9f7a3808184d88a439f2",
+      "bytes": 3069,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/tools/_test_side_asymmetry.py"
+    },
+    {
+      "path": "tools/_test_gauntlet.py",
+      "git_blob_sha": "42b06770f9abc506f095643260acb8cc465faf13",
+      "bytes": 3221,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/tools/_test_gauntlet.py"
+    },
+    {
+      "path": "combine_profiles.py",
+      "git_blob_sha": "e7d53d4bc0ca03f1b77870a9e611cf3623372d19",
+      "bytes": 3715,
+      "url": "https://github.com/HerbertTheBird/Cambridge-Battlecode/blob/daf417410854b4563898412c9b2699ac4dedc7ee/combine_profiles.py"
+    }
+  ],
+  "comparison_repository": "lekemog/BattlecodeConversation",
+  "comparison_commit": "2d93a142df388db48596f82842cf7cca47809cec",
+  "comparison_files": [
+    "bots/v50c/src/brain.cpp",
+    "bots/v50c/src/brain.h",
+    "bots/v50c/src/world.cpp",
+    "bots/v50c/src/nav.cpp",
+    "bots/v50c/src/knowledge.cpp",
+    "bots/v50c/src/draft.cpp",
+    "bots/v50c/src/config.h"
+  ],
+  "previous_evidence_pr": 51,
+  "new_gameplay_tests": 0,
+  "gameplay_code_changed": false,
+  "external_code_copied": false,
+  "limitations": [
+    "Winner attribution from upstream README, not independent standings validation",
+    "Old resource/conveyor ruleset differs from current champion/gem game",
+    "Proposals have no measured strength claim",
+    "Earlier local results belong to PR51 and are not new results from this review"
+  ]
+}

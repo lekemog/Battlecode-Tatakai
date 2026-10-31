@@ -75,6 +75,21 @@ Proposed isolated candidates (banking/pathing only, no combat or draft changes):
 
 Acceptance (from #45): fewer zero-deposit games and more banked gems on the_pack, no regression on pack wins or other maps, paired seeds/maps and both sides, then fresh games.
 
+## Candidate 1: `bots/v50c-ringgap` (gap awareness) — result: no improvement on its own
+
+Change: detect a sealed altar once and mark the camp tiles of nearby groups as the seal zone. Zone tiles seen without a living camp become passable, and the altar field is rebuilt with them.
+
+Paired batch: `02the-pack`, 7 bench opponents × both sides, `--release`, cambc 4.0.0. Summarised with `python3 -I tools/replay/pack45.py <dir>`.
+
+| Bot | Wins | Banked us / them | Zero-deposit games |
+|---|---|---|---|
+| v50c | 13/14 | 13,451 / 376 | 3 (mohnish A, photon A, daniel8 B) |
+| v50c-ringgap | 14/14 | 10,996 / 401 | 3 (mohnish A+B, de41h4 B) |
+
+- **Mechanism check:** every candidate game logged `seal45 zone 48 tiles`, and rebuilds fired on each new gap. But the first gap was only seen at r1539–r1827, because no bench bot breaches the ring and we only breach once the whole-ring siege becomes feasible late. With nothing to act on, the outcomes swing game by game, both up (daniel8 B: 0 → 1368) and down (daniel8 A: 1166 → 18). Small fuel and trajectory differences explain this better than the fix does.
+- **Bench limitation:** v50c banks in 11/14 of these bench games. The bench reproduces the ladder failure only weakly, because ladder opponents breach early and contest the altar.
+- **Conclusion:** gap awareness is necessary (our own breach must update the field) but not sufficient. Next is breach targeting: attack the cheapest camps that open a path, roughly 2 on this ring. Evaluate it with the same batch plus a breaching opponent.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

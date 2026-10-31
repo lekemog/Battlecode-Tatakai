@@ -90,6 +90,31 @@ Paired batch: `02the-pack`, 7 bench opponents × both sides, `--release`, cambc 
 - **Bench limitation:** v50c banks in 11/14 of these bench games. The bench reproduces the ladder failure only weakly, because ladder opponents breach early and contest the altar.
 - **Conclusion:** gap awareness is necessary (our own breach must update the field) but not sufficient. Next is breach targeting: attack the cheapest camps that open a path, roughly 2 on this ring. Evaluate it with the same batch plus a breaching opponent.
 
+## Candidates 2 and 2b: `bots/v50c-breach`, `bots/v50c-breach2` (breach targeting)
+
+**v50c-breach** builds on v50c-ringgap. A carrier with at least `ring_min_gems` that cannot walk to the sealed altar attacks the next camp on the cheapest breach path. The path comes from a 0-1 search over seal-zone tiles: the fewest camps between our walkable region and free floor in submit range. Seen gaps cost nothing, and ties go to the path nearest our spawn. The new mode runs between tribute and farm.
+
+- On the_pack, the search finds a single-camp diagonal breach, e.g. (25,21) from (26,20). There are 8 symmetric single-camp breaches, cheaper than the 2-camp gap Trzy used.
+- Smoke game, side B vs `x_daniel8`: 501 banked (v50c 0). But breaching started at r90 with 1,000–1,200 HP champions, the camp fell only at r486, and we died 6 times.
+- **The whole ring wakes when any member is hit.** The replay shows 0 → 48 awake ring camps, back asleep within roughly 10–15 rounds. The camps have range 3. Exposure counts: a melee attack tile is covered by 14 ring camps, the altar-adjacent tiles inside by 28, and the best range-3 attack tile by 3.
+
+**v50c-breach2** attacks only from the least-exposed tile within the champion's own range. It breaches only when exposure × camp strength × 0.5 (attack cooldown 2) × rounds-to-kill fits `trip_pool`. Otherwise it keeps farming, and a stronger or longer-ranged ally may breach instead.
+
+Paired the_pack batch (same 7 bench bots × 2 sides):
+
+| Bot | Wins | Banked us / them | Zero-deposit | Games reaching 1000, mean rounds |
+|---|---|---|---|---|
+| v50c | 13/14 | 13,451 / 376 | 3 | 10, ~1626 |
+| v50c-ringgap | 14/14 | 10,996 / 401 | 3 | — |
+| v50c-breach | 13/14 | 9,984 / 1,217 | **0** | — |
+| v50c-breach2 | **14/14** | 11,946 / 1,542 | **0** | 8, ~1553 |
+
+Reading:
+
+- Breach2 removes the zero-deposit games on this bench and wins all 14.
+- Total banked is about 1,500 below v50c. That is within this bench's noise: ringgap moved 2,500 with no meaningful behaviour change.
+- **Opponents bank more** (376 → 1,542) because our breach opens the ring for them too. Bench bots never breach by themselves. Against ladder opponents, who breach anyway, this cost should mostly vanish, but that is untested.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

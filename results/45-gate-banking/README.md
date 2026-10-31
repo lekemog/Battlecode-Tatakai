@@ -135,13 +135,26 @@ Head-to-head vs v50c on the_pack:
 | breach3 | L 367–1277 | W 1007–192 |
 
 - In the breach3 loss, we breached at r635 but banked only 367 in five deposits. v50c besieged the full ring from r1375 and banked two hoarded bags (620 + 657) at r1489–93. That was its own siege, not our gap.
-- Post-breach income in the mirror is the open question. Two games are too few to separate it from noise.
+- Post-breach income in the mirror looked like the open question here; the 16-game head-to-head below settles it.
+
+### Larger head-to-head: breach3 vs v50c, 16 games
+
+Local games are deterministic and the seed comes from the map, so one match-up on `02the-pack` gives only two distinct games. `tools/replay/mapxform45.mjs` writes the 7 flipped and rotated copies of the map. All of them preserve the ROTATIONAL180 symmetry, so team B's spawn stays mirrored. A transposed copy was checked: same altar, 132 camps, 35 groups, and the ring is still one 48-camp group at 1,350 HP.
+
+| breach3 vs v50c | Wins | Banked breach3 / v50c | v50c banked 0 | breach3 banked 0 |
+|---|---|---|---|---|
+| Original map, both sides | 1/2 | 1374 / 1469 | 0 | 0 |
+| 7 copies, both sides | 13/14 | 13,548 / 1,663 | 12 | 0 |
+| **All 16** | **14/16** | **14,922 / 3,132** | **12** | **0** |
+
+- One-sided binomial against 50%: P(≥14/16) ≈ 0.002.
+- The only loss on the copies was x2, side A: 887 vs 1,663.
+- Facing an opponent that farms as well as it does, v50c banked zero in 12 of 16 games. That reproduces the #45 failure, and breach3 removes it.
 
 **Scope:** a 60-round scan of all 70 maps bundled with cambc 4.0.0 logged `seal45 zone` only on `02the-pack`. Every other map behaves exactly like v50c apart from a one-time check.
 
 **Still to do:**
 - Fresh-seed confirmation.
-- A larger mirror sample (breach3 vs v50c).
 - Ideally, opponents that breach early like the ladder top ten.
 - The full 40-map bench is unnecessary by construction, but cheap insurance.
 

@@ -115,6 +115,36 @@ Reading:
 - Total banked is about 1,500 below v50c. That is within this bench's noise: ringgap moved 2,500 with no meaningful behaviour change.
 - **Opponents bank more** (376 → 1,542) because our breach opens the ring for them too. Bench bots never breach by themselves. Against ladder opponents, who breach anyway, this cost should mostly vanish, but that is untested.
 
+## Candidate 3: `bots/v50c-breach3` (breach2 + leave the ring by recall) — current best
+
+Head-to-head, breach2 vs v50c (side B) exposed a second bug. From r1020 to r1440, all three of our champions idled inside the ring with empty bags. Only the altar field knows the gaps, so every other field (farm targets, spawn) is unreachable from the interior. When v50c's late full-ring siege woke the ring, all three died within four rounds (r1460–64).
+
+Breach3 makes a champion inside the ring with less than `ring_min_gems` recall. Gems are kept, and `handle_tribute` has already banked any bag worth banking.
+
+| Bot (vs 7 bench bots × 2 sides) | Wins | Banked us / them | Zero-deposit | Reached 1000 / mean rounds |
+|---|---|---|---|---|
+| v50c | 13/14 | 13,451 / 376 | 3 | 10 / ~1626 |
+| v50c-breach2 | 14/14 | 11,946 / 1,542 | 0 | 8 / ~1553 |
+| **v50c-breach3** | **14/14** | **14,375 / 1,364** | **0** | **14 / ~1461** |
+
+Head-to-head vs v50c on the_pack:
+
+| Bot | Side A | Side B |
+|---|---|---|
+| breach2 | W 350–0 | L 384–1091 |
+| breach3 | L 367–1277 | W 1007–192 |
+
+- In the breach3 loss, we breached at r635 but banked only 367 in five deposits. v50c besieged the full ring from r1375 and banked two hoarded bags (620 + 657) at r1489–93. That was its own siege, not our gap.
+- Post-breach income in the mirror is the open question. Two games are too few to separate it from noise.
+
+**Scope:** a 60-round scan of all 70 maps bundled with cambc 4.0.0 logged `seal45 zone` only on `02the-pack`. Every other map behaves exactly like v50c apart from a one-time check.
+
+**Still to do:**
+- Fresh-seed confirmation.
+- A larger mirror sample (breach3 vs v50c).
+- Ideally, opponents that breach early like the ladder top ten.
+- The full 40-map bench is unnecessary by construction, but cheap insurance.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

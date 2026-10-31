@@ -1,0 +1,146 @@
+TR45 r100 k0 p44,1 bag46 field1 da16384 gategroup-1 fuelfarm1
+GT45 r100 k0 p44,1 bag46 da16384 dopen22 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target7
+TR45 r150 k0 p36,7 bag64 field1 da16384 gategroup-1 fuelfarm1
+GT45 r150 k0 p36,7 bag64 da16384 dopen15 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r200 k0 p37,38 bag89 field1 da16384 gategroup-1 fuelfarm1
+GT45 r200 k0 p37,38 bag89 da16384 dopen16 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r250 k12 p9,1 bag43 field1 da16384 gategroup-1 fuelfarm1
+GT45 r250 k12 p9,1 bag43 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target31
+TR45 r250 k0 p32,3 bag107 field1 da16384 gategroup-1 fuelfarm1
+GT45 r250 k0 p32,3 bag107 da16384 dopen19 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r300 k12 p39,19 bag68 field1 da16384 gategroup-1 fuelfarm1
+GT45 r300 k12 p39,19 bag68 da16384 dopen17 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target12
+TR45 r300 k0 p36,43 bag132 field1 da16384 gategroup-1 fuelfarm1
+GT45 r300 k0 p36,43 bag132 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r350 k12 p30,0 bag82 field1 da16384 gategroup-1 fuelfarm1
+GT45 r350 k12 p30,0 bag82 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r350 k0 p23,12 bag157 field1 da16384 gategroup-1 fuelfarm1
+GT45 r350 k0 p23,12 bag157 da16384 dopen10 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target19
+TR45 r400 k12 p38,10 bag100 field1 da16384 gategroup-1 fuelfarm1
+GT45 r400 k12 p38,10 bag100 da16384 dopen16 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target12
+TR45 r450 k12 p36,22 bag118 field1 da16384 gategroup-1 fuelfarm1
+GT45 r450 k12 p36,22 bag118 da16384 dopen14 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target12
+TR45 r450 k0 p30,0 bag189 field1 da16384 gategroup-1 fuelfarm1
+GT45 r450 k0 p30,0 bag189 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r500 k12 p37,4 bag132 field1 da16384 gategroup-1 fuelfarm1
+GT45 r500 k12 p37,4 bag132 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target25
+TR45 r550 k0 p39,9 bag253 field1 da16384 gategroup-1 fuelfarm1
+GT45 r550 k0 p39,9 bag253 da16384 dopen17 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target7
+TR45 r600 k12 p37,39 bag150 field1 da16384 gategroup-1 fuelfarm1
+GT45 r600 k12 p37,39 bag150 da16384 dopen17 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r600 k0 p34,43 bag257 field1 da16384 gategroup-1 fuelfarm1
+GT45 r600 k0 p34,43 bag257 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r650 k0 p36,7 bag293 field1 da16384 gategroup-1 fuelfarm1
+GT45 r650 k0 p36,7 bag293 da16384 dopen15 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r700 k12 p15,3 bag161 field1 da16384 gategroup-1 fuelfarm1
+GT45 r700 k12 p15,3 bag161 da16384 dopen19 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target31
+TR45 r800 k12 p34,43 bag179 field1 da16384 gategroup-1 fuelfarm1
+GT45 r800 k12 p34,43 bag179 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r800 k0 p37,2 bag369 field1 da16384 gategroup-1 fuelfarm1
+GT45 r800 k0 p37,2 bag369 da16384 dopen20 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target25
+TR45 r850 k12 p36,39 bag197 field1 da16384 gategroup-1 fuelfarm1
+GT45 r850 k12 p36,39 bag197 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r850 k0 p35,5 bag405 field1 da16384 gategroup-1 fuelfarm1
+GT45 r850 k0 p35,5 bag405 da16384 dopen17 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target7
+TR45 r900 k12 p31,2 bag215 field1 da16384 gategroup-1 fuelfarm1
+GT45 r900 k12 p31,2 bag215 da16384 dopen20 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r900 k0 p34,41 bag413 field1 da16384 gategroup-1 fuelfarm1
+GT45 r900 k0 p34,41 bag413 da16384 dopen19 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r950 k12 p35,4 bag233 field1 da16384 gategroup-1 fuelfarm1
+GT45 r950 k12 p35,4 bag233 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target25
+TR45 r950 k0 p42,16 bag439 field1 da16384 gategroup-1 fuelfarm1
+GT45 r950 k0 p42,16 bag439 da16384 dopen20 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target12
+TR45 r1050 k12 p18,0 bag244 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1050 k12 p18,0 bag244 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target5
+TR45 r1100 k12 p30,0 bag262 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1100 k12 p30,0 bag262 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r1150 k12 p35,4 bag280 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1150 k12 p35,4 bag280 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target25
+TR45 r1150 k0 p6,44 bag555 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1150 k0 p6,44 bag555 da16384 dopen22 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target28
+TR45 r1200 k12 p34,43 bag284 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1200 k12 p34,43 bag284 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r1250 k12 p36,39 bag302 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1250 k12 p36,39 bag302 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r1250 k0 p13,41 bag627 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1250 k0 p13,41 bag627 da16384 dopen19 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target26
+TR45 r1250 k7 p33,14 bag42 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1250 k7 p33,14 bag42 da16384 dopen11 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target15
+TR45 r1300 k12 p34,43 bag306 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1300 k12 p34,43 bag306 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r1300 k0 p25,34 bag649 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1300 k0 p25,34 bag649 da16384 dopen12 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target28
+TR45 r1300 k7 p44,18 bag56 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1300 k7 p44,18 bag56 da16384 dopen22 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target12
+TR45 r1350 k12 p36,39 bag324 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1350 k12 p36,39 bag324 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r1350 k0 p8,35 bag675 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1350 k0 p8,35 bag675 da16384 dopen14 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target11
+TR45 r1400 k12 p34,43 bag328 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1400 k12 p34,43 bag328 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r1400 k0 p43,14 bag714 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1400 k0 p43,14 bag714 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r1450 k12 p36,39 bag346 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1450 k12 p36,39 bag346 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r1450 k0 p31,28 bag740 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1450 k0 p31,28 bag740 da16384 dopen9 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target28
+TR45 r1450 k7 p29,14 bag133 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1450 k7 p29,14 bag133 da16384 dopen8 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target19
+TR45 r1500 k12 p34,43 bag350 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1500 k12 p34,43 bag350 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r1500 k0 p4,41 bag766 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1500 k0 p4,41 bag766 da16384 dopen19 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target11
+TR45 r1550 k12 p36,39 bag368 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1550 k12 p36,39 bag368 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r1550 k0 p39,0 bag784 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1550 k0 p39,0 bag784 da16384 dopen22 gate0 done1 ngroups1 st0 hpleft64800 walk1 score1.0279 rej0 need2 target25
+TR45 r1550 k7 p27,8 bag179 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1550 k7 p27,8 bag179 da16384 dopen14 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target13
+TR45 r1600 k12 p25,12 bag393 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1600 k12 p25,12 bag393 da16384 dopen10 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target19
+TR45 r1600 k0 p30,33 bag806 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1600 k0 p30,33 bag806 da16384 dopen11 gate0 done1 ngroups1 st0 hpleft64800 walk1 score24.1463 rej0 need2 target0
+TR45 r1600 k7 p42,33 bag211 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1600 k7 p42,33 bag211 da16384 dopen20 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r1650 k12 p9,0 bag393 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1650 k12 p9,0 bag393 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target31
+TR45 r1650 k0 p2,42 bag828 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1650 k0 p2,42 bag828 da16384 dopen20 gate0 done1 ngroups1 st0 hpleft64800 walk1 score1.0570 rej0 need2 target8
+TR45 r1700 k12 p42,14 bag415 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1700 k12 p42,14 bag415 da16384 dopen20 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target12
+TR45 r1700 k0 p38,8 bag853 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1700 k0 p38,8 bag853 da16384 dopen16 gate0 done1 ngroups1 st0 hpleft64800 walk1 score1.1407 rej0 need2 target7
+TR45 r1700 k7 p36,25 bag251 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1700 k7 p36,25 bag251 da16384 dopen14 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target24
+TR45 r1750 k12 p18,0 bag429 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1750 k12 p18,0 bag429 da16384 dopen21 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target5
+TR45 r1750 k0 p30,18 bag875 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1750 k0 p30,18 bag875 da16384 dopen8 gate0 done1 ngroups1 st0 hpleft64800 walk1 score26.2621 rej0 need2 target0
+TR45 r1750 k7 p36,39 bag276 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1750 k7 p36,39 bag276 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r1800 k12 p9,2 bag451 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1800 k12 p9,2 bag451 da16384 dopen20 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target17
+TR45 r1800 k0 p32,0 bag890 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1800 k0 p32,0 bag890 da16384 dopen22 gate0 done1 ngroups1 st0 hpleft64800 walk1 score1.0842 rej0 need2 target5
+TR45 r1800 k7 p31,2 bag312 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1800 k7 p31,2 bag312 da16384 dopen20 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target3
+TR45 r1850 k12 p34,40 bag455 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1850 k12 p34,40 bag455 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target32
+TR45 r1850 k0 p21,14 bag890 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1850 k0 p21,14 bag890 da16384 dopen8 gate0 done1 ngroups1 st0 hpleft64800 walk1 score1.5747 rej0 need2 target-1
+TR45 r1850 k7 p43,0 bag333 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1850 k7 p43,0 bag333 da16384 dopen22 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target7
+TR45 r1900 k12 p36,39 bag473 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1900 k12 p36,39 bag473 da16384 dopen18 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target18
+TR45 r1900 k0 p21,14 bag890 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1900 k0 p21,14 bag890 da16384 dopen8 gate0 done1 ngroups1 st0 hpleft64800 walk1 score31.4945 rej0 need2 target-1
+TR45 r1900 k7 p34,5 bag355 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1900 k7 p34,5 bag355 da16384 dopen17 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target27
+TR45 r1950 k12 p17,6 bag484 field1 da16384 gategroup-1 fuelfarm1
+GT45 r1950 k12 p17,6 bag484 da16384 dopen16 gate0 done1 ngroups1 st0 hpleft55426 walk1 score0.0000 rej5 need0 target31
+TR45 r2000 k12 p9,4 bag502 field1 da16384 gategroup-1 fuelfarm1
+GT45 r2000 k12 p9,4 bag502 da16384 dopen17 gate0 done1 ngroups1 st0 hpleft55300 walk1 score0.0000 rej5 need0 target17
+TR45 r2000 k0 p34,3 bag933 field1 da16384 gategroup-1 fuelfarm1
+GT45 r2000 k0 p34,3 bag933 da16384 dopen19 gate0 done1 ngroups1 st0 hpleft64800 walk1 score1.2940 rej0 need2 target25
+TR45 r2000 k7 p38,41 bag413 field1 da16384 gategroup-1 fuelfarm1
+GT45 r2000 k7 p38,41 bag413 da16384 dopen19 gate0 done1 ngroups1 st0 hpleft64800 walk1 score0.0000 rej5 need0 target22

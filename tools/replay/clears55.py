@@ -51,3 +51,7 @@ for rd,g,t in cap:
     if hp[g]>=10000: heavy[0 if t==O else 1]+=gm; nh[0 if t==O else 1]+=1
     else: light[0 if t==O else 1]+=gm
 print(f'GEMS-BY-CLASS heavy(hp>=10000) us/them {heavy[0]}/{heavy[1]} in {nh[0]}/{nh[1]} captures; other groups us/them {light[0]}/{light[1]}')
+if '--first' in sys.argv:
+    lim=int(sys.argv[sys.argv.index('--first')+1])
+    print(f'FIRST captures up to round {lim}: (round, group, camps, gems, team)')
+    print('  '+' '.join(f'r{rd}:g{g}(n{size[g]},{val.get(g,(0,0))[0]}g){"U" if t==O else "T"}' for rd,g,t in cap if rd<=lim))

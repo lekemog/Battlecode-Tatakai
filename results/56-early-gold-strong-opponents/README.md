@@ -103,6 +103,25 @@ The four teams move as a group in the opening and their early contact fights are
 
 What would prove it wrong: if candidates that keep champions together or make them respect an unseen pack do not reduce early deaths in the paired games, or if the deaths against these teams are not the 2+ against 1 collapses the replay positions show.
 
+## Can the pinned panel hold these four teams? (read only, nothing was run)
+
+Yes, on paper. `cambc match-groups create --help`: `<OPPONENT_TEAM_ID> [--source-group <previous match-group UUID or website link>] [--maps m1,..,m5] [--sides a|b ×5]`; `--source-group` "uses the opponent's bot from this previous match-group". `tools/panel/panel.py` takes `team_id`, `maps`, `sides` and an optional `source_group` per opponent and also supports `--pin BASE_LABEL`, which reuses the group each opponent was first played in.
+
+The five ranked groups we already played against them are in the match list (`groupId`), so each can be used as the pin (the opponent's bot as it was in that group):
+
+| opponent | team id | ranked group (pin candidate) | maps in position order (our side) |
+|---|---|---|---|
+| ha²t | `34b36bab-66bb-4506-b032-2df6a081758d` | `d7e371c5-1c49-43fc-8d38-95d81599ec90` | 00collision, 02crossing, 02geodes, adgato_gemcombat2, adgato_gemcombat5 (b) |
+| Gamblr | `f583fbd0-8720-484e-b00c-61159d393c7f` | `7a4f9358-a5a5-4758-8ab8-d85eba20d8e6` | 00elkring, adgato_gemcombat5, 02fields, 00anvil, 00split (b) |
+| Valenki | `975c2c15-506b-489b-a439-839c8145933b` | `49b9d769-3b7f-48a9-abc2-c92c0bc0fe33` | 00crater, 01starvation, 02arena, 01yellow_brick_road, adgato_gemcombat1 (a) |
+| KratosMessi | `6599a236-7801-436f-a863-4acbb6aafa91` | `964ce40e-d86d-40fd-b4c3-2c5628123748` | 01concentrated_wealth, 02stalactites, 00quarry, adgato_gemcombat5, 01yellow_brick_road (a) |
+
+Caveats:
+- Not verified that the platform accepts a **ranked** group as `--source-group` (the help says "match-group", and `panel.py` only ever pins groups it created itself, which are unranked). If it refuses, one unpinned unranked group per opponent (five maps each, our slot) creates a pin for the following runs via `--pin`.
+- Sides: all five games of a ranked group had our side fixed (b against ha²t and Gamblr, a against Valenki and Kratos). To compare like with like keep those sides, or alternate them (`--sides`) to remove the side effect: ha²t and Gamblr are the two teams where all ten ranked games had us on side b.
+- Their draft and purchase profile is stable per team (ha²t 400 of 400 matches the same three first picks; Valenki 237 of 400 the same five), so one frozen version per team is a fair sample of its behaviour.
+- Two of the teams share a draft (Valenki's main comp equals Kratos' second comp), so the four panel entries are not independent samples of the strong-opponent type.
+
 ## Candidates (all copied from v50d, header comment `// Polaris v50hN: ...`, one change each)
 
 See the table in the section below; results are filled in as the batches finish.

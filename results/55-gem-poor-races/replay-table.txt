@@ -1,0 +1,18 @@
+eefca177 adgato_gemcombat5 loss end  427 collEnd  560/1106 bank  140/1008 groupsClaimed   14/  16 campsClaimed   75/ 125 deaths    5/   1 lostBag  231/  35 deposits    2/  10 maxbag  105/ 203
+affcea93 02geodes loss end  840 collEnd  840/1055 bank  558/1004 groupsClaimed   39/  46 campsClaimed  102/ 126 deaths    4/   0 lostBag   33/   0 deposits    9/  14 maxbag  121/ 143
+3620988e 00collision loss end 1171 collEnd  698/1070 bank  574/1019 groupsClaimed   66/  73 campsClaimed  174/ 204 deaths    8/   2 lostBag   78/  18 deposits   12/  29 maxbag  129/  96
+f9e02957 02crossing loss end  874 collEnd  863/1094 bank  727/1022 groupsClaimed   48/  55 campsClaimed  110/ 131 deaths    9/   7 lostBag  111/  72 deposits   31/  41 maxbag   79/  68
+41c63132 adgato_gemcombat2 loss end  695 collEnd  539/1029 bank  252/1001 groupsClaimed   30/  39 campsClaimed   74/ 121 deaths   12/   3 lostBag  182/  28 deposits    5/  21 maxbag   84/  77
+75e75bad 00split loss end  786 collEnd  940/1119 bank  867/1073 groupsClaimed   43/  45 campsClaimed  173/ 140 deaths    1/   1 lostBag   25/   0 deposits   33/  22 maxbag   93/ 214
+dd2143ee 00anvil loss end 1218 collEnd  319/1076 bank  261/1030 groupsClaimed   76/  63 campsClaimed  152/ 130 deaths    8/   8 lostBag   21/  46 deposits   21/  19 maxbag   25/ 221
+2f7dbafd 02fields loss end  831 collEnd  835/1030 bank  735/1023 groupsClaimed   46/  35 campsClaimed  141/ 122 deaths    3/   7 lostBag    0/   0 deposits   28/  31 maxbag  146/ 256
+1a73dd15 00pilgrimage loss end 1415 collEnd  255/1066 bank  195/1030 groupsClaimed   79/  63 campsClaimed  209/ 285 deaths   13/   2 lostBag   30/   0 deposits   11/  27 maxbag   30/  95
+e1171fcf 00stampede loss end 1725 collEnd  320/1057 bank  320/1057 groupsClaimed  138/  91 campsClaimed  356/ 334 deaths    5/  10 lostBag    0/   0 deposits    2/  13 maxbag  160/ 177
+15cb2442 adgato_gemcombat1 loss end  938 collEnd  609/1002 bank  420/1002 groupsClaimed   29/  39 campsClaimed   87/ 117 deaths   13/   0 lostBag  168/   0 deposits   15/  42 maxbag   63/  63
+176874c7 adgato_gemcombat2 loss end  700 collEnd  707/1120 bank  441/1022 groupsClaimed   38/  41 campsClaimed   89/ 131 deaths    9/   4 lostBag  203/  84 deposits   12/  21 maxbag   84/ 119
+500b84a8 01corridors win end  943 collEnd 1288/ 280 bank 1170/ 166 groupsClaimed   25/  13 campsClaimed  146/  68 deaths    6/   5 lostBag   58/  74 deposits   10/   4 maxbag  428/  60
+b3e86920 02stalactites loss end  539 collEnd 1029/1069 bank  721/1065 groupsClaimed   11/  18 campsClaimed  147/ 156 deaths    6/   0 lostBag  154/   0 deposits    6/  13 maxbag  168/ 210
+cc934a52 00split loss end  740 collEnd  842/1044 bank  834/1020 groupsClaimed   39/  63 campsClaimed  156/ 197 deaths    1/   1 lostBag    0/  16 deposits   33/  24 maxbag   64/  87
+c3f51447 01big_world loss end 1132 collEnd 1166/1061 bank  837/1000 groupsClaimed   41/  57 campsClaimed  169/ 204 deaths    0/   0 lostBag    0/   0 deposits   13/  26 maxbag  228/  70
+a897224d 02stalactites loss end  857 collEnd  207/1061 bank  130/1022 groupsClaimed    5/   9 campsClaimed   34/ 145 deaths   28/   1 lostBag   77/   0 deposits    3/  13 maxbag   77/  88
+0ae5c841 01yellow_brick_road win end  813 collEnd 1085/  37 bank 1040/  37 groupsClaimed   56/   2 campsClaimed  515/   8 deaths    3/   5 lostBag    0/   0 deposits   41/   2 maxbag   45/  26

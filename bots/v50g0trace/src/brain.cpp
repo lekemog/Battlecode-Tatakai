@@ -584,6 +584,16 @@ void Brain::turn_inner(FuelTrace& trace)
             map_gems = 0.0f;
             for (const auto& gi : World::get().groups) { map_gems += static_cast<float>(gi.gems); map_gold += static_cast<float>(gi.gold); }
         }
+        if (ctx.round == 50 && Knowledge::get().self_index == 0)
+        {
+            int gi = 0;
+            for (const auto& g : World::get().groups)
+            {
+                MB_LOG("GRP55 g%d n%zu gems%u gold%u hp%.0f str%.0f resp%d harmless%d mono%d at%d,%d\n", gi, g.tiles.size(), g.gems, g.gold, g.total_hp, g.total_strength, g.respawn,
+                       g.harmless ? 1 : 0, g.has_monolith ? 1 : 0, g.center.x, g.center.y);
+                ++gi;
+            }
+        }
         MB_LOG("G55 r%d k%d slot%d p%d,%d hp%d g%u gold%u bank%u/%u mode %s/%s t%d gemw%.2f mapgems%.0f mapgold%.0f trav%d\n", ctx.round, static_cast<int>(kit().type),
                Knowledge::get().self_index, ctx.pos.x, ctx.pos.y, static_cast<int>(ctx.hp), ctx.gems, ctx.gold,
                static_cast<unsigned>(cambc::global_submitted_gems(cambc::team::ally)), static_cast<unsigned>(cambc::global_submitted_gems(cambc::team::enemy)),

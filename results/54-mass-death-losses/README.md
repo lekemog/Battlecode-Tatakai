@@ -139,3 +139,19 @@ Proposed sweep (no code yet): coordinate search over about 8 weights (shop 0, 3,
 - Candidates need no compilation: the built `bot.wasm` carries the weights in a labelled data block (`magic` field of `learn::Params`, volatile floats); a script copies the wasm, finds the magic, writes the 94 floats and registers the bot folder (the local runner of the training tools does the same). If a rebuild is used instead, an incremental build of one file takes about 10 s.
 - Cost per candidate: one 140-game mirror = about 2.0-2.5 minutes on the 4 cores (measured: 9 mirrors of 140 games ran at 1.6-2.6 min each); with the 226 rotated-copy games added, 366 games = about 5.5 minutes. A sweep of 16 candidates on 366 games = about 90 minutes (140 games only: 40 minutes); a second pass with only the 4 best on 366 fresh games adds 25 minutes. Statistical resolution: sd of the win share is about 4 points at 140 games and 2.6 at 366, so a weight change must move the mirror by 5+ points to be selected; smaller gains need the panel.
 - Evaluate each candidate also vs v50p1 (another 5.5 minutes per candidate) only for weights touching fights or banking.
+
+## Code candidates built from the replays: v50q7, v50q8 and the combination v50r1
+
+Base `bots/v50e1`; opponent `bots/v50p1`; 140 games (70 maps x 2 sides) + 226 rotated/flipped games each. Baseline v50e1 vs v50p1: 63.6% (70 maps), 62.4% (rotated), 62.8% over 366; deaths 8.5 / 9.5.
+
+| candidate | change | vs v50p1 (70 / rotated / 366) | deaths per game (70 / rot) | first death median (70 / rot) | plain mirror vs v50e1 (70 / rot / 366) | verdict |
+|---|---|---|---|---|---|---|
+| v50q5 | sim_ally_contact 3 | 67.1 / 65.0 / 65.8% | 6.8 / 7.5 | 132 / 115 | 51.4 / 54.9 / 53.6% | small plus, 20% fewer deaths |
+| v50q7 | contested-centre avoidance until r100 (groups with `cheb(centre, enemy spawn) <= cheb(centre, our spawn) + 6` x0.5 unless an ally committed to it or its camps are down) | 65.0 / 69.0 / 67.5% | 8.3 / 8.2 | 109 / 130 | 50.7 / 43.8 / 46.4% | +4.7 vs p1 but loses the plain mirror: rejected |
+| v50q8 | flee a pack: >= 2 enemy champions within 6, no ally within 7, verdict not clearly favourable (margin 1.5), retreat committed 3 rounds | 66.4 / 60.6 / 62.8% | 8.3 / 9.5 | 99 / 108 | 47.9 / 45.1 / 46.2% | no gain, loses plain: rejected |
+| v50r1 | v50e1 + sim_ally_contact 3 + hazard history fix (v50e1h) + opening-cohesion flag (`cohesion_until`, off) | 65.0 / 65.0 / 65.0% | 6.8 / 7.5 | 132 / 115 | 50.7 / 54.9 / 53.6% | best candidate; same as q5, the hazard fix is neutral |
+
+Notes:
+- q7 moves the opening targets away from the centre (first-death median rises 112 -> 130 on the rotated set, share of first deaths by r80 31% vs 35%) and gains 4.7 points against the early pack, but the same change costs 7 to 11 points in the plain mirror: the centre group is simply worth farming against an opponent that does not hunt. A softer variant (factor 0.8, or only when an enemy sighting is recent) was not tested.
+- q8 does not reduce deaths (the retreat from a pack is the same failure as the existing one: they follow); `retreat` toward spawn/allies cannot outrun them.
+- v50r1 carries the cohesion rule as `cfg::cohesion_until` (0 = off) so the strong-panel result can switch it on without a rebuild of the logic; nothing else differs from v50e1 + q5 + hazard fix.

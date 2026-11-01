@@ -72,4 +72,4 @@ Reading: every knob that changes fight/retreat behaviour loses to v50d in self-p
 
 - Build a local "early pack" opponent (all champions move together to the central groups from r1) to reproduce the r21-37 contacts; test: (1) lone champion keeps away from known enemy reach in the opening, (2) first target of each champion chosen within N tiles of an ally for the first 60 rounds only (the opening ball tried to hold the team until r150 and lost 33%), (3) earlier recall/dash when the sim predicts loss and the champion is not cornered.
 - Pinned panel on v50e1 (v50d baseline).
-- Weak bench / pools check for v50e1 (running).
+- Weak bench check for v50e1 (done): old 40 maps 559/560 (v50d 560/560), new 30 maps 418/420 (v50d 415/420); no regression.

@@ -1,0 +1,240 @@
+{
+ "label": "s2_v50h5e",
+ "version": "226",
+ "games": {
+  "ha2t-34b36bab": [
+   {
+    "map": "00breadcrumbs",
+    "side": "b",
+    "match": "36f496f2-fe09-47c2-9276-7d4004bb1669",
+    "win": false,
+    "gems": 889,
+    "opp_gems": 1000,
+    "deaths": 7,
+    "kills": 9,
+    "rounds": 1404
+   },
+   {
+    "map": "01gold_rush",
+    "side": "a",
+    "match": "a255b627-120f-4a9e-a4fc-60981ac717e7",
+    "win": false,
+    "gems": 60,
+    "opp_gems": 1075,
+    "deaths": 19,
+    "kills": 1,
+    "rounds": 1257
+   },
+   {
+    "map": "02geodes",
+    "side": "b",
+    "match": "2b6cce8a-a9bd-4018-9f60-c8af10663208",
+    "win": true,
+    "gems": 1003,
+    "opp_gems": 971,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 887
+   },
+   {
+    "map": "00lost_world",
+    "side": "a",
+    "match": "8b7ed861-0bfc-49d0-850b-4c045674a2f1",
+    "win": true,
+    "gems": 1007,
+    "opp_gems": 308,
+    "deaths": 9,
+    "kills": 20,
+    "rounds": 803
+   },
+   {
+    "map": "00packs",
+    "side": "b",
+    "match": "74046f20-8f6c-442a-b0cd-0fd48dcbbf5c",
+    "win": true,
+    "gems": 1018,
+    "opp_gems": 456,
+    "deaths": 2,
+    "kills": 6,
+    "rounds": 1209
+   }
+  ],
+  "Gamblr-f583fbd0": [
+   {
+    "map": "02the_pond",
+    "side": "a",
+    "match": "fd3c6b3a-70fc-411e-a94c-2561772b1b50",
+    "win": false,
+    "gems": 501,
+    "opp_gems": 1008,
+    "deaths": 15,
+    "kills": 2,
+    "rounds": 1805
+   },
+   {
+    "map": "00quadrants",
+    "side": "b",
+    "match": "68fb3816-8348-4182-9132-ca327cb77fdd",
+    "win": false,
+    "gems": 880,
+    "opp_gems": 1032,
+    "deaths": 1,
+    "kills": 2,
+    "rounds": 555
+   },
+   {
+    "map": "01elk_arena",
+    "side": "a",
+    "match": "fc62c436-6572-4d53-b105-1d7a25f75c4f",
+    "win": true,
+    "gems": 1061,
+    "opp_gems": 354,
+    "deaths": 5,
+    "kills": 23,
+    "rounds": 1493
+   },
+   {
+    "map": "02famine",
+    "side": "b",
+    "match": "d045adb8-8cab-4a32-b71a-81e20046d805",
+    "win": false,
+    "gems": 683,
+    "opp_gems": 1087,
+    "deaths": 4,
+    "kills": 1,
+    "rounds": 1173
+   },
+   {
+    "map": "00dunes",
+    "side": "a",
+    "match": "ff355ac2-8fad-4cc4-8eea-80ef0df5eafc",
+    "win": false,
+    "gems": 323,
+    "opp_gems": 1003,
+    "deaths": 13,
+    "kills": 3,
+    "rounds": 938
+   }
+  ],
+  "Valenki-975c2c15": [
+   {
+    "map": "00elkring",
+    "side": "b",
+    "match": "99df94f4-43d6-4857-9d44-bff9bb8df01c",
+    "win": true,
+    "gems": 1001,
+    "opp_gems": 989,
+    "deaths": 5,
+    "kills": 5,
+    "rounds": 930
+   },
+   {
+    "map": "00rows",
+    "side": "a",
+    "match": "150a138e-53a4-4d7e-9e95-e3ad77dd267f",
+    "win": false,
+    "gems": 807,
+    "opp_gems": 1116,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 1228
+   },
+   {
+    "map": "02harvest",
+    "side": "b",
+    "match": "f31b8655-8a35-42f5-8b4f-b39d7983ce83",
+    "win": true,
+    "gems": 1000,
+    "opp_gems": 602,
+    "deaths": 1,
+    "kills": 1,
+    "rounds": 1078
+   },
+   {
+    "map": "00split",
+    "side": "a",
+    "match": "2598ce0e-dfaa-4d9d-a019-21e6eb01940b",
+    "win": false,
+    "gems": 750,
+    "opp_gems": 1018,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 800
+   },
+   {
+    "map": "01big_world",
+    "side": "b",
+    "match": "20bc9852-a5dd-40bd-8a94-5c4a3f0d7239",
+    "win": true,
+    "gems": 1051,
+    "opp_gems": 484,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 1270
+   }
+  ],
+  "Kratos-6599a236": [
+   {
+    "map": "00reverse_spiral",
+    "side": "a",
+    "match": "77877013-9a04-4695-9ef0-409657a9ac15",
+    "win": false,
+    "gems": 603,
+    "opp_gems": 1000,
+    "deaths": 12,
+    "kills": 2,
+    "rounds": 1661
+   },
+   {
+    "map": "01the_farm",
+    "side": "b",
+    "match": "e52c3467-6acd-4acb-871f-b9b0c576d8d2",
+    "win": true,
+    "gems": 1033,
+    "opp_gems": 594,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 1049
+   },
+   {
+    "map": "00rushbait_v2",
+    "side": "a",
+    "match": "d43b9e2b-d64c-469e-8beb-c6b1df7deeac",
+    "win": true,
+    "gems": 1031,
+    "opp_gems": 881,
+    "deaths": 14,
+    "kills": 7,
+    "rounds": 1527
+   },
+   {
+    "map": "adgato_gemcombat4",
+    "side": "b",
+    "match": "35b28fab-939b-43d3-9694-09296e825ab3",
+    "win": false,
+    "gems": 630,
+    "opp_gems": 1001,
+    "deaths": 16,
+    "kills": 0,
+    "rounds": 665
+   },
+   {
+    "map": "00gem_fields",
+    "side": "a",
+    "match": "9fcc7d4f-a63e-4aa0-8df3-71e36dded8fb",
+    "win": true,
+    "gems": 1010,
+    "opp_gems": 82,
+    "deaths": 4,
+    "kills": 6,
+    "rounds": 554
+   }
+  ]
+ },
+ "groups": {
+  "ha2t-34b36bab": "63be8aa6-a561-437a-8a9c-e998788c91e0",
+  "Gamblr-f583fbd0": "b5473fa9-b880-4b77-b7d8-a7651ace292f",
+  "Valenki-975c2c15": "33a95671-47d5-4581-9973-2f9f2d1c6e6b",
+  "Kratos-6599a236": "da945d81-a06d-4c90-9dc3-0c1c25f21e5f"
+ }
+}

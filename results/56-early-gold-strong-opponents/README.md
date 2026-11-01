@@ -186,6 +186,24 @@ Candidates (built on v50e1; base v50e1; 70 maps both sides, 140 games, 0 bot fau
 - v50h2e and v50h5e were smoke-tested by the full batches (no faults). The first v50h5e batch was cut short by a restart; it was rerun to the full 140 games.
 - Proposal for the strong panel, in order: v50h14 (cohesion), v50h2e (pairs, the only one above 55%). v50h15 only if a panel against ha²t and Valenki (who bank at r55-67) is wanted for banking; the carrier that dies at the altar suggests the altar-contest, not the threshold, is the real target (a rule to bank from the nearest safe tile or to escort the carrier, not tested).
 
+## Fake recall and Marcella (follow-ups from outside notes, treated as hypotheses)
+
+Fake recall (`scripts/fake.py`, decoded replays of our 20 games, every champion's runs of consecutive rounds in the recall channel):
+
+| Team | recall episodes | 3-5 rounds, ending at spawn | 1-2 rounds | 6+ rounds | constant-timer runs |
+|---|---|---|---|---|---|
+| ha²t | 170 | 166 (159 reach spawn) | 4 | 0 | 0 |
+| Gamblr | 210 | 207 | 0 | 3 | 0 |
+| Valenki | 258 | 250 | 8 | 0 | 0 |
+| Kratos | 213 | 208 | 4 | 1 | 2 |
+| us (both teams' own) | 994 | 938 | 56 | 0 | 0 |
+
+None of the four fake-recalls (a fake restarted every turn would show as long runs at a constant timer). `bots/v50e1g` (guard: an enemy in the recall state counts as channeling only when `remaining_channel_time() <= 2`) is built as a cheap defensive option and is identical to v50e1 in two smoke games (same rounds, gems and winner on 00anvil and 02crossing). Not mirror-tested and no fake-recaller opponent built, by decision.
+
+Marcella (`bots/v50e1/src/brain.cpp`): the 2-gold-per-gem passive only enters through `cfg::passive_rewards`, which is false, so target scoring, the bag threshold (`tribute_gems` 25) and the shop purse (`shop_recall_gold` 300) all ignore it. In the decoded and summarised games Marcella is not the dominant carrier of the four teams: share of gems deposited by r200 is ha²t 32%, Gamblr 33%, Kratos 30% (Marcella is their top depositor but with Heart and Ryth/Vendetta at 24-25%), Valenki: Vesper 47% (Marcella is their fifth pick); share of gem pick-ups 25-29%. First deposits: ha²t's are by Heart 36, Marcella 21, Ryth 18 of 105 games; Valenki's by Vesper 70 of 102; Kratos' by Vesper 35 and Marcella 34. So the notes' 44% does not describe these four, and ha²t's and Valenki's r55-67 deposits are mostly not Marcella's.
+
+`bots/v50e1mc` = v50e1 with Marcella banking from 12 gems (tribute pays 24+ gold) and shopping from a 90-gold purse (was 300). Mirror vs v50e1, 140 games, 0 faults: 74 wins, share .529, gem margin +16; first deposit median r92 (r97), banked by r200 66.4 (66.0), gold r200 680 (672). Below the 55% bar; not proposed for the panel.
+
 ## Scope scan
 
 All thirteen v50d-based candidates are constant changes except v50h13 (a 16-line block in `score_group`, active only before r150 and only when another ally has a current target). Bot faults: 0 in all 140-game batches. Per-map swings (2-0 on a map is the maximum, two games per map) are scattered with no map that loses for every candidate. Fuel was not scanned beyond the bot-fault count.

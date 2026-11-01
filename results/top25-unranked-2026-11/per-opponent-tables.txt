@@ -1,0 +1,40 @@
+ERA COUNTS
+v50 125 wins 21
+old 905 wins 32
+| rank | opponent | v50 W-L | typical draft | deaths us/them r400 | earned gold us/them r200 | r800 | collected gems r400 | r800 | mean banked us/them (losses) |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Intercontinental Fish | 2-18 | Cassi,Heart of Ruin,Issac,Vendetta,Vesper Vale | 4.2/0.9 | 608/986 | 2931/5031 | 211/467 | 421/874 | 366/1040 |
+| 3 | newer team | 3-7 | Cassi,Heart of Ruin,Issac,Marcella,Varg,Vendetta | 1.2/0.3 | 771/947 | 3950/4963 | 276/398 | 534/855 | 487/1018 |
+| 4 | Ad Astra | 0-10 | Heart of Ruin,Ryth,Vesper Vale | 2.1/0.4 | 647/965 | 3488/6069 | 208/263 | 477/751 | 431/1038 |
+| 5 | Mite | 2-13 | Heart of Ruin,Marcella,Tavi,Vendetta,Vesper Vale | 3.9/0.4 | 598/978 | 3187/4995 | 234/327 | 532/817 | 494/951 |
+| 6 | prism best girl | 0-10 | Cassi,Heart of Ruin,Issac,Vendetta,Vesper Vale | 4.1/1.2 | 739/996 | 3496/5560 | 221/303 | 489/822 | 367/969 |
+| 7 | NEETCoders | 1-4 | Heart of Ruin,Marcella,Ryth,Vendetta,Vesper Vale | 3.6/0.2 | 482/887 | 3000/4035 | 159/430 | 383/772 | 356/1038 |
+| 8 | policy wonk | 0-5 | Heart of Ruin,Marcella,Tavi,Varg,Vendetta | 2.4/0.0 | 798/1090 | 3759/6766 | 212/294 | 457/855 | 382/1075 |
+| 9 | print dont int | 4-6 | Heart of Ruin,Marcella,Ryth,Vendetta,Vesper Vale | 2.9/1.2 | 763/894 | 4278/5515 | 175/216 | 477/568 | 408/1018 |
+| 11 | Sponge(Albert and Bob) | 0-5 | Heart of Ruin,Marcella,Ryth,Vendetta,Willow | 3.6/0.8 | 582/874 | 3432/4760 | 282/236 | 724/742 | 600/1029 |
+| 13 | test4 | 3-2 | Cassi,Heart of Ruin,Issac,Marcella,Tavi,Vesper Vale | 2.8/2.8 | 773/784 | 3804/4477 | 355/334 | 783/890 | 368/1012 |
+| 15 | Trzy Kwaterki | 2-8 | Heart of Ruin,Marcella,Ryth,Vendetta,Vesper Vale | 1.9/1.1 | 811/1057 | 4779/5749 | 252/212 | 605/720 | 366/1018 |
+| 17 | Claudus Maximus | 1-9 | Heart of Ruin,Marcella,Tavi,Vendetta,Vesper Vale | 3.4/0.6 | 631/954 | 2949/5269 | 202/292 | 461/701 | 332/1036 |
+| 22 | conqueror_of_openai | 1-4 | Heart of Ruin,Marcella,Varg,Vendetta,Vesper Vale | 6.6/2.6 | 657/821 | 2501/6039 | 111/194 | 271/566 | 108/1015 |
+| 24 | Sheeesh--- | 2-3 | Marcella,Prism,Tavi,Varg,Willow | 4.4/0.0 | 606/690 | 2691/3573 | 236/289 | 530/656 | 399/1017 |
+
+| rank | opponent | old W-L | typical draft | deaths us/them r400 | earned gold us/them r200 | r800 | collected gems r400 | r800 | mean banked us/them (losses) |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Intercontinental Fish | 0-90 | Cassi,Heart of Ruin,Issac,Marcella,Vendetta,Vesper Vale | 7.3/1.4 | 593/1356 | 2022/6372 | 203/469 | 318/891 | 270/1031 |
+| 2 | Univardisty of Shingtonwash | 0-55 | Heart of Ruin,Marcella,Varg,Vendetta,Vesper Vale | 6.6/1.1 | 595/1187 | 2082/6566 | 142/344 | 267/754 | 252/1027 |
+| 3 | newer team | 2-103 | Cassi,Issac,Ryth,Stellar,Tavi,Varg | 5.3/0.6 | 807/1350 | 2341/5218 | 256/571 | 352/956 | 255/1032 |
+| 4 | Ad Astra | 3-32 | Cassi,Issac,Ren,Ryth,Stellar,Tavi | 5.5/1.8 | 990/1231 | 2773/5033 | 427/601 | 598/1019 | 413/1004 |
+| 5 | Mite | 0-55 | Marcella,Ryth,Tavi,Vendetta,Vesper Vale | 7.7/0.7 | 579/1366 | 1981/6997 | 151/440 | 260/815 | 223/909 |
+| 6 | prism best girl | 0-50 | Heart of Ruin,Marcella,Prism,Ryth,Vesper Vale | 6.8/1.1 | 536/1114 | 2244/6485 | 135/299 | 292/864 | 251/1064 |
+| 7 | NEETCoders | 4-36 | Cassi,Issac,Ren,Ryth,Stellar,Varg | 3.7/1.8 | 1123/1235 | 3132/4745 | 493/604 | 665/982 | 478/1029 |
+| 8 | policy wonk | 0-50 | Heart of Ruin,Marcella,Vendetta,Vesper Vale,Willow | 7.2/1.0 | 557/1266 | 2094/7349 | 131/273 | 245/825 | 217/1034 |
+| 10 | T1 | 1-19 | Cassi,Issac,Ren,Ryth,Stellar,Varg | 5.0/0.9 | 959/1274 | 2635/4318 | 434/632 | 562/828 | 446/855 |
+| 11 | Sponge(Albert and Bob) | 0-25 | Cassi,Issac,Ren,Ryth,Stellar,Varg | 5.6/1.6 | 949/1225 | 2391/4501 | 336/566 | 407/998 | 277/1031 |
+| 15 | Trzy Kwaterki | 3-72 | Cassi,Issac,Ren,Stellar,Tavi,Varg | 6.8/1.3 | 759/1399 | 2347/6568 | 277/468 | 379/863 | 313/973 |
+| 16 | Noobot | 0-10 | Cassi,Issac,Marcella,Ryth,Stellar,Tavi | 7.8/0.9 | 366/827 | 1721/4139 | 58/152 | 148/340 | 425/808 |
+| 17 | Claudus Maximus | 0-40 | Heart of Ruin,Marcella,Tavi,Vendetta,Vesper Vale | 8.8/0.9 | 518/1320 | 1878/7802 | 92/311 | 201/880 | 157/1040 |
+| 18 | :3 | 7-108 | Heart of Ruin,Marcella,Prism,Vendetta,Vesper Vale | 5.5/1.1 | 787/1263 | 2725/6130 | 295/424 | 468/870 | 395/993 |
+| 20 | procless | 0-15 | Heart of Ruin,Marcella,Ryth,Vendetta,Vesper Vale | 6.6/0.3 | 439/1055 | 1798/6454 | 152/310 | 275/829 | 290/1006 |
+| 22 | conqueror_of_openai | 1-29 | Cassi,Issac,Stellar,Varg | 2.3/0.9 | 1061/1352 | 2881/4104 | 464/811 | 594/1071 | 483/1018 |
+| 23 | SSSA | 6-39 | Cassi,Issac,Ryth,Vendetta | 4.2/2.7 | 918/1205 | 2985/4395 | 418/497 | 682/934 | 562/1011 |
+| 25 | SkuBap | 5-45 | Cassi,Issac,Ren,Stellar,Tavi,Varg | 2.5/3.2 | 1097/1184 | 3228/4591 | 482/614 | 667/936 | 547/971 |

@@ -19,6 +19,7 @@ and run tests, but announce it here first.
 ## Windows (newest first)
 | Who | What | Why | Start (UTC) | End (UTC) | Status |
 |---|---|---|---|---|---|
+| Leke / main Claude | strong-opponent panel (ha²t, Gamblr, Valenki, Kratos; 20 games per run): baseline v223 first, then candidates one at a time (each is live during its own run) | test candidates against the teams that beat us | 2026-11-01 13:20 | 2026-11-01 17:30 | open |
 | Leke / main Claude | pinned panel run for candidate v223 (v50e1, Prospector opener) vs the same frozen teams as the v222 baseline; v223 is live during the run | candidate test | 2026-11-01 04:55 | 2026-11-01 06:10 | ended: v223 won the panel (35/45 vs 32/45); v223 stays live, revert target v222 |
 | Leke / main Claude | pinned panel baseline: v222 (v50d) vs ten frozen mid-rank teams (50 games); live bot unchanged | baseline for candidate v50e1 | 2026-11-01 04:35 | 2026-11-01 04:30 | ended: baseline done (v222 32/45 wins) |
 | Leke / main Claude | submit v50d (v50c + sealed-altar breach) as the lock-night bot; no scrims | ladder locks at midnight UK; fixes zero-deposit games on altar-ringed maps (issue #45) | 2026-10-31 23:11 | 2026-10-31 23:22 | ended: v222 active at 23:21 UTC; revert target v221 (`cambc submissions activate 221`) |

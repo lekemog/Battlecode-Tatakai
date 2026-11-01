@@ -9,7 +9,7 @@ Date: 1 November 2026. Baseline: v50d (live version 222). Ladder engine 2.0.0, c
 - In the 20 decoded games our champions die 70 times before r300, theirs 28 times. Our first death comes before theirs in 15 of 20 games (median r93, theirs r166).
 - Those deaths are collapses on a champion that is away from its team: **57% of our early deaths are against two or more enemies than we have allies nearby (theirs 7%), and 43% happen with no ally within 7 tiles (theirs 21%)**. In rounds 30-200 our champions stand more than 7 tiles from their nearest ally 38% of the time (opponents 26%; against Gamblr and Valenki 44% against 15%).
 - Items and draft are not the first-order cause. We buy earlier and more than three of the four (median first purchase r52 against r67; 13.8 items by r200 against 11.3). Gamblr, Valenki and Kratos draft Vesper Vale and Vendetta with Heart of Ruin and Cassi & Issac; ha²t drafts exactly our order.
-- Eleven isolated candidates (v50h1 to v50h12, one change each, all copied from v50d) were built and are being run against v50d in paired mirror games. Results in the table below.
+- Fourteen isolated candidates (v50h1 to v50h13 copied from v50d, v50h14 from v50e1, one change each) were run against their base in paired mirror games (70 maps, both sides). None passes 55%; the mirror cannot judge them (see below). Proposed for the strong panel: v50h13/v50h14 (opening cohesion), v50h5 and v50h2.
 - Pinning: `cambc match-groups create <team id> --source-group <group id>` can pin all four teams (details below). I did not run it.
 
 ## Facts
@@ -97,6 +97,18 @@ Cohesion in rounds 30-200 (`out/cohesion.txt`; "alone" = nearest ally more than 
 
 Group choice is not the difference. Share of each pick-up's distance that lies on our own spawn side (0.5 = halfway): ours 0.34 (r1-100) and 0.36 (r101-200), theirs 0.39 and 0.40. We take groups slightly nearer home than they do.
 
+### First deposits (summaries of the 410 matches)
+
+| Team | first deposit, median round (all their games) | median size | gems banked by r200 (mean) | against us: first deposit / size / banked by r200 | us against them: first deposit / size / banked by r200 |
+|---|---|---|---|---|---|
+| ha²t | 115 | 22 | 66 | r67 / 7 / 116 | r191 / 29 / 38 |
+| Gamblr | 103 | 26 | 51 | r78 / 31 / 59 | r60 / 21 / 109 |
+| Valenki | 84 | 22 | 69 | r55 / 19 / 82 | r79 / 15 / 60 |
+| Kratos | 101 | 21 | 50 | r111 / 31 / 78 | r100 / 27 / 74 |
+| us (30 games) | 93 | 21 | 69 | | |
+
+Only ha²t and Valenki bank first against us (ha²t 124 rounds before us, with a 7-gem bag: they deposit small and early, we hold a 29-gem bag until r191). Gamblr and Kratos do not bank earlier than we do.
+
 ## Hypothesis
 
 The four teams move as a group in the opening and their early contact fights are 2-3 against one champion of ours that is farming alone. v50d targets camps one champion at a time (`squad_size 1`), so a farmer is regularly more than 7 tiles from its nearest ally exactly where the opponent's pack arrives. Each such loss costs about 60 rounds of one champion, its bag and 50-110 gold to the other side, and the lead snowballs (the lost champions' camps are then taken by the winner). The other early-game levers are not the cause: group choice (no), item timing (we are earlier), draft (ha²t has our draft).
@@ -122,14 +134,41 @@ Caveats:
 - Their draft and purchase profile is stable per team (ha²t 400 of 400 matches the same three first picks; Valenki 237 of 400 the same five), so one frozen version per team is a fair sample of its behaviour.
 - Two of the teams share a draft (Valenki's main comp equals Kratos' second comp), so the four panel entries are not independent samples of the strong-opponent type.
 
-## Candidates (all copied from v50d, header comment `// Polaris v50hN: ...`, one change each)
+## Candidates
 
-See the table in the section below; results are filled in as the batches finish.
+All copied from v50d (v50h14 from v50e1, the live v223), header comment `// Polaris v50hN: ...`, one change each. Mirror = candidate against its base on all 70 maps, both sides, `--release`, deterministic (a control copy of v50d scores exactly 70/70). "Share" = candidate wins / decided games. The early-death columns are per game per side in the same mirror games (candidate / base).
+
+| Bot | Change | Wins / 140 | Share | Gem margin | Deaths by r150 | Deaths by r300 | Gold r200 |
+|---|---|---|---|---|---|---|---|
+| v50h1 | opening party of three takes the nearest elk group (`opening_party 3`) | 66 | .471 | -57 | .67 / .63 | 1.51 / 1.36 | 648 / 687 |
+| v50h2 | opening pairs until r150 (`squad_size 2`, `squad_until_round 150`) | 71 | .507 | -14 | .61 / .69 | 1.35 / 1.40 | 669 / 661 |
+| v50h3 | opening escort ball until r120 (`escort_until 120`, squad 9) | 46 | .329 | -203 | .57 / .49 | 1.33 / 1.23 | 510 / 741 |
+| v50h4 | draft mode 19 (Vesper second) | 54 | .386 | -100 | .73 / .62 | 1.34 / 1.16 | 637 / 668 |
+| v50h5 | earlier disengage off spawn (`hazard_threshold 0.2`) | 70 | .500 | +20 | .67 / .66 | 1.31 / 1.32 | 653 / 649 |
+| v50h6 | farm our half first (`territory_penalty 1.0`) | 73 | .521 | +14 | .82 / .80 | 1.54 / 1.62 | 666 / 670 |
+| v50h7 | draft Heart, Vesper, Vendetta, Cassi & Issac, Marcella | 21 | .150 | -405 | 1.01 / .55 | 2.04 / 1.06 | 623 / 700 |
+| v50h8 | Jungle shards before Treasure (`shop_plan 6`) | 60 | .429 | -114 | .83 / .80 | 1.59 / 1.52 | 669 / 664 |
+| v50h9 | unseen pack members in the fight simulation (`phantom_mode 1`) | 35 | .250 | -239 | .49 / .43 | 1.05 / .89 | 612 / 682 |
+| v50h10 | shared pack sightings (`phantom_mode 2`, `s_pack`; `group_news` off) | 57 | .407 | -137 | .83 / .75 | 1.53 / 1.36 | 649 / 672 |
+| v50h11 | allies walk to a retreating champion (`sos_radius 12`; `group_news` off) | 62 | .443 | -56 | .71 / .84 | 1.44 / 1.64 | 649 / 655 |
+| v50h12 | committed homeward retreat (`retreat_mode 2`) | 50 | .357 | -213 | .89 / .64 | 1.75 / 1.25 | 631 / 712 |
+| v50h13 | opening cohesion: before r150 a group more than 12 tiles from the nearest ally's current target has its rate scaled by 12/distance (new code, `brain.cpp` score_group) | 66 | .471 | -36 | .80 / .65 | 1.57 / 1.41 | 643 / 682 |
+| v50h14 | v50h13's change on v50e1 (against v50e1) | 67 | .479 | -10 | .79 / .65 | 1.53 / 1.53 | 645 / 680 |
+
+Reading:
+- No candidate reaches 55%. Best are v50h6 (.521) and v50h2 (.507), both within noise (a 140-game split of 73/67 is p about .3).
+- The mirror cannot test the hypothesis. Two v50d bots farm solo against each other and lose only 1.0 to 1.6 champions by r300 per side (the real games against the four: 3.5). A fix for being collapsed by a pack has nothing to protect against here and only pays its cost (fewer pick-ups: 9.9 against 10.5 by r200 for h13). Every behaviour-changing knob lost or tied.
+- Draft (h4, h7) and shop-order (h8) changes lose badly in the mirror; they were not diagnosed as the cause either.
+- Panel proposal (to be run by the lead with `PANEL_FILE=tools/panel/panel_strong.json`, baseline v223): first v50h14 (cohesion on the live bot), then v50h2 (pairs, the least costly behaviour change) and v50h5 (earlier disengage, the only one directly targeting lone deaths with no mirror cost). Success measure: deaths by r150 and pick-ups at r100 against the four, not only wins.
+- A trace copy (`v50h0trace`) was not built: our stdout in the ladder replays carries only fuel lines, but the decoded replay already gives every champion's tile and health each round, which is what the diagnosis needed.
 
 ## Scope scan
 
-To be filled in.
+All thirteen v50d-based candidates are constant changes except v50h13 (a 16-line block in `score_group`, active only before r150 and only when another ally has a current target). Bot faults: 0 in all 140-game batches. Per-map swings (2-0 on a map is the maximum, two games per map) are scattered with no map that loses for every candidate. Fuel was not scanned beyond the bot-fault count.
 
 ## Still to do
 
-To be filled in.
+- Strong panel (lead): v223 baseline, then v50h14, v50h2, v50h5, with `--pin`.
+- If cohesion helps in the panel: tune `cohesion_radius` (12) and `cohesion_until` (150); consider making the rule depend on a seen enemy so it costs nothing on quiet maps.
+- ha²t banks small bags at r67 while we carry to r191 against it (see first deposits): an earlier-tribute rule when the enemy leads the bank race is a separate lever not tested.
+- The ranked-group pin is untested.

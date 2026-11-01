@@ -1,0 +1,1 @@
+// Polaris v50q7: v50e1 + contested-centre avoidance in the opening (cfg::q7_avoid_centre)

@@ -139,7 +139,14 @@ def run(label, version, pin=None):
                 mid = str(find(m, 'matchId', 'id', 'uuid'))
                 sp = os.path.join(OUT, 'summaries', f'{mid}.json')
                 os.makedirs(os.path.dirname(sp), exist_ok=True)
-                cli('matches', 'summary', mid, '-o', sp, '--json', parse=False)
+                for _try in range(8):   # the summary can lag a few seconds behind the 'finished' status
+                    try:
+                        cli('matches', 'summary', mid, '-o', sp, '--json', parse=False)
+                        break
+                    except RuntimeError:
+                        if _try == 7:
+                            raise
+                        time.sleep(10)
                 # The list is not guaranteed to be in map order: match on the map's name when the entry carries one.
                 name = str(find(m, 'map', 'mapName', 'mapSlug') or '')
                 j = next((k for k, mp in enumerate(opp['maps']) if mp == name or mp.lstrip('0123456789') == name), i)

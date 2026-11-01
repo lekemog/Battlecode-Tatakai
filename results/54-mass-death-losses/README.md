@@ -73,3 +73,69 @@ Reading: every knob that changes fight/retreat behaviour loses to v50d in self-p
 - Build a local "early pack" opponent (all champions move together to the central groups from r1) to reproduce the r21-37 contacts; test: (1) lone champion keeps away from known enemy reach in the opening, (2) first target of each champion chosen within N tiles of an ally for the first 60 rounds only (the opening ball tried to hold the team until r150 and lost 33%), (3) earlier recall/dash when the sim predicts loss and the champion is not cornered.
 - Pinned panel on v50e1 (v50d baseline).
 - Weak bench check for v50e1 (done): old 40 maps 559/560 (v50d 560/560), new 30 maps 418/420 (v50d 415/420); no regression.
+
+## Local early-pack opponent (v50p1) and death-avoidance candidates
+
+Base for everything below is `bots/v50e1` (live 223). Opponent: `bots/v50p1` = v50e1 + `hunt_mode 1` + `fight_margin 0` (test harness only; variants `v50p2` ball, `v50p3` pairs, `v50p4` no hazard / margins 0 and 0.3).
+
+### What the real opponents do early (8 decoded replays)
+
+- Both teams head for the map centre together: the opposing pack (3-6 champions) has mean pairwise distance 1-4 from r5 and is within 0-5 tiles of the centre group by r15 (00swirl: centre (22,15), their distances to it at r15: 3,5,2,1; ours 2,2,7,3).
+- First contact is at the centre at r15-35 with 3-4 of them against 1-3 of ours, first deaths r21-37 in 4 of 8 games (00swirl x2, 02stalactites, 00crater) and r118-168 in the others.
+- Cohesion r20-200 (us/them): 4.9/4.9, 9.2/7.5, 8.0/5.2, 18.1/8.1, 5.4/9.0, 11.8/11.6, 12.6/8.4, 9.4/6.3: they are tighter in 5 of 8.
+- Fights are won by numbers at the point of contact; the kill gold then buys items (1.5-3x ours at r400).
+
+### Validation of v50p1 (v50e1 playing against it, 140 games = 70 maps x both sides)
+
+| metric | real losses (37 games / 8 decoded) | v50e1 vs v50p1 | v50e1 vs v50d (self) |
+|---|---|---|---|
+| deaths per game of the bot under test | 13.0 | 8.5 | 5.5 |
+| first death <= r80 | 12 of 35 games (34%) | 55 of 140 (39%) | 39 of 140 (28%) |
+| first death median | about r117 | r112 | r125 |
+| deaths outnumbered (enemy champions > allies + 1) | 43% | 36% (110 deaths, 8 decoded games) | |
+| deaths with no ally within 6 | 36% | 55% | |
+| median first death, 8 decoded games | r84 | r85 | |
+
+v50p1 reproduces the timing and the champion-vs-champion nature of the real deaths but not their depth (13 vs 8.5 deaths) and it is weaker than the real teams overall (v50e1 beats it 63.6%; the real teams beat us 62%), because it has no better economy or fight code than we do. It is a valid *stress test for avoidance rules*, not a replacement for the panel.
+
+### Candidates vs v50p1 (win share of the candidate, 70 maps x 2 sides; baseline v50e1 63.6%)
+
+| candidate (on v50e1) | change | vs v50p1 win share | deaths/game | first death median | <= r80 | plain mirror vs v50e1 |
+|---|---|---|---|---|---|---|
+| v50e1 (baseline) | | 63.6% | 8.5 | 112 | 39% | |
+| v50q1 | hazard_threshold 0.15 | 56.4% | 6.5 | 130 | 34% | 47.1% (66-74) |
+| v50q2 | retreat_mode 2 | 60.7% | 7.2 | 114 | 34% | 32.9% |
+| v50q3 | squad_size 2 (pairs) | 60.0% | 8.3 | 109 | 34% | 42.9% |
+| v50q4 | fight_margin 1.0 | 60.7% | 8.7 | 98 | 41% | 47.9% |
+| v50q5 | sim_ally_contact 3 (allies join the fight simulation only when in contact) | **67.1%** | **6.8** | 132 | 32% | 51.4% |
+| v50q6 | standoff_recall_turns 3 | 57.9% | 8.8 | 105 | 40% | 47.9% |
+
+Only v50q5 is above the baseline. Rotated/flipped copies (226 games): v50q5 65.0% vs v50p1 (v50e1 62.4%), deaths 7.5 (v50e1 9.5), plain mirror vs v50e1 54.9% (124-102, gem margin +57). Over 366 games q5 scores 65.8% vs 62.8% for v50e1 against v50p1 (+3.0 points, below the +8 gate) with 20% fewer deaths, and 53.6% in the plain mirror. It is a candidate for the panel only if the panel slot is cheap; the evidence is deaths down, win share about flat. No candidate meets the "+8 points vs v50p1" rule.
+
+New designs from the replays that are NOT yet built (need code, not flags): avoid the contested centre group for the first ~100 rounds when the opening enemy pack is expected to be there (route first targets to the nearest non-central group); flee when 2+ enemy champions are within 6 and no ally within 7 (a rule on the existing sim verdict); take the first centre target as a pair with the nearest ally.
+
+### Hazard history port: `bots/v50e1h` (fresh implementation of the stale-sample fix)
+
+Change: the hazard model's 4-slot health ring keeps the round of each sample and ignores a slot that is not from `round - 3`; the history and the committed-disengage deadline are cleared while the champion is dead (the deadline used to be a function-local static that also survived a death). `cfg::hazard 0` removes both.
+
+| test | result |
+|---|---|
+| mirror vs v50e1, 70 maps x 2 sides (140 games) | 70-70, gem margin +4 |
+| mirror vs v50e1 on rotated copies (226 games) | 113-113, gem margin +6; net wins 0 on every map |
+| bot faults / engine error codes in 366 games | 0 / none |
+
+Neutral in self-play (identical results in almost every game, as expected for a rare path), so it is safe to ship together with the next real change.
+
+## Next ideas: quick coordinate search over learned weights
+
+`learn::params` holds 94 weights (blocks: group 0-15, fight 16-31, bank 32-43, recall 44-55, draft 56-67, shop 68-79, spawn 80-87, group2 88-93). The shop block is applied in `learned_plan` as `shop_weight(family) + shop_weight(7 + stat) - plan_position` (a stable sort of the plan by that score). Current shop weights (family 0-6 = monster, power, durability, treasure, jungle, home, bruiser; 7-9 = strength, focus, health): -2.44, -0.86, -0.03, **+2.38**, -2.00, **+1.57**, +0.84, -4.07, -3.69, -2.15. They were fitted when Treasure paid 20%:
+
+- Treasure (index 3, +2.38) keeps the opener in front of Jungle (-2.00); v50e1's Prospector step inherits this weight (`Step::wf = 3`).
+- Home (index 5, +1.57) is not in the fixed plan but is appended by `learned_plan` as a 5-shard step, so it is bought early; with Monster at -2.44 and Jungle at -2.00 the learned order may differ from the plan 7 order.
+- Group block features 9-15 (log gems, log gold, territory, jackpot, harmless, log health, altar distance) weigh gold against gems: gold features were fitted with Treasure at 20% and no Prospector.
+
+Proposed sweep (no code yet): coordinate search over about 8 weights (shop 0, 3, 4, 5, 6; group 9, 10; bank threshold weight 32), each +-25% (16 candidates), evaluated as a paired mirror vs v50e1.
+
+- Candidates need no compilation: the built `bot.wasm` carries the weights in a labelled data block (`magic` field of `learn::Params`, volatile floats); a script copies the wasm, finds the magic, writes the 94 floats and registers the bot folder (the local runner of the training tools does the same). If a rebuild is used instead, an incremental build of one file takes about 10 s.
+- Cost per candidate: one 140-game mirror = about 2.0-2.5 minutes on the 4 cores (measured: 9 mirrors of 140 games ran at 1.6-2.6 min each); with the 226 rotated-copy games added, 366 games = about 5.5 minutes. A sweep of 16 candidates on 366 games = about 90 minutes (140 games only: 40 minutes); a second pass with only the 4 best on 366 fresh games adds 25 minutes. Statistical resolution: sd of the win share is about 4 points at 140 games and 2.6 at 366, so a weight change must move the mirror by 5+ points to be selected; smaller gains need the panel.
+- Evaluate each candidate also vs v50p1 (another 5.5 minutes per candidate) only for weights touching fights or banking.

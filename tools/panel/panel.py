@@ -85,7 +85,7 @@ def score(summary, side):
 
 
 def run(label, version, pin=None):
-    panel = json.load(open(os.path.join(HERE, 'panel.json')))
+    panel = json.load(open(os.environ.get('PANEL_FILE') or os.path.join(HERE, 'panel.json')))
     os.makedirs(OUT, exist_ok=True)
     pinned = json.load(open(os.path.join(OUT, f'{pin}.json'))).get('groups', {}) if pin else {}
     path = os.path.join(OUT, f'{label}.json')

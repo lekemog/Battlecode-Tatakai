@@ -1,0 +1,77 @@
+{
+ "_comment": "Strong-opponent panel (issue 56): ha2t, Gamblr, Valenki, Kratos, current bots (no source_group). Run the baseline first, then each candidate with --pin BASELINE_LABEL. Map names checked against cambc maps list (70 maps).",
+ "opponents": [
+  {
+   "name": "ha2t-34b36bab",
+   "team_id": "34b36bab-66bb-4506-b032-2df6a081758d",
+   "maps": [
+    "00collision",
+    "02crossing",
+    "01hooks",
+    "00lanes",
+    "adgato_gemcombat2"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "Gamblr-f583fbd0",
+   "team_id": "f583fbd0-8720-484e-b00c-61159d393c7f",
+   "maps": [
+    "00anvil",
+    "02fields",
+    "01corridors",
+    "00stampede",
+    "adgato_gemcombat5"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "Valenki-975c2c15",
+   "team_id": "975c2c15-506b-489b-a439-839c8145933b",
+   "maps": [
+    "00crater",
+    "02arena",
+    "01starvation",
+    "00interlock",
+    "adgato_gemcombat1"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "Kratos-6599a236",
+   "team_id": "6599a236-7801-436f-a863-4acbb6aafa91",
+   "maps": [
+    "00quarry",
+    "02stalactites",
+    "01concentrated_wealth",
+    "00swirl",
+    "adgato_gemcombat3"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  }
+ ]
+}

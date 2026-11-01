@@ -43,3 +43,11 @@ print('group: camps hp centre first-capture')
 for g in sorted(size,key=lambda g:(size[g],hp[g])):
     n=sum(1 for c in cap if c[1]==g)
     print(f' g{g}: n{size[g]} hp{hp[g]} at{cen[g]} first={first.get(g)} captures={n} (us {sum(1 for c in cap if c[1]==g and c[2]==O)}) reward(gems,gold)~{val.get(g)}')
+# class totals: gems from captured groups split by group hp (>=10000 'heavy'); estimated from the first-claim reward of each group
+heavy=[0,0]; light=[0,0]; nh=[0,0]
+for rd,g,t in cap:
+    gm=val.get(g,(0,0))[0]
+    gm=max(0,gm)
+    if hp[g]>=10000: heavy[0 if t==O else 1]+=gm; nh[0 if t==O else 1]+=1
+    else: light[0 if t==O else 1]+=gm
+print(f'GEMS-BY-CLASS heavy(hp>=10000) us/them {heavy[0]}/{heavy[1]} in {nh[0]}/{nh[1]} captures; other groups us/them {light[0]}/{light[1]}')

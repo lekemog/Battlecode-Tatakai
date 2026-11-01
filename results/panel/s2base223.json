@@ -1,0 +1,67 @@
+{
+ "label": "s2base223",
+ "version": "223",
+ "games": {
+  "ha2t-34b36bab": [
+   {
+    "map": "00breadcrumbs",
+    "side": "b",
+    "match": "a180bfdf-2b9d-4bc3-bfca-de24cb32e841",
+    "win": true,
+    "gems": 1010,
+    "opp_gems": 785,
+    "deaths": 6,
+    "kills": 12,
+    "rounds": 1230
+   },
+   {
+    "map": "01gold_rush",
+    "side": "a",
+    "match": "66ba3e14-cf62-459a-9a5b-427e27775c1f",
+    "win": false,
+    "gems": 36,
+    "opp_gems": 1108,
+    "deaths": 18,
+    "kills": 2,
+    "rounds": 1285
+   },
+   {
+    "map": "02geodes",
+    "side": "b",
+    "match": "6cca78c8-d617-44e4-a6b8-f71fd988c70e",
+    "win": false,
+    "gems": 903,
+    "opp_gems": 1004,
+    "deaths": 3,
+    "kills": 0,
+    "rounds": 923
+   },
+   {
+    "map": "00lost_world",
+    "side": "a",
+    "match": "258c8933-47ff-4f0a-b1a1-78fd5bdf2d17",
+    "win": true,
+    "gems": 1021,
+    "opp_gems": 743,
+    "deaths": 17,
+    "kills": 19,
+    "rounds": 847
+   },
+   {
+    "map": "00packs",
+    "side": "b",
+    "match": "c7c3aeb3-8bf9-40bb-aad1-a9790a820ec2",
+    "win": true,
+    "gems": 1000,
+    "opp_gems": 712,
+    "deaths": 6,
+    "kills": 8,
+    "rounds": 1358
+   }
+  ]
+ },
+ "groups": {
+  "ha2t-34b36bab": "a092f58a-36b7-4468-9946-828240ca78a0",
+  "Gamblr-f583fbd0": "94c474d0-4a6f-4db4-a240-8700150140c4"
+ }
+}

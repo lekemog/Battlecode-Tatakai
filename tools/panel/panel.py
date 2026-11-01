@@ -109,10 +109,18 @@ def run(label, version, pin=None):
                     g = cli(*args)
                     break
                 except RuntimeError as err:
+                    if '409' in str(err):
+                        g = None   # the team left the ladder: skip this opponent (compare() only uses opponents present in both runs)
+                        break
                     if '400' in str(err) or attempt == 39:
                         raise   # a bad request (e.g. repeated maps) will not fix itself
                     print(f'{key}: create failed ({str(err)[-120:]}), retrying in 60s', flush=True)
                     time.sleep(60)
+            if g is None:
+                print(f'{key}: skipped (team no longer taking part)', flush=True)
+                result.setdefault('skipped', []).append(key)
+                json.dump(result, open(path, 'w'), indent=1)
+                continue
             gid = str(find(g, 'groupId', 'id', 'uuid'))
             result['groups'][key] = gid
             json.dump(result, open(path, 'w'), indent=1)

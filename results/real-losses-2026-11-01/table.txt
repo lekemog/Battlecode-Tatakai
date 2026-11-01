@@ -1,0 +1,62 @@
+games 60 wins 23
+id       res opp                       rank map                    s  rnds end        gems u/o d u/o k u/o   gold200 u/o   gold400 u/o clr u/o err
+eefca177 los ha²t                        67 adgato_gemcombat5      b   427 gems       140/1008  5/1   1/5    100/326     100/703    15/16  0
+affcea93 los ha²t                        67 02geodes               b   840 gems       558/1004  4/0   0/3    560/564    1115/1383   39/48  0
+3620988e los ha²t                        67 00collision            b  1171 gems       574/1019  8/2   2/8    714/884    1783/2007   69/73  0
+f9e02957 los ha²t                        67 02crossing             b   874 gems       727/1022  9/7   7/9    384/796    1122/1629   55/51  0
+41c63132 los ha²t                        67 adgato_gemcombat2      b   695 gems       252/1001 12/3   3/12   100/440     100/985    35/34  0
+982af6e7 los umamusume                   84 00gem_fields           a   925 gems       631/1026 16/7   4/16   374/100     706/1036   37/20  0
+a86ba879 win umamusume                   84 01the_farm             a  1157 gems      1017/810   6/0   0/6    690/394    1744/1258   42/31  0
+37bf881a los umamusume                   84 00swirl                a   840 gems        68/1001 26/1   0/25   380/1418    859/3507   16/46  0
+1da35cb5 win umamusume                   84 02geodes               a   907 gems      1043/785   0/1   1/0    600/662    1524/1283   45/44  0
+a7e0b79c los umamusume                   84 00galaxy               a  1012 gems       205/1018 10/0   0/10   120/128     332/198    30/37  0
+1dff9650 los Zkey Farming                77 00gem_fields           a   739 gems       667/1003 17/3   3/16   597/440     942/1571   33/30  0
+71e443a4 win Zkey Farming                77 02geodes               a   910 gems      1026/954   0/1   1/0    600/501    1321/1326   47/26  0
+da77b062 los Zkey Farming                77 02crossing             a   754 gems       388/1057 20/0   0/19   458/753     731/1892   41/41  0
+a8b387a8 win Zkey Farming                77 00rushbait_v2          a  1341 gems      1006/912   7/5   5/7    786/686    1695/1488   67/46  0
+e0f0256c win Zkey Farming                77 00road_of_riches       a  1116 gems      1015/947   4/3   0/4    524/430    1214/1343   85/45  0
+75e75bad los Gamblr                      64 00split                b   786 gems       867/1073  1/1   0/1    892/706    2327/1932   43/46  0
+dd2143ee los Gamblr                      64 00anvil                b  1218 gems       261/1030  8/8   2/8    597/786    1416/1563   79/60  0
+ccda5184 los Gamblr                      64 adgato_gemcombat5      b   850 gems       686/1026 12/17 13/12   100/264     926/746    18/13  0
+d75e7b67 los Gamblr                      64 00elkring              b   812 gems       726/1012 12/2   1/12  1045/1466   2354/3162   41/42  0
+2f7dbafd los Gamblr                      64 02fields               b   831 gems       735/1023  3/7   1/3    766/1048   1614/2160   46/35  0
+0d666951 los 天天开心 :(                     93 02fields               a   847 gems       974/1038  2/1   0/1   1044/576    2114/1816   50/44  1
+4c08892e win 天天开心 :(                     93 01yellow_brick_road    a   797 gems      1014/268   0/1   1/0   1155/340    2761/340    43/15  0
+8030116f win 天天开心 :(                     93 00reverse_spiral       a  1428 gems      1002/832   7/5   3/3    432/380     720/698    74/65  0
+1a73dd15 los 天天开心 :(                     93 00pilgrimage           a  1415 gems       195/1030 13/2   0/12   612/1059   1368/2461   79/63  0
+e1171fcf los 天天开心 :(                     93 00stampede             a  1725 gems       320/1057  5/10  8/5    524/768    1738/1752  140/89  0
+15cb2442 los Valenki                     74 adgato_gemcombat1      a   938 gems       420/1002 13/0   0/13   126/100     126/530    30/38  0
+3d95fd45 los Valenki                     74 02arena                a  2000 tiebreak_gems  178/934  36/4   4/35   601/941    1036/2124   34/77  0
+2db1fc60 los Valenki                     74 00crater               a  1008 gems         0/1070 26/2   0/26   120/878     180/1981    7/33  0
+40d47a48 los Valenki                     74 01yellow_brick_road    a  1051 gems       990/1013 14/24  9/13   430/786    2192/2690   54/48  0
+9c43d23b los Valenki                     74 01starvation           a  2000 tiebreak_gems  216/934  12/6   3/12   280/299     922/691    77/72  0
+176874c7 los :3                         105 adgato_gemcombat2      a   700 gems       441/1022  9/4   4/9    270/200     370/761    40/39  0
+500b84a8 win :3                         105 01corridors            a   943 gems      1170/166   6/5   3/1   1098/359    2402/994    24/14  0
+59935c77 win :3                         105 00gem_fields           a   823 gems      1022/699   6/5   3/6    438/262     768/872    39/32  0
+12ed4863 win :3                         105 00expanse              a  1025 gems      1020/806   0/0   0/0   1051/815    2556/2144  105/90  0
+d666ac75 win :3                         105 01the_farm             a  1176 gems      1048/712   2/0   0/1    690/695    1553/1653   37/33  0
+485b045f win janestreethireusplease      87 02uncharted_lands      a   876 gems      1029/710   1/6   6/0    906/677    2155/1361   63/48  0
+5128d2c3 win janestreethireusplease      87 01gold_rush            a  1432 gems      1163/322   3/15 14/1    342/573    1530/1012  116/47  0
+b3e86920 los janestreethireusplease      87 02stalactites          a   539 gems       721/1065  6/0   0/6    154/670     154/1827   11/18  0
+2aed33c2 win janestreethireusplease      87 00great_wall           a   937 gems      1125/544   1/5   5/0    868/626    2092/1334   55/49  0
+ec5aecd2 win janestreethireusplease      87 02famine               a  1323 gems      1031/602   0/7   7/0    754/502    1347/1034   68/51  0
+d26fd592 win filter                      72 01hooks                b  1266 gems      1013/23    9/26 25/8   1039/633    2576/1228  125/39  0
+f18145d8 los filter                      72 00swirl                b   820 gems        38/1005 27/4   4/27   494/1106    678/3759   13/46  0
+cc934a52 los filter                      72 00split                b   740 gems       834/1020  1/1   1/0    823/1308   2235/3259   40/63  0
+e5e7b7ff los filter                      72 02treasure_box         b   926 gems       290/1024 19/2   0/18   803/1618   1246/3536   29/50  0
+4672f733 win filter                      72 02famine               b  1488 gems      1032/962   5/7   5/5    444/672    1350/1291   70/67  0
+d3151da7 win umamusume                   84 00vault                a   429 gems      1045/347   4/5   5/4   1265/140    1577/1448   14/8   0
+2de98ee1 los umamusume                   84 00breadcrumbs          a  1061 gems       287/1025 14/0   0/14   150/369     278/1091  115/148 0
+e87de86d los umamusume                   84 00interlock            a  1236 gems       515/1014  9/5   0/9    716/479    1245/1494   56/57  0
+d30b5eaf los umamusume                   84 01starvation           a  2000 tiebreak_gems  276/778  19/4   0/19   200/406     686/1050   71/69  0
+507082eb win umamusume                   84 00quarry               a  1210 gems      1015/386   6/16 16/6   1084/625    2174/1090  102/40  0
+a8728414 win Brakence Fan Club           85 02famine               b  1208 gems      1007/479   2/11  8/2    542/556    1388/1118   51/64  0
+c3f51447 los Brakence Fan Club           85 01big_world            b  1132 gems       837/1000  0/0   0/0   1030/573    2135/1689   41/57  0
+733f1ff8 win Brakence Fan Club           85 01corridors            b  1020 gems      1006/306   2/6   3/2    780/558    1560/1298   29/22  0
+f78570ed win Brakence Fan Club           85 00eight                b  1437 gems      1033/892  14/11  7/13   680/453    1424/1092   50/37  0
+067d641f los Brakence Fan Club           85 01concentrated_wealth  b  1287 gems       461/1000  6/8   6/6    850/383    1632/819    44/42  0
+a897224d los KratosMessi                 94 02stalactites          a   857 gems       130/1022 28/1   1/28   220/888     220/1978    6/9   0
+eb7db429 los KratosMessi                 94 adgato_gemcombat5      a   665 gems       679/1029 11/3   3/11     0/203     326/1059   16/13  0
+0ae5c841 win KratosMessi                 94 01yellow_brick_road    a   813 gems      1040/37    3/5   3/2   1222/100    3477/200    53/7   0
+da05ee1c los KratosMessi                 94 01concentrated_wealth  a   968 gems       122/1020 12/2   2/12   530/967    1141/2533   26/27  0
+3136e6ac los KratosMessi                 94 00quarry               a  1892 gems       966/1010 36/8   8/36   892/560    1542/1276  135/80  0

@@ -162,6 +162,30 @@ Reading:
 - Panel proposal (to be run by the lead with `PANEL_FILE=tools/panel/panel_strong.json`, baseline v223): first v50h14 (cohesion on the live bot), then v50h2 (pairs, the least costly behaviour change) and v50h5 (earlier disengage, the only one directly targeting lone deaths with no mirror cost). Success measure: deaths by r150 and pick-ups at r100 against the four, not only wins.
 - A trace copy (`v50h0trace`) was not built: our stdout in the ladder replays carries only fuel lines, but the decoded replay already gives every champion's tile and health each round, which is what the diagnosis needed.
 
+## Banking study (why the 29-gem bag waited until r191) and candidates on v50e1 (v223)
+
+Code (`handle_tribute`, v50e1): banking triggers when the bag reaches `tribute_gems` 25 times a learned factor (0.02 to 12.8, features include distance to the altar), or the altar is within `tribute_detour_tiles` 8, or the game is ending. Threats, low health and capture holds run first. So a bag of 29 is not blocked by the threshold in principle; the replay shows what blocks it (`scripts/bank.py`, 20 games):
+
+- Gem-only `adgato_gemcombat` maps: our first bag of 25+ gems appears at r70-88 (35-63 gems) but the altar is 23-33 tiles away and the first deposit is r154-203 with bags of 49-77. Example `eefca177` (ha²t): Ryth holds 63 gems from r72, walks to the central altar (49,51), is within 2-4 tiles from r120 to r152 and never deposits: an enemy Marcella attacks it there (health 1,200 to 30), it dies at r153 and the enemy takes the 63 gems.
+- Other maps: the first 25+ bag comes at r33-130, often at 5-11 tiles from an altar, and our first deposit is r34-95 with 4-22 gems. We do bank small bags early on these (Gamblr games r34-84); the late first banks are the gem-only maps and `00collision`/`02geodes`/`00crater` (never in the Valenki crater game: 0 gems).
+- Banking therefore lags for two reasons: the bag is large before the carrier reaches a far altar, and a contested altar means the channel cannot start while an enemy attacks the carrier. A lower threshold fixes neither.
+
+Candidates (built on v50e1; base v50e1; 70 maps both sides, 140 games, 0 bot faults):
+
+| Bot | Change | Wins / 140 | Share | Gem margin | First deposit median | Banked by r200 | Pick-ups by r200 |
+|---|---|---|---|---|---|---|---|
+| v50h15 | until r250 with nothing banked: bank at 10 gems (`first_bank_gems`) or when an altar is within 16 tiles (`first_bank_detour`) | 68 | .486 | +8 | r74 (base r96) | 67 (base 70) | 10.0 / 10.5 |
+| v50h16 | tribute recall as transport earlier (`tribute_recall_margin` 0) | 70 | .500 | -4 | r97 (r97) | 66 (66) | 10.4 / 10.4 |
+| v50h17 | both | 66 | .471 | -6 | | | 10.0 / 10.5 |
+| v50h2e | v50h2 rebuilt on v50e1 (opening pairs until r150) | 79 | **.564** | +47 | | | 9.7 / 10.3 |
+| v50h5e | v50h5 rebuilt on v50e1 (`hazard_threshold` 0.2) | 58 | .414 | -78 | | | 10.1 / 10.5 |
+| v50h14 | cohesion (see above) | 67 | .479 | -10 | | | 9.8 / 10.6 |
+
+- v50h15 moves the first deposit 22 rounds earlier but banks no more by r200 and costs 0.4 pick-ups: earlier banking by itself is not a lever in the mirror. v50h16 changes nothing measurable (the recall branch rarely fires with enemies about).
+- v50h2e passes 55% on the 70 maps (79/140, margin +47) but on 113 rotated and flipped copies (`mirx`, 226 games) it is 113/113 (.500), pooled 192/366 = .525. Treat as noise.
+- v50h2e and v50h5e were smoke-tested by the full batches (no faults). The first v50h5e batch was cut short by a restart; it was rerun to the full 140 games.
+- Proposal for the strong panel, in order: v50h14 (cohesion), v50h2e (pairs, the only one above 55%). v50h15 only if a panel against ha²t and Valenki (who bank at r55-67) is wanted for banking; the carrier that dies at the altar suggests the altar-contest, not the threshold, is the real target (a rule to bank from the nearest safe tile or to escort the carrier, not tested).
+
 ## Scope scan
 
 All thirteen v50d-based candidates are constant changes except v50h13 (a 16-line block in `score_group`, active only before r150 and only when another ally has a current target). Bot faults: 0 in all 140-game batches. Per-map swings (2-0 on a map is the maximum, two games per map) are scattered with no map that loses for every candidate. Fuel was not scanned beyond the bot-fault count.

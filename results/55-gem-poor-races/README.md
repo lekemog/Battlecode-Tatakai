@@ -4,7 +4,13 @@ Date: 1 November 2026. Baseline: v50d (ladder 222). Ladder engine 2.0.0, cambc 4
 
 ## Summary
 
-(Filled in at the end of the file work; see "Candidates" for the numbers.)
+16 of the 17 target losses were decoded. Banking speed and bag threshold are not the main cause. The decisive difference is which camp groups get taken:
+
+- **A (5 games: anvil, pilgrimage, stampede, fields, split):** a heavy group (>= 10,000 HP: monolith, herd) carries 40-100% of the map's gems. v50d never attacks it: the siege planner assumes one hypothetical ally and rejects it (reject 5, 19-32 trips vs a limit of 4) while its reward bound is the highest on the map, so nobody commits. The winners took it 3-7 times (600-1056 of their gems).
+- **B (6 games, gemcombat, stalactites):** combat over the central group (we die 5-28 times, they 0-4). No candidate here.
+- **C (5 games):** a 15-25% lower collection rate with modest deaths. No banking cause found.
+
+Best candidate: `bots/v50g8` (v50e1 + heavy groups holding >= 35% of the map's gems plan with 3 hypothetical allies): 74-66 (0.529) vs v50e1 over 70 maps x 2 sides, margin +12; anvil, pilgrimage, stampede, rows, split each +2, side effects 02the-pack -2 and 02uncharted-lands -2. It does not clear the 55% bar. Rank-67 early-deposit gap: real (see below) but banking earlier (`v50g7`) did not help (67-73).
 
 ## Facts from the real replays
 
@@ -86,10 +92,12 @@ All copied from `bots/v50d`, one change each; paired against v50d.
 |---|---|---|
 | `bots/v50g1` | groups with total health ≥ 10,000 plan their siege with 3 hypothetical allies instead of 1 | result below |
 | `bots/v50g2` | jackpot machinery on (`jackpot_share` 0.3: gem weight ×3, 4 joiners, patience) | result below |
-| `bots/v50g3` | `max_respawn_wait` 0 → 20 | pending |
-| `bots/v50g4` | gem-poor maps (≤ 400 gems per cycle): bank any bag ≥ 30 | pending |
-| `bots/v50g5` | gem-poor maps: gem weight 4 (was 1.5) | pending |
-| `bots/v50g6` | g1, only for heavy groups holding ≥ 35% of the map's gems per cycle | pending |
+| `bots/v50g3` | `max_respawn_wait` 0 → 20 | 57-83 (0.407), margin -112: rejected |
+| `bots/v50g4` | gem-poor maps (≤ 400 gems per cycle): bank any bag ≥ 30 | 67-73 (0.479), -11: no effect |
+| `bots/v50g5` | gem-poor maps: gem weight 4 (was 1.5) | 67-73 (0.479), -26: rejected (anvil -2) |
+| `bots/v50g6` | g1, only for heavy groups holding ≥ 35% of the map's gems per cycle (vs v50d) | 73-67 (0.521), +8; anvil, monolith, rows, split, the-farm, road-of-riches +2; quadrants, starvation, guardians -2 |
+| `bots/v50g7` | from v50e1: before r250 bank any bag >= 7 gems if the altar is within 16 tiles (vs v50e1) | 67-73 (0.479), -10: no effect |
+| `bots/v50g8` | from v50e1: g6's heavy-share joiners (vs v50e1) | 74-66 (0.529), +12; anvil, pilgrimage, stampede, rows, split, road-of-riches +2; the-pack, uncharted-lands -2 |
 
 ### v50g1: 70 / 70, margin -2
 
@@ -103,9 +111,27 @@ Maps that moved by two games: anvil +2 (margin +883), 00monolith +2, 00rows +2, 
 
 Not an improvement; the jackpot machinery changes many maps at once (stampede -2, pilgrimage -794 margin, contest -2000).
 
-(g3-g6 results are added below as the batches finish.)
+### g3-g8 (paired batches, 70 maps x 2 sides, `tools/replay/pair55.py`)
+
+- g3 respawn wait 20: collected gems fall (918 vs 1030); waiting beside a respawning group costs more than it earns on all maps. Rejected.
+- g4 bag cap 30 on gem-poor maps, g5 gem weight 4: no measurable effect (banked 798/809 and 782/809).
+- g6 (vs v50d) and g8 (vs v50e1): the heavy-share restriction removes g1's losses on swirl, harvest, cuts, lanes; g8 gains on the five jackpot maps with +1424 (anvil), +1383 (stampede), +755 (rows), +563 (pilgrimage) margin. Remaining downside: 02the-pack (the 48-camp ring group holds 77% of its gems and now draws the siege) and 02uncharted-lands. Suggested next step: exclude groups of more than 30 camps from the heavy rule (not run).
+
+### Early-deposit gap of the rank-67 team (lead's question)
+
+First three deposits (round, gems), `ha²t` replays, us vs them:
+
+| game | us | them |
+|---|---|---|
+| gemcombat5 `eefca177` | r204 77, r340 63 | r99 63, r186 126, r257 63 |
+| geodes `affcea93` | r192 29, r265 51 | r101 7, r187 69 |
+| collision `3620988e` | r206 29, r237 15 | r68 4, r76 8, r274 15 |
+| gemcombat2 `41c63132` | r164 49, r344 42 | r34 21, r72 7, r104 56 |
+| crossing `f9e02957` | r32 7, r96 11 | r53 7, r59 57 |
+
+They deposit bags of 4-21 gems at r34-101; our learned bank factor lifts the 25-gem threshold to 40-64 (v50e1 has the same `tribute_gems = 25` and learned layer), so our first deposit comes at r164-206. v50g7 banks any 7+ gem bag before r250 within 16 tiles of an altar: 67-73 vs v50e1, margin -10, so the early deposit is not worth the walk in the mirror; the benefit for them may be gold (Marcella) or safety against hunters, which the mirror cannot show.
 
 ## Still to do
 
-- Fresh-seed confirmation and transformed copies of the loss maps for any candidate that passes.
+- v50g9 idea: g8 without groups of more than 30 camps; then transformed copies (`tools/replay/mapxform55.mjs` handles non-square rot-180 maps; anvil and stampede have other symmetries) and fresh games.
 - The central-group fights of group B (gemcombat) are a combat problem; no candidate here addresses them.

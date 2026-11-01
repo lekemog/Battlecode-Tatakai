@@ -1,0 +1,133 @@
+== 3620988e ha²t 00collision loss us b
+  US  r 68 ryth     hp166/1200 gems  4 dOwn 15 dEn 24 foes<=7:[('heart', 1), ('ryth', 1), ('marcella', 7)] friends<=7:[('heart', 4), ('marcella', 4)]
+  US  r 97 marcella hp98/1200 gems  4 dOwn 17 dEn 26 foes<=7:[('ryth', 2), ('marcella', 6)] friends<=7:[]
+  OPP r187 marcella hp163/1200 gems 18 dOwn 15 dEn 23 foes<=7:[('heart', 3)] friends<=7:[]
+== f9e02957 ha²t 02crossing loss us b
+  US  r111 ryth     hp103/1200 gems  0 dOwn 16 dEn 22 foes<=7:[('marcella', 1), ('varg', 1)] friends<=7:[('marcella', 1), ('varg', 1)]
+  US  r123 marcella hp81/1200 gems  0 dOwn 12 dEn 26 foes<=7:[('ryth', 3), ('marcella', 5), ('vendetta', 1), ('varg', 2)] friends<=7:[('heart', 6), ('varg', 1)]
+  US  r127 varg     hp138/1000 gems  0 dOwn  9 dEn 29 foes<=7:[('ryth', 3), ('marcella', 7), ('vendetta', 2), ('varg', 2)] friends<=7:[]
+  OPP r160 ryth     hp31/1200 gems 18 dOwn 14 dEn 24 foes<=7:[('heart', 2)] friends<=7:[('varg', 7)]
+  US  r211 marcella hp134/1200 gems  0 dOwn 15 dEn 23 foes<=7:[('marcella', 5), ('varg', 1)] friends<=7:[('heart', 7), ('ryth', 5)]
+  US  r215 ryth     hp58/1200 gems 11 dOwn 17 dEn 28 foes<=7:[('marcella', 2), ('varg', 3)] friends<=7:[('heart', 3)]
+  OPP r226 marcella hp32/1200 gems  0 dOwn 29 dEn 12 foes<=7:[('heart', 2)] friends<=7:[]
+== 41c63132 ha²t adgato_gemcombat2 loss us b
+  US  r 76 ryth     hp60/1200 gems 21 dOwn 22 dEn 26 foes<=7:[('ryth', 5), ('marcella', 1), ('vendetta', 2)] friends<=7:[]
+  OPP r113 ryth     hp21/1200 gems 21 dOwn 30 dEn 18 foes<=7:[('heart', 2), ('vendetta', 7)] friends<=7:[('heart', 3)]
+  US  r122 heart    hp20/1000 gems 21 dOwn 11 dEn 37 foes<=7:[('heart', 2)] friends<=7:[]
+  US  r164 marcella hp12/1200 gems 21 dOwn 23 dEn 25 foes<=7:[('heart', 2), ('vendetta', 1)] friends<=7:[('ryth', 4)]
+== affcea93 ha²t 02geodes loss us b
+== eefca177 ha²t adgato_gemcombat5 loss us b
+  US  r153 ryth     hp30/1200 gems 63 dOwn 18 dEn 18 foes<=7:[('marcella', 1)] friends<=7:[]
+  OPP r160 ryth     hp10/1200 gems 35 dOwn 36 dEn 36 foes<=7:[('vendetta', 1)] friends<=7:[]
+  US  r192 marcella hp22/1200 gems105 dOwn 26 dEn 26 foes<=7:[('heart', 2), ('marcella', 5)] friends<=7:[]
+  US  r248 varg     hp48/1000 gems 63 dOwn 20 dEn 20 foes<=7:[('heart', 1), ('ryth', 1), ('varg', 5)] friends<=7:[]
+  US  r280 ryth     hp21/1200 gems  0 dOwn 23 dEn 23 foes<=7:[('heart', 7), ('marcella', 1), ('varg', 6)] friends<=7:[('marcella', 6)]
+  US  r282 marcella hp12/1200 gems  0 dOwn 21 dEn 21 foes<=7:[('heart', 3), ('ryth', 5), ('marcella', 5), ('varg', 1)] friends<=7:[]
+== d75e7b67 Gamblr 00elkring loss us b
+  US  r 89 ryth     hp59/1200 gems  0 dOwn 18 dEn 22 foes<=7:[('vendetta', 1), ('willow', 7)] friends<=7:[]
+  US  r 94 marcella hp204/1200 gems  0 dOwn 24 dEn 25 foes<=7:[('vendetta', 2), ('heart', 2)] friends<=7:[('varg', 7)]
+  US  r183 varg     hp278/1200 gems 22 dOwn 20 dEn 28 foes<=7:[('heart', 2), ('cassi', 4), ('issac', 7), ('willow', 3)] friends<=7:[]
+  US  r216 marcella hp208/1200 gems  0 dOwn 17 dEn 22 foes<=7:[('vendetta', 1)] friends<=7:[('vendetta', 4)]
+  US  r290 heart    hp26/2000 gems  0 dOwn  8 dEn 28 foes<=7:[('cassi', 4), ('willow', 5)] friends<=7:[('marcella', 7), ('vendetta', 3)]
+== ccda5184 Gamblr adgato_gemcombat5 loss us b
+  US  r 23 varg     hp40/1000 gems  0 dOwn 10 dEn 12 foes<=7:[('marcella', 3), ('prism', 3), ('cassi', 3), ('willow', 3)] friends<=7:[('heart', 2), ('ryth', 2), ('marcella', 3), ('vendetta', 3)]
+  OPP r154 cassi    hp196/600 gems 35 dOwn 25 dEn 25 foes<=7:[('heart', 1)] friends<=7:[]
+  OPP r154 issac    hp690/900 gems  0 dOwn 16 dEn 16 foes<=7:[('ryth', 1), ('vendetta', 3)] friends<=7:[('marcella', 1)]
+  US  r160 vendetta hp182/1000 gems 91 dOwn 19 dEn 19 foes<=7:[('marcella', 1)] friends<=7:[('ryth', 3)]
+  OPP r233 prism    hp150/700 gems  0 dOwn 12 dEn 12 foes<=7:[('heart', 3), ('ryth', 3), ('vendetta', 4)] friends<=7:[('marcella', 6), ('cassi', 3), ('issac', 2)]
+  US  r236 ryth     hp30/1200 gems  0 dOwn 14 dEn 14 foes<=7:[('marcella', 5), ('heart', 7), ('cassi', 3), ('issac', 1)] friends<=7:[('heart', 1), ('vendetta', 3), ('varg', 7)]
+  OPP r276 cassi    hp600/600 gems  0 dOwn  9 dEn 13 foes<=7:[('heart', 1), ('vendetta', 2)] friends<=7:[('marcella', 1), ('heart', 6), ('issac', 3)]
+  OPP r276 issac    hp210/900 gems  0 dOwn  7 dEn 15 foes<=7:[('heart', 3), ('vendetta', 4)] friends<=7:[('marcella', 2), ('cassi', 3)]
+  US  r281 heart    hp78/1100 gems  0 dOwn 11 dEn 11 foes<=7:[('marcella', 1)] friends<=7:[('vendetta', 7)]
+  OPP r296 heart    hp26/1000 gems  0 dOwn 28 dEn 28 foes<=7:[('marcella', 2), ('varg', 1)] friends<=7:[]
+== 2f7dbafd Gamblr 02fields loss us b
+  OPP r 75 heart    hp170/1000 gems  0 dOwn 30 dEn 30 foes<=7:[('vendetta', 5)] friends<=7:[]
+  OPP r158 willow   hp100/700 gems  0 dOwn 25 dEn 35 foes<=7:[('vendetta', 1)] friends<=7:[('cassi', 5)]
+  US  r186 varg     hp40/1000 gems  0 dOwn 27 dEn 21 foes<=7:[('marcella', 3), ('vendetta', 7), ('heart', 1), ('cassi', 3), ('issac', 1)] friends<=7:[('marcella', 4)]
+  US  r199 marcella hp8/1200 gems  0 dOwn 29 dEn 28 foes<=7:[('marcella', 3), ('vendetta', 1)] friends<=7:[]
+  US  r266 ryth     hp76/1400 gems  0 dOwn 20 dEn 29 foes<=7:[('marcella', 5), ('vendetta', 3), ('heart', 1), ('cassi', 4), ('willow', 3)] friends<=7:[]
+== dd2143ee Gamblr 00anvil loss us b
+  US  r113 ryth     hp145/1200 gems 21 dOwn 12 dEn 18 foes<=7:[('vesper', 4), ('marcella', 5), ('cassi', 4), ('issac', 1)] friends<=7:[('heart', 3)]
+  US  r270 ryth     hp62/1300 gems  0 dOwn 19 dEn 11 foes<=7:[('vesper', 4), ('marcella', 4), ('cassi', 5), ('issac', 1)] friends<=7:[]
+== 75e75bad Gamblr 00split loss us b
+  OPP r172 willow   hp60/700 gems  0 dOwn 14 dEn 22 foes<=7:[] friends<=7:[('marcella', 3), ('cassi', 6), ('issac', 3)]
+== 2db1fc60 Valenki 00crater loss us a
+  US  r 37 varg     hp148/1000 gems  0 dOwn 18 dEn 36 foes<=7:[('vendetta', 2), ('heart', 2), ('issac', 2), ('marcella', 7)] friends<=7:[('ryth', 6), ('vendetta', 7)]
+  US  r 51 marcella hp90/1200 gems  0 dOwn 21 dEn 33 foes<=7:[('vendetta', 7), ('heart', 7), ('cassi', 5), ('marcella', 2)] friends<=7:[('vendetta', 3)]
+  US  r107 vendetta hp84/1000 gems  0 dOwn 24 dEn 30 foes<=7:[('vesper', 4), ('vendetta', 2), ('heart', 3), ('cassi', 4), ('issac', 1), ('marcella', 1)] friends<=7:[('heart', 3), ('ryth', 3)]
+  US  r115 ryth     hp110/1200 gems  0 dOwn 15 dEn 39 foes<=7:[('vesper', 4), ('vendetta', 3), ('issac', 4), ('marcella', 2)] friends<=7:[('heart', 2)]
+  US  r207 vendetta hp259/1000 gems  0 dOwn 19 dEn 35 foes<=7:[('vesper', 5), ('heart', 3), ('marcella', 4)] friends<=7:[('varg', 1)]
+  US  r223 ryth     hp5/1200 gems  0 dOwn 26 dEn 28 foes<=7:[('vendetta', 2), ('cassi', 5), ('issac', 1)] friends<=7:[('marcella', 4)]
+  US  r232 varg     hp120/1000 gems 11 dOwn  8 dEn 47 foes<=7:[('vesper', 3)] friends<=7:[('heart', 7)]
+== 9c43d23b Valenki 01starvation loss us a
+  US  r153 heart    hp5/1000 gems  0 dOwn 62 dEn 36 foes<=7:[('heart', 1), ('cassi', 3), ('issac', 2)] friends<=7:[]
+  US  r216 ryth     hp85/1200 gems  0 dOwn 45 dEn 30 foes<=7:[('vesper', 4), ('cassi', 4), ('marcella', 6)] friends<=7:[]
+== 3d95fd45 Valenki 02arena loss us a
+  US  r118 marcella hp100/1200 gems 14 dOwn 18 dEn 17 foes<=7:[('vesper', 3)] friends<=7:[('ryth', 7)]
+  US  r276 ryth     hp204/1900 gems  0 dOwn 15 dEn  9 foes<=7:[('vesper', 3), ('heart', 4)] friends<=7:[('heart', 6)]
+== 40d47a48 Valenki 01yellow_brick_road loss us a
+  US  r 45 ryth     hp40/1200 gems  0 dOwn 15 dEn 18 foes<=7:[('vendetta', 2), ('heart', 5), ('cassi', 6)] friends<=7:[('vendetta', 3), ('varg', 6)]
+  OPP r 47 cassi    hp140/600 gems  0 dOwn 12 dEn 21 foes<=7:[('vendetta', 7)] friends<=7:[('vendetta', 5), ('heart', 1)]
+  OPP r 47 issac    hp600/900 gems  0 dOwn 18 dEn 15 foes<=7:[] friends<=7:[('vesper', 2), ('marcella', 1)]
+  OPP r 48 heart    hp70/1000 gems  0 dOwn 10 dEn 23 foes<=7:[] friends<=7:[('vendetta', 5)]
+  OPP r 68 marcella hp60/1200 gems  0 dOwn 13 dEn 20 foes<=7:[('marcella', 5)] friends<=7:[('vendetta', 6)]
+  US  r118 varg     hp54/1000 gems  0 dOwn 26 dEn  7 foes<=7:[('vesper', 2), ('vendetta', 1), ('heart', 2), ('cassi', 4), ('issac', 2)] friends<=7:[]
+  OPP r176 cassi    hp19/600 gems  0 dOwn  6 dEn 27 foes<=7:[('heart', 2), ('ryth', 5)] friends<=7:[('vesper', 5), ('vendetta', 3), ('heart', 1), ('issac', 7), ('marcella', 5)]
+  OPP r176 issac    hp540/900 gems  0 dOwn  7 dEn 26 foes<=7:[('heart', 5), ('ryth', 2)] friends<=7:[('vendetta', 6), ('heart', 7), ('cassi', 7), ('marcella', 2)]
+  US  r179 heart    hp267/1500 gems  0 dOwn 26 dEn  7 foes<=7:[('vesper', 3), ('vendetta', 2), ('heart', 3), ('marcella', 4)] friends<=7:[('ryth', 3)]
+  OPP r183 heart    hp9/1000 gems  0 dOwn  6 dEn 27 foes<=7:[('ryth', 5)] friends<=7:[('vesper', 5), ('vendetta', 5), ('marcella', 5)]
+  OPP r187 marcella hp16/1200 gems  0 dOwn  5 dEn 28 foes<=7:[('ryth', 4)] friends<=7:[('vesper', 7), ('vendetta', 3)]
+  US  r210 vendetta hp120/1000 gems  0 dOwn 23 dEn 10 foes<=7:[('vesper', 3)] friends<=7:[]
+  US  r265 marcella hp26/1200 gems  0 dOwn 19 dEn 14 foes<=7:[('heart', 2), ('cassi', 4), ('marcella', 6)] friends<=7:[('varg', 6)]
+== 15cb2442 Valenki adgato_gemcombat1 loss us a
+  US  r 84 ryth     hp158/1200 gems  0 dOwn 24 dEn  4 foes<=7:[('vesper', 4), ('vendetta', 2), ('heart', 1)] friends<=7:[]
+  US  r219 ryth     hp31/1200 gems  0 dOwn 27 dEn 16 foes<=7:[('vesper', 3), ('heart', 2)] friends<=7:[]
+  US  r273 marcella hp8/1200 gems 42 dOwn 17 dEn 15 foes<=7:[('vendetta', 3), ('heart', 2)] friends<=7:[('heart', 7)]
+== da05ee1c KratosMessi 01concentrated_wealth loss us a
+  US  r 97 heart    hp125/1000 gems  0 dOwn 30 dEn 26 foes<=7:[('vesper', 2)] friends<=7:[('vendetta', 7)]
+  OPP r138 vesper   hp105/1000 gems  0 dOwn 23 dEn 33 foes<=7:[('marcella', 1)] friends<=7:[('ryth', 6)]
+  US  r157 marcella hp17/1200 gems  0 dOwn 35 dEn 21 foes<=7:[('marcella', 2), ('heart', 5), ('ryth', 3)] friends<=7:[]
+  US  r262 heart    hp11/1000 gems  0 dOwn 16 dEn 40 foes<=7:[('marcella', 6), ('vendetta', 1)] friends<=7:[]
+== a897224d KratosMessi 02stalactites loss us a
+  US  r 28 marcella hp5/1200 gems  0 dOwn  9 dEn 16 foes<=7:[('marcella', 2), ('heart', 2), ('ryth', 5)] friends<=7:[('heart', 5), ('ryth', 6)]
+  US  r 32 ryth     hp47/1200 gems  0 dOwn 16 dEn 18 foes<=7:[('marcella', 4), ('heart', 6), ('ryth', 1)] friends<=7:[('heart', 4)]
+  US  r 49 heart    hp80/1000 gems  0 dOwn 22 dEn 22 foes<=7:[('vendetta', 2), ('ryth', 5)] friends<=7:[]
+  US  r123 ryth     hp123/1200 gems  0 dOwn 22 dEn 22 foes<=7:[('heart', 2), ('vendetta', 3), ('ryth', 2)] friends<=7:[]
+  US  r155 heart    hp40/1000 gems  0 dOwn 19 dEn 17 foes<=7:[('heart', 2), ('ryth', 2)] friends<=7:[('vendetta', 7)]
+  OPP r160 heart    hp29/1000 gems  0 dOwn 13 dEn 18 foes<=7:[('marcella', 7), ('vendetta', 2)] friends<=7:[('ryth', 4)]
+  US  r170 vendetta hp11/1000 gems  0 dOwn 19 dEn 19 foes<=7:[('marcella', 5), ('ryth', 2)] friends<=7:[('marcella', 4)]
+  US  r181 marcella hp91/1200 gems  0 dOwn 22 dEn 22 foes<=7:[('marcella', 1), ('ryth', 1)] friends<=7:[]
+  US  r229 ryth     hp86/1200 gems  0 dOwn  8 dEn 21 foes<=7:[('marcella', 2), ('vendetta', 5), ('ryth', 5)] friends<=7:[('heart', 2)]
+  US  r264 marcella hp81/1200 gems  0 dOwn 11 dEn 17 foes<=7:[('heart', 3), ('vendetta', 2), ('ryth', 2)] friends<=7:[]
+== eb7db429 KratosMessi adgato_gemcombat5 loss us a
+  US  r 79 marcella hp135/1200 gems  0 dOwn 36 dEn 36 foes<=7:[('heart', 2), ('vendetta', 1), ('vesper', 3)] friends<=7:[]
+  US  r204 marcella hp30/1200 gems  0 dOwn 30 dEn 30 foes<=7:[('vesper', 5)] friends<=7:[('ryth', 7)]
+  US  r232 vendetta hp20/1000 gems 56 dOwn 11 dEn 11 foes<=7:[('marcella', 4), ('heart', 7), ('ryth', 1)] friends<=7:[('ryth', 2), ('varg', 2)]
+  US  r272 heart    hp46/1000 gems 91 dOwn 25 dEn 25 foes<=7:[('marcella', 5), ('vendetta', 1), ('vesper', 5)] friends<=7:[('varg', 2)]
+== 3136e6ac KratosMessi 00quarry loss us a
+  OPP r 45 ryth     hp86/1200 gems  0 dOwn 11 dEn 19 foes<=7:[('ryth', 1), ('marcella', 1), ('vendetta', 1)] friends<=7:[('marcella', 2), ('vendetta', 5)]
+  OPP r 73 heart    hp70/1000 gems  0 dOwn  5 dEn 30 foes<=7:[('heart', 2)] friends<=7:[('marcella', 2)]
+  US  r158 vendetta hp256/1000 gems  0 dOwn 13 dEn 21 foes<=7:[('marcella', 4)] friends<=7:[]
+  US  r243 ryth     hp111/1200 gems  0 dOwn 10 dEn 18 foes<=7:[('marcella', 2), ('heart', 1)] friends<=7:[('vendetta', 7)]
+  US  r298 vendetta hp62/1000 gems  0 dOwn 12 dEn 16 foes<=7:[('heart', 7), ('vendetta', 2)] friends<=7:[]
+== 0ae5c841 KratosMessi 01yellow_brick_road win us a
+  OPP r 50 vendetta hp15/1000 gems  0 dOwn 27 dEn  6 foes<=7:[('heart', 7), ('ryth', 4), ('marcella', 6), ('vendetta', 3), ('varg', 5)] friends<=7:[('marcella', 3), ('heart', 4), ('ryth', 2)]
+  US  r 80 ryth     hp125/1200 gems  0 dOwn  4 dEn 29 foes<=7:[('heart', 1), ('vesper', 3)] friends<=7:[('heart', 7), ('marcella', 5), ('vendetta', 2)]
+  US  r103 vendetta hp69/1000 gems  0 dOwn 19 dEn 14 foes<=7:[('ryth', 4)] friends<=7:[]
+  US  r211 vendetta hp25/1000 gems  0 dOwn 13 dEn 20 foes<=7:[('heart', 3), ('vendetta', 3), ('vesper', 2), ('ryth', 1)] friends<=7:[]
+  OPP r251 vesper   hp10/1000 gems  0 dOwn 12 dEn 21 foes<=7:[] friends<=7:[('marcella', 7)]
+
+SUMMARY (alone = no ally within 7 tiles one round before; foes = enemy champions within 7)
+US n=70 alone=0.43 foes>=2=0.83 outnumbered(by2+)=0.57 deaths<=r100=16 mean dist to nearer spawn=16.9
+OPP n=28 alone=0.21 foes>=2=0.39 outnumbered(by2+)=0.07 deaths<=r100=8 mean dist to nearer spawn=14.5
+('Gamblr', 'OPP') n=9 alone=0.33 foes>=2=0.56 outnumbered(by2+)=0.11 deaths<=r100=1 mean dist to nearer spawn=18.4
+('Gamblr', 'US') n=14 alone=0.36 foes>=2=0.79 outnumbered(by2+)=0.50 deaths<=r100=3 mean dist to nearer spawn=16.6
+('KratosMessi', 'OPP') n=6 alone=0.00 foes>=2=0.50 outnumbered(by2+)=0.17 deaths<=r100=3 mean dist to nearer spawn=11.7
+('KratosMessi', 'US') n=22 alone=0.50 foes>=2=0.82 outnumbered(by2+)=0.55 deaths<=r100=6 mean dist to nearer spawn=17.1
+('Valenki', 'OPP') n=8 alone=0.00 foes>=2=0.25 outnumbered(by2+)=0.00 deaths<=r100=4 mean dist to nearer spawn=9.2
+('Valenki', 'US') n=19 alone=0.32 foes>=2=0.84 outnumbered(by2+)=0.68 deaths<=r100=4 mean dist to nearer spawn=16.4
+('ha²t', 'OPP') n=5 alone=0.60 foes>=2=0.20 outnumbered(by2+)=0.00 deaths<=r100=0 mean dist to nearer spawn=19.0
+('ha²t', 'US') n=15 alone=0.53 foes>=2=0.87 outnumbered(by2+)=0.53 deaths<=r100=3 mean dist to nearer spawn=17.7
+our deaths by champion {'ryth': 23, 'marcella': 19, 'varg': 8, 'heart': 10, 'vendetta': 10}
+their deaths by champion {'marcella': 4, 'ryth': 4, 'cassi': 4, 'issac': 4, 'prism': 1, 'heart': 6, 'willow': 2, 'vesper': 2, 'vendetta': 1}
+median first death: us 93.0 them 166.0 ; ours first in 15 of 20

@@ -1,0 +1,225 @@
+===== a8d2fcf8 KratosMessi 00swirl win ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Ryth'] earned {100: 350, 200: 640, 300: 1260, 400: 1480} sub 489
+   buys r69:Vend:AL* r69:Vend:Jungle s Strength r69:Vend:Teleport Crystal* r69:Vend:T s Strength r94:Ryth:AL* r94:Ryth:Teleport Crystal* r94:Ryth:T s Health r133:Hear:Jungle s Focus r133:Hear:Teleport Crystal*
+   camps [(84, 'Hear', 20), (101, 'Ryth', 21), (258, 'Marc', 21), (269, 'Vend', 11), (442, 'Vend', 10), (451, 'Hear', 20), (476, 'Hear', 11), (512, 'Ryth', 21)]
+   kills [(61, 'Vend', 'Marc'), (82, 'Ryth', 'Ryth'), (164, 'Ryth', 'Ryth')] deaths [(55, 'Marc'), (97, 'Vend'), (132, 'Hear')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta'] earned {100: 400, 200: 884, 300: 928, 400: 1746} sub 1000
+   buys r19:Marc:AL* r19:Marc:T s Strength r37:Vend:T s Strength r37:Vend:T s Strength r37:Vend:T s Strength r37:Vend:T s Strength r37:Vend:T s Strength r61:Marc:T s Strength r61:Marc:T s Strength
+   camps [(12, 'Marc', 20), (31, 'Vend', 10), (51, 'Ryth', 11), (137, 'Hear', 10), (157, 'Vend', 11), (175, 'Vend', 20), (284, 'Marc', 20), (310, 'Marc', 10)]
+   kills [(55, 'Marc', 'Marc'), (97, 'Vend', 'Vend'), (132, 'Vend', 'Hear')] deaths [(61, 'Marc'), (82, 'Ryth'), (164, 'Ryth')]
+===== 30263cc5 KratosMessi 02fields loss ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Vesper Vale', 'Ryth'] earned {100: 299, 200: 834, 300: 1289, 400: 2231} sub 1038
+   buys r65:Vesp:AL* r65:Vesp:T s Strength r111:Vesp:Jungle s Strength r111:Vesp:T s Strength r133:Marc:AL* r133:Marc:Jungle s Focus r134:Ryth:AL* r134:Ryth:T s Health r153:Vesp:B s Health
+   camps [(16, 'Ryth', 1), (38, 'Vesp', 3), (96, 'Vesp', 1), (103, 'Vend', 18), (135, 'Vend', 3), (149, 'Vend', 4), (161, 'Ryth', 1), (197, 'Hear', 3)]
+   kills [(83, 'Marc', 'Ryth'), (117, 'Vend', 'Varg'), (261, 'Hear', 'Hear')] deaths [(1081, 'Vend')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 260, 200: 556, 300: 750, 400: 1220} sub 513
+   buys r27:Hear:AL* r27:Hear:T s Focus r27:Hear:T s Focus r46:Ryth:AL* r46:Ryth:T s Strength r46:Ryth:T s Strength r78:Vend:AL* r93:Hear:AL* r96:Marc:AL*
+   camps [(20, 'Vend', 0), (26, 'Vend', 19), (30, 'Marc', 17), (39, 'Vend', 2), (48, 'Marc', 21), (89, 'Marc', 5), (106, 'Vend', 0), (114, 'Vend', 19)]
+   kills [(1081, 'Ryth', 'Vend')] deaths [(83, 'Ryth'), (117, 'Varg'), (261, 'Hear')]
+===== cf1b55f1 KratosMessi 00the_line loss ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Ryth'] earned {100: 0, 200: 100, 300: 682, 400: 852} sub 1002
+   buys r206:Marc:AL* r206:Marc:Jungle s Focus r269:Marc:T s Focus r284:Vend:AL* r284:Vend:Jungle s Strength r295:Ryth:AL* r295:Ryth:T s Health r303:Hear:AL* r303:Hear:Jungle s Focus
+   camps [(41, 'Hear', 2), (129, 'Hear', 2), (262, 'Marc', 8), (406, 'Ryth', 8), (475, 'Hear', 7), (553, 'Hear', 2), (670, 'Vend', 2)]
+   kills [(184, 'Vend', 'Vend'), (251, 'Marc', 'Marc'), (282, 'Ryth', 'Vend')] deaths [(109, 'Ryth'), (585, 'Vend')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta'] earned {100: 240, 200: 482, 300: 548, 400: 548} sub 189
+   buys r37:Vend:T s Strength r37:Vend:T s Strength r40:Marc:T s Strength r40:Marc:T s Strength r75:Marc:T s Strength r75:Marc:T s Strength r85:Hear:T s Focus r85:Hear:T s Focus r116:Hear:AL*
+   camps [(28, 'Vend', 0), (33, 'Marc', 3), (68, 'Marc', 5), (78, 'Hear', 7), (146, 'Marc', 1), (168, 'Vend', 0), (182, 'Marc', 5), (212, 'Marc', 2)]
+   kills [(109, 'Hear', 'Ryth'), (585, 'Hear', 'Vend')] deaths [(184, 'Vend'), (251, 'Marc'), (282, 'Vend')]
+===== dca5eaeb KratosMessi adgato_gemcombat5 loss ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Vesper Vale', 'Ryth'] earned {100: 133, 200: 366, 300: 704, 400: 1004} sub 1057
+   buys r79:Vesp:AL* r79:Vesp:T s Strength r154:Vesp:Jungle s Strength r154:Vesp:T s Strength r219:Vend:AL* r219:Vend:Jungle s Strength r219:Vend:T s Strength r225:Marc:AL* r225:Marc:Jungle s Focus
+   camps [(145, 'Marc', 0), (265, 'Vesp', 0), (292, 'Vend', 2), (406, 'Vend', 0), (453, 'Vesp', 2), (518, 'Vend', 0), (526, 'Vesp', 2), (541, 'Hear', 1)]
+   kills [(57, 'Vesp', 'Vend'), (148, 'Vesp', 'Vend'), (156, 'Vend', 'Marc')] deaths []
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 0, 200: 0, 300: 0, 400: 0} sub 301
+   buys 
+   camps [(58, 'Ryth', 2), (61, 'Marc', 3), (78, 'Varg', 0), (84, 'Marc', 17), (87, 'Hear', 1), (154, 'Ryth', 17), (164, 'Varg', 1), (202, 'Hear', 5)]
+   kills [] deaths [(57, 'Vend'), (148, 'Vend'), (156, 'Marc')]
+===== 3c1e36d2 KratosMessi 02geodes win ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Vesper Vale', 'Ryth'] earned {100: 340, 200: 754, 300: 1133, 400: 1489} sub 733
+   buys r87:Marc:AL* r87:Marc:Jungle s Focus r87:Marc:T s Focus r114:Vend:AL* r114:Vend:Jungle s Strength r144:Marc:B s Focus r144:Marc:T s Focus r153:Vesp:AL* r153:Vesp:T s Strength
+   camps [(13, 'Vend', 3), (47, 'Vend', 5), (62, 'Ryth', 11), (88, 'Vend', 9), (95, 'Vesp', 3), (136, 'Marc', 5), (144, 'Hear', 11), (168, 'Vesp', 3)]
+   kills [(777, 'Marc', 'Vend'), (786, 'Marc', 'Varg')] deaths [(667, 'Vend'), (787, 'Marc')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 260, 200: 600, 300: 971, 400: 1321} sub 1008
+   buys r30:Hear:AL* r30:Hear:T s Focus r54:Vend:AL* r54:Vend:T s Strength r64:Marc:T s Strength r64:Marc:T s Strength r64:Marc:T s Strength r95:Varg:T s Strength r95:Varg:T s Strength
+   camps [(23, 'Ryth', 2), (47, 'Vend', 10), (57, 'Marc', 4), (78, 'Hear', 6), (89, 'Vend', 8), (99, 'Marc', 2), (112, 'Vend', 10), (140, 'Hear', 4)]
+   kills [(667, 'Marc', 'Vend'), (787, 'Ryth', 'Marc')] deaths [(777, 'Vend'), (786, 'Varg')]
+===== 3620988e ha²t 00collision loss ourside b
+OPP draft ['Heart of Ruin', 'Ryth', 'Marcella'] earned {100: 528, 200: 884, 300: 1424, 400: 2007} sub 1019
+   buys r33:Marc:T s Strength r33:Marc:T s Strength r40:Ryth:AL* r40:Ryth:T s Strength r40:Ryth:T s Strength r40:Ryth:T s Strength r40:Ryth:T s Strength r40:Ryth:T s Strength r74:Hear:AL*
+   camps [(9, 'Ryth', 8), (21, 'Ryth', 10), (26, 'Marc', 0), (34, 'Hear', 2), (48, 'Hear', 12), (91, 'Hear', 8), (108, 'Hear', 10), (116, 'Marc', 12)]
+   kills [(67, 'Ryth', 'Ryth'), (96, 'Ryth', 'Marc'), (367, 'Hear', 'Hear')] deaths [(186, 'Marc'), (818, 'Ryth')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella'] earned {100: 260, 200: 714, 300: 1271, 400: 1783} sub 574
+   buys r33:Marc:T s Strength r33:Marc:T s Strength r39:Ryth:AL* r39:Ryth:T s Strength r39:Ryth:T s Strength r39:Ryth:T s Strength r39:Ryth:T s Strength r39:Ryth:T s Strength r87:Hear:AL*
+   camps [(9, 'Ryth', 9), (20, 'Ryth', 11), (26, 'Marc', 1), (33, 'Hear', 3), (47, 'Hear', 13), (59, 'Marc', 5), (124, 'Hear', 9), (141, 'Hear', 11)]
+   kills [(186, 'Hear', 'Marc'), (818, 'Ryth', 'Ryth')] deaths [(67, 'Ryth'), (96, 'Marc'), (367, 'Hear')]
+===== f9e02957 ha²t 02crossing loss ourside b
+OPP draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 230, 200: 796, 300: 1254, 400: 1629} sub 1022
+   buys r65:Ryth:T s Strength r65:Ryth:T s Strength r65:Ryth:T s Strength r79:Varg:T s Strength r79:Varg:T s Strength r80:Marc:AL* r80:Marc:T s Strength r93:Ryth:AL* r93:Ryth:T s Strength
+   camps [(10, 'Vend', 22), (30, 'Vend', 1), (38, 'Hear', 19), (45, 'Ryth', 21), (58, 'Varg', 20), (59, 'Marc', 17), (73, 'Marc', 22), (73, 'Vend', 14)]
+   kills [(110, 'Varg', 'Ryth'), (122, 'Ryth', 'Marc'), (126, 'Vend', 'Varg')] deaths [(159, 'Ryth'), (225, 'Marc'), (322, 'Marc')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 244, 200: 384, 300: 534, 400: 1122} sub 727
+   buys r40:Hear:T s Focus r40:Hear:T s Focus r40:Hear:T s Focus r63:Vend:AL* r63:Vend:T s Strength r81:Hear:AL* r81:Hear:T s Focus r122:Marc:AL* r126:Varg:T s Strength
+   camps [(10, 'Vend', 23), (33, 'Hear', 0), (39, 'Marc', 18), (56, 'Vend', 16), (68, 'Marc', 23), (74, 'Vend', 7), (85, 'Vend', 13), (93, 'Ryth', 15)]
+   kills [(159, 'Hear', 'Ryth'), (225, 'Hear', 'Marc'), (322, 'Hear', 'Marc')] deaths [(110, 'Ryth'), (122, 'Marc'), (126, 'Varg')]
+===== 41c63132 ha²t adgato_gemcombat2 loss ourside b
+OPP draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta'] earned {100: 100, 200: 440, 300: 655, 400: 985} sub 1001
+   buys r81:Marc:AL* r81:Marc:T s Strength r81:Marc:T s Strength r81:Marc:T s Strength r127:Hear:AL* r127:Hear:T s Focus r127:Hear:T s Focus r127:Hear:T s Focus r168:Marc:AL*
+   camps [(11, 'Ryth', 5), (18, 'Marc', 7), (29, 'Marc', 1), (48, 'Ryth', 3), (101, 'Marc', 5), (160, 'Marc', 8), (167, 'Vend', 0), (178, 'Marc', 5)]
+   kills [(75, 'Marc', 'Ryth'), (121, 'Hear', 'Hear'), (163, 'Hear', 'Marc')] deaths [(112, 'Ryth'), (457, 'Ryth'), (623, 'Ryth')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta'] earned {100: 0, 200: 100, 300: 100, 400: 100} sub 252
+   buys r121:Hear:AL* r121:Hear:T s Focus r121:Hear:T s Focus r121:Hear:T s Focus r463:Hear:D s Health r463:Hear:T s Focus r463:Hear:T s Focus r626:Ryth:AL* r626:Ryth:T s Strength
+   camps [(9, 'Vend', 4), (11, 'Ryth', 6), (16, 'Vend', 2), (19, 'Marc', 8), (38, 'Vend', 0), (78, 'Vend', 8), (79, 'Hear', 6), (85, 'Marc', 7)]
+   kills [(112, 'Hear', 'Ryth'), (457, 'Hear', 'Ryth'), (623, 'Ryth', 'Ryth')] deaths [(75, 'Ryth'), (121, 'Hear'), (163, 'Marc')]
+===== affcea93 ha²t 02geodes loss ourside b
+OPP draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 260, 200: 564, 300: 859, 400: 1383} sub 1004
+   buys r29:Ryth:AL* r29:Ryth:T s Strength r55:Hear:T s Focus r55:Hear:T s Focus r55:Hear:T s Focus r85:Marc:T s Strength r85:Marc:T s Strength r85:Marc:T s Strength r101:Varg:AL*
+   camps [(22, 'Varg', 2), (43, 'Marc', 4), (73, 'Ryth', 8), (73, 'Varg', 10), (81, 'Vend', 6), (99, 'Marc', 2), (136, 'Vend', 4), (154, 'Vend', 10)]
+   kills [(303, 'Marc', 'Marc'), (662, 'Ryth', 'Vend'), (710, 'Marc', 'Ryth')] deaths []
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 260, 200: 560, 300: 932, 400: 1115} sub 558
+   buys r36:Hear:AL* r36:Hear:T s Focus r58:Marc:T s Strength r58:Marc:T s Strength r58:Marc:T s Strength r61:Varg:AL* r61:Varg:T s Strength r86:Vend:T s Strength r86:Vend:T s Strength
+   camps [(29, 'Ryth', 3), (52, 'Vend', 5), (54, 'Varg', 11), (80, 'Ryth', 9), (93, 'Hear', 7), (100, 'Vend', 3), (135, 'Varg', 5), (157, 'Marc', 11)]
+   kills [] deaths [(303, 'Marc'), (319, 'Varg'), (662, 'Vend')]
+===== eefca177 ha²t adgato_gemcombat5 loss ourside b
+OPP draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 0, 200: 326, 300: 626, 400: 703} sub 1008
+   buys r158:Marc:AL* r158:Marc:T s Strength r158:Marc:T s Strength r158:Marc:T s Strength r197:Hear:AL* r197:Hear:T s Focus r197:Hear:T s Focus r197:Hear:T s Focus r261:Ryth:AL*
+   camps [(36, 'Ryth', 13), (62, 'Vend', 1), (70, 'Ryth', 15), (96, 'Hear', 3), (126, 'Hear', 17), (135, 'Vend', 1), (136, 'Varg', 15), (209, 'Varg', 0)]
+   kills [(152, 'Marc', 'Ryth'), (191, 'Hear', 'Marc'), (247, 'Ryth', 'Varg')] deaths [(159, 'Ryth')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 0, 200: 100, 300: 100, 400: 100} sub 140
+   buys r165:Vend:AL* r165:Vend:T s Strength r165:Vend:T s Strength r165:Vend:T s Strength
+   camps [(49, 'Vend', 18), (63, 'Ryth', 2), (66, 'Marc', 4), (74, 'Vend', 16), (102, 'Marc', 6), (141, 'Marc', 4), (167, 'Varg', 2), (259, 'Hear', 3)]
+   kills [(159, 'Vend', 'Ryth')] deaths [(152, 'Ryth'), (191, 'Marc'), (247, 'Varg')]
+===== d75e7b67 Gamblr 00elkring loss ourside b
+OPP draft ['Marcella', 'Vendetta', 'Heart of Ruin', 'Cassi', 'Issac', 'Willow'] earned {100: 728, 200: 1466, 300: 2304, 400: 3162} sub 1012
+   buys r68:Vend:Capture s Health r68:Vend:Jungle s Strength r78:Marc:Capture s Health r78:Marc:Jungle s Strength r112:Vend:Capture s Health r114:Hear:Jungle s Focus r134:Vend:Monster s Strength r163:Marc:B s Health r163:Marc:Monster s Strength
+   camps [(12, 'Hear', 0), (25, 'Vend', 2), (41, 'Marc', 4), (55, 'Issa', 9), (106, 'Issa', 6), (124, 'Cass', 0), (136, 'Cass', 4), (148, 'Will', 2)]
+   kills [(88, 'Vend', 'Ryth'), (93, 'Hear', 'Marc'), (182, 'Will', 'Varg')] deaths [(553, 'Cass'), (553, 'Issa')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 484, 200: 1045, 300: 1518, 400: 2354} sub 726
+   buys r22:Ryth:AL* r22:Ryth:T s Strength r22:Ryth:T s Strength r22:Ryth:T s Strength r30:Marc:AL* r30:Marc:T s Strength r30:Marc:T s Strength r30:Marc:T s Strength r48:Varg:AL*
+   camps [(16, 'Hear', 1), (24, 'Hear', 3), (42, 'Vend', 5), (65, 'Ryth', 8), (98, 'Hear', 1), (122, 'Vend', 3), (143, 'Hear', 5), (176, 'Ryth', 8)]
+   kills [(553, 'Varg', 'Cass')] deaths [(88, 'Ryth'), (93, 'Marc'), (182, 'Varg')]
+===== ccda5184 Gamblr adgato_gemcombat5 loss ourside b
+OPP draft ['Marcella', 'Prism', 'Heart of Ruin', 'Cassi', 'Issac', 'Willow'] earned {100: 100, 200: 264, 300: 646, 400: 746} sub 1026
+   buys r31:Marc:Jungle s Strength r131:Marc:Jungle s Strength r175:Marc:Capture s Health r223:Marc:Capture s Health r223:Marc:Monster s Strength r256:Cass:Power s Focus r381:Marc:B s Health r381:Marc:D s Health r381:Marc:Monster s Strength
+   camps [(85, 'Issa', 1), (109, 'Will', 3), (122, 'Will', 17), (154, 'Will', 1), (161, 'Hear', 0), (273, 'Will', 0), (405, 'Cass', 0), (563, 'Marc', 2)]
+   kills [(22, 'Marc', 'Varg'), (159, 'Marc', 'Vend'), (235, 'Cass', 'Ryth')] deaths [(153, 'Cass'), (153, 'Issa'), (232, 'Pris')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 0, 200: 100, 300: 606, 400: 926} sub 686
+   buys r168:Hear:AL* r168:Hear:T s Focus r168:Hear:T s Focus r168:Hear:T s Focus r254:Hear:AL* r254:Hear:D s Health r254:Hear:T s Focus r254:Hear:T s Focus r281:Hear:D s Health
+   camps [(60, 'Vend', 18), (81, 'Vend', 4), (108, 'Varg', 16), (110, 'Ryth', 2), (110, 'Vend', 6), (146, 'Varg', 4), (185, 'Marc', 3), (229, 'Marc', 1)]
+   kills [(153, 'Hear', 'Cass'), (232, 'Hear', 'Pris'), (275, 'Hear', 'Issa')] deaths [(22, 'Varg'), (159, 'Vend'), (235, 'Ryth')]
+===== 2f7dbafd Gamblr 02fields loss ourside b
+OPP draft ['Marcella', 'Vendetta', 'Heart of Ruin', 'Cassi', 'Issac', 'Willow'] earned {100: 408, 200: 1048, 300: 1484, 400: 2160} sub 1023
+   buys r74:Hear:Jungle s Focus r76:Vend:Jungle s Strength r146:Marc:Capture s Health r146:Marc:Jungle s Strength r171:Vend:Capture s Health r194:Cass:Power s Focus r206:Marc:Capture s Health r209:Vend:Capture s Health r209:Vend:Monster s Strength
+   camps [(14, 'Hear', 0), (29, 'Issa', 2), (54, 'Will', 5), (65, 'Vend', 4), (93, 'Issa', 0), (102, 'Cass', 19), (106, 'Vend', 2), (134, 'Marc', 5)]
+   kills [(185, 'Cass', 'Varg'), (198, 'Vend', 'Marc'), (265, 'Vend', 'Ryth')] deaths [(74, 'Hear'), (157, 'Will'), (357, 'Hear')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 388, 200: 766, 300: 1220, 400: 1614} sub 735
+   buys r26:Hear:AL* r26:Hear:T s Focus r26:Hear:T s Focus r45:Ryth:AL* r45:Ryth:T s Strength r45:Ryth:T s Strength r99:Vend:AL* r99:Vend:D s Health r99:Vend:T s Strength
+   camps [(19, 'Hear', 1), (24, 'Vend', 18), (28, 'Marc', 16), (38, 'Vend', 3), (54, 'Marc', 20), (93, 'Marc', 11), (116, 'Varg', 1), (123, 'Marc', 18)]
+   kills [(157, 'Vend', 'Will')] deaths [(185, 'Varg'), (198, 'Marc'), (265, 'Ryth')]
+===== dd2143ee Gamblr 00anvil loss ourside b
+OPP draft ['Vesper Vale', 'Marcella', 'Cassi', 'Issac'] earned {100: 362, 200: 786, 300: 1323, 400: 1563} sub 1030
+   buys r39:Vesp:Capture s Strength r87:Vesp:Capture s Strength r87:Vesp:T s Strength r126:Issa:Prospector s Health r133:Cass:Power s Focus r156:Marc:Jungle s Strength r172:Vesp:Jungle s Strength r172:Vesp:T s Strength r211:Vesp:Jungle s Strength
+   camps [(5, 'Marc', 4), (12, 'Cass', 11), (28, 'Issa', 0), (56, 'Issa', 2), (68, 'Cass', 6), (75, 'Issa', 4), (84, 'Issa', 11), (134, 'Issa', 4)]
+   kills [(112, 'Cass', 'Ryth'), (269, 'Vesp', 'Ryth'), (415, 'Vesp', 'Ryth')] deaths [(509, 'Cass'), (509, 'Issa'), (517, 'Marc')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella'] earned {100: 370, 200: 597, 300: 1007, 400: 1416} sub 261
+   buys r20:Hear:AL* r20:Hear:T s Focus r57:Ryth:AL* r57:Ryth:T s Strength r57:Ryth:T s Strength r57:Ryth:T s Strength r69:Marc:T s Strength r69:Marc:T s Strength r69:Marc:T s Strength
+   camps [(6, 'Marc', 7), (12, 'Ryth', 12), (13, 'Hear', 5), (21, 'Marc', 9), (47, 'Hear', 8), (50, 'Ryth', 1), (62, 'Marc', 3), (71, 'Ryth', 12)]
+   kills [(735, 'Marc', 'Issa'), (872, 'Marc', 'Marc')] deaths [(112, 'Ryth'), (269, 'Ryth'), (415, 'Ryth')]
+===== 75e75bad Gamblr 00split loss ourside b
+OPP draft ['Marcella', 'Vendetta', 'Heart of Ruin', 'Cassi', 'Issac', 'Willow'] earned {100: 316, 200: 706, 300: 1222, 400: 1932} sub 1073
+   buys r83:Marc:Capture s Health r83:Marc:Jungle s Strength r117:Vend:Capture s Health r117:Vend:Jungle s Strength r139:Marc:Capture s Health r139:Marc:Monster s Strength r189:Hear:Jungle s Focus r232:Vend:Monster s Strength r261:Marc:Monster s Strength
+   camps [(25, 'Hear', 30), (58, 'Will', 2), (81, 'Issa', 0), (106, 'Vend', 6), (128, 'Marc', 4), (130, 'Will', 8), (145, 'Hear', 30), (161, 'Will', 10)]
+   kills [(550, 'Vend', 'Marc')] deaths [(171, 'Will')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 370, 200: 892, 300: 1633, 400: 2327} sub 867
+   buys r58:Ryth:T s Strength r58:Ryth:T s Strength r58:Ryth:T s Strength r58:Ryth:T s Strength r58:Ryth:T s Strength r68:Hear:AL* r68:Hear:D s Health r68:Hear:T s Focus r68:Hear:T s Focus
+   camps [(27, 'Vend', 31), (51, 'Marc', 5), (61, 'Vend', 7), (105, 'Ryth', 11), (134, 'Hear', 3), (154, 'Vend', 15), (163, 'Varg', 1), (214, 'Varg', 7)]
+   kills [] deaths [(550, 'Marc')]
+===== 2db1fc60 Valenki 00crater loss ourside a
+OPP draft ['Vesper Vale', 'Vendetta', 'Heart of Ruin', 'Cassi', 'Issac', 'Marcella'] earned {100: 412, 200: 878, 300: 1545, 400: 1981} sub 1070
+   buys r55:Issa:T s Strength r55:Issa:T s Strength r55:Issa:T s Strength r56:Marc:Jungle s Focus r56:Marc:Jungle s Focus r56:Marc:Jungle s Focus r72:Vesp:T s Strength r72:Vesp:T s Strength r72:Vesp:T s Strength
+   camps [(23, 'Vesp', 5), (49, 'Hear', 2), (52, 'Vesp', 4), (91, 'Issa', 5), (155, 'Vesp', 2), (168, 'Marc', 4), (192, 'Vend', 5), (268, 'Hear', 5)]
+   kills [(36, 'Issa', 'Varg'), (50, 'Marc', 'Marc'), (106, 'Issa', 'Vend')] deaths [(887, 'Cass'), (887, 'Issa')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 60, 200: 120, 300: 120, 400: 180} sub 0
+   buys r74:Hear:T s Focus r74:Hear:T s Focus r161:Varg:T s Strength r161:Varg:T s Strength r347:Varg:T s Strength r347:Varg:T s Strength r666:Vend:T s Strength r666:Vend:T s Strength
+   camps [(67, 'Hear', 0), (154, 'Varg', 0), (335, 'Ryth', 0), (522, 'Marc', 4), (659, 'Vend', 0), (734, 'Ryth', 4), (1001, 'Vend', 2)]
+   kills [] deaths [(36, 'Varg'), (50, 'Marc'), (106, 'Vend')]
+===== 9c43d23b Valenki 01starvation loss ourside a
+OPP draft ['Vesper Vale', 'Vendetta', 'Heart of Ruin', 'Cassi', 'Issac', 'Marcella'] earned {100: 106, 200: 299, 300: 479, 400: 691} sub 934
+   buys r143:Vesp:T s Strength r143:Vesp:T s Strength r143:Vesp:T s Strength r143:Vesp:T s Strength r143:Vesp:T s Strength r158:Hear:T s Health r158:Hear:T s Health r158:Hear:T s Health r205:Vend:T s Health
+   camps [(48, 'Vesp', 4), (68, 'Vend', 5), (88, 'Vend', 7), (108, 'Vesp', 4), (126, 'Vend', 5), (165, 'Issa', 7), (183, 'Vend', 5), (203, 'Cass', 4)]
+   kills [(152, 'Hear', 'Hear'), (215, 'Cass', 'Ryth'), (595, 'Vend', 'Varg')] deaths [(492, 'Vesp'), (1010, 'Hear'), (1426, 'Hear')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 40, 200: 280, 300: 480, 400: 922} sub 216
+   buys r76:Vend:AL* r76:Vend:T s Strength r215:Ryth:AL* r215:Ryth:T s Strength r231:Marc:T s Strength r231:Marc:T s Strength r231:Marc:T s Strength r231:Marc:T s Strength r342:Vend:B s Health
+   camps [(69, 'Vend', 6), (116, 'Ryth', 12), (125, 'Vend', 0), (158, 'Marc', 6), (164, 'Vend', 1), (190, 'Marc', 3), (217, 'Vend', 0), (224, 'Marc', 6)]
+   kills [(1426, 'Ryth', 'Hear'), (1745, 'Marc', 'Marc'), (1770, 'Marc', 'Issa')] deaths [(152, 'Hear'), (215, 'Ryth'), (595, 'Varg')]
+===== 3d95fd45 Valenki 02arena loss ourside a
+OPP draft ['Vesper Vale', 'Vendetta', 'Heart of Ruin'] earned {100: 332, 200: 941, 300: 1493, 400: 2124} sub 934
+   buys r83:Vesp:Jungle s Strength r83:Vesp:Jungle s Strength r83:Vesp:Jungle s Strength r83:Vesp:Jungle s Strength r83:Vesp:Jungle s Strength r83:Vesp:Prospector s Strength r83:Vesp:T s Strength r83:Vesp:T s Strength r83:Vesp:T s Strength
+   camps [(14, 'Vend', 5), (50, 'Vend', 3), (94, 'Vend', 5), (148, 'Vesp', 3), (176, 'Vend', 5), (228, 'Vend', 3), (252, 'Vend', 5), (278, 'Vesp', 13)]
+   kills [(117, 'Vesp', 'Marc'), (275, 'Vesp', 'Ryth'), (473, 'Vesp', 'Ryth')] deaths [(586, 'Vend'), (1164, 'Vend'), (1272, 'Hear')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella'] earned {100: 290, 200: 601, 300: 904, 400: 1036} sub 178
+   buys r40:Ryth:AL* r40:Ryth:T s Strength r40:Ryth:T s Strength r40:Ryth:T s Strength r40:Ryth:T s Strength r40:Ryth:T s Strength r50:Hear:AL* r50:Hear:T s Focus r50:Hear:T s Focus
+   camps [(33, 'Marc', 2), (43, 'Hear', 4), (47, 'Marc', 11), (82, 'Marc', 13), (135, 'Hear', 4), (150, 'Ryth', 2), (181, 'Ryth', 12), (207, 'Ryth', 4)]
+   kills [(586, 'Hear', 'Vend'), (1164, 'Marc', 'Vend'), (1272, 'Marc', 'Hear')] deaths [(117, 'Marc'), (275, 'Ryth'), (473, 'Ryth')]
+===== 40d47a48 Valenki 01yellow_brick_road loss ourside a
+OPP draft ['Vesper Vale', 'Vendetta', 'Heart of Ruin', 'Cassi', 'Issac', 'Marcella'] earned {100: 343, 200: 786, 300: 1422, 400: 2690} sub 1013
+   buys r62:Vend:T s Health r62:Vend:T s Health r62:Vend:T s Health r65:Vesp:Jungle s Strength r65:Vesp:T s Strength r65:Vesp:T s Strength r65:Vesp:T s Strength r65:Vesp:T s Strength r65:Vesp:T s Strength
+   camps [(19, 'Vend', 18), (50, 'Vesp', 16), (92, 'Vesp', 18), (130, 'Vesp', 9), (190, 'Vesp', 18), (213, 'Vend', 17), (233, 'Vend', 13), (240, 'Issa', 9)]
+   kills [(44, 'Vend', 'Ryth'), (117, 'Vesp', 'Varg'), (178, 'Vend', 'Hear')] deaths [(46, 'Cass'), (46, 'Issa'), (47, 'Hear')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 120, 200: 430, 300: 1226, 400: 2192} sub 990
+   buys r64:Hear:T s Focus r64:Hear:T s Focus r64:Hear:T s Focus r64:Hear:T s Focus r108:Hear:AL* r108:Hear:D s Health r108:Hear:D s Health r108:Hear:D s Health r108:Hear:D s Health
+   camps [(57, 'Hear', 2), (101, 'Vend', 26), (186, 'Vend', 2), (238, 'Ryth', 1), (288, 'Vend', 2), (350, 'Vend', 8), (370, 'Marc', 26), (401, 'Marc', 4)]
+   kills [(466, 'Hear', 'Cass'), (670, 'Hear', 'Marc'), (711, 'Ryth', 'Cass')] deaths [(44, 'Ryth'), (117, 'Varg'), (178, 'Hear')]
+===== 15cb2442 Valenki adgato_gemcombat1 loss ourside a
+OPP draft ['Vesper Vale', 'Vendetta', 'Heart of Ruin'] earned {100: 100, 200: 100, 300: 310, 400: 530} sub 1002
+   buys r88:Hear:T s Health r88:Hear:T s Health r88:Hear:T s Health r227:Hear:Jungle s Focus r227:Hear:T s Health r227:Hear:T s Health r295:Hear:Jungle s Focus r295:Hear:Jungle s Focus r295:Hear:Jungle s Focus
+   camps [(4, 'Vend', 1), (10, 'Vend', 5), (40, 'Vesp', 2), (45, 'Vend', 3), (116, 'Vend', 2), (136, 'Hear', 1), (137, 'Vend', 5), (182, 'Vend', 2)]
+   kills [(83, 'Hear', 'Ryth'), (218, 'Hear', 'Ryth'), (272, 'Hear', 'Marc')] deaths []
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella'] earned {100: 0, 200: 126, 300: 126, 400: 126} sub 420
+   buys r126:Marc:AL* r126:Marc:T s Strength r126:Marc:T s Strength r194:Marc:AL* r194:Marc:T s Strength r576:Marc:AL* r576:Marc:T s Strength
+   camps [(15, 'Ryth', 4), (16, 'Hear', 0), (69, 'Ryth', 1), (73, 'Marc', 5), (103, 'Marc', 0), (151, 'Marc', 3), (164, 'Hear', 4), (164, 'Ryth', 0)]
+   kills [] deaths [(83, 'Ryth'), (218, 'Ryth'), (272, 'Marc')]
+===== da05ee1c KratosMessi 01concentrated_wealth loss ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Vesper Vale', 'Ryth'] earned {100: 379, 200: 967, 300: 1737, 400: 2533} sub 1020
+   buys r49:Vesp:AL* r49:Vesp:Teleport Crystal* r49:Vesp:T s Strength r80:Marc:AL* r80:Marc:Jungle s Focus r80:Marc:Teleport Crystal* r107:Vesp:Jungle s Strength r107:Vesp:Teleport Crystal* r107:Vesp:T s Strength
+   camps [(34, 'Vesp', 2), (68, 'Ryth', 6), (162, 'Marc', 0), (206, 'Ryth', 2), (240, 'Vesp', 6), (283, 'Vesp', 0), (323, 'Hear', 8), (365, 'Hear', 0)]
+   kills [(96, 'Vesp', 'Hear'), (156, 'Marc', 'Marc'), (261, 'Vend', 'Hear')] deaths [(137, 'Vesp'), (746, 'Vend')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 210, 200: 530, 300: 800, 400: 1141} sub 122
+   buys r47:Hear:AL* r47:Hear:T s Focus r47:Hear:T s Focus r47:Hear:T s Focus r58:Varg:AL* r58:Varg:T s Strength r58:Varg:T s Strength r58:Varg:T s Strength r97:Hear:AL*
+   camps [(40, 'Vend', 1), (51, 'Varg', 5), (131, 'Vend', 1), (177, 'Ryth', 5), (216, 'Ryth', 1), (233, 'Hear', 7), (251, 'Varg', 5), (298, 'Varg', 1)]
+   kills [(137, 'Marc', 'Vesp'), (746, 'Varg', 'Vend')] deaths [(96, 'Hear'), (156, 'Marc'), (261, 'Hear')]
+===== a897224d KratosMessi 02stalactites loss ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Ryth'] earned {100: 300, 200: 888, 300: 1374, 400: 1978} sub 1022
+   buys r44:Marc:AL* r44:Marc:Jungle s Focus r57:Ryth:AL* r57:Ryth:Jungle s Health r57:Ryth:T s Health r116:Marc:Jungle s Focus r116:Marc:T s Focus r159:Hear:AL* r159:Hear:Jungle s Focus
+   camps [(84, 'Marc', 8), (94, 'Vend', 6), (148, 'Marc', 10), (210, 'Vend', 8), (466, 'Ryth', 8), (472, 'Ryth', 7), (563, 'Marc', 8), (720, 'Marc', 7)]
+   kills [(27, 'Marc', 'Marc'), (31, 'Ryth', 'Ryth'), (48, 'Ryth', 'Hear')] deaths [(159, 'Hear')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta'] earned {100: 0, 200: 220, 300: 220, 400: 220} sub 130
+   buys r139:Vend:T s Strength r139:Vend:T s Strength r139:Vend:T s Strength r139:Vend:T s Strength r169:Vend:AL* r169:Vend:D s Health r169:Vend:D s Health r169:Vend:T s Strength
+   camps [(25, 'Vend', 0), (35, 'Vend', 13), (132, 'Vend', 9), (149, 'Hear', 7), (338, 'Vend', 6), (488, 'Vend', 6)]
+   kills [(159, 'Vend', 'Hear')] deaths [(27, 'Marc'), (31, 'Ryth'), (48, 'Hear')]
+===== eb7db429 KratosMessi adgato_gemcombat5 loss ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Vesper Vale', 'Ryth'] earned {100: 133, 200: 203, 300: 676, 400: 1059} sub 1029
+   buys r87:Vesp:AL* r87:Vesp:T s Strength r233:Marc:AL* r233:Marc:Jungle s Focus r233:Marc:T s Focus r244:Vesp:Jungle s Strength r244:Vesp:T s Strength r248:Ryth:AL* r248:Ryth:T s Health
+   camps [(39, 'Marc', 16), (53, 'Ryth', 12), (90, 'Ryth', 18), (94, 'Vend', 0), (162, 'Marc', 0), (197, 'Hear', 2), (237, 'Vend', 0), (311, 'Hear', 2)]
+   kills [(78, 'Vesp', 'Marc'), (203, 'Vesp', 'Marc'), (231, 'Ryth', 'Vend')] deaths [(314, 'Vend'), (355, 'Hear'), (408, 'Ryth')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 0, 200: 0, 300: 0, 400: 326} sub 679
+   buys r404:Vend:AL* r404:Vend:D s Health r404:Vend:T s Strength r404:Vend:T s Strength r404:Vend:T s Strength r404:Vend:T s Strength r404:Vend:T s Strength r413:Marc:T s Strength r413:Marc:T s Strength
+   camps [(68, 'Hear', 15), (68, 'Ryth', 2), (68, 'Varg', 1), (68, 'Vend', 3), (87, 'Vend', 17), (174, 'Hear', 3), (190, 'Varg', 4), (220, 'Hear', 5)]
+   kills [(314, 'Vend', 'Vend'), (355, 'Vend', 'Hear'), (408, 'Varg', 'Ryth')] deaths [(78, 'Marc'), (203, 'Marc'), (231, 'Vend')]
+===== 3136e6ac KratosMessi 00quarry loss ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Ryth'] earned {100: 300, 200: 560, 300: 1046, 400: 1276} sub 1010
+   buys r25:Marc:AL* r25:Marc:Jungle s Focus r49:Vend:AL* r49:Vend:Jungle s Strength r101:Marc:Jungle s Focus r152:Vend:Jungle s Strength r171:Marc:T s Focus r207:Vend:Jungle s Strength r207:Vend:T s Strength
+   camps [(2, 'Vend', 7), (3, 'Hear', 5), (8, 'Vend', 3), (77, 'Vend', 1), (89, 'Vend', 3), (91, 'Marc', 5), (113, 'Marc', 7), (152, 'Hear', 3)]
+   kills [(157, 'Marc', 'Vend'), (242, 'Marc', 'Ryth'), (297, 'Vend', 'Vend')] deaths [(44, 'Ryth'), (72, 'Hear'), (418, 'Marc')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta'] earned {100: 580, 200: 892, 300: 1188, 400: 1542} sub 966
+   buys r11:Ryth:AL* r11:Ryth:T s Strength r13:Marc:AL* r13:Marc:T s Strength r23:Hear:T s Focus r23:Hear:T s Focus r61:Marc:T s Strength r61:Marc:T s Strength r61:Marc:T s Strength
+   camps [(4, 'Ryth', 6), (6, 'Marc', 2), (16, 'Hear', 4), (49, 'Ryth', 8), (67, 'Ryth', 6), (68, 'Marc', 2), (83, 'Ryth', 4), (88, 'Vend', 0)]
+   kills [(44, 'Marc', 'Ryth'), (72, 'Hear', 'Hear'), (418, 'Vend', 'Marc')] deaths [(157, 'Vend'), (242, 'Ryth'), (297, 'Vend')]
+===== 0ae5c841 KratosMessi 01yellow_brick_road win ourside a
+OPP draft ['Marcella', 'Heart of Ruin', 'Vendetta', 'Vesper Vale', 'Ryth'] earned {100: 100, 200: 100, 300: 200, 400: 200} sub 37
+   buys r93:Hear:AL* r93:Hear:Jungle s Focus r247:Hear:Jungle s Focus r247:Hear:T s Focus r639:Ryth:AL* r639:Ryth:Jungle s Health r639:Ryth:T s Health r754:Marc:AL* r754:Marc:Jungle s Focus
+   camps [(18, 'Marc', 0), (62, 'Vesp', 1), (347, 'Hear', 1), (481, 'Marc', 1), (621, 'Ryth', 27), (726, 'Vend', 18), (785, 'Ryth', 3)]
+   kills [(79, 'Hear', 'Ryth'), (210, 'Hear', 'Vend')] deaths [(49, 'Vend'), (250, 'Vesp'), (794, 'Vesp')]
+US  draft ['Heart of Ruin', 'Ryth', 'Marcella', 'Vendetta', 'Varg'] earned {100: 710, 200: 1222, 300: 2278, 400: 3477} sub 1040
+   buys r47:Hear:B s Health r47:Hear:B s Health r47:Hear:B s Health r47:Hear:B s Health r47:Hear:B s Health r47:Hear:D s Health r47:Hear:D s Health r47:Hear:D s Health r47:Hear:D s Health
+   camps [(78, 'Hear', 8), (106, 'Varg', 26), (131, 'Varg', 2), (164, 'Varg', 8), (177, 'Vend', 10), (225, 'Hear', 26), (225, 'Varg', 0), (271, 'Varg', 8)]
+   kills [(794, 'Hear', 'Vesp'), (802, 'Hear', 'Marc'), (810, 'Hear', 'Vend')] deaths [(79, 'Ryth'), (102, 'Vend'), (210, 'Vend')]

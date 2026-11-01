@@ -1,0 +1,13 @@
+ha²t (all)                   n=105 win= 67 gold@100/200/300 274.4/693.1/1141.7 coll@100/200 4.2/9.7 kills@150/300 0.7/1.4 deaths@150/300 0.9/1.7 firstbuy 59 firstbank 116 items@100/200 6.1/18.5
+ha²t vs us                   n=  5 win=  5 gold@100/200/300 223.6/602.0/963.6 coll@100/200 6.6/13.4 kills@150/300 1.4/3 deaths@150/300 0.2/1 firstbuy 65 firstbank 67 items@100/200 5/16.2
+us vs ha²t                   n=  5 win=  0 gold@100/200/300 152.8/371.6/587.4 coll@100/200 5.2/10.6 kills@150/300 0.2/1 deaths@150/300 1.4/3 firstbuy 40 firstbank 191 items@100/200 4.2/10.2
+Gamblr (all)                 n=100 win= 54 gold@100/200/300 326.4/760.4/1237.8 coll@100/200 4.3/9.3 kills@150/300 0.7/1.4 deaths@150/300 1.2/2.5 firstbuy 68.0 firstbank 107.0 items@100/200 2.1/6.4
+Gamblr vs us                 n=  5 win=  5 gold@100/200/300 382.8/854.0/1395.8 coll@100/200 5/11.8 kills@150/300 0.8/2.8 deaths@150/300 0.2/1.8 firstbuy 68 firstbank 78 items@100/200 2.4/6.8
+us vs Gamblr                 n=  5 win=  0 gold@100/200/300 322.4/680.0/1196.8 coll@100/200 5/11.2 kills@150/300 0/1 deaths@150/300 0.8/2.8 firstbuy 26 firstbank 60 items@100/200 8.8/20.4
+Valenki (all)                n=105 win= 64 gold@100/200/300 284.7/648.4/1055.7 coll@100/200 4.2/9.3 kills@150/300 0.8/1.8 deaths@150/300 0.9/1.7 firstbuy 75 firstbank 92 items@100/200 5.4/16.7
+Valenki vs us                n= 10 win=  5 gold@100/200/300 278.3/654.6/1101.4 coll@100/200 4/8.9 kills@150/300 0.9/2.1 deaths@150/300 0.5/1.1 firstbuy 82.0 firstbank 54.5 items@100/200 5.6/17.1
+us vs Valenki                n= 10 win=  5 gold@100/200/300 226.3/552.1/990.2 coll@100/200 3.7/8.3 kills@150/300 0/0.1 deaths@150/300 0.9/2.2 firstbuy 52.5 firstbank 82.5 items@100/200 5.8/14.9
+KratosMessi (all)            n=105 win= 49 gold@100/200/300 274.5/612.0/975.9 coll@100/200 4.2/8.8 kills@150/300 0.7/1.7 deaths@150/300 1.0/2.0 firstbuy 61 firstbank 101 items@100/200 1.9/5.5
+KratosMessi vs us            n= 10 win=  7 gold@100/200/300 233.4/541.2/1010.1 coll@100/200 3.6/7.3 kills@150/300 1.3/4 deaths@150/300 0.8/1.1 firstbuy 74.0 firstbank 110.5 items@100/200 1.6/5.1
+us vs KratosMessi            n= 10 win=  3 gold@100/200/300 266.0/538.6/768.3 coll@100/200 4.5/8.5 kills@150/300 0.7/0.9 deaths@150/300 1.4/4.1 firstbuy 42.0 firstbank 100.0 items@100/200 7.7/15.3
+us (all in set)              n= 30 win=  8 gold@100/200/300 243.3/538.8/883.5 coll@100/200 4.4/9.2 kills@150/300 0.3/0.7 deaths@150/300 1.1/3.1 firstbuy 40.5 firstbank 94.0 items@100/200 6.7/15.2

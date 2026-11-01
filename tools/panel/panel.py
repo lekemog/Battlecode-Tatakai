@@ -94,6 +94,14 @@ def run(label, version, pin=None):
     before = live_version()
     print(f'live before: {before}; activating {version}', flush=True)
     cli('submissions', 'activate', str(version))
+    # Activation is asynchronous (the target reads 'queued' for several minutes while the old version stays live): wait until it is
+    # really the live version before creating any match group, else the first groups are played by the previous bot.
+    for _ in range(180):
+        if live_version() == str(version):
+            break
+        time.sleep(15)
+    else:
+        raise RuntimeError(f'version {version} did not become live within 45 minutes')
     try:
         for opp in panel['opponents']:
             key = opp['name']

@@ -14,6 +14,8 @@ C++ bot for the Cambridge Battlecode 2026a game (champions, gems, altars, camps)
 | `tools/scan/`, `tools/replay/` | Death and anomaly scanners, replay decoders |
 | `results/` | Reports and raw results; `results/claude/patch-4.0.md` lists the 4.0 patch changes and item effects |
 | `SUBMISSIONS.md` | Every ladder submission with its one-line reason and evidence |
+| `TESTING.md` | **How to test a bot version** (tiers, which test for which change, commands, gates, pitfalls, reference numbers): read before running anything |
+| `tools/lab/` | Portable test scripts: `setup_lab.sh`, `smoke.sh`, `mirror.sh`, `gauntlet_stats.py`, `stats.py`, `panel_run.sh`, `submit_wait.sh`, `activate_wait.sh`, `live_status.sh` |
 | `LIVE_SLOT.md` | Who is testing on the ladder right now. **Check it before you submit or create match groups** |
 | `START_HERE_AGENTS.md` | Guide for teammates and their agents |
 | `NOTES.md`, `CONVERSATION.md`, `HANDOFF_*.md` | Findings, the coordination thread and hand-off notes |

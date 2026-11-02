@@ -514,6 +514,63 @@
     "kills": 0,
     "rounds": 857
    }
+  ],
+  "test4-c00b682e": [
+   {
+    "map": "02harvest",
+    "side": "b",
+    "match": "bfba6df4-b39e-4f78-9e55-d4ba6ab9dbcc",
+    "win": false,
+    "gems": 754,
+    "opp_gems": 1016,
+    "deaths": 2,
+    "kills": 1,
+    "rounds": 1065
+   },
+   {
+    "map": "02the_pack",
+    "side": "a",
+    "match": "022fb08e-7c6e-4808-a0ea-715ea3b821a4",
+    "win": false,
+    "gems": 46,
+    "opp_gems": 737,
+    "deaths": 15,
+    "kills": 0,
+    "rounds": 2000
+   },
+   {
+    "map": "01shortcut",
+    "side": "b",
+    "match": "1da27163-1af0-4cd0-8492-73fa9e1ee6f9",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1191,
+    "deaths": 8,
+    "kills": 4,
+    "rounds": 798
+   },
+   {
+    "map": "00contest",
+    "side": "a",
+    "match": "279575d9-b7a3-470a-a540-b1c6d43c668b",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1000,
+    "deaths": 38,
+    "kills": 0,
+    "rounds": 1155
+   },
+   {
+    "map": "00stampede",
+    "side": "b",
+    "match": "743f3499-65bc-41af-996a-c7ec444142d6",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1011,
+    "deaths": 18,
+    "kills": 1,
+    "rounds": 1700
+   }
   ]
  },
  "groups": {

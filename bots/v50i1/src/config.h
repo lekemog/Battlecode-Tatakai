@@ -13,6 +13,8 @@ namespace mb::cfg {
 // home monolith groups (600 each) and siege_max_trips 4 rejects them for the whole game. 0 = off.
 inline constexpr int big_siege_trips = 40;
 inline constexpr std::uint32_t big_siege_min_gems = 300;
+// ... only when the other groups yield fewer than this many gems a round map-wide (or the group gates the altar).
+inline constexpr float big_siege_poor_rate = 0.5f;
 
 // --- Ring-gate banking (v50c) --------------------------------------------------------------------
 // An altar whose every approach crosses live camp tiles (02the-pack) is reachable by sieging the group

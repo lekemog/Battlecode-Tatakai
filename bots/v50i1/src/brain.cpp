@@ -12,6 +12,8 @@
 
 namespace mb {
 
+static bool gem_poor_without_monoliths();
+
 namespace {
 
 // cfg::learned state (one bot instance per champion, so one Brain per instance). Kept out of Brain so
@@ -2338,6 +2340,19 @@ float Brain::full_trip_pool(const Ctx& ctx)
     return (1.0f - cfg::recall_health_frac) * ctx.max_hp / std::max(0.1f, ctx.camp_damage_taken_mult);
 }
 
+// True when the groups without a monolith yield fewer than cfg::big_siege_poor_rate gems a round map-wide (03homonoliths: none),
+// i.e. the monolith groups are the only way to reach the winning total.
+static bool gem_poor_without_monoliths()
+{
+    static const bool poor = [] {
+        float rate = 0.0f;
+        for (const auto& g : World::get().groups)
+            if (!g.has_monolith && g.respawn > 0) rate += static_cast<float>(g.gems) / static_cast<float>(g.respawn);
+        return rate < cfg::big_siege_poor_rate;
+    }();
+    return poor;
+}
+
 float Brain::gem_weight(const Ctx& ctx)
 {
     // Gold buys items that pay off for the rest of the game; gems only count at the end. Weight
@@ -2478,7 +2493,9 @@ float Brain::score_group(const Ctx& ctx, int group, int* need_out) const
         const float p = pool + avg_hp * ally_trip_share() * static_cast<float>(extra);
         const auto f = model::forecast_from_constants(fc, d, scale);
         // With recall-consistent planning, later trips start from full health.
-        const int max_trips = (cfg::big_siege_trips > 0 && info.has_monolith && info.gems >= cfg::big_siege_min_gems) ? cfg::big_siege_trips : cfg::siege_max_trips;
+        const int max_trips = (cfg::big_siege_trips > 0 && info.has_monolith && info.gems >= cfg::big_siege_min_gems &&
+                               (gem_poor_without_monoliths() || group == world.gate_group))
+                                  ? cfg::big_siege_trips : cfg::siege_max_trips;
         const auto siege = cfg::siege_pool_from_recall
                                ? model::plan_siege(f, p, p - trip_pool(ctx) + full_trip_pool(ctx), overhead, cfg::camp_safety_margin, max_trips)
                                : model::plan_siege(f, p, overhead, cfg::camp_safety_margin, max_trips);

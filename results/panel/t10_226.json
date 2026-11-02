@@ -343,6 +343,63 @@
     "kills": 0,
     "rounds": 558
    }
+  ],
+  "print_dont_int-d559d741": [
+   {
+    "map": "adgato_gemcombat1",
+    "side": "a",
+    "match": "8cd7a697-325b-44e5-b3a3-def8f7593296",
+    "win": false,
+    "gems": 126,
+    "opp_gems": 1023,
+    "deaths": 14,
+    "kills": 0,
+    "rounds": 753
+   },
+   {
+    "map": "00ribs",
+    "side": "b",
+    "match": "85bbdf5c-03d2-4d2a-b140-441969ab9999",
+    "win": false,
+    "gems": 86,
+    "opp_gems": 1023,
+    "deaths": 20,
+    "kills": 0,
+    "rounds": 1165
+   },
+   {
+    "map": "00swirl",
+    "side": "a",
+    "match": "4628bae3-8530-46e3-8660-b9f46765ed44",
+    "win": false,
+    "gems": 15,
+    "opp_gems": 1011,
+    "deaths": 35,
+    "kills": 4,
+    "rounds": 881
+   },
+   {
+    "map": "00gem_fields",
+    "side": "b",
+    "match": "5329cddc-9d19-4d29-83cf-c66415a0b9a1",
+    "win": false,
+    "gems": 447,
+    "opp_gems": 1070,
+    "deaths": 24,
+    "kills": 3,
+    "rounds": 742
+   },
+   {
+    "map": "00great_wall",
+    "side": "a",
+    "match": "41a8be63-d053-4508-93d2-b1d16e36647f",
+    "win": true,
+    "gems": 1019,
+    "opp_gems": 989,
+    "deaths": 7,
+    "kills": 2,
+    "rounds": 1167
+   }
   ]
  },
  "groups": {
@@ -352,6 +409,7 @@
   "Ad_Astra-de0b1e3c": "4f28447a-2cd5-4b5c-bb80-95e00b15f714",
   "newer_team-547efb5b": "fe7128f2-edd5-440f-a35b-f2c939767e8e",
   "NEETCoders-882106d4": "46def09a-6e2a-4cad-b45f-a9c0c09f87a5",
-  "print_dont_int-d559d741": "e6b00e3f-3fb9-42d1-984f-f7f54650f3c7"
+  "print_dont_int-d559d741": "e6b00e3f-3fb9-42d1-984f-f7f54650f3c7",
+  "German_Empire-87dba610": "945ab0bf-ab75-45b3-9cff-82d68dc016ae"
  }
 }

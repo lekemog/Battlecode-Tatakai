@@ -58,10 +58,68 @@
     "kills": 0,
     "rounds": 791
    }
+  ],
+  "Mite-ee83f5e5": [
+   {
+    "map": "02uncharted_lands",
+    "side": "b",
+    "match": "3e7e28b0-e13f-4f4c-ab5e-80bd438392ce",
+    "win": false,
+    "gems": 671,
+    "opp_gems": 1158,
+    "deaths": 6,
+    "kills": 1,
+    "rounds": 706
+   },
+   {
+    "map": "02fields",
+    "side": "a",
+    "match": "6b657275-dacc-4fa6-9d45-f48542892d4e",
+    "win": false,
+    "gems": 549,
+    "opp_gems": 1006,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 672
+   },
+   {
+    "map": "01broken_curve",
+    "side": "b",
+    "match": "20799724-ecaf-4f45-a504-cf2a2f250a00",
+    "win": false,
+    "gems": 738,
+    "opp_gems": 1000,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 753
+   },
+   {
+    "map": "01yellow_brick_road",
+    "side": "a",
+    "match": "4bbb0885-faab-40f0-ae14-74962aed37e2",
+    "win": false,
+    "gems": 808,
+    "opp_gems": 1053,
+    "deaths": 4,
+    "kills": 0,
+    "rounds": 882
+   },
+   {
+    "map": "00quadrants",
+    "side": "b",
+    "match": "b15ee76e-1fd3-4e9b-b473-3f2c995ae3be",
+    "win": false,
+    "gems": 562,
+    "opp_gems": 1057,
+    "deaths": 4,
+    "kills": 0,
+    "rounds": 445
+   }
   ]
  },
  "groups": {
   "Intercontinental-1890540d": "5bde75a9-62a0-4426-bdc0-a69a062fcc24",
-  "Mite-ee83f5e5": "8914a6d6-b1a1-46f4-84b4-533f874a794b"
+  "Mite-ee83f5e5": "8914a6d6-b1a1-46f4-84b4-533f874a794b",
+  "Univardisty_of_S-a4350547": "e8c89929-2c27-422c-a511-e7186fbbe394"
  }
 }

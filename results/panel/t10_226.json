@@ -172,12 +172,70 @@
     "kills": 0,
     "rounds": 1117
    }
+  ],
+  "Ad_Astra-de0b1e3c": [
+   {
+    "map": "00rows",
+    "side": "b",
+    "match": "4b442756-0b82-4cfe-92fe-7d41c7d321d5",
+    "win": false,
+    "gems": 513,
+    "opp_gems": 1095,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 924
+   },
+   {
+    "map": "02the_pond",
+    "side": "a",
+    "match": "e3879823-94d5-4ae0-92fe-f03d63ed2358",
+    "win": false,
+    "gems": 346,
+    "opp_gems": 1013,
+    "deaths": 11,
+    "kills": 3,
+    "rounds": 1203
+   },
+   {
+    "map": "01the_farm",
+    "side": "b",
+    "match": "f74127d7-6cba-447c-ba1d-f2eb2d9eb6c2",
+    "win": false,
+    "gems": 541,
+    "opp_gems": 1120,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 799
+   },
+   {
+    "map": "00pilgrimage",
+    "side": "a",
+    "match": "7145af9b-b480-4269-b624-b3d833a747d6",
+    "win": false,
+    "gems": 188,
+    "opp_gems": 1020,
+    "deaths": 19,
+    "kills": 0,
+    "rounds": 1309
+   },
+   {
+    "map": "01concentrated_wealth",
+    "side": "b",
+    "match": "738ebb5a-c47e-430e-a061-b3107e7a504d",
+    "win": false,
+    "gems": 240,
+    "opp_gems": 1017,
+    "deaths": 7,
+    "kills": 2,
+    "rounds": 994
+   }
   ]
  },
  "groups": {
   "Intercontinental-1890540d": "5bde75a9-62a0-4426-bdc0-a69a062fcc24",
   "Mite-ee83f5e5": "8914a6d6-b1a1-46f4-84b4-533f874a794b",
   "Univardisty_of_S-a4350547": "e8c89929-2c27-422c-a511-e7186fbbe394",
-  "Ad_Astra-de0b1e3c": "4f28447a-2cd5-4b5c-bb80-95e00b15f714"
+  "Ad_Astra-de0b1e3c": "4f28447a-2cd5-4b5c-bb80-95e00b15f714",
+  "newer_team-547efb5b": "fe7128f2-edd5-440f-a35b-f2c939767e8e"
  }
 }

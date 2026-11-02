@@ -1,0 +1,67 @@
+{
+ "label": "t10_k1",
+ "version": "230",
+ "games": {
+  "Intercontinental-1890540d": [
+   {
+    "map": "02geodes",
+    "side": "a",
+    "match": "f8c95b3f-c1c0-456f-8d3a-9088d3a5f67a",
+    "win": false,
+    "gems": 583,
+    "opp_gems": 1005,
+    "deaths": 0,
+    "kills": 1,
+    "rounds": 756
+   },
+   {
+    "map": "00elkring",
+    "side": "b",
+    "match": "e4b3de04-16c4-45fe-a789-d16c738a1af6",
+    "win": false,
+    "gems": 385,
+    "opp_gems": 1018,
+    "deaths": 9,
+    "kills": 0,
+    "rounds": 606
+   },
+   {
+    "map": "00packs",
+    "side": "a",
+    "match": "7d255cb2-4f2e-41eb-ae85-e677608f8619",
+    "win": false,
+    "gems": 147,
+    "opp_gems": 1018,
+    "deaths": 13,
+    "kills": 0,
+    "rounds": 871
+   },
+   {
+    "map": "01elk_arena",
+    "side": "b",
+    "match": "9ba0481a-a954-4dd7-962b-1fb7db74ba6c",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1030,
+    "deaths": 31,
+    "kills": 1,
+    "rounds": 1201
+   },
+   {
+    "map": "00eight",
+    "side": "a",
+    "match": "3f6c89c8-ac9b-43fd-a2e6-882421ac58bb",
+    "win": false,
+    "gems": 13,
+    "opp_gems": 1029,
+    "deaths": 24,
+    "kills": 1,
+    "rounds": 734
+   }
+  ]
+ },
+ "groups": {
+  "Intercontinental-1890540d": "2b7e430f-7193-4d1e-9d5d-ff4226f108e9",
+  "Mite-ee83f5e5": "797ff01a-880f-4663-ad94-6e2851b47cbf"
+ }
+}

@@ -115,11 +115,69 @@
     "kills": 0,
     "rounds": 445
    }
+  ],
+  "Univardisty_of_S-a4350547": [
+   {
+    "map": "01fracture",
+    "side": "a",
+    "match": "1e0f6b36-b2be-4a77-8874-635e5cc7d831",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1003,
+    "deaths": 6,
+    "kills": 0,
+    "rounds": 1012
+   },
+   {
+    "map": "02cuts",
+    "side": "b",
+    "match": "5deaf5bf-47d4-44cb-83fc-ee54b7d1f6d9",
+    "win": false,
+    "gems": 725,
+    "opp_gems": 1012,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 1140
+   },
+   {
+    "map": "00reverse_spiral",
+    "side": "a",
+    "match": "6b85c311-136c-4a4d-ac44-3f0bb2159f77",
+    "win": false,
+    "gems": 33,
+    "opp_gems": 1029,
+    "deaths": 23,
+    "kills": 0,
+    "rounds": 989
+   },
+   {
+    "map": "00split",
+    "side": "b",
+    "match": "6c86d7f4-cc07-4d88-bb2a-1ec1bd8b0c05",
+    "win": false,
+    "gems": 351,
+    "opp_gems": 1004,
+    "deaths": 7,
+    "kills": 0,
+    "rounds": 783
+   },
+   {
+    "map": "02guardians",
+    "side": "a",
+    "match": "46172d69-5a6f-4c2e-97eb-9f2eb095f72b",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1000,
+    "deaths": 31,
+    "kills": 0,
+    "rounds": 1117
+   }
   ]
  },
  "groups": {
   "Intercontinental-1890540d": "5bde75a9-62a0-4426-bdc0-a69a062fcc24",
   "Mite-ee83f5e5": "8914a6d6-b1a1-46f4-84b4-533f874a794b",
-  "Univardisty_of_S-a4350547": "e8c89929-2c27-422c-a511-e7186fbbe394"
+  "Univardisty_of_S-a4350547": "e8c89929-2c27-422c-a511-e7186fbbe394",
+  "Ad_Astra-de0b1e3c": "4f28447a-2cd5-4b5c-bb80-95e00b15f714"
  }
 }

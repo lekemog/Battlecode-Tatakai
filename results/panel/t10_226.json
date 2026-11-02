@@ -286,6 +286,63 @@
     "kills": 0,
     "rounds": 455
    }
+  ],
+  "NEETCoders-882106d4": [
+   {
+    "map": "00fragment",
+    "side": "b",
+    "match": "c46cc946-bfb9-4981-9438-d1ba4ff1cc86",
+    "win": true,
+    "gems": 1012,
+    "opp_gems": 97,
+    "deaths": 3,
+    "kills": 7,
+    "rounds": 1511
+   },
+   {
+    "map": "02treasure_box",
+    "side": "a",
+    "match": "e42086be-3a8b-478a-b69d-4e4f43c2bd7f",
+    "win": false,
+    "gems": 768,
+    "opp_gems": 1027,
+    "deaths": 9,
+    "kills": 8,
+    "rounds": 943
+   },
+   {
+    "map": "01big_world",
+    "side": "b",
+    "match": "6961528d-174d-4d59-bf58-42bcfb592dac",
+    "win": false,
+    "gems": 697,
+    "opp_gems": 1107,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 963
+   },
+   {
+    "map": "00anvil",
+    "side": "a",
+    "match": "75ec6127-d2bf-45c7-ba55-cd8b20fc39bd",
+    "win": false,
+    "gems": 130,
+    "opp_gems": 1123,
+    "deaths": 12,
+    "kills": 1,
+    "rounds": 1163
+   },
+   {
+    "map": "00road_of_riches",
+    "side": "b",
+    "match": "b1241f0b-efbe-4695-ae62-b21a3f0e8f69",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1007,
+    "deaths": 3,
+    "kills": 0,
+    "rounds": 558
+   }
   ]
  },
  "groups": {
@@ -294,6 +351,7 @@
   "Univardisty_of_S-a4350547": "e8c89929-2c27-422c-a511-e7186fbbe394",
   "Ad_Astra-de0b1e3c": "4f28447a-2cd5-4b5c-bb80-95e00b15f714",
   "newer_team-547efb5b": "fe7128f2-edd5-440f-a35b-f2c939767e8e",
-  "NEETCoders-882106d4": "46def09a-6e2a-4cad-b45f-a9c0c09f87a5"
+  "NEETCoders-882106d4": "46def09a-6e2a-4cad-b45f-a9c0c09f87a5",
+  "print_dont_int-d559d741": "e6b00e3f-3fb9-42d1-984f-f7f54650f3c7"
  }
 }

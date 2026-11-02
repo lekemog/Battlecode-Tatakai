@@ -12,6 +12,8 @@
 
 namespace mb {
 
+static bool gem_rich_map();
+
 namespace {
 
 // cfg::learned state (one bot instance per champion, so one Brain per instance). Kept out of Brain so

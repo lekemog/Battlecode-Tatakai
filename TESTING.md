@@ -144,3 +144,7 @@ deaths), scope scan over all current maps, still to do. Put it in `results/<issu
   `03riverbed`, `03showdown`, `03shrines`, `03the_front`, `03twisty`, `03ultrastarvation`): the live bot loses to the weakest bench opponent on `03colosseum` and
   `03homonoliths` (0 gems banked there) and ties 0-0 on `03one_gem`.
 * Issues #54 (deaths), #55 and #57 (gem races), #56 (early gold vs the strongest teams), #58 (rush on `00eight`/`00packs`), #59 (round-2000 tiebreaks).
+
+
+## Map-family stress testing
+Maps differ more than opponents do. `tools/lab/mapfeatures.sh` probes every map (bots/maprobe), `tools/lab/mapfamilies.py` assigns each to a family (gem-starved, gem-only, monolith, elk-herd, large, gold-rich, gold-poor, standard), and `tools/lab/family_report.py BOT BENCH_OUT mapfamilies.csv` splits any gauntlet by family. Baseline for the live bot: `results/map-stress-2026-11/README.md` (weakest family: gem-only, 43% vs v50p1). For a change, run the gauntlet vs `x_daniel8,h_mohnish,v50p1` on all 86 maps and check no family regresses.

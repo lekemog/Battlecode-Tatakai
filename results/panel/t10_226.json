@@ -229,6 +229,63 @@
     "kills": 2,
     "rounds": 994
    }
+  ],
+  "newer_team-547efb5b": [
+   {
+    "map": "00ambush",
+    "side": "a",
+    "match": "c84ebca2-c485-4f8e-8be6-88f163d8a7ac",
+    "win": false,
+    "gems": 456,
+    "opp_gems": 1019,
+    "deaths": 2,
+    "kills": 2,
+    "rounds": 1052
+   },
+   {
+    "map": "00gemfight",
+    "side": "b",
+    "match": "57067c8c-01b7-4038-9119-c1fcf3395d95",
+    "win": false,
+    "gems": 92,
+    "opp_gems": 1032,
+    "deaths": 8,
+    "kills": 2,
+    "rounds": 593
+   },
+   {
+    "map": "00lanes",
+    "side": "a",
+    "match": "399c9f78-f5cf-4cc4-b00f-e87d0700d7d3",
+    "win": false,
+    "gems": 602,
+    "opp_gems": 1000,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 804
+   },
+   {
+    "map": "00corners",
+    "side": "b",
+    "match": "3e232063-0902-4d0b-8e1d-9d25790a4b17",
+    "win": false,
+    "gems": 188,
+    "opp_gems": 1007,
+    "deaths": 8,
+    "kills": 0,
+    "rounds": 706
+   },
+   {
+    "map": "02crossing",
+    "side": "a",
+    "match": "3666e988-9609-40b3-a5ba-556f7e36884a",
+    "win": false,
+    "gems": 109,
+    "opp_gems": 1007,
+    "deaths": 10,
+    "kills": 0,
+    "rounds": 455
+   }
   ]
  },
  "groups": {
@@ -236,6 +293,7 @@
   "Mite-ee83f5e5": "8914a6d6-b1a1-46f4-84b4-533f874a794b",
   "Univardisty_of_S-a4350547": "e8c89929-2c27-422c-a511-e7186fbbe394",
   "Ad_Astra-de0b1e3c": "4f28447a-2cd5-4b5c-bb80-95e00b15f714",
-  "newer_team-547efb5b": "fe7128f2-edd5-440f-a35b-f2c939767e8e"
+  "newer_team-547efb5b": "fe7128f2-edd5-440f-a35b-f2c939767e8e",
+  "NEETCoders-882106d4": "46def09a-6e2a-4cad-b45f-a9c0c09f87a5"
  }
 }

@@ -22,3 +22,12 @@ Per family (vs v40a): v50h5e wins 100% on elk-herd, gem-only, gold-rich, large; 
 
 ## Next
 Run feature 3 (flag flips) and 2 as candidates on `v50p1` + gem-starved/`03one-gem` maps; ship only what wins on both strong panels. Agents are rate-limited until 04:50 UTC; I can run the cheap flag flips locally meanwhile.
+
+## Flag-flip results (vs v50p1, all 86 maps, both sides; baseline v50h5e 108/172, margin +174)
+| variant | change | wins | margin | verdict |
+|---|---|---|---|---|
+| v50f1 | `siege_pool_from_recall = true` | 100 | +138 | worse (-8) |
+| v50f2 | `capture_before_recall = 6` | 111 | +180 | +3, within noise; not shipped alone |
+| v50f3 | `tribute_gems_danger = 40` | 107 | +172 | neutral |
+
+Reproduce: copy `bots/v50h5e`, change the one constant in `src/config.h`, run `tools/lab/gauntlet_stats.py CAND v50p1` with `MAPLIST` = all maps. Consistent with the comments in `config.h` that these were already ablated. The only candidate worth a second look is `capture_before_recall` (try 3 and 10, then both strong panels) because a +3 repeated across values would be a signal; a single +3 is not.

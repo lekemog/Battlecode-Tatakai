@@ -1,0 +1,80 @@
+Per map: fuel/turn, turns >60K, idle-none turns, field gate deferred, suspended
+  03the-front      56964   53.4%   47.3%   33.5%  0
+  03colosseum      46375   25.4%    1.6%   26.1%  0
+  02the-pack       42466   17.0%    0.0%   41.0%  33
+  00lanes          40877   14.9%    1.5%   18.7%  0
+  01islands        37017    5.1%    0.0%   16.9%  0
+  01big-world      34821    3.2%    0.0%   12.8%  0
+  02cuts           33588    6.8%    0.0%   16.5%  0
+  00eight          32985    4.7%    0.0%   12.3%  0
+  01fracture       32885    6.0%    0.0%   15.9%  0
+  00expanse        32687    5.1%    0.0%   15.9%  0
+  02fields         32228    6.4%    0.0%   18.0%  0
+  00ambush         31950    1.0%    0.0%    2.6%  0
+  00stampede       31199    1.5%    0.0%    3.6%  0
+  00contest        31149    3.8%    0.0%    8.5%  0
+  00rows           29521    0.5%    0.0%    1.0%  0
+  00packs          28238    1.7%    0.0%    5.8%  0
+
+62 games, 287332 champion-turns profiled
+fuel/turn avg 35983  max 166626  lowest start-of-turn fuel 99841  turns >60K: 28869 (10.05%)  suspended: 33  early-return turns: 26956 (9.4%)
+
+Fuel per turn by phase (avg over all turns, worst single turn):
+  farm        10784  (30.0%)  worst 79794
+  observe      6761  (18.8%)  worst 27734
+  groups       5540  (15.4%)  worst 49622
+  threats      3163  ( 8.8%)  worst 60117
+  support      2096  ( 5.8%)  worst 37398
+  tribute      1820  ( 5.1%)  worst 38133
+  warm         1568  ( 4.4%)  worst 52922
+  slots        1189  ( 3.3%)  worst 2039
+  health       1131  ( 3.1%)  worst 47436
+  end           802  ( 2.2%)  worst 85449
+  ctx           591  ( 1.6%)  worst 866
+  shop          234  ( 0.7%)  worst 24299
+  init          191  ( 0.5%)  worst 160239
+  route         122  ( 0.3%)  worst 40017
+
+Decisions (mode/why): share of turns, avg fuel per turn, worst turn:
+  farm/travel             30.5%     36240  worst 166626
+  farm/fight              27.3%     36628  worst 145702
+  early-return/-           9.2%     14153  worst 160311
+  tribute/-                7.3%     38691  worst 99264
+  pvp/-                    6.7%     46967  worst 90045
+  idle/idle-none           3.8%     65214  worst 87005
+  capture/-                3.0%     24856  worst 72327
+  guard/-                  2.3%     24908  worst 60721
+  lowhp/-                  0.8%     45981  worst 99752
+  heal/-                   0.7%     27959  worst 96227
+  capture/travel           0.6%     33886  worst 78237
+  capture/caprecall        0.5%     28499  worst 81692
+  farm/fight-travel        0.4%     51192  worst 86387
+  farm/choose-hold         0.4%     69827  worst 81821
+  farm/stage               0.3%     40469  worst 89937
+  tribute/rally            0.3%     49387  worst 72619
+  breach/-                 0.3%     56120  worst 90523
+  tribute/alt-altar        0.1%     42270  worst 77264
+  idle/-                   0.1%     72698  worst 99101
+  farm/handoff             0.1%     33789  worst 77139
+  farm/await               0.0%     27617  worst 75058
+  farm/plan                0.0%     55178  worst 68714
+
+Fuel gates (deferred / reached):
+  breach      295 / 198070  (0.15% deferred)
+  choose     1588 / 181141  (0.88% deferred)
+  farm        427 / 197268  (0.22% deferred)
+  field     10753 /  87514  (12.29% deferred)
+  lowhp         1 / 237107  (0.00% deferred)
+  threats    1159 / 257632  (0.45% deferred)
+  tribute      83 / 234396  (0.04% deferred)
+
+Decision latency:
+  Heart     first_bank med 159 (n=55)  first_capture med 52 (n=60)  first_fight med 13 (n=62)  first_off med 4 (n=62)
+  Marcella  first_bank med 141 (n=56)  first_capture med 40 (n=61)  first_fight med 11 (n=61)  first_off med 3 (n=61)
+  Ryth      first_bank med 154 (n=55)  first_capture med 37 (n=62)  first_fight med 12 (n=62)  first_off med 4 (n=62)
+  Varg      first_bank med 307 (n=41)  first_capture med 50 (n=49)  first_fight med 26 (n=49)  first_off med 4 (n=49)
+  Vendetta  first_bank med 316 (n=49)  first_capture med 48 (n=54)  first_fight med 15 (n=54)  first_off med 4 (n=54)
+  bag at/above bank threshold: 47335 turns, 49.6% not banking (of which in a fight 9%, farming/capturing 80%); mean gems waiting 47
+  low health (<recall threshold) off spawn: 14928 turns, 50.1% not yet healing or in a player fight (of those: camp fight/capture 75%, travelling 12%)
+
+Field-cost model misses: 1452 logged; actual/estimate median 1.27, p90 1.49, max 1.80

@@ -1,5 +1,7 @@
 > **Agents: read `TESTING.md` first** (how to test each version, which test fits which change, the traps). Portable scripts are in `tools/lab/`.
 
+> **New (3 Nov):** everyone may tweak, test and submit bot versions after due diligence. Linking `cambc` to your own AI: see [`CLI_FOR_AGENTS.md`](CLI_FOR_AGENTS.md).
+
 # Start here: guide for teammates' agents (Kurians', Szymon's, ChatGPT)
 
 Written by main Claude, which owns the ladder submissions and the scrim quota. Updated on Sun 18 Oct, ~16:30 UTC. **The ladder freezes at 22:59 UTC tonight. New ladder tests stop around 21:30 UTC.**

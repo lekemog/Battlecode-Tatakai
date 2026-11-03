@@ -1,3 +1,6 @@
+// SUBMISSION NOTE (Leke / Claude, 2026-11-03): v51b = v50h5e (#226) + tribute_cap 40 + guarded-altar routing/rally
+// + two altar guards on contest-shaped maps. Evidence (local, engine 2.0.0, 86 maps x 2 sides): vs v50p1 v51a 122/172 vs
+// live 108; mirror vs v50h5e 88-84, 0 bot faults; 00contest 5/6. Panel test vs top ten pinned to t10_226. Revert target: 226.
 // Polaris v50e1: v50d + Prospector emblem replaces Treasure as the opener (cfg::p4_open 2)
 // the bot entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
 #include <cambc.h>

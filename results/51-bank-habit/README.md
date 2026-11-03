@@ -22,7 +22,11 @@ Two sources point to the same failure: against the top ten, our carriers hoard a
 | v51a vs v50h5e (mirror) | 172 | **91-81 (52.9% of decided)**, gem margin −2; deaths 3.6 vs 4.0; unconverted gems 59 vs 64; zero-bank 5 vs 5 |
 | v50h5e vs v50k4 (2-guard bot), baseline | 172 | 148-24 (86.0%); loses 00contest from both sides |
 | v51b on 00contest vs v50h5e / v50k4 / v50p1, both sides | 6 | **5 of 6 won** (v50h5e lost both contest games vs v50k4) |
-| v51a vs v50p1 (early pack), v50h5e vs v50p1, v51a vs v50k4 | 172 each | running, see the PR |
+| **v51a vs v50p1** (early-pack stress opponent) | 172 | **122 wins (70.9%)**, margin +232; banked 856; deaths 6.8; unconverted 133 |
+| v50h5e vs v50p1, baseline | 172 | 108 wins (62.8%), margin +174; banked 812; deaths 6.6; unconverted 137 |
+| v51a vs v50k4 | 172 | 144 wins (83.7%), margin +381 (baseline 148, +423); banked 927 vs 937 |
+
+Against the early-pack opponent the candidate gains +14 wins (+8 points), +58 margin and +44 banked per game. Deaths are flat (6.8 vs 6.6), so TESTING.md's "deaths fall 10%" condition for a caution change is not met. The gain comes through banking, not survival. Against the 2-guard bot it is 4 wins worse (noise-level, 2.3%). That bot is more our own code than the top ten.
 
 Reading:
 - The mirror is +10 wins with fewer deaths. It is under the 55% mirror gate, so on its own this is "no regression" evidence, not proof of a gain.

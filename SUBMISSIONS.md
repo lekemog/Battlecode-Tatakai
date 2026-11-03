@@ -135,3 +135,4 @@ Every ladder submission with a one-line comment. New submissions go through `too
 | 227 | v50r2 | 2026-11-01T20:04Z | Strong-panel candidate (h5e + sim_ally_contact 3, cohesion off): 20/40 vs baseline; not kept. |
 | 228 | v50h5a | 2026-11-01T20:16Z | Strong-panel candidate (hazard 0.15); left live by accident until 2026-11-02 12:59 UTC (unattended chain died), restored to 226. Not kept. |
 | 229 | v50j1 | 2026-11-02T20:40Z | Top-10 panel candidate (grave memory, regroup after a loss, contest-gated cohesion). Top-10 panel (50 games): 3 wins / margin -615 / deaths 10.6 vs v226 4 / -612 / 10.4. No effect, rejected. Live 20:41-20:51 UTC, restored to 226. |
+| 233 | v51b | 2026-11-03T17:01Z | PANEL TEST vs top ten (Leke approved, LIVE_SLOT window): v50h5e + tribute_cap 40 + guarded-altar routing/rally + contest altar guards (PR #70). Local: vs v50p1 v51a 122/172 (live 108), mirror vs v226 88-84, 0 bot faults, contest 5/6. Revert target 226. |

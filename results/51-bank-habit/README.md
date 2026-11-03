@@ -33,7 +33,22 @@ Reading:
 - **Our local altar-guard bot does not reproduce the top ten.** The live bot banks 937 a game against it with only 4 zero-bank games in 172, compared with 5 of 50 against the real top ten. The local tiers cannot show the zero-bank fix. As `results/zero-bank-2026-11` already says, only the `t10_226` panel can (metrics: games with 0 banked, baseline 5/50; mean banked, baseline 382).
 - `03homonoliths` is decided by side (side B wins in every pairing, including v50h5e vs v50k4). It is the separate #60 stall, so v51b's guards are switched off there.
 
-## To do before deploying (needs the account and a LIVE_SLOT window)
+## Top-10 panel (v233 = v51b, pinned to the t10_226 opponents, 50 identical games, 3 Nov 17:01-17:21 UTC)
+| | v226 | v51b |
+|---|---|---|
+| wins | 4 | 5 (L->W Mite 00quadrants, Univardisty 02cuts, Noobot 02tangle; W->L NEETCoders 00fragment, Noobot 01boss_battle) |
+| games with 0 banked | 5 | **3** (fixed: Univardisty 01fracture, test4 01shortcut) |
+| mean banked | 382 | 393 (more in 25 games, less in 17) |
+| mean margin | -612 | -610 |
+| deaths | 10.4 | 11.3 |
+
+Verdict: the bank habit moves in the intended direction (fewer zero-bank games, more banked) but the effect is small, and deaths rise. +1 win is well below the +4 gate. **Not deployed; v226 restored.** The contest guards did not help against a real top team: 00contest vs test4 is still 0 banked. Local v51b vs v50p1: 114/172 (v51a 122, live 108).
+
+Next ideas from this run:
+- The two remaining zero-bank games (02guardians, 00road_of_riches) and contest are where carriers still can't reach a guarded altar. Rallying on one visible ally is not enough; a real joint push (escorts commit to the guards) is the untested half of the zero-bank study's idea 1.
+- Ablate: cap only (`guard_aware 0`) vs v226 on the panel, to see whether the cap or the routing carries the zero-bank gain and which one costs deaths.
+
+## Original plan (before the panel)
 1. `t10_226` top-ten panel: v51b vs v226 (pinned opponents). Gate: fewer zero-bank games and higher mean banked, with wins not worse.
 2. Strong panels 1 and 2 (40 games), per TESTING.md section 5.
 3. Ablate if positive: v51a with `guard_aware 0` (cap only) vs v51a, to see which half carries the effect.

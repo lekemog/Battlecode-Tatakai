@@ -1,8 +1,241 @@
 {
  "label": "t10_k3",
  "version": "232",
- "games": {},
+ "games": {
+  "Intercontinental-1890540d": [
+   {
+    "map": "02geodes",
+    "side": "a",
+    "match": "80186a4f-80b1-4839-8c44-f25f3f36e531",
+    "win": false,
+    "gems": 657,
+    "opp_gems": 1014,
+    "deaths": 0,
+    "kills": 1,
+    "rounds": 760
+   },
+   {
+    "map": "00elkring",
+    "side": "b",
+    "match": "cdf5e0ef-62da-4e99-a71b-fd8cf2ad12d3",
+    "win": false,
+    "gems": 385,
+    "opp_gems": 1018,
+    "deaths": 9,
+    "kills": 0,
+    "rounds": 606
+   },
+   {
+    "map": "00packs",
+    "side": "a",
+    "match": "133b551c-52b0-4bf3-bd81-13953cffa4cb",
+    "win": false,
+    "gems": 52,
+    "opp_gems": 1000,
+    "deaths": 11,
+    "kills": 0,
+    "rounds": 830
+   },
+   {
+    "map": "01elk_arena",
+    "side": "b",
+    "match": "179f29c4-43d7-4f57-a784-e18c47acca27",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1027,
+    "deaths": 24,
+    "kills": 1,
+    "rounds": 1127
+   },
+   {
+    "map": "00eight",
+    "side": "a",
+    "match": "d5e0aee7-0bae-43aa-b05f-c2830b1b2d1a",
+    "win": false,
+    "gems": 13,
+    "opp_gems": 1029,
+    "deaths": 24,
+    "kills": 1,
+    "rounds": 734
+   }
+  ],
+  "Mite-ee83f5e5": [
+   {
+    "map": "02uncharted_lands",
+    "side": "b",
+    "match": "c1174d0f-67c7-4f3a-b510-b5d0dcd6aa1d",
+    "win": false,
+    "gems": 573,
+    "opp_gems": 1009,
+    "deaths": 4,
+    "kills": 0,
+    "rounds": 617
+   },
+   {
+    "map": "02fields",
+    "side": "a",
+    "match": "45037750-a395-4772-b45e-486b19bb8c33",
+    "win": false,
+    "gems": 417,
+    "opp_gems": 1000,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 689
+   },
+   {
+    "map": "01broken_curve",
+    "side": "b",
+    "match": "4e0aee9a-4974-4cc2-adcd-bf66bba696d6",
+    "win": false,
+    "gems": 490,
+    "opp_gems": 1009,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 739
+   },
+   {
+    "map": "01yellow_brick_road",
+    "side": "a",
+    "match": "cd6e4cb0-b82f-47b9-ae0c-d39cdc31b1fd",
+    "win": false,
+    "gems": 557,
+    "opp_gems": 1006,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 831
+   },
+   {
+    "map": "00quadrants",
+    "side": "b",
+    "match": "4637a3b4-3d16-43a8-88d6-f0a1d620a7f0",
+    "win": false,
+    "gems": 701,
+    "opp_gems": 1005,
+    "deaths": 1,
+    "kills": 1,
+    "rounds": 463
+   }
+  ],
+  "Univardisty_of_S-a4350547": [
+   {
+    "map": "01fracture",
+    "side": "a",
+    "match": "3b19460c-3a51-41b0-963c-ba3a221cae4d",
+    "win": false,
+    "gems": 90,
+    "opp_gems": 1005,
+    "deaths": 7,
+    "kills": 0,
+    "rounds": 1046
+   },
+   {
+    "map": "02cuts",
+    "side": "b",
+    "match": "a1c7c0a5-b7bd-41b9-8681-eae8f38e5672",
+    "win": false,
+    "gems": 621,
+    "opp_gems": 1005,
+    "deaths": 2,
+    "kills": 1,
+    "rounds": 1024
+   },
+   {
+    "map": "00reverse_spiral",
+    "side": "a",
+    "match": "50da9982-7f5f-45d5-8d1d-fadd14cb5d07",
+    "win": false,
+    "gems": 26,
+    "opp_gems": 1001,
+    "deaths": 19,
+    "kills": 0,
+    "rounds": 949
+   },
+   {
+    "map": "00split",
+    "side": "b",
+    "match": "b501bf18-6c8c-46e7-a899-bd81a3a506b0",
+    "win": false,
+    "gems": 372,
+    "opp_gems": 1022,
+    "deaths": 6,
+    "kills": 0,
+    "rounds": 806
+   },
+   {
+    "map": "02guardians",
+    "side": "a",
+    "match": "9ffcc5f9-81f4-40a2-b8ee-c99b8e272a22",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1047,
+    "deaths": 31,
+    "kills": 0,
+    "rounds": 1322
+   }
+  ],
+  "Ad_Astra-de0b1e3c": [
+   {
+    "map": "00rows",
+    "side": "b",
+    "match": "b0723e57-79c3-42e9-ae1c-b7cabd690204",
+    "win": false,
+    "gems": 504,
+    "opp_gems": 1093,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 931
+   },
+   {
+    "map": "02the_pond",
+    "side": "a",
+    "match": "ae1054aa-e87c-47d0-8985-0075af0f914a",
+    "win": false,
+    "gems": 357,
+    "opp_gems": 1002,
+    "deaths": 9,
+    "kills": 0,
+    "rounds": 1153
+   },
+   {
+    "map": "01the_farm",
+    "side": "b",
+    "match": "2b10185a-56b4-4f19-8b3a-8e8aa5f84c74",
+    "win": false,
+    "gems": 532,
+    "opp_gems": 1013,
+    "deaths": 3,
+    "kills": 0,
+    "rounds": 867
+   },
+   {
+    "map": "00pilgrimage",
+    "side": "a",
+    "match": "f84b836d-c834-4ce2-8ec1-a5345b8d0a5d",
+    "win": false,
+    "gems": 365,
+    "opp_gems": 1016,
+    "deaths": 11,
+    "kills": 1,
+    "rounds": 1423
+   },
+   {
+    "map": "01concentrated_wealth",
+    "side": "b",
+    "match": "637babf0-cba5-4262-8765-510ec83b3bf8",
+    "win": false,
+    "gems": 233,
+    "opp_gems": 1025,
+    "deaths": 13,
+    "kills": 0,
+    "rounds": 1341
+   }
+  ]
+ },
  "groups": {
-  "Intercontinental-1890540d": "739e3590-ad80-4102-b9c8-2af46d4fcd2c"
+  "Intercontinental-1890540d": "739e3590-ad80-4102-b9c8-2af46d4fcd2c",
+  "Mite-ee83f5e5": "386115dc-35c9-4d81-8109-b2a29bfa873d",
+  "Univardisty_of_S-a4350547": "548420e8-34c0-4e9c-b3c3-ebd60b415418",
+  "Ad_Astra-de0b1e3c": "f0b0c04f-6b7e-4a89-bde9-51a8d16c6d5e",
+  "newer_team-547efb5b": "2e3c30f6-9f0d-4524-9cc2-0385dc5246bb"
  }
 }

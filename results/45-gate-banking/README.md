@@ -278,6 +278,26 @@ Head-to-head vs v50h5e on 16 boards: crystal25 7/16 (banked 13,958 vs 15,366), c
 - **Head to head:** the live bot beats every crystal variant on the_pack, by 6–9 of 16. crystal40e loses 1,719 gems to champions in those games.
 - **Status:** not ready to submit. Off the_pack it is safe. On the_pack it is much better than the live bot against the bench, worse in the mirror, and still has one stuck-carrier game.
 
+### Crystal f: bank first inside the ring, launch-wait timeout
+
+**What the two crystal40e losses showed.**
+- Live bot vs crystal40e: the live bot collected 1,063–1,123 gems and lost 0–31; crystal40e collected about 900 and lost 319–403.
+- 15 of our 17 deaths came outside any channel. Several followed the same sequence: crystal in while the ring sleeps, the live bot's breacher wakes it mid-channel, we land beside the altar with 45–53 gems and do not submit (threat and low-health logic run first and flee), then die 4–5 rounds later.
+- **Stuck carriers in `x_daniel8` A:** a parked Vesper covered all 8 landings within its range + 2 from r250 to r2000.
+
+**crystal40f.**
+- Beside a sealed altar, bank before the threat and low-health phases.
+- After 25 rounds blocked on a launch tile by enemies, crystal in anyway onto the least threatened landing. The awake-ring rule stays.
+
+| Bot | Bench near-zero | Bench deaths | Bench lost to camps / champions | Reached 1000 | vs live, 16 boards | Head-to-head gems lost us / live |
+|---|---|---|---|---|---|---|
+| crystal40e | 1 | 11 | 149 / 11 | 12 | 6/16 | — |
+| crystal40f | 0 | 22 | 395 / 335 | 12 | 7/16 | 3,509 / 3,403 |
+
+- **Bench:** the stuck game is fixed (`x_daniel8` A: 43 → 780) and no game is near zero.
+- **Head to head:** across the four comparable variants (40b, 40d, 40e, 40f) crystal bots beat the live bot in 29 of 64 games, 45%, within noise of even. Gem losses are now level.
+- **Reading:** local tuning has reached diminishing returns. Against the bench the crystal bot is far better than the live bot. In the mirror it is about even. The mirror opponent breaches from r200, which no top-25 team we studied does.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

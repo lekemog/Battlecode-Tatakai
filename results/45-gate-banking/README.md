@@ -231,6 +231,19 @@ Head-to-head vs v50h5e on 16 boards: crystal25 7/16 (banked 13,958 vs 15,366), c
   3. A carrier walks in through a gap while the ring is awake.
 - **Round 2 (`-crystal25b`, `-crystal40b`):** no crystal-in while any visible ring camp is awake, and no walking in through a gap while it is awake unless the altar is already in reach. 60 is dropped.
 
+### Crystal banking, round 2: `-crystal25b`, `-crystal40b`
+
+| Bot | Bench: reached 1000 / mean rounds | Bench deaths | Bench gems lost to camps | vs live, 16 boards | Deaths beside altar, us / live |
+|---|---|---|---|---|---|
+| crystal40 | 13/14, 1185 | 28 | 594 | 9/16 | 49 / 24 |
+| crystal25b | 11/14, 1216 | 18 | 184 | 9/16 | 43 / 19 |
+| crystal40b | 14/14, 1180 | 12 | 125 | 9/16 | 43 / 27 |
+
+- **Bench:** nearly lossless. 40 beats 25, so 25 is dropped.
+- **Head to head:** 37 of crystal40b's 43 deaths beside the altar were to camps. In the worst game (`x4` A), every wake before such a death came from the live bot's breacher, its Ryth, holding at (20,26) and hitting the ring while our champion channelled, submitted or recalled inside.
+- **Why the rule missed it:** the breacher sat 5–8 tiles away, outside the "enemy within 6 of me" check. It was not yet awake when we committed, so the awake check missed it too.
+- **Round 3 (`-crystal40c`):** also hold off when a visible enemy is within its attack range of a living ring camp. That is someone who can wake the ring.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

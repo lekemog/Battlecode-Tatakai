@@ -198,6 +198,39 @@ Test: `02the-pack`, 7 bench bots × 2 sides, plus 16 boards head-to-head. Summar
 - **Why it fails:** all three drafted champions attack from range 1–2, so 15 ring camps cover the best spot. The correct estimate needs 3,000–5,800 HP of headroom against 300–1,100 available. In `h_vatsal` A the bot logged `wait` 1,100 times and never breached. Carriers go back to v50c-style hoarding: later deposits, two near-zero games (54 and 38), and the r700 bar missed far more often.
 - **Lesson:** breach3's coin-flip breach is what produces early gaps. Its cost is the carrier's bag, so the next candidate keeps the coin flip for champions with small bags.
 
+## How top teams bank on the_pack: teleport crystals (4 Nov)
+
+From the 6 post-v222 top-25 games plus the 2 original reproducers:
+
+- **test4 (#5), every game:** a champion stands on a free tile just outside the ring, uses a **teleport crystal**, banks, then recalls home. A crystal is a 10-gold consumable: *"channel for three turn ends, then flash to a reserved tile within range 3"*. The hop lands next to the altar, and the whole routine takes about 11 rounds with no camp killed and no damage taken. test4 does it 4–13 times a game from r79, with Vesper, Marcella, Cassi and Issac, and banks 176–395 gems before anyone opens a gap. It lands with bags as small as 18. The replay logs each hop as step kind 22, "Teleport complete".
+- **Fish (#1):** the same trick 3 times, plus a range-3 Vesper with 4,000 max HP that breaches alone.
+- **Trzy and Claudus (older games):** breached early with two tanky champions (up to 3,500 max HP at r400 vs our ~1,900).
+- **Us:** 0 crystal teleports in all 8 games. `tp_shortcut_margin = 0` disables buying and using crystals, and the shortcut only fires along a reachable path, which a sealed altar never has. `NOTES.md` lists crystals under "Ideas not yet done".
+- **Geometry:** 20 free launch tiles outside the ring have an altar-adjacent landing within 3. Landings do not wake the ring: 1 wake in 23 test4 landings.
+
+### Crystal banking, round 1: `bots/v50h5e-crystal25`, `-crystal40`, `-crystal60`
+
+All three are built on the live bot v50h5e:
+- On a sealed-altar map, the shop keeps one crystal in stock.
+- New mode `handle_crystal_bank`, between tribute and breach: a carrier with at least `kCrystalBag` gems that cannot walk to the altar goes to the nearest launch tile and crystals in when no enemy is within 6. `handle_tribute` banks from the landing, and the existing interior rule recalls it out.
+- The three folders differ only in `kCrystalBag`.
+
+| Bench (7 bots × 2 sides) | First deposit median | After r700 | Mean rounds to 1000 | Deaths | Gems lost to camps |
+|---|---|---|---|---|---|
+| v50h5e (live) | r514 | 2 | 1383 | 48 | 2647 |
+| crystal25 | r124 | 0 | 1269 | 39 | 510 |
+| crystal40 | r157 | 0 | 1185 | 28 | 594 |
+| crystal60 | r212 | 0 | 1319 | 66 | 1591 |
+
+Head-to-head vs v50h5e on 16 boards: crystal25 7/16 (banked 13,958 vs 15,366), crystal40 9/16, crystal60 7/16.
+
+- **Why the mirror is even:** the live bot breaches with breach3 and wakes the ring. Our crystal bots then die beside the altar 37–52 times per 16 games, about twice the live bot's rate.
+- **Three failure modes, from decoded deaths:**
+  1. The ring wakes while we are channelling or have just landed, because the opponent is hitting it.
+  2. Damage keeps interrupting the 5-round recall out.
+  3. A carrier walks in through a gap while the ring is awake.
+- **Round 2 (`-crystal25b`, `-crystal40b`):** no crystal-in while any visible ring camp is awake, and no walking in through a gap while it is awake unless the altar is already in reach. 60 is dropped.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

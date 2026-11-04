@@ -244,6 +244,17 @@ Head-to-head vs v50h5e on 16 boards: crystal25 7/16 (banked 13,958 vs 15,366), c
 - **Why the rule missed it:** the breacher sat 5–8 tiles away, outside the "enemy within 6 of me" check. It was not yet awake when we committed, so the awake check missed it too.
 - **Round 3 (`-crystal40c`):** also hold off when a visible enemy is within its attack range of a living ring camp. That is someone who can wake the ring.
 
+### Crystal banking, round 3: `-crystal40c` — negative
+
+| Bot | Bench: reached 1000 / mean rounds | Bench zero-deposit | vs live, 16 boards |
+|---|---|---|---|
+| crystal40b | 14/14, 1180 | 0 | 9/16, banked 14,027 vs 13,574 |
+| crystal40c | 11/14, 1311 | 1 | 3/16, banked 13,762 vs 15,469 |
+
+- **Why:** the threat rule is far too cautious. Enemies farming the central camps count as possible wakers, so carriers stop banking: `x_daniel8` side B banked 0.
+- **Head to head:** the live bot's breacher holds beside the ring for long stretches. crystal40c rarely goes in, while the live bot banks through its own gap.
+- **Current best: crystal40b.**
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

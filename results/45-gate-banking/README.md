@@ -11,7 +11,7 @@ Reproduced locally on both sides against `x_daniel8`. As side B, v50c banks 0 in
 ## Map facts (decoded from the replays)
 
 - 45×45, no walls. One altar at (22,22).
-- It is enclosed by a closed ring of 48 camps. All belong to **camp group 0**, at 1,350 HP each (64,800 total). These camps do not respawn (`respawnRounds -1`).
+- It is enclosed by a closed ring of 48 camps. All belong to **camp group 0**, at 1,350 HP each (64,800 total). **Correction (4 Nov):** I first wrote that these camps do not respawn, reading `respawnRounds -1`. That value only means the group is alive. When all 48 die, the group's reward can be captured and the ring respawns 40 rounds later (seen in the post-#222 ladder games below).
 - The ring interior has free floor next to the altar.
 - `SUBMIT_GEMS_RANGE = 1`, read from the engine with a probe bot. A carrier must stand adjacent to the altar, so the ring must be breached.
 
@@ -157,6 +157,29 @@ Local games are deterministic and the seed comes from the map, so one match-up o
 - Fresh-seed confirmation.
 - Ideally, opponents that breach early like the ladder top ten.
 - The full 40-map bench is unnecessary by construction, but cheap insurance.
+
+## Acceptance check on the ladder (4 Nov): fails Leke's bar, 3 of 6
+
+Bar (from #45, 1 Nov): at least one deposit in every 02the_pack game against a top-25 opponent since v222 (31 Oct 23:21 UTC), first deposit before r700. Games come from `cambc matches list --team me --map 27a3bbc1-1f12-4051-a0ce-739ff3421e06`: 63 the_pack games since the cut-off, 6 of them against the top 25 by the 4 Nov ladder, all unranked losses. Every version live in that window descends from v50d, so all include breach3. Checked with `python3 -I tools/replay/acc45.py <dir>`.
+
+| Game | Opponent | Side | Banked us / them | Deposits | First deposit | Collected | Lost to deaths | Deaths | Pass |
+|---|---|---|---|---|---|---|---|---|---|
+| `7e624263` | #1 Intercontinental Fish | B | 0 / 1078 | 0 | — | 635 | 573 | 9 | **no** |
+| `1d727b4c` | #5 test4 | A | 87 / 1094 | 2 | r622 | 822 | 735 | 13 | yes |
+| `c5cde853` | #5 test4 | A | 462 / 1077 | 7 | r695 | 758 | 254 | 5 | yes |
+| `022fb08e` | #5 test4 | A | 46 / 737 | 1 | r982 | 534 | 376 | 15 | **no** (late) |
+| `221fc9a6` | #5 test4 | A | 25 / 965 | 1 | r833 | 253 | 203 | 9 | **no** (late) |
+| `b5a96e8d` | #5 test4 | A | 449 / 1067 | 11 | r585 | 906 | 353 | 11 | yes |
+
+- **Better than v50c, not fixed.** v50c's six top-25 the_pack losses all banked 0. With breach3, 5 of 6 games deposit. But the amounts are small, and three games miss the r700 bar.
+- **The breach mostly waits.** Our champions attack from range 1–2, so the best attack tile is covered by about 15 ring camps. The logs show expected damage (`need`) of 2,000–3,600 HP against a budget (`pool`) of 1,200–2,000, so carriers keep farming. The first ring kills that we made came at r502–917.
+- **Top teams farm the whole ring.** In all six games, all 48 ring camps died, the opponent captured the reward, and the ring respawned 40 rounds later before being cleared again (`7e624263`: cleared r768, respawned r814; cleared r991, respawned r1035). The ring is a contested jackpot, not a static wall, and any gap closes again with each respawn.
+- **We die around it.** In `7e624263`, five of our deaths between r466 and r691 were within 8 tiles of the altar. One of them, at r656, cost a 187-gem bag that the opponent then carried. Losses to deaths ran 203–735 gems per game against 253–906 collected.
+
+**Reading:** sealed-altar access is no longer the main failure against top teams. What remains is surviving and banking while the opponent contests and farms the ring, which overlaps #46 (carrier safety). Possible next steps, untested:
+- breach from range 3, where 3 camps cover the attack tile, for champions that have that range;
+- treat a fully cleared ring as a 40-round banking window;
+- carry smaller bags near the ring when enemies are seen.
 
 ## Environment notes
 

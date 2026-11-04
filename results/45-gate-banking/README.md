@@ -255,6 +255,29 @@ Head-to-head vs v50h5e on 16 boards: crystal25 7/16 (banked 13,958 vs 15,366), c
 - **Head to head:** the live bot's breacher holds beside the ring for long stretches. crystal40c rarely goes in, while the live bot banks through its own gap.
 - **Current best: crystal40b.**
 
+### Other-map regression and crystal d/e (4–5 Nov)
+
+**Screen.** First 300 rounds vs `x_daniel8`, 85 non-pack maps × 2 sides, game records compared with `tools/replay/same45.py`. The engine is deterministic: three live-bot runs were byte-identical.
+
+- **crystal40b:** 92 of 170 games differ from the live bot, starting at r3–11. Building the altar field inside the first shop shifted fuel and changed item purchases.
+- **crystal40d:** the shop only reads the sealed flag that `warm_fields` sets. 140 of 170 games are now identical. The remaining 30 diverge through per-turn fuel noise from the new early-return checks, as breach3 did.
+- **Winner check (crystal40e):** full games on those 30 map-sides give **30/30 the same winner** as the live bot. Total margin is +18,423 vs +17,334, and 03colosseum A is lost by both.
+- **40d vs 40e:** byte-identical off the_pack, 10 of 10 spot checks.
+
+**the_pack:**
+
+| Bot | Bench wins | Banked us / them | First deposit median | Reached 1000 | Near-zero games | Deaths | Lost to camps | vs live, 16 boards |
+|---|---|---|---|---|---|---|---|---|
+| v50h5e (live) | 14/14 | 14,309 / 949 | r514 | 14 | 0 | 48 | 2,647 | — |
+| crystal40b | 14/14 | 14,167 / 249 | r157 | 14 | 0 | 12 | 125 | 9/16 |
+| crystal40d | 14/14 | 13,233 / 137 | r162 | 12 | 1 (`h_mohnish` A: 0) | 10 | 243 | 7/16 |
+| crystal40e | 14/14 | 13,292 / 85 | r160 | 12 | 1 (`x_daniel8` A: 43) | 11 | 149 | 6/16 |
+
+- **crystal40d's near-zero game** was a deadlock: an `h_mohnish` champion parked 6 tiles from our launch tile for 1,060 rounds. crystal40e makes the enemy check relative to the enemy's attack range, which fixes that game (1,073 banked).
+- **crystal40e's own near-zero game:** after one crystal trip at r146, no carrier crystals again, and the breach fallback logs `wait` 1,095 times. Carriers can still get stuck. This needs a timeout or fallback; the exact blocker is not yet traced.
+- **Head to head:** the live bot beats every crystal variant on the_pack, by 6–9 of 16. crystal40e loses 1,719 gems to champions in those games.
+- **Status:** not ready to submit. Off the_pack it is safe. On the_pack it is much better than the live bot against the bench, worse in the mirror, and still has one stuck-carrier game.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

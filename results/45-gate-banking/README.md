@@ -298,6 +298,23 @@ Head-to-head vs v50h5e on 16 boards: crystal25 7/16 (banked 13,958 vs 15,366), c
 - **Head to head:** across the four comparable variants (40b, 40d, 40e, 40f) crystal bots beat the live bot in 29 of 64 games, 45%, within noise of even. Gem losses are now level.
 - **Reading:** local tuning has reached diminishing returns. Against the bench the crystal bot is far better than the live bot. In the mirror it is about even. The mirror opponent breaches from r200, which no top-25 team we studied does.
 
+### Candidate for a panel: `bots/nawfal-crystalbank`
+
+This is crystal40f packaged per the 3 Nov due-diligence rules: live v50h5e (226) plus five `config.h` switches (`sealed_crystal_bank`, `sealed_crystal_bag` 40, `sealed_launch_wait` 25, `sealed_awake_gate`, `sealed_bank_first`), and a `SUBMISSION NOTE` in `main.cpp` with revert target 226.
+
+| Check | Result |
+|---|---|
+| Wiring | flags on = crystal40f byte-identical (4/4); all flags off = live v50h5e byte-identical (4/4, incl. both the_pack sides) |
+| Other-map screen (300 rounds vs `x_daniel8`, 85 maps × 2 sides) | 140/170 identical; 30 diverge through fuel noise |
+| Winner check (full games, those 30) | 30/30 same winner; margin +18,358 vs +17,334 |
+| the_pack bench / mirror | see crystal f above: far better vs the bench, about even in the mirror (7/16; 29/64 across variants) |
+
+**`TESTING.md` tiers not run here:**
+- the full 86-map bench gauntlet (about 1,200 games), too slow on 2 cores;
+- the all-map 366-game mirror, which a one-map change cannot push past 55%; the relevant rows are §3's one-map and sealed-altar rows.
+
+The real-opponent panel (§5) is the deciding test.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

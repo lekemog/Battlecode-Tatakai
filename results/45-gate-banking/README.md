@@ -181,6 +181,23 @@ Bar (from #45, 1 Nov): at least one deposit in every 02the_pack game against a t
 - treat a fully cleared ring as a 40-round banking window;
 - carry smaller bags near the ring when enemies are seen.
 
+## Candidate 4: `bots/v50h5e-breach4` (calibrated breach on the live bot) — negative
+
+Built on the live bot v50h5e, whose breach code is breach3 unchanged.
+
+**The change.** The breach estimate uses the ring's raw damage rate (exposure × camp strength × ½), because the measured ladder rate was 120–184 HP a round and armour barely reduced it. It applies the 1.6× `camp_safety_margin` against health above the recall threshold. A carrier shares the kill time with allies in range, holds at the breach spot for up to 60 rounds when only a full team could afford the breach, and aborts mid-breach when its health cannot pay for the rest of the kill.
+
+Test: `02the-pack`, 7 bench bots × 2 sides, plus 16 boards head-to-head. Summarised with `python3 -I tools/replay/pack45.py <dir> -v`.
+
+| Bot | Wins | Banked us / them | First deposit median | After r700 | Deaths | Gems lost to camps / champions |
+|---|---|---|---|---|---|---|
+| v50h5e (live) | 14/14 | 14,309 / 949 | r514 | 2 of 14 | 48 | 2,647 / 197 |
+| v50h5e-breach4 | 14/14 | 12,212 / 660 | r831 | 11 of 14 | 29 | 2,883 / 457 |
+
+- **Head-to-head, breach4 vs v50h5e:** 15/16 wins, banked 15,831 vs 10,744. But breach4 mostly banks through gaps that the live bot opens.
+- **Why it fails:** all three drafted champions attack from range 1–2, so 15 ring camps cover the best spot. The correct estimate needs 3,000–5,800 HP of headroom against 300–1,100 available. In `h_vatsal` A the bot logged `wait` 1,100 times and never breached. Carriers go back to v50c-style hoarding: later deposits, two near-zero games (54 and 38), and the r700 bar missed far more often.
+- **Lesson:** breach3's coin-flip breach is what produces early gaps. Its cost is the carrier's bag, so the next candidate keeps the coin flip for champions with small bags.
+
 ## Environment notes
 
 - `bench/README.md` still says cambc 3.0.5 / engine 1.0.3. Ladder replays are now engine 2.0.0. `tools/replay/extract3.mjs` cannot decode them, so `extract4.mjs` is a patched copy for the cambc 4.0.0 visualiser.

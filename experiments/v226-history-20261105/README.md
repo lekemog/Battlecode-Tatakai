@@ -50,3 +50,7 @@ For macro decisions, estimate marginal banked gems and kill/camp gold over trave
 
 No deployment or ladder superiority is claimed by this iteration. Zero faults on a small suite is not proof of zero bugs.
 
+
+## Expanded current-version sandbox results
+
+The subsequent [480-game sandbox run](sandbox-current/RESULTS.md) compares the unchanged candidate against v226, latest development candidate v51d and early-pack v50p1, with matched controls. Latest verified CLI 5.0.0 / engine 3.0.0, 40 archived maps and both sides. No strength improvement established; no promotion.

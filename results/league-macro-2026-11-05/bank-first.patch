@@ -1,0 +1,15 @@
+--- bots/v51d/src/brain.cpp
++++ bots/chatgpt-v51d-bank-first/src/brain.cpp
+@@ -1732,7 +1732,12 @@
+         // Stepping into their reach on a marginal verdict is how one arrival turns a favourable fight
+         // into a retreat from contact (28% of early deaths on the trap maps): closing in needs
+         // cfg::approach_margin more than fighting where we stand.
++        // Bank-first experiment: a full-bag carrier does not initiate a solo chase.
++        // Keep in-place combat and joining an already engaged ally; if neither
++        // produces an action, normal health/tribute priorities can resume.
++        const bool preserve_bag = cfg::tribute_cap > 0 && ctx.gems >= cfg::tribute_cap;
+         const bool close_in = (nearest <= 5 || ally_fighting) &&
++                              (!preserve_bag || ally_fighting) &&
+                               (cfg::approach_margin <= 0.0f || theirs >= o.our_losses + margin + cfg::approach_margin);
+         const bool r = fight_enemies(ctx, acts, close_in, focus);
+         if constexpr (cfg::pvp_camp_basic)

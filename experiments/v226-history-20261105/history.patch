@@ -1,0 +1,46 @@
+--- a/src/brain.cpp
++++ b/src/brain.cpp
+@@ -4,6 +4,7 @@
+ #include <string_view>
+ #include "config.h"
+ #include "hazard_model.h"
++#include "health_history.h"
+ #include "knowledge.h"
+ #include "learn.h"
+ #include "nav.h"
+@@ -44,7 +45,7 @@
+ // cfg::hazard state (out of Brain for the same reason): health by round modulo 4, disengage count.
+ struct HazardState
+ {
+-    float hp[4]{ -1.0f, -1.0f, -1.0f, -1.0f };
++    hazard::HealthHistory history;
+     int fires{};
+ };
+ 
+@@ -316,6 +317,7 @@
+ 
+     if (!me.is_alive())
+     {
++        if constexpr (cfg::hazard > 0) hazard_state().history.clear();
+         if constexpr (cfg::learned > 0)
+             if (!death_reported_) ++learn_state().deaths;
+         if (!death_reported_) report_death(kn.round);
+@@ -336,7 +338,7 @@
+     trace.mark("observe");
+     if constexpr (cfg::hazard > 0)
+     {
+-        hazard_state().hp[ctx.round % 4] = ctx.hp;
++        hazard_state().history.record(ctx.round, ctx.hp);
+         if (ctx.round % 500 == 0 && fuel_ok(cfg::fuel_phase_log)) MB_LOG("hazard r%d fires %d\n", ctx.round, hazard_state().fires);
+     }
+     if constexpr (cfg::shop_plan == 100 || cfg::shop_recall_mode > 0) note_shop_signals(ctx, true);
+@@ -1675,8 +1677,7 @@
+                 if (d <= 5 && e.range > 1) ++ranged5;
+                 if (d <= 5 && cheb(e.pos, home) < cheb(ctx.pos, home)) cut = 1;
+             }
+-            const float hp3 = hazard_state().hp[(ctx.round + 1) % 4];  // health three rounds ago (ring by round)
+-            const float lost = hp3 >= 0.0f ? (hp3 - ctx.hp) / std::max(1.0f, ctx.max_hp) : 0.0f;
++            const float lost = hazard_state().history.loss3(ctx.round, ctx.hp, ctx.max_hp);
+             const float x[hazard::kFeatures] = {
+                 1.0f, ctx.hp_frac(), ctx.hp / 1000.0f, ctx.max_hp / 2000.0f,
+                 static_cast<float>(a4) / 4.0f, static_cast<float>(a8) / 4.0f, static_cast<float>(e4) / 4.0f, static_cast<float>(e8) / 4.0f,

@@ -1,39 +1,25 @@
 # Tatakai — Cambridge Battlecode 2026a
 
-Tatakai (formerly LionelMSISS) is our Cambridge Battlecode team. This repository holds the C++ bot, local benchmarks, replay analysis and team work queue.
+Our target is the UK top six. Start with [CURRENT_STATE.md](CURRENT_STATE.md), then [the strategy and team tasks](docs/UK_TOP6_PLAN.md) and [START_HERE_AGENTS.md](START_HERE_AGENTS.md).
 
-## Start here
+## Current working state — checked 5 November 2026
+Main is the coordination/documentation entry point; it does **not** contain the newest Claude gameplay line. Do not infer the live bot from the latest folder name or main's bot inventory.
 
-- **Current work and task claims:** [team coordination #40](../../issues/40).
-- **Latest source baseline used in our top-ten study:** v50c at `2d93a142df388db48596f82842cf7cca47809cec`, on `claude/vibrant-turing-rtpcwn`.
-- **Platform baseline:** submission 221, verified in the match UI on 28 October 2026. Treat this as a dated observation; check active submission before every test.
-- Read the newest entries in [NOTES.md](NOTES.md), [SUBMISSIONS.md](SUBMISSIONS.md) and [CONVERSATION.md](CONVERSATION.md). Older live-version, deadline and map-count statements in historical documents are snapshots, not current configuration.
-
-## Repository map
-
-| Path | Purpose |
+| Item | Where to look |
 |---|---|
-| `bots/` | Versioned bot sources; keep historical versions for comparisons |
-| `bench/` | Portable benchmark materials |
-| `tools/` | Scrim, benchmark and replay-analysis utilities |
-| `maps/`, `maps2/` | Map assets; use the map hash and engine version recorded with each result |
-| `data/`, `results/` | Evidence, experiments and test outputs |
-| `top-replays/` | Reference replays; see its index |
-| `START_HERE_AGENTS.md` | Agent workflow; historical status sections need checking against current notes |
-| `HANDOFF_2026-10-25.md` | Dated handoff |
+| Latest patch analysis and source snapshot | [Claude patch branch](https://github.com/lekemog/BattlecodeConversation/tree/03b34544c02d0e9b501183f5d1f4a60759ceec9f) — commit 03b34544, 5 Nov |
+| Latest development line | [v50/v51 working branch](https://github.com/lekemog/BattlecodeConversation/tree/claude/vibrant-turing-rtpcwn) |
+| Patch/toolchain | Patch 4.0.0; Claude reports CLI 5.0.0 / engine 3.0.0, 128 maps; verify build and pool before every run |
+| Reported stable baseline | v226 / bots/v50h5e; verify actual active submission in the CLI before testing |
+| Candidate under evaluation | v51d; not promoted by this documentation update |
+| Testing and account setup | [Existing testing guide](https://github.com/lekemog/BattlecodeConversation/tree/03b34544c02d0e9b501183f5d1f4a60759ceec9f/TESTING.md), [CLI guide](https://github.com/lekemog/BattlecodeConversation/tree/03b34544c02d0e9b501183f5d1f4a60759ceec9f/CLI_FOR_AGENTS.md); read current-patch overrides in CURRENT_STATE.md first |
+| Submission coordination | [Live-slot log](https://github.com/lekemog/BattlecodeConversation/tree/03b34544c02d0e9b501183f5d1f4a60759ceec9f/LIVE_SLOT.md), [submission history](https://github.com/lekemog/BattlecodeConversation/tree/03b34544c02d0e9b501183f5d1f4a60759ceec9f/SUBMISSIONS.md) — check newest shared branch and active slot |
+| Team task board | [Issue #40](https://github.com/lekemog/BattlecodeConversation/issues/40), current priorities #71–#73 |
+| Prior multi-map experiments | [PR #51](https://github.com/lekemog/BattlecodeConversation/pull/51), historical engine-2 evidence |
+| Pantheon winner ideas | [PR #52](https://github.com/lekemog/BattlecodeConversation/pull/52), research hypotheses rather than tested upgrades |
+| Previous root documentation | [Historical README](docs/history/README-before-20261105.md), [historical onboarding](docs/history/AGENTS-before-20261105.md) |
 
-## Working together
+## Working agreement
+Claim one task with your branch and evidence. Use a new candidate folder and branch; one hypothesis per change. Book the shared live slot before submitting, activating or creating scrims. Confirm activation, pin opponents, record source/engine/map/submission IDs, and restore the intended baseline afterward.
 
-1. Claim one current issue before implementing, naming the owner and branch. Keep banking, combat and opening-economy experiments separate.
-2. Work on `chatgpt/<idea>`, `claude/<idea>` or `team/<person>/<task>`; submit a PR rather than pushing bot changes directly to `main`.
-3. Put each candidate in a new bot folder. Preserve the baseline and avoid unrelated edits.
-4. Include match IDs, maps, sides, engine build, submission version, numbers and the proposed mechanism. Distinguish observations from hypotheses.
-5. Coordinate scrim quota and active submissions through the test owner. Explicit instructions from Leke may authorize a particular unranked batch; otherwise follow the shared test queue. Only the deployment owner submits candidate bots.
-6. Compare candidates against the unchanged baseline on matched seeds/maps and both sides, then verify on fresh games. Reduced deaths alone is not success if income or banked gems deteriorate.
-7. Use only the official game API and legal observations. Never infer private opponent code from a team name or one draft.
-
-## Local testing
-
-Use the SDK and engine required by the candidate and its recorded benchmark. Historical SDK versions and old map-name tables are not a current compatibility guarantee. Start with the commands documented alongside the selected bot and benchmark; record the exact command and version with results.
-
-Keep reports and datasets in descriptive dated paths, and link active tasks from the coordination issue. Preserve historical evidence rather than deleting old experiments to tidy the repository.
+Archived bots, reports and replays remain reproducible evidence. They are not all current recommendations. No gameplay code, active submission or scrim window was changed by this cleanup.

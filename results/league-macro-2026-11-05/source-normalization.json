@@ -1,0 +1,146 @@
+[
+  {
+    "name": "brain.cpp",
+    "original_git_blob": "739c26f58bf7c9fbd9070c6bcf4dabe93493b505",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "brain.h",
+    "original_git_blob": "de322540860364a37d7171928b6a241342e011cc",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "combat.cpp",
+    "original_git_blob": "6a7168decc8dfeab84e43e51caa78468ceccd450",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "combat.h",
+    "original_git_blob": "ea39942ecb8743a20e660101fac5a8c3f4aea20e",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "config.h",
+    "original_git_blob": "0f1fc5ef1187e0ef9322d8ef7f2dfb5885ea21f3",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "ctx.cpp",
+    "original_git_blob": "d1d2903aef29ec03c5a2159cfb1c97c6887b9b0a",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "ctx.h",
+    "original_git_blob": "4ce3e5964bebd59d57b03d2e3b291ca73feec9c2",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "draft.cpp",
+    "original_git_blob": "3651faaa75ca81dde66d5909758b09a7ef57c633",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "draft.h",
+    "original_git_blob": "099b82d51f7a95c6f9b1ef48c79c814da9c34185",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "hazard_model.h",
+    "original_git_blob": "9af62a55ee3b5219129efd92c20e267f8385e364",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "knowledge.cpp",
+    "original_git_blob": "9d64ae3da6d39a77f72510672dd9036b71f23d9a",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "knowledge.h",
+    "original_git_blob": "0e8f12222064521d961f60b30412cea3758079a2",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "learn.cpp",
+    "original_git_blob": "34352444c61850251d5dbb4554ea9f35040d74fb",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "learn.h",
+    "original_git_blob": "0fa83005eaf49c1e17242c6d651b5a3859537571",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "main.cpp",
+    "original_git_blob": "4e32551b6d60c3300ff1548a18d131a36d4c16a1",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "model.h",
+    "original_git_blob": "425e2c7d82b35b0560d3f70dd0781037bc4745bd",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "nav.cpp",
+    "original_git_blob": "e831e20f2a8c92a603faf5f134f66ad971c997eb",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "nav.h",
+    "original_git_blob": "9ddb8f60ddfde4258b6c2e0efb5f179872854e51",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "retaliation-reserve.h",
+    "original_git_blob": "d8b983459bc60c8b10599d2e8726e17137e922b1",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "shop.cpp",
+    "original_git_blob": "418c76b3a3bbe1dd9c7e0e749055838cf496a68e",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "shop.h",
+    "original_git_blob": "38db25ef021b6d96e8a288fc5432b6c3ba7172fb",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "util.h",
+    "original_git_blob": "d9b952144d9e7745d7bad1cc2016bb162cd8c6b5",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "world.cpp",
+    "original_git_blob": "e66526fbcde52dac6ef31599a0f01402974b0a1e",
+    "exact": false,
+    "additional_final_lf": true
+  },
+  {
+    "name": "world.h",
+    "original_git_blob": "0915b534f95ba42729ffe71c4d20e653c9102fd9",
+    "exact": false,
+    "additional_final_lf": true
+  }
+]

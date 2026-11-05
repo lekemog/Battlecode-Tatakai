@@ -1,0 +1,2242 @@
+[
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00ambush",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00ambush--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00ambush",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00ambush--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00collision",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00collision--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00collision",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00collision--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00contest",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00contest--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00contest",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00contest--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00corners",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00corners--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00corners",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00corners--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00eight",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00eight--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00eight",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00eight--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00elkring",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00elkring--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00elkring",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00elkring--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00expanse",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00expanse--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00expanse",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00expanse--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00fragment",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00fragment--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00fragment",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00fragment--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00gem-fields",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00gem-fields--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00gem-fields",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00gem-fields--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00gemfight",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00gemfight--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00gemfight",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00gemfight--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00great-wall",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00great-wall--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00great-wall",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00great-wall--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00interlock",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00interlock--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00interlock",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00interlock--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00lanes",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00lanes--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00lanes",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00lanes--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00lost-world",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00lost-world--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00lost-world",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00lost-world--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00monolith",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00monolith--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00monolith",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00monolith--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00packs",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00packs--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00packs",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00packs--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00pilgrimage",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00pilgrimage--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00pilgrimage",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00pilgrimage--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00quadrants",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00quadrants--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00quadrants",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00quadrants--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00reverse-spiral",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00reverse-spiral--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00reverse-spiral",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00reverse-spiral--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00road-of-riches",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00road-of-riches--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00road-of-riches",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00road-of-riches--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00rows",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00rows--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00rows",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00rows--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00rushbait-v2",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00rushbait-v2--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00rushbait-v2",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00rushbait-v2--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00split",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00split--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00split",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00split--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00stampede",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00stampede--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00stampede",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00stampede--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00swirl",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--00swirl--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "00swirl",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--00swirl--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01big-world",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01big-world--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01big-world",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01big-world--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01boss-battle",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01boss-battle--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01boss-battle",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01boss-battle--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01broken-curve",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01broken-curve--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01broken-curve",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01broken-curve--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01concentrated-wealth",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01concentrated-wealth--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01concentrated-wealth",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01concentrated-wealth--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01corridors",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01corridors--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01corridors",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01corridors--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01elk-arena",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01elk-arena--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01elk-arena",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01elk-arena--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01fracture",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01fracture--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01fracture",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01fracture--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01gold-rush",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01gold-rush--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01gold-rush",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01gold-rush--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01hooks",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01hooks--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01hooks",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01hooks--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01islands",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01islands--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01islands",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01islands--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01shortcut",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01shortcut--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01shortcut",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01shortcut--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01starfish",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01starfish--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01starfish",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01starfish--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01starvation",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01starvation--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01starvation",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01starvation--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01the-farm",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01the-farm--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01the-farm",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01the-farm--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01yellow-brick-road",
+    "side": "teamA",
+    "tag": "v51d--v50h5e--01yellow-brick-road--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50h5e",
+    "map": "01yellow-brick-road",
+    "side": "teamB",
+    "tag": "v51d--v50h5e--01yellow-brick-road--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00ambush",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00ambush--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00ambush",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00ambush--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00collision",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00collision--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00collision",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00collision--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00contest",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00contest--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00contest",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00contest--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00corners",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00corners--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00corners",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00corners--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00eight",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00eight--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00eight",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00eight--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00elkring",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00elkring--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00elkring",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00elkring--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00expanse",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00expanse--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00expanse",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00expanse--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00fragment",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00fragment--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00fragment",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00fragment--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00gem-fields",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00gem-fields--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00gem-fields",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00gem-fields--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00gemfight",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00gemfight--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00gemfight",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00gemfight--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00great-wall",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00great-wall--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00great-wall",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00great-wall--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00interlock",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00interlock--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00interlock",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00interlock--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00lanes",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00lanes--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00lanes",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00lanes--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00lost-world",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00lost-world--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00lost-world",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00lost-world--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00monolith",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00monolith--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00monolith",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00monolith--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00packs",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00packs--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00packs",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00packs--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00pilgrimage",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00pilgrimage--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00pilgrimage",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00pilgrimage--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00quadrants",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00quadrants--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00quadrants",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00quadrants--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00reverse-spiral",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00reverse-spiral--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00reverse-spiral",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00reverse-spiral--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00road-of-riches",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00road-of-riches--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00road-of-riches",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00road-of-riches--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00rows",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00rows--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00rows",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00rows--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00rushbait-v2",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00rushbait-v2--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00rushbait-v2",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00rushbait-v2--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00split",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00split--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00split",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00split--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00stampede",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00stampede--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00stampede",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00stampede--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00swirl",
+    "side": "teamA",
+    "tag": "v51d--v50p1--00swirl--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "00swirl",
+    "side": "teamB",
+    "tag": "v51d--v50p1--00swirl--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01big-world",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01big-world--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01big-world",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01big-world--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01boss-battle",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01boss-battle--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01boss-battle",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01boss-battle--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01broken-curve",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01broken-curve--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01broken-curve",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01broken-curve--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01concentrated-wealth",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01concentrated-wealth--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01concentrated-wealth",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01concentrated-wealth--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01corridors",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01corridors--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01corridors",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01corridors--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01elk-arena",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01elk-arena--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01elk-arena",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01elk-arena--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01fracture",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01fracture--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01fracture",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01fracture--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01gold-rush",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01gold-rush--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01gold-rush",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01gold-rush--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01hooks",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01hooks--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01hooks",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01hooks--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01islands",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01islands--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01islands",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01islands--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01shortcut",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01shortcut--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01shortcut",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01shortcut--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01starfish",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01starfish--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01starfish",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01starfish--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01starvation",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01starvation--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01starvation",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01starvation--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01the-farm",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01the-farm--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01the-farm",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01the-farm--1"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01yellow-brick-road",
+    "side": "teamA",
+    "tag": "v51d--v50p1--01yellow-brick-road--0"
+  },
+  {
+    "bot": "v51d",
+    "opp": "v50p1",
+    "map": "01yellow-brick-road",
+    "side": "teamB",
+    "tag": "v51d--v50p1--01yellow-brick-road--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00ambush",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00ambush--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00ambush",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00ambush--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00collision",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00collision--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00collision",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00collision--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00contest",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00contest--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00contest",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00contest--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00corners",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00corners--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00corners",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00corners--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00eight",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00eight--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00eight",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00eight--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00elkring",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00elkring--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00elkring",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00elkring--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00expanse",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00expanse--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00expanse",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00expanse--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00fragment",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00fragment--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00fragment",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00fragment--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00gem-fields",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00gem-fields--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00gem-fields",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00gem-fields--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00gemfight",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00gemfight--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00gemfight",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00gemfight--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00great-wall",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00great-wall--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00great-wall",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00great-wall--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00interlock",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00interlock--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00interlock",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00interlock--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00lanes",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00lanes--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00lanes",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00lanes--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00lost-world",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00lost-world--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00lost-world",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00lost-world--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00monolith",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00monolith--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00monolith",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00monolith--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00packs",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00packs--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00packs",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00packs--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00pilgrimage",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00pilgrimage--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00pilgrimage",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00pilgrimage--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00quadrants",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00quadrants--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00quadrants",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00quadrants--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00reverse-spiral",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00reverse-spiral--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00reverse-spiral",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00reverse-spiral--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00road-of-riches",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00road-of-riches--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00road-of-riches",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00road-of-riches--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00rows",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00rows--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00rows",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00rows--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00rushbait-v2",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00rushbait-v2--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00rushbait-v2",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00rushbait-v2--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00split",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00split--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00split",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00split--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00stampede",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00stampede--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00stampede",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00stampede--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00swirl",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00swirl--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "00swirl",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--00swirl--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01big-world",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01big-world--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01big-world",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01big-world--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01boss-battle",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01boss-battle--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01boss-battle",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01boss-battle--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01broken-curve",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01broken-curve--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01broken-curve",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01broken-curve--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01concentrated-wealth",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01concentrated-wealth--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01concentrated-wealth",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01concentrated-wealth--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01corridors",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01corridors--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01corridors",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01corridors--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01elk-arena",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01elk-arena--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01elk-arena",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01elk-arena--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01fracture",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01fracture--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01fracture",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01fracture--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01gold-rush",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01gold-rush--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01gold-rush",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01gold-rush--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01hooks",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01hooks--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01hooks",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01hooks--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01islands",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01islands--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01islands",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01islands--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01shortcut",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01shortcut--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01shortcut",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01shortcut--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01starfish",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01starfish--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01starfish",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01starfish--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01starvation",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01starvation--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01starvation",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01starvation--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01the-farm",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01the-farm--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01the-farm",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01the-farm--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01yellow-brick-road",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01yellow-brick-road--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50h5e",
+    "map": "01yellow-brick-road",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50h5e--01yellow-brick-road--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00ambush",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00ambush--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00ambush",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00ambush--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00collision",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00collision--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00collision",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00collision--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00contest",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00contest--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00contest",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00contest--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00corners",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00corners--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00corners",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00corners--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00eight",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00eight--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00eight",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00eight--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00elkring",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00elkring--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00elkring",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00elkring--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00expanse",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00expanse--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00expanse",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00expanse--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00fragment",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00fragment--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00fragment",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00fragment--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00gem-fields",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00gem-fields--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00gem-fields",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00gem-fields--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00gemfight",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00gemfight--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00gemfight",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00gemfight--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00great-wall",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00great-wall--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00great-wall",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00great-wall--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00interlock",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00interlock--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00interlock",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00interlock--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00lanes",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00lanes--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00lanes",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00lanes--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00lost-world",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00lost-world--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00lost-world",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00lost-world--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00monolith",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00monolith--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00monolith",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00monolith--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00packs",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00packs--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00packs",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00packs--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00pilgrimage",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00pilgrimage--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00pilgrimage",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00pilgrimage--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00quadrants",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00quadrants--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00quadrants",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00quadrants--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00reverse-spiral",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00reverse-spiral--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00reverse-spiral",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00reverse-spiral--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00road-of-riches",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00road-of-riches--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00road-of-riches",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00road-of-riches--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00rows",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00rows--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00rows",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00rows--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00rushbait-v2",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00rushbait-v2--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00rushbait-v2",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00rushbait-v2--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00split",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00split--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00split",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00split--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00stampede",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00stampede--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00stampede",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00stampede--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00swirl",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00swirl--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "00swirl",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--00swirl--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01big-world",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01big-world--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01big-world",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01big-world--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01boss-battle",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01boss-battle--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01boss-battle",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01boss-battle--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01broken-curve",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01broken-curve--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01broken-curve",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01broken-curve--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01concentrated-wealth",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01concentrated-wealth--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01concentrated-wealth",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01concentrated-wealth--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01corridors",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01corridors--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01corridors",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01corridors--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01elk-arena",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01elk-arena--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01elk-arena",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01elk-arena--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01fracture",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01fracture--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01fracture",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01fracture--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01gold-rush",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01gold-rush--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01gold-rush",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01gold-rush--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01hooks",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01hooks--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01hooks",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01hooks--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01islands",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01islands--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01islands",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01islands--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01shortcut",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01shortcut--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01shortcut",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01shortcut--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01starfish",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01starfish--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01starfish",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01starfish--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01starvation",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01starvation--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01starvation",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01starvation--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01the-farm",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01the-farm--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01the-farm",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01the-farm--1"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01yellow-brick-road",
+    "side": "teamA",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01yellow-brick-road--0"
+  },
+  {
+    "bot": "chatgpt-v51d-bank-first",
+    "opp": "v50p1",
+    "map": "01yellow-brick-road",
+    "side": "teamB",
+    "tag": "chatgpt-v51d-bank-first--v50p1--01yellow-brick-road--1"
+  }
+]

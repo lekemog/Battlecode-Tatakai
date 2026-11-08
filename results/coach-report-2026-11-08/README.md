@@ -129,3 +129,11 @@ Limits:
   - By champion: the pack members die most (Heart 20, Marcella 19, Ryth 19, Vendetta 10, Varg 8).
   - At death: 0.8 allies vs 2.4 enemies within 6; 41 of 76 deaths came after r150, when the pack has ended.
   - Next: **v53n** ends the pack by game state (hold until r300 while 2+ enemies are within 10). Testing on all maps, against live, and on unseen boards.
+- **v53n** (state-based pack hold): rejected. 118-138 vs v53i, unseen boards 68-72, 147-109 vs v226 (v53i 151-105). Holding the pack longer costs more farming than it saves.
+
+## Morning summary (Leke)
+- **Live: v236 = v53i** (since 06:06 UTC). Pinned strong panels **27/40** vs v226 17/40 (deaths 6.8 vs 7.75). Locally 151-105 vs v226; on 70 unseen transformed boards 78-62 vs v226; ahead in every map family.
+- Built tonight on top of v51d: pack opening (near maps), team focus fire, kit-aware shop (the largest single gain), finisher-first turn order (the largest panel gain).
+- Rejected with evidence: v53h kill commitment, v53j commit gate, v53k fight margin 0.7, v53l learned turn order, v53m retarget 1.2 (overfit: held-out 67/128, unseen 70-70), v53n pack hold, neural-network hazard (no gain), top-team compositions and one-champion swaps (our play code cannot use them).
+- Revert targets: v235 (v53g), then v226.
+- Next ideas (not built): champion-specific play for a funnel composition (Vesper/Prism carries plus supports), then a reactive counter-draft among champions we play well; an engine-3 top-10 panel for a second real-opponent check.

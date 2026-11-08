@@ -28,3 +28,7 @@ Reading: guarded-altar routing is the main cost (+22 wins when removed). The han
 
 ## Decision
 Ship candidate: **v51d** (unchanged). The variant folders exist only in the lab (`config.h` one-line edits of `bots/v52a`). They are not added to `bots/`.
+
+## v53c: v51d + opening cohesion (v50h14 change), vs v51d
+110-146 (43.0%), gem margin -29, deaths 3.6 vs 3.8, banked 808 vs 838, gold r400 -1.9%, 0 bot faults.
+Same pattern as v50h14 in its own mirror (0.479): slightly fewer deaths, slightly less income. The mirror under-rates caution, so this can't reject it, but it is no evidence for it either. A public team's equivalent (Ajayendra2705, vpk3: pack walk before r60 on near maps) cut deaths locally and came out level over 170 pinned platform games. Panel priority: below v51d. Run only if time allows.

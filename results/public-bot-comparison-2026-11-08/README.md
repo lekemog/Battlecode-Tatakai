@@ -48,3 +48,14 @@ All on v51d, 64 maps x 2 sides = 128 games each against v51d, engine 3.0.0, 0 bo
 | `v51i3` | `rechoose_every` 4 (was 8) | 64-64 (50.0%) | -1.9% / +0.4% / -0.6% | 832 |
 
 **None of the two public-bot differences transfers.** Lowering the weight of gold in camp value cuts income by 7% (x3) and 22% (x6) and loses at x6: gold buys stats, as source B's own mirror ("gold weights 0.06 / 0.03 / 0 lose") and our old tuning found; our current 1.5 is near the optimum for our bot. Re-scoring every 4 rounds is neutral (50.0%, income unchanged). Their numbers are tuned to their architecture and do not carry over, which is the general lesson of the crawl: copying a parameter from a different bot does not work.
+
+## 7. Correction: these were grafts, not tests of the ideas
+Each variant in sections 6 and in `results/team-channels-2026-11-08` changed one setting in a bot whose other code is built for a different design. A loss there shows the graft does not work, not that the idea fails. Diagnosis of the clearest case, the Vesper-first draft with captures funnelled to her (`v51g1`, 128 games vs v51d), per champion:
+
+| | gold | share of team gold | clears | monster damage |
+|---|---|---|---|---|
+| Vesper (g1) | 1,682 | **30%** (top team: 64-74%) | 13.8 | 18.4k |
+| Marcella (g1) | 1,247 | 28% | 14.8 | 21.2k |
+| Marcella (v51d, same games) | 1,552 | 33% | 16.1 | 22.2k |
+
+Team gold 5,194 vs 5,638. The funnel did not happen because every champion farms alone and captures its own groups; concentrating gold needs a capture relay (others clear and move on, the carry captures), role-specific shop plans, and protection for the carry. None exists. Conclusions that should therefore be read as "graft failed, integration untested": Vesper draft and capture funnel, Skirmish step (the fight model ignores the +10% champion damage), health mix (thresholds not rescaled), priority-channel sharing (consumers were written for a global channel; the priority channel reaches visible allies only), gem-value changes (the shop and siege models use the same weight). Results that are integrated by nature and stand: learned shop off, bag cap and ring window (v51d), re-score cadence.

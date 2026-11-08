@@ -101,3 +101,18 @@ Limits:
 1. Panel v53i: does turn order carry over to real opponents?
 2. Commit gate and power-spike tempo (roadmap 5-6), built on the kill model's two dominant factors: local power ratio and target health.
 3. After the lock: champion-specific play for a funnel composition, then a learned map/opponent draft over compositions we can actually play.
+
+## Overnight log
+- **v53i** (turn order): 151-105 vs v226 locally (kills 3.79/2.91, deaths 3.26/4.05). Submitted as 236 at 06:01. Strong panel 1: 10/20 (v53g 10/20, v226 6/20), margin -56 (v53g -82), deaths 9.8 (v53g 10.0). Panel 2 running.
+- **v53j** (commit gate from the kill model, P >= 0.4): rejected. 115-141 vs v53i, 122-134 vs v226; kills 1.94 vs 3.12. The gate removes the sustained pressure that makes kills happen.
+- Parameter screen (64 maps x 2 vs v53g; 64/128 is even):
+  - fight_margin 0.7: 73
+  - fight_margin 0.3: 67
+  - hazard_threshold 0.25: 68
+  - hazard_threshold 0.15: 50
+  - hazard_commit 2: 61
+  - escort_until 150: 62
+  - pack_size 2: 67
+  - pack_size 4: 59
+  - tribute_gems_danger 15: 61
+  - behind_fight_margin: no effect.

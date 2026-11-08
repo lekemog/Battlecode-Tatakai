@@ -89,3 +89,19 @@ A commit is an opportunity (section 4) where the attacking side closes in or hit
 Logistic kill model fitted on top-team commits, held out by game (AUC 0.715). Standardised effects: log power ratio +0.74, target health -0.74, target side count +0.12, cut-off +0.10, attacker count +0.03, target distance to its spawn +0.02. Power and the target's health decide kills; head count and distance to its spawn barely matter once power is known.
 
 Our commits scored by that model: predicted 0.37 (top teams' 0.42), actual 0.19. We pick slightly worse chances and are outnumbered more often, but even our best chances (predicted >= 0.5) convert at 0.40 against the top teams' 0.64. Execution is still the main gap. A commit gate (commit only when predicted kill >= ~0.4) is a cheap addition.
+
+## 9. Turn order (priority) is unused by us and used heavily by top teams
+Rules: within a team, higher priority acts first; teams alternate; `set_priority` applies from the next round. Our bot never sets it, so it is 0 all game and we act in draft order.
+- Top-15 games (120 decoded): about 1,650 priority changes per game, 37% of them with an enemy within 5 tiles; 3-20 distinct values per team-game. Ours: 1 value.
+- What puts a top-team champion first in its team while enemies are near (242,804 champion-rounds): able to finish an enemy this round (enemy in reach with health <= its strength) gives P(first) **0.60** vs 0.23. It is also more likely when lower on health (0.27 vs 0.20), closer to the enemy (0.27 vs 0.19) or melee (0.26 vs 0.19).
+- Candidate **v53i**: v53g plus turn order each turn (can finish +1000, enemy within 3 +300, up to +200 for missing health, melee +100, nearer first; draft order out of contact). Mirrors vs v53g and the live bot are running.
+
+## 10. Stacked candidates vs the live bot (v50h5e = submission 226), 256 games each
+| bot | wins | margin | kills / deaths (cand vs live) |
+|---|---|---|---|
+| v51d | 141-115 | +41 | |
+| v53d (pack) | **143-113** | +40 | 3.06 / 3.57 vs 3.18 / 3.45 |
+| v53f (+ focus) | 133-123 | +19 | 3.24 / 3.58 vs 3.21 / 3.57 |
+| v53g (+ shop) | 135-121 | +17 | **3.39 / 3.19** vs 2.95 / 3.75 |
+
+All beat the live bot. The orders are not transitive (v53g beat v53f 151-105, and v53f beat v53d 131-125), so single runs are about one standard error apart. The real-opponent panel decides.

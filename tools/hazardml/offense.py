@@ -106,7 +106,11 @@ def analyse(path, our_team=None, T=0.3):
             commit = hit or closer
             killed = any(k < r <= k + 10 and i == ident(victim) for r, i in deaths.get(victim['team'], []))
             lost = any(k < r <= k + 10 for r, i in deaths.get(attacker_team, []))
-            out.append((commit, killed, lost, k))
+            pw = lambda o: float(o.get('maxHealth', 1000)) * (float(o.get('strength', {}).get('effective', 0)) + float(o.get('focus', {}).get('effective', 0)))
+            ratio = sum(pw(o) for o in ours) / max(1.0, pw(victim))
+            mine = sum(pw(o) for o in st['champions'] if o.get('alive') and o['team'] == attacker_team)
+            theirs = sum(pw(o) for o in st['champions'] if o.get('alive') and o['team'] == victim['team'])
+            out.append((commit, killed, lost, k, ratio, len(ours), mine / max(1.0, theirs)))
     return out
 
 
@@ -138,6 +142,11 @@ def main():
               f'committed {a[:, 0].mean():.2f}, killed {a[:, 1].mean():.2f} (when committed {a[a[:, 0] > 0, 1].mean():.2f}, '
               f'not {a[a[:, 0] == 0, 1].mean() if (a[:, 0] == 0).any() else float("nan"):.2f}), we lost a champion within 10 {a[:, 2].mean():.2f}')
         print(f'   kills from opportunities per team-game {a[:, 1].sum() / games:.2f}, before r200 {early[:, 1].sum() / games:.2f}')
+        print(f'   mean power ratio at the opportunity (our champions within 6 / victim) {np.median(a[:, 4]):.2f} median; team power ratio (alive, ours/theirs) {np.median(a[:, 6]):.2f} median; attackers within 6 {a[:, 5].mean():.2f}')
+        for lo, hi in ((0, 1), (1, 2), (2, 3), (3, 5), (5, 99)):
+            sel = (a[:, 4] >= lo) & (a[:, 4] < hi)
+            if sel.sum() >= 20:
+                print(f'      power ratio {lo}-{hi}: n {int(sel.sum()):5d}  kill rate {a[sel, 1].mean():.3f}  we lose one {a[sel, 2].mean():.3f}')
 
 
 if __name__ == '__main__':

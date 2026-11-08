@@ -52,3 +52,25 @@ Forced draft vs v51d (128 maps x 2 sides):
 - Control (our five through the new path): 128-128.
 
 A learned draft can only choose among compositions the play code supports. Comps 4-5 and the v50p1 runs are still pending.
+
+## 7. Is it power? Kill conversion by local power ratio (our champions within 6 / victim; power = max HP x (strength + focus))
+| ratio | us: kill rate | top: kill rate |
+|---|---|---|
+| under 1 | 0.06 | 0.22 |
+| 1-2 | 0.16 | 0.25 |
+| 2-3 | 0.17 | 0.28 |
+| 3-5 | 0.13 | 0.32 |
+| over 5 | 0.17 | 0.39 |
+
+The top teams convert more the stronger they are; we do not, at any ratio. Team power at those moments is about even (median 1.02).
+
+At ratio 3 or more, outcomes within 10 rounds:
+
+| outcome | us | top |
+|---|---|---|
+| killed | 15% | 36% |
+| damaged, survived | **54%** | 31% |
+| no damage | 19% | 20% |
+| escaped to spawn | 12% | 13% |
+
+In the "damaged, survived" cases the nearest attacker averages 1.6 tiles away, and only a third of the target's health comes off. We start fights and stop. Next fix: kill commitment (no disengage or camp switch while a focus target is about to die).

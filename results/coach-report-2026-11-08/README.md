@@ -121,3 +121,6 @@ Limits:
 - Parameter screen complete (64 maps x 2 vs v53g): best was retarget_ratio 1.2 (75/128). Others are listed in the tuner log. **v53m** = v53i + retarget_ratio 1.2 is queued.
 - **v53l** (learned turn order, imitating the top-15 priority model): rejected. 119-137 vs v53i, 133-123 vs v226 (v53i: 151-105). Their danger-first ordering fits their own escape logic, not ours; the simple finisher-first rule is better for our bot.
 - Generalisation check: v53i vs v226 holds in every map family (00 60%, 01 57%, 02 67%, 03 60%, 04 56%, adgato 60%). A 70-map transformed (unseen) set is in TESTING.md; runs are in progress.
+- **Unseen-board test** (70 flipped/rotated maps, 140 games; new geometry and seeds):
+  - v53i vs v226: **78-62 (56%)**, margin +103, kills 4.26 / 2.92, deaths 3.32 / 4.65. The live bot generalises (59% on the pool).
+  - v53m (retarget_ratio 1.2) vs v53i: **70-70**, margin -43, kills 3.28 / 3.80, deaths 4.25 / 3.67. The parameter-screen gain (75/128 on 64 pool maps) does not transfer, which is what overfitting looks like. Not shipped.

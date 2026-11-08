@@ -64,3 +64,12 @@ Three attempts at "stop dying late" on top of v53i all lowered results locally, 
 - v53p graves.
 
 The late deaths are a symptom of how our five farm (independently, often alone), not of a single decision rule. The structural fix is a team farming pattern: a lasting duo/trio with satellites, or the top teams' funnel. That is a larger change than a flag.
+
+## v53q (lasting duos after the opening): mixed, so it goes to the real panel
+| test | wins | kills / deaths (v53q vs opponent) |
+|---|---|---|
+| vs v53i | 125-131, margin +28 | 3.55 / 3.51 vs 2.99 / 4.00 |
+| vs v226 | 129-127 (v53i 151-105) | 3.70 / 3.09 vs 2.68 / 4.10 |
+| unseen boards vs v53i | 63-77 | 3.75 / 3.58 vs 3.16 / 4.21 |
+
+Duos fight better (about +19% kills, -12% deaths against v53i) but cover fewer camps. Self-play rewards farm coverage, so the UK panel (real opponents) decides.

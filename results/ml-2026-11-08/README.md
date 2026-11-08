@@ -30,3 +30,25 @@ Per alarm, we survive as well as the top teams. We enter about twice as many dan
 
 ## 3. Learned map draft (bots/v54m, tools/draftml)
 Running: 6 forced playstyles x 128 maps x both sides vs v51d and v50p1, plus map features dumped by the bot in the draft turn (100x fuel). The control (comp 0 through the new path) reproduces v51d exactly (128-128, margin 0). Results to follow.
+
+## 4. Offence: we attack more and kill less (`tools/hazardml/offense.py`)
+An opportunity is an enemy whose own hazard (shipped model, from its point of view) is at least 0.3, with one of ours within 6 tiles. One per enemy per 5 rounds.
+
+| | us (40 strong-panel games) | top-15 vs top-15 (59 games) |
+|---|---|---|
+| opportunities per team-game | 23.8 (before r200 2.4) | 16.4 (2.1) |
+| committed (closed in or hit within 3 rounds) | 0.71 | 0.56 |
+| converted to a kill within 10 rounds | **0.15** | **0.28** |
+| converted when committed | 0.15 | 0.26 |
+| kills from opportunities per team-game | 3.6 (before r200 0.50) | 4.6 (0.84) |
+
+We create and commit to more chances than the top teams but convert half as many. Committing does not raise our conversion at all. The offensive lever is execution (focus fire, stun first, numbers and cut-off at the commit), not aggression.
+
+## 5. Draft screen: our bot cannot play the top teams' compositions
+Forced draft vs v51d (128 maps x 2 sides):
+- Heart, Cassi&Issac, Vendetta, Marcella, Vesper: 49-207, gold r400 -10.8%.
+- Heart, Cassi&Issac, Vendetta, Willow, Prism: 40-216, -16.1%.
+- Heart, Marcella, Cassi&Issac, Vendetta, Willow: 63-193, -5.4%.
+- Control (our five through the new path): 128-128.
+
+A learned draft can only choose among compositions the play code supports. Comps 4-5 and the v50p1 runs are still pending.

@@ -96,3 +96,25 @@ Full local tests are running.
 - v53t is live on the agreed rule. The +2 is within noise.
 - The gate-boss maps still score 0 against real teams (01boss_battle 0-1122, 02guardians 0-1098): they take or contest the gate boss first. The local fix does not transfer.
 - v53t's gains were against BattleCats (1/5) and QS2isLaw (3/5).
+
+## Boss maps against the UK teams (summaries of v53i's and v53t's games)
+- Single central altar on both maps: (20,20) on 02guardians, (25,20) on 01boss_battle.
+- The opponent's first tributes come only after the gate opens: r845-908 on 02guardians, r1258-1361 on 01boss_battle.
+- We never tribute (collected 226-4,605).
+- Gate detection works: an altar with only camp tiles in range gets a gate group. But we walk the gate only once we have seen the gate boss down, and no carrier goes to look.
+- **v53v** (gate inference: an enemy tribute, or a stale belief plus a 60+ bag, sends carriers through the gate): rejected on the target map. 01boss_battle vs v53t: 113-1121 (14 deaths) as A, 0-1025 as B. Carriers walk into the enemy holding the gate. The gate needs map control, not inference.
+
+## New public repository: toyeshhm/cambridge-battlecode-2026 (team EvilMangohh, peak rank 22, engine 2)
+Their lessons that match ours:
+- every "play safer" rule cost kills;
+- changes inside fights almost never helped;
+- local A/B against own bots misleads (38/64 locally became 0/25 on the platform).
+
+Transferable rules:
+- **same-turn tribute** (their biggest gain, 18 to 29 of 100 with a late bag cap);
+- fast capture (melee steps onto the reward on the kill; nearest ally captures; 2.7 to 1.4 rounds);
+- recall from the capture tile;
+- monolith takes staged outside reach under a team-damage model with no enemy near;
+- map-kind draft tables (contest/boss maps: five range-4 champions).
+
+Our bot wasted a turn at every tribute. **v53u** (v53t + same-turn tribute) is verified to submit in the same turn (0 engine errors); local tests are running.

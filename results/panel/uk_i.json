@@ -286,6 +286,120 @@
     "kills": 1,
     "rounds": 1050
    }
+  ],
+  "smurphy-83798ea3": [
+   {
+    "map": "01islands",
+    "side": "b",
+    "match": "01a1bbc7-4fda-730a-b4ae-2c557e7dba61",
+    "win": true,
+    "gems": 1053,
+    "opp_gems": 657,
+    "deaths": 3,
+    "kills": 0,
+    "rounds": 903
+   },
+   {
+    "map": "02geodes",
+    "side": "a",
+    "match": "01a1bbc7-4fda-71bd-965e-6e73a82f97ba",
+    "win": false,
+    "gems": 768,
+    "opp_gems": 1028,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 827
+   },
+   {
+    "map": "03homonoliths",
+    "side": "b",
+    "match": "01a1bbc7-4fda-72d9-a08a-1a04481b4686",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1200,
+    "deaths": 2,
+    "kills": 1,
+    "rounds": 1196
+   },
+   {
+    "map": "04standing_stones",
+    "side": "a",
+    "match": "01a1bbc7-4fda-756c-8952-f363c065c511",
+    "win": true,
+    "gems": 1021,
+    "opp_gems": 552,
+    "deaths": 9,
+    "kills": 5,
+    "rounds": 1497
+   },
+   {
+    "map": "adgato_gemcombat2",
+    "side": "b",
+    "match": "01a1bbc7-4fda-724c-9429-7958c1cad806",
+    "win": false,
+    "gems": 126,
+    "opp_gems": 1027,
+    "deaths": 13,
+    "kills": 0,
+    "rounds": 541
+   }
+  ],
+  "jianqiao_yepazhe-958beb45": [
+   {
+    "map": "00gemfight",
+    "side": "a",
+    "match": "01a1bbc7-e3df-7581-92c5-6a4c9c0df773",
+    "win": false,
+    "gems": 358,
+    "opp_gems": 1001,
+    "deaths": 17,
+    "kills": 0,
+    "rounds": 1054
+   },
+   {
+    "map": "01starvation",
+    "side": "b",
+    "match": "01a1bbc7-e3df-772f-99dc-28a25b960bb6",
+    "win": true,
+    "gems": 873,
+    "opp_gems": 696,
+    "deaths": 17,
+    "kills": 3,
+    "rounds": 2000
+   },
+   {
+    "map": "02gift_wrapping",
+    "side": "a",
+    "match": "01a1bbc7-e3df-7f16-83f4-887964642324",
+    "win": false,
+    "gems": 358,
+    "opp_gems": 1038,
+    "deaths": 23,
+    "kills": 2,
+    "rounds": 1118
+   },
+   {
+    "map": "03riverbed",
+    "side": "b",
+    "match": "01a1bbc7-e3df-7646-8b55-91187c2e03e1",
+    "win": true,
+    "gems": 1008,
+    "opp_gems": 937,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 936
+   },
+   {
+    "map": "04horseshoes",
+    "side": "a",
+    "match": "01a1bbc7-e3df-7f97-bebc-1c9587352a8f",
+    "win": false,
+    "gems": 188,
+    "opp_gems": 1004,
+    "deaths": 23,
+    "kills": 2,
+    "rounds": 1453
+   }
   ]
  },
  "groups": {
@@ -294,6 +408,8 @@
   "QS2isLaw-6bbc4925": "01a1bbc5-9960-7418-af00-f5f559b71ca0",
   "Rogue_Lock_Pickers-ff9d7df3": "01a1bbc6-2ae4-7f0c-9ea0-a1e1bc247f0e",
   "bentheboss-a4247250": "01a1bbc6-bccb-7166-a517-e43d00e285eb",
-  "smurphy-83798ea3": "01a1bbc7-4fd8-7123-b8aa-d9f69a6e2e35"
+  "smurphy-83798ea3": "01a1bbc7-4fd8-7123-b8aa-d9f69a6e2e35",
+  "jianqiao_yepazhe-958beb45": "01a1bbc7-e3dd-78ac-b115-534cb952df8e",
+  "DOOMSDAY-fcf5f666": "01a1bbc8-77f6-7e9f-8893-4ec745044d69"
  }
 }

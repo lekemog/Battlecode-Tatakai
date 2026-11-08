@@ -85,3 +85,14 @@ Full local tests are running.
   - 02guardians vs v53i: 0-2.
   - Vs v226: boss_battle 0-2, guardians 1-1.
 - The siege sometimes fixes the zero-bank collapse but is not reliable, and costs on 02guardians. v53s is the clean candidate; v53t is a targeted bet. The UK panel includes both gate maps (boss_battle vs 0xDEADBEEF, guardians vs DOOMSDAY, v53i 0 gems on both) and decides.
+
+## UK panel results (pinned, same 45 games)
+| bot | wins | deaths | margin |
+|---|---|---|---|
+| v53i (236) | 9/45 | 7.36 | -361 |
+| v53s (237) | 9/45 | 7.51 | -348 |
+| **v53t (238)** | **11/45** | **7.18** | **-328** |
+
+- v53t is live on the agreed rule. The +2 is within noise.
+- The gate-boss maps still score 0 against real teams (01boss_battle 0-1122, 02guardians 0-1098): they take or contest the gate boss first. The local fix does not transfer.
+- v53t's gains were against BattleCats (1/5) and QS2isLaw (3/5).

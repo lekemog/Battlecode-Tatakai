@@ -118,3 +118,9 @@ Transferable rules:
 - map-kind draft tables (contest/boss maps: five range-4 champions).
 
 Our bot wasted a turn at every tribute. **v53u** (v53t + same-turn tribute) is verified to submit in the same turn (0 engine errors); local tests are running.
+
+### v53u local results: neutral
+- vs v53t: 133-123 (margin -5).
+- vs v226: 139-117 (v53t 148-108).
+- unseen boards vs v53t: 69-71.
+- Banking and deaths unchanged within noise. The saved turn per tribute is too small to show in self-play. It is a safe addition, with no local evidence of gain.

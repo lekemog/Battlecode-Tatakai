@@ -63,3 +63,17 @@ How the UK teams take bosses (decoded):
 - Cause: the bank trigger is per champion (its own bag of 25-40, or its own gems winning). Nobody accounts for the team total near the end.
 
 **v53s**: once either side has banked 800, every champion banks any bag of 5+. Local tests running.
+
+## v53s (race-end banking): passes locally
+| test | wins | margin | banked (v53s / opponent) |
+|---|---|---|---|
+| vs v53i | 133-123 | +16 | 825 / 809 |
+| vs v226 | **158-98** | +98 | 844 / 746 (v53i: 151-105) |
+| unseen boards vs v53i | 70-70 | +7 | |
+
+## v53t (v53s + gate bosses)
+When no altar is reachable on foot, a monolith/golem group within 3 tiles of an altar becomes a jackpot siege (up to 4 hypothetical helpers). The probe over all 128 maps triggers on exactly **01boss_battle and 02guardians**, both zero-gem UK losses.
+- 01boss_battle, v53t as side A vs v53i: **1356-0, won at round 861** (v53i side B banked nothing).
+- Reverse sides: v53i 1040 - v53t 729 (side A's altar is reachable; v53t as B still banks 729).
+
+Full local tests are running.

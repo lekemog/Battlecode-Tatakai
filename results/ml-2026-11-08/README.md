@@ -74,3 +74,18 @@ At ratio 3 or more, outcomes within 10 rounds:
 | escaped to spawn | 12% | 13% |
 
 In the "damaged, survived" cases the nearest attacker averages 1.6 tiles away, and only a third of the target's health comes off. We start fights and stop. Next fix: kill commitment (no disengage or camp switch while a focus target is about to die).
+
+## 8. Numbers and kill probability at our commits (`tools/hazardml/killmodel.py`)
+A commit is an opportunity (section 4) where the attacking side closes in or hits within 3 rounds.
+
+| | us (40 strong-panel games) | top-15 (166 games) |
+|---|---|---|
+| commits | 704 | 3,498 |
+| kill rate | **0.19** | **0.415** |
+| our attackers within 6 / target side within 6 | 2.23 / 2.32 | 2.77 / 2.57 |
+| outnumbered / even / ahead | **33% / 38% / 29%** | 27% / 33% / 40% |
+| kill rate outnumbered, even, +1, +2 or more | 0.18, 0.18, 0.23, 0.20 | 0.39, 0.40, 0.43, 0.45 |
+
+Logistic kill model fitted on top-team commits, held out by game (AUC 0.715). Standardised effects: log power ratio +0.74, target health -0.74, target side count +0.12, cut-off +0.10, attacker count +0.03, target distance to its spawn +0.02. Power and the target's health decide kills; head count and distance to its spawn barely matter once power is known.
+
+Our commits scored by that model: predicted 0.37 (top teams' 0.42), actual 0.19. We pick slightly worse chances and are outnumbered more often, but even our best chances (predicted >= 0.5) convert at 0.40 against the top teams' 0.64. Execution is still the main gap. A commit gate (commit only when predicted kill >= ~0.4) is a cheap addition.

@@ -8,6 +8,8 @@ You are continuing work on Team Tatakai's Cambridge Battlecode 2026a C++ bot. Go
 ## UPDATE (8 Nov, later): v52a FAILED validation
 256-game mirrors, 128 maps: v52a vs v51d 100-156 (39.1%); vs live v50h5e 116-140 (45.3%); vs v50p1 162-94 (63.3%) (v51d: 141-115 and 182-74). Income at r400 -3.5% vs v51d. No faults. So v52a is NOT a candidate; v51d remains the best tested bot. Bisect variants (each removes one v52a change, vs v51d on 64 maps): v52x1 guards off, v52x2 patch-4 shop flags off (v51d has p4_shop_cap/p4_capture_time false), v52x3 learned shop on. Rerun them to find the culprit. Ignore the "if v52a >= v51d" wording below unless the bisect repairs it.
 
+Bisect result (64 maps, 128 games each, vs v51d): v52x1 (guards OFF) 68-60 (53.1%); v52x2 (guards on, patch-4 shop flags off) 46-82 (35.9%); v52x3 (guards on, learned shop on) 54-74 (42.2%). Conclusion: the guarded-altar routing + contest guards are what break v52a when stacked on v51d's ring window/detours (about -14 points); the other v52a changes (p4 shop flags, learned shop off) are neutral to slightly positive. v52x1 = v51d + those neutral changes; it was then run vs live and v50p1 on 128 maps (see results/README if added). Do NOT re-enable the guards without re-adapting them to the ring window/detour logic (the user's "formula 1 engine in a mini cooper" point).
+
 ## Setup (once)
 1. Read `CURRENT_STATE.md`, `TESTING.md`, `CLI_FOR_AGENTS.md`, `LIVE_SLOT.md`, `bots/README.md`, `results/README.md`, `results/public-bot-comparison-2026-11-08/README.md`.
 2. `pip install cambc==5.0.0` (engine 3.0.0). If the toolchain download fails with UnknownIssuer, curl wasi-sdk-33, CMake 3.31.8, ninja 1.12.1 into `~/.cache/cambc` exactly as in `CLI_FOR_AGENTS.md` section 2.

@@ -116,3 +116,6 @@ Limits:
   - pack_size 4: 59
   - tribute_gems_danger 15: 61
   - behind_fight_margin: no effect.
+- **v53k** (v53i + fight_margin 0.7): rejected, 126-130 vs v53i. The stricter margin adds nothing on top of turn order.
+- Disk full at about 06:40: truncated runs were deleted or rerun. Truncated results are not used (v53l rerun; retarget_ratio stage 2 stopped at 50/71).
+- Parameter screen complete (64 maps x 2 vs v53g): best was retarget_ratio 1.2 (75/128). Others are listed in the tuner log. **v53m** = v53i + retarget_ratio 1.2 is queued.

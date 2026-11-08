@@ -63,16 +63,28 @@ def main():
     sub = sorted(random.sample(allmaps, min(n1, len(allmaps))))
     subf = os.path.join(PROJ, f'tune_maps_{n1}.txt')
     open(subf, 'w').write('\n'.join(sub) + '\n')
-    log = open(os.path.join(PROJ, f'tune_{base}.tsv'), 'a')
-    res = []
+    logp = os.path.join(PROJ, f'tune_{base}.tsv')
+    done = {}
+    if os.path.exists(logp):
+        for line in open(logp):
+            p = line.rstrip('\n').split('\t')
+            if len(p) == 8 and p[3] == '1' and int(p[6]) > 0:
+                done[(p[1], p[2])] = (int(p[5]) / int(p[6]), int(p[7]), p[0])
+    log = open(logp, 'a')
+    res = [(sh, mg, name, k, v) for (k, v), (sh, mg, name) in done.items()]
     for knob, values in SPACE:
         for v in values:
+            if (knob, v) in done:
+                continue
             name = make_variant(base, knob, v)
             r = mirror(name, base, subf)
             if r is None:
                 print('failed', knob, v, flush=True)
                 continue
             w, g, mg = r
+            if g == 0:
+                print('no games', knob, v, flush=True)
+                continue
             print(f'stage1 {knob}={v}: {w}/{g} margin {mg:+d}', flush=True)
             log.write(f'{name}\t{knob}\t{v}\t1\t{base}\t{w}\t{g}\t{mg}\n'); log.flush()
             res.append((w / g, mg, name, knob, v))

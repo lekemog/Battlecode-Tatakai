@@ -2,7 +2,7 @@
 
 **Everyone on Tatakai may tweak the bot, test new versions and submit them**, once they've done the due diligence in section 5.
 This page shows how to give your own AI agent the same tools main Claude uses: build, local games, panels and submissions.
-Verified on 3 Nov 2026 in a Claude Code cloud session: `cambc` 4.0.0, engine 2.0.0, Linux x86_64.
+Written on 3 Nov and re-checked on 8 Nov 2026 in a Claude Code cloud session with `cambc` 5.0.0 (engine 3.0.0, patch 4.0.0), Linux x86_64. The toolchain downloads below are unchanged from 4.0.0.
 
 ## 1. Pick an environment your agent can run commands in
 | Agent | Where it runs | What to check |
@@ -15,7 +15,7 @@ Test the network: `curl -sS -o /dev/null -w "%{http_code}\n" https://2026a.battl
 
 ## 2. Install the CLI and the C++ toolchain
 ```bash
-pip install cambc==4.0.0 && cambc --version     # must say cambc 4.0.0
+pip install cambc==5.0.0 && cambc --version     # must say cambc 5.0.0
 ```
 The first `cambc run` downloads wasi-sdk, CMake and ninja. Behind a TLS-intercepting proxy (most cloud agents) it fails with `invalid peer certificate: UnknownIssuer`. Fetch them with curl instead (curl trusts the proxy's CA):
 ```bash
@@ -42,7 +42,7 @@ Never paste tokens into the repo or into issues.
 ```bash
 git clone https://github.com/lekemog/BattlecodeConversation && cd BattlecodeConversation
 git checkout claude/vibrant-turing-rtpcwn          # the live v50 line
-tools/lab/setup_lab.sh ~/lab v50h5e v50p1 <your-bot>   # project, 86 maps, bench bots, your bots
+tools/lab/setup_lab.sh ~/lab v50h5e v50p1 <your-bot>   # project, the 128-map pool (also in maps/), bench bots, your bots
 export PROJ=~/lab
 cd $PROJ && cambc run bots/<your-bot> bots/v50h5e --map maps/00contest.map26a --release --json   # one game
 cd - && JOBS=4 tools/lab/mirror.sh <your-bot> v50h5e      # 172 games vs the live bot, both sides

@@ -1,7 +1,7 @@
 # TESTING.md: how to test a bot version (written for teammates' agents)
 
 Read this top to bottom before you run anything. Every rule here was paid for with a wasted afternoon.
-Team Tatakai (ladder name `LionelMSISS`), Cambridge Battlecode 2026a, `cambc` 4.0.0 (engine 2.0.0).
+Team Tatakai (formerly `LionelMSISS`), Cambridge Battlecode 2026a. **Current patch 4.0.0: `cambc` 5.0.0, engine 3.0.0, 128 maps** (updated 8 Nov; sections below were written on `cambc` 4.0.0 / engine 2.0.0 / 86 maps, so numbers in section 7 are engine-2 reference values and must be re-measured on engine 3 before use).
 
 ## 0. Ground rules (the ones that bite)
 
@@ -23,7 +23,7 @@ Team Tatakai (ladder name `LionelMSISS`), Cambridge Battlecode 2026a, `cambc` 4.
 ## 1. Which version is which
 
 Current ladder bot line = **v50\*** ("Polaris v50", C++, `bots/v50*`). The older **v25 to v41** line (squad/cluster core) is far weaker on the ladder
-(rank 321 vs 74); keep it only as a reference opponent. Old folders v1x to v24x are in `bots/_archive/`.
+(rank 321 vs 74); keep it only as a reference opponent. Old folders (v1x to v41x, except the three kept below) are packed in `archive/bots-v1-v41.tar.xz` (see `archive/README.md`).
 
 | Folder | What it is | Submission | Notes |
 |---|---|---|---|
@@ -38,12 +38,12 @@ Current ladder bot line = **v50\*** ("Polaris v50", C++, `bots/v50*`). The older
 | `bots/v25u` | older line, live until 26 Oct | | |
 
 Bench opponents: `bench/bots/{x_daniel8,x_de41h4,h_mohnish,h_deysag,h_vatsal,h_photon,h_apex}` (frozen, all now beaten ~99%: **no longer discriminating**,
-use them only as a no-regression check). The map pool is the 86 maps on the platform (16 new `03*` maps and `00happy_halloween` appeared on 2 Nov): refresh with `cambc maps pull`.
+use them only as a no-regression check). The map pool is the 128 maps on the platform (bundled in `maps/`; 42 new `04*` maps arrived with patch 4.0.0) (16 new `03*` maps and `00happy_halloween` appeared on 2 Nov): refresh with `cambc maps pull`.
 
 ## 2. Setup (once per machine)
 
 ```bash
-pip install cambc==4.0.0 && cambc --version          # must say 4.0.0
+pip install cambc==5.0.0 && cambc --version          # must say 5.0.0 (the ladder runs engine 3.0.0)
 cambc login                                           # needs a human to approve the printed URL (7 days)
 cambc view <any replay>                               # once: downloads the visualiser assets used by tools/replay/extract4.mjs
 tools/lab/setup_lab.sh ~/lab v50h5e v50e1             # project dir, all current maps, the 7 bench opponents, and the bots you name
@@ -71,7 +71,7 @@ python3 -I tools/lab/gauntlet_stats.py v50h5e         # 7 bench opponents x all 
 MAPLIST=$PROJ/all.txt JOBS=2 python3 -I tools/lab/gauntlet_stats.py v50h5e    # on the whole current pool
 python3 -I tools/lab/stats.py v50h5e $BENCH_OUT          # $BENCH_OUT = the folder holding the bench_* output dirs (default $PROJ/bench_out); per-game means: kills, deaths, gems, gold at r200/r400, camp clears, error codes
 python3 -I tools/lab/permap_losses.py v50h5e $BENCH_OUT   # losses per map
-tools/lab/mirror.sh v50e2 v50e1                       # CAND vs BASE, all maps, both sides (140 games at 70 maps); prints share of decided games
+tools/lab/mirror.sh v50e2 v50e1                       # CAND vs BASE, all maps, both sides (256 games at 128 maps); prints share of decided games
 ```
 
 * **Mirror gate:** share of decided games above 55% over 366 games (140 on the maps + 226 on rotated/flipped copies from `tools/replay/mapxform45.mjs`,

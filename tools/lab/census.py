@@ -7,6 +7,7 @@ team earned gold; tribute = one gemSubmission event; gem loss = (collected - sub
 """
 import collections
 import glob
+import gzip
 import json
 import os
 import statistics
@@ -57,9 +58,12 @@ def main():
         for opp, games in p['games'].items():
             for g in games:
                 f = os.path.join(ROOT, 'summaries', g['match'] + '.json')
-                if not os.path.exists(f):
+                if os.path.exists(f + '.gz'):
+                    j = json.load(gzip.open(f + '.gz', 'rt'))
+                elif os.path.exists(f):
+                    j = json.load(open(f))
+                else:
                     continue
-                j = json.load(open(f))
                 mine = 'teamA' if g['side'] == 'a' else 'teamB'
                 theirs = 'teamB' if mine == 'teamA' else 'teamA'
                 rows['us'].append(team_stats(j, mine))

@@ -14,7 +14,7 @@ Question: should the bot use the SDK's two extra channels, `set_priority` / `que
 | `v51h1` | `peer_channel` + `share_sightings` |
 | `v51h2` | `peer_channel` + `sos_radius 12` |
 | `v51h3` | `peer_channel` + `phantom_mode 2` (shared pack sightings) |
-| `v51h0` | control: `group_news` off, nothing else (result pending) |
+| `v51h0` | control: `group_news` off, nothing else |
 
 ## Result: against the live bot (v50h5e = v226), all 128 maps x 2 sides = 256 games, 0 bot faults
 | Matchup | Wins | Margin | Gold r100 / r200 / r400 vs live | Banked | Deaths |
@@ -23,8 +23,11 @@ Question: should the bot use the SDK's two extra channels, `set_priority` / `que
 | v51h1 sightings | 136-120 (53.1%) | +45 | -2.8% / -3.0% / -2.9% | 835 | 3.6 |
 | v51h2 SOS | 134-122 (52.3%) | +24 | +2.2% / -1.8% / -3.0% | 834 | 3.8 |
 | v51h3 pack sightings | 134-122 (52.3%) | +41 | -2.6% / -1.8% / 0.0% | 831 | 3.6 |
+| v51h0 control: `group_news` off only | 112-144 (43.8%) | -41 | -2.7% / -2.7% / -3.2% | | |
 
 Noise at 256 games is about +-8 wins. All three sit 5-7 wins below v51d, inside the noise, with slightly lower income. **No evidence that sharing through the channel helps, and a small hint that it costs.**
+
+**The control explains the old results.** Switching `group_news` off on its own costs about 11 points of win share (55.1% for v51d, 43.8% for the control). The earlier SOS / sighting / pack tests (.407 to .443) were run with it off, so they mostly measured that loss. With `group_news` kept on, sharing through the priority channel is close to neutral (52-53%, 2-3 points below v51d, inside the noise). Conclusion: `group_news` is valuable and must stay on; sharing sightings, SOS or pack information adds nothing measurable in the mirror.
 
 ## Decision
 - Do not ship any of them. Keep `peer_channel` off (flag stays in the three folders).

@@ -1,6 +1,6 @@
 #!/bin/bash
 # setup_lab.sh PROJ_DIR [bot ...]
-# Creates (or refreshes) a cambc project in PROJ_DIR for local testing: SDK, all 70 current maps, the 7 bench opponents, and the given
+# Creates (or refreshes) a cambc project in PROJ_DIR for local testing: SDK, the current map pool (128 maps on patch 4.0.0), the 7 bench opponents, and the given
 # bots from <repo>/bots/. Prints the exports to use. Safe to rerun.
 set -e
 REPO=$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)
@@ -9,7 +9,7 @@ mkdir -p "$PROJ"; PROJ=$(cd "$PROJ" && pwd)
 if [ ! -f "$PROJ/cambc.toml" ]; then ( cd "$PROJ" && cambc init . --yes >/dev/null 2>&1 || echo "NOTE: cambc init failed; run it by hand (cambc init . --yes) and check 'cambc --version' is 4.0.0" ); fi
 ( cd "$PROJ" && cambc maps pull >/dev/null 2>&1 || echo "NOTE: 'cambc maps pull' needs 'cambc login'; falling back to the maps bundled with the SDK/bench" )
 mkdir -p "$PROJ/bots" "$PROJ/maps"
-[ "$(ls "$PROJ"/maps/*.map26a 2>/dev/null | wc -l)" -ge 70 ] || cp -n "$REPO"/bench/maps/*.map26a "$PROJ/maps/" 2>/dev/null || true
+[ "$(ls "$PROJ"/maps/*.map26a 2>/dev/null | wc -l)" -ge 120 ] || cp -n "$REPO"/maps/*.map26a "$PROJ/maps/" 2>/dev/null || true   # the repo bundles the current 128-map pool
 for b in "$REPO"/bench/bots/*; do rm -rf "$PROJ/bots/$(basename "$b")"; cp -r "$b" "$PROJ/bots/"; done
 for b in "$@"; do
   [ -d "$REPO/bots/$b" ] || { echo "no such bot folder: $REPO/bots/$b"; continue; }

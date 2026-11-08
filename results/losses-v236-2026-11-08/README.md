@@ -42,3 +42,12 @@ v53o is v53i plus an out-itemed posture:
 - From r200, if our per-champion power is below 0.7 of theirs, fights need +0.5 margin and champions do not close in unless they can finish an enemy outright.
 
 Mirrors are a no-regression check only, since self-play rarely out-items. The real test is the strong panels and ranked games.
+
+## Result: v53o rejected
+| test | v53o | kills / deaths (v53o vs base) |
+|---|---|---|
+| vs v53i | **112-144** | 2.25 / 3.74 vs 3.34 / 2.69 |
+| vs v226 | 132-124 (v53i 151-105) | |
+| unseen boards vs v53i | **59-81** | |
+
+The posture fires often even in self-play, and passivity raises deaths: hesitant champions still get caught and stop trading back. Not shipped. The actionable part of the diagnosis is isolation (44% of late deaths alone), not the fight threshold.

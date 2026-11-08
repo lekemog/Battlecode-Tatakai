@@ -119,3 +119,5 @@ Limits:
 - **v53k** (v53i + fight_margin 0.7): rejected, 126-130 vs v53i. The stricter margin adds nothing on top of turn order.
 - Disk full at about 06:40: truncated runs were deleted or rerun. Truncated results are not used (v53l rerun; retarget_ratio stage 2 stopped at 50/71).
 - Parameter screen complete (64 maps x 2 vs v53g): best was retarget_ratio 1.2 (75/128). Others are listed in the tuner log. **v53m** = v53i + retarget_ratio 1.2 is queued.
+- **v53l** (learned turn order, imitating the top-15 priority model): rejected. 119-137 vs v53i, 133-123 vs v226 (v53i: 151-105). Their danger-first ordering fits their own escape logic, not ours; the simple finisher-first rule is better for our bot.
+- Generalisation check: v53i vs v226 holds in every map family (00 60%, 01 57%, 02 67%, 03 60%, 04 56%, adgato 60%). A 70-map transformed (unseen) set is in TESTING.md; runs are in progress.

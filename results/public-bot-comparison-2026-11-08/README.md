@@ -39,4 +39,12 @@ GitHub search (15 queries, pushed since 10 Oct): **35 repositories**; 20 not pre
 5. Fitted death-risk carrier caution (C: `rk1`-`rk3`); partly covered by our hazard model.
 
 ## 6. Results of the tests above
-(filled in below)
+All on v51d, 64 maps x 2 sides = 128 games each against v51d, engine 3.0.0, 0 bot faults.
+
+| Variant | Change | Wins | Gold r100 / r200 / r400 vs v51d | Banked |
+|---|---|---|---|---|
+| `v51i1` | `gem_value` 3.0 (gold worth 1/3 gem) | 67-61 (52.3%) | -8.2% / -7.4% / -6.6% | 828 |
+| `v51i2` | `gem_value` 6.0 (gold worth 1/6 gem) | 52-76 (40.6%) | -18.0% / -21.0% / -22.8% | 785 |
+| `v51i3` | `rechoose_every` 4 (was 8) | 64-64 (50.0%) | -1.9% / +0.4% / -0.6% | 832 |
+
+**None of the two public-bot differences transfers.** Lowering the weight of gold in camp value cuts income by 7% (x3) and 22% (x6) and loses at x6: gold buys stats, as source B's own mirror ("gold weights 0.06 / 0.03 / 0 lose") and our old tuning found; our current 1.5 is near the optimum for our bot. Re-scoring every 4 rounds is neutral (50.0%, income unchanged). Their numbers are tuned to their architecture and do not carry over, which is the general lesson of the crawl: copying a parameter from a different bot does not work.

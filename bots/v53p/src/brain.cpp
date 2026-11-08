@@ -231,24 +231,23 @@ static std::vector<Grave>& graves() { static std::vector<Grave> g; return g; }
 static void update_graves(const Ctx& ctx)
 {
     if constexpr (cfg::grave_age <= 0) return;
-    static int last_round = -1;
-    static vec2 last_self{};
-    static std::vector<std::pair<int, vec2>> last_allies;
+    // Deaths from the API's alive flags (Knowledge::alive), not from vision: allies outside our vision are not in ctx.allies.
+    static std::vector<std::uint8_t> was_alive;
+    static std::vector<vec2> last_pos;
+    auto& kn = Knowledge::get();
     const vec2 home = World::get().ally_spawn_center;
-    auto add = [&](vec2 p) { if (cheb(p, home) > 4) graves().push_back({ p, ctx.round }); };
-    if (last_round >= 0 && ctx.round - last_round > 3) add(last_self);  // we were dead in between
-    if (last_round == ctx.round - 1)
-        for (const auto& [idx, pos] : last_allies)
+    const std::size_t n = kn.allies.size();
+    if (was_alive.size() != n) { was_alive.assign(n, 1); last_pos.assign(n, home); }
+    for (std::size_t i = 0; i < n && i < kn.alive.size(); ++i)
+    {
+        if (kn.alive[i])
         {
-            bool present = false;
-            for (const auto& a : ctx.allies)
-                if (a.index == idx) present = true;
-            if (!present) add(pos);
+            try { last_pos[i] = kn.allies[i].position(); } catch (const std::exception&) {}
         }
-    last_allies.clear();
-    for (const auto& a : ctx.allies) last_allies.push_back({ a.index, a.pos });
-    last_self = ctx.pos;
-    last_round = ctx.round;
+        else if (was_alive[i] && cheb(last_pos[i], home) > 4)
+            graves().push_back({ last_pos[i], ctx.round });
+        was_alive[i] = kn.alive[i];
+    }
     auto& g = graves();
     g.erase(std::remove_if(g.begin(), g.end(), [&](const Grave& x) { return ctx.round - x.round > cfg::grave_age; }), g.end());
 }

@@ -47,3 +47,19 @@ The top teams build a funnel: one or two carries (Vesper for gold, Prism for gem
 - Shop timing and choices from 800 summaries.
 - Map-type behaviour (the pack study is in `results/opening-pack-2026-11-08`).
 - v53f (team focus) mirror.
+
+## 5. Shop (800 summaries; top-20 teams 276 team-games vs our 80 strong-panel team-games)
+| champion | top-20 stat split (H/S/F) | ours |
+|---|---|---|
+| Ryth | **Health 83-99%** (her bonus health adds strength) | **Strength 72-91%** |
+| Marcella | **Focus 63-69%** | **Strength 57-93%** |
+| Heart | Focus ~60%, Health ~38% throughout | Focus 75-91%, Health 9% after r500 |
+| Prism | Health ~100% | (not drafted) |
+
+- Item families: top teams open on Prospector plus Treasure (17-40%), move to Durability/Jungle/Bruiser, and stack Bruiser after r500 (37-77%). Health stays at ~35-40% of spend all game.
+- We are 76-91% Bruiser after r500 with Health at 7-23%.
+- Spend-share vs win associations (Bruiser +0.25, Treasure -0.27) are confounded by game length and are not used.
+- Candidate **v53g**: v53f plus kit-aware stats (Ryth and Prism Health, Marcella Focus, health steps for every champion). Mirror pending.
+
+## 6. Offence fix measured: v53f (team focus fire) vs v53d, 256 games
+131-125. Kills 3.54 vs 3.08 per game (+15%), deaths 3.62 vs 4.02 (-10%), banked 842 vs 818, 0 bot faults. The intended mechanism shows up: more kills and fewer deaths.

@@ -63,3 +63,17 @@ The top teams build a funnel: one or two carries (Vesper for gold, Prism for gem
 
 ## 6. Offence fix measured: v53f (team focus fire) vs v53d, 256 games
 131-125. Kills 3.54 vs 3.08 per game (+15%), deaths 3.62 vs 4.02 (-10%), banked 842 vs 818, 0 bot faults. The intended mechanism shows up: more kills and fewer deaths.
+
+## 7. Mirror results of the stacked candidates (256 games each, 128 maps x 2 sides, 0 bot faults)
+Kills and deaths are per game, from champion metrics with side taken from the file name. An earlier ad-hoc script matched on the folder path and mis-assigned sides; the numbers below are corrected.
+
+| candidate vs base | wins | gem margin | banked | kills | deaths | gold r400 |
+|---|---|---|---|---|---|---|
+| v53d (pack opening) vs v51d | 129-127 | -6 | 814 / - | | 3.6 | -1.8% |
+| v53f (+ team focus) vs v53d | 131-125 | +24 | 842 / 818 | **3.54 / 3.08** | **3.62 / 4.02** | +0.2% |
+| **v53g (+ kit-aware shop) vs v53f** | **151-105 (59%)** | **+79** | **859 / 780** | **3.97 / 2.89** | **3.36 / 4.42** | +3.0% |
+| v53h (+ kill commitment) vs v53g | running | | | | | |
+
+Single-champion draft swap: Ryth to Prism, 86-170 vs v51d. Our code cannot play Prism yet. The other swaps are still running.
+
+v53g confirms the strength hypothesis: buying the stat each kit scales with (Ryth Health, Marcella Focus, Health kept late) gives +37% kills and -24% deaths in self-play.

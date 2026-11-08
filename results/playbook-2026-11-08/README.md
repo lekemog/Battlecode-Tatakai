@@ -80,3 +80,31 @@ v53g confirms the strength hypothesis: buying the stat each kit scales with (Ryt
 | v53h (+ kill commitment) vs v53g | 123-133 | -23 | 808 / 831 | 3.62 / 3.81 | 4.23 / 4.06 | -0.5% |
 
 v53h is rejected locally: staying on targets the team "can finish" lost more carriers with full bags (unconverted gems 121 vs 106) and did not raise kills. v53g remains the lead candidate. The parameter search (`tools/tune/search.py`) is running on v53g.
+
+## 8. What teams do in each game state (`tools/playbook/states.py`)
+Activity per alive champion-round:
+- bank: carried gems fell while alive.
+- fight: an enemy within 4.
+- farm / invade: a living camp within 2 on our / their half.
+- home: within 3 of its own spawn.
+- carry: 20+ gems.
+- move: anything else.
+
+State is living champions ours minus theirs.
+- Us: 40 strong-panel games, our side only.
+- Top: 166 top-15 games, both sides.
+
+| state | share of rounds (us / top) | fight | farm | invade | carry | bank: gems per 100 champion-rounds | kills per 100 |
+|---|---|---|---|---|---|---|---|
+| ahead | **14.6% / 37.4%** | 18.6% / 9.2% | 19.2% / 17.9% | 6.3% / 3.4% | 13.9% / 16.6% | 26.8 / 20.5 | 0.46 / 0.34 |
+| even | 36.9% / 36.4% | 18.2% / 8.7% | 20.9% / 20.4% | 3.7% / 2.5% | 14.3% / 14.8% | 18.1 / 14.4 | 0.04 / 0.06 |
+| behind | **48.5% / 26.2%** | 15.0% / 12.1% | 17.7% / 19.9% | 2.7% / 2.5% | 14.9% / 13.6% | 12.0 / 13.2 | 0.01 / 0.05 |
+| r<200 | 17.6% / 24.8% | **16.5% / 8.3%** | 21.8% / 23.3% | | 9.4% / 9.5% | 8.1 / 7.4 | 0.04 / 0.10 |
+| r200-600 | 34.3% / 45.1% | 17.3% / 9.5% | 20.1% / 19.9% | | 15.7% / 17.9% | 14.5 / 19.7 | 0.09 / 0.17 |
+| r600+ | **48.1% / 30.1%** | 16.3% / 11.5% | 17.5% / 15.3% | | 15.6% / 15.7% | 20.8 / 18.8 | 0.10 / 0.21 |
+
+Readings (measured):
+- Against the strong teams we play **half of all champion-rounds a champion down** (48.5%). When we are ahead, we already do what top teams do: bank faster (26.8 gems per 100 rounds vs 20.5) and invade more. Our problem is how rarely we are ahead.
+- Top teams spend **8-12% of rounds near an enemy, we 15-19%**, twice as much as them before r200. They farm through the opening, and their fights come when they are behind (12.1%), i.e. forced. When ahead they convert: fight 9.2%, carry and bank.
+- Our games run long: 48% of our champion-rounds are after r600 (top 30%). We lose slowly from behind rather than being run over.
+- Implication: the respawn-window play already works when we get it. The lever is fewer forced fights and not being a champion down (positioning: pack opening, turn order), not a separate "when enemies are dead" mode.

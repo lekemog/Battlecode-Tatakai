@@ -124,3 +124,8 @@ Limits:
 - **Unseen-board test** (70 flipped/rotated maps, 140 games; new geometry and seeds):
   - v53i vs v226: **78-62 (56%)**, margin +103, kills 4.26 / 2.92, deaths 3.32 / 4.65. The live bot generalises (59% on the pool).
   - v53m (retarget_ratio 1.2) vs v53i: **70-70**, margin -43, kills 3.28 / 3.80, deaths 4.25 / 3.67. The parameter-screen gain (75/128 on 64 pool maps) does not transfer, which is what overfitting looks like. Not shipped.
+- **v53m** (retarget_ratio 1.2): rejected. All maps 137-119 vs v53i (margin -10), but the 64 maps held out of the screen give 67/128 and unseen boards 70-70: no evidence beyond the maps it was found on.
+- **v53i early deaths on the real panel** (40 games, before r300): ours 1.90 vs theirs 1.88 per game. In the 1 Nov study (v50d) we died about 2.5x as often as these teams early (70 vs 28 in 20 games).
+  - By champion: the pack members die most (Heart 20, Marcella 19, Ryth 19, Vendetta 10, Varg 8).
+  - At death: 0.8 allies vs 2.4 enemies within 6; 41 of 76 deaths came after r150, when the pack has ended.
+  - Next: **v53n** ends the pack by game state (hold until r300 while 2+ enemies are within 10). Testing on all maps, against live, and on unseen boards.

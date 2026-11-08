@@ -34,3 +34,32 @@ Our siege planner counts at most one hypothetical helper (`max_hypothetical_join
 - Misses 01boss_battle (< 0.2) and 02guardians (0.34): output share undervalues bosses because they respawn slowly.
 
 Local tests (all maps vs v53i and v226, unseen boards, with a boss-map split) are running.
+
+## v53r (boss jackpots from round 1): rejected
+| test | boss-economy maps (21) | other maps | all |
+|---|---|---|---|
+| vs v53i | **14/42** | 122/214 | 136-120 |
+| vs v226 | 19/42 | 115/214 | 134-122 |
+| unseen boards vs v53i | | | 71-69 |
+
+The "other maps" differ only through fuel timing. Grinding a monolith early loses the farm race.
+
+How the UK teams take bosses (decoded):
+- Late (r692-929 for the first boss), with 2-4 champions, usually led by a ranged carry (Vesper, Marcella).
+- 03homonoliths: Vesper + Cassi from r692, then Vesper, Marcella and Issac.
+- 02guardians: Vendetta, then Vendetta + Varg, from r829.
+
+## The real flaw on boss maps and in close races: banking (measured from summaries)
+- **01boss_battle: we collected 4,605 gems and banked 0.** At the end we still held 3,577 (one champion 2,406). This is an altar-reach failure on that map (the bank routine exits when it finds no reachable altar). Not fixed yet.
+- **Close races lost with gems in hand:**
+
+| map | collected | banked | held at end | opponent's winning total |
+|---|---|---|---|---|
+| 04barbell | 1,205 | 891 | 314 | 1,022 |
+| 02cuts | 1,145 | 907 | 194 | 1,011 |
+| adgato_gemcombat4 | 1,129 | 744 | 217 | 1,026 |
+
+- Across all 45 UK games we finished holding 6,106 unbanked gems (of 36,597 collected; 25,941 banked).
+- Cause: the bank trigger is per champion (its own bag of 25-40, or its own gems winning). Nobody accounts for the team total near the end.
+
+**v53s**: once either side has banked 800, every champion banks any bag of 5+. Local tests running.

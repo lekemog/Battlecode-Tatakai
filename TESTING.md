@@ -151,3 +151,10 @@ Maps differ more than opponents do. `tools/lab/mapfeatures.sh` probes every map 
 
 ## Standing rule (8 Nov 2026)
 Every candidate also plays the **live bot** (`tools/lab/mirror.sh CAND <live folder>`, today `v50h5e` = submission 226), in addition to its parent, for a small extra signal. Report kills and deaths with `tools/lab/mirror_kd.py CAND BASE`: it takes the side from the file name; matching on the folder path mis-assigns sides.
+
+## Unseen-map rule (8 Nov 2026)
+Qualifier maps are outside the ladder pool. Before a change ships it must also hold on boards it was not tuned on:
+1. **Per map family** (00 / 01 / 02 / 03 / 04 / adgato): the gain should not come from one family.
+2. **Transformed maps**: `/root/lab/xmaps.txt` lists 70 flipped or rotated copies (one per transformable map), written with `tools/replay/mapxform55.mjs` and the v3_0_0 engine. They have new geometry and new seeds. Run renamed bot copies (`x<bot>`) so the all-maps folders are not overwritten.
+3. **Parameter changes** screened on a map subset must be confirmed on the other maps and on the transformed set.
+Map-gated features must gate on properties the bot measures (spawn walk, camp layout), never on map names.

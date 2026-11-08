@@ -148,3 +148,6 @@ deaths), scope scan over all current maps, still to do. Put it in `results/<issu
 
 ## Map-family stress testing
 Maps differ more than opponents do. `tools/lab/mapfeatures.sh` probes every map (bots/maprobe), `tools/lab/mapfamilies.py` assigns each to a family (gem-starved, gem-only, monolith, elk-herd, large, gold-rich, gold-poor, standard), and `tools/lab/family_report.py BOT BENCH_OUT mapfamilies.csv` splits any gauntlet by family. Baseline for the live bot: `results/map-stress-2026-11/README.md` (weakest family: gem-only, 43% vs v50p1). For a change, run the gauntlet vs `x_daniel8,h_mohnish,v50p1` on all 86 maps and check no family regresses.
+
+## Standing rule (8 Nov 2026)
+Every candidate also plays the **live bot** (`tools/lab/mirror.sh CAND <live folder>`, today `v50h5e` = submission 226), in addition to its parent, for a small extra signal. Report kills and deaths with `tools/lab/mirror_kd.py CAND BASE`: it takes the side from the file name; matching on the folder path mis-assigns sides.

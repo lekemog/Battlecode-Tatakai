@@ -77,3 +77,11 @@ When no altar is reachable on foot, a monolith/golem group within 3 tiles of an 
 - Reverse sides: v53i 1040 - v53t 729 (side A's altar is reachable; v53t as B still banks 729).
 
 Full local tests are running.
+
+### v53t full local results
+- vs v53i 126-130 (margin +21); vs v226 148-108; unseen boards 73-67.
+- Gate maps, mixed:
+  - 01boss_battle vs v53i: 1-1 (1356-0 win, 729-1040 loss).
+  - 02guardians vs v53i: 0-2.
+  - Vs v226: boss_battle 0-2, guardians 1-1.
+- The siege sometimes fixes the zero-bank collapse but is not reliable, and costs on 02guardians. v53s is the clean candidate; v53t is a targeted bet. The UK panel includes both gate maps (boss_battle vs 0xDEADBEEF, guardians vs DOOMSDAY, v53i 0 gems on both) and decides.

@@ -51,3 +51,16 @@ Mirrors are a no-regression check only, since self-play rarely out-items. The re
 | unseen boards vs v53i | **59-81** | |
 
 The posture fires often even in self-play, and passivity raises deaths: hesitant champions still get caught and stop trading back. Not shipped. The actionable part of the diagnosis is isolation (44% of late deaths alone), not the fight threshold.
+
+## v53p (graves): rejected
+53% of our late deaths fall within 4 tiles of an earlier death of ours. v53p devalues camp groups within 5 tiles of an ally death in the last 150 rounds.
+- First run: a bug (deaths taken from vision, so unseen allies counted as dead; 17 false graves at r200). Lost 82-174 vs v53i. Fixed to use the API alive flags (0-1 live graves per checkpoint in a 6-death game).
+- Fixed v53p: **108-148 vs v53i**, 126-130 vs v226 (v53i 151-105), unseen boards 64-76. Deaths rose (4.20 vs 3.64): avoiding the contested camps sends champions to farther, emptier camps, alone.
+
+## Where this leaves the loss diagnosis
+Three attempts at "stop dying late" on top of v53i all lowered results locally, including against v226 and on unseen boards:
+- v53n pack hold;
+- v53o out-itemed caution;
+- v53p graves.
+
+The late deaths are a symptom of how our five farm (independently, often alone), not of a single decision rule. The structural fix is a team farming pattern: a lasting duo/trio with satellites, or the top teams' funnel. That is a larger change than a flag.

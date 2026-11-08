@@ -30,6 +30,20 @@ You are continuing work on Team Tatakai's Cambridge Battlecode 2026a C++ bot. Go
 - Patch 4.0.0 balance changes are already reflected in engine 3.0.0.
 - The user's critique: past tests were grafts. When adding an idea, adapt the surrounding code to it, not just bolt it on.
 
+## FULL FEATURE SCOPE (user request: include ALL of these, adapted into the bot, not bolted on)
+Build one bot `bots/v53a` from v52a (after v52a validates) that integrates every item below. For each item, read the surrounding code and adapt it to the new behaviour (thresholds, fuel gates, shared-memory use, shop order), keep it behind a `config.h` flag, and test each flag on/off with `tools/lab/mirror.sh` so a bad item can be switched off. Do not judge an item by a single graft test.
+
+A. Already in v52a: v51d ring window, detours, tribute cap 40, danger threshold 20; guarded-altar routing; contest guards (monolith maps); learned shop off; Capture-emblem timing.
+B. Tested earlier but left out; re-test properly integrated (v51e1 marcella_focus, v51e2 health_mix, v51f1-f5, v51g1/g2, v51h1-h3 peer channel in knowledge.cpp, v51i1-i3). Known: i2 lost 40.6% (skip unless reworked); h1-h3 ~52-53% (keep only if it helps once integrated; it uses shared-memory bytes that group_news needs; group_news stays on). Read each folder's diff against v51d and the results docs to see what it did.
+C. Never built:
+   1. Vesper carry economy: draft Vesper, capture relay so others hand her the camps, role-specific shop for her, escorts/protection. Est. +10-15% income.
+   2. Survival rework: deaths 10.9 vs 2.5 for top-10; fewer risky fights, retreat/regroup, rescaled health thresholds for patch 4.0.0.
+   3. Skirmish emblem (now 10% vs champions) in the fight model; patch 4.0.0 stat changes (Vendetta 900 HP/65 Str, Vesper Str 35, Stellar Focus 85, Prism 90, Marcella 40 Str, Varg 50 Str, Heart Focus 80, Greed 40) reflected in draft scores and shop.
+   4. Event-driven idle re-score (re-score only when a respawn timer expires or a group changes state). Earlier fixed-delay throttle was worse; measure.
+   5. Line-by-line optimisation of brain.cpp (~4,174 lines): remove redundant work, but MEASURE each change (avg fuel, heavy-turn share, win rate); revert anything that does not help.
+   6. Untested leads: pocket entries into hole-ringed gem groups, teleport crystals on wall maps (tp_shortcut_margin), shared kill-zone marks.
+D. Ship rule: the final bot must at least match v51d in mirrors (>= 141-115 vs live, >= 182-74 vs v50p1 on 128 maps) with zero faults and no income/banking regression; otherwise submit the best verified one and say which items were dropped and why.
+
 ## After shipping (if time remains), in priority order
 1. Survival rework (deaths are 4x top teams).
 2. Vesper carry economy: capture relay, role-specific shop, protection (est. +10-15% income, unbuilt).

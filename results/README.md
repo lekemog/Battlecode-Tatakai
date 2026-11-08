@@ -16,6 +16,7 @@ Every study has its own folder with a `README.md` (summary first, evidence below
 ## Era 2 (engine 2.0.0), newest first
 | Folder | What |
 |---|---|
+| [public-insights-2026-11-08](public-insights-2026-11-08/README.md) | Second public-repo review (written on engine 3): qualifier post-mortem, unused draft memory and priority channel, schedule facts |
 | [public-insights-2026-11-05](public-insights-2026-11-05/README.md) | Public-repo claims checked on 100 real top-10 games; item-build gaps; census |
 | [v51d-ring-window-2026-11-04](v51d-ring-window-2026-11-04/README.md) | v51d from the #45 acceptance check (ring window, small bags under threat, bag cap) |
 | [code-efficiency-2026-11-03](code-efficiency-2026-11-03/README.md) | Fuel by phase, decision latency, fuel-sensitivity curve, altar-access deadlock (v51c) |

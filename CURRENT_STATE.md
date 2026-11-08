@@ -32,3 +32,8 @@ No new matches, deployment, eligibility change or full dead-code proof was produ
 - **Live submission:** v226 (`bots/v50h5e`), pinned; no live-slot window open. No submission was made since 3 Nov (v233 = v51b was the last test, reverted).
 - **Engine-3 mirrors finished** (`results/patch-4.0.0-engine3-2026-11-05`): v51d 141-115 and v51e1 140-116 against v226; against the early-pack bot v226 165-91, v51d 182-74, v51e1 190-66.
 - **Repository tidy (8 Nov):** the dev line now contains `main`; old bot folders are packed in `archive/`; `maps/` is the 128-map pool; raw panel summaries are gzipped; `results/`, `bots/` and `docs/` have index files. Details in `docs/README.md`.
+
+## Update, 8 November 2026 (engine and public repositories)
+- Default `cambc` upgraded from 4.0.0 to **5.0.0** (the latest on PyPI; engine 3.0.0 = patch 4.0.0). No patch newer than 4 Nov exists.
+- The tournaments feed shows the International Qualifiers were double elimination, 21 games per match, seeded by the ladder at the lock (3 Nov 23:59). The UK qualifier is not listed yet: event 11 Nov and lock 10 Nov are from earlier notes, **the lock hour is unconfirmed**. Tournaments use maps outside the ladder pool.
+- Second public-repository review: `results/public-insights-2026-11-08/README.md`.

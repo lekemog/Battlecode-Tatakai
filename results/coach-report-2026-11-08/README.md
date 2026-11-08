@@ -103,7 +103,7 @@ Limits:
 3. After the lock: champion-specific play for a funnel composition, then a learned map/opponent draft over compositions we can actually play.
 
 ## Overnight log
-- **v53i** (turn order): 151-105 vs v226 locally (kills 3.79/2.91, deaths 3.26/4.05). Submitted as 236 at 06:01. Strong panel 1: 10/20 (v53g 10/20, v226 6/20), margin -56 (v53g -82), deaths 9.8 (v53g 10.0). Panel 2 running.
+- **v53i** (turn order): 151-105 vs v226 locally (kills 3.79/2.91, deaths 3.26/4.05). Submitted as 236 at 06:01. Strong panels **10/20 + 17/20 = 27/40** (v53g 22/40, v226 17/40), margins -56 / +369, deaths 6.8 (v53g 7.25, v226 7.75). **Live.**
 - **v53j** (commit gate from the kill model, P >= 0.4): rejected. 115-141 vs v53i, 122-134 vs v226; kills 1.94 vs 3.12. The gate removes the sustained pressure that makes kills happen.
 - Parameter screen (64 maps x 2 vs v53g; 64/128 is even):
   - fight_margin 0.7: 73

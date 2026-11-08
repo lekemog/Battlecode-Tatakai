@@ -5,6 +5,9 @@ Paste the block below into a new session (Opus). Repo: lekemog/BattlecodeConvers
 ---
 You are continuing work on Team Tatakai's Cambridge Battlecode 2026a C++ bot. Goal: UK top six. The version live at lock (~10 Nov, hour unconfirmed) is the one that plays the UK qualifier (~11 Nov), on maps outside the ladder pool. Be honest and efficient; do not decide from sunk cost; explain mechanisms briefly.
 
+## UPDATE (8 Nov, later): v52a FAILED validation
+256-game mirrors, 128 maps: v52a vs v51d 100-156 (39.1%); vs live v50h5e 116-140 (45.3%); vs v50p1 162-94 (63.3%) (v51d: 141-115 and 182-74). Income at r400 -3.5% vs v51d. No faults. So v52a is NOT a candidate; v51d remains the best tested bot. Bisect variants (each removes one v52a change, vs v51d on 64 maps): v52x1 guards off, v52x2 patch-4 shop flags off (v51d has p4_shop_cap/p4_capture_time false), v52x3 learned shop on. Rerun them to find the culprit. Ignore the "if v52a >= v51d" wording below unless the bisect repairs it.
+
 ## Setup (once)
 1. Read `CURRENT_STATE.md`, `TESTING.md`, `CLI_FOR_AGENTS.md`, `LIVE_SLOT.md`, `bots/README.md`, `results/README.md`, `results/public-bot-comparison-2026-11-08/README.md`.
 2. `pip install cambc==5.0.0` (engine 3.0.0). If the toolchain download fails with UnknownIssuer, curl wasi-sdk-33, CMake 3.31.8, ninja 1.12.1 into `~/.cache/cambc` exactly as in `CLI_FOR_AGENTS.md` section 2.

@@ -10,6 +10,8 @@ You are continuing work on Team Tatakai's Cambridge Battlecode 2026a C++ bot. Go
 
 Bisect result (64 maps, 128 games each, vs v51d): v52x1 (guards OFF) 68-60 (53.1%); v52x2 (guards on, patch-4 shop flags off) 46-82 (35.9%); v52x3 (guards on, learned shop on) 54-74 (42.2%). Conclusion: the guarded-altar routing + contest guards are what break v52a when stacked on v51d's ring window/detours (about -14 points); the other v52a changes (p4 shop flags, learned shop off) are neutral to slightly positive. v52x1 = v51d + those neutral changes; it was then run vs live and v50p1 on 128 maps (see results/README if added). Do NOT re-enable the guards without re-adapting them to the ring window/detour logic (the user's "formula 1 engine in a mini cooper" point).
 
+v52x1 full result (128 maps, 256 games): vs live 137-119 (53.5%, v51d 141-115); vs v50p1 169-87 (66.0%, v51d 182-74). Zero faults, deaths 4.0. Slightly BELOW v51d though within noise (+-8). Verdict: v51d remains the best tested bot; the combining exercise added nothing. Ship v51d (after the real-opponent panel), and build further ideas as properly integrated changes on top of it.
+
 ## Setup (once)
 1. Read `CURRENT_STATE.md`, `TESTING.md`, `CLI_FOR_AGENTS.md`, `LIVE_SLOT.md`, `bots/README.md`, `results/README.md`, `results/public-bot-comparison-2026-11-08/README.md`.
 2. `pip install cambc==5.0.0` (engine 3.0.0). If the toolchain download fails with UnknownIssuer, curl wasi-sdk-33, CMake 3.31.8, ninja 1.12.1 into `~/.cache/cambc` exactly as in `CLI_FOR_AGENTS.md` section 2.

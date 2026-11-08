@@ -77,3 +77,6 @@ Kills and deaths are per game, from champion metrics with side taken from the fi
 Single-champion draft swap: Ryth to Prism, 86-170 vs v51d. Our code cannot play Prism yet. The other swaps are still running.
 
 v53g confirms the strength hypothesis: buying the stat each kit scales with (Ryth Health, Marcella Focus, Health kept late) gives +37% kills and -24% deaths in self-play.
+| v53h (+ kill commitment) vs v53g | 123-133 | -23 | 808 / 831 | 3.62 / 3.81 | 4.23 / 4.06 | -0.5% |
+
+v53h is rejected locally: staying on targets the team "can finish" lost more carriers with full bags (unconverted gems 121 vs 106) and did not raise kills. v53g remains the lead candidate. The parameter search (`tools/tune/search.py`) is running on v53g.

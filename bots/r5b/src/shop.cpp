@@ -678,6 +678,22 @@ std::vector<Step> learned_plan(const Kit& k)
                            plan[i] });
     std::stable_sort(scored.begin(), scored.end(), [](const auto& a, const auto& b) { return a.first > b.first; });
     for (std::size_t i = 0; i < plan.size(); ++i) plan[i] = scored[i].second;
+    // r5b: the learned sort put the Capture step after the unlimited stacking step, so it was never bought. Keep it right
+    // after the Monster step (or before the first unlimited step), as in the hand plan.
+    if constexpr (cfg::p4_shop_cap)
+    {
+        auto cap = std::find_if(plan.begin(), plan.end(), [](const Step& st) { return st.family == Family::capture; });
+        if (cap != plan.end())
+        {
+            const Step c = *cap;
+            plan.erase(cap);
+            auto at = std::find_if(plan.begin(), plan.end(), [](const Step& st) { return st.family == Family::monster; });
+            if (at != plan.end()) ++at;
+            auto unlimited = std::find_if(plan.begin(), plan.end(), [](const Step& st) { return st.shards == 0; });
+            if (at == plan.end() || std::distance(plan.begin(), unlimited) < std::distance(plan.begin(), at)) at = unlimited;
+            plan.insert(at, c);
+        }
+    }
     return plan;
 }
 

@@ -169,3 +169,6 @@ All within noise. Next candidate: **v53w** = v53t plus r5's pack release at r60.
 
 Captures are about 53 per game. Our learned shop never adds the Capture emblem: Capture comes after Bruiser in the family list, and the learned plan only fills families up to Bruiser.
 **r5b** = r5a + Capture emblem (`p4_shop_cap`) and 3-round capture timing (`p4_capture_time`). Testing, including whether the emblem is bought and captures get faster.
+- **r5b** (Capture emblem, now actually bought): clear->capture median 6, 35% under 6 rounds (r5a: 7, 0%), matching the UK teams. But 124-132 vs r5a (kills 3.25 / 3.48, deaths 3.96 / 3.72), unseen 69-71, 146-110 vs v226 (r5 152-104). The emblem's gold comes out of combat stats. Not adopted: capture tempo is not what holds us back.
+- First r5b run was void: the disk filled (180/256 games); the learned sort left the Capture step behind the unlimited step, so it was never bought. Both fixed.
+- **v53x** = v53w + r5a fuel fix: the combined candidate (r5 pack release, race-end banking, gate bosses, fuel fix). Local tests running.

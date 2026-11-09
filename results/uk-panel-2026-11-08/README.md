@@ -184,3 +184,9 @@ Captures are about 53 per game. Our learned shop never adds the Capture emblem: 
 ## v53y = v53x + close in on favourable fights only within 4 tiles (was 5)
 - From HBH's public write-up (International Qualifier round of 32): their fight trigger 6 -> 4 gave +0.104 +- 0.031 win share over 700 paired games on held-out maps.
 - Local: 127-129 vs v53x (margin -5), unseen 69-71 (margin +2). No regression; self-play cannot judge fight caution, so it needs the UK panel.
+
+## v53x (240) on the ranked ladder, 09:27-11:40 UTC 9 Nov
+- 33-37 (47%) over 70 games vs teams ranked 52-88; r5 in the same window 14-16, r5 overall 49/95. Rating 2,093 (67th) -> 2,062 (77th). Within noise of r5 (SE about 6 points of win share).
+- Losses (34 summaries): deaths 7.7 vs their 4.2, kills 2.6 vs 7.3, earned gold at r300 915 vs 1,236. Causes: fights 17, other 9, economy 5, close 3.
+- Worst: 03shrines vs WYYL deaths 25-2; 00fragment vs We NEED internships 18-1; 00gemfight vs cheesynachos 12-2.
+- Same profile as every version since v53i: losses come from fights we take and lose. v53y (close in only within 4) targets this; untested on real opponents.

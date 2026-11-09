@@ -159,3 +159,13 @@ All within noise. Next candidate: **v53w** = v53t plus r5's pack release at r60.
 - **r5a**: query the engine (`sdk_camp_group_state` / `sdk_camp_group_cooldown`) directly, with the SDK call as fallback.
   - On 02the-pack: suspended turns 28 -> 21, observe_groups median 21.4K -> 9-17K.
   - Full mirror vs r5 and unseen boards running.
+- **r5a full test**: 129-127 vs r5 (kills 3.45 / 3.46, deaths 3.92 / 3.91), unseen 72-68. **Fuel-exhausted turns per game 0.54 vs 0.77 (-30%)**. Safe refinement.
+
+## Capture tempo (UK panel, r5's 45 games, from summaries)
+| clear -> capture | us | UK teams |
+|---|---|---|
+| median rounds | 7 | 6 |
+| under 6 rounds | 0% | 32% |
+
+Captures are about 53 per game. Our learned shop never adds the Capture emblem: Capture comes after Bruiser in the family list, and the learned plan only fills families up to Bruiser.
+**r5b** = r5a + Capture emblem (`p4_shop_cap`) and 3-round capture timing (`p4_capture_time`). Testing, including whether the emblem is bought and captures get faster.

@@ -172,3 +172,4 @@ Captures are about 53 per game. Our learned shop never adds the Capture emblem: 
 - **r5b** (Capture emblem, now actually bought): clear->capture median 6, 35% under 6 rounds (r5a: 7, 0%), matching the UK teams. But 124-132 vs r5a (kills 3.25 / 3.48, deaths 3.96 / 3.72), unseen 69-71, 146-110 vs v226 (r5 152-104). The emblem's gold comes out of combat stats. Not adopted: capture tempo is not what holds us back.
 - First r5b run was void: the disk filled (180/256 games); the learned sort left the Capture step behind the unlimited step, so it was never bought. Both fixed.
 - **v53x** = v53w + r5a fuel fix: the combined candidate (r5 pack release, race-end banking, gate bosses, fuel fix). Local tests running.
+- **v53x local**: 134-122 vs r5 (margin -10, kills 3.30 / 3.51, deaths 3.91 / 3.74), 150-106 vs v226, unseen 72-68 vs r5. Slightly ahead of r5, within noise. Ready for the UK panel, pending approval.

@@ -124,3 +124,17 @@ Our bot wasted a turn at every tribute. **v53u** (v53t + same-turn tribute) is v
 - vs v226: 139-117 (v53t 148-108).
 - unseen boards vs v53t: 69-71.
 - Banking and deaths unchanged within noise. The saved turn per tribute is too small to show in self-play. It is a safe addition, with no local evidence of gain.
+
+## Teammate version r5 (239, live since 23:54 UTC 8 Nov): v53i with the opening pack released at r60
+- Local: 152-104 vs v226 (kills 4.23 / 2.96, deaths 3.29 / 4.59); unseen boards 75-65 vs v53i; rohi-ds: 133-123 vs v53i.
+- Ranked while live: 49/95 (rating about 2,093).
+- UK panel, all versions on the same 45 pinned games:
+
+| version | UK panel | deaths | margin |
+|---|---|---|---|
+| v53i (236) | 9/45 | 7.36 | -361 |
+| v53s (237) | 9/45 | 7.51 | -348 |
+| v53t (238) | 11/45 | 7.18 | -328 |
+| r5 (239) | 10/45 | 7.47 | -394 |
+
+All within noise. Next candidate: **v53w** = v53t plus r5's pack release at r60. The two changes are independent.

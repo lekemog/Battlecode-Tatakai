@@ -136,6 +136,7 @@ Our bot wasted a turn at every tribute. **v53u** (v53t + same-turn tribute) is v
 | v53s (237) | 9/45 | 7.51 | -348 |
 | v53t (238) | 11/45 | 7.18 | -328 |
 | r5 (239) | 10/45 | 7.47 | -394 |
+| **v53x (240)** | **12/45** | 7.49 | -381 |
 
 All within noise. Next candidate: **v53w** = v53t plus r5's pack release at r60. The two changes are independent.
 
@@ -173,3 +174,13 @@ Captures are about 53 per game. Our learned shop never adds the Capture emblem: 
 - First r5b run was void: the disk filled (180/256 games); the learned sort left the Capture step behind the unlimited step, so it was never bought. Both fixed.
 - **v53x** = v53w + r5a fuel fix: the combined candidate (r5 pack release, race-end banking, gate bosses, fuel fix). Local tests running.
 - **v53x local**: 134-122 vs r5 (margin -10, kills 3.30 / 3.51, deaths 3.91 / 3.74), 150-106 vs v226, unseen 72-68 vs r5. Slightly ahead of r5, within noise. Ready for the UK panel, pending approval.
+
+## v53x (240): UK panel result, now live
+- **12/45**, deaths 7.49, kills 2.02, margin -381 (r5: 10/45, 7.47, 1.78, -394).
+- Per opponent v53x / r5: BattleCats 2/0, Claudus Maximus 0/0, QS2isLaw 4/3, Rogue Lock Pickers 0/0, bentheboss 0/0, smurphy 1/1, jianqiao 1/2, DOOMSDAY 3/3, 0xDEADBEEF 1/1.
+- Kept on the rule (beats 10/45; deaths +0.02 a game = one death over 45 games, equal within noise). Every version so far is within about +-3 wins of the others on this panel: the gain is real in direction, not proven in size.
+- Never won a game vs Claudus Maximus, Rogue Lock Pickers or bentheboss in 225 panel games across five versions: those three are a strength gap, not a tactics gap.
+
+## v53y = v53x + close in on favourable fights only within 4 tiles (was 5)
+- From HBH's public write-up (International Qualifier round of 32): their fight trigger 6 -> 4 gave +0.104 +- 0.031 win share over 700 paired games on held-out maps.
+- Local: 127-129 vs v53x (margin -5), unseen 69-71 (margin +2). No regression; self-play cannot judge fight caution, so it needs the UK panel.

@@ -138,3 +138,24 @@ Our bot wasted a turn at every tribute. **v53u** (v53t + same-turn tribute) is v
 | r5 (239) | 10/45 | 7.47 | -394 |
 
 All within noise. Next candidate: **v53w** = v53t plus r5's pack release at r60. The two changes are independent.
+
+## v53w (v53t + r5's r60 pack release): local
+- vs r5: 133-123 (margin +2).
+- vs v226: **161-95** (kills 4.20 / 2.95, deaths 3.32 / 4.49), our best result against v226.
+- unseen boards vs r5: 70-70.
+
+## Refining r5's code (no strategy change): fuel
+- r5 averages 0.5 fuel-exhausted turns a game, but **02the-pack about 35 a game** (04gem-caverns 10, 03the-front 5).
+- Profile on 02the-pack (heavy turns):
+
+| phase | median | max |
+|---|---|---|
+| observe | 16.6K | |
+| observe_groups | 21.4K | 49K |
+| seal bookkeeping | 5K | |
+| remember_threats (spikes are charged suspended turns) | | 31.7K |
+
+- Cause found: `camp_group::state()` in the SDK copies the whole vision bitboard on every call to re-check visibility. Our code only calls it for groups already known to be in view.
+- **r5a**: query the engine (`sdk_camp_group_state` / `sdk_camp_group_cooldown`) directly, with the SDK call as fallback.
+  - On 02the-pack: suspended turns 28 -> 21, observe_groups median 21.4K -> 9-17K.
+  - Full mirror vs r5 and unseen boards running.

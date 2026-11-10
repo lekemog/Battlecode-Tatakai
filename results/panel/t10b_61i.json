@@ -1,0 +1,125 @@
+{
+ "label": "t10b_61i",
+ "version": "244",
+ "games": {
+  "stellar_best_girl-547efb5b": [
+   {
+    "map": "02geodes",
+    "side": "a",
+    "match": "01a1c664-46d7-77fe-bb51-d18e928c4ae8",
+    "win": false,
+    "gems": 671,
+    "opp_gems": 1065,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 745
+   },
+   {
+    "map": "00elkring",
+    "side": "b",
+    "match": "01a1c664-46d7-7796-b52c-fc7ccb0f6659",
+    "win": false,
+    "gems": 384,
+    "opp_gems": 1017,
+    "deaths": 11,
+    "kills": 0,
+    "rounds": 645
+   },
+   {
+    "map": "00packs",
+    "side": "a",
+    "match": "01a1c664-46d7-75a4-bda8-832956eb7cae",
+    "win": false,
+    "gems": 143,
+    "opp_gems": 1004,
+    "deaths": 10,
+    "kills": 0,
+    "rounds": 713
+   },
+   {
+    "map": "01elk_arena",
+    "side": "b",
+    "match": "01a1c664-46d8-75b2-86a0-3979c752a95d",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1058,
+    "deaths": 15,
+    "kills": 1,
+    "rounds": 998
+   },
+   {
+    "map": "00eight",
+    "side": "a",
+    "match": "01a1c664-46d8-7db0-91bd-7b2cc70aff55",
+    "win": false,
+    "gems": 48,
+    "opp_gems": 1005,
+    "deaths": 17,
+    "kills": 0,
+    "rounds": 656
+   }
+  ],
+  "Mite-ee83f5e5": [
+   {
+    "map": "02uncharted_lands",
+    "side": "b",
+    "match": "01a1c664-d907-75fd-9f94-203e863521d3",
+    "win": false,
+    "gems": 492,
+    "opp_gems": 1007,
+    "deaths": 4,
+    "kills": 1,
+    "rounds": 573
+   },
+   {
+    "map": "02fields",
+    "side": "a",
+    "match": "01a1c664-d907-79cf-960f-0179d4edfe42",
+    "win": false,
+    "gems": 519,
+    "opp_gems": 1027,
+    "deaths": 3,
+    "kills": 0,
+    "rounds": 682
+   },
+   {
+    "map": "01broken_curve",
+    "side": "b",
+    "match": "01a1c664-d907-7a55-93ff-564a1b6380b3",
+    "win": false,
+    "gems": 723,
+    "opp_gems": 1013,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 736
+   },
+   {
+    "map": "01yellow_brick_road",
+    "side": "a",
+    "match": "01a1c664-d907-7fb7-8498-294109065ec6",
+    "win": false,
+    "gems": 593,
+    "opp_gems": 1002,
+    "deaths": 7,
+    "kills": 1,
+    "rounds": 849
+   },
+   {
+    "map": "00quadrants",
+    "side": "b",
+    "match": "01a1c664-d907-7184-b3eb-c90296ff91f3",
+    "win": true,
+    "gems": 1063,
+    "opp_gems": 967,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 464
+   }
+  ]
+ },
+ "groups": {
+  "stellar_best_girl-547efb5b": "01a1c664-46cb-7a6f-9041-dffac56bf5e1",
+  "Mite-ee83f5e5": "01a1c664-d905-7baf-bd17-81af94d63c7a",
+  "Intercontinental_Fish-1890540d": "01a1c665-6eac-7c91-8d95-3774f887bf77"
+ }
+}

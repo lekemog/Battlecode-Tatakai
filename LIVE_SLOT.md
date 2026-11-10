@@ -19,6 +19,7 @@ and run tests, but announce it here first.
 ## Windows (newest first)
 | Who | What | Why | Start (UTC) | End (UTC) | Status |
 |---|---|---|---|---|---|
+| Leke / Claude (session admiring-franklin) | Top-10 panel baseline (new `tools/panel/panel_top10b.json`: today's global top ten, 50 games) with the live bot 240; no submission | Leke asked for games against the global top ten; baseline for later candidates | 2026-11-10 13:40 | 2026-11-10 14:30 | open; live stays 240 |
 | Leke / Claude (session loving-bell) | Submit v55a (v53x + close-in 4 + in-game fight calibration), Leke approved; UK panel pinned to uk_i; keep only if it beats v53x's 12/45 with deaths <= 7.49, else reactivate 240 (v53x) | test the in-game learning version on real opponents | 2026-11-09 23:57 | 2026-11-10 01:15 | open; revert target 240 |
 | Leke / Claude (session loving-bell) | Submit v53x (r5 + race-end banking + gate bosses + fuel fix), Leke approved; UK panel pinned to uk_i; keep only if it beats r5's 10/45 with deaths not worse, else reactivate 239 (r5) | candidate built on rohi-ds's r5 | 2026-11-09 04:00 | 2026-11-09 04:40 | ended: v53x (240) 12/45 on the UK panel vs r5 10/45, deaths 7.49 vs 7.47 (equal within noise); v240 stays live, revert target 239 |
 | Leke / Claude (session loving-bell) | UK panel on the live teammate version 239 (r5), pinned to the uk_i baseline; no submission | compare r5 with v53i 9/45 and v53t 11/45 on the same games | 2026-11-09 03:20 | 2026-11-09 03:50 | ended: r5 (239) UK panel 10/45 (v53i 9, v53s 9, v53t 11); live stays 239 |

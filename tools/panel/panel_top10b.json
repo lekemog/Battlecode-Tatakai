@@ -1,0 +1,184 @@
+{
+ "opponents": [
+  {
+   "maps": [
+    "02geodes",
+    "00elkring",
+    "00packs",
+    "01elk_arena",
+    "00eight"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ],
+   "name": "stellar_best_girl-547efb5b",
+   "team_id": "547efb5b-57e5-4355-8501-3b331f506d62"
+  },
+  {
+   "maps": [
+    "02uncharted_lands",
+    "02fields",
+    "01broken_curve",
+    "01yellow_brick_road",
+    "00quadrants"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "name": "Mite-ee83f5e5",
+   "team_id": "ee83f5e5-bcad-4923-86b4-b79ea6083d2e"
+  },
+  {
+   "maps": [
+    "01fracture",
+    "02cuts",
+    "00reverse_spiral",
+    "00split",
+    "02guardians"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ],
+   "name": "Intercontinental_Fish-1890540d",
+   "team_id": "1890540d-1ffc-4847-adbf-d0d08772f268"
+  },
+  {
+   "maps": [
+    "00rows",
+    "02the_pond",
+    "01the_farm",
+    "00pilgrimage",
+    "01concentrated_wealth"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "name": "BattleCats-285f4eb5",
+   "team_id": "285f4eb5-e97f-4ea4-93c5-19e1590a1e5a"
+  },
+  {
+   "maps": [
+    "00ambush",
+    "00gemfight",
+    "00lanes",
+    "00corners",
+    "02crossing"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ],
+   "name": "test4-c00b682e",
+   "team_id": "c00b682e-e45a-476b-96ca-470205e9dd44"
+  },
+  {
+   "maps": [
+    "00fragment",
+    "02treasure_box",
+    "01big_world",
+    "00anvil",
+    "00road_of_riches"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "name": "Ad_Astra-de0b1e3c",
+   "team_id": "de0b1e3c-39fb-473c-8244-61c1133ad612"
+  },
+  {
+   "maps": [
+    "adgato_gemcombat1",
+    "00ribs",
+    "00swirl",
+    "00gem_fields",
+    "00great_wall"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ],
+   "name": "Trzy_Kwaterki-36258abf",
+   "team_id": "36258abf-3fd0-4827-8fa5-2a217438cf6f"
+  },
+  {
+   "maps": [
+    "01starvation",
+    "00the_line",
+    "00breadcrumbs",
+    "00collision",
+    "01islands"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "name": "Univardisty-a4350547",
+   "team_id": "a4350547-b7a1-47b1-9031-4f7f084ad0d8"
+  },
+  {
+   "maps": [
+    "00crater",
+    "00galaxy",
+    "01boss_battle",
+    "02tangle",
+    "00dunes"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ],
+   "name": "NEETCoders-882106d4",
+   "team_id": "882106d4-9deb-40cc-9d5c-8522c1d32129"
+  },
+  {
+   "maps": [
+    "02harvest",
+    "02the_pack",
+    "01shortcut",
+    "00contest",
+    "00stampede"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ],
+   "name": "caterpillow-ec2b57be",
+   "team_id": "ec2b57be-fa43-4e3e-9eb0-57b266624d27"
+  }
+ ]
+}

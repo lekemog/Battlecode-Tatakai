@@ -1,3 +1,9 @@
+// SUBMISSION NOTE (Claude for Leke, 2026-11-10): v61i = v61b (submission 242) + chooser changes only on maps with more than 100 groups
+// (fuel reserve by group size, straight-line bound, respawning groups dropped before the evaluation loop) + gem-starved map rule
+// (gem weight x clamp(2 x scarcity, 1, 12) when winning gems / whole-game gem output > 0.5: 03one_gem, 03ultrastarvation).
+// Evidence: local 04gem_caverns 1004-231 and 1001-273 vs v61b, all maps 131-125; the same fixes in 243 won 04gem_caverns 1001-0 (was 210-980)
+// and banked 231 / 86 on 03one_gem (was 0 / 0) against real teams. 243 itself failed the UK panel (10/45): its all-map chooser changes are
+// not in this version. Gate: UK panel pinned to uk_i not below 14/45. Revert target: 242.
 // Polaris v50e1: v50d + Prospector emblem replaces Treasure as the opener (cfg::p4_open 2)
 // the bot entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
 #include <cambc.h>

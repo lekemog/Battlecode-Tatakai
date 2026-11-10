@@ -46,7 +46,7 @@ stronger bot, not another +2 tweak.
      100 rounds with theirs, turn by turn: first camp, who gets the last hit, captures, shop, passives (Vesper's bonus gold).
 3. **Cut deaths in the first 300 rounds.**
    - `v56c` (early hunt window: isolated, weaker prey, ally near) gave more kills and fewer early deaths locally.
-   - `v57a` (rescue an ally in contact below 60%) is under test.
+   - `v57a` (rescue an ally in contact below 60%) was neutral locally: 124-132, unseen 71-69, deaths 4.39 vs 4.16.
    - Javiops' 150-game dissection (`results/javiops-2026-11-10`) lists the death patterns worth checking against ours.
 
 ## How to test (the rules that kept us honest)

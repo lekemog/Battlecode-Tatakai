@@ -21,3 +21,14 @@
   whose health x damage (times the in-game calibration multiplier) is at least 1.3x below ours, only with an ally within 4.
   The fight simulation still decides whether to engage.
 - Measured on gold at r50/100/200/300 and deaths before r300 (tools/lab/mirror_gold.py) as well as wins.
+
+## Results
+- **v56a (no escorted ball): rejected.** 109-147 vs v55a (margin -44), unseen 60-80; kills 3.52 / 4.19, deaths 4.64 / 3.90.
+  Gold barely moved (r50 118 vs 109, r300 1114 vs 1118). The ball is not the cause of the r50 gold gap vs the UK teams,
+  and it helps the opening fights. Hypothesis wrong.
+- v56b inherits v56a's change, so its result is confounded; **v56c** = v55a + the early hunt window with the ball kept.
+
+## New public repo (10 Nov): Javiops/Cambridge-Battlecode-2026 (rank 25 at v29)
+- A 12-chapter tactics handbook (docs/tactics), a gate harness, 60 sealed holdout maps and 200 dev maps.
+- Relevant: camp scoring counts team rewards once and personal gold separately, with even reward division (exponent 0.75
+  for big camps); a rejected fight must not fall through to unsafe camp play; "power spikes" listed as Planned, not built.

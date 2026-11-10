@@ -1,3 +1,8 @@
+// SUBMISSION NOTE (Claude for Leke, 2026-11-10): v66i = v61j (submission 245) + an opening phase (rounds before 200): the gem weight is
+// multiplied by 0.3 (gold first: it compounds through items) and the hazard alarm threshold is 0.12 instead of 0.2.
+// Local vs v61j (128 maps x 2 sides): 141-115, margin +44, 0 faults. Related settings: x0.3 alone 144-112, x0.6 alone 137-119, x0.3 to r150 143-113,
+// x0.1 137-119, x0.6 to r350 126-130; caution alone 127-129. Panels to beat: UK 245 = 12/45 (242 = 14); top ten 245 = 2/50.
+// Fallback: re-upload bots/v61j.
 // Polaris v50e1: v50d + Prospector emblem replaces Treasure as the opener (cfg::p4_open 2)
 // the bot entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
 #include <cambc.h>

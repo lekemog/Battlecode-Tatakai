@@ -1,0 +1,6 @@
+KIT 3 hp 600 str 30 foc 100 ar 3
+SLOT 0 k2 mod2.00 cd8 range4 camps1 enemies1
+SLOT 1 k4 mod0.00 cd8 range4 camps1 enemies1
+KIT 4 hp 900 str 45 foc 100 ar 1
+SLOT 0 k1 mod0.00 cd8 range0 camps0 enemies0
+SLOT 1 k6 mod0.00 cd8 range2 camps0 enemies0

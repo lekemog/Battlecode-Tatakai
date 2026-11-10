@@ -1,0 +1,523 @@
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/learn.cpp.obj
+[2/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/main.cpp.obj
+[3/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/draft.cpp.obj
+[4/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/pair.cpp.obj
+[5/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/nav.cpp.obj
+[6/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/world.cpp.obj
+[7/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/knowledge.cpp.obj
+[8/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/combat.cpp.obj
+[9/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/ctx.cpp.obj
+[10/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/shop.cpp.obj
+[11/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/src/brain.cpp.obj
+[12/13] Linking CXX executable bot.wasm
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-draft/.cambc/build
+injected 0 checks into 0 functions
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/learn.cpp.obj
+[2/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/main.cpp.obj
+[3/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/draft.cpp.obj
+[4/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/nav.cpp.obj
+[5/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/shop.cpp.obj
+[6/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/ctx.cpp.obj
+[7/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/combat.cpp.obj
+[8/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/knowledge.cpp.obj
+[9/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/world.cpp.obj
+[10/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/src/brain.cpp.obj
+[11/12] Linking CXX executable bot.wasm
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j/.cambc/build
+injected 0 checks into 0 functions
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/learn.cpp.obj
+[2/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/main.cpp.obj
+[3/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/draft.cpp.obj
+[4/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/ctx.cpp.obj
+[5/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/nav.cpp.obj
+[6/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/shop.cpp.obj
+[7/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/knowledge.cpp.obj
+[8/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/combat.cpp.obj
+[9/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/world.cpp.obj
+[10/12] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/src/brain.cpp.obj
+[11/12] Linking CXX executable bot.wasm
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1/.cambc/build
+injected 0 checks into 0 functions
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-pair
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-pair/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/3] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-pair/src/brain.cpp.obj
+[2/3] Linking CXX executable bot.wasm
+injected 0 checks into 0 functions
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/learn.cpp.obj
+[2/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/main.cpp.obj
+[3/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/pair.cpp.obj
+[4/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/draft.cpp.obj
+[5/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/nav.cpp.obj
+[6/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/knowledge.cpp.obj
+[7/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/combat.cpp.obj
+[8/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/shop.cpp.obj
+[9/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/ctx.cpp.obj
+[10/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/world.cpp.obj
+[11/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/src/brain.cpp.obj
+[12/13] Linking CXX executable bot.wasm
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-ci-shop/.cambc/build
+injected 0 checks into 0 functions
+[|] STARTING  cg-ci-draft vs v61j  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__00collision__0.repl26a
+[|] STARTING  v61j vs cg-ci-draft  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__00collision__1.repl26a
+[|] STARTING  cg-ci-draft vs v61j  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__00swirl__0.repl26a
+[|] STARTING  v61j vs cg-ci-draft  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__00swirl__1.repl26a
+[|] STARTING  cg-ci-draft vs v61j  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__01yellow-brick-road__0.repl26a
+[|] STARTING  v61j vs cg-ci-draft  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-ci-draft vs v61j  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__02the-pack__0.repl26a
+[|] STARTING  v61j vs cg-ci-draft  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__02the-pack__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-draft vs v61j  00collision  Round 1007/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__00collision__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-draft  00swirl  Round 0791/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__00swirl__1.repl26a
+[|] STARTING  cg-ci-draft vs v61j  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__03one-gem__0.repl26a
+[|] STARTING  v61j vs cg-ci-draft  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__03one-gem__1.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-draft  00collision  Round 1066/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__00collision__1.repl26a
+[+] TEAM A WIN (cg-ci-draft)  cg-ci-draft vs v61j  01yellow-brick-road  Round 0796/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__01yellow-brick-road__0.repl26a
+[|] STARTING  cg-ci-draft vs v61j  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__03showdown__0.repl26a
+[|] STARTING  v61j vs cg-ci-draft  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__03showdown__1.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v61j vs cg-ci-draft  01yellow-brick-road  Round 0707/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-ci-draft vs v61j  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__04gem-caverns__0.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-draft vs v61j  00swirl  Round 1257/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__00swirl__0.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-draft vs v61j  02the-pack  Round 1382/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__02the-pack__0.repl26a
+[|] STARTING  v61j vs cg-ci-draft  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__04gem-caverns__1.repl26a
+[|] STARTING  cg-ci-draft vs v61j  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__04hourglass__0.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v61j vs cg-ci-draft  02the-pack  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__02the-pack__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-draft vs v61j  03showdown  Round 0665/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__03showdown__0.repl26a
+[|] STARTING  v61j vs cg-ci-draft  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__04hourglass__1.repl26a
+[|] STARTING  cg-ci-draft vs v50p1  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__00collision__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-draft  03showdown  Round 1031/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__03showdown__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-draft  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__00collision__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-draft vs v61j  04hourglass  Round 0976/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__04hourglass__0.repl26a
+[|] STARTING  cg-ci-draft vs v50p1  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__00swirl__0.repl26a
+[+] TEAM A WIN (cg-ci-draft)  cg-ci-draft vs v61j  04gem-caverns  Round 0879/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__04gem-caverns__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-draft  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__00swirl__1.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v61j vs cg-ci-draft  04gem-caverns  Round 1054/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__04gem-caverns__1.repl26a
+[|] STARTING  cg-ci-draft vs v50p1  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__01yellow-brick-road__0.repl26a
+[+] TEAM A WIN (cg-ci-draft)  cg-ci-draft vs v50p1  00collision  Round 1385/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__00collision__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-draft  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__01yellow-brick-road__1.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-draft  04hourglass  Round 0859/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__04hourglass__1.repl26a
+[|] STARTING  cg-ci-draft vs v50p1  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__02the-pack__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-draft  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__03one-gem__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-draft  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__02the-pack__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-draft vs v61j  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v61j__03one-gem__0.repl26a
+[|] STARTING  cg-ci-draft vs v50p1  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__03one-gem__0.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v50p1 vs cg-ci-draft  00collision  Round 1708/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__00collision__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-draft  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__03one-gem__1.repl26a
+[+] TEAM B WIN (v50p1)  cg-ci-draft vs v50p1  00swirl  Round 1334/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__00swirl__0.repl26a
+[|] STARTING  cg-ci-draft vs v50p1  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__03showdown__0.repl26a
+[+] TEAM A WIN (cg-ci-draft)  cg-ci-draft vs v50p1  01yellow-brick-road  Round 0961/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__01yellow-brick-road__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-draft  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__03showdown__1.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v50p1 vs cg-ci-draft  01yellow-brick-road  Round 1052/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-ci-draft vs v50p1  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__04gem-caverns__0.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v50p1 vs cg-ci-draft  00swirl  Round 1769/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__00swirl__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-draft  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__04gem-caverns__1.repl26a
+[+] TEAM B WIN (v50p1)  cg-ci-draft vs v50p1  02the-pack  Round 1697/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__02the-pack__0.repl26a
+[|] STARTING  cg-ci-draft vs v50p1  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__04hourglass__0.repl26a
+[+] TEAM A WIN (v50p1)  v50p1 vs cg-ci-draft  02the-pack  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__02the-pack__1.repl26a
+[+] TEAM B WIN (v50p1)  cg-ci-draft vs v50p1  03showdown  Round 0698/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__03showdown__0.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v50p1 vs cg-ci-draft  03showdown  Round 0870/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__03showdown__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-draft  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__04hourglass__1.repl26a
+[|] STARTING  cg-ci-pair vs v61j  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__00collision__0.repl26a
+[|] STARTING  v61j vs cg-ci-pair  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__00collision__1.repl26a
+[+] TEAM A WIN (cg-ci-draft)  cg-ci-draft vs v50p1  04gem-caverns  Round 0627/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__04gem-caverns__0.repl26a
+[|] STARTING  cg-ci-pair vs v61j  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__00swirl__0.repl26a
+[+] TEAM A WIN (cg-ci-draft)  cg-ci-draft vs v50p1  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__03one-gem__0.repl26a
+[|] STARTING  v61j vs cg-ci-pair  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__00swirl__1.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v50p1 vs cg-ci-draft  04gem-caverns  Round 0697/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__04gem-caverns__1.repl26a
+[|] STARTING  cg-ci-pair vs v61j  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__01yellow-brick-road__0.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-pair vs v61j  00collision  Round 0955/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__00collision__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-pair  00collision  Round 0974/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__00collision__1.repl26a
+[|] STARTING  v61j vs cg-ci-pair  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-ci-pair vs v61j  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__02the-pack__0.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v50p1 vs cg-ci-draft  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__03one-gem__1.repl26a
+[+] TEAM A WIN (cg-ci-draft)  cg-ci-draft vs v50p1  04hourglass  Round 1015/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__04hourglass__0.repl26a
+[|] STARTING  v61j vs cg-ci-pair  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__02the-pack__1.repl26a
+[|] STARTING  cg-ci-pair vs v61j  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__03one-gem__0.repl26a
+[+] TEAM B WIN (cg-ci-draft)  v50p1 vs cg-ci-draft  04hourglass  Round 1025/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-draft__v50p1__04hourglass__1.repl26a
+[|] STARTING  v61j vs cg-ci-pair  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__03one-gem__1.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-pair  00swirl  Round 0780/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__00swirl__1.repl26a
+[|] STARTING  cg-ci-pair vs v61j  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__03showdown__0.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-pair vs v61j  00swirl  Round 1039/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__00swirl__0.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v61j  01yellow-brick-road  Round 0810/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__01yellow-brick-road__0.repl26a
+[|] STARTING  v61j vs cg-ci-pair  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__03showdown__1.repl26a
+[|] STARTING  cg-ci-pair vs v61j  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__04gem-caverns__0.repl26a
+[+] TEAM B WIN (cg-ci-pair)  v61j vs cg-ci-pair  01yellow-brick-road  Round 0911/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__01yellow-brick-road__1.repl26a
+[|] STARTING  v61j vs cg-ci-pair  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__04gem-caverns__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-pair vs v61j  02the-pack  Round 1569/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__02the-pack__0.repl26a
+[|] STARTING  cg-ci-pair vs v61j  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__04hourglass__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-pair  02the-pack  Round 1968/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__02the-pack__1.repl26a
+[|] STARTING  v61j vs cg-ci-pair  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__04hourglass__1.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v61j  03showdown  Round 0797/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__03showdown__0.repl26a
+[|] STARTING  cg-ci-pair vs v50p1  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__00collision__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-pair  03showdown  Round 0546/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__03showdown__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-pair  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__00collision__1.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-pair  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__03one-gem__1.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v61j  04gem-caverns  Round 0837/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__04gem-caverns__0.repl26a
+[|] STARTING  cg-ci-pair vs v50p1  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__00swirl__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-pair  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__00swirl__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-pair vs v61j  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__03one-gem__0.repl26a
+[|] STARTING  cg-ci-pair vs v50p1  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__01yellow-brick-road__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-pair  04hourglass  Round 0906/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__04hourglass__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-pair  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__01yellow-brick-road__1.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v61j  04hourglass  Round 1046/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__04hourglass__0.repl26a
+[+] TEAM B WIN (v50p1)  cg-ci-pair vs v50p1  00collision  Round 1495/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__00collision__0.repl26a
+[+] TEAM B WIN (cg-ci-pair)  v50p1 vs cg-ci-pair  00collision  Round 1675/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__00collision__1.repl26a
+[|] STARTING  cg-ci-pair vs v50p1  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__02the-pack__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-pair  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__02the-pack__1.repl26a
+[|] STARTING  cg-ci-pair vs v50p1  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__03one-gem__0.repl26a
+[+] TEAM B WIN (cg-ci-pair)  v61j vs cg-ci-pair  04gem-caverns  Round 0898/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v61j__04gem-caverns__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-pair  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__03one-gem__1.repl26a
+[+] TEAM B WIN (cg-ci-pair)  v50p1 vs cg-ci-pair  00swirl  Round 1123/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__00swirl__1.repl26a
+[|] STARTING  cg-ci-pair vs v50p1  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__03showdown__0.repl26a
+[+] TEAM B WIN (cg-ci-pair)  v50p1 vs cg-ci-pair  01yellow-brick-road  Round 0834/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__01yellow-brick-road__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-pair  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__03showdown__1.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v50p1  00swirl  Round 1619/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__00swirl__0.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v50p1  01yellow-brick-road  Round 0978/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__01yellow-brick-road__0.repl26a
+[|] STARTING  cg-ci-pair vs v50p1  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__04gem-caverns__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-pair  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__04gem-caverns__1.repl26a
+[+] TEAM A WIN (v50p1)  v50p1 vs cg-ci-pair  02the-pack  Round 1791/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__02the-pack__1.repl26a
+[|] STARTING  cg-ci-pair vs v50p1  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__04hourglass__0.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v50p1  03showdown  Round 0901/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__03showdown__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-pair  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__04hourglass__1.repl26a
+[+] TEAM B WIN (v50p1)  cg-ci-pair vs v50p1  02the-pack  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__02the-pack__0.repl26a
+[|] STARTING  cg-ci-shop vs v61j  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__00collision__0.repl26a
+[+] TEAM B WIN (cg-ci-pair)  v50p1 vs cg-ci-pair  03showdown  Round 0877/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__03showdown__1.repl26a
+[|] STARTING  v61j vs cg-ci-shop  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__00collision__1.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v50p1  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__03one-gem__0.repl26a
+[+] TEAM B WIN (cg-ci-pair)  v50p1 vs cg-ci-pair  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__03one-gem__1.repl26a
+[|] STARTING  cg-ci-shop vs v61j  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__00swirl__0.repl26a
+[|] STARTING  v61j vs cg-ci-shop  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__00swirl__1.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v50p1  04gem-caverns  Round 0630/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__04gem-caverns__0.repl26a
+[+] TEAM B WIN (cg-ci-pair)  v50p1 vs cg-ci-pair  04gem-caverns  Round 0628/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__04gem-caverns__1.repl26a
+[+] TEAM A WIN (cg-ci-pair)  cg-ci-pair vs v50p1  04hourglass  Round 0920/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__04hourglass__0.repl26a
+[|] STARTING  cg-ci-shop vs v61j  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__01yellow-brick-road__0.repl26a
+[|] STARTING  v61j vs cg-ci-shop  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-ci-shop vs v61j  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__02the-pack__0.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-shop vs v61j  00collision  Round 0978/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__00collision__0.repl26a
+[|] STARTING  v61j vs cg-ci-shop  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__02the-pack__1.repl26a
+[+] TEAM A WIN (v50p1)  v50p1 vs cg-ci-pair  04hourglass  Round 1193/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-pair__v50p1__04hourglass__1.repl26a
+[|] STARTING  cg-ci-shop vs v61j  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__03one-gem__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-shop  00collision  Round 1108/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__00collision__1.repl26a
+[|] STARTING  v61j vs cg-ci-shop  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__03one-gem__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-shop vs v61j  00swirl  Round 0924/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__00swirl__0.repl26a
+[|] STARTING  cg-ci-shop vs v61j  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__03showdown__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-shop  00swirl  Round 0994/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__00swirl__1.repl26a
+[|] STARTING  v61j vs cg-ci-shop  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__03showdown__1.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v61j vs cg-ci-shop  01yellow-brick-road  Round 0742/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-ci-shop vs v61j  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__04gem-caverns__0.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v61j  01yellow-brick-road  Round 0769/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__01yellow-brick-road__0.repl26a
+[|] STARTING  v61j vs cg-ci-shop  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__04gem-caverns__1.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v61j  02the-pack  Round 1993/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__02the-pack__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-shop  02the-pack  Round 1558/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__02the-pack__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-shop vs v61j  03showdown  Round 0820/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__03showdown__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-shop  03showdown  Round 0567/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__03showdown__1.repl26a
+[|] STARTING  cg-ci-shop vs v61j  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__04hourglass__0.repl26a
+[|] STARTING  v61j vs cg-ci-shop  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__04hourglass__1.repl26a
+[|] STARTING  cg-ci-shop vs v50p1  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__00collision__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-shop  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__00collision__1.repl26a
+[+] TEAM B WIN (v61j)  cg-ci-shop vs v61j  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__03one-gem__0.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v61j  04gem-caverns  Round 0897/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__04gem-caverns__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-shop  04gem-caverns  Round 0976/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__04gem-caverns__1.repl26a
+[|] STARTING  cg-ci-shop vs v50p1  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__00swirl__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-shop  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__00swirl__1.repl26a
+[|] STARTING  cg-ci-shop vs v50p1  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__01yellow-brick-road__0.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-shop  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__03one-gem__1.repl26a
+[+] TEAM A WIN (v61j)  v61j vs cg-ci-shop  04hourglass  Round 0895/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__04hourglass__1.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v50p1 vs cg-ci-shop  00collision  Round 1518/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__00collision__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-shop  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-ci-shop vs v50p1  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__02the-pack__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-shop  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__02the-pack__1.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v61j  04hourglass  Round 0943/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v61j__04hourglass__0.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v50p1  00collision  Round 1517/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__00collision__0.repl26a
+[|] STARTING  cg-ci-shop vs v50p1  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__03one-gem__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-shop  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__03one-gem__1.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v50p1 vs cg-ci-shop  00swirl  Round 1165/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__00swirl__1.repl26a
+[|] STARTING  cg-ci-shop vs v50p1  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__03showdown__0.repl26a
+[+] TEAM B WIN (v50p1)  cg-ci-shop vs v50p1  01yellow-brick-road  Round 0936/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__01yellow-brick-road__0.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v50p1 vs cg-ci-shop  01yellow-brick-road  Round 0967/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__01yellow-brick-road__1.repl26a
+[|] STARTING  v50p1 vs cg-ci-shop  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__03showdown__1.repl26a
+[|] STARTING  cg-ci-shop vs v50p1  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__04gem-caverns__0.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v50p1  00swirl  Round 1477/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__00swirl__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-shop  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__04gem-caverns__1.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v50p1 vs cg-ci-shop  02the-pack  Round 1521/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__02the-pack__1.repl26a
+[|] STARTING  cg-ci-shop vs v50p1  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__04hourglass__0.repl26a
+[+] TEAM B WIN (v50p1)  cg-ci-shop vs v50p1  02the-pack  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__02the-pack__0.repl26a
+[|] STARTING  v50p1 vs cg-ci-shop  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__04hourglass__1.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v50p1  03showdown  Round 0623/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__03showdown__0.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v50p1 vs cg-ci-shop  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__03one-gem__1.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v50p1  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__03one-gem__0.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v50p1  04gem-caverns  Round 0629/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__04gem-caverns__0.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v50p1 vs cg-ci-shop  03showdown  Round 1302/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__03showdown__1.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v50p1 vs cg-ci-shop  04gem-caverns  Round 0653/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__04gem-caverns__1.repl26a
+[+] TEAM A WIN (cg-ci-shop)  cg-ci-shop vs v50p1  04hourglass  Round 0954/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__04hourglass__0.repl26a
+[+] TEAM B WIN (cg-ci-shop)  v50p1 vs cg-ci-shop  04hourglass  Round 1008/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/ci_results/cg-ci-shop__v50p1__04hourglass__1.repl26a
+Finished: 96 replay bundles saved, 0 failed

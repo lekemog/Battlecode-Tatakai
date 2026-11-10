@@ -1,0 +1,135 @@
+{
+  "total": 96,
+  "summary": {
+    "cg-ci-draft vs v50p1": {
+      "n": 16,
+      "wins": 12,
+      "margin": 239.0,
+      "deaths": 14.3125,
+      "pair_deaths": 8.375,
+      "earnedGold200": 800.875,
+      "spentGold200": 705.0,
+      "pair_earnedGold200": 187.8125,
+      "pair_championDamageDone200": 877.4681673049927,
+      "pair_monsterDamageDone200": 3557.159342765808,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 312,
+      "fuelExhausted_both": 368,
+      "pair_rejections": 0,
+      "turn_errors": 0
+    },
+    "cg-ci-draft vs v61j": {
+      "n": 16,
+      "wins": 5,
+      "margin": -266.625,
+      "deaths": 12.9375,
+      "pair_deaths": 7.875,
+      "earnedGold200": 775.75,
+      "spentGold200": 664.375,
+      "pair_earnedGold200": 183.8125,
+      "pair_championDamageDone200": 616.7253360748291,
+      "pair_monsterDamageDone200": 4230.445687532425,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 401,
+      "fuelExhausted_both": 655,
+      "pair_rejections": 0,
+      "turn_errors": 0
+    },
+    "cg-ci-pair vs v50p1": {
+      "n": 16,
+      "wins": 12,
+      "margin": 309.125,
+      "deaths": 11.5,
+      "pair_deaths": 7.125,
+      "earnedGold200": 821.625,
+      "spentGold200": 716.875,
+      "pair_earnedGold200": 150.625,
+      "pair_championDamageDone200": 609.3270554542542,
+      "pair_monsterDamageDone200": 3508.122302889824,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 191,
+      "fuelExhausted_both": 253,
+      "pair_rejections": 0,
+      "turn_errors": 0
+    },
+    "cg-ci-pair vs v61j": {
+      "n": 16,
+      "wins": 6,
+      "margin": -217.25,
+      "deaths": 11.5625,
+      "pair_deaths": 7.25,
+      "earnedGold200": 825.125,
+      "spentGold200": 705.625,
+      "pair_earnedGold200": 190.3125,
+      "pair_championDamageDone200": 516.5687503814697,
+      "pair_monsterDamageDone200": 3743.183107495308,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 559,
+      "fuelExhausted_both": 776,
+      "pair_rejections": 0,
+      "turn_errors": 0
+    },
+    "cg-ci-shop vs v50p1": {
+      "n": 16,
+      "wins": 14,
+      "margin": 475.9375,
+      "deaths": 10.4375,
+      "pair_deaths": 6.625,
+      "earnedGold200": 855.5625,
+      "spentGold200": 754.375,
+      "pair_earnedGold200": 165.3125,
+      "pair_championDamageDone200": 663.3357467651367,
+      "pair_monsterDamageDone200": 3989.1859711408615,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 443,
+      "fuelExhausted_both": 513,
+      "pair_rejections": 0,
+      "turn_errors": 0
+    },
+    "cg-ci-shop vs v61j": {
+      "n": 16,
+      "wins": 5,
+      "margin": -234.6875,
+      "deaths": 12.125,
+      "pair_deaths": 7.25,
+      "earnedGold200": 922.125,
+      "spentGold200": 745.625,
+      "pair_earnedGold200": 197.8125,
+      "pair_championDamageDone200": 663.2562503814697,
+      "pair_monsterDamageDone200": 3579.7624702453613,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 584,
+      "fuelExhausted_both": 854,
+      "pair_rejections": 0,
+      "turn_errors": 0
+    }
+  },
+  "paired": {
+    "cg-ci-pair vs v61j": {
+      "pairs": 16,
+      "loss_to_win": 2,
+      "win_to_loss": 1
+    },
+    "cg-ci-pair vs v50p1": {
+      "pairs": 16,
+      "loss_to_win": 2,
+      "win_to_loss": 2
+    },
+    "cg-ci-shop vs v61j": {
+      "pairs": 16,
+      "loss_to_win": 2,
+      "win_to_loss": 2
+    },
+    "cg-ci-shop vs v50p1": {
+      "pairs": 16,
+      "loss_to_win": 3,
+      "win_to_loss": 1
+    }
+  }
+}

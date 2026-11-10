@@ -35,3 +35,6 @@
 - **v56b** (no ball + early hunt): 118-138 vs v55a (margin -27), unseen 70-70; kills 4.01 / 3.88, deaths 4.27 / 4.40,
   deaths before r300 1.09 / 1.16. Compared with v56a (no ball alone, 109-147, kills 3.52, deaths 4.64), the hunt window adds
   about +9 wins, +0.5 kills and -0.4 deaths. **v56c** (ball kept + hunt) is the clean test; running.
+- **v56c** (v55a + early hunt, ball kept): 124-132 vs v55a (margin -3), unseen 70-70. Kills 4.16 / 4.06, deaths 4.48 / 4.52;
+  unseen kills 4.14 / 3.66, deaths 4.07 / 4.55; deaths before r300 1.06 / 1.14 (unseen 1.11 / 1.22). Even on wins, better
+  trades (more kills, fewer early deaths), gold slightly lower by r300 (-23). A fight change: needs the UK panel to judge.

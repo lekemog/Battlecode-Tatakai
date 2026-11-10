@@ -229,6 +229,63 @@
     "kills": 0,
     "rounds": 1217
    }
+  ],
+  "bentheboss-a4247250": [
+   {
+    "map": "02the_pack",
+    "side": "a",
+    "match": "01a1c2ce-c1e1-7404-973f-993246ffa598",
+    "win": false,
+    "gems": 510,
+    "opp_gems": 1004,
+    "deaths": 10,
+    "kills": 0,
+    "rounds": 1360
+   },
+   {
+    "map": "03one_gem",
+    "side": "b",
+    "match": "01a1c2ce-c1e2-7c9b-a3f3-5d338a6b6202",
+    "win": false,
+    "gems": 8,
+    "opp_gems": 128,
+    "deaths": 12,
+    "kills": 3,
+    "rounds": 2000
+   },
+   {
+    "map": "04spiral_moat",
+    "side": "a",
+    "match": "01a1c2ce-c1e2-7537-a93d-391774847ae7",
+    "win": false,
+    "gems": 396,
+    "opp_gems": 1021,
+    "deaths": 10,
+    "kills": 1,
+    "rounds": 1169
+   },
+   {
+    "map": "adgato_gemcombat3",
+    "side": "b",
+    "match": "01a1c2ce-c1e2-7f4b-9560-8827665bc600",
+    "win": false,
+    "gems": 581,
+    "opp_gems": 1066,
+    "deaths": 10,
+    "kills": 4,
+    "rounds": 670
+   },
+   {
+    "map": "00expanse",
+    "side": "a",
+    "match": "01a1c2ce-c1e2-75df-8b7a-ce1d85b558ce",
+    "win": false,
+    "gems": 928,
+    "opp_gems": 1011,
+    "deaths": 2,
+    "kills": 1,
+    "rounds": 1075
+   }
   ]
  },
  "groups": {
@@ -236,6 +293,7 @@
   "Claudus_Maximus-ad5474c2": "01a1c2c7-e9d0-752a-825a-7492e6e02bc1",
   "QS2isLaw-6bbc4925": "01a1c2c8-f236-7972-8e8c-87eb1ad27ce7",
   "Rogue_Lock_Pickers-ff9d7df3": "01a1c2ca-eb40-7c42-a9d8-1f8c3a2bda07",
-  "bentheboss-a4247250": "01a1c2ce-c1e0-7b24-bb8c-e0e53f701a68"
+  "bentheboss-a4247250": "01a1c2ce-c1e0-7b24-bb8c-e0e53f701a68",
+  "smurphy-83798ea3": "01a1c2cf-cd02-7462-ad81-5d2c5632f2f9"
  }
 }

@@ -1,0 +1,167 @@
+{
+ "_comment": "UK teams ranked above Tatakai (8 Nov 2026): 9 teams x 5 maps, stratified across map families, sides alternating. Baseline: v53i (236); candidates pinned to it with --pin.",
+ "opponents": [
+  {
+   "name": "BattleCats-285f4eb5",
+   "team_id": "285f4eb5-e97f-4ea4-93c5-19e1590a1e5a",
+   "maps": [
+    "00rushbait_v2",
+    "01corridors",
+    "02treasure_box",
+    "03showdown",
+    "04wilds"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "Claudus_Maximus-ad5474c2",
+   "team_id": "ad5474c2-784c-4f91-b8da-5fec554e4de4",
+   "maps": [
+    "adgato_gemcombat5",
+    "00gem_fields",
+    "01big_world",
+    "02uncharted_lands",
+    "03twisty"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "QS2isLaw-6bbc4925",
+   "team_id": "6bbc4925-89d1-4523-beac-b651d41bf945",
+   "maps": [
+    "04barbell",
+    "adgato_gemcombat4",
+    "00road_of_riches",
+    "01yellow_brick_road",
+    "02cuts"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "Rogue_Lock_Pickers-ff9d7df3",
+   "team_id": "ff9d7df3-6308-4dbd-a440-40835248d86a",
+   "maps": [
+    "03honeycomb",
+    "04plaza",
+    "adgato_gemcombat1",
+    "00ambush",
+    "01hooks"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "bentheboss-a4247250",
+   "team_id": "a4247250-fa1e-4d33-811d-d94667bf7a2b",
+   "maps": [
+    "02the_pack",
+    "03one_gem",
+    "04spiral_moat",
+    "adgato_gemcombat3",
+    "00expanse"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "smurphy-83798ea3",
+   "team_id": "83798ea3-f051-43ed-933d-e0bced90992b",
+   "maps": [
+    "01islands",
+    "02geodes",
+    "03homonoliths",
+    "04standing_stones",
+    "adgato_gemcombat2"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "jianqiao_yepazhe-958beb45",
+   "team_id": "958beb45-6e30-4c1d-a250-be7052ee7566",
+   "maps": [
+    "00gemfight",
+    "01starvation",
+    "02gift_wrapping",
+    "03riverbed",
+    "04horseshoes"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "DOOMSDAY-fcf5f666",
+   "team_id": "fcf5f666-ea55-4da0-b8d4-97c64bb37236",
+   "maps": [
+    "00galaxy",
+    "01gold_rush",
+    "02guardians",
+    "03the_front",
+    "04orchard"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "0xDEADBEEF-f92d0bbd",
+   "team_id": "f92d0bbd-519e-4f8b-b8bd-0d909f4ca0ee",
+   "maps": [
+    "00anvil",
+    "01boss_battle",
+    "02harvest",
+    "03contours",
+    "04duel_ring"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+===== ha²t 105
+ draft first3: [(('heart', 'ryth', 'marcella'), 105)]
+ items<=r200 per game: {'Treasure': 12.6, 'Durability': 3.8, 'Altar Lock': 3.2, 'Bruiser': 1.7, 'Jungle': 0.4}
+ first purchase family: [('Altar Lock', 73), ('Treasure', 26), ('Durability', 5), ('Bruiser', 1)]
+ camp clears by r100/r200/r300 mean: [4.1, 8.9, 13.7]  10th clear round median 231.5
+ wards placed (all game) mean 441.7
+===== Gamblr 100
+ draft first3: [(('marcella', 'vendetta', 'heart'), 48), (('vesper', 'vendetta', 'heart'), 35), (('vesper', 'marcella', 'cassi&issac'), 9), (('vesper', 'heart', 'cassi&issac'), 5)]
+ items<=r200 per game: {'Capture': 2.1, 'Jungle': 1.6, 'Treasure': 0.8, 'Monster': 0.7, 'Prospector': 0.4, 'Teleport Crystal': 0.3, 'Bruiser': 0.2, 'Power': 0.2, 'Durability': 0.1}
+ first purchase family: [('Capture', 70), ('Jungle', 13), ('Treasure', 8), ('Monster', 4)]
+ camp clears by r100/r200/r300 mean: [3.9, 8.0, 12.1]  10th clear round median 256.0
+ wards placed (all game) mean 531.4
+===== Valenki 105
+ draft first3: [(('vesper', 'vendetta', 'heart'), 90), (('heart', 'marcella', 'vesper'), 10), (('vesper', 'marcella', 'heart'), 5)]
+ items<=r200 per game: {'Treasure': 8.1, 'Jungle': 4.1, 'Prospector': 1.5, 'Bruiser': 1.4, 'Durability': 0.7, 'Power': 0.6, 'Monster': 0.2}
+ first purchase family: [('Treasure', 47), ('Jungle', 41), ('Bruiser', 9), ('Power', 8)]
+ camp clears by r100/r200/r300 mean: [4.1, 8.6, 13.3]  10th clear round median 236
+ wards placed (all game) mean 382.7
+===== KratosMessi 105
+ draft first3: [(('marcella', 'heart', 'vendetta'), 71), (('vesper', 'vendetta', 'heart'), 20), (('marcella', 'heart', 'vesper'), 14)]
+ items<=r200 per game: {'Jungle': 2.7, 'Treasure': 2.1, 'Altar Lock': 2.0, 'Teleport Crystal': 1.3, 'Bruiser': 0.5, 'Durability': 0.2, 'Power': 0.1, 'Monster': 0.0}
+ first purchase family: [('Altar Lock', 81), ('Treasure', 11), ('Jungle', 9), ('Teleport Crystal', 2)]
+ camp clears by r100/r200/r300 mean: [3.9, 7.5, 11.3]  10th clear round median 268.0
+ wards placed (all game) mean 319.4
+===== Tatakai 30
+ draft first3: [(('heart', 'ryth', 'marcella'), 30)]
+ items<=r200 per game: {'Treasure': 10.5, 'Durability': 3.6, 'Altar Lock': 2.9, 'Bruiser': 0.9, 'Jungle': 0.2}
+ first purchase family: [('Altar Lock', 19), ('Treasure', 9), ('Bruiser', 1)]
+ camp clears by r100/r200/r300 mean: [4.7, 9.3, 13.4]  10th clear round median 218.0
+ wards placed (all game) mean 391.1

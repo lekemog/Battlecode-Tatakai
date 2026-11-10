@@ -23,3 +23,13 @@ Main is the coordination/documentation entry point; it does **not** contain the 
 Claim one task with your branch and evidence. Use a new candidate folder and branch; one hypothesis per change. Book the shared live slot before submitting, activating or creating scrims. Confirm activation, pin opponents, record source/engine/map/submission IDs, and restore the intended baseline afterward.
 
 Archived bots, reports and replays remain reproducible evidence. They are not all current recommendations. No gameplay code, active submission or scrim window was changed by this cleanup.
+
+## Repository layout (development line; `main` carries only the documentation)
+| Path | Contents |
+|---|---|
+| `bots/` | Live bot, current candidates, test opponents; [index](bots/README.md). Older folders are in [`archive/`](archive/README.md) |
+| `results/` | One folder per study, by engine era; [index](results/README.md). `results/panel/` holds real-opponent panel results |
+| `tools/` | Local lab (`tools/lab/`), panel runner (`tools/panel/`), replay decoders (`tools/replay/`), older analysis scripts |
+| `maps/` | The current 128-map pool (patch 4.0.0); `bench/` is the frozen benchmark |
+| `docs/` | [Documentation map](docs/README.md); `docs/history/` has superseded logs |
+| `TESTING.md`, `CLI_FOR_AGENTS.md`, `LIVE_SLOT.md`, `SUBMISSIONS.md` | How to test, link your AI, book the ladder, and what was submitted |

@@ -1,0 +1,17 @@
+100 games from t10_226, t10_v51b
+
+metric                              us      them
+wards placed / game              369.9     166.2
+group captures / game             46.0      59.4
+single-recipient captures         1.00      1.00
+carry gold share (max champ)      0.39      0.47
+earned gold / game                4232      7106
+tributes / game                   12.1      32.6
+mean tribute size (gems)          37.2      43.3
+first tribute round (median)       132        92
+gems submitted / game              387       999
+gems collected / game              642      1180
+gem loss share                    0.26      0.02
+deaths / game                     10.9       2.5
+kills / game                       1.1      10.6
+kills before round 200            0.15      1.50

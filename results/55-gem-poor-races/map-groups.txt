@@ -1,0 +1,57 @@
+# group table of each map at round 50 (from bots/v50g0trace GRP55 lines; maps with no line: the champion that logs it was not alive then)
+# map | groups | gems per cycle | gold per cycle | heavy groups (total health >= 10000): n camps, gems, gold, hp, respawn rounds
+00anvil | 13 | 258 | 740 | g10 n1 200gems 300gold hp20000 resp150
+00breadcrumbs | 15 | 105 | 0 | -
+00collision | 20 | 280 | 1700 | -
+00contest | 14 | 400 | 1240 | g0 n1 200gems 300gold hp20000 resp150; g1 n1 200gems 300gold hp20000 resp150
+00corners | 14 | 194 | 1360 | -
+00crater | 6 | 158 | 450 | -
+00eight | 8 | 230 | 1300 | -
+00elkring | 10 | 220 | 1100 | -
+00expanse | 24 | 362 | 2340 | -
+00fragment | 6 | 68 | 540 | -
+00galaxy | 9 | 113 | 160 | -
+00gem-fields | 18 | 364 | 600 | -
+00gemfight | 19 | 200 | 500 | -
+00great-wall | 17 | 1404 | 3120 | g0 n4 414gems 600gold hp40240 resp150; g1 n4 414gems 600gold hp40240 resp150; g2 n20 256gems 640gold hp21920 resp80
+00interlock | 14 | 200 | 1200 | -
+00lanes | 14 | 128 | 960 | -
+00lost-world | 15 | 392 | 740 | g12 n5 228gems 300gold hp20480 resp150
+00packs | 8 | 148 | 1120 | -
+00pilgrimage | 23 | 184 | 1740 | g12 n16 88gems 520gold hp11040 resp60
+00ribs | 13 | 100 | 380 | -
+00road-of-riches | 14 | 232 | 980 | -
+00rows | 9 | 584 | 1680 | g6 n12 470gems 600gold hp41200 resp150
+00rushbait-v2 | 18 | 258 | 1360 | -
+00stampede | 13 | 160 | 1180 | g10 n20 160gems 620gold hp16080 resp60
+00swirl | 22 | 638 | 3760 | g16 n9 88gems 380gold hp10200 resp60; g17 n9 88gems 380gold hp10200 resp60
+00the-line | 9 | 193 | 480 | -
+01big-world | 23 | 802 | 2560 | g16 n5 228gems 300gold hp20480 resp150; g17 n5 228gems 300gold hp20480 resp150
+01boss-battle | 14 | 386 | 3300 | -
+01broken-curve | 22 | 746 | 2520 | g0 n1 200gems 300gold hp20000 resp150; g1 n1 200gems 300gold hp20000 resp150
+01corridors | 12 | 752 | 2960 | g0 n6 428gems 600gold hp40480 resp150
+01elk-arena | 15 | 72 | 700 | -
+01hooks | 12 | 88 | 760 | -
+01islands | 14 | 228 | 1200 | -
+01shortcut | 20 | 946 | 2860 | g5 n6 235gems 300gold hp20600 resp150; g6 n6 235gems 300gold hp20600 resp150; g11 n8 74gems 400gold hp10080 resp60; g12 n8 74gems 400gold hp10080 resp60
+01starfish | 16 | 334 | 1860 | g15 n14 118gems 620gold hp15360 resp60
+01starvation | 14 | 532 | 1560 | g2 n12 88gems 440gold hp10560 resp60; g10 n1 200gems 300gold hp20000 resp150; g11 n1 200gems 300gold hp20000 resp150
+01the-farm | 27 | 1081 | 4410 | g9 n8 74gems 400gold hp10080 resp60; g24 n2 207gems 300gold hp20120 resp150; g25 n2 207gems 300gold hp20120 resp150
+01yellow-brick-road | 13 | 219 | 2950 | -
+02arena | 14 | 102 | 660 | -
+02crossing | 23 | 454 | 1020 | -
+02famine | 11 | 380 | 1160 | g10 n1 200gems 300gold hp20000 resp150
+02fields | 22 | 1038 | 2480 | g8 n9 256gems 300gold hp20960 resp150; g9 n9 256gems 300gold hp20960 resp150; g12 n12 142gems 320gold hp11200 resp80; g13 n12 142gems 320gold hp11200 resp80
+02geodes | 14 | 402 | 1060 | -
+02gift-wrapping | 11 | 404 | 3020 | -
+02guardians | 21 | 684 | 2040 | g20 n1 200gems 300gold hp20000 resp150; g21 n1 200gems 300gold hp20000 resp150
+02harvest | 20 | 505 | 2150 | g20 n8 114gems 320gold hp10720 resp80
+02stalactites | 15 | 452 | 960 | -
+02tangle | 14 | 84 | 820 | -
+02the-pack | 15 | 250 | 2560 | g0 n48 192gems 1920gold hp64800 resp40
+02the-pond | 20 | 148 | 1020 | -
+02treasure-box | 15 | 105 | 0 | -
+adgato-gemcombat1 | 6 | 126 | 0 | -
+adgato-gemcombat2 | 9 | 168 | 0 | -
+adgato-gemcombat3 | 10 | 308 | 0 | -
+adgato-gemcombat4 | 8 | 252 | 0 | -

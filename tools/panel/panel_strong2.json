@@ -1,0 +1,77 @@
+{
+ "_comment": "Strong-opponent panel (issue 56): ha2t, Gamblr, Valenki, Kratos, current bots (no source_group). Run the baseline first, then each candidate with --pin BASELINE_LABEL. Map names checked against cambc maps list (70 maps).",
+ "opponents": [
+  {
+   "name": "ha2t-34b36bab",
+   "team_id": "34b36bab-66bb-4506-b032-2df6a081758d",
+   "maps": [
+    "00breadcrumbs",
+    "01gold_rush",
+    "02geodes",
+    "00lost_world",
+    "00packs"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "Gamblr-f583fbd0",
+   "team_id": "f583fbd0-8720-484e-b00c-61159d393c7f",
+   "maps": [
+    "02the_pond",
+    "00quadrants",
+    "01elk_arena",
+    "02famine",
+    "00dunes"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "name": "Valenki-975c2c15",
+   "team_id": "975c2c15-506b-489b-a439-839c8145933b",
+   "maps": [
+    "00elkring",
+    "00rows",
+    "02harvest",
+    "00split",
+    "01big_world"
+   ],
+   "sides": [
+    "b",
+    "a",
+    "b",
+    "a",
+    "b"
+   ]
+  },
+  {
+   "name": "Kratos-6599a236",
+   "team_id": "6599a236-7801-436f-a863-4acbb6aafa91",
+   "maps": [
+    "00reverse_spiral",
+    "01the_farm",
+    "00rushbait_v2",
+    "adgato_gemcombat4",
+    "00gem_fields"
+   ],
+   "sides": [
+    "a",
+    "b",
+    "a",
+    "b",
+    "a"
+   ]
+  }
+ ]
+}

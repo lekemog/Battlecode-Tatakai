@@ -1,4 +1,6 @@
 # Start here — Tatakai teammates and agents
+
+> **Linking your own AI to the `cambc` CLI:** see [`CLI_FOR_AGENTS.md`](CLI_FOR_AGENTS.md). Everyone may test and submit after the due-diligence steps there.
 Updated 5 November 2026. Read [CURRENT_STATE.md](CURRENT_STATE.md), [UK top-six plan](docs/UK_TOP6_PLAN.md), then the working branch's TESTING.md and LIVE_SLOT.md.
 
 1. **Verify your base.** Main is the coordination entry point; newest gameplay work is on Claude's branches linked in README. Confirm the actual active platform submission, source SHA, CLI, engine build and current map pool. Folder order is not a version registry.

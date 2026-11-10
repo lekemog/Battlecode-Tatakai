@@ -1,0 +1,136 @@
+R5 r1 g10 gems200 gold300 hp20000 dmg32609 pool2107 trips25 joiners1 coming0 dps63.1
+R5 r1 g10 gems200 gold300 hp20000 dmg31953 pool2107 trips25 joiners1 coming0 dps65.6
+R5 r1 g10 gems200 gold300 hp20000 dmg36966 pool1907 trips32 joiners1 coming0 dps48.8
+R5 r3 g10 gems200 gold300 hp20000 dmg36966 pool1907 trips32 joiners1 coming0 dps48.8
+G55 r50 k12 slot0 p3,26 hp760 g0 gold0 bank0/0 mode capture/travel t0 gemw1.50 mapgems258 mapgold740 trav4
+G55 r50 k7 slot2 p10,11 hp942 g0 gold0 bank0/0 mode farm/travel t8 gemw1.50 mapgems258 mapgold740 trav23
+R5 r57 g10 gems200 gold300 hp20000 dmg35721 pool1907 trips30 joiners1 coming0 dps52.5
+G55 r100 k12 slot0 p15,9 hp1000 g0 gold0 bank4/21 mode farm/travel t6 gemw1.50 mapgems258 mapgold740 trav18
+G55 r100 k7 slot2 p14,23 hp1200 g21 gold0 bank4/21 mode capture/- t11 gemw1.50 mapgems258 mapgold740 trav33
+R5 r101 g10 gems200 gold300 hp20000 dmg27157 pool2288 trips19 joiners1 coming0 dps75.8
+R5 r102 g10 gems200 gold300 hp20000 dmg27157 pool2288 trips19 joiners1 coming0 dps75.8
+R5 r103 g10 gems200 gold300 hp20000 dmg29914 pool2197 trips22 joiners1 coming0 dps68.2
+R5 r104 g10 gems200 gold300 hp20000 dmg29914 pool2197 trips22 joiners1 coming0 dps68.2
+R5 r107 g10 gems200 gold300 hp20000 dmg35129 pool1907 trips30 joiners1 coming0 dps54.4
+TB55 r125 slot2 gems21 bag56 da20 trigger0 banked4
+G55 r150 k12 slot0 p19,8 hp920 g0 gold20 bank4/21 mode farm/fight t9 gemw1.50 mapgems258 mapgold740 trav34
+G55 r150 k0 slot1 p16,7 hp663 g0 gold0 bank4/21 mode capture/- t8 gemw1.50 mapgems258 mapgold740 trav24
+TB55 r150 slot2 gems25 bag55 da18 trigger0 banked4
+G55 r150 k7 slot2 p11,24 hp1200 g25 gold44 bank4/21 mode farm/travel t11 gemw1.50 mapgems258 mapgold740 trav41
+R5 r153 g10 gems200 gold300 hp20000 dmg29914 pool1660 trips29 joiners1 coming0 dps68.2
+TB55 r175 slot1 gems21 bag51 da10 trigger0 banked4
+G55 r200 k12 slot0 p2,25 hp880 g0 gold10 bank4/33 mode farm/fight t0 gemw1.50 mapgems258 mapgold740 trav44
+G55 r200 k0 slot1 p2,14 hp900 g25 gold0 bank4/33 mode heal/- t2 gemw1.50 mapgems258 mapgold740 trav35
+R5 r201 g10 gems200 gold300 hp20000 dmg25668 pool2379 trips18 joiners1 coming0 dps78.3
+R5 r201 g10 gems200 gold300 hp20000 dmg21857 pool2860 trips13 joiners1 coming0 dps90.9
+R5 r206 g10 gems200 gold300 hp20000 dmg34649 pool1767 trips32 joiners1 coming0 dps54.4
+G55 r250 k12 slot0 p15,8 hp740 g0 gold10 bank29/75 mode farm/fight t8 gemw1.50 mapgems258 mapgold740 trav58
+G55 r250 k7 slot2 p20,8 hp1634 g0 gold49 bank29/75 mode pvp/- t9 gemw1.50 mapgems258 mapgold740 trav77
+TB55 r275 slot2 gems21 bag42 da2 trigger1 banked79
+G55 r300 k12 slot0 p8,14 hp1000 g0 gold20 bank100/75 mode farm/travel t8 gemw1.50 mapgems258 mapgold740 trav76
+G55 r300 k0 slot1 p29,26 hp707 g0 gold54 bank100/75 mode farm/fight t1 gemw1.50 mapgems258 mapgold740 trav48
+G55 r300 k7 slot2 p22,23 hp1025 g0 gold205 bank100/75 mode capture/- t12 gemw1.50 mapgems258 mapgold740 trav94
+R5 r303 g10 gems200 gold300 hp20000 dmg34557 pool1907 trips29 joiners1 coming0 dps56.2
+R5 r306 g10 gems200 gold300 hp20000 dmg22161 pool2499 trips15 joiners1 coming0 dps90.9
+G55 r350 k12 slot0 p14,5 hp1000 g0 gold20 bank121/83 mode pvp/- t9 gemw1.50 mapgems258 mapgold740 trav86
+G55 r350 k7 slot2 p10,20 hp2200 g0 gold53 bank121/83 mode farm/fight t4 gemw1.50 mapgems258 mapgold740 trav105
+R5 r352 g10 gems200 gold300 hp20000 dmg34557 pool1907 trips29 joiners1 coming0 dps56.2
+R5 r352 g10 gems200 gold300 hp20000 dmg34557 pool1907 trips29 joiners1 coming0 dps56.2
+G55 r400 k0 slot1 p14,10 hp1400 g0 gold36 bank121/108 mode farm/travel t8 gemw1.50 mapgems258 mapgold740 trav64
+TB55 r400 slot2 gems4 bag40 da3 trigger1 banked121
+G55 r400 k7 slot2 p15,10 hp2200 g4 gold13 bank121/108 mode tribute/- t8 gemw1.50 mapgems258 mapgold740 trav117
+R5 r400 g10 gems200 gold300 hp20000 dmg34557 pool1827 trips31 joiners1 coming0 dps56.2
+R5 r400 g10 gems200 gold300 hp20000 dmg34557 pool1827 trips31 joiners1 coming0 dps56.2
+G55 r400 k12 slot0 p3,10 hp920 g0 gold20 bank121/108 mode farm/fight t2 gemw1.50 mapgems258 mapgold740 trav103
+TB55 r450 slot0 gems4 bag53 da8 trigger1 banked146
+G55 r450 k12 slot0 p11,13 hp1300 g4 gold0 bank146/108 mode tribute/- t9 gemw1.50 mapgems258 mapgold740 trav128
+TB55 r450 slot2 gems4 bag52 da6 trigger1 banked146
+G55 r450 k7 slot2 p12,11 hp2300 g4 gold18 bank146/108 mode tribute/- t10 gemw1.50 mapgems258 mapgold740 trav128
+R5 r452 g10 gems200 gold300 hp20000 dmg20044 pool3087 trips11 joiners1 coming0 dps91.8
+TB55 r475 slot0 gems4 bag51 da12 trigger0 banked146
+TB55 r475 slot1 gems21 bag41 da1 trigger1 banked146
+G55 r500 k12 slot0 p8,20 hp1300 g0 gold0 bank196/108 mode farm/fight t4 gemw1.50 mapgems258 mapgold740 trav148
+G55 r500 k7 slot2 p19,6 hp1922 g0 gold26 bank196/108 mode farm/fight t10 gemw1.50 mapgems258 mapgold740 trav133
+R5 r503 g10 gems200 gold300 hp20000 dmg20219 pool3167 trips11 joiners1 coming1 dps123.8
+G55 r550 k7 slot2 p2,14 hp2186 g4 gold2 bank196/108 mode heal/- t2 gemw1.50 mapgems258 mapgold740 trav138
+R5 r550 g10 gems200 gold300 hp20000 dmg34003 pool2307 trips24 joiners1 coming0 dps58.1
+G55 r550 k12 slot0 p10,12 hp1400 g0 gold14 bank196/108 mode farm/choose-hold t8 gemw1.50 mapgems258 mapgold740 trav161
+G55 r600 k12 slot0 p4,16 hp1500 g0 gold6 bank221/141 mode farm/travel t11 gemw1.50 mapgems258 mapgold740 trav168
+G55 r600 k0 slot1 p8,21 hp1800 g0 gold4 bank221/141 mode farm/fight t4 gemw1.50 mapgems258 mapgold740 trav88
+G55 r600 k7 slot2 p19,6 hp900 g0 gold277 bank221/141 mode farm/fight t10 gemw1.50 mapgems258 mapgold740 trav146
+R5 r607 g10 gems200 gold300 hp20000 dmg18116 pool3481 trips9 joiners1 coming0 dps95.2
+R5 r607 g10 gems200 gold300 hp20000 dmg27350 pool2573 trips18 joiners1 coming0 dps58.1
+TB55 r650 slot1 gems4 bag54 da10 trigger0 banked242
+G55 r650 k0 slot1 p9,4 hp2100 g4 gold24 bank242/141 mode farm/fight t2 gemw1.50 mapgems258 mapgold740 trav100
+G55 r650 k7 slot2 p24,11 hp2229 g0 gold54 bank242/141 mode pvp/- t7 gemw1.50 mapgems258 mapgold740 trav155
+R5 r650 g10 gems200 gold300 hp20000 dmg25938 pool2573 trips17 joiners1 coming0 dps58.1
+R5 r653 g10 gems200 gold300 hp20000 dmg17446 pool3835 trips8 joiners1 coming0 dps98.6
+TB55 r675 slot1 gems8 bag54 da15 trigger0 banked263
+G55 r700 k12 slot0 p5,17 hp1800 g0 gold4 bank263/141 mode farm/travel t8 gemw1.50 mapgems258 mapgold740 trav198
+TB55 r700 slot1 gems8 bag60 da17 trigger0 banked263
+G55 r700 k0 slot1 p7,23 hp2200 g8 gold44 bank263/141 mode farm/fight t0 gemw1.50 mapgems258 mapgold740 trav107
+R5 r701 g10 gems200 gold300 hp20000 dmg14721 pool4278 trips6 joiners1 coming0 dps116.1
+R5 r706 g10 gems200 gold300 hp20000 dmg34003 pool2907 trips19 joiners1 coming0 dps58.1
+TB55 r725 slot1 gems12 bag56 da13 trigger0 banked263
+G55 r750 k12 slot0 p15,7 hp1800 g0 gold4 bank296/174 mode farm/travel t4 gemw1.50 mapgems258 mapgold740 trav219
+G55 r750 k0 slot1 p19,6 hp2074 g0 gold20 bank296/174 mode farm/fight t10 gemw1.50 mapgems258 mapgold740 trav115
+R5 r752 g10 gems200 gold300 hp20000 dmg16242 pool3867 trips7 joiners1 coming1 dps121.2
+G55 r800 k12 slot0 p4,25 hp1728 g0 gold48 bank317/174 mode farm/fight t0 gemw1.50 mapgems258 mapgold740 trav231
+G55 r800 k0 slot1 p9,17 hp2200 g0 gold54 bank317/174 mode farm/travel t8 gemw1.50 mapgems258 mapgold740 trav127
+G55 r800 k7 slot2 p21,6 hp421 g0 gold50 bank317/174 mode pvp/- t10 gemw1.50 mapgems258 mapgold740 trav183
+R5 r801 g10 gems200 gold300 hp20000 dmg14786 pool5598 trips5 joiners1 coming0 dps131.3
+R5 r804 g10 gems200 gold300 hp20000 dmg22711 pool2767 trips14 joiners1 coming0 dps58.1
+G55 r850 k0 slot1 p16,6 hp2074 g0 gold24 bank338/182 mode farm/fight t10 gemw1.50 mapgems258 mapgold740 trav141
+TB55 r850 slot0 gems4 bag57 da15 trigger0 banked338
+R5 r850 g10 gems200 gold300 hp20000 dmg13318 pool4276 trips5 joiners1 coming1 dps134.3
+R5 r850 g10 gems200 gold300 hp20000 dmg13318 pool4276 trips5 joiners1 coming1 dps134.3
+G55 r850 k12 slot0 p7,20 hp2000 g4 gold24 bank338/182 mode farm/fight t4 gemw1.50 mapgems258 mapgold740 trav231
+TB55 r875 slot0 gems4 bag53 da4 trigger1 banked338
+G55 r900 k12 slot0 p14,7 hp2000 g0 gold8 bank342/182 mode farm/travel t8 gemw1.50 mapgems258 mapgold740 trav238
+G55 r950 k12 slot0 p16,9 hp1625 g0 gold30 bank342/203 mode pvp/- t9 gemw1.50 mapgems258 mapgold740 trav251
+G55 r950 k0 slot1 p6,7 hp2200 g0 gold8 bank342/203 mode farm/fight t2 gemw1.50 mapgems258 mapgold740 trav147
+G55 r950 k7 slot2 p8,14 hp2700 g0 gold0 bank342/203 mode farm/travel t10 gemw1.50 mapgems258 mapgold740 trav205
+TB55 r975 slot1 gems4 bag56 da13 trigger0 banked363
+G55 r1000 k0 slot1 p10,9 hp1517 g4 gold14 bank363/207 mode pvp/- t10 gemw1.50 mapgems258 mapgold740 trav155
+TB55 r1025 slot1 gems4 bag43 da1 trigger1 banked363
+G55 r1050 k12 slot0 p16,9 hp1636 g0 gold0 bank367/240 mode capture/travel t8 gemw1.50 mapgems258 mapgold740 trav269
+G55 r1050 k0 slot1 p8,14 hp2300 g0 gold4 bank367/240 mode farm/travel t10 gemw1.50 mapgems258 mapgold740 trav165
+G55 r1050 k7 slot2 p26,12 hp483 g0 gold0 bank367/240 mode pvp/- t10 gemw1.50 mapgems258 mapgold740 trav217
+TB55 r1075 slot1 gems200 bag64 da8 trigger1 banked388
+G55 r1100 k12 slot0 p8,1 hp1564 g0 gold0 bank388/240 mode farm/fight t2 gemw1.50 mapgems258 mapgold740 trav274
+G55 r1100 k0 slot1 p21,9 hp445 g200 gold4 bank388/240 mode pvp/- t4 gemw1.50 mapgems258 mapgold740 trav174
+G55 r1150 k7 slot2 p14,6 hp1908 g0 gold0 bank388/265 mode pvp/- t3 gemw1.50 mapgems258 mapgold740 trav237
+G55 r1200 k0 slot1 p10,9 hp2192 g0 gold4 bank388/294 mode pvp/- t8 gemw1.50 mapgems258 mapgold740 trav184
+G55 r1200 k7 slot2 p14,6 hp2458 g4 gold66 bank388/294 mode pvp/- t8 gemw1.50 mapgems258 mapgold740 trav252
+TB55 r1225 slot1 gems21 bag41 da2 trigger1 banked392
+G55 r1250 k0 slot1 p2,14 hp173 g0 gold4 bank413/515 mode heal/- t9 gemw1.50 mapgems258 mapgold740 trav194
+G55 r1250 k7 slot2 p3,14 hp271 g0 gold5 bank413/515 mode heal/- t10 gemw1.50 mapgems258 mapgold740 trav252
+G55 r1300 k0 slot1 p14,8 hp2600 g0 gold4 bank413/536 mode farm/fight t10 gemw1.50 mapgems258 mapgold740 trav208
+G55 r1300 k7 slot2 p9,13 hp2800 g0 gold5 bank413/536 mode farm/travel t10 gemw1.50 mapgems258 mapgold740 trav262
+G55 r1350 k0 slot1 p17,6 hp2600 g0 gold4 bank442/536 mode farm/fight t10 gemw1.50 mapgems258 mapgold740 trav216
+G55 r1350 k7 slot2 p15,5 hp2800 g0 gold5 bank442/536 mode farm/fight t10 gemw1.50 mapgems258 mapgold740 trav271
+G55 r1400 k0 slot1 p8,5 hp2800 g0 gold4 bank663/536 mode farm/travel t3 gemw1.50 mapgems258 mapgold740 trav228
+TB55 r1400 slot2 gems21 bag63 da19 trigger0 banked663
+G55 r1400 k7 slot2 p2,25 hp2800 g21 gold11 bank663/536 mode farm/fight t0 gemw1.50 mapgems258 mapgold740 trav282
+TB55 r1425 slot2 gems25 bag59 da6 trigger1 banked663
+G55 r1450 k0 slot1 p20,0 hp1221 g0 gold4 bank688/536 mode farm/travel t2 gemw1.50 mapgems258 mapgold740 trav259
+G55 r1450 k7 slot2 p18,6 hp1130 g0 gold132 bank688/536 mode farm/fight t8 gemw1.50 mapgems258 mapgold740 trav296
+TB55 r1475 slot1 gems4 bag58 da16 trigger0 banked709
+TB55 r1475 slot2 gems21 bag63 da18 trigger0 banked709
+TB55 r1500 slot1 gems8 bag59 da16 trigger0 banked709
+G55 r1500 k0 slot1 p3,15 hp2900 g8 gold6 bank709/548 mode farm/travel t10 gemw1.50 mapgems258 mapgold740 trav270
+G55 r1500 k7 slot2 p10,13 hp2747 g21 gold100 bank709/548 mode capture/travel t6 gemw1.50 mapgems258 mapgold740 trav303
+G55 r1550 k0 slot1 p24,10 hp1726 g0 gold6 bank759/548 mode pvp/- t10 gemw1.50 mapgems258 mapgold740 trav277
+G55 r1600 k7 slot2 p3,15 hp3100 g0 gold16 bank780/560 mode farm/fight t10 gemw1.50 mapgems258 mapgold740 trav305
+TB55 r1650 slot1 gems4 bag63 da20 trigger0 banked780
+G55 r1650 k0 slot1 p13,24 hp2862 g4 gold116 bank780/781 mode farm/fight t11 gemw1.50 mapgems258 mapgold740 trav282
+G55 r1650 k7 slot2 p17,7 hp1925 g0 gold16 bank780/781 mode farm/travel t3 gemw1.50 mapgems258 mapgold740 trav318
+G55 r1700 k0 slot1 p13,10 hp2355 g0 gold66 bank809/793 mode farm/travel t8 gemw1.50 mapgems258 mapgold740 trav291
+G55 r1750 k0 slot1 p15,23 hp3000 g0 gold10 bank809/835 mode capture/- t11 gemw1.50 mapgems258 mapgold740 trav298
+G55 r1750 k7 slot2 p19,10 hp3100 g0 gold16 bank809/835 mode farm/fight t9 gemw1.50 mapgems258 mapgold740 trav350
+G55 r1800 k0 slot1 p12,11 hp2853 g0 gold54 bank830/843 mode farm/travel t10 gemw1.50 mapgems258 mapgold740 trav316
+G55 r1800 k7 slot2 p22,7 hp50 g0 gold172 bank830/843 mode pvp/- t10 gemw1.50 mapgems258 mapgold740 trav350
+G55 r1850 k0 slot1 p11,8 hp963 g0 gold54 bank834/843 mode pvp/- t8 gemw1.50 mapgems258 mapgold740 trav316
+G55 r1900 k0 slot1 p15,9 hp869 g4 gold82 bank834/864 mode pvp/- t3 gemw1.50 mapgems258 mapgold740 trav324
+G55 r1950 k0 slot1 p4,26 hp3074 g4 gold66 bank838/935 mode capture/- t0 gemw1.50 mapgems258 mapgold740 trav324
+G55 r1950 k7 slot2 p8,2 hp3287 g0 gold25 bank838/935 mode capture/- t2 gemw1.50 mapgems258 mapgold740 trav367

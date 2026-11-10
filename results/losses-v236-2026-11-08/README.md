@@ -1,0 +1,75 @@
+# Why v236 (v53i) loses: 100 ranked games since it went live (8 Nov 06:10-10:10 UTC)
+
+Ranked record over these 100 games: 51-49 (ladder neighbours). Sources: match summaries for all 100 (`tools/playbook/losses.py`) and decoded replays of the 14 worst fight losses.
+
+## Losses vs wins (per game, us / them)
+| | losses (49) | wins (51) |
+|---|---|---|
+| deaths | **8.6 / 3.8** | 3.9 / 6.6 |
+| kills | 2.9 / 8.2 | 4.6 / 3.5 |
+| deaths before r300 | 1.7 / 1.2 | 1.2 / 1.1 |
+| first death (round) | 374 / 505 | 485 / 518 |
+| gems lost on death | **197 / 76** | 29 / 72 |
+| banked by r400 | 172 / 204 | 271 / 160 |
+| first bank (round) | **296** / 236 | 117 / 248 |
+| earned gold r300 | 1,126 / 1,354 | 1,366 / 1,260 |
+| earned gold r600 | 2,507 / 3,261 | 3,019 / 2,652 |
+
+Loss causes (first rule that applies):
+- **fights 30** (our deaths >= theirs + 3);
+- economy 7 (gold at r300 at least 15% behind);
+- other 6;
+- bank 4;
+- close 2.
+
+The early game is no longer where we lose. Losses are decided by mid- and late-game fights.
+
+## The 14 worst fight losses: 165 of our deaths after r300
+- **Team power at death (ours / theirs, alive, max HP x (strength + focus)): median 0.51.** We die at half their item power.
+- **52% of the dying champions moved toward the nearest enemy in the previous 6 rounds** (27% away).
+- 44% alone (no ally within 6); 43% outnumbered by 2 or more; mean 0.83 allies vs 2.13 enemies within 6.
+- 28% inside a chain of our deaths (team fight); the rest are picks.
+- 22% carrying 20+ gems; 32% on the enemy half.
+- By champion: Ryth 49, Marcella 42, Heart 29, Vendetta 23, Varg 22.
+- Opponents' picks: Vendetta and Marcella (12 each), Ryth and Heart (8), Vesper (6), Varg and Tavi (5).
+
+## Diagnosis
+Once the opponent has snowballed to about twice our item power, we keep walking into them one at a time and feed more gold. The existing "behind" caution (`behind_caution_gap`) was off, and it keyed on banked gems after r800, which is too late.
+
+## Change: v53o
+v53o is v53i plus an out-itemed posture:
+- Each champion remembers each enemy's last-seen power.
+- From r200, if our per-champion power is below 0.7 of theirs, fights need +0.5 margin and champions do not close in unless they can finish an enemy outright.
+
+Mirrors are a no-regression check only, since self-play rarely out-items. The real test is the strong panels and ranked games.
+
+## Result: v53o rejected
+| test | v53o | kills / deaths (v53o vs base) |
+|---|---|---|
+| vs v53i | **112-144** | 2.25 / 3.74 vs 3.34 / 2.69 |
+| vs v226 | 132-124 (v53i 151-105) | |
+| unseen boards vs v53i | **59-81** | |
+
+The posture fires often even in self-play, and passivity raises deaths: hesitant champions still get caught and stop trading back. Not shipped. The actionable part of the diagnosis is isolation (44% of late deaths alone), not the fight threshold.
+
+## v53p (graves): rejected
+53% of our late deaths fall within 4 tiles of an earlier death of ours. v53p devalues camp groups within 5 tiles of an ally death in the last 150 rounds.
+- First run: a bug (deaths taken from vision, so unseen allies counted as dead; 17 false graves at r200). Lost 82-174 vs v53i. Fixed to use the API alive flags (0-1 live graves per checkpoint in a 6-death game).
+- Fixed v53p: **108-148 vs v53i**, 126-130 vs v226 (v53i 151-105), unseen boards 64-76. Deaths rose (4.20 vs 3.64): avoiding the contested camps sends champions to farther, emptier camps, alone.
+
+## Where this leaves the loss diagnosis
+Three attempts at "stop dying late" on top of v53i all lowered results locally, including against v226 and on unseen boards:
+- v53n pack hold;
+- v53o out-itemed caution;
+- v53p graves.
+
+The late deaths are a symptom of how our five farm (independently, often alone), not of a single decision rule. The structural fix is a team farming pattern: a lasting duo/trio with satellites, or the top teams' funnel. That is a larger change than a flag.
+
+## v53q (lasting duos after the opening): mixed, so it goes to the real panel
+| test | wins | kills / deaths (v53q vs opponent) |
+|---|---|---|
+| vs v53i | 125-131, margin +28 | 3.55 / 3.51 vs 2.99 / 4.00 |
+| vs v226 | 129-127 (v53i 151-105) | 3.70 / 3.09 vs 2.68 / 4.10 |
+| unseen boards vs v53i | 63-77 | 3.75 / 3.58 vs 3.16 / 4.21 |
+
+Duos fight better (about +19% kills, -12% deaths against v53i) but cover fewer camps. Self-play rewards farm coverage, so the UK panel (real opponents) decides.

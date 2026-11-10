@@ -1,4 +1,4 @@
-// v66a (arm A only): v61j (245) + leave early against ranged enemies towards an ally + rescue a low ally in contact (top-10 replays, 10 Nov)
+// v67save: v61j (245) + leave early against ranged enemies towards an ally + rescue a low ally in contact (top-10 replays, 10 Nov)
 // Polaris v53x: v53w (v53t + r5 pack release at r60) + r5a fuel fix (direct camp-group state query)
 #pragma once
 // Tunable policy settings for the bot. Every value here is a strategy choice; balance
@@ -260,7 +260,7 @@ inline constexpr float territory_penalty = 0.0f;
 inline constexpr bool track_group_enemies = false;
 inline constexpr int enemy_group_radius = 6;
 
-// --- v66s: save the hurt champion ------------------------------------------------------------
+// --- v67save: save the hurt champion ------------------------------------------------------------
 // Decoded top-10 panel t10b_240 (50 games): a champion of ours below 35% health with an enemy within 5 dies within 15
 // rounds 62% of the time (theirs 14%); 3 rounds later only 11% are 6+ tiles clear (theirs 33%); a teammate is within
 // 3 tiles of it 36% of the time (theirs 63%). 330 of 488 deaths had a ranged (range 3) enemy within 6 and all our
@@ -272,7 +272,7 @@ inline constexpr int ranged_leave_ally = 10;
 // Arm B (v57a rescue, never tested on real opponents): when the verdict is not favourable but an ally within
 // rescue_radius is in contact (enemy within 2) below rescue_hp of its health, join if the simulation (us included) is at
 // least an even trade: their losses >= ours - rescue_slack. 0 = off.
-inline constexpr int rescue_radius = 0;
+inline constexpr int rescue_radius = 5;
 inline constexpr float rescue_hp = 0.6f;
 inline constexpr float rescue_slack = 0.0f;
 

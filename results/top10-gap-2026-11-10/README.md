@@ -102,21 +102,21 @@ Scripts: `tools/top10gap/{deathlog,decdeaths,fights,escape}.py`; outputs `*_outp
 - **Range.** All our champions have attack range 1, while 43% of their slots have range 3. In 268 of our deaths no enemy was adjacent in the last
   logged turns, and 330 had a ranged enemy within 6.
 
-### Candidate v66s (on the live 245 = v61j): save the hurt champion
+### Candidate v67save (on the live 245 = v61j): save the hurt champion
 - Arm A (`ranged_leave_hp 0.6`): a melee champion that isn't winning, with a ranged enemy within 5, disengages below 60% health and retreats towards
   the nearest healthy ally within 10.
 - Arm B (`rescue_radius 5`, the v57a rescue): join to protect an ally below 60% in contact when the simulation says it's at least an even trade.
 
 | Run (256 games) | wins | deaths cand / opp |
 |---|---|---|
-| v66s vs live v61j | 128-128, margin +28 | **3.62 / 4.04** (kills 3.62 / 3.25) |
+| v67save vs live v61j | 128-128, margin +28 | **3.62 / 4.04** (kills 3.62 / 3.25) |
 | v61j vs early pack v50p1 | 201-55 | 4.95 |
-| v66s / v66a / v66b vs v50p1 | 198-58 / 202-54 / 196-60 | 5.08 / 5.01 / 5.09 |
+| v67save / v67saveA / v67saveB vs v50p1 | 198-58 / 202-54 / 196-60 | 5.08 / 5.01 / 5.09 |
 | v61j vs Vesper bot v60g | 176-80 | 3.25 |
-| v66s / v66a vs v60g | 172-84 / 174-82 | 3.20 / 3.27 |
+| v67save / v67saveA vs v60g | 172-84 / 174-82 | 3.20 / 3.27 |
 
 Arm A only triggers against ranged enemies. v50p1 and v61j field none, and v60g has one weak Vesper, so **no local opponent exercises it**.
-Locally v66s is a no-regression change (equal wins, fewer deaths against the live bot). Whether it helps can only be shown on the panels.
+Locally v67save is a no-regression change (equal wins, fewer deaths against the live bot). Whether it helps can only be shown on the panels.
 
 ## Limits
 - Zones use each team's most common shop tile as home. That is a proxy for the spawn, and mirrored maps make it symmetric.

@@ -71,3 +71,19 @@ Reading: the role makes them deal damage (Cassi 0.7K -> 3-4K, Vesper 4.5K -> 6-8
 dashes, so "out of reach next round" is not safe enough, and the comp still loses the gem race (about 715 gems collected against 1,000). The comp's problem is
 now economy first: six bodies that farm 96K monster damage against our five's 110K+. Next: (1) Cassi and Vesper share the team's focus target (they pass
 nullptr today), (2) Vesper farms beside a melee ally so she is never a camp's target (top teams: 15% of rounds), (3) only then re-measure the comp.
+
+## Kit study of Cassi, Issac and Heart (ten decoded top-six games, `tools/playbook/kit_play.py`) and the Heart dash fix
+| | enemy within 6 (share of rounds) | mean distance then | allies in front / within 3 | casts per 100 rounds (slot 0, slot 1) | r300 max HP / focus / strength |
+|---|---|---|---|---|---|
+| top Heart | 0.19 | 3.7 | 0.29 / 0.99 | shield 5.4, **stun dash 10.5** (252 of 1,531 in fights) | 1,263 / 122 / 30 |
+| our Heart (v69c games) | 0.27 | 3.8 | 0.27 / 1.02 | 5.8, **4.8** | 1,433 / 152 / 32 |
+| top Cassi | 0.12 | 4.5 (distance <= 2: 9%) | 0.74 / 1.45 | nuke 4.8, stun 3.7 | 609 / 110 / 30 |
+| our Cassi | 0.19 | 4.7 | 0.60 / 1.04 | 4.8, 3.4 | 817 / 148 / 31 |
+| top Issac | 0.13 | 4.2 | 0.60 / 1.52 | 4.6, dash 8.1 | 1,044 / 100 / 47 |
+| our Issac | 0.16 | 4.2 | 0.50 / 1.36 | 3.9, 1.9 | 1,167 / 103 / 59 |
+- Top teams keep the pair out of fights (enemy near 12-13% of rounds) with an ally in front and one or two within 3 tiles, and give them almost no gold
+  (Cassi 609 HP / 110 focus at r300: two or three shards). Their Heart farms with the stun dash.
+- **`bots/v70b`** (v61j + `camp_dash_bar` 0.9: dash when one full hit on a camp is worth it; a lone wolf scored exactly the old 1.5 bar): **144-112** vs v61j;
+  Heart monster damage 21.4K vs 17.6K, gems 277 vs 210, gold 1,268 vs 1,105. Bar 1.2: 136-120; 0.6: 143-113.
+- **`bots/v71a`** = v70b + the v66i opening phase: 139-117 vs v61j, **138-118 vs v70b**; v70b vs v66i 131-125. v71a is the candidate; not uploaded
+  (the agent's upload command is blocked: `tools/lab/submit_wait.sh bots/v71a`, then both panels).

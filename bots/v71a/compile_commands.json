@@ -1,0 +1,62 @@
+[
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/brain.cpp.obj -c /root/lab/bots/v71a/src/brain.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/brain.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/brain.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/combat.cpp.obj -c /root/lab/bots/v71a/src/combat.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/combat.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/combat.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/ctx.cpp.obj -c /root/lab/bots/v71a/src/ctx.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/ctx.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/ctx.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/draft.cpp.obj -c /root/lab/bots/v71a/src/draft.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/draft.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/draft.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/knowledge.cpp.obj -c /root/lab/bots/v71a/src/knowledge.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/knowledge.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/knowledge.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/learn.cpp.obj -c /root/lab/bots/v71a/src/learn.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/learn.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/learn.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/main.cpp.obj -c /root/lab/bots/v71a/src/main.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/main.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/main.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/nav.cpp.obj -c /root/lab/bots/v71a/src/nav.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/nav.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/nav.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/shop.cpp.obj -c /root/lab/bots/v71a/src/shop.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/shop.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/shop.cpp.obj"
+  },
+  {
+    "command": "/root/.cache/cambc/wasi-sdk-33/bin/clang++ --target=wasm32-wasip1 --sysroot=/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot -DCAMBC_DEBUG -I/root/lab/sdk/cpp -isystem /root/.cache/cambc/wasi-sdk-33/share/cmake/../../share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1 -O3 -DNDEBUG -std=c++20 -msimd128 -mbulk-memory -mbulk-memory-opt -fwasm-exceptions -mllvm -wasm-use-legacy-eh=false -o CMakeFiles/bot.dir/root/lab/bots/v71a/src/world.cpp.obj -c /root/lab/bots/v71a/src/world.cpp --sysroot=\"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot\" -isystem \"/root/.cache/cambc/wasi-sdk-33/share/wasi-sysroot/include/wasm32-wasip1/eh/c++/v1\"",
+    "directory": "/root/lab/bots/v71a/.cambc/build",
+    "file": "/root/lab/bots/v71a/src/world.cpp",
+    "output": "CMakeFiles/bot.dir/root/lab/bots/v71a/src/world.cpp.obj"
+  }
+]

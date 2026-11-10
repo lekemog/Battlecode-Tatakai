@@ -39,5 +39,24 @@ Groups in `worst_groups_242.json` (reusable as `--source-group` pins). Result **
    - Local: 03one_gem **205-0 and 222-0** vs v61b (was 0 gems); 03ultrastarvation 257-136 and 208-236.
 3. Regression (128 maps x 2 sides): v61f vs v61b 135-121; **v61g vs v61b 135-121**, margin +13, 0 bot faults.
 
+## Real-opponent test of v61g (submission 243): not kept
+- Worst-map replays (same 20 games pinned to the 242 groups): **5/20** vs 3/20. 04gem_caverns 1001-0 by r689 with 17k monster
+  damage (was 210-980 with 3k) and 266-1001 (was 42-1001; we collected 614 and died 7 times); 03one_gem banked 231 and 86
+  (was 0 and 0); 03ultrastarvation 265-446 (was 121-502) and a win. The map fixes transfer.
+- UK panel (pinned to uk_i): **10/45** vs 242's 14/45; deaths 5.87 vs 6.16, margin -290 vs -309; 5-pick wins 4/27 vs 9/27.
+  Lost 00road_of_riches (1000-618 -> 509-1026), 01yellow_brick_road (1024-635 -> 438-1012), 01corridors, 03the_front,
+  00rushbait_v2, 03riverbed. Fails the gate.
+- Local isolation on those six maps (12 games vs v61b): v61e (reserve by size alone) 3-9; v61f 6-6; v61g 6-6.
+  The size-scaled reserve lets an evaluation start with too little fuel left to act on maps with long walks.
+- **v61i** = v61b + the three chooser changes only above 100 groups (04gem_caverns has 114) + the gem-starved rule.
+  Local: 04gem_caverns 1004-231 and 1001-273; all maps 131-125 vs v61b. Not uploaded.
+
+## 100x draft turn: v63a (not uploaded)
+The first draft turn (100x fuel) builds a walk field from our spawn, scores every group by reward over walk + clearing +
+capture, assigns one group per roster slot (pack members share the leader's) and writes the plan to draft memory. Each
+champion adopts its group on turn 1 and takes a cheap step at once; in rounds 2-6 a fuel-starved farm phase still steps toward
+it. Traced game: first monster hit r5 instead of r7. vs v61g over 256 games: **130-126**, margin +15; team gold at r50 144 vs 136,
+r100 358 vs 347, r500 2,339 vs 2,272. Neutral on wins, a small economy gain.
+
 ## Not yet explained
 `00swirl` (32-41 deaths a game), `02stalactites` (opponents finish by r500), `00galaxy`, `00collision`, `00lanes`, `03showdown`, `03fan`.

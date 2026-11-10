@@ -343,6 +343,177 @@
     "kills": 0,
     "rounds": 605
    }
+  ],
+  "jianqiao_yepazhe-958beb45": [
+   {
+    "map": "00gemfight",
+    "side": "a",
+    "match": "01a1c60c-0f12-7e9a-9061-922b8c8f1dd9",
+    "win": false,
+    "gems": 421,
+    "opp_gems": 1010,
+    "deaths": 19,
+    "kills": 1,
+    "rounds": 1204
+   },
+   {
+    "map": "01starvation",
+    "side": "b",
+    "match": "01a1c60c-0f12-750d-b868-0a7f176f9440",
+    "win": false,
+    "gems": 449,
+    "opp_gems": 624,
+    "deaths": 13,
+    "kills": 1,
+    "rounds": 2000
+   },
+   {
+    "map": "02gift_wrapping",
+    "side": "a",
+    "match": "01a1c60c-0f12-73fa-9467-4ce3bb1205ea",
+    "win": false,
+    "gems": 260,
+    "opp_gems": 1008,
+    "deaths": 21,
+    "kills": 0,
+    "rounds": 945
+   },
+   {
+    "map": "03riverbed",
+    "side": "b",
+    "match": "01a1c60c-0f12-781e-aff5-acdcbf65580a",
+    "win": true,
+    "gems": 1014,
+    "opp_gems": 969,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 920
+   },
+   {
+    "map": "04horseshoes",
+    "side": "a",
+    "match": "01a1c60c-0f12-7965-97d5-5b6b43039ea5",
+    "win": false,
+    "gems": 32,
+    "opp_gems": 1032,
+    "deaths": 19,
+    "kills": 2,
+    "rounds": 1280
+   }
+  ],
+  "DOOMSDAY-fcf5f666": [
+   {
+    "map": "00galaxy",
+    "side": "b",
+    "match": "01a1c60f-729d-73f2-9c81-ead59e2d6ff4",
+    "win": false,
+    "gems": 429,
+    "opp_gems": 1011,
+    "deaths": 8,
+    "kills": 5,
+    "rounds": 1060
+   },
+   {
+    "map": "01gold_rush",
+    "side": "a",
+    "match": "01a1c60f-729d-77b6-b676-5d960721599c",
+    "win": true,
+    "gems": 1011,
+    "opp_gems": 152,
+    "deaths": 0,
+    "kills": 7,
+    "rounds": 1025
+   },
+   {
+    "map": "02guardians",
+    "side": "b",
+    "match": "01a1c60f-729d-7445-b6cd-32cd3784a753",
+    "win": true,
+    "gems": 1010,
+    "opp_gems": 0,
+    "deaths": 7,
+    "kills": 22,
+    "rounds": 1936
+   },
+   {
+    "map": "03the_front",
+    "side": "a",
+    "match": "01a1c60f-729d-7126-a943-4006cb1bb081",
+    "win": true,
+    "gems": 1044,
+    "opp_gems": 767,
+    "deaths": 2,
+    "kills": 0,
+    "rounds": 623
+   },
+   {
+    "map": "04orchard",
+    "side": "b",
+    "match": "01a1c60f-729d-7fc9-a1b1-2447a441a781",
+    "win": true,
+    "gems": 1012,
+    "opp_gems": 307,
+    "deaths": 3,
+    "kills": 5,
+    "rounds": 1079
+   }
+  ],
+  "0xDEADBEEF-f92d0bbd": [
+   {
+    "map": "00anvil",
+    "side": "a",
+    "match": "01a1c610-f870-7675-b772-cdca1469a1ff",
+    "win": false,
+    "gems": 336,
+    "opp_gems": 1174,
+    "deaths": 6,
+    "kills": 0,
+    "rounds": 1395
+   },
+   {
+    "map": "01boss_battle",
+    "side": "b",
+    "match": "01a1c610-f870-774e-9602-be6bbd7ff15b",
+    "win": false,
+    "gems": 530,
+    "opp_gems": 2803,
+    "deaths": 8,
+    "kills": 6,
+    "rounds": 1646
+   },
+   {
+    "map": "02harvest",
+    "side": "a",
+    "match": "01a1c610-f870-7f1b-b725-8ee779343e14",
+    "win": false,
+    "gems": 887,
+    "opp_gems": 1112,
+    "deaths": 1,
+    "kills": 1,
+    "rounds": 1185
+   },
+   {
+    "map": "03contours",
+    "side": "b",
+    "match": "01a1c610-f870-7565-b3c8-83c12ec4be71",
+    "win": false,
+    "gems": 810,
+    "opp_gems": 1012,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 890
+   },
+   {
+    "map": "04duel_ring",
+    "side": "a",
+    "match": "01a1c610-f870-71a7-b726-78799569b373",
+    "win": false,
+    "gems": 340,
+    "opp_gems": 1041,
+    "deaths": 12,
+    "kills": 3,
+    "rounds": 1097
+   }
   ]
  },
  "groups": {
@@ -352,6 +523,8 @@
   "Rogue_Lock_Pickers-ff9d7df3": "01a1c60a-4a1d-7ee6-952c-8d6b08a1ab6d",
   "bentheboss-a4247250": "01a1c60a-de87-75b3-a34e-5cd2c50e780e",
   "smurphy-83798ea3": "01a1c60b-763d-7fd3-b7f6-bc27eec173c9",
-  "jianqiao_yepazhe-958beb45": "01a1c60c-0f0e-7d81-863b-e258b16637ce"
+  "jianqiao_yepazhe-958beb45": "01a1c60c-0f0e-7d81-863b-e258b16637ce",
+  "DOOMSDAY-fcf5f666": "01a1c60f-7299-7ea9-ad94-dd514c02df72",
+  "0xDEADBEEF-f92d0bbd": "01a1c610-f85b-705b-8ecb-a4c1338c978f"
  }
 }

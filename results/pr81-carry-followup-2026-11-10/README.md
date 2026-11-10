@@ -1,3 +1,5 @@
+> **CLI 5.0.1 verification:** all 1,536 cases were rerun with unchanged inputs; every exported per-case metric matches the CLI 5.0.0 run. See [rerun evidence](cli501/README.md).
+
 # PR #81 follow-up: capture arrival and committed tank waiting
 
 10 November 2026. Local execution only. No upload, activation, scrim or ladder change.

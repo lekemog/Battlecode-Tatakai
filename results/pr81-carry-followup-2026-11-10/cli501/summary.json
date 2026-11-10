@@ -1,0 +1,141 @@
+{
+  "total": 1536,
+  "summary": {
+    "v60d vs v50p1": {
+      "n": 256,
+      "wins": 160,
+      "banked": 859.355,
+      "margin": 210.66,
+      "deaths": 5.102,
+      "kills": 6.945,
+      "earnedGold": 6831.391,
+      "collectedGems": 973.812,
+      "gold200": 710.852,
+      "vesper_earnedGold": 2225.191,
+      "vesper_gold200": 215.098,
+      "vesper_monsterDamageDone": 25618.348,
+      "vesper_submittedGems": 224.5,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 238,
+      "fuelExhausted_both": 310
+    },
+    "v60d vs v53x": {
+      "n": 256,
+      "wins": 97,
+      "banked": 769.672,
+      "margin": -92.27,
+      "deaths": 3.148,
+      "kills": 3.066,
+      "earnedGold": 5938.918,
+      "collectedGems": 891.52,
+      "gold200": 680.887,
+      "vesper_earnedGold": 2000.375,
+      "vesper_gold200": 207.801,
+      "vesper_monsterDamageDone": 24081.591,
+      "vesper_submittedGems": 221.004,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 298,
+      "fuelExhausted_both": 414
+    },
+    "v60f vs v50p1": {
+      "n": 256,
+      "wins": 176,
+      "banked": 869.074,
+      "margin": 226.395,
+      "deaths": 4.93,
+      "kills": 7.367,
+      "earnedGold": 7064.52,
+      "collectedGems": 1018.633,
+      "gold200": 711.812,
+      "vesper_earnedGold": 2290.32,
+      "vesper_gold200": 219.016,
+      "vesper_monsterDamageDone": 25625.413,
+      "vesper_submittedGems": 230.363,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 244,
+      "fuelExhausted_both": 318
+    },
+    "v60f vs v53x": {
+      "n": 256,
+      "wins": 99,
+      "banked": 778.332,
+      "margin": -96.016,
+      "deaths": 3.129,
+      "kills": 3.094,
+      "earnedGold": 5949.336,
+      "collectedGems": 919.344,
+      "gold200": 689.055,
+      "vesper_earnedGold": 1928.137,
+      "vesper_gold200": 215.402,
+      "vesper_monsterDamageDone": 23761.439,
+      "vesper_submittedGems": 215.578,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 396,
+      "fuelExhausted_both": 542
+    },
+    "v60g vs v50p1": {
+      "n": 256,
+      "wins": 165,
+      "banked": 855.965,
+      "margin": 220.148,
+      "deaths": 5.141,
+      "kills": 6.785,
+      "earnedGold": 6780.859,
+      "collectedGems": 956.645,
+      "gold200": 712.066,
+      "vesper_earnedGold": 2245.855,
+      "vesper_gold200": 223.125,
+      "vesper_monsterDamageDone": 26504.39,
+      "vesper_submittedGems": 227.742,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 266,
+      "fuelExhausted_both": 365
+    },
+    "v60g vs v53x": {
+      "n": 256,
+      "wins": 104,
+      "banked": 777.098,
+      "margin": -89.289,
+      "deaths": 3.211,
+      "kills": 2.871,
+      "earnedGold": 5974.348,
+      "collectedGems": 890.961,
+      "gold200": 681.801,
+      "vesper_earnedGold": 2063.773,
+      "vesper_gold200": 210.062,
+      "vesper_monsterDamageDone": 26046.623,
+      "vesper_submittedGems": 227.035,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 373,
+      "fuelExhausted_both": 519
+    }
+  },
+  "paired": {
+    "v60f vs v53x": {
+      "pairs": 256,
+      "loss_to_win": 26,
+      "win_to_loss": 24
+    },
+    "v60f vs v50p1": {
+      "pairs": 256,
+      "loss_to_win": 24,
+      "win_to_loss": 8
+    },
+    "v60g vs v53x": {
+      "pairs": 256,
+      "loss_to_win": 43,
+      "win_to_loss": 36
+    },
+    "v60g vs v50p1": {
+      "pairs": 256,
+      "loss_to_win": 34,
+      "win_to_loss": 29
+    }
+  }
+}

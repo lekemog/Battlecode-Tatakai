@@ -286,6 +286,63 @@
     "kills": 1,
     "rounds": 1075
    }
+  ],
+  "smurphy-83798ea3": [
+   {
+    "map": "01islands",
+    "side": "b",
+    "match": "01a1c2cf-cd03-7c05-87a6-70f0bb5050da",
+    "win": true,
+    "gems": 1053,
+    "opp_gems": 657,
+    "deaths": 3,
+    "kills": 0,
+    "rounds": 903
+   },
+   {
+    "map": "02geodes",
+    "side": "a",
+    "match": "01a1c2cf-cd03-7c6b-b158-35b7370ffa21",
+    "win": false,
+    "gems": 823,
+    "opp_gems": 1028,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 827
+   },
+   {
+    "map": "03homonoliths",
+    "side": "b",
+    "match": "01a1c2cf-cd03-7bef-a73d-affd1e504346",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1200,
+    "deaths": 4,
+    "kills": 1,
+    "rounds": 1119
+   },
+   {
+    "map": "04standing_stones",
+    "side": "a",
+    "match": "01a1c2cf-cd03-744b-8cc5-ec4c90d50210",
+    "win": false,
+    "gems": 737,
+    "opp_gems": 1031,
+    "deaths": 21,
+    "kills": 5,
+    "rounds": 1779
+   },
+   {
+    "map": "adgato_gemcombat2",
+    "side": "b",
+    "match": "01a1c2cf-cd03-7f64-9f29-f4d1e32feef2",
+    "win": false,
+    "gems": 210,
+    "opp_gems": 1012,
+    "deaths": 11,
+    "kills": 0,
+    "rounds": 605
+   }
   ]
  },
  "groups": {
@@ -294,6 +351,7 @@
   "QS2isLaw-6bbc4925": "01a1c2c8-f236-7972-8e8c-87eb1ad27ce7",
   "Rogue_Lock_Pickers-ff9d7df3": "01a1c2ca-eb40-7c42-a9d8-1f8c3a2bda07",
   "bentheboss-a4247250": "01a1c2ce-c1e0-7b24-bb8c-e0e53f701a68",
-  "smurphy-83798ea3": "01a1c2cf-cd02-7462-ad81-5d2c5632f2f9"
+  "smurphy-83798ea3": "01a1c2cf-cd02-7462-ad81-5d2c5632f2f9",
+  "jianqiao_yepazhe-958beb45": "01a1c2d0-d5b7-7fd0-9957-4dbeef9235c4"
  }
 }

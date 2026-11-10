@@ -1,0 +1,104 @@
+{
+  "base_commit": "5d282cec10e87be370b86ecae46fb056a31e5dae",
+  "source_freeze": "65e10501953a578445b27399eae9d13d9dad0f68",
+  "cli": "5.0.1",
+  "base_folder": "bots/v66i",
+  "verified_base_blobs": [
+    {
+      "path": "bots/v66i/src/config.h",
+      "sha": "bf54b6f0a59f2f2f885a3c04af97970686bf7f84"
+    },
+    {
+      "path": "bots/v66i/src/hazard_model.h",
+      "sha": "9af62a55ee3b5219129efd92c20e267f8385e364"
+    },
+    {
+      "path": "bots/v66i/src/brain.h",
+      "sha": "ebc9e0f4f43e0879aaf7d7caf298125d0d9d956b"
+    },
+    {
+      "path": "bots/v66i/src/shop.cpp",
+      "sha": "70ee16c9dfc90b6f13fec6b9f636b917fdb556a8"
+    },
+    {
+      "path": "bots/v66i/src/brain.cpp",
+      "sha": "001df5e57ff84a9a9a57cef4f4c34e2025ba64b3"
+    },
+    {
+      "path": "bots/v66i/src/shop.h",
+      "sha": "38db25ef021b6d96e8a288fc5432b6c3ba7172fb"
+    },
+    {
+      "path": "bots/v66i/src/world.h",
+      "sha": "0915b534f95ba42729ffe71c4d20e653c9102fd9"
+    },
+    {
+      "path": "bots/v66i/src/retaliation-reserve.h",
+      "sha": "d8b983459bc60c8b10599d2e8726e17137e922b1"
+    },
+    {
+      "path": "bots/v66i/src/nav.h",
+      "sha": "9ddb8f60ddfde4258b6c2e0efb5f179872854e51"
+    },
+    {
+      "path": "bots/v66i/src/knowledge.h",
+      "sha": "599c5797e90f4c1b882c3fe9516bfb3bb158702a"
+    },
+    {
+      "path": "bots/v66i/src/learn.h",
+      "sha": "0fa83005eaf49c1e17242c6d651b5a3859537571"
+    },
+    {
+      "path": "bots/v66i/src/world.cpp",
+      "sha": "e66526fbcde52dac6ef31599a0f01402974b0a1e"
+    },
+    {
+      "path": "bots/v66i/src/draft.h",
+      "sha": "099b82d51f7a95c6f9b1ef48c79c814da9c34185"
+    },
+    {
+      "path": "bots/v66i/src/draft.cpp",
+      "sha": "16571161362b7dd7f2da2275b3d4fcf21f0f4f01"
+    },
+    {
+      "path": "bots/v66i/src/combat.cpp",
+      "sha": "6a7168decc8dfeab84e43e51caa78468ceccd450"
+    },
+    {
+      "path": "bots/v66i/src/model.h",
+      "sha": "425e2c7d82b35b0560d3f70dd0781037bc4745bd"
+    },
+    {
+      "path": "bots/v66i/src/knowledge.cpp",
+      "sha": "bfe0ce3cb4eae5382b8e5b33a69319cadc97f8ac"
+    },
+    {
+      "path": "bots/v66i/src/main.cpp",
+      "sha": "a1e61464b42c76e05cac984d374d9f44fd3d2e7f"
+    },
+    {
+      "path": "bots/v66i/src/combat.h",
+      "sha": "ea39942ecb8743a20e660101fac5a8c3f4aea20e"
+    },
+    {
+      "path": "bots/v66i/src/ctx.h",
+      "sha": "4ce3e5964bebd59d57b03d2e3b291ca73feec9c2"
+    },
+    {
+      "path": "bots/v66i/src/learn.cpp",
+      "sha": "34352444c61850251d5dbb4554ea9f35040d74fb"
+    },
+    {
+      "path": "bots/v66i/src/ctx.cpp",
+      "sha": "d1d2903aef29ec03c5a2159cfb1c97c6887b9b0a"
+    },
+    {
+      "path": "bots/v66i/src/nav.cpp",
+      "sha": "e831e20f2a8c92a603faf5f134f66ad971c997eb"
+    },
+    {
+      "path": "bots/v66i/src/util.h",
+      "sha": "d9b952144d9e7745d7bad1cc2016bb162cd8c6b5"
+    }
+  ]
+}

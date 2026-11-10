@@ -1,0 +1,30 @@
+{
+ "SilverSamurai": {
+  "team": "bed04918-82d1-40d2-ba15-b977a2906943",
+  "maps": "04gem_caverns,03one_gem,00swirl,03fan,02stalactites",
+  "sides": "a,b,a,b,a",
+  "group": "01a1c640-5556-7b4b-b997-cf7abf4804a7",
+  "pinned_to": "01a1c62f-b632-7326-ae6c-bfe05e733f82"
+ },
+ "VeryGood": {
+  "team": "a162f0a7-d72e-4924-acf4-0acf8f2440eb",
+  "maps": "04gem_caverns,03one_gem,00swirl,03fan,02stalactites",
+  "sides": "b,a,b,a,b",
+  "group": "01a1c640-6099-74f0-86e3-e436b78acce9",
+  "pinned_to": "01a1c62f-c01d-7699-8b2b-58ff1aaaed5f"
+ },
+ "will_think_later": {
+  "team": "5095aa78-11de-4a63-ad5d-b30dae825f5e",
+  "maps": "00galaxy,00collision,03ultrastarvation,00lanes,03showdown",
+  "sides": "a,b,a,b,a",
+  "group": "01a1c640-6ae0-7498-9da3-467fc08e088c",
+  "pinned_to": "01a1c62f-ca37-76fe-97e0-391d676ffa45"
+ },
+ "EggsAfter11AM": {
+  "team": "d4f3c646-d772-4f2c-805f-2d1e35337946",
+  "maps": "00galaxy,00collision,03ultrastarvation,00lanes,03showdown",
+  "sides": "b,a,b,a,b",
+  "group": "01a1c640-74c2-79b4-80df-ef9784ef7a05",
+  "pinned_to": "01a1c62f-d41d-7fe4-8bfb-53702fd5c869"
+ }
+}

@@ -1,3 +1,8 @@
+// SUBMISSION NOTE (Claude for Leke, 2026-11-10): v61j = v61i (submission 244) with the many-group test computed once per choose, so maps
+// with at most 100 groups run the v61b chooser without extra per-group work (244 lost 01yellow_brick_road in both panels: 160 camps,
+// fuel-critical). Keeps: chooser fixes above 100 groups (04gem_caverns) and the gem-starved map rule (03one_gem, 03ultrastarvation).
+// Local vs v61b: all maps 127-129 (margin +3), 04gem_caverns 1003-266 and 1001-343, 03one_gem 221-0 and 214-0, 0 faults.
+// Panels to compare: UK 242 = 14/45, 244 = 11/45; top ten 240 = 3/50, 244 = 2/50. Fallback: 242.
 // Polaris v50e1: v50d + Prospector emblem replaces Treasure as the opener (cfg::p4_open 2)
 // the bot entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
 #include <cambc.h>

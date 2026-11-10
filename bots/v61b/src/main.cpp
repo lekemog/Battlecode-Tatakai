@@ -1,3 +1,8 @@
+// SUBMISSION NOTE (Claude for Leke, 2026-11-10): v61b = v53x (submission 240) + drafts per team size, taken literally
+// (draft_mode 99, draft_learned false): 3-pick Marcella, Vendetta, Varg; 4-pick Heart, Marcella, Vendetta, Varg; 5-pick unchanged.
+// Evidence (local): 29-13 vs v53x on the 21 3-pick maps, 30-22 on the 26 4-pick maps, identical play on 5-pick maps (81-81, margin 0);
+// vs v56c on the 47 small maps 69-25 (v53x 50-44); 0 bot faults. Ladder: the 4-pick quartet is +0.14 over rating expectation (73 games).
+// Gate: UK panel pinned to uk_i must beat 12/45 with deaths <= 7.49. Revert target: 240.
 // Polaris v50e1: v50d + Prospector emblem replaces Treasure as the opener (cfg::p4_open 2)
 // the bot entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
 #include <cambc.h>

@@ -1,0 +1,135 @@
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex
+cg-hci66-flex is up to date
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v66i
+v66i is up to date
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v50p1
+v50p1 is up to date
+[|] STARTING  cg-hci66-flex vs v66i  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__00collision__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__00collision__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__00swirl__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__00swirl__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__01yellow-brick-road__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__02the-pack__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__02the-pack__1.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v66i  00swirl  Round 0904/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__00swirl__0.repl26a
+[+] TEAM A WIN (v66i)  v66i vs cg-hci66-flex  00swirl  Round 0833/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__00swirl__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__03one-gem__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__03one-gem__1.repl26a
+[+] TEAM B WIN (v66i)  cg-hci66-flex vs v66i  00collision  Round 1024/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__00collision__0.repl26a
+[+] TEAM A WIN (v66i)  v66i vs cg-hci66-flex  00collision  Round 1155/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__00collision__1.repl26a
+[+] TEAM B WIN (v66i)  cg-hci66-flex vs v66i  01yellow-brick-road  Round 0882/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__01yellow-brick-road__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__03showdown__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__03showdown__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__04gem-caverns__0.repl26a
+[+] TEAM A WIN (v66i)  v66i vs cg-hci66-flex  01yellow-brick-road  Round 0892/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__01yellow-brick-road__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__04gem-caverns__1.repl26a
+[+] TEAM A WIN (v66i)  v66i vs cg-hci66-flex  02the-pack  Round 1741/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__02the-pack__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__04hourglass__0.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v66i  02the-pack  Round 1937/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__02the-pack__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__04hourglass__1.repl26a
+[+] TEAM A WIN (v66i)  v66i vs cg-hci66-flex  03showdown  Round 0617/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__03showdown__1.repl26a
+[|] STARTING  cg-hci66-flex vs v50p1  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__00collision__0.repl26a
+[+] TEAM B WIN (v66i)  cg-hci66-flex vs v66i  03showdown  Round 0797/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__03showdown__0.repl26a
+[|] STARTING  v50p1 vs cg-hci66-flex  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__00collision__1.repl26a
+[+] TEAM A WIN (v66i)  v66i vs cg-hci66-flex  04gem-caverns  Round 1010/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__04gem-caverns__1.repl26a
+[|] STARTING  cg-hci66-flex vs v50p1  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__00swirl__0.repl26a
+[+] TEAM A WIN (v66i)  v66i vs cg-hci66-flex  04hourglass  Round 0920/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__04hourglass__1.repl26a
+[|] STARTING  v50p1 vs cg-hci66-flex  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__00swirl__1.repl26a
+[+] TEAM B WIN (v66i)  cg-hci66-flex vs v66i  04gem-caverns  Round 1188/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__04gem-caverns__0.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v66i  04hourglass  Round 0991/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__04hourglass__0.repl26a
+[|] STARTING  cg-hci66-flex vs v50p1  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__01yellow-brick-road__0.repl26a
+[|] STARTING  v50p1 vs cg-hci66-flex  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__01yellow-brick-road__1.repl26a
+[+] TEAM B WIN (v66i)  cg-hci66-flex vs v66i  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__03one-gem__0.repl26a
+[+] TEAM A WIN (v66i)  v66i vs cg-hci66-flex  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v66i__03one-gem__1.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v50p1  00collision  Round 1464/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__00collision__0.repl26a
+[+] TEAM B WIN (cg-hci66-flex)  v50p1 vs cg-hci66-flex  00collision  Round 1479/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__00collision__1.repl26a
+[|] STARTING  cg-hci66-flex vs v50p1  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__02the-pack__0.repl26a
+[|] STARTING  v50p1 vs cg-hci66-flex  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__02the-pack__1.repl26a
+[|] STARTING  cg-hci66-flex vs v50p1  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__03one-gem__0.repl26a
+[|] STARTING  v50p1 vs cg-hci66-flex  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__03one-gem__1.repl26a
+[+] TEAM B WIN (v50p1)  cg-hci66-flex vs v50p1  00swirl  Round 1199/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__00swirl__0.repl26a
+[|] STARTING  cg-hci66-flex vs v50p1  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__03showdown__0.repl26a
+[+] TEAM B WIN (cg-hci66-flex)  v50p1 vs cg-hci66-flex  00swirl  Round 1010/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__00swirl__1.repl26a
+[+] TEAM B WIN (v50p1)  cg-hci66-flex vs v50p1  01yellow-brick-road  Round 0892/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__01yellow-brick-road__0.repl26a
+[|] STARTING  v50p1 vs cg-hci66-flex  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__03showdown__1.repl26a
+[|] STARTING  cg-hci66-flex vs v50p1  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__04gem-caverns__0.repl26a
+[+] TEAM B WIN (cg-hci66-flex)  v50p1 vs cg-hci66-flex  01yellow-brick-road  Round 0857/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__01yellow-brick-road__1.repl26a
+[|] STARTING  v50p1 vs cg-hci66-flex  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__04gem-caverns__1.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v50p1  02the-pack  Round 1885/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__02the-pack__0.repl26a
+[|] STARTING  cg-hci66-flex vs v50p1  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__04hourglass__0.repl26a
+[+] TEAM B WIN (cg-hci66-flex)  v50p1 vs cg-hci66-flex  02the-pack  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__02the-pack__1.repl26a
+[+] TEAM B WIN (cg-hci66-flex)  v50p1 vs cg-hci66-flex  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__03one-gem__1.repl26a
+[|] STARTING  v50p1 vs cg-hci66-flex  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__04hourglass__1.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v50p1  03one-gem  Round 2000/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__03one-gem__0.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v50p1  03showdown  Round 1323/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__03showdown__0.repl26a
+[+] TEAM A WIN (v50p1)  v50p1 vs cg-hci66-flex  03showdown  Round 1131/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__03showdown__1.repl26a
+[+] TEAM B WIN (cg-hci66-flex)  v50p1 vs cg-hci66-flex  04gem-caverns  Round 0593/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__04gem-caverns__1.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v50p1  04gem-caverns  Round 0677/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__04gem-caverns__0.repl26a
+[+] TEAM A WIN (cg-hci66-flex)  cg-hci66-flex vs v50p1  04hourglass  Round 1106/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__04hourglass__0.repl26a
+[+] TEAM B WIN (cg-hci66-flex)  v50p1 vs cg-hci66-flex  04hourglass  Round 1187/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_results/cg-hci66-flex__v50p1__04hourglass__1.repl26a
+Finished: 32 replay bundles saved, 0 failed

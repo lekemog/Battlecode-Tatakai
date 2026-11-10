@@ -1,0 +1,1061 @@
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/learn.cpp.obj
+[2/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/nav.cpp.obj
+[3/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/combat.cpp.obj
+[4/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/shop.cpp.obj
+[5/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/main.cpp.obj
+[6/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/pair.cpp.obj
+[7/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/map_draft.cpp.obj
+[8/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/draft.cpp.obj
+[9/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/knowledge.cpp.obj
+[10/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/ctx.cpp.obj
+[11/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/brain.cpp.obj
+[12/14] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/src/world.cpp.obj
+[13/14] Linking CXX executable bot.wasm
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-hci66-flex/.cambc/build
+injected 0 checks into 0 functions
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v66i
+v66i is up to date
+[|] STARTING  cg-hci66-flex vs v66i  00ambush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00ambush__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00ambush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00ambush__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00anvil
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00anvil__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00anvil
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00anvil__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00breadcrumbs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00breadcrumbs__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00breadcrumbs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00breadcrumbs__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00collision__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00collision__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00ambush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00ambush__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00breadcrumbs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00breadcrumbs__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00collision  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00collision__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00contest
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00contest__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00contest
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00contest__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00corners
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00corners__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00ambush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00ambush__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00anvil  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00anvil__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00anvil  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00anvil__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00breadcrumbs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00breadcrumbs__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00collision  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00collision__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00corners
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00corners__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00crater
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00crater__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00crater
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00crater__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00dunes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00dunes__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00dunes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00dunes__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00contest  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00contest__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00eight
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00eight__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00contest  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00contest__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00corners  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00corners__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00corners  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00corners__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00crater  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00crater__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00dunes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00dunes__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00dunes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00dunes__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00eight
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00eight__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00elkring
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00elkring__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00elkring
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00elkring__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00expanse
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00expanse__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00expanse
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00expanse__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00fragment
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00fragment__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00crater  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00crater__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00fragment
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00fragment__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00eight  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00eight__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00galaxy
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00galaxy__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00eight  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00eight__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00expanse  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00expanse__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00fragment  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00fragment__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00fragment  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00fragment__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00galaxy
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00galaxy__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00gem-fields
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00gem-fields__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00gem-fields
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00gem-fields__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00gemfight
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00gemfight__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00elkring  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00elkring__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00elkring  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00elkring__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00gemfight
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00gemfight__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00great-wall
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00great-wall__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00expanse  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00expanse__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00great-wall
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00great-wall__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00galaxy  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00galaxy__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00happy-halloween
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00happy-halloween__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00galaxy  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00galaxy__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00gem-fields  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00gem-fields__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00gem-fields  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00gem-fields__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00gemfight  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00gemfight__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00great-wall  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00great-wall__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00happy-halloween
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00happy-halloween__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00interlock
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00interlock__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00interlock
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00interlock__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00lanes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00lanes__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00lanes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00lanes__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00gemfight  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00gemfight__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00great-wall  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00great-wall__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00lost-world
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00lost-world__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00lost-world
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00lost-world__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00happy-halloween  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00happy-halloween__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00monolith
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00monolith__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00happy-halloween  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00happy-halloween__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00interlock  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00interlock__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00interlock  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00interlock__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00lanes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00lanes__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00lanes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00lanes__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00lost-world  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00lost-world__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00lost-world  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00lost-world__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00monolith
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00monolith__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00oasis
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00oasis__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00oasis
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00oasis__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00packs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00packs__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00packs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00packs__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00pilgrimage
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00pilgrimage__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00pilgrimage
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00pilgrimage__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00monolith  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00monolith__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00quadrants
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00quadrants__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00oasis  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00oasis__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00quadrants
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00quadrants__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00monolith  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00monolith__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00oasis  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00oasis__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00packs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00packs__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00packs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00packs__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00pilgrimage  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00pilgrimage__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00pilgrimage  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00pilgrimage__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00quadrants  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00quadrants__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00quarry
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00quarry__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00quarry
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00quarry__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00reverse-spiral
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00reverse-spiral__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00reverse-spiral
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00reverse-spiral__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00ribs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00ribs__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00ribs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00ribs__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00road-of-riches
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00road-of-riches__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00quadrants  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00quadrants__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00reverse-spiral  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00reverse-spiral__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00ribs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00ribs__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00road-of-riches
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00road-of-riches__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00rows
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00rows__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00rows
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00rows__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00quarry  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00quarry__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00quarry  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00quarry__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00reverse-spiral  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00reverse-spiral__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00ribs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00ribs__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00road-of-riches  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00road-of-riches__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00rushbait-v2
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00rushbait-v2__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00rushbait-v2
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00rushbait-v2__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00split
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00split__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00split
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00split__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00stampede
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00stampede__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00road-of-riches  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00road-of-riches__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00rushbait-v2  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00rushbait-v2__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00stampede
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00stampede__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00swirl__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00rows  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00rows__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00rows  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00rows__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00rushbait-v2  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00rushbait-v2__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00split  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00split__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00split  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00split__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00stampede  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00stampede__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00swirl__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00the-line
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00the-line__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00the-line
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00the-line__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  00vault
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00vault__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  00vault
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00vault__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01big-world
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01big-world__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00swirl  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00swirl__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01big-world
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01big-world__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00stampede  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00stampede__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00swirl  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00swirl__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00the-line  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00the-line__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00the-line  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00the-line__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  00vault  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00vault__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  00vault  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__00vault__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01big-world  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01big-world__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01boss-battle
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01boss-battle__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01boss-battle
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01boss-battle__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01broken-curve
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01broken-curve__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01broken-curve
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01broken-curve__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01concentrated-wealth
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01concentrated-wealth__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01concentrated-wealth
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01concentrated-wealth__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01corridors
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01corridors__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01big-world  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01big-world__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01corridors
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01corridors__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01boss-battle  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01boss-battle__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01boss-battle  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01boss-battle__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01broken-curve  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01broken-curve__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01concentrated-wealth  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01concentrated-wealth__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01corridors  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01corridors__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01elk-arena
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01elk-arena__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01elk-arena
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01elk-arena__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01fracture
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01fracture__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01fracture
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01fracture__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01gold-rush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01gold-rush__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01broken-curve  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01broken-curve__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01concentrated-wealth  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01concentrated-wealth__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01gold-rush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01gold-rush__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01hooks
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01hooks__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01corridors  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01corridors__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01elk-arena  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01elk-arena__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01fracture  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01fracture__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01gold-rush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01gold-rush__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01hooks
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01hooks__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01islands
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01islands__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01islands
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01islands__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01shortcut
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01shortcut__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01gold-rush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01gold-rush__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01shortcut
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01shortcut__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01fracture  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01fracture__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01starfish
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01starfish__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01hooks  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01hooks__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01starfish
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01starfish__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01elk-arena  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01elk-arena__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01starvation
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01starvation__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01hooks  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01hooks__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01islands  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01islands__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01islands  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01islands__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01shortcut  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01shortcut__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01shortcut  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01shortcut__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01starfish  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01starfish__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01starfish  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01starfish__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01starvation
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01starvation__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01the-farm
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01the-farm__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01the-farm
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01the-farm__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01yellow-brick-road__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02arena
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02arena__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02arena
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02arena__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01starvation  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01starvation__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02crossing
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02crossing__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01yellow-brick-road  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01yellow-brick-road__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02crossing  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02crossing__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02crossing
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02crossing__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02cuts
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02cuts__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01starvation  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01starvation__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01the-farm  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01the-farm__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  01the-farm  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01the-farm__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  01yellow-brick-road  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__01yellow-brick-road__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02arena  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02arena__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02arena  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02arena__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02cuts
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02cuts__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02famine
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02famine__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02famine
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02famine__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02fields
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02fields__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02fields
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02fields__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02geodes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02geodes__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02crossing  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02crossing__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02cuts  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02cuts__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02geodes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02geodes__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02gift-wrapping
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02gift-wrapping__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02cuts  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02cuts__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02famine  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02famine__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02famine  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02famine__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02gift-wrapping
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02gift-wrapping__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02guardians
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02guardians__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02guardians
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02guardians__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02geodes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02geodes__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02harvest
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02harvest__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02fields  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02fields__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02harvest
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02harvest__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02fields  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02fields__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02stalactites
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02stalactites__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02harvest  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02harvest__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02stalactites
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02stalactites__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02gift-wrapping  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02gift-wrapping__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02tangle
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02tangle__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02gift-wrapping  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02gift-wrapping__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02tangle
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02tangle__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02guardians  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02guardians__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02the-pack__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02geodes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02geodes__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02guardians  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02guardians__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02harvest  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02harvest__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02the-pack__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02the-pond
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02the-pond__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02the-pond
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02the-pond__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02stalactites  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02stalactites__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02treasure-box
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02treasure-box__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02stalactites  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02stalactites__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02treasure-box
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02treasure-box__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02tangle  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02tangle__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  02uncharted-lands
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02uncharted-lands__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02the-pack  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02the-pack__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  02uncharted-lands
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02uncharted-lands__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02tangle  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02tangle__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03ambush-field
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03ambush-field__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02the-pack  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02the-pack__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02the-pond  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02the-pond__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03ambush-field
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03ambush-field__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03colosseum
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03colosseum__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02treasure-box  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02treasure-box__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03colosseum
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03colosseum__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02the-pond  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02the-pond__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03contours
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03contours__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02treasure-box  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02treasure-box__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  02uncharted-lands  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02uncharted-lands__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03contours
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03contours__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03fan
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03fan__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  02uncharted-lands  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__02uncharted-lands__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03fan
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03fan__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03ambush-field  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03ambush-field__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03ambush-field  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03ambush-field__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03colosseum  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03colosseum__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03contours  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03contours__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03homonoliths
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03homonoliths__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03homonoliths
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03homonoliths__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03honeycomb
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03honeycomb__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03honeycomb
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03honeycomb__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03colosseum  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03colosseum__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03membrane
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03membrane__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03contours  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03contours__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03membrane
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03membrane__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03fan  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03fan__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03one-gem__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03homonoliths  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03homonoliths__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03one-gem__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03fan  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03fan__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03homonoliths  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03homonoliths__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03honeycomb  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03honeycomb__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03honeycomb  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03honeycomb__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03membrane  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03membrane__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03reef
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03reef__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03reef
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03reef__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03riverbed
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03riverbed__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03riverbed
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03riverbed__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03showdown__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03one-gem  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03one-gem__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03showdown__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03membrane  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03membrane__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03shrines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03shrines__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03one-gem  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03one-gem__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03reef  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03reef__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03reef  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03reef__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03riverbed  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03riverbed__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03riverbed  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03riverbed__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03showdown  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03showdown__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03shrines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03shrines__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03the-front
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03the-front__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03the-front
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03the-front__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03twisty
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03twisty__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03twisty
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03twisty__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  03ultrastarvation
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03ultrastarvation__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03showdown  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03showdown__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  03ultrastarvation
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03ultrastarvation__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03shrines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03shrines__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04atoll
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04atoll__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03shrines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03shrines__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03the-front  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03the-front__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03the-front  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03the-front__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03twisty  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03twisty__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03twisty  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03twisty__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  03ultrastarvation  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03ultrastarvation__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04atoll
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04atoll__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04barbell
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04barbell__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04barbell
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04barbell__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04bowls
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bowls__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04bowls
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bowls__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04braided-river
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04braided-river__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  03ultrastarvation  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__03ultrastarvation__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04braided-river
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04braided-river__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04atoll  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04atoll__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04barbell  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04barbell__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04bowls  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bowls__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04bridges
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bridges__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04bridges
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bridges__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04bullseye
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bullseye__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04atoll  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04atoll__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04barbell  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04barbell__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04bowls  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bowls__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04bullseye
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bullseye__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04butterfly
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04butterfly__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04butterfly
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04butterfly__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04braided-river  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04braided-river__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04canyons
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04canyons__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04braided-river  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04braided-river__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04canyons
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04canyons__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04butterfly  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04butterfly__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04comb
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04comb__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04bridges  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bridges__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04comb
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04comb__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04bridges  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bridges__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04compass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04compass__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04bullseye  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bullseye__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04compass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04compass__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04canyons  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04canyons__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04courtyard
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04courtyard__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04butterfly  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04butterfly__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04courtyard
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04courtyard__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04bullseye  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04bullseye__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04crossroads
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04crossroads__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04canyons  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04canyons__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04comb  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04comb__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04crossroads
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04crossroads__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04duel-ring
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04duel-ring__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04compass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04compass__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04duel-ring
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04duel-ring__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04comb  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04comb__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04dunes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04dunes__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04courtyard  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04courtyard__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04dunes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04dunes__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04compass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04compass__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04courtyard  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04courtyard__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04fault-lines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04fault-lines__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04fault-lines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04fault-lines__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04crossroads  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04crossroads__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04gap
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gap__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04duel-ring  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04duel-ring__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04gap
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gap__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04crossroads  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04crossroads__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04duel-ring  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04duel-ring__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04dunes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04dunes__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gem-caverns__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gem-caverns__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04gem-rush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gem-rush__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04dunes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04dunes__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04fault-lines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04fault-lines__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04gem-rush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gem-rush__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04hollows
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04hollows__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04fault-lines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04fault-lines__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04hollows
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04hollows__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04gap  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gap__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04horseshoes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04horseshoes__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04gem-rush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gem-rush__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04horseshoes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04horseshoes__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04gap  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gap__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04gem-rush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gem-rush__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04hollows  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04hollows__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04hourglass__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04hourglass__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04keyhole
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04keyhole__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04gem-caverns  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gem-caverns__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04gem-caverns  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04gem-caverns__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04keyhole
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04keyhole__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04lines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04lines__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04hollows  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04hollows__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04lines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04lines__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04horseshoes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04horseshoes__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04meander
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04meander__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04horseshoes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04horseshoes__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04meander
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04meander__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04hourglass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04hourglass__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04hourglass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04hourglass__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04keyhole  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04keyhole__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04mesas
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04mesas__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04mesas
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04mesas__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04mountain-pass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04mountain-pass__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04keyhole  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04keyhole__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04lines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04lines__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04mountain-pass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04mountain-pass__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04orchard
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04orchard__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04lines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04lines__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04orchard
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04orchard__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04meander  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04meander__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04passageway
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04passageway__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04meander  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04meander__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04passageway
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04passageway__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04mountain-pass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04mountain-pass__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04pinwheel
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04pinwheel__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04mesas  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04mesas__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04mesas  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04mesas__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04mountain-pass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04mountain-pass__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04orchard  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04orchard__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04orchard  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04orchard__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04pinwheel
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04pinwheel__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04plaza
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04plaza__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04plaza
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04plaza__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04restricted-area
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04restricted-area__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04restricted-area
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04restricted-area__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04passageway  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04passageway__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04sanctum
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04sanctum__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04passageway  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04passageway__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04sanctum
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04sanctum__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04pinwheel  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04pinwheel__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04plaza  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04plaza__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04plaza  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04plaza__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04restricted-area  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04restricted-area__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04spiral-moat
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04spiral-moat__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04spiral-moat
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04spiral-moat__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04standing-stones
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04standing-stones__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04standing-stones
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04standing-stones__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04pinwheel  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04pinwheel__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04sunburst
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04sunburst__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04restricted-area  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04restricted-area__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04sunburst
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04sunburst__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04sanctum  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04sanctum__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04terraces
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04terraces__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04sanctum  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04sanctum__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04terraces
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04terraces__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04spiral-moat  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04spiral-moat__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04tidepools
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04tidepools__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04standing-stones  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04standing-stones__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04standing-stones  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04standing-stones__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04tidepools
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04tidepools__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04two-kingdoms
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04two-kingdoms__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04spiral-moat  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04spiral-moat__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04sunburst  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04sunburst__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04two-kingdoms
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04two-kingdoms__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04waves
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04waves__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04terraces  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04terraces__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04waves
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04waves__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04sunburst  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04sunburst__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04wheel
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04wheel__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04terraces  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04terraces__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04wheel
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04wheel__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04tidepools  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04tidepools__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04two-kingdoms  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04two-kingdoms__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04wilds
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04wilds__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04wilds
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04wilds__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04two-kingdoms  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04two-kingdoms__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  04yin-yang
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04yin-yang__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04waves  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04waves__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  04yin-yang
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04yin-yang__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04waves  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04waves__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  adgato-gemcombat1
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat1__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04tidepools  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04tidepools__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04wheel  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04wheel__0.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  adgato-gemcombat1
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat1__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  adgato-gemcombat2
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat2__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04wheel  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04wheel__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  adgato-gemcombat2
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat2__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04wilds  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04wilds__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  adgato-gemcombat3
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat3__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04wilds  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04wilds__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  adgato-gemcombat3
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat3__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  04yin-yang  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04yin-yang__0.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  adgato-gemcombat4
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat4__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  adgato-gemcombat1  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat1__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  adgato-gemcombat1  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat1__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  adgato-gemcombat4
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat4__1.repl26a
+[|] STARTING  cg-hci66-flex vs v66i  adgato-gemcombat5
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat5__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  04yin-yang  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__04yin-yang__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  adgato-gemcombat2  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat2__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  adgato-gemcombat2  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat2__1.repl26a
+[|] STARTING  v66i vs cg-hci66-flex  adgato-gemcombat5
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat5__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  adgato-gemcombat3  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat3__0.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  adgato-gemcombat4  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat4__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  adgato-gemcombat3  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat3__1.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  adgato-gemcombat4  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat4__1.repl26a
+[+] TRUNCATED  cg-hci66-flex vs v66i  adgato-gemcombat5  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat5__0.repl26a
+[+] TRUNCATED  v66i vs cg-hci66-flex  adgato-gemcombat5  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/hci_flexscan/cg-hci66-flex__v66i__adgato-gemcombat5__1.repl26a
+Finished: 256 replay bundles saved, 0 failed

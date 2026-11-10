@@ -343,6 +343,234 @@
     "kills": 1,
     "rounds": 561
    }
+  ],
+  "Trzy_Kwaterki-36258abf": [
+   {
+    "map": "adgato_gemcombat1",
+    "side": "a",
+    "match": "01a1c59d-0f98-785a-b0a3-8cb64e94ca91",
+    "win": false,
+    "gems": 173,
+    "opp_gems": 1045,
+    "deaths": 17,
+    "kills": 0,
+    "rounds": 789
+   },
+   {
+    "map": "00ribs",
+    "side": "b",
+    "match": "01a1c59d-0f98-7195-b7f5-3af1cf41994f",
+    "win": false,
+    "gems": 14,
+    "opp_gems": 1008,
+    "deaths": 14,
+    "kills": 0,
+    "rounds": 1124
+   },
+   {
+    "map": "00swirl",
+    "side": "a",
+    "match": "01a1c59d-0f98-7560-bf04-284e488fdf6f",
+    "win": false,
+    "gems": 137,
+    "opp_gems": 1019,
+    "deaths": 31,
+    "kills": 2,
+    "rounds": 887
+   },
+   {
+    "map": "00gem_fields",
+    "side": "b",
+    "match": "01a1c59d-0f98-7247-94e3-a1dec24f9c93",
+    "win": false,
+    "gems": 729,
+    "opp_gems": 1017,
+    "deaths": 13,
+    "kills": 2,
+    "rounds": 744
+   },
+   {
+    "map": "00great_wall",
+    "side": "a",
+    "match": "01a1c59d-0f98-7b0d-b24e-f2d852825d3a",
+    "win": false,
+    "gems": 650,
+    "opp_gems": 1040,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 856
+   }
+  ],
+  "Univardisty-a4350547": [
+   {
+    "map": "01starvation",
+    "side": "b",
+    "match": "01a1c59e-1a69-7ab8-8f3c-669a455ae54c",
+    "win": false,
+    "gems": 106,
+    "opp_gems": 1008,
+    "deaths": 17,
+    "kills": 1,
+    "rounds": 1965
+   },
+   {
+    "map": "00the_line",
+    "side": "a",
+    "match": "01a1c59e-1a69-7722-9541-a12cd0137ae7",
+    "win": false,
+    "gems": 8,
+    "opp_gems": 1026,
+    "deaths": 15,
+    "kills": 0,
+    "rounds": 640
+   },
+   {
+    "map": "00breadcrumbs",
+    "side": "b",
+    "match": "01a1c59e-1a69-757c-ab4d-14bec718e08e",
+    "win": false,
+    "gems": 84,
+    "opp_gems": 1013,
+    "deaths": 13,
+    "kills": 0,
+    "rounds": 808
+   },
+   {
+    "map": "00collision",
+    "side": "a",
+    "match": "01a1c59e-1a69-7fc2-ab71-d18c0b77c32c",
+    "win": false,
+    "gems": 34,
+    "opp_gems": 1005,
+    "deaths": 15,
+    "kills": 3,
+    "rounds": 1167
+   },
+   {
+    "map": "01islands",
+    "side": "b",
+    "match": "01a1c59e-1a69-7669-9886-5fa3786de444",
+    "win": false,
+    "gems": 643,
+    "opp_gems": 1005,
+    "deaths": 8,
+    "kills": 0,
+    "rounds": 863
+   }
+  ],
+  "NEETCoders-882106d4": [
+   {
+    "map": "00crater",
+    "side": "a",
+    "match": "01a1c5a2-706d-7880-aad1-4f32a2e6a316",
+    "win": true,
+    "gems": 1030,
+    "opp_gems": 188,
+    "deaths": 1,
+    "kills": 6,
+    "rounds": 1026
+   },
+   {
+    "map": "00galaxy",
+    "side": "b",
+    "match": "01a1c5a2-706d-71d9-a31f-b29a5f5d9742",
+    "win": false,
+    "gems": 287,
+    "opp_gems": 1004,
+    "deaths": 13,
+    "kills": 1,
+    "rounds": 909
+   },
+   {
+    "map": "01boss_battle",
+    "side": "a",
+    "match": "01a1c5a2-706d-7939-893a-f2ffd4e7bfcd",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1909,
+    "deaths": 5,
+    "kills": 2,
+    "rounds": 916
+   },
+   {
+    "map": "02tangle",
+    "side": "b",
+    "match": "01a1c5a2-706d-7420-a212-564e148c8b0d",
+    "win": false,
+    "gems": 745,
+    "opp_gems": 1071,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 960
+   },
+   {
+    "map": "00dunes",
+    "side": "a",
+    "match": "01a1c5a2-706d-75b3-bcb3-fec8e638f809",
+    "win": false,
+    "gems": 83,
+    "opp_gems": 1028,
+    "deaths": 14,
+    "kills": 2,
+    "rounds": 737
+   }
+  ],
+  "caterpillow-ec2b57be": [
+   {
+    "map": "02harvest",
+    "side": "b",
+    "match": "01a1c5a3-04d5-7cac-8e50-cdf09d1eb6bb",
+    "win": false,
+    "gems": 759,
+    "opp_gems": 1028,
+    "deaths": 1,
+    "kills": 0,
+    "rounds": 934
+   },
+   {
+    "map": "02the_pack",
+    "side": "a",
+    "match": "01a1c5a3-04d5-7103-b23f-1882f6a2adce",
+    "win": false,
+    "gems": 391,
+    "opp_gems": 1033,
+    "deaths": 16,
+    "kills": 0,
+    "rounds": 1226
+   },
+   {
+    "map": "01shortcut",
+    "side": "b",
+    "match": "01a1c5a3-04d5-7ca8-b2d2-f616d97ba755",
+    "win": false,
+    "gems": 110,
+    "opp_gems": 1014,
+    "deaths": 8,
+    "kills": 0,
+    "rounds": 796
+   },
+   {
+    "map": "00contest",
+    "side": "a",
+    "match": "01a1c5a3-04d5-7185-b5e2-266ea97fc6e6",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1000,
+    "deaths": 39,
+    "kills": 2,
+    "rounds": 1168
+   },
+   {
+    "map": "00stampede",
+    "side": "b",
+    "match": "01a1c5a3-04d5-7e04-a92e-12c74f3fb527",
+    "win": false,
+    "gems": 530,
+    "opp_gems": 1053,
+    "deaths": 6,
+    "kills": 1,
+    "rounds": 1642
+   }
   ]
  },
  "groups": {
@@ -352,6 +580,9 @@
   "BattleCats-285f4eb5": "01a1c594-508c-7ebd-9aee-691a1d882d38",
   "test4-c00b682e": "01a1c594-e5e6-7e98-a9fe-8ac1fdca5884",
   "Ad_Astra-de0b1e3c": "01a1c59a-273e-7ef7-a6eb-da21b8d4295f",
-  "Trzy_Kwaterki-36258abf": "01a1c59d-0f8a-712e-90f5-3067bcf4be9b"
+  "Trzy_Kwaterki-36258abf": "01a1c59d-0f8a-712e-90f5-3067bcf4be9b",
+  "Univardisty-a4350547": "01a1c59e-1a66-7ce4-bc55-d9e8d964eaf0",
+  "NEETCoders-882106d4": "01a1c5a2-706b-755e-ae6f-47f5cb9ec7a7",
+  "caterpillow-ec2b57be": "01a1c5a3-04d3-7b72-81ce-b86e47e96257"
  }
 }

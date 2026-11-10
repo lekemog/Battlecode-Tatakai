@@ -172,12 +172,70 @@
     "kills": 0,
     "rounds": 869
    }
+  ],
+  "Rogue_Lock_Pickers-ff9d7df3": [
+   {
+    "map": "03honeycomb",
+    "side": "b",
+    "match": "01a1c2ca-eb42-7240-ad1a-e0886927b181",
+    "win": false,
+    "gems": 160,
+    "opp_gems": 1012,
+    "deaths": 8,
+    "kills": 0,
+    "rounds": 870
+   },
+   {
+    "map": "04plaza",
+    "side": "a",
+    "match": "01a1c2ca-eb42-7fa2-a1c1-317337b9a715",
+    "win": false,
+    "gems": 174,
+    "opp_gems": 1028,
+    "deaths": 11,
+    "kills": 5,
+    "rounds": 870
+   },
+   {
+    "map": "adgato_gemcombat1",
+    "side": "b",
+    "match": "01a1c2ca-eb42-78b8-a911-dbeff6d17d4e",
+    "win": true,
+    "gems": 1066,
+    "opp_gems": 560,
+    "deaths": 6,
+    "kills": 12,
+    "rounds": 1152
+   },
+   {
+    "map": "00ambush",
+    "side": "a",
+    "match": "01a1c2ca-eb42-7f5c-a11c-0db04aef98eb",
+    "win": false,
+    "gems": 922,
+    "opp_gems": 1028,
+    "deaths": 0,
+    "kills": 0,
+    "rounds": 1200
+   },
+   {
+    "map": "01hooks",
+    "side": "b",
+    "match": "01a1c2ca-eb42-7f9e-80dd-0d95d544286c",
+    "win": false,
+    "gems": 0,
+    "opp_gems": 1010,
+    "deaths": 28,
+    "kills": 0,
+    "rounds": 1217
+   }
   ]
  },
  "groups": {
   "BattleCats-285f4eb5": "01a1c2c2-28dc-7bdb-82e6-1f0c48763b26",
   "Claudus_Maximus-ad5474c2": "01a1c2c7-e9d0-752a-825a-7492e6e02bc1",
   "QS2isLaw-6bbc4925": "01a1c2c8-f236-7972-8e8c-87eb1ad27ce7",
-  "Rogue_Lock_Pickers-ff9d7df3": "01a1c2ca-eb40-7c42-a9d8-1f8c3a2bda07"
+  "Rogue_Lock_Pickers-ff9d7df3": "01a1c2ca-eb40-7c42-a9d8-1f8c3a2bda07",
+  "bentheboss-a4247250": "01a1c2ce-c1e0-7b24-bb8c-e0e53f701a68"
  }
 }

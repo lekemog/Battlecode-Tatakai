@@ -1,0 +1,350 @@
+[
+  {
+    "opponent": "Ad_Astra-de0b1e3c",
+    "games": 5,
+    "unique_sets": 5,
+    "same_size_off_modal": 3,
+    "off_modal_rate": 0.6,
+    "same_size_pairs": 4,
+    "different_same_size_pairs": 4,
+    "detail": {
+      "3": {
+        "n": 2,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Vesper Vale": 1,
+          "Cassi & Issac | Marcella | Vesper Vale": 1
+        },
+        "orders": {
+          "Vesper Vale | Cassi & Issac | Heart of Ruin": 1,
+          "Marcella | Cassi & Issac | Vesper Vale": 1
+        }
+      },
+      "5": {
+        "n": 3,
+        "compositions": {
+          "Heart of Ruin | Marcella | Ren | Vesper Vale | Willow": 1,
+          "Heart of Ruin | Marcella | Ren | Ryth | Vesper Vale": 1,
+          "Cassi & Issac | Heart of Ruin | Ren | Vendetta | Vesper Vale": 1
+        },
+        "orders": {
+          "Heart of Ruin | Ren | Vesper Vale | Willow | Marcella": 1,
+          "Heart of Ruin | Ren | Vesper Vale | Ryth | Marcella": 1,
+          "Heart of Ruin | Ren | Vesper Vale | Cassi & Issac | Vendetta": 1
+        }
+      }
+    }
+  },
+  {
+    "opponent": "BattleCats-285f4eb5",
+    "games": 5,
+    "unique_sets": 4,
+    "same_size_off_modal": 1,
+    "off_modal_rate": 0.2,
+    "same_size_pairs": 2,
+    "different_same_size_pairs": 1,
+    "detail": {
+      "4": {
+        "n": 1,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Varg | Vesper Vale": 1
+        },
+        "orders": {
+          "Vesper Vale | Varg | Heart of Ruin | Cassi & Issac": 1
+        }
+      },
+      "3": {
+        "n": 2,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Vendetta": 1,
+          "Cassi & Issac | Marcella | Varg": 1
+        },
+        "orders": {
+          "Vendetta | Cassi & Issac | Heart of Ruin": 1,
+          "Varg | Cassi & Issac | Marcella": 1
+        }
+      },
+      "5": {
+        "n": 2,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Varg | Vendetta | Vesper Vale": 2
+        },
+        "orders": {
+          "Vesper Vale | Varg | Cassi & Issac | Heart of Ruin | Vendetta": 1,
+          "Cassi & Issac | Heart of Ruin | Vesper Vale | Vendetta | Varg": 1
+        }
+      }
+    }
+  },
+  {
+    "opponent": "Intercontinental_Fish-1890540d",
+    "games": 5,
+    "unique_sets": 3,
+    "same_size_off_modal": 1,
+    "off_modal_rate": 0.2,
+    "same_size_pairs": 4,
+    "different_same_size_pairs": 2,
+    "detail": {
+      "5": {
+        "n": 3,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Vendetta | Vesper Vale | Willow": 2,
+          "Cassi & Issac | Heart of Ruin | Marcella | Vendetta | Willow": 1
+        },
+        "orders": {
+          "Vesper Vale | Vendetta | Heart of Ruin | Cassi & Issac | Willow": 2,
+          "Marcella | Vendetta | Heart of Ruin | Cassi & Issac | Willow": 1
+        }
+      },
+      "4": {
+        "n": 2,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Marcella | Vendetta": 2
+        },
+        "orders": {
+          "Marcella | Vendetta | Heart of Ruin | Cassi & Issac": 2
+        }
+      }
+    }
+  },
+  {
+    "opponent": "Mite-ee83f5e5",
+    "games": 5,
+    "unique_sets": 3,
+    "same_size_off_modal": 1,
+    "off_modal_rate": 0.2,
+    "same_size_pairs": 6,
+    "different_same_size_pairs": 3,
+    "detail": {
+      "5": {
+        "n": 4,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Tavi | Vendetta | Vesper Vale": 3,
+          "Cassi & Issac | Heart of Ruin | Tavi | Vesper Vale | Willow": 1
+        },
+        "orders": {
+          "Vesper Vale | Vendetta | Heart of Ruin | Cassi & Issac | Tavi": 3,
+          "Vesper Vale | Willow | Heart of Ruin | Cassi & Issac | Tavi": 1
+        }
+      },
+      "3": {
+        "n": 1,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Vesper Vale": 1
+        },
+        "orders": {
+          "Vesper Vale | Heart of Ruin | Cassi & Issac": 1
+        }
+      }
+    }
+  },
+  {
+    "opponent": "NEETCoders-882106d4",
+    "games": 5,
+    "unique_sets": 3,
+    "same_size_off_modal": 3,
+    "off_modal_rate": 0.6,
+    "same_size_pairs": 10,
+    "different_same_size_pairs": 8,
+    "detail": {
+      "5": {
+        "n": 5,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Marcella | Vendetta | Vesper Vale": 2,
+          "Heart of Ruin | Marcella | Ren | Vendetta | Vesper Vale": 2,
+          "Heart of Ruin | Marcella | Ryth | Vendetta | Vesper Vale": 1
+        },
+        "orders": {
+          "Heart of Ruin | Marcella | Vesper Vale | Cassi & Issac | Vendetta": 2,
+          "Heart of Ruin | Marcella | Ren | Vendetta | Vesper Vale": 2,
+          "Heart of Ruin | Marcella | Ryth | Vendetta | Vesper Vale": 1
+        }
+      }
+    }
+  },
+  {
+    "opponent": "Trzy_Kwaterki-36258abf",
+    "games": 5,
+    "unique_sets": 5,
+    "same_size_off_modal": 2,
+    "off_modal_rate": 0.4,
+    "same_size_pairs": 3,
+    "different_same_size_pairs": 3,
+    "detail": {
+      "3": {
+        "n": 1,
+        "compositions": {
+          "Cassi & Issac | Marcella | Prism": 1
+        },
+        "orders": {
+          "Prism | Marcella | Cassi & Issac": 1
+        }
+      },
+      "5": {
+        "n": 3,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Ryth | Vendetta | Vesper Vale": 1,
+          "Cassi & Issac | Heart of Ruin | Marcella | Prism | Vesper Vale": 1,
+          "Cassi & Issac | Heart of Ruin | Ren | Vendetta | Vesper Vale": 1
+        },
+        "orders": {
+          "Cassi & Issac | Vesper Vale | Heart of Ruin | Ryth | Vendetta": 1,
+          "Prism | Marcella | Cassi & Issac | Vesper Vale | Heart of Ruin": 1,
+          "Cassi & Issac | Vesper Vale | Heart of Ruin | Vendetta | Ren": 1
+        }
+      },
+      "4": {
+        "n": 1,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Ryth | Vesper Vale": 1
+        },
+        "orders": {
+          "Cassi & Issac | Vesper Vale | Heart of Ruin | Ryth": 1
+        }
+      }
+    }
+  },
+  {
+    "opponent": "Univardisty-a4350547",
+    "games": 5,
+    "unique_sets": 4,
+    "same_size_off_modal": 1,
+    "off_modal_rate": 0.2,
+    "same_size_pairs": 2,
+    "different_same_size_pairs": 1,
+    "detail": {
+      "5": {
+        "n": 2,
+        "compositions": {
+          "Heart of Ruin | Marcella | Ryth | Tavi | Vesper Vale": 1,
+          "Cassi & Issac | Heart of Ruin | Marcella | Varg | Vesper Vale": 1
+        },
+        "orders": {
+          "Ryth | Vesper Vale | Marcella | Tavi | Heart of Ruin": 1,
+          "Vesper Vale | Cassi & Issac | Marcella | Varg | Heart of Ruin": 1
+        }
+      },
+      "4": {
+        "n": 1,
+        "compositions": {
+          "Heart of Ruin | Ryth | Vendetta | Willow": 1
+        },
+        "orders": {
+          "Ryth | Vendetta | Willow | Heart of Ruin": 1
+        }
+      },
+      "3": {
+        "n": 2,
+        "compositions": {
+          "Heart of Ruin | Marcella | Ryth": 2
+        },
+        "orders": {
+          "Ryth | Marcella | Heart of Ruin": 2
+        }
+      }
+    }
+  },
+  {
+    "opponent": "caterpillow-ec2b57be",
+    "games": 5,
+    "unique_sets": 4,
+    "same_size_off_modal": 1,
+    "off_modal_rate": 0.2,
+    "same_size_pairs": 3,
+    "different_same_size_pairs": 2,
+    "detail": {
+      "5": {
+        "n": 3,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Prism | Vendetta | Vesper Vale": 1,
+          "Cassi & Issac | Heart of Ruin | Prism | Vesper Vale | Willow": 2
+        },
+        "orders": {
+          "Heart of Ruin | Vendetta | Vesper Vale | Prism | Cassi & Issac": 1,
+          "Heart of Ruin | Prism | Vesper Vale | Willow | Cassi & Issac": 2
+        }
+      },
+      "3": {
+        "n": 1,
+        "compositions": {
+          "Cassi & Issac | Prism | Vesper Vale": 1
+        },
+        "orders": {
+          "Vesper Vale | Cassi & Issac | Prism": 1
+        }
+      },
+      "4": {
+        "n": 1,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Prism | Vesper Vale": 1
+        },
+        "orders": {
+          "Heart of Ruin | Cassi & Issac | Vesper Vale | Prism": 1
+        }
+      }
+    }
+  },
+  {
+    "opponent": "stellar_best_girl-547efb5b",
+    "games": 5,
+    "unique_sets": 4,
+    "same_size_off_modal": 2,
+    "off_modal_rate": 0.4,
+    "same_size_pairs": 6,
+    "different_same_size_pairs": 5,
+    "detail": {
+      "5": {
+        "n": 4,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Prism | Varg | Vendetta": 1,
+          "Cassi & Issac | Heart of Ruin | Prism | Vesper Vale | Willow": 2,
+          "Cassi & Issac | Marcella | Ryth | Tavi | Vesper Vale": 1
+        },
+        "orders": {
+          "Vendetta | Cassi & Issac | Prism | Varg | Heart of Ruin": 1,
+          "Vesper Vale | Cassi & Issac | Prism | Willow | Heart of Ruin": 2,
+          "Ryth | Vesper Vale | Cassi & Issac | Marcella | Tavi": 1
+        }
+      },
+      "3": {
+        "n": 1,
+        "compositions": {
+          "Cassi & Issac | Stellar | Vesper Vale": 1
+        },
+        "orders": {
+          "Vesper Vale | Cassi & Issac | Stellar": 1
+        }
+      }
+    }
+  },
+  {
+    "opponent": "test4-c00b682e",
+    "games": 5,
+    "unique_sets": 3,
+    "same_size_off_modal": 1,
+    "off_modal_rate": 0.2,
+    "same_size_pairs": 6,
+    "different_same_size_pairs": 3,
+    "detail": {
+      "5": {
+        "n": 4,
+        "compositions": {
+          "Cassi & Issac | Heart of Ruin | Varg | Vesper Vale | Willow": 3,
+          "Cassi & Issac | Heart of Ruin | Marcella | Prism | Willow": 1
+        },
+        "orders": {
+          "Heart of Ruin | Varg | Vesper Vale | Cassi & Issac | Willow": 3,
+          "Heart of Ruin | Marcella | Prism | Cassi & Issac | Willow": 1
+        }
+      },
+      "4": {
+        "n": 1,
+        "compositions": {
+          "Cassi & Issac | Marcella | Prism | Willow": 1
+        },
+        "orders": {
+          "Prism | Marcella | Willow | Cassi & Issac": 1
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "cg-role61-kite vs v53x": {
+    "maps": 128,
+    "games": 256,
+    "win_rate_delta_percentage_points": -6.640625,
+    "map_bootstrap_95_percent_interval": [
+      -13.671875,
+      0.390625
+    ],
+    "loss_to_win": 36,
+    "win_to_loss": 53,
+    "discordant_pair_binomial_p_unadjusted": 0.08932073673118934,
+    "mean_metric_deltas": {
+      "margin": -48.25,
+      "deaths": 0.12890625,
+      "gold200": 4.40234375,
+      "vesper_gold200": 6.4609375,
+      "earnedGold": -90.5234375,
+      "fuelExhausted": 0.5,
+      "deaths200": 0.02734375,
+      "spentGold200": 10.7421875,
+      "vesper_deaths200": -0.01953125,
+      "vesper_spentGold200": 7.578125,
+      "vesper_championDamageDone200": -174.20263169705868
+    }
+  },
+  "cg-role61-kite vs v50p1": {
+    "maps": 128,
+    "games": 256,
+    "win_rate_delta_percentage_points": 4.296875,
+    "map_bootstrap_95_percent_interval": [
+      -1.953125,
+      10.9375
+    ],
+    "loss_to_win": 40,
+    "win_to_loss": 29,
+    "discordant_pair_binomial_p_unadjusted": 0.22840022535329696,
+    "mean_metric_deltas": {
+      "margin": -2.78515625,
+      "deaths": 0.1953125,
+      "gold200": -15.0703125,
+      "vesper_gold200": -4.7578125,
+      "earnedGold": 133.80859375,
+      "fuelExhausted": 0.15234375,
+      "deaths200": 0.01953125,
+      "spentGold200": -17.1875,
+      "vesper_deaths200": -0.0234375,
+      "vesper_spentGold200": -3.28125,
+      "vesper_championDamageDone200": -179.71908632665873
+    }
+  },
+  "cg-role61-kite vs v60d": {
+    "maps": 128,
+    "games": 256,
+    "win_rate_delta_percentage_points": -9.765625,
+    "map_bootstrap_95_percent_interval": [
+      -14.84375,
+      -4.296875
+    ],
+    "loss_to_win": 48,
+    "win_to_loss": 73,
+    "discordant_pair_binomial_p_unadjusted": 0.02870319917373694,
+    "mean_metric_deltas": {
+      "margin": -85.39453125,
+      "deaths": 0.2421875,
+      "gold200": -0.86328125,
+      "vesper_gold200": -9.80078125,
+      "earnedGold": -262.171875,
+      "fuelExhausted": 0.09375,
+      "deaths200": 0.0390625,
+      "spentGold200": 4.2578125,
+      "vesper_deaths200": -0.01171875,
+      "vesper_spentGold200": -6.796875,
+      "vesper_championDamageDone200": -191.76933727413416
+    }
+  },
+  "cg-role61 vs v53x": {
+    "maps": 128,
+    "games": 256,
+    "win_rate_delta_percentage_points": -4.6875,
+    "map_bootstrap_95_percent_interval": [
+      -12.5,
+      3.125
+    ],
+    "loss_to_win": 47,
+    "win_to_loss": 59,
+    "discordant_pair_binomial_p_unadjusted": 0.28528442186565817,
+    "mean_metric_deltas": {
+      "margin": -80.03515625,
+      "deaths": 0.3515625,
+      "gold200": -18.85546875,
+      "vesper_gold200": 18.64453125,
+      "earnedGold": -361.45703125,
+      "fuelExhausted": -0.0546875,
+      "deaths200": -0.0234375,
+      "spentGold200": -11.0546875,
+      "vesper_deaths200": -0.03515625,
+      "vesper_spentGold200": 14.6484375,
+      "vesper_championDamageDone200": -162.58024990558624
+    }
+  },
+  "cg-role61 vs v50p1": {
+    "maps": 128,
+    "games": 256,
+    "win_rate_delta_percentage_points": -10.9375,
+    "map_bootstrap_95_percent_interval": [
+      -18.359375,
+      -3.515625
+    ],
+    "loss_to_win": 36,
+    "win_to_loss": 64,
+    "discordant_pair_binomial_p_unadjusted": 0.006637120515926126,
+    "mean_metric_deltas": {
+      "margin": -143.30078125,
+      "deaths": 0.8359375,
+      "gold200": -73.08203125,
+      "vesper_gold200": -0.5703125,
+      "earnedGold": -261.91015625,
+      "fuelExhausted": 0.15625,
+      "deaths200": -0.00390625,
+      "spentGold200": -70.234375,
+      "vesper_deaths200": -0.01953125,
+      "vesper_spentGold200": 0.3515625,
+      "vesper_championDamageDone200": -123.22038520127535
+    }
+  },
+  "cg-role61 vs v60d": {
+    "maps": 128,
+    "games": 256,
+    "win_rate_delta_percentage_points": -10.15625,
+    "map_bootstrap_95_percent_interval": [
+      -16.40625,
+      -4.296875
+    ],
+    "loss_to_win": 45,
+    "win_to_loss": 71,
+    "discordant_pair_binomial_p_unadjusted": 0.019879103738233976,
+    "mean_metric_deltas": {
+      "margin": -101.171875,
+      "deaths": 0.60546875,
+      "gold200": -39.2734375,
+      "vesper_gold200": -11.8984375,
+      "earnedGold": -579.765625,
+      "fuelExhausted": -0.0234375,
+      "deaths200": -0.0078125,
+      "spentGold200": -34.53125,
+      "vesper_deaths200": -0.015625,
+      "vesper_spentGold200": -10.9375,
+      "vesper_championDamageDone200": -173.3715401813388
+    }
+  }
+}

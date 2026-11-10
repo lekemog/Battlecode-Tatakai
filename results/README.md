@@ -11,6 +11,7 @@ Every study has its own folder with a `README.md` (summary first, evidence below
 ## Era 3 (patch 4.0.0)
 | Folder | What |
 |---|---|
+| [top10-gap-2026-11-10](top10-gap-2026-11-10/README.md) | Why we lose to the top 10 (t10b_240, uk_x summaries): kill war, middle control, same-champion gap, teleport crystals; strategy; v62care1 / v62tp1-3 local results |
 | [team-channels-2026-11-08](team-channels-2026-11-08/README.md) | Priority channel and draft memory evaluated; upgrade and draft screening |
 | [public-insights-2026-11-08](public-insights-2026-11-08/README.md) | Second public-repo review: qualifier post-mortem, unused draft memory and priority channel, schedule facts |
 | [patch-4.0.0-engine3-2026-11-05](patch-4.0.0-engine3-2026-11-05/README.md) | Patch notes, ladder effect, v51d / v51e1 re-tested on 128 maps |

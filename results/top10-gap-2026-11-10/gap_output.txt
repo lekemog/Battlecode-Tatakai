@@ -1,0 +1,114 @@
+=== t10b_240: 50 games, 3 wins
+team curves (us / them): earned gold, collected gems, banked gems
+  r25  gold     14 /     31   collected     2 /     3   banked     0 /     0
+  r50  gold     87 /    150   collected    14 /    18   banked     2 /     2
+  r100 gold    231 /    437   collected    38 /    57   banked    16 /    22
+  r200 gold    566 /   1014   collected    95 /   137   banked    48 /    82
+  r300 gold    939 /   1703   collected   156 /   240   banked    94 /   157
+  r500 gold   1688 /   3274   collected   273 /   491   banked   182 /   372
+  ahead on gold at r200 in 8 of 50
+  kills                us       0.8   them       9.5
+  deaths               us       9.8   them       1.9
+  assists              us       1.5   them      18.4
+  earnedGold           us    3273.8   them    7119.1
+  collectedGems        us     510.9   them    1088.6
+  submittedGems        us     372.9   them    1019.3
+  monsterDamageDone    us   68939.1   them  108844.3
+  championDamageDone   us   11241.7   them   26661.1
+  healingDone          us       0.0   them    3719.6
+  shieldingDone        us   16503.4   them   14001.7
+  our deaths 9.76/game, context {'camp': 11, 'champion': 477}, per 100 rounds [31, 49, 44, 55, 43, 55, 52, 37, 36, 19, 67], first-death median r145
+    our deaths by zone (own frame) {'own': 220, 'mid': 222, 'enemy': 46}; camp clears per game by zone {'own': 25.5, 'mid': 14.8, 'enemy': 1.1}
+    gems lost 89/game; consumables per game {'Altar Lock': 6.5}; wards 347/game
+  their deaths 1.88/game, context {'camp': 37, 'champion': 57}, per 100 rounds [11, 6, 14, 17, 9, 7, 13, 6, 5, 1, 5], first-death median r297
+    their deaths by zone (own frame) {'mid': 67, 'own': 25, 'enemy': 2}; camp clears per game by zone {'own': 27.0, 'mid': 29.6, 'enemy': 3.9}
+    gems lost 18/game; consumables per game {'Altar Lock': 3.4, 'Teleport Crystal': 5.9}; wards 193/game
+  our deaths grouped within 10 rounds (size: count) [(1, 323), (2, 70), (3, 7), (4, 1)]
+  enemy champions credited with our deaths [('Vesper Vale', 137), ('Marcella', 87), ('Heart of Ruin', 82), ('Issac', 44), ('Cassi', 32), ('Vendetta', 32)]
+  THEIR champions (per game fielded): kills deaths gold collected/banked monster-dmg champ-dmg heal shield
+    Heart of Ruin  n=43 K  1.9 D  0.3 gold  1024 gems  177/ 158 mdmg  18.1k cdmg  4.9k heal     0 shield 13516
+    Cassi          n=41 K  0.8 D  0.6 gold   402 gems   55/  50 mdmg  12.6k cdmg  3.3k heal     0 shield     0
+    Issac          n=41 K  1.1 D  0.6 gold   712 gems  103/  78 mdmg  11.7k cdmg  2.2k heal     0 shield     0
+    Vesper Vale    n=38 K  3.6 D  0.1 gold  3756 gems  436/ 429 mdmg  41.0k cdmg  9.5k heal     0 shield     0
+    Vendetta       n=22 K  1.5 D  0.4 gold  1002 gems  190/ 186 mdmg  22.0k cdmg  4.0k heal     0 shield     0
+    Marcella       n=21 K  4.1 D  0.3 gold  2339 gems  392/ 366 mdmg  17.8k cdmg 10.0k heal     0 shield     0
+    Willow         n=15 K  0.2 D  0.4 gold   126 gems   47/  43 mdmg  10.0k cdmg  1.1k heal 12399 shield     0
+    Prism          n=12 K  2.2 D  0.2 gold  1451 gems  361/ 338 mdmg  27.9k cdmg  6.7k heal     0 shield     0
+    Varg           n= 9 K  1.4 D  0.0 gold  1976 gems  322/ 322 mdmg  44.8k cdmg  4.6k heal     0 shield 13211
+    Ryth           n= 9 K  0.8 D  0.2 gold   695 gems  184/ 181 mdmg  17.4k cdmg  3.9k heal     0 shield     0
+    Tavi           n= 6 K  0.8 D  0.3 gold   566 gems   88/  74 mdmg  15.3k cdmg  4.6k heal     0 shield     0
+    Ren            n= 6 K  1.3 D  0.2 gold   496 gems  145/ 126 mdmg  12.9k cdmg  3.1k heal     0 shield     0
+    Stellar        n= 1 K  1.0 D  0.0 gold  2639 gems  402/ 394 mdmg  38.2k cdmg 17.1k heal     0 shield     0
+  OUR champions (per game fielded): kills deaths gold collected/banked monster-dmg champ-dmg heal shield
+    Heart of Ruin  n=50 K  0.2 D  2.1 gold   823 gems  126/  93 mdmg  13.1k cdmg  1.5k heal     0 shield  9605
+    Ryth           n=50 K  0.2 D  2.6 gold   754 gems  140/ 100 mdmg  15.7k cdmg  3.3k heal     0 shield     0
+    Marcella       n=50 K  0.3 D  2.4 gold   843 gems  112/  71 mdmg  13.2k cdmg  3.7k heal     0 shield     0
+    Vendetta       n=40 K  0.1 D  1.8 gold   588 gems   82/  64 mdmg  16.2k cdmg  1.4k heal     0 shield     0
+    Varg           n=33 K  0.1 D  1.8 gold   581 gems  101/  86 mdmg  21.3k cdmg  2.5k heal     0 shield 10452
+  per opponent: wins, gold r200 us/them, deaths us/them, kills us/them, their crystals/game
+    stellar_best_girl        0/5    615/ 1488  10.0/ 1.0  0.4/ 9.6   0.0
+    Mite                     2/5    806/ 1118   2.2/ 1.4  0.6/ 1.8   1.8
+    Intercontinental_Fish    0/5    537/  989   7.8/ 5.0  0.8/ 7.8  12.4
+    BattleCats               0/5    586/ 1265   8.6/ 0.2  0.2/ 8.4  15.6
+    test4                    0/5    550/  959   8.2/ 0.8  0.8/ 8.2  12.6
+    Ad_Astra                 0/5    671/ 1056  11.4/ 2.0  1.2/11.4   0.0
+    Trzy_Kwaterki            0/5    411/  829  15.2/ 1.6  0.8/15.2   6.4
+    Univardisty              0/5    344/  611  13.6/ 1.2  0.8/13.4   6.8
+    NEETCoders               1/5    558/  878   6.6/ 3.8  2.2/ 6.2   3.0
+    caterpillow              0/5    580/  941  14.0/ 1.8  0.6/13.4   0.6
+=== uk_x: 45 games, 12 wins
+team curves (us / them): earned gold, collected gems, banked gems
+  r25  gold     14 /     24   collected     4 /     5   banked     0 /     0
+  r50  gold     97 /    138   collected    18 /    21   banked     2 /     5
+  r100 gold    294 /    374   collected    56 /    62   banked    16 /    25
+  r200 gold    675 /    848   collected   127 /   133   banked    61 /    70
+  r300 gold   1131 /   1374   collected   206 /   229   banked   125 /   148
+  r500 gold   1983 /   2566   collected   344 /   430   banked   248 /   334
+  ahead on gold at r200 in 16 of 45
+  kills                us       2.0   them       7.0
+  deaths               us       7.5   them       3.7
+  assists              us       3.6   them      11.9
+  earnedGold           us    4628.1   them    6550.4
+  collectedGems        us     794.2   them    1132.1
+  submittedGems        us     592.5   them     973.2
+  monsterDamageDone    us   88458.7   them  104890.5
+  championDamageDone   us   17036.5   them   27187.4
+  healingDone          us       0.0   them    1128.2
+  shieldingDone        us   29273.3   them   10748.8
+  our deaths 7.49/game, context {'champion': 314, 'camp': 23}, per 100 rounds [21, 27, 18, 29, 31, 31, 36, 31, 30, 24, 59], first-death median r160
+    our deaths by zone (own frame) {'mid': 167, 'enemy': 49, 'own': 121}; camp clears per game by zone {'mid': 18.9, 'own': 30.6, 'enemy': 3.2}
+    gems lost 157/game; consumables per game {'Altar Lock': 7.3}; wards 403/game
+  their deaths 3.67/game, context {'champion': 104, 'camp': 61}, per 100 rounds [13, 18, 14, 20, 7, 17, 13, 13, 7, 10, 33], first-death median r184
+    their deaths by zone (own frame) {'mid': 105, 'enemy': 23, 'own': 37}; camp clears per game by zone {'mid': 22.2, 'own': 33.2, 'enemy': 4.8}
+    gems lost 120/game; consumables per game {'Teleport Crystal': 8.5, 'Altar Lock': 4.8}; wards 172/game
+  our deaths grouped within 10 rounds (size: count) [(1, 260), (2, 34), (3, 3)]
+  enemy champions credited with our deaths [('Marcella', 90), ('Vesper Vale', 73), ('Vendetta', 36), ('Varg', 31), ('Heart of Ruin', 25), ('Prism', 16)]
+  THEIR champions (per game fielded): kills deaths gold collected/banked monster-dmg champ-dmg heal shield
+    Marcella       n=37 K  2.4 D  0.6 gold  1905 gems  301/ 269 mdmg  17.7k cdmg  9.0k heal     0 shield     0
+    Vendetta       n=32 K  1.1 D  0.8 gold  1115 gems  186/ 171 mdmg  24.3k cdmg  4.3k heal     0 shield     0
+    Varg           n=25 K  1.2 D  1.1 gold  1115 gems  233/ 195 mdmg  29.8k cdmg  5.0k heal     0 shield 10785
+    Ryth           n=22 K  0.6 D  0.8 gold   736 gems  218/ 114 mdmg  16.5k cdmg  3.5k heal     0 shield     0
+    Vesper Vale    n=22 K  3.3 D  0.5 gold  4224 gems  622/ 559 mdmg  51.4k cdmg 13.9k heal     0 shield     0
+    Heart of Ruin  n=20 K  1.2 D  0.8 gold   900 gems  139/ 127 mdmg  15.3k cdmg  3.7k heal     0 shield 10704
+    Cassi          n=17 K  0.5 D  1.1 gold   395 gems   87/  78 mdmg  12.2k cdmg  2.5k heal     0 shield     0
+    Issac          n=17 K  0.4 D  1.1 gold   383 gems   95/  84 mdmg   8.9k cdmg  1.5k heal     0 shield     0
+    Tavi           n= 8 K  1.0 D  0.4 gold  1015 gems  101/  77 mdmg  19.8k cdmg  5.2k heal     0 shield     0
+    Prism          n= 6 K  2.7 D  0.2 gold   662 gems  325/ 322 mdmg  13.6k cdmg  6.6k heal     0 shield     0
+    Ren            n= 6 K  0.5 D  0.3 gold  1292 gems  135/ 128 mdmg  16.5k cdmg  3.5k heal     0 shield     0
+    Willow         n= 3 K  1.3 D  0.0 gold   187 gems   41/  30 mdmg  15.0k cdmg  1.4k heal 16923 shield     0
+  OUR champions (per game fielded): kills deaths gold collected/banked monster-dmg champ-dmg heal shield
+    Heart of Ruin  n=45 K  0.6 D  1.2 gold  1320 gems  245/ 171 mdmg  20.0k cdmg  3.1k heal     0 shield 21801
+    Ryth           n=45 K  0.3 D  2.2 gold  1059 gems  182/ 149 mdmg  19.6k cdmg  4.5k heal     0 shield     0
+    Marcella       n=45 K  0.6 D  2.3 gold  1154 gems  139/ 116 mdmg  16.7k cdmg  5.6k heal     0 shield     0
+    Vendetta       n=36 K  0.3 D  1.3 gold   745 gems  187/ 116 mdmg  19.3k cdmg  2.5k heal     0 shield     0
+    Varg           n=27 K  0.3 D  1.1 gold   833 gems  131/ 107 mdmg  27.8k cdmg  3.0k heal     0 shield 12454
+  per opponent: wins, gold r200 us/them, deaths us/them, kills us/them, their crystals/game
+    BattleCats               2/5    742/ 1038   9.0/ 1.0  0.6/ 8.2   7.2
+    Claudus_Maximus          0/5    446/  655   2.2/ 0.4  0.2/ 2.0  18.2
+    QS2isLaw                 4/5   1073/  994   1.6/ 4.2  3.8/ 1.2   8.4
+    Rogue_Lock_Pickers       0/5    446/  955  12.4/ 4.0  1.4/12.2   0.0
+    bentheboss               0/5    747/ 1054   6.6/ 5.6  3.4/ 5.8  26.0
+    smurphy                  1/5    517/  520   7.2/ 1.2  0.6/ 7.0   2.6
+    jianqiao_yepazhe         1/5    419/  788  14.2/ 4.6  1.4/14.0   8.4
+    DOOMSDAY                 3/5    841/  838   9.4/ 8.6  4.0/ 8.6   6.0
+    0xDEADBEEF               1/5    841/  785   4.8/ 3.4  2.8/ 3.8   0.0

@@ -1,0 +1,2 @@
+US low-health-in-contact episodes 649  died within 15 rounds 62%  >=6 tiles from enemies 3 rounds later 11%  ally within 3 when low 36%
+THEM low-health-in-contact episodes 267  died within 15 rounds 14%  >=6 tiles from enemies 3 rounds later 33%  ally within 3 when low 63%

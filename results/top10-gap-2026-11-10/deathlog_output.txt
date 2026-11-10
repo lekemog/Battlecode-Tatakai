@@ -1,0 +1,34 @@
+death lines 488
+ 243 allies within4 at first sight: 0
+ 163 allies within4 at first sight: 1
+  66 allies within4 at first sight: 2
+ 282 allies within4 at last turn: 0
+ 137 allies within4 at last turn: 1
+  53 allies within4 at last turn: 2
+  26 enemies at last turn: 0
+ 104 enemies at last turn: 1
+ 119 enemies at last turn: 2
+ 114 enemies at last turn: 3
+ 109 enemies at last turn: 4
+ 159 first sight dist 4-5
+ 185 first sight dist<=3
+ 128 first sight dist>=6
+  14 hp lost at first-sight turn >=30%
+   2 mode at first sight: br/-
+  10 mode at first sight: ca/-
+   2 mode at first sight: ca/tr
+   2 mode at first sight: fa/es
+  74 mode at first sight: fa/fi
+   1 mode at first sight: fa/pl
+  58 mode at first sight: fa/tr
+  12 mode at first sight: lo/-
+ 274 mode at first sight: pv/-
+  37 mode at first sight: tr/-
+ 458 no big hit at first sight
+  16 no enemy ever seen in last turns
+ 160 sim at first sight even/favourable
+ 266 sim at first sight our>their
+  46 sim not run
+  27 turns from first sight to death: 4-7
+ 438 turns from first sight to death: 8+
+   7 turns from first sight to death: <=3

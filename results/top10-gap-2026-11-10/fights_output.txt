@@ -1,0 +1,6 @@
+attack ranges at r5: ours {1: 223}  theirs {1: 151, 3: 113}
+fights 809 with a death 325
+we had more champions    n= 43 our deaths  83 theirs   5  hp damage taken us   3346 dealt   1218
+equal                    n= 97 our deaths 146 theirs  18  hp damage taken us   2628 dealt   1178
+they had more            n=185 our deaths 254 theirs  45  hp damage taken us   2462 dealt   1339
+fights with a death before r300: 92 our deaths 137 theirs 26

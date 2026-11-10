@@ -87,6 +87,37 @@ against `v50p1` for caution. This is consistent with every earlier study: the lo
 3. **Deadline: the UK qualifier lock is today, 10 Nov, and the exact hour is unconfirmed.** Nothing here should go live without a panel. The safe
    default is to keep 240 unless the other session's v61b passes its UK panel.
 
+## 6. Update (evening, 10 Nov): decoded replays revise the diagnosis
+All 50 `t10b_240` replays plus our bot's stdout were downloaded (`cambc matches download`) and decoded (`tools/replay/extract5.mjs`).
+Scripts: `tools/top10gap/{deathlog,decdeaths,fights,escape}.py`; outputs `*_output.txt` here.
+
+- **Not an information problem.** Our bot's death log: in 438 of 488 deaths an enemy was in view 8+ turns earlier. In 266 the
+  fight simulation already predicted a loss at first sight.
+- **Not mainly numbers.** First contact (median r66, 47 of 49 in the middle): we were outnumbered in 12 games, even in 20, ahead in 17.
+  In fights where we had more champions involved we still lost 83 champions to 5.
+- **Deaths are far more lopsided than damage.** Before r150 we take 1.33x the damage we deal but lose 72 champions to 13. The ratio grows to
+  2.5x after r600 (the item snowball).
+- **The hurt champion is the difference.** Below 35% health with an enemy within 5: we die within 15 rounds 62% of the time (649 cases),
+  they die 14% (267). Three rounds later 11% of ours are 6+ tiles clear (theirs 33%). A teammate is within 3 tiles 36% of the time (theirs 63%).
+- **Range.** All our champions have attack range 1, while 43% of their slots have range 3. In 268 of our deaths no enemy was adjacent in the last
+  logged turns, and 330 had a ranged enemy within 6.
+
+### Candidate v66s (on the live 245 = v61j): save the hurt champion
+- Arm A (`ranged_leave_hp 0.6`): a melee champion that isn't winning, with a ranged enemy within 5, disengages below 60% health and retreats towards
+  the nearest healthy ally within 10.
+- Arm B (`rescue_radius 5`, the v57a rescue): join to protect an ally below 60% in contact when the simulation says it's at least an even trade.
+
+| Run (256 games) | wins | deaths cand / opp |
+|---|---|---|
+| v66s vs live v61j | 128-128, margin +28 | **3.62 / 4.04** (kills 3.62 / 3.25) |
+| v61j vs early pack v50p1 | 201-55 | 4.95 |
+| v66s / v66a / v66b vs v50p1 | 198-58 / 202-54 / 196-60 | 5.08 / 5.01 / 5.09 |
+| v61j vs Vesper bot v60g | 176-80 | 3.25 |
+| v66s / v66a vs v60g | 172-84 / 174-82 | 3.20 / 3.27 |
+
+Arm A only triggers against ranged enemies. v50p1 and v61j field none, and v60g has one weak Vesper, so **no local opponent exercises it**.
+Locally v66s is a no-regression change (equal wins, fewer deaths against the live bot). Whether it helps can only be shown on the panels.
+
 ## Limits
 - Zones use each team's most common shop tile as home. That is a proxy for the spawn, and mirrored maps make it symmetric.
 - Kill credit, assists and gold come from summary events. Positions of the other champions at a death are not in the summaries, so

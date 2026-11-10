@@ -57,3 +57,17 @@ adds what changed today. Live bot: **submission 245 = `bots/v61j`**. Fallback 24
   fight execution (Cassi's range-4 stun and burst on the carry's target, Willow's heal), which our fight code does not do for any ranged champion.
 - Public repos read: toyeshhm (EvilMangohh, peak rank 22: map-kind draft tables, same-turn tribute 18 -> 29 wins in 100, bags capped at 25 after r600),
   lucashsu007 (HBH: a no-change rebuild flips 36-38% of games), tuanha1508 (qualifier archive; no phases).
+
+## Step 2: ranged fight role (v69 line, on `bots/v68a` = Heart, Cassi & Issac, Vesper, Marcella, Vendetta), 5-pick maps vs v61j (162 games)
+Rule (combat.cpp `ranged_skirmish`, called at the top of `handle_threats`): a ranged champion cannot walk and then attack but can attack and then walk,
+so with an enemy within 6 it strikes / casts first and then steps to the neighbouring tile with the least enemy + camp threat that keeps a target in range.
+| bot | change | wins | Vesper kills / deaths / champion damage | Cassi deaths / champion damage |
+|---|---|---|---|---|
+| v68a | roles for farming only | 21-141 | 0.44 / 0.36 / 4.5K | 1.45 / 0.7K |
+| v69a | skirmish whenever an enemy is within 6 | 19-143 | 0.50 / 1.07 / 8.2K | 2.84 / 3.8K |
+| v69b | only free hits (a tile out of every reach to step to) | 31-131 | 0.45 / 0.71 / 6.1K | 2.22 / 4.0K |
+| v69c | + casters under 800 health end the step 5+ tiles from every enemy | 29-133 | 0.49 / 0.73 / 6.6K | 1.68 / 3.2K |
+Reading: the role makes them deal damage (Cassi 0.7K -> 3-4K, Vesper 4.5K -> 6-8K) at a trade of about 2:1, but our melee five closes with range-4 stuns and
+dashes, so "out of reach next round" is not safe enough, and the comp still loses the gem race (about 715 gems collected against 1,000). The comp's problem is
+now economy first: six bodies that farm 96K monster damage against our five's 110K+. Next: (1) Cassi and Vesper share the team's focus target (they pass
+nullptr today), (2) Vesper farms beside a melee ally so she is never a camp's target (top teams: 15% of rounds), (3) only then re-measure the comp.

@@ -1,3 +1,8 @@
+// SUBMISSION NOTE (Claude for Leke, 2026-11-10): v61g = v61b (submission 242) + (1) the chooser's per-evaluation fuel reserve scales with
+// group size, (2) above 48 groups the chooser's bound uses straight-line distance and respawning groups beyond max_respawn_wait are
+// dropped before the evaluation loop, (3) gem-starved maps (winning gems / whole-game gem output > 0.5) multiply the gem weight.
+// Evidence (local vs v61b): 04gem_caverns 1006-252 and 1003-231 (was 245-210 at r2000); 03one_gem 205-0 and 222-0; all maps 135-121, 0 faults.
+// Ranked before: 04gem_caverns 0/12, 03one_gem 0/11. Gate: UK panel pinned to uk_i not below 14/45, deaths not worse. Revert target: 242.
 // Polaris v50e1: v50d + Prospector emblem replaces Treasure as the opener (cfg::p4_open 2)
 // the bot entrypoint: dispatch draft or gameplay; any failed turn is logged and yields.
 #include <cambc.h>

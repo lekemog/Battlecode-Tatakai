@@ -42,3 +42,18 @@ adds what changed today. Live bot: **submission 245 = `bots/v61j`**. Fallback 24
 ## Tools added
 `tools/lab/`: `mir.sh`, `champ_stats.py`, `champ_curve.py`, `trace_summary.py`, `trace_positions.py`, `run_decoded.sh`.
 `tools/playbook/`: `fetch_lists.py`, `meta_now.py`, `roles_decoded.py`. `tools/panel/panel_top10b.json`.
+
+## Added later on 10 Nov
+- **Game phases (`bots/v66`, variants in the lab):** a gold-first opening wins locally. Gem weight x0.3 before r200: 144-112 vs v61j; to r150: 143-113;
+  x0.6: 137-119; x0.1: 137-119; x0.6 to r350: 126-130. Opening caution alone (hazard 0.12 before r200): 127-129; with x0.3: 141-115 (`bots/v66i`, not uploaded:
+  the agent's upload was blocked without Leke's explicit approval for that version). End-game bag cap 15 from 600 banked: 125-131, unbanked gems unchanged.
+- **How the top ten draft (3,885 games):** one comp per map (57-63 maps with one comp, 0-4 with several) and no reaction to the opponent's picks (0 of ~50
+  testable cases for eight of ten teams). Core in every situation: Cassi & Issac 75-86%, Vesper 57-73%, Heart 95% on 5-pick. Flex slots follow the map:
+  Prism on gem-rich maps, Willow on gem-poor 5-pick, Varg on gem-rich 3-pick, else Vendetta / Marcella.
+- **Cassi & Issac role (`bots/v67a`):** Cassi takes only harmless groups alone and joins allies' published groups; the pair's hazard threshold is 0.1. Pair deaths
+  1.44 a game (was 2.48); comp (C&I for Ryth) 61-101 on 5-pick maps vs v61j. Their gold / monster damage now match top teams' C&I (about 350 / 10K and 750 / 13K).
+- **The top ten's core in our code (`bots/v68a`: Heart, C&I, Vesper, Marcella, Vendetta with the carry and Cassi roles): 21-141 on 5-pick maps.**
+  Team gems 747 vs about 1,000, kills 1.6 a game. Fielding the core with farming-level role rules is far worse than our melee five: what the top teams add is
+  fight execution (Cassi's range-4 stun and burst on the carry's target, Willow's heal), which our fight code does not do for any ranged champion.
+- Public repos read: toyeshhm (EvilMangohh, peak rank 22: map-kind draft tables, same-turn tribute 18 -> 29 wins in 100, bags capped at 25 after r600),
+  lucashsu007 (HBH: a no-change rebuild flips 36-38% of games), tuanha1508 (qualifier archive; no phases).

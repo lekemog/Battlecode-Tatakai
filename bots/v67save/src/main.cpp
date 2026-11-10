@@ -1,3 +1,5 @@
+// SUBMISSION NOTE (Nawfal / Claude session modest-wright, 10 Nov 2026): v67save = v61j (245) + arm A (melee leaves below 60%
+// under ranged fire, towards an ally) + arm B (v57a rescue). Local 128-128 vs v61j, deaths 3.62 vs 4.04. Panel test; revert target 245.
 // SUBMISSION NOTE (Claude for Leke, 2026-11-10): v61j = v61i (submission 244) with the many-group test computed once per choose, so maps
 // with at most 100 groups run the v61b chooser without extra per-group work (244 lost 01yellow_brick_road in both panels: 160 camps,
 // fuel-critical). Keeps: chooser fixes above 100 groups (04gem_caverns) and the gem-starved map rule (03one_gem, 03ultrastarvation).

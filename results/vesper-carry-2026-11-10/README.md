@@ -31,6 +31,8 @@ Tier of every number: **local self-play** (128 maps x 2 sides vs the live bot v5
 | v60c | carry shop build; capturer rule sees the carry within 5 tiles | 96-160 | 955 / 17.9K / 115 |
 | v60d | teammates hand a gold capture to the carry once she stands on a member tile | 97-159 | **2,000 / 24.1K / 259** |
 | v60e | v60d + ball all game | 55-201 | 1,829 / 19.7K / 214 |
+| v60f | v60d + carry build bought in its written order (learned shop weights bypassed) | 93-163 | 1,926 / 24.1K / 259 |
+| v60g | v60f + the carry steps straight onto a free capture tile within two steps | 96-160 | **2,256 / 26.0K / 277** |
 
 Bugs found in the ranged play (all fixed in v60b-d):
 1. `fight_camps` skipped the attack on a "bad spot" (the tile makes her the monsters' nearest target) and then found no
@@ -39,9 +41,17 @@ Bugs found in the ranged play (all fixed in v60b-d):
    in the traced game while Varg took 170 gold two tiles from her at r30 (226 on her).
 3. The shop gave her the tank plan (Durability Health, Bruiser Health) instead of the Strength economy emblems.
 
-## Where v60d stands
-- Vesper now out-earns and out-kills the Ryth she replaces (2,000 gold, 0.78 kills, 0.57 deaths vs 1,232 / 0.37 / 1.07),
-  but she is still at **half the UK curve** (gold 99 / 208 / 334 / 631 at r100-500) and the comp loses the self-play gem
+## Also checked
+- Public repos new since 8 Nov (userVatsal "goldrush", itz-lakshya "Aethelguard", chamyao): all weaker than our line and
+  tested only against the starter bot. Two notes: goldrush copies a "winners' draft" of Cassi&Issac, Stellar, Ren, Tavi, Ryth
+  from 50 top-team games and shops at 150 unspent gold; nothing on roles.
+- The "pvp" turns with no action on 02treasure-box are the spawn hold (`spawn_hold_radius`): with all five enemies within
+  reach of the spawn at r2 a champion waits on spawn while leaving reads as a losing fight. Not a fuel problem
+  (28-65K fuel left on those turns).
+
+## Where the line stands (v60g)
+- Vesper now out-earns and out-kills the Ryth she replaces (2,256 gold, 0.90 kills, 0.64 deaths vs 1,232 / 0.37 / 1.07),
+  but she is still at **under 60% of the UK curve** (gold 113 / 248 / 400 / 749 at r100-500 vs 195 / 431 / 692 / 1,303) and the comp loses the self-play gem
   race (892 vs 973 gems collected).
 - Self-play is the wrong judge for a draft (TESTING.md section 3): the comp needs the UK panel.
 

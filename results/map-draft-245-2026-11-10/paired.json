@@ -1,0 +1,82 @@
+{
+  "cg-md245-plan vs v61j": {
+    "maps": 128,
+    "pairs": 256,
+    "loss_to_win": 36,
+    "win_to_loss": 87,
+    "win_rate_change_pp": -19.921875,
+    "map_cluster_bootstrap95_pp": [
+      -25.78125,
+      -13.671875
+    ],
+    "mean_metric_changes": {
+      "margin": -197.82421875,
+      "deaths": 4.4921875,
+      "earnedGold50": 5.51953125,
+      "earnedGold100": 0.875,
+      "earnedGold200": -22.7734375,
+      "spentGold200": -17.578125,
+      "fuelExhausted": 1.08984375
+    }
+  },
+  "cg-md245-plan vs v50p1": {
+    "maps": 128,
+    "pairs": 256,
+    "loss_to_win": 32,
+    "win_to_loss": 73,
+    "win_rate_change_pp": -16.015625,
+    "map_cluster_bootstrap95_pp": [
+      -24.21875,
+      -8.203125
+    ],
+    "mean_metric_changes": {
+      "margin": -188.546875,
+      "deaths": 5.390625,
+      "earnedGold50": -1.0390625,
+      "earnedGold100": 12.01953125,
+      "earnedGold200": 5.98046875,
+      "spentGold200": 10.5859375,
+      "fuelExhausted": 0.7734375
+    }
+  },
+  "cg-md245-react vs v61j": {
+    "maps": 128,
+    "pairs": 256,
+    "loss_to_win": 37,
+    "win_to_loss": 88,
+    "win_rate_change_pp": -19.921875,
+    "map_cluster_bootstrap95_pp": [
+      -25.78125,
+      -14.0625
+    ],
+    "mean_metric_changes": {
+      "margin": -194.71484375,
+      "deaths": 4.44921875,
+      "earnedGold50": 6.06640625,
+      "earnedGold100": 2.4375,
+      "earnedGold200": -20.15625,
+      "spentGold200": -14.921875,
+      "fuelExhausted": 1.08984375
+    }
+  },
+  "cg-md245-react vs v50p1": {
+    "maps": 128,
+    "pairs": 256,
+    "loss_to_win": 32,
+    "win_to_loss": 73,
+    "win_rate_change_pp": -16.015625,
+    "map_cluster_bootstrap95_pp": [
+      -23.828125,
+      -8.203125
+    ],
+    "mean_metric_changes": {
+      "margin": -177.4296875,
+      "deaths": 5.37890625,
+      "earnedGold50": -0.6484375,
+      "earnedGold100": 12.80078125,
+      "earnedGold200": 6.7421875,
+      "spentGold200": 11.640625,
+      "fuelExhausted": 0.7734375
+    }
+  }
+}

@@ -1,0 +1,1060 @@
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/.cambc/build-release
+[0/2] Re-checking globbed directories...
+[1/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/learn.cpp.obj
+[2/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/main.cpp.obj
+[3/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/draft.cpp.obj
+[4/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/ctx.cpp.obj
+[5/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/nav.cpp.obj
+[6/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/combat.cpp.obj
+[7/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/knowledge.cpp.obj
+[8/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/world.cpp.obj
+[9/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/map_draft.cpp.obj
+[10/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/shop.cpp.obj
+[11/13] Building CXX object CMakeFiles/bot.dir/workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/src/brain.cpp.obj
+[12/13] Linking CXX executable bot.wasm
+-- The CXX compiler identification is Clang 22.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/agent/.cache/cambc/wasi-sdk-33/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/cg-md245-plan/.cambc/build
+injected 0 checks into 0 functions
+Building /workspace/scratch/e21f450d7589/cassi-isaac-lab/bots/v61j
+v61j is up to date
+[|] STARTING  cg-md245-plan vs v61j  00ambush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00ambush__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00ambush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00ambush__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00anvil
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00anvil__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00anvil
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00anvil__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00breadcrumbs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00breadcrumbs__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00breadcrumbs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00breadcrumbs__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00collision__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00collision
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00collision__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00ambush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00ambush__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00contest
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00contest__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00anvil  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00anvil__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00anvil  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00anvil__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00breadcrumbs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00breadcrumbs__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00contest
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00contest__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00corners
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00corners__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00corners
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00corners__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00ambush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00ambush__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00breadcrumbs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00breadcrumbs__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00collision  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00collision__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00collision  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00collision__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00crater
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00crater__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00crater
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00crater__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00dunes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00dunes__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00dunes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00dunes__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00contest  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00contest__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00eight
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00eight__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00contest  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00contest__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00corners  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00corners__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00corners  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00corners__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00crater  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00crater__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00crater  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00crater__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00dunes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00dunes__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00dunes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00dunes__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00eight
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00eight__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00elkring
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00elkring__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00elkring
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00elkring__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00expanse
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00expanse__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00expanse
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00expanse__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00fragment
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00fragment__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00fragment
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00fragment__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00eight  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00eight__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00eight  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00eight__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00elkring  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00elkring__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00elkring  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00elkring__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00expanse  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00expanse__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00expanse  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00expanse__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00fragment  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00fragment__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00galaxy
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00galaxy__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00galaxy
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00galaxy__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00gem-fields
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00gem-fields__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00gem-fields
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00gem-fields__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00gemfight
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00gemfight__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00gemfight
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00gemfight__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00great-wall
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00great-wall__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00fragment  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00fragment__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00great-wall
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00great-wall__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00galaxy  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00galaxy__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00galaxy  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00galaxy__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00gem-fields  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00gem-fields__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00gem-fields  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00gem-fields__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00gemfight  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00gemfight__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00gemfight  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00gemfight__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00great-wall  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00great-wall__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00great-wall  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00great-wall__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00happy-halloween
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00happy-halloween__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00happy-halloween
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00happy-halloween__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00interlock
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00interlock__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00interlock
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00interlock__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00lanes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00lanes__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00lanes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00lanes__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00lost-world
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00lost-world__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00lost-world
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00lost-world__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00happy-halloween  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00happy-halloween__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00monolith
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00monolith__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00happy-halloween  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00happy-halloween__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00interlock  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00interlock__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00interlock  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00interlock__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00lanes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00lanes__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00lanes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00lanes__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00lost-world  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00lost-world__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00lost-world  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00lost-world__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00monolith
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00monolith__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00oasis
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00oasis__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00oasis
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00oasis__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00packs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00packs__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00packs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00packs__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00pilgrimage
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00pilgrimage__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00pilgrimage
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00pilgrimage__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00monolith  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00monolith__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00quadrants
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00quadrants__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00monolith  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00monolith__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00oasis  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00oasis__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00packs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00packs__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00pilgrimage  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00pilgrimage__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00pilgrimage  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00pilgrimage__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00quadrants
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00quadrants__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00quarry
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00quarry__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00quarry
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00quarry__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00reverse-spiral
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00reverse-spiral__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00reverse-spiral
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00reverse-spiral__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00oasis  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00oasis__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00packs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00packs__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00ribs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00ribs__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00ribs
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00ribs__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00quadrants  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00quadrants__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00quarry  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00quarry__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00road-of-riches
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00road-of-riches__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00road-of-riches
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00road-of-riches__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00reverse-spiral  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00reverse-spiral__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00rows
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00rows__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00ribs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00ribs__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00rows
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00rows__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00quadrants  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00quadrants__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00quarry  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00quarry__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00ribs  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00ribs__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00rushbait-v2
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00rushbait-v2__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00rushbait-v2
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00rushbait-v2__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00split
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00split__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00reverse-spiral  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00reverse-spiral__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00split
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00split__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00road-of-riches  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00road-of-riches__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00road-of-riches  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00road-of-riches__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00stampede
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00stampede__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00stampede
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00stampede__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00rows  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00rows__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00swirl__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00rows  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00rows__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00swirl
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00swirl__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00rushbait-v2  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00rushbait-v2__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00rushbait-v2  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00rushbait-v2__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00the-line
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00the-line__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00the-line
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00the-line__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00split  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00split__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  00vault
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00vault__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00split  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00split__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  00vault
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00vault__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00swirl  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00swirl__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01big-world
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01big-world__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00stampede  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00stampede__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00stampede  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00stampede__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01big-world
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01big-world__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01boss-battle
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01boss-battle__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00swirl  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00swirl__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01boss-battle
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01boss-battle__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00the-line  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00the-line__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00the-line  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00the-line__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  00vault  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00vault__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01broken-curve
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01broken-curve__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01broken-curve
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01broken-curve__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01concentrated-wealth
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01concentrated-wealth__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  00vault  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__00vault__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01concentrated-wealth
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01concentrated-wealth__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01big-world  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01big-world__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01big-world  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01big-world__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01corridors
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01corridors__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01corridors
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01corridors__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01boss-battle  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01boss-battle__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01elk-arena
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01elk-arena__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01boss-battle  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01boss-battle__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01elk-arena
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01elk-arena__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01broken-curve  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01broken-curve__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01concentrated-wealth  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01concentrated-wealth__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01fracture
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01fracture__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01fracture
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01fracture__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01broken-curve  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01broken-curve__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01gold-rush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01gold-rush__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01concentrated-wealth  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01concentrated-wealth__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01gold-rush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01gold-rush__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01elk-arena  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01elk-arena__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01hooks
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01hooks__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01corridors  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01corridors__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01hooks
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01hooks__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01corridors  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01corridors__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01islands
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01islands__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01elk-arena  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01elk-arena__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01islands
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01islands__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01fracture  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01fracture__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01shortcut
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01shortcut__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01fracture  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01fracture__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01shortcut
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01shortcut__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01gold-rush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01gold-rush__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01starfish
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01starfish__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01gold-rush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01gold-rush__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01starfish
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01starfish__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01hooks  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01hooks__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01starvation
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01starvation__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01hooks  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01hooks__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01starvation
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01starvation__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01islands  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01islands__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01islands  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01islands__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01the-farm
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01the-farm__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01the-farm
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01the-farm__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01shortcut  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01shortcut__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01yellow-brick-road__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01shortcut  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01shortcut__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01starfish  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01starfish__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  01yellow-brick-road
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01yellow-brick-road__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02arena
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02arena__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01starfish  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01starfish__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02arena
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02arena__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01starvation  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01starvation__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02crossing
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02crossing__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01starvation  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01starvation__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02crossing
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02crossing__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01the-farm  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01the-farm__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02cuts
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02cuts__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01the-farm  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01the-farm__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  01yellow-brick-road  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01yellow-brick-road__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02arena  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02arena__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02arena  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02arena__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02cuts
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02cuts__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02famine
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02famine__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02famine
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02famine__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02fields
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02fields__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  01yellow-brick-road  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__01yellow-brick-road__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02fields
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02fields__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02crossing  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02crossing__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02crossing  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02crossing__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02geodes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02geodes__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02geodes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02geodes__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02famine  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02famine__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02gift-wrapping
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02gift-wrapping__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02cuts  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02cuts__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02cuts  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02cuts__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02famine  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02famine__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02fields  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02fields__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02gift-wrapping
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02gift-wrapping__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02guardians
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02guardians__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02guardians
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02guardians__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02harvest
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02harvest__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02fields  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02fields__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02geodes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02geodes__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02harvest
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02harvest__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02stalactites
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02stalactites__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02geodes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02geodes__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02stalactites
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02stalactites__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02gift-wrapping  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02gift-wrapping__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02gift-wrapping  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02gift-wrapping__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02guardians  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02guardians__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02tangle
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02tangle__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02tangle
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02tangle__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02the-pack__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02guardians  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02guardians__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02harvest  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02harvest__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02the-pack
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02the-pack__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02the-pond
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02the-pond__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02harvest  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02harvest__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02the-pond
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02the-pond__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02stalactites  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02stalactites__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02treasure-box
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02treasure-box__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02stalactites  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02stalactites__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02treasure-box
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02treasure-box__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02the-pack  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02the-pack__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  02uncharted-lands
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02uncharted-lands__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02tangle  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02tangle__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02the-pack  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02the-pack__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02the-pond  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02the-pond__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  02uncharted-lands
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02uncharted-lands__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03ambush-field
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03ambush-field__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03ambush-field
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03ambush-field__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02tangle  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02tangle__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03colosseum
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03colosseum__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02the-pond  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02the-pond__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03colosseum
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03colosseum__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02treasure-box  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02treasure-box__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03contours
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03contours__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02treasure-box  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02treasure-box__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03contours
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03contours__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  02uncharted-lands  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02uncharted-lands__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03fan
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03fan__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  02uncharted-lands  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__02uncharted-lands__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03ambush-field  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03ambush-field__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03ambush-field  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03ambush-field__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03colosseum  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03colosseum__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03colosseum  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03colosseum__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03fan
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03fan__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03homonoliths
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03homonoliths__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03homonoliths
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03homonoliths__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03honeycomb
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03honeycomb__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03honeycomb
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03honeycomb__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03contours  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03contours__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03contours  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03contours__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03membrane
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03membrane__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03membrane
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03membrane__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03fan  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03fan__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03homonoliths  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03homonoliths__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03honeycomb  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03honeycomb__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03honeycomb  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03honeycomb__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03one-gem__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03one-gem
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03one-gem__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03reef
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03reef__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03reef
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03reef__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03fan  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03fan__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03homonoliths  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03homonoliths__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03riverbed
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03riverbed__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03riverbed
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03riverbed__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03membrane  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03membrane__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03showdown__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03membrane  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03membrane__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03showdown
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03showdown__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03one-gem  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03one-gem__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03one-gem  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03one-gem__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03reef  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03reef__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03reef  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03reef__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03riverbed  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03riverbed__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03shrines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03shrines__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03shrines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03shrines__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03the-front
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03the-front__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03the-front
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03the-front__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03twisty
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03twisty__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03riverbed  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03riverbed__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03twisty
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03twisty__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03showdown  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03showdown__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  03ultrastarvation
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03ultrastarvation__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03showdown  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03showdown__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  03ultrastarvation
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03ultrastarvation__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03shrines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03shrines__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03shrines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03shrines__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03the-front  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03the-front__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03twisty  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03twisty__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04atoll
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04atoll__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04atoll
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04atoll__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04barbell
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04barbell__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04barbell
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04barbell__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03the-front  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03the-front__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03twisty  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03twisty__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04bowls
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bowls__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04bowls
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bowls__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  03ultrastarvation  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03ultrastarvation__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04braided-river
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04braided-river__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  03ultrastarvation  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__03ultrastarvation__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04braided-river
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04braided-river__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04atoll  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04atoll__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04barbell  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04barbell__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04bridges
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bridges__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04bridges
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bridges__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04atoll  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04atoll__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04barbell  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04barbell__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04bullseye
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bullseye__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04bullseye
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bullseye__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04bowls  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bowls__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04bowls  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bowls__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04butterfly
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04butterfly__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04butterfly
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04butterfly__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04braided-river  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04braided-river__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04canyons
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04canyons__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04braided-river  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04braided-river__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04bridges  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bridges__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04canyons
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04canyons__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04comb
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04comb__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04bullseye  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bullseye__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04comb
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04comb__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04bullseye  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bullseye__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04butterfly  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04butterfly__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04compass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04compass__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04compass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04compass__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04bridges  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04bridges__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04butterfly  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04butterfly__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04courtyard
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04courtyard__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04courtyard
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04courtyard__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04canyons  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04canyons__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04crossroads
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04crossroads__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04comb  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04comb__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04crossroads
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04crossroads__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04canyons  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04canyons__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04comb  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04comb__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04duel-ring
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04duel-ring__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04duel-ring
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04duel-ring__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04compass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04compass__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04dunes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04dunes__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04courtyard  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04courtyard__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04courtyard  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04courtyard__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04dunes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04dunes__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04fault-lines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04fault-lines__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04compass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04compass__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04fault-lines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04fault-lines__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04crossroads  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04crossroads__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04gap
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gap__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04crossroads  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04crossroads__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04gap
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gap__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04duel-ring  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04duel-ring__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gem-caverns__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04duel-ring  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04duel-ring__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04gem-caverns
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gem-caverns__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04dunes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04dunes__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04gem-rush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gem-rush__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04fault-lines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04fault-lines__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04gem-rush
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gem-rush__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04dunes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04dunes__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04fault-lines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04fault-lines__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04hollows
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04hollows__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04hollows
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04hollows__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04gap  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gap__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04horseshoes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04horseshoes__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04gap  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gap__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04gem-caverns  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gem-caverns__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04horseshoes
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04horseshoes__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04hourglass__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04gem-caverns  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gem-caverns__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04gem-rush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gem-rush__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04hourglass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04hourglass__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04keyhole
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04keyhole__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04gem-rush  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04gem-rush__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04hollows  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04hollows__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04keyhole
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04keyhole__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04lines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04lines__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04hollows  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04hollows__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04lines
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04lines__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04horseshoes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04horseshoes__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04meander
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04meander__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04hourglass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04hourglass__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04meander
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04meander__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04horseshoes  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04horseshoes__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04mesas
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04mesas__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04keyhole  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04keyhole__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04lines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04lines__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04mesas
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04mesas__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04mountain-pass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04mountain-pass__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04hourglass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04hourglass__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04mountain-pass
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04mountain-pass__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04keyhole  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04keyhole__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04orchard
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04orchard__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04lines  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04lines__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04orchard
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04orchard__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04meander  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04meander__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04mesas  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04mesas__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04passageway
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04passageway__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04passageway
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04passageway__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04mountain-pass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04mountain-pass__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04pinwheel
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04pinwheel__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04meander  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04meander__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04pinwheel
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04pinwheel__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04mesas  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04mesas__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04plaza
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04plaza__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04mountain-pass  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04mountain-pass__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04orchard  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04orchard__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04plaza
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04plaza__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04restricted-area
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04restricted-area__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04orchard  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04orchard__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04restricted-area
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04restricted-area__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04passageway  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04passageway__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04sanctum
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04sanctum__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04passageway  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04passageway__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04pinwheel  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04pinwheel__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04sanctum
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04sanctum__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04spiral-moat
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04spiral-moat__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04pinwheel  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04pinwheel__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04spiral-moat
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04spiral-moat__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04plaza  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04plaza__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04plaza  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04plaza__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04standing-stones
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04standing-stones__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04standing-stones
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04standing-stones__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04restricted-area  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04restricted-area__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04restricted-area  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04restricted-area__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04sunburst
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04sunburst__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04sunburst
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04sunburst__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04sanctum  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04sanctum__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04terraces
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04terraces__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04sanctum  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04sanctum__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04spiral-moat  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04spiral-moat__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04spiral-moat  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04spiral-moat__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04terraces
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04terraces__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04tidepools
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04tidepools__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04tidepools
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04tidepools__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04standing-stones  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04standing-stones__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04two-kingdoms
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04two-kingdoms__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04standing-stones  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04standing-stones__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04sunburst  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04sunburst__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04two-kingdoms
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04two-kingdoms__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04waves
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04waves__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04sunburst  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04sunburst__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04waves
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04waves__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04tidepools  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04tidepools__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04wheel
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04wheel__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04terraces  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04terraces__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04terraces  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04terraces__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04tidepools  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04tidepools__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04wheel
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04wheel__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04wilds
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04wilds__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04wilds
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04wilds__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04waves  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04waves__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  04yin-yang
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04yin-yang__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04two-kingdoms  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04two-kingdoms__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  04yin-yang
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04yin-yang__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04waves  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04waves__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  adgato-gemcombat1
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat1__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04two-kingdoms  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04two-kingdoms__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  adgato-gemcombat1
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat1__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04wheel  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04wheel__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04wheel  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04wheel__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  adgato-gemcombat2
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat2__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  adgato-gemcombat2
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat2__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04wilds  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04wilds__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04wilds  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04wilds__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  adgato-gemcombat3
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat3__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  adgato-gemcombat3
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat3__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  04yin-yang  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04yin-yang__0.repl26a
+[|] STARTING  cg-md245-plan vs v61j  adgato-gemcombat4
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat4__0.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  adgato-gemcombat1  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat1__0.repl26a
+[|] STARTING  v61j vs cg-md245-plan  adgato-gemcombat4
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat4__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  adgato-gemcombat1  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat1__1.repl26a
+[|] STARTING  cg-md245-plan vs v61j  adgato-gemcombat5
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat5__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  04yin-yang  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__04yin-yang__1.repl26a
+[|] STARTING  v61j vs cg-md245-plan  adgato-gemcombat5
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat5__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  adgato-gemcombat2  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat2__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  adgato-gemcombat2  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat2__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  adgato-gemcombat3  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat3__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  adgato-gemcombat3  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat3__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  adgato-gemcombat4  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat4__0.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  adgato-gemcombat4  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat4__1.repl26a
+[+] TRUNCATED  v61j vs cg-md245-plan  adgato-gemcombat5  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat5__1.repl26a
+[+] TRUNCATED  cg-md245-plan vs v61j  adgato-gemcombat5  Round 0003/2000
+    Replay: /workspace/scratch/e21f450d7589/cassi-isaac-lab/md_draftscan/cg-md245-plan__v61j__adgato-gemcombat5__0.repl26a
+Finished: 256 replay bundles saved, 0 failed

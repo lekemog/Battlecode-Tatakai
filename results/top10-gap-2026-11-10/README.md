@@ -118,6 +118,16 @@ Scripts: `tools/top10gap/{deathlog,decdeaths,fights,escape}.py`; outputs `*_outp
 Arm A only triggers against ranged enemies. v50p1 and v61j field none, and v60g has one weak Vesper, so **no local opponent exercises it**.
 Locally v67save is a no-regression change (equal wins, fewer deaths against the live bot). Whether it helps can only be shown on the panels.
 
+### Panel result (submission 246, 20:10-20:47 UTC): rejected
+| Panel (pinned) | v245 (v61j) | v67save (246) |
+|---|---|---|
+| UK, 45 games (`uk_61j` vs `uk_67save`) | 12 wins, deaths 6.2, kills 2.0, margin -296 | 12 wins, deaths 6.8, kills 2.4, margin -248 |
+| Top 10, 50 games (`t10b_61j` vs `t10b_67save`) | 2 wins, deaths 9.5, kills 0.9, margin -622 | 2 wins, deaths 9.7, kills 1.0, margin -634 |
+
+Equal wins (14/95 each), slightly more kills and a better UK margin, but deaths did not fall. The mechanism did not cut deaths against real
+teams, so leaving at 60% under ranged fire is not enough on its own. 245 was restored at 20:47.
+Next (inferred): check in the new replays whether arm A fired and whether the leavers still died (`tools/top10gap/escape.py` on the 246 games).
+
 ## Limits
 - Zones use each team's most common shop tile as home. That is a proxy for the spawn, and mirrored maps make it symmetric.
 - Kill credit, assists and gold come from summary events. Positions of the other champions at a death are not in the summaries, so

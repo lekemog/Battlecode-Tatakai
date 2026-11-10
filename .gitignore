@@ -2,3 +2,5 @@
 replays/
 *.repl26a
 __pycache__/
+sdk/
+compile_commands.json

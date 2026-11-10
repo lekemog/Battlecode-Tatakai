@@ -820,7 +820,7 @@ int Bot::solo_target(){
     // choice in shared[slot] so teammates spread out.
     auto& me=self();
     bool any_gems=false;for(auto& g:groups)if(g.gems>0)any_gems=true;
-    const double gold_w=!any_gems?1.0:(round<250?.35:round<700?.12:.04);   // v25w: top-10 unranked (205 games): their gold at r50 is 2.2x ours (211 vs 98) before any deaths; solo farmers walked 35-80 rounds past harmless clusters to far gem camps
+    const double gold_w=!any_gems?1.0:(round<250?.15:round<700?.08:.04);
     const double my_dps=std::max(1.0,dps()),my_hp=me.health();
     // Issac shadows Cassi in solo play: split up, one pick kills both.
     if(me.champion_name()==champion_type::issac&&!pack_mode){
@@ -1223,7 +1223,7 @@ void Bot::play_turn(){
     // drops to ~40%, retreats one step, then starts a recall still inside the elks' reach; the hits cancel it and it
     // dies ~5 rounds later (shortcut r37->42, r41->44, r59->62). No recall while we took damage this turn or an awake
     // camp can reach us: step out of every camp's reach first (camps never chase).
-    {const float hp=me.health();const bool hit=turn_hp>=0&&hp<turn_hp-1;turn_hp=hp;
+    {const float hp=me.health();const bool hit=turn_hp>=0&&hp<turn_hp-1;last_took=turn_hp>=0?std::max(0.0f,turn_hp-hp):0.0f;turn_hp=hp;
      camp_reach.clear();bool in_reach=false;
      for(auto& m:monsters){if(!m.awake||m.strength<=0)continue;const int d=dist(m.pos,me.position());if(d>6)continue;
         int r=1;try{r=m.handle.attack_range();}catch(const error&){}
@@ -1263,7 +1263,7 @@ void Bot::play_turn(){
             if(g.gems>0&&(g.monolith||g.probes.size()>=8)&&g.home_d<best){best=g.home_d;herd_group=static_cast<int>(i);}}
     }
     const int wr=std::max(1,static_cast<int>(constants::ward_placement_radius));
-    if(herd_group>=0&&slot==team_size-1&&!herd_warded&&round>=150){   // v25w: was r8 - the last slot spent r8-70 walking to plant it (fracture)
+    if(herd_group>=0&&slot==team_size-1&&!herd_warded&&round>=8){
         auto& hg=groups[herd_group];
         vec2 best=me.position();int bd=dist(me.position(),hg.center);
         for(auto q:disk(me.position(),wr).positions()){
@@ -1302,7 +1302,19 @@ void Bot::play_turn(){
     // kurians-t3 (#40, contestrecall; bench 459 vs 458): on contest a recall needs no visible enemy within 9 tiles, not
     // range+2 (132 ranked contest deaths came mid-recall, at 8-10% HP). Otherwise walk out (the retreat below).
     const int recall_clear=forced_pack?9:-1;
-    if(!spawn&&(me.health()<me.max_health()*.3f||danger*2.5>me.health())){
+    // v25v: hysteresis. Below 30% HP the champion retreated, stepped out of the camps' reach, saw no danger and (still at
+    // ~30%) walked straight back to the same camp. Scan of 560 bench games: 2.8 deaths a game to camps (40% of all
+    // deaths); reverse-spiral ~10 a game (Ryth: retreat 360 HP r50, farm 360 r51, retreat 220, dead to the camp r60).
+    // Once it retreats below 50% HP (low HP, or camp/enemy danger) it stays in the retreat branch (recall when safe, else
+    // walk home) until healed to 60% or back at spawn.
+    if(spawn||me.health()>=me.max_health()*.6f)healing=false;
+    // v25w: predictive retreat. Death breakdown over 560 bench games: 95% of camp deaths came with HP already under 30%,
+    // the fatal retreat starting at a median 12% HP and dying 3 rounds later (64% were farming just before): a group
+    // takes a champion from above 30% to ~12% in one round. Leave when 2.5x the damage taken since our last turn would
+    // leave us under 10%.
+    const bool burst=last_took>0&&me.health()<last_took*2.5f+me.max_health()*.1f;
+    if(!spawn&&(healing||burst||me.health()<me.max_health()*.3f||danger*2.5>me.health())){
+        if(me.health()<me.max_health()*.5f)healing=true;
         bool close=false;for(auto& e:enemies)if(dist(e.pos,me.position())<=std::max(e.range+2,recall_clear))close=true;
         if(!close&&danger<me.health()*.05){if(!unsafe_recall)try{me.recall();log("recall");return;}catch(const error&){}}
         if(enemies.empty()&&!camp_reach.is_empty()&&camp_reach.is_set(me.position())){   // v25u: out of the camps' reach first

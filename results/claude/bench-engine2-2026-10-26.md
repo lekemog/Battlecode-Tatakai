@@ -1,0 +1,170 @@
+# Engine 2.0.0 bench (cambc 4.0.0), 26 Oct
+
+40 maps x 2 sides x 7 opponents = 560 games, JOBS=4, run in Szymon's Claude session.
+
+| Bot | Change | Wins /560 | Margin |
+|---|---|---|---|
+| **v25u** | live | **492** | +4127 |
+| v29b | v25u + Monster opener (no Treasure) | 485 | +3992 |
+| v29c | v25u + Capture emblem 2nd | 483 | +3863 |
+| v29t | v25u + Tribute emblem 3rd | 483 | +3846 |
+| v29a | v25u + patch draft (C&I/Ren/Varg up; HoR/Vesper/Marcella down) | 472 | +3649 |
+| v27j | v27i core + rally-flag fix | 469 | +3684 |
+| v28 | v27j + draft + Monster + Capture (live as 218, 0/5 scrims) | 414 | +2800 |
+
+**Verdict:** nothing beats v25u; keep it live. The patch-driven draft is the worst single change (-20); the item changes are each -7 to -9; together on v27j they compound to -55. The v27 core is -23 on the new engine. Caveat: the 7 bench bots are frozen pre-patch bots, so this measures our changes against old-meta opponents.
+
+Per-opponent lines:
+```
+x_daniel8 v25u TOTAL 57  margin +334
+x_de41h4 v25u TOTAL 66  margin +405
+h_mohnish v25u TOTAL 64  margin +460
+h_deysag v25u TOTAL 66  margin +481
+h_vatsal v25u TOTAL 80  margin +839
+h_photon v25u TOTAL 80  margin +835
+h_apex v25u TOTAL 79  margin +773
+x_daniel8 v27j TOTAL 50  margin +138
+x_de41h4 v27j TOTAL 65  margin +417
+h_mohnish v27j TOTAL 57  margin +334
+h_deysag v27j TOTAL 65  margin +459
+h_vatsal v27j TOTAL 78  margin +777
+h_photon v27j TOTAL 79  margin +800
+h_apex v27j TOTAL 75  margin +759
+x_daniel8 v28 TOTAL 35  margin -0
+x_de41h4 v28 TOTAL 52  margin +209
+h_mohnish v28 TOTAL 51  margin +216
+h_deysag v28 TOTAL 46  margin +120
+h_vatsal v28 TOTAL 77  margin +789
+h_photon v28 TOTAL 78  margin +782
+h_apex v28 TOTAL 75  margin +684
+x_daniel8 v29a TOTAL 58  margin +285
+x_de41h4 v29a TOTAL 54  margin +284
+h_mohnish v29a TOTAL 58  margin +335
+h_deysag v29a TOTAL 63  margin +359
+h_vatsal v29a TOTAL 80  margin +825
+h_photon v29a TOTAL 79  margin +789
+h_apex v29a TOTAL 80  margin +772
+x_daniel8 v29b TOTAL 63  margin +369
+x_de41h4 v29b TOTAL 60  margin +376
+h_mohnish v29b TOTAL 61  margin +428
+h_deysag v29b TOTAL 63  margin +413
+h_vatsal v29b TOTAL 79  margin +821
+h_photon v29b TOTAL 79  margin +813
+h_apex v29b TOTAL 80  margin +772
+x_daniel8 v29c TOTAL 60  margin +333
+x_de41h4 v29c TOTAL 64  margin +351
+h_mohnish v29c TOTAL 60  margin +361
+h_deysag v29c TOTAL 63  margin +426
+h_vatsal v29c TOTAL 79  margin +824
+h_photon v29c TOTAL 79  margin +806
+h_apex v29c TOTAL 78  margin +762
+x_daniel8 v29t TOTAL 55  margin +294
+x_de41h4 v29t TOTAL 57  margin +280
+h_mohnish v29t TOTAL 64  margin +419
+h_deysag v29t TOTAL 70  margin +458
+h_vatsal v29t TOTAL 79  margin +815
+h_photon v29t TOTAL 80  margin +824
+h_apex v29t TOTAL 78  margin +756
+```
+
+## v27 core fixes (27 Oct)
+| Bot | Change | Wins /560 | Margin |
+|---|---|---|---|
+| v27k | v27j + no long-range chase mid-capture (gemfight flip-flop) | 472 | +3723 |
+| v27l | v27k + squad gives up on a target not captured in 120 rounds | 465 | +3557 |
+| v27m | v27l + commit enough squad members to clear the squad target | 446 | +3385 |
+
+Only v27k's fix holds up (+3 over v27j); v27l and v27m are rejected. The v27 line stays below v25u (492), so work moves
+to v25u directly, driven by tools/scan/scan.py.
+
+## Scanner round 1: v25v (27 Oct)
+`tools/scan/scan.py` over 560 logged v25u games: 2.8 deaths a game to camps (40% of deaths). Traces showed a retreat
+without hysteresis (retreat at ~30% HP, step out of camp reach, walk straight back). v25v = v25u + hold the retreat
+below 50% HP until 60% or spawn.
+
+| Bot | Wins /560 | Margin | Camp deaths/game | Champion deaths/game | Kills/game | Gems lost/game |
+|---|---|---|---|---|---|---|
+| v25u | 492 | +4127 | 2.82 | 4.12 | 16.46 | 65.8 |
+| v25v | 491 | +4083 | 2.77 | 4.22 | 16.43 | 63.1 |
+
+Fixed the traced game (reverse-spiral vs h_photon: 725-143 at r2000 -> 1001-229 at r1573, deaths 42 -> 16) but no
+effect overall: camp deaths are not mainly this loop. Not a candidate; next scanner item.
+
+## Scanner round 2: what kills us (27 Oct)
+`tools/scan/deaths.py` over 560 logged v25u games (2.82 camp deaths + 4.12 champion deaths per game):
+- Camp deaths: 95% at <30% HP; 75% while retreating, the retreat starting at a median 12% HP, death 3 rounds later;
+  64% were farming just before. 34% are one camp killing us 3+ times in a game (gold-rush camp 24: 14 times, while we
+  farmed the neighbouring groups 0-4).
+- Champion deaths: 89% at <30% HP; 58% while retreating, 28% standing; the retreat starts at a median 6% HP, after
+  `stand` (the stand-and-fight rule) in 73% of cases.
+
+| Bot | Change from v25u | Games | Wins | Margin/game | Camp deaths/game | Champion deaths/game |
+|---|---|---|---|---|---|---|
+| v25w | (v25v) + retreat when 2.5x last round's damage leaves <10% | 16 worst | 12 -> 11 | | 10.8 -> 10.5 | 3.9 -> 3.6 |
+| v25x | farm tiles avoid other groups' dangerous camps | 560 | 492 -> 490 | +590 -> +580 | 2.82 -> 2.74 | 4.12 -> 4.11 |
+| v25x | same | 56 worst | 42 -> 39 | +346 -> +218 | 10.3 -> 9.2 | 3.5 -> 3.2 |
+| v25y | same, awake camps only | 56 worst | 42 -> 43 | +346 -> +325 | 10.3 -> 10.5 | 3.5 -> 3.3 |
+
+v25x cuts camp deaths but lost split (10 -> 5 wins: it stopped farming the central group 18, whose good tiles lie in a
+neighbour's reach); v25y keeps split but no longer cuts deaths. None beats v25u on the bench; none goes live.
+
+## v25z: first candidate to beat v25u (27 Oct)
+v25z = v25u + stand-and-fight only above 30% HP (was 12%). Full 560-game logged run, same games as v25u:
+
+| | v25u | v25z |
+|---|---|---|
+| Wins /560 | 492 | **495** |
+| Mean gem margin | +590 | +595 |
+| Deaths to champions / game | 4.12 | **3.56** (-14%) |
+| Deaths to camps / game | 2.82 | 2.83 |
+
+Per map (wins of 14) no map loses 3+: rushbait-v2 +3, split +3; great-wall, rows, starvation -2. Passes the bench
+rule. Next: real-opponent panel (tools/panel), v25u baseline then v25z with --pin.
+
+### v25z on the ladder (27 Oct): submitted as v219 by Szymon
+Re-played against the teams that recently beat v25u (screenshot from the site, unranked series):
+Camalares 2-3, Warwick Wuants 3-2, AI Coliseum >>> Cambridge Battlecode 3-2, Unimportant 4-1, Unimportant 4-1, QS2 3-2.
+5 of 6 series won (19-13 in games). Opponent versions were not pinned, so some of the swing may be their changes;
+a pinned panel run (tools/panel, --pin) would make it a clean paired result.
+
+## Scanner round 3 on v25z (27 Oct)
+v25z deaths: camps 2.83/game (78% while retreating), champions 3.56/game (76% while retreating; 'stand' now only 7%).
+Monster-damage timelines for the 1530 camp deaths during a retreat: median 620 damage in the 10 rounds before turning,
+then 300 (13% of max HP) over the 3 rounds of walking out: the retreat starts too late, the route is not the problem.
+
+| Bot | Change from v25z | Games | Wins | Margin/game | Camp deaths/game | Champion deaths/game |
+|---|---|---|---|---|---|---|
+| v30a | retreat when 4 rounds of the 4-turn average HP drain + 10% would empty us | 56 worst | 44 -> 42 | +349 -> +320 | 10.6 -> 9.7 | 3.4 -> 3.3 |
+
+Same trade-off as v25x: earlier exits save camp deaths but cost about as much farming. Camp deaths look like the price
+of aggressive farming on this bench rather than a bug; parked. Remaining scanner leads: shortcut (dead-end group 5:
+monoliths wall both altars, 0 gems banked in losses), starvation and gold-rush death hotspots vs champions.
+
+## v30b: retreat to a healthy teammate (27 Oct), rejected
+v30b = v25z + when retreating with enemies visible, go to a teammate (>50% HP, within 8) instead of spawn and keep
+fighting beside it.
+
+| | v25z | v30b |
+|---|---|---|
+| Wins /560 | 495 | 476 |
+| Margin/game | +595 | +557 |
+| Champion deaths/game | 3.56 | 4.34 |
+| Camp deaths/game | 2.83 | 2.99 |
+High-death maps (starvation, gold-rush, yellow-brick-road, concentrated-wealth; 56 games): 38 -> 39 wins, champion
+deaths 5.89 -> 5.68. Elsewhere worse: lost-world 12 -> 8, rushbait-v2 13 -> 9, several maps -2. Likely cause: a
+champion under 30% HP keeps fighting once beside the teammate, and the chaser follows it there.
+
+## Map study on v25z (27 Oct)
+Win rate per map (560 bench games, 14 per map): 64% on quadrants, concentrated-wealth, gold-rush, shortcut,
+yellow-brick-road; 71% broken-curve, islands; 100% on 16 maps. In losses our camp damage equals our wins' but the
+opponent's is far higher (islands 24.7k vs 14.2k in wins, quadrants 42.7k vs 25.5k): we lose to faster farmers.
+- quadrants: pack mode farmed only the two 120-gem groups (15, 16: 95% of farm time); the eight solo-sized gem groups
+  (25-57 gems, 4 camps, 1710 HP) were never touched, while opponents cleared 27 groups by r600 vs our 7.
+- Forced solo, 14 games per map vs v25z: quadrants 9 -> 11, broken-curve 10 -> 11, concentrated-wealth 9 -> 8,
+  pilgrimage 11 -> 9, rows 11 -> 9, big-world 11 -> 8, shortcut 9 -> 7, islands 10 -> 4. Only quadrants gains.
+- Side asymmetry (e.g. expanse A 4/7 vs B 7/7) is not our bot: our early farming is identical by side, and on
+  gold-rush/big-world/starvation both teams do better from the same spawn. Not pursued.
+v30c = v25z + quadrants in the solo-map list. Full run pending.
+
+### v30c full run: 497 vs v25z 495 (margin +598 vs +595)
+Only quadrants games changed (3 L->W, 1 W->L); all other 546 games identical. Candidate to replace v25z.

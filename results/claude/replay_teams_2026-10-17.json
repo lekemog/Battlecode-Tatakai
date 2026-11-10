@@ -1,0 +1,3455 @@
+[
+ {
+  "map": "interlock",
+  "match": "0432b4e0",
+  "team": 0,
+  "rounds": 546,
+  "win": false,
+  "gems": 308,
+  "opp_gems": 1070,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 1,
+  "deaths": 13,
+  "earned_gold": 2660,
+  "captures": 25,
+  "captures_r150": 5,
+  "g100": 22,
+  "g200": 44,
+  "g300": 154,
+  "g400": 220,
+  "first_tribute": 56,
+  "n_tributes": 14,
+  "avg_tribute": 22.0,
+  "first_buy": 41,
+  "buys": [
+   [
+    41,
+    "Tavi",
+    "Monsters-S"
+   ],
+   [
+    70,
+    "Cassi",
+    "Monsters-F"
+   ],
+   [
+    70,
+    "Issac",
+    "Monsters-S"
+   ],
+   [
+    77,
+    "Varg",
+    "Monsters-S"
+   ],
+   [
+    160,
+    "Tavi",
+    "MonsterE-S"
+   ],
+   [
+    160,
+    "Tavi",
+    "Jungles-H"
+   ],
+   [
+    223,
+    "Stellar",
+    "MonsterE-F"
+   ],
+   [
+    223,
+    "Stellar",
+    "Jungles-H"
+   ]
+  ],
+  "n_buys": 32,
+  "wards": 305,
+  "recalls": 13,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 2,
+  "first_recall": 39,
+  "spread": 13.3,
+  "groups": 3.57
+ },
+ {
+  "map": "interlock",
+  "match": "0432b4e0",
+  "team": 1,
+  "rounds": 546,
+  "win": true,
+  "gems": 1070,
+  "opp_gems": 308,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar"
+  ],
+  "kills": 10,
+  "deaths": 1,
+  "earned_gold": 4440,
+  "captures": 31,
+  "captures_r150": 8,
+  "g100": 88,
+  "g200": 264,
+  "g300": 424,
+  "g400": 706,
+  "first_tribute": 51,
+  "n_tributes": 21,
+  "avg_tribute": 51.0,
+  "first_buy": 32,
+  "buys": [
+   [
+    32,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    32,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    97,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    97,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    110,
+    "Ryth",
+    "Bruisers-H"
+   ],
+   [
+    122,
+    "Ren",
+    "DurabilityE-H"
+   ],
+   [
+    199,
+    "Ren",
+    "PowerE-F"
+   ],
+   [
+    211,
+    "Ryth",
+    "DurabilityE-H"
+   ]
+  ],
+  "n_buys": 33,
+  "wards": 50,
+  "recalls": 25,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 34,
+  "first_recall": 26,
+  "spread": 11.7,
+  "groups": 2.96
+ },
+ {
+  "map": "packs",
+  "match": "18be6e49",
+  "team": 0,
+  "rounds": 510,
+  "win": false,
+  "gems": 800,
+  "opp_gems": 1000,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 1,
+  "deaths": 5,
+  "earned_gold": 3200,
+  "captures": 17,
+  "captures_r150": 6,
+  "g100": 184,
+  "g200": 388,
+  "g300": 548,
+  "g400": 664,
+  "first_tribute": 42,
+  "n_tributes": 15,
+  "avg_tribute": 53.3,
+  "first_buy": 33,
+  "buys": [
+   [
+    33,
+    "Issac",
+    "MonsterE-S"
+   ],
+   [
+    33,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    66,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    66,
+    "Issac",
+    "DurabilityE-H"
+   ],
+   [
+    109,
+    "Cassi",
+    "MonsterE-F"
+   ],
+   [
+    109,
+    "Cassi",
+    "Durabilitys-H"
+   ],
+   [
+    144,
+    "Varg",
+    "MonsterE-S"
+   ],
+   [
+    144,
+    "Varg",
+    "DurabilityE-H"
+   ]
+  ],
+  "n_buys": 29,
+  "wards": 8,
+  "recalls": 35,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 8,
+  "first_recall": 27,
+  "spread": 11.3,
+  "groups": 3.27
+ },
+ {
+  "map": "packs",
+  "match": "18be6e49",
+  "team": 1,
+  "rounds": 510,
+  "win": true,
+  "gems": 1000,
+  "opp_gems": 800,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar"
+  ],
+  "kills": 3,
+  "deaths": 2,
+  "earned_gold": 3050,
+  "captures": 21,
+  "captures_r150": 6,
+  "g100": 132,
+  "g200": 316,
+  "g300": 500,
+  "g400": 776,
+  "first_tribute": 31,
+  "n_tributes": 23,
+  "avg_tribute": 43.5,
+  "first_buy": 36,
+  "buys": [
+   [
+    36,
+    "Ren",
+    "Jungles-F"
+   ],
+   [
+    36,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    49,
+    "Cassi",
+    "Powers-F"
+   ],
+   [
+    49,
+    "Cassi",
+    "PowerE-F"
+   ],
+   [
+    91,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    91,
+    "Ren",
+    "JungleE-F"
+   ],
+   [
+    140,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    158,
+    "Ren",
+    "PowerE-F"
+   ]
+  ],
+  "n_buys": 29,
+  "wards": 53,
+  "recalls": 25,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 49,
+  "first_recall": 30,
+  "spread": 8.7,
+  "groups": 2.81
+ },
+ {
+  "map": "pilgrimage",
+  "match": "2f68bee8",
+  "team": 0,
+  "rounds": 684,
+  "win": false,
+  "gems": 408,
+  "opp_gems": 1084,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Tavi"
+  ],
+  "kills": 0,
+  "deaths": 15,
+  "earned_gold": 1500,
+  "captures": 12,
+  "captures_r150": 3,
+  "g100": 0,
+  "g200": 68,
+  "g300": 68,
+  "g400": 136,
+  "first_tribute": 113,
+  "n_tributes": 7,
+  "avg_tribute": 58.3,
+  "first_buy": 61,
+  "buys": [
+   [
+    61,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    61,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    120,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    124,
+    "Cassi",
+    "Powers-F"
+   ],
+   [
+    210,
+    "Ren",
+    "Bruisers-H"
+   ],
+   [
+    259,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    259,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    360,
+    "Ren",
+    "PowerE-F"
+   ]
+  ],
+  "n_buys": 16,
+  "wards": 67,
+  "recalls": 16,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 56,
+  "first_recall": 55,
+  "spread": 18.9,
+  "groups": 2.55
+ },
+ {
+  "map": "pilgrimage",
+  "match": "2f68bee8",
+  "team": 1,
+  "rounds": 684,
+  "win": true,
+  "gems": 1084,
+  "opp_gems": 408,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 10,
+  "deaths": 1,
+  "earned_gold": 4745,
+  "captures": 19,
+  "captures_r150": 3,
+  "g100": 0,
+  "g200": 0,
+  "g300": 272,
+  "g400": 272,
+  "first_tribute": 211,
+  "n_tributes": 8,
+  "avg_tribute": 135.5,
+  "first_buy": 58,
+  "buys": [
+   [
+    58,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    58,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    132,
+    "Issac",
+    "DurabilityE-H"
+   ],
+   [
+    133,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    133,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    206,
+    "Ren",
+    "PowerE-F"
+   ],
+   [
+    206,
+    "Ren",
+    "DurabilityE-H"
+   ],
+   [
+    207,
+    "Varg",
+    "PowerE-S"
+   ]
+  ],
+  "n_buys": 27,
+  "wards": 65,
+  "recalls": 37,
+  "locks": 0,
+  "teleports": 5,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 53,
+  "first_recall": 52,
+  "spread": 14.8,
+  "groups": 2.08
+ },
+ {
+  "map": "ambush",
+  "match": "358abd58",
+  "team": 0,
+  "rounds": 546,
+  "win": false,
+  "gems": 476,
+  "opp_gems": 1000,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Tavi"
+  ],
+  "kills": 1,
+  "deaths": 0,
+  "earned_gold": 2185,
+  "captures": 8,
+  "captures_r150": 1,
+  "g100": 0,
+  "g200": 106,
+  "g300": 178,
+  "g400": 404,
+  "first_tribute": 170,
+  "n_tributes": 5,
+  "avg_tribute": 95.2,
+  "first_buy": 126,
+  "buys": [
+   [
+    126,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    126,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    259,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    259,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    259,
+    "Issac",
+    "DurabilityE-H"
+   ],
+   [
+    340,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    340,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    357,
+    "Tavi",
+    "PowerE-F"
+   ]
+  ],
+  "n_buys": 18,
+  "wards": 55,
+  "recalls": 41,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 32,
+  "first_recall": 53,
+  "spread": 27.4,
+  "groups": 4.77
+ },
+ {
+  "map": "ambush",
+  "match": "358abd58",
+  "team": 1,
+  "rounds": 546,
+  "win": true,
+  "gems": 1000,
+  "opp_gems": 476,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 0,
+  "deaths": 3,
+  "earned_gold": 3270,
+  "captures": 13,
+  "captures_r150": 2,
+  "g100": 0,
+  "g200": 178,
+  "g300": 344,
+  "g400": 582,
+  "first_tribute": 123,
+  "n_tributes": 13,
+  "avg_tribute": 76.9,
+  "first_buy": 72,
+  "buys": [
+   [
+    72,
+    "Ryth",
+    "Jungles-S"
+   ],
+   [
+    72,
+    "Ryth",
+    "BruiserE-H"
+   ],
+   [
+    146,
+    "Varg",
+    "DurabilityE-S"
+   ],
+   [
+    146,
+    "Varg",
+    "JungleE-S"
+   ],
+   [
+    177,
+    "Ren",
+    "Bruisers-H"
+   ],
+   [
+    177,
+    "Ryth",
+    "Durabilitys-H"
+   ],
+   [
+    177,
+    "Ryth",
+    "JungleE-S"
+   ],
+   [
+    256,
+    "Varg",
+    "Powers-S"
+   ]
+  ],
+  "n_buys": 20,
+  "wards": 77,
+  "recalls": 20,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 32,
+  "first_recall": 58,
+  "spread": 16.0,
+  "groups": 3.27
+ },
+ {
+  "map": "fragment",
+  "match": "423daccc",
+  "team": 0,
+  "rounds": 1033,
+  "win": false,
+  "gems": 766,
+  "opp_gems": 1006,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar"
+  ],
+  "kills": 14,
+  "deaths": 22,
+  "earned_gold": 4450,
+  "captures": 24,
+  "captures_r150": 5,
+  "g100": 44,
+  "g200": 204,
+  "g300": 248,
+  "g400": 303,
+  "first_tribute": 35,
+  "n_tributes": 26,
+  "avg_tribute": 29.5,
+  "first_buy": 64,
+  "buys": [
+   [
+    64,
+    "Issac",
+    "Monsters-S"
+   ],
+   [
+    113,
+    "Stellar",
+    "Monsters-F"
+   ],
+   [
+    133,
+    "Issac",
+    "MonsterE-S"
+   ],
+   [
+    140,
+    "Cassi",
+    "MonsterE-F"
+   ],
+   [
+    140,
+    "Cassi",
+    "Powers-F"
+   ],
+   [
+    140,
+    "Cassi",
+    "DurabilityE-H"
+   ],
+   [
+    140,
+    "Stellar",
+    "MonsterE-F"
+   ],
+   [
+    140,
+    "Stellar",
+    "DurabilityE-H"
+   ]
+  ],
+  "n_buys": 39,
+  "wards": 15,
+  "recalls": 59,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 2,
+  "first_recall": 30,
+  "spread": 8.4,
+  "groups": 2.63
+ },
+ {
+  "map": "fragment",
+  "match": "423daccc",
+  "team": 1,
+  "rounds": 1033,
+  "win": true,
+  "gems": 1006,
+  "opp_gems": 766,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar"
+  ],
+  "kills": 16,
+  "deaths": 21,
+  "earned_gold": 5925,
+  "captures": 32,
+  "captures_r150": 3,
+  "g100": 44,
+  "g200": 88,
+  "g300": 99,
+  "g400": 143,
+  "first_tribute": 90,
+  "n_tributes": 21,
+  "avg_tribute": 47.9,
+  "first_buy": 37,
+  "buys": [
+   [
+    37,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    72,
+    "Stellar",
+    "PowerE-F"
+   ],
+   [
+    72,
+    "Stellar",
+    "Jungles-F"
+   ],
+   [
+    137,
+    "Stellar",
+    "Durabilitys-F"
+   ],
+   [
+    137,
+    "Stellar",
+    "JungleE-F"
+   ],
+   [
+    165,
+    "Stellar",
+    "DurabilityE-F"
+   ],
+   [
+    165,
+    "Stellar",
+    "Bruisers-H"
+   ],
+   [
+    206,
+    "Ren",
+    "Bruisers-H"
+   ]
+  ],
+  "n_buys": 58,
+  "wards": 98,
+  "recalls": 51,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 3,
+  "first_recall": 22,
+  "spread": 8.0,
+  "groups": 2.13
+ },
+ {
+  "map": "rushbait_v2",
+  "match": "472bbb71",
+  "team": 0,
+  "rounds": 471,
+  "win": false,
+  "gems": 506,
+  "opp_gems": 1000,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 0,
+  "deaths": 5,
+  "earned_gold": 2160,
+  "captures": 24,
+  "captures_r150": 8,
+  "g100": 88,
+  "g200": 198,
+  "g300": 286,
+  "g400": 418,
+  "first_tribute": 69,
+  "n_tributes": 23,
+  "avg_tribute": 22.0,
+  "first_buy": 39,
+  "buys": [
+   [
+    39,
+    "Tavi",
+    "Monsters-S"
+   ],
+   [
+    84,
+    "Cassi",
+    "Monsters-F"
+   ],
+   [
+    118,
+    "Issac",
+    "Monsters-S"
+   ],
+   [
+    126,
+    "Tavi",
+    "MonsterE-S"
+   ],
+   [
+    126,
+    "Tavi",
+    "Jungles-H"
+   ],
+   [
+    174,
+    "Varg",
+    "MonsterE-S"
+   ],
+   [
+    174,
+    "Varg",
+    "Jungles-H"
+   ],
+   [
+    202,
+    "Cassi",
+    "MonsterE-F"
+   ]
+  ],
+  "n_buys": 27,
+  "wards": 345,
+  "recalls": 15,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 3,
+  "first_recall": 78,
+  "spread": 14.9,
+  "groups": 3.63
+ },
+ {
+  "map": "rushbait_v2",
+  "match": "472bbb71",
+  "team": 1,
+  "rounds": 471,
+  "win": true,
+  "gems": 1000,
+  "opp_gems": 506,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar"
+  ],
+  "kills": 4,
+  "deaths": 0,
+  "earned_gold": 4380,
+  "captures": 41,
+  "captures_r150": 13,
+  "g100": 0,
+  "g200": 132,
+  "g300": 322,
+  "g400": 606,
+  "first_tribute": 117,
+  "n_tributes": 9,
+  "avg_tribute": 111.1,
+  "first_buy": 42,
+  "buys": [
+   [
+    42,
+    "Ryth",
+    "Durabilitys-H"
+   ],
+   [
+    42,
+    "Ryth",
+    "BruiserE-H"
+   ],
+   [
+    60,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    62,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    62,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    100,
+    "Ren",
+    "Powers-F"
+   ],
+   [
+    100,
+    "Ren",
+    "DurabilityE-H"
+   ],
+   [
+    154,
+    "Ren",
+    "Powers-F"
+   ]
+  ],
+  "n_buys": 39,
+  "wards": 7,
+  "recalls": 27,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 104,
+  "first_recall": 25,
+  "spread": 8.2,
+  "groups": 2.09
+ },
+ {
+  "map": "contest",
+  "match": "4d6b613b",
+  "team": 0,
+  "rounds": 1326,
+  "win": false,
+  "gems": 0,
+  "opp_gems": 1000,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Prism",
+   "Ren",
+   "Stellar",
+   "Tavi"
+  ],
+  "kills": 3,
+  "deaths": 71,
+  "earned_gold": 2425,
+  "captures": 35,
+  "captures_r150": 5,
+  "g100": 0,
+  "g200": 0,
+  "g300": 0,
+  "g400": 0,
+  "first_tribute": null,
+  "n_tributes": 0,
+  "avg_tribute": 0,
+  "first_buy": 29,
+  "buys": [
+   [
+    29,
+    "Cassi",
+    "Powers-F"
+   ],
+   [
+    68,
+    "Ren",
+    "Bruisers-H"
+   ],
+   [
+    76,
+    "Prism",
+    "Powers-F"
+   ],
+   [
+    141,
+    "Cassi",
+    "Powers-F"
+   ],
+   [
+    153,
+    "Prism",
+    "PowerE-F"
+   ],
+   [
+    160,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    160,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    221,
+    "Prism",
+    "Durabilitys-H"
+   ]
+  ],
+  "n_buys": 39,
+  "wards": 176,
+  "recalls": 24,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 18,
+  "first_recall": 62,
+  "spread": 10.6,
+  "groups": 2.37
+ },
+ {
+  "map": "contest",
+  "match": "4d6b613b",
+  "team": 1,
+  "rounds": 1326,
+  "win": true,
+  "gems": 1000,
+  "opp_gems": 0,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Prism",
+   "Ren",
+   "Stellar",
+   "Tavi"
+  ],
+  "kills": 57,
+  "deaths": 6,
+  "earned_gold": 10783,
+  "captures": 76,
+  "captures_r150": 8,
+  "g100": 0,
+  "g200": 0,
+  "g300": 0,
+  "g400": 0,
+  "first_tribute": 976,
+  "n_tributes": 5,
+  "avg_tribute": 200.0,
+  "first_buy": 49,
+  "buys": [
+   [
+    49,
+    "Stellar",
+    "PowerE-F"
+   ],
+   [
+    58,
+    "Ren",
+    "Bruisers-H"
+   ],
+   [
+    113,
+    "Cassi",
+    "Bruisers-H"
+   ],
+   [
+    115,
+    "Stellar",
+    "Durabilitys-H"
+   ],
+   [
+    120,
+    "Prism",
+    "Powers-F"
+   ],
+   [
+    135,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    149,
+    "Tavi",
+    "Treasures-F"
+   ],
+   [
+    169,
+    "Tavi",
+    "TreasureE-F"
+   ]
+  ],
+  "n_buys": 97,
+  "wards": 216,
+  "recalls": 83,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 11,
+  "first_recall": 43,
+  "spread": 10.4,
+  "groups": 2.77
+ },
+ {
+  "map": "lanes",
+  "match": "71629d0f",
+  "team": 0,
+  "rounds": 433,
+  "win": true,
+  "gems": 1024,
+  "opp_gems": 986,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Tavi"
+  ],
+  "kills": 0,
+  "deaths": 1,
+  "earned_gold": 4690,
+  "captures": 49,
+  "captures_r150": 15,
+  "g100": 132,
+  "g200": 366,
+  "g300": 644,
+  "g400": 980,
+  "first_tribute": 79,
+  "n_tributes": 25,
+  "avg_tribute": 41.0,
+  "first_buy": 51,
+  "buys": [
+   [
+    51,
+    "Tavi",
+    "Powers-F"
+   ],
+   [
+    64,
+    "Ryth",
+    "Durabilitys-H"
+   ],
+   [
+    64,
+    "Ryth",
+    "BruiserE-H"
+   ],
+   [
+    81,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    81,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    82,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    82,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    95,
+    "Tavi",
+    "PowerE-F"
+   ]
+  ],
+  "n_buys": 50,
+  "wards": 79,
+  "recalls": 25,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 1,
+  "first_recall": 58,
+  "spread": 13.4,
+  "groups": 3.36
+ },
+ {
+  "map": "lanes",
+  "match": "71629d0f",
+  "team": 1,
+  "rounds": 433,
+  "win": false,
+  "gems": 986,
+  "opp_gems": 1024,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 1,
+  "deaths": 0,
+  "earned_gold": 4140,
+  "captures": 40,
+  "captures_r150": 11,
+  "g100": 88,
+  "g200": 286,
+  "g300": 556,
+  "g400": 884,
+  "first_tribute": 52,
+  "n_tributes": 33,
+  "avg_tribute": 29.9,
+  "first_buy": 80,
+  "buys": [
+   [
+    80,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    80,
+    "Issac",
+    "JungleE-S"
+   ],
+   [
+    90,
+    "Ren",
+    "Jungles-F"
+   ],
+   [
+    90,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    106,
+    "Varg",
+    "Jungles-S"
+   ],
+   [
+    112,
+    "Ryth",
+    "JungleE-S"
+   ],
+   [
+    112,
+    "Ryth",
+    "Bruisers-H"
+   ],
+   [
+    153,
+    "Issac",
+    "Powers-S"
+   ]
+  ],
+  "n_buys": 33,
+  "wards": 60,
+  "recalls": 23,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 1,
+  "first_recall": 55,
+  "spread": 17.6,
+  "groups": 3.76
+ },
+ {
+  "map": "collision",
+  "match": "75467c4c",
+  "team": 0,
+  "rounds": 565,
+  "win": false,
+  "gems": 154,
+  "opp_gems": 1016,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar"
+  ],
+  "kills": 2,
+  "deaths": 17,
+  "earned_gold": 2075,
+  "captures": 25,
+  "captures_r150": 9,
+  "g100": 44,
+  "g200": 44,
+  "g300": 88,
+  "g400": 132,
+  "first_tribute": 77,
+  "n_tributes": 5,
+  "avg_tribute": 30.8,
+  "first_buy": 54,
+  "buys": [
+   [
+    54,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    54,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    79,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    91,
+    "Cassi",
+    "PowerE-F"
+   ],
+   [
+    91,
+    "Cassi",
+    "Durabilitys-H"
+   ],
+   [
+    97,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    138,
+    "Stellar",
+    "PowerE-F"
+   ],
+   [
+    191,
+    "Issac",
+    "PowerE-S"
+   ]
+  ],
+  "n_buys": 26,
+  "wards": 2,
+  "recalls": 12,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 91,
+  "first_recall": 48,
+  "spread": 9.5,
+  "groups": 1.84
+ },
+ {
+  "map": "collision",
+  "match": "75467c4c",
+  "team": 1,
+  "rounds": 565,
+  "win": true,
+  "gems": 1016,
+  "opp_gems": 154,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar"
+  ],
+  "kills": 12,
+  "deaths": 3,
+  "earned_gold": 4005,
+  "captures": 37,
+  "captures_r150": 11,
+  "g100": 66,
+  "g200": 212,
+  "g300": 380,
+  "g400": 592,
+  "first_tribute": 99,
+  "n_tributes": 13,
+  "avg_tribute": 78.2,
+  "first_buy": 45,
+  "buys": [
+   [
+    45,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    45,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    50,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    55,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    85,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    85,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    131,
+    "Ren",
+    "Powers-F"
+   ],
+   [
+    131,
+    "Ren",
+    "DurabilityE-H"
+   ]
+  ],
+  "n_buys": 36,
+  "wards": 0,
+  "recalls": 28,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": null,
+  "first_recall": 39,
+  "spread": 7.8,
+  "groups": 1.99
+ },
+ {
+  "map": "swirl",
+  "match": "77cd56e1",
+  "team": 0,
+  "rounds": 688,
+  "win": false,
+  "gems": 232,
+  "opp_gems": 1002,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 10,
+  "deaths": 29,
+  "earned_gold": 1920,
+  "captures": 5,
+  "captures_r150": 1,
+  "g100": 0,
+  "g200": 72,
+  "g300": 72,
+  "g400": 108,
+  "first_tribute": 134,
+  "n_tributes": 5,
+  "avg_tribute": 46.4,
+  "first_buy": 78,
+  "buys": [
+   [
+    78,
+    "Varg",
+    "Monsters-S"
+   ],
+   [
+    112,
+    "Stellar",
+    "Monsters-F"
+   ],
+   [
+    127,
+    "Tavi",
+    "MonsterE-F"
+   ],
+   [
+    127,
+    "Tavi",
+    "Durabilitys-H"
+   ],
+   [
+    159,
+    "Tavi",
+    "Powers-F"
+   ],
+   [
+    159,
+    "Tavi",
+    "PowerE-F"
+   ],
+   [
+    159,
+    "Tavi",
+    "DurabilityE-H"
+   ],
+   [
+    181,
+    "Stellar",
+    "Monsters-F"
+   ]
+  ],
+  "n_buys": 22,
+  "wards": 43,
+  "recalls": 39,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 2,
+  "first_recall": 31,
+  "spread": 3.8,
+  "groups": 1.29
+ },
+ {
+  "map": "swirl",
+  "match": "77cd56e1",
+  "team": 1,
+  "rounds": 688,
+  "win": true,
+  "gems": 1002,
+  "opp_gems": 232,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar"
+  ],
+  "kills": 18,
+  "deaths": 15,
+  "earned_gold": 6055,
+  "captures": 20,
+  "captures_r150": 1,
+  "g100": 88,
+  "g200": 132,
+  "g300": 220,
+  "g400": 498,
+  "first_tribute": 65,
+  "n_tributes": 20,
+  "avg_tribute": 50.1,
+  "first_buy": 45,
+  "buys": [
+   [
+    45,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    63,
+    "Issac",
+    "Jungles-S"
+   ],
+   [
+    71,
+    "Ren",
+    "Jungles-F"
+   ],
+   [
+    71,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    83,
+    "Ryth",
+    "Jungles-S"
+   ],
+   [
+    83,
+    "Ryth",
+    "BruiserE-H"
+   ],
+   [
+    136,
+    "Cassi",
+    "Powers-F"
+   ],
+   [
+    163,
+    "Ren",
+    "Durabilitys-H"
+   ]
+  ],
+  "n_buys": 48,
+  "wards": 175,
+  "recalls": 31,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 51,
+  "first_recall": 24,
+  "spread": 10.0,
+  "groups": 1.68
+ },
+ {
+  "map": "monolith",
+  "match": "81c09ce8",
+  "team": 0,
+  "rounds": 394,
+  "win": false,
+  "gems": 682,
+  "opp_gems": 1074,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Stellar",
+   "Tavi",
+   "Varg",
+   "Vendetta"
+  ],
+  "kills": 0,
+  "deaths": 4,
+  "earned_gold": 3130,
+  "captures": 23,
+  "captures_r150": 10,
+  "g100": 154,
+  "g200": 352,
+  "g300": 506,
+  "g400": 682,
+  "first_tribute": 55,
+  "n_tributes": 23,
+  "avg_tribute": 29.7,
+  "first_buy": 33,
+  "buys": [
+   [
+    33,
+    "Tavi",
+    "Monsters-S"
+   ],
+   [
+    82,
+    "Varg",
+    "MonsterE-S"
+   ],
+   [
+    82,
+    "Varg",
+    "Jungles-H"
+   ],
+   [
+    83,
+    "Stellar",
+    "MonsterE-F"
+   ],
+   [
+    83,
+    "Stellar",
+    "Jungles-H"
+   ],
+   [
+    103,
+    "Cassi",
+    "Monsters-F"
+   ],
+   [
+    116,
+    "Tavi",
+    "MonsterE-S"
+   ],
+   [
+    116,
+    "Tavi",
+    "Jungles-H"
+   ]
+  ],
+  "n_buys": 35,
+  "wards": 322,
+  "recalls": 20,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 2,
+  "first_recall": 49,
+  "spread": 19.0,
+  "groups": 5.43
+ },
+ {
+  "map": "monolith",
+  "match": "81c09ce8",
+  "team": 1,
+  "rounds": 394,
+  "win": true,
+  "gems": 1074,
+  "opp_gems": 682,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 4,
+  "deaths": 0,
+  "earned_gold": 4330,
+  "captures": 28,
+  "captures_r150": 10,
+  "g100": 0,
+  "g200": 270,
+  "g300": 606,
+  "g400": 1074,
+  "first_tribute": 122,
+  "n_tributes": 15,
+  "avg_tribute": 71.6,
+  "first_buy": 35,
+  "buys": [
+   [
+    35,
+    "Ryth",
+    "BruiserE-H"
+   ],
+   [
+    51,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    51,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    76,
+    "Ryth",
+    "Powers-S"
+   ],
+   [
+    76,
+    "Ryth",
+    "DurabilityE-H"
+   ],
+   [
+    108,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    108,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    111,
+    "Ren",
+    "Powers-F"
+   ]
+  ],
+  "n_buys": 38,
+  "wards": 14,
+  "recalls": 23,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 73,
+  "first_recall": 22,
+  "spread": 15.2,
+  "groups": 3.54
+ },
+ {
+  "map": "packs",
+  "match": "94078b15",
+  "team": 0,
+  "rounds": 407,
+  "win": false,
+  "gems": 220,
+  "opp_gems": 1004,
+  "comp": [
+   "Marcella",
+   "Varg",
+   "Willow"
+  ],
+  "kills": 0,
+  "deaths": 5,
+  "earned_gold": 1260,
+  "captures": 7,
+  "captures_r150": 2,
+  "g100": 44,
+  "g200": 88,
+  "g300": 132,
+  "g400": 220,
+  "first_tribute": 41,
+  "n_tributes": 5,
+  "avg_tribute": 44.0,
+  "first_buy": 64,
+  "buys": [
+   [
+    64,
+    "Willow",
+    "Monsters-S"
+   ],
+   [
+    65,
+    "Varg",
+    "Monsters-S"
+   ],
+   [
+    154,
+    "Marcella",
+    "MonsterE-S"
+   ],
+   [
+    154,
+    "Marcella",
+    "Jungles-H"
+   ],
+   [
+    164,
+    "Willow",
+    "MonsterE-S"
+   ],
+   [
+    164,
+    "Willow",
+    "Jungles-H"
+   ],
+   [
+    288,
+    "Varg",
+    "MonsterE-S"
+   ],
+   [
+    288,
+    "Varg",
+    "Jungles-H"
+   ]
+  ],
+  "n_buys": 14,
+  "wards": 114,
+  "recalls": 8,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 2,
+  "first_recall": 58,
+  "spread": 10.9,
+  "groups": 2.16
+ },
+ {
+  "map": "packs",
+  "match": "94078b15",
+  "team": 1,
+  "rounds": 407,
+  "win": true,
+  "gems": 1004,
+  "opp_gems": 220,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar"
+  ],
+  "kills": 5,
+  "deaths": 0,
+  "earned_gold": 3040,
+  "captures": 21,
+  "captures_r150": 7,
+  "g100": 88,
+  "g200": 408,
+  "g300": 684,
+  "g400": 960,
+  "first_tribute": 32,
+  "n_tributes": 21,
+  "avg_tribute": 47.8,
+  "first_buy": 25,
+  "buys": [
+   [
+    25,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    25,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    44,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    44,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    92,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    92,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    92,
+    "Issac",
+    "DurabilityE-H"
+   ],
+   [
+    125,
+    "Ren",
+    "Powers-F"
+   ]
+  ],
+  "n_buys": 27,
+  "wards": 38,
+  "recalls": 19,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 32,
+  "first_recall": 19,
+  "spread": 10.5,
+  "groups": 2.55
+ },
+ {
+  "map": "monolith",
+  "match": "a5c64e8b",
+  "team": 0,
+  "rounds": 399,
+  "win": false,
+  "gems": 688,
+  "opp_gems": 1010,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 0,
+  "deaths": 4,
+  "earned_gold": 3630,
+  "captures": 28,
+  "captures_r150": 10,
+  "g100": 80,
+  "g200": 314,
+  "g300": 512,
+  "g400": 688,
+  "first_tribute": 33,
+  "n_tributes": 18,
+  "avg_tribute": 38.2,
+  "first_buy": 51,
+  "buys": [
+   [
+    51,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    54,
+    "Varg",
+    "JungleE-S"
+   ],
+   [
+    69,
+    "Ren",
+    "Bruisers-H"
+   ],
+   [
+    75,
+    "Cassi",
+    "PowerE-F"
+   ],
+   [
+    75,
+    "Cassi",
+    "Durabilitys-H"
+   ],
+   [
+    87,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    113,
+    "Ryth",
+    "Durabilitys-H"
+   ],
+   [
+    113,
+    "Ryth",
+    "BruiserE-H"
+   ]
+  ],
+  "n_buys": 38,
+  "wards": 12,
+  "recalls": 27,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 23,
+  "first_recall": 42,
+  "spread": 12.5,
+  "groups": 3.79
+ },
+ {
+  "map": "monolith",
+  "match": "a5c64e8b",
+  "team": 1,
+  "rounds": 399,
+  "win": true,
+  "gems": 1010,
+  "opp_gems": 688,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ryth",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 2,
+  "deaths": 0,
+  "earned_gold": 4450,
+  "captures": 30,
+  "captures_r150": 10,
+  "g100": 36,
+  "g200": 388,
+  "g300": 622,
+  "g400": 1010,
+  "first_tribute": 69,
+  "n_tributes": 22,
+  "avg_tribute": 45.9,
+  "first_buy": 28,
+  "buys": [
+   [
+    28,
+    "Tavi",
+    "Jungles-F"
+   ],
+   [
+    39,
+    "Varg",
+    "JungleE-S"
+   ],
+   [
+    46,
+    "Issac",
+    "Jungles-S"
+   ],
+   [
+    72,
+    "Ryth",
+    "Jungles-S"
+   ],
+   [
+    72,
+    "Ryth",
+    "BruiserE-H"
+   ],
+   [
+    76,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    79,
+    "Tavi",
+    "Durabilitys-F"
+   ],
+   [
+    79,
+    "Tavi",
+    "JungleE-F"
+   ]
+  ],
+  "n_buys": 46,
+  "wards": 28,
+  "recalls": 32,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 57,
+  "first_recall": 33,
+  "spread": 17.1,
+  "groups": 4.67
+ },
+ {
+  "map": "packs",
+  "match": "a93d42b0",
+  "team": 0,
+  "rounds": 466,
+  "win": false,
+  "gems": 136,
+  "opp_gems": 1000,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar"
+  ],
+  "kills": 0,
+  "deaths": 19,
+  "earned_gold": 680,
+  "captures": 5,
+  "captures_r150": 2,
+  "g100": 92,
+  "g200": 92,
+  "g300": 92,
+  "g400": 136,
+  "first_tribute": 42,
+  "n_tributes": 3,
+  "avg_tribute": 45.3,
+  "first_buy": 32,
+  "buys": [
+   [
+    32,
+    "Stellar",
+    "PowerE-F"
+   ],
+   [
+    32,
+    "Stellar",
+    "Durabilitys-H"
+   ],
+   [
+    111,
+    "Stellar",
+    "Durabilitys-H"
+   ],
+   [
+    298,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    298,
+    "Stellar",
+    "DurabilityE-H"
+   ],
+   [
+    332,
+    "Stellar",
+    "PowerE-F"
+   ],
+   [
+    454,
+    "Cassi",
+    "PowerE-F"
+   ],
+   [
+    454,
+    "Cassi",
+    "Durabilitys-H"
+   ]
+  ],
+  "n_buys": 8,
+  "wards": 18,
+  "recalls": 6,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 7,
+  "first_recall": 26,
+  "spread": 8.9,
+  "groups": 2.44
+ },
+ {
+  "map": "packs",
+  "match": "a93d42b0",
+  "team": 1,
+  "rounds": 466,
+  "win": true,
+  "gems": 1000,
+  "opp_gems": 136,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar"
+  ],
+  "kills": 14,
+  "deaths": 0,
+  "earned_gold": 3710,
+  "captures": 21,
+  "captures_r150": 6,
+  "g100": 180,
+  "g200": 268,
+  "g300": 548,
+  "g400": 820,
+  "first_tribute": 32,
+  "n_tributes": 22,
+  "avg_tribute": 45.5,
+  "first_buy": 25,
+  "buys": [
+   [
+    25,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    25,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    44,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    44,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    73,
+    "Cassi",
+    "Bruisers-H"
+   ],
+   [
+    88,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    88,
+    "Issac",
+    "DurabilityE-H"
+   ],
+   [
+    109,
+    "Ren",
+    "Powers-F"
+   ]
+  ],
+  "n_buys": 33,
+  "wards": 58,
+  "recalls": 24,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 32,
+  "first_recall": 19,
+  "spread": 8.8,
+  "groups": 2.37
+ },
+ {
+  "map": "rows",
+  "match": "b5fda1c7",
+  "team": 0,
+  "rounds": 348,
+  "win": false,
+  "gems": 726,
+  "opp_gems": 1023,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 0,
+  "deaths": 0,
+  "earned_gold": 3240,
+  "captures": 12,
+  "captures_r150": 5,
+  "g100": 132,
+  "g200": 330,
+  "g300": 594,
+  "g400": 726,
+  "first_tribute": 54,
+  "n_tributes": 11,
+  "avg_tribute": 66.0,
+  "first_buy": 38,
+  "buys": [
+   [
+    38,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    38,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    68,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    68,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    95,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    95,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    95,
+    "Issac",
+    "DurabilityE-H"
+   ],
+   [
+    139,
+    "Ren",
+    "Powers-F"
+   ]
+  ],
+  "n_buys": 22,
+  "wards": 57,
+  "recalls": 19,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 18,
+  "first_recall": 23,
+  "spread": 12.8,
+  "groups": 3.0
+ },
+ {
+  "map": "rows",
+  "match": "b5fda1c7",
+  "team": 1,
+  "rounds": 348,
+  "win": true,
+  "gems": 1023,
+  "opp_gems": 726,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Stellar",
+   "Varg",
+   "Vendetta"
+  ],
+  "kills": 0,
+  "deaths": 0,
+  "earned_gold": 4320,
+  "captures": 16,
+  "captures_r150": 5,
+  "g100": 132,
+  "g200": 396,
+  "g300": 726,
+  "g400": 1023,
+  "first_tribute": 49,
+  "n_tributes": 13,
+  "avg_tribute": 78.7,
+  "first_buy": 54,
+  "buys": [
+   [
+    54,
+    "Varg",
+    "MonsterE-S"
+   ],
+   [
+    54,
+    "Varg",
+    "Powers-S"
+   ],
+   [
+    76,
+    "Vendetta",
+    "Durabilitys-S"
+   ],
+   [
+    76,
+    "Vendetta",
+    "JungleE-S"
+   ],
+   [
+    123,
+    "Varg",
+    "PowerE-S"
+   ],
+   [
+    130,
+    "Cassi",
+    "PowerE-F"
+   ],
+   [
+    130,
+    "Cassi",
+    "DurabilityE-F"
+   ],
+   [
+    130,
+    "Cassi",
+    "JungleE-F"
+   ]
+  ],
+  "n_buys": 26,
+  "wards": 57,
+  "recalls": 16,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 22,
+  "first_recall": 48,
+  "spread": 14.9,
+  "groups": 2.91
+ },
+ {
+  "map": "corners",
+  "match": "c5d8876a",
+  "team": 0,
+  "rounds": 476,
+  "win": false,
+  "gems": 428,
+  "opp_gems": 1004,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Tavi"
+  ],
+  "kills": 0,
+  "deaths": 9,
+  "earned_gold": 3090,
+  "captures": 29,
+  "captures_r150": 8,
+  "g100": 58,
+  "g200": 116,
+  "g300": 268,
+  "g400": 392,
+  "first_tribute": 54,
+  "n_tributes": 11,
+  "avg_tribute": 38.9,
+  "first_buy": 32,
+  "buys": [
+   [
+    32,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    53,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    54,
+    "Ren",
+    "Bruisers-H"
+   ],
+   [
+    70,
+    "Tavi",
+    "Powers-F"
+   ],
+   [
+    83,
+    "Cassi",
+    "Powers-F"
+   ],
+   [
+    83,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    120,
+    "Ryth",
+    "BruiserE-H"
+   ],
+   [
+    152,
+    "Ren",
+    "Durabilitys-H"
+   ]
+  ],
+  "n_buys": 37,
+  "wards": 28,
+  "recalls": 31,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 6,
+  "first_recall": 26,
+  "spread": 18.2,
+  "groups": 3.63
+ },
+ {
+  "map": "corners",
+  "match": "c5d8876a",
+  "team": 1,
+  "rounds": 476,
+  "win": true,
+  "gems": 1004,
+  "opp_gems": 428,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 6,
+  "deaths": 0,
+  "earned_gold": 4100,
+  "captures": 31,
+  "captures_r150": 11,
+  "g100": 22,
+  "g200": 146,
+  "g300": 504,
+  "g400": 540,
+  "first_tribute": 70,
+  "n_tributes": 15,
+  "avg_tribute": 66.9,
+  "first_buy": 28,
+  "buys": [
+   [
+    28,
+    "Varg",
+    "PowerE-S"
+   ],
+   [
+    42,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    89,
+    "Issac",
+    "PowerE-S"
+   ],
+   [
+    89,
+    "Issac",
+    "Durabilitys-H"
+   ],
+   [
+    102,
+    "Ren",
+    "Durabilitys-H"
+   ],
+   [
+    115,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    115,
+    "Issac",
+    "DurabilityE-H"
+   ],
+   [
+    128,
+    "Varg",
+    "DurabilityE-H"
+   ]
+  ],
+  "n_buys": 36,
+  "wards": 25,
+  "recalls": 35,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 4,
+  "first_recall": 22,
+  "spread": 19.5,
+  "groups": 3.81
+ },
+ {
+  "map": "rows",
+  "match": "c67c7b39",
+  "team": 0,
+  "rounds": 355,
+  "win": false,
+  "gems": 594,
+  "opp_gems": 1056,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 0,
+  "deaths": 0,
+  "earned_gold": 2535,
+  "captures": 10,
+  "captures_r150": 4,
+  "g100": 99,
+  "g200": 198,
+  "g300": 396,
+  "g400": 594,
+  "first_tribute": 63,
+  "n_tributes": 15,
+  "avg_tribute": 39.6,
+  "first_buy": 48,
+  "buys": [
+   [
+    48,
+    "Tavi",
+    "Monsters-S"
+   ],
+   [
+    124,
+    "Varg",
+    "Monsters-S"
+   ],
+   [
+    130,
+    "Stellar",
+    "Monsters-F"
+   ],
+   [
+    139,
+    "Issac",
+    "Monsters-S"
+   ],
+   [
+    168,
+    "Cassi",
+    "MonsterE-F"
+   ],
+   [
+    168,
+    "Cassi",
+    "Jungles-H"
+   ],
+   [
+    205,
+    "Tavi",
+    "MonsterE-S"
+   ],
+   [
+    205,
+    "Tavi",
+    "Powers-S"
+   ]
+  ],
+  "n_buys": 20,
+  "wards": 295,
+  "recalls": 12,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 2,
+  "first_recall": 37,
+  "spread": 15.7,
+  "groups": 3.72
+ },
+ {
+  "map": "rows",
+  "match": "c67c7b39",
+  "team": 1,
+  "rounds": 355,
+  "win": true,
+  "gems": 1056,
+  "opp_gems": 594,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 0,
+  "deaths": 0,
+  "earned_gold": 4590,
+  "captures": 17,
+  "captures_r150": 6,
+  "g100": 132,
+  "g200": 396,
+  "g300": 726,
+  "g400": 1056,
+  "first_tribute": 52,
+  "n_tributes": 15,
+  "avg_tribute": 70.4,
+  "first_buy": 33,
+  "buys": [
+   [
+    33,
+    "Varg",
+    "MonsterE-S"
+   ],
+   [
+    33,
+    "Varg",
+    "Powers-S"
+   ],
+   [
+    59,
+    "Ren",
+    "MonsterE-F"
+   ],
+   [
+    59,
+    "Ren",
+    "Powers-F"
+   ],
+   [
+    91,
+    "Varg",
+    "PowerE-S"
+   ],
+   [
+    100,
+    "Stellar",
+    "MonsterE-F"
+   ],
+   [
+    100,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    130,
+    "Ren",
+    "PowerE-F"
+   ]
+  ],
+  "n_buys": 21,
+  "wards": 74,
+  "recalls": 20,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 20,
+  "first_recall": 27,
+  "spread": 13.9,
+  "groups": 3.11
+ },
+ {
+  "map": "contest",
+  "match": "cee62c52",
+  "team": 0,
+  "rounds": 1792,
+  "win": false,
+  "gems": 0,
+  "opp_gems": 1000,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ryth",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 2,
+  "deaths": 58,
+  "earned_gold": 3600,
+  "captures": 66,
+  "captures_r150": 6,
+  "g100": 0,
+  "g200": 0,
+  "g300": 0,
+  "g400": 0,
+  "first_tribute": null,
+  "n_tributes": 0,
+  "avg_tribute": 0,
+  "first_buy": 25,
+  "buys": [
+   [
+    25,
+    "Tavi",
+    "Monsters-F"
+   ],
+   [
+    76,
+    "Cassi",
+    "Monsters-F"
+   ],
+   [
+    76,
+    "Issac",
+    "Monsters-S"
+   ],
+   [
+    88,
+    "Tavi",
+    "Monsters-F"
+   ],
+   [
+    109,
+    "Stellar",
+    "Monsters-F"
+   ],
+   [
+    124,
+    "Varg",
+    "Monsters-S"
+   ],
+   [
+    171,
+    "Tavi",
+    "MonsterE-F"
+   ],
+   [
+    207,
+    "Stellar",
+    "Monsters-F"
+   ]
+  ],
+  "n_buys": 64,
+  "wards": 38,
+  "recalls": 58,
+  "locks": 1,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 21,
+  "first_recall": 46,
+  "spread": 12.3,
+  "groups": 3.05
+ },
+ {
+  "map": "contest",
+  "match": "cee62c52",
+  "team": 1,
+  "rounds": 1792,
+  "win": true,
+  "gems": 1000,
+  "opp_gems": 0,
+  "comp": [
+   "Prism",
+   "Ren",
+   "Stellar",
+   "Tavi",
+   "Willow"
+  ],
+  "kills": 45,
+  "deaths": 2,
+  "earned_gold": 11380,
+  "captures": 79,
+  "captures_r150": 6,
+  "g100": 0,
+  "g200": 0,
+  "g300": 0,
+  "g400": 0,
+  "first_tribute": 1468,
+  "n_tributes": 5,
+  "avg_tribute": 200.0,
+  "first_buy": 68,
+  "buys": [
+   [
+    68,
+    "Willow",
+    "PowerE-S"
+   ],
+   [
+    77,
+    "Tavi",
+    "Powers-F"
+   ],
+   [
+    98,
+    "Tavi",
+    "Powers-F"
+   ],
+   [
+    101,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    118,
+    "Prism",
+    "PowerE-F"
+   ],
+   [
+    146,
+    "Stellar",
+    "PowerE-F"
+   ],
+   [
+    146,
+    "Stellar",
+    "Durabilitys-H"
+   ],
+   [
+    175,
+    "Willow",
+    "Powers-S"
+   ]
+  ],
+  "n_buys": 101,
+  "wards": 853,
+  "recalls": 91,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 13,
+  "first_recall": 62,
+  "spread": 11.2,
+  "groups": 2.83
+ },
+ {
+  "map": "stampede",
+  "match": "e5befe19",
+  "team": 0,
+  "rounds": 904,
+  "win": true,
+  "gems": 1080,
+  "opp_gems": 360,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ryth",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 14,
+  "deaths": 11,
+  "earned_gold": 6170,
+  "captures": 34,
+  "captures_r150": 13,
+  "g100": 0,
+  "g200": 0,
+  "g300": 0,
+  "g400": 0,
+  "first_tribute": 609,
+  "n_tributes": 3,
+  "avg_tribute": 360.0,
+  "first_buy": 60,
+  "buys": [
+   [
+    60,
+    "Ryth",
+    "MonsterE-H"
+   ],
+   [
+    60,
+    "Ryth",
+    "Durabilitys-H"
+   ],
+   [
+    96,
+    "Varg",
+    "Monsters-S"
+   ],
+   [
+    112,
+    "Cassi",
+    "MonsterE-F"
+   ],
+   [
+    112,
+    "Cassi",
+    "Durabilitys-H"
+   ],
+   [
+    127,
+    "Ryth",
+    "Powers-H"
+   ],
+   [
+    127,
+    "Ryth",
+    "DurabilityE-H"
+   ],
+   [
+    142,
+    "Varg",
+    "MonsterE-S"
+   ]
+  ],
+  "n_buys": 48,
+  "wards": 25,
+  "recalls": 41,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 10,
+  "first_recall": 54,
+  "spread": 22.5,
+  "groups": 4.37
+ },
+ {
+  "map": "stampede",
+  "match": "e5befe19",
+  "team": 1,
+  "rounds": 904,
+  "win": false,
+  "gems": 360,
+  "opp_gems": 1080,
+  "comp": [
+   "Prism",
+   "Ryth",
+   "Stellar",
+   "Tavi",
+   "Willow"
+  ],
+  "kills": 6,
+  "deaths": 16,
+  "earned_gold": 1680,
+  "captures": 7,
+  "captures_r150": 6,
+  "g100": 0,
+  "g200": 0,
+  "g300": 0,
+  "g400": 360,
+  "first_tribute": 379,
+  "n_tributes": 3,
+  "avg_tribute": 120.0,
+  "first_buy": 55,
+  "buys": [
+   [
+    55,
+    "Stellar",
+    "Powers-F"
+   ],
+   [
+    55,
+    "Tavi",
+    "Jungles-F"
+   ],
+   [
+    97,
+    "Prism",
+    "Powers-F"
+   ],
+   [
+    106,
+    "Ryth",
+    "Bruisers-H"
+   ],
+   [
+    110,
+    "Stellar",
+    "PowerE-F"
+   ],
+   [
+    110,
+    "Stellar",
+    "Jungles-F"
+   ],
+   [
+    185,
+    "Tavi",
+    "Jungles-F"
+   ],
+   [
+    204,
+    "Willow",
+    "Jungles-S"
+   ]
+  ],
+  "n_buys": 23,
+  "wards": 55,
+  "recalls": 22,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 22,
+  "first_recall": 49,
+  "spread": 22.8,
+  "groups": 3.84
+ },
+ {
+  "map": "eight",
+  "match": "f6f17eae",
+  "team": 0,
+  "rounds": 556,
+  "win": false,
+  "gems": 182,
+  "opp_gems": 1036,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Tavi"
+  ],
+  "kills": 2,
+  "deaths": 20,
+  "earned_gold": 1600,
+  "captures": 8,
+  "captures_r150": 1,
+  "g100": 0,
+  "g200": 0,
+  "g300": 0,
+  "g400": 182,
+  "first_tribute": 307,
+  "n_tributes": 3,
+  "avg_tribute": 60.7,
+  "first_buy": 36,
+  "buys": [
+   [
+    36,
+    "Issac",
+    "Powers-S"
+   ],
+   [
+    174,
+    "Cassi",
+    "PowerE-F"
+   ],
+   [
+    174,
+    "Cassi",
+    "DurabilityE-H"
+   ],
+   [
+    232,
+    "Ryth",
+    "Bruisers-H"
+   ],
+   [
+    279,
+    "Cassi",
+    "Powers-F"
+   ],
+   [
+    279,
+    "Cassi",
+    "PowerE-F"
+   ],
+   [
+    328,
+    "Ren",
+    "Bruisers-H"
+   ],
+   [
+    333,
+    "Cassi",
+    "Powers-F"
+   ]
+  ],
+  "n_buys": 12,
+  "wards": 9,
+  "recalls": 40,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 28,
+  "first_recall": 28,
+  "spread": 10.4,
+  "groups": 2.34
+ },
+ {
+  "map": "eight",
+  "match": "f6f17eae",
+  "team": 1,
+  "rounds": 556,
+  "win": true,
+  "gems": 1036,
+  "opp_gems": 182,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Tavi"
+  ],
+  "kills": 16,
+  "deaths": 2,
+  "earned_gold": 4730,
+  "captures": 23,
+  "captures_r150": 7,
+  "g100": 88,
+  "g200": 220,
+  "g300": 490,
+  "g400": 512,
+  "first_tribute": 84,
+  "n_tributes": 19,
+  "avg_tribute": 54.5,
+  "first_buy": 44,
+  "buys": [
+   [
+    44,
+    "Tavi",
+    "Jungles-F"
+   ],
+   [
+    56,
+    "Ryth",
+    "Jungles-S"
+   ],
+   [
+    56,
+    "Ryth",
+    "BruiserE-H"
+   ],
+   [
+    59,
+    "Ren",
+    "Jungles-F"
+   ],
+   [
+    59,
+    "Ren",
+    "BruiserE-H"
+   ],
+   [
+    61,
+    "Tavi",
+    "Jungles-F"
+   ],
+   [
+    107,
+    "Stellar",
+    "PowerE-F"
+   ],
+   [
+    107,
+    "Stellar",
+    "Jungles-F"
+   ]
+  ],
+  "n_buys": 49,
+  "wards": 28,
+  "recalls": 37,
+  "locks": 0,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 24,
+  "first_recall": 42,
+  "spread": 10.1,
+  "groups": 3.19
+ },
+ {
+  "map": "corners",
+  "match": "2fdff147",
+  "team": 0,
+  "rounds": 587,
+  "win": true,
+  "gems": 1142,
+  "opp_gems": 784,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ren",
+   "Ryth",
+   "Stellar",
+   "Varg"
+  ],
+  "kills": 7,
+  "deaths": 6,
+  "earned_gold": 4710,
+  "captures": 34,
+  "captures_r150": 7,
+  "g100": 44,
+  "g200": 204,
+  "g300": 314,
+  "g400": 532,
+  "first_tribute": 84,
+  "n_tributes": 26,
+  "avg_tribute": 43.9,
+  "first_buy": 40,
+  "buys": [
+   [
+    40,
+    "Varg",
+    "Monsters-S"
+   ],
+   [
+    40,
+    "Issac",
+    "Monsters-S"
+   ],
+   [
+    47,
+    "Ren",
+    "Monsters-S"
+   ],
+   [
+    85,
+    "Varg",
+    "MonsterE-S"
+   ],
+   [
+    85,
+    "Varg",
+    "Jungles-H"
+   ],
+   [
+    106,
+    "Stellar",
+    "Monsters-F"
+   ],
+   [
+    113,
+    "Issac",
+    "MonsterE-S"
+   ],
+   [
+    113,
+    "Issac",
+    "Jungles-H"
+   ]
+  ],
+  "n_buys": 55,
+  "wards": 20,
+  "recalls": 55,
+  "locks": 4,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 5,
+  "first_recall": 34,
+  "spread": 17.3,
+  "groups": 4.06
+ },
+ {
+  "map": "corners",
+  "match": "2fdff147",
+  "team": 1,
+  "rounds": 587,
+  "win": false,
+  "gems": 784,
+  "opp_gems": 1142,
+  "comp": [
+   "Cassi",
+   "Issac",
+   "Ryth",
+   "Stellar",
+   "Tavi",
+   "Varg"
+  ],
+  "kills": 4,
+  "deaths": 8,
+  "earned_gold": 4240,
+  "captures": 33,
+  "captures_r150": 7,
+  "g100": 138,
+  "g200": 218,
+  "g300": 400,
+  "g400": 480,
+  "first_tribute": 62,
+  "n_tributes": 22,
+  "avg_tribute": 35.6,
+  "first_buy": 32,
+  "buys": [
+   [
+    32,
+    "Varg",
+    "JungleE-S"
+   ],
+   [
+    39,
+    "Issac",
+    "Jungles-S"
+   ],
+   [
+    54,
+    "Tavi",
+    "Jungles-F"
+   ],
+   [
+    70,
+    "Ryth",
+    "JungleE-F"
+   ],
+   [
+    91,
+    "Tavi",
+    "Durabilitys-F"
+   ],
+   [
+    91,
+    "Tavi",
+    "JungleE-F"
+   ],
+   [
+    124,
+    "Stellar",
+    "Jungles-F"
+   ],
+   [
+    153,
+    "Issac",
+    "DurabilityE-S"
+   ]
+  ],
+  "n_buys": 39,
+  "wards": 22,
+  "recalls": 40,
+  "locks": 11,
+  "teleports": 0,
+  "consumables": 0,
+  "sells": 0,
+  "first_ward": 63,
+  "first_recall": 26,
+  "spread": 9.6,
+  "groups": 2.22
+ }
+]

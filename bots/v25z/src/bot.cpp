@@ -517,27 +517,22 @@ void Bot::shop(){
     const bool hor=me.champion_name()==champion_type::heart_of_ruin;
     const Step HOME{item_type::home_shard_of_health,item_type::home_emblem_of_health};
     if(hor)order={T,HOME,D};
-    (void)order;
-    // v25y: top-10 build (205 unranked games vs the top 10, emblems per champion-game): all Bruiser, about one in three of
-    // Health - their Vesper 8.2 Bruiser-Strength + 3.0 Bruiser-Health, Vendetta 5.3 + 3.5, HoR 3.9 Focus + 3.0 Health,
-    // Ryth 2.8 Health + 1.4 Strength; almost no utility emblems. Cheap shards from the first trip home (their first buy
-    // r51, ours r67 while saving 150 gold for a utility emblem). Partial emblems are finished first.
-    const auto BS=item_type::bruiser_shard_of_strength,BF=item_type::bruiser_shard_of_focus,BH=item_type::bruiser_shard_of_health;
-    const auto ES=item_type::bruiser_emblem_of_strength,EF=item_type::bruiser_emblem_of_focus,EH=item_type::bruiser_emblem_of_health;
-    const auto main_shard=tank?BH:(focus_build?BF:BS),main_emb=tank?EH:(focus_build?EF:ES);
-    const auto sec_shard=tank?BS:BH,sec_emb=tank?ES:EH;
-    for(int it=0;it<8;++it){
-        auto counts=me.item_count();
-        const unsigned nm=counts[main_emb],ns=counts[sec_emb];
-        item_type pick=main_shard;
-        if(counts[sec_shard]%5)pick=sec_shard;
-        else if(counts[main_shard]%5)pick=main_shard;
-        else if((ns+1)*2<=nm)pick=sec_shard;
-        const unsigned have=counts[pick]%5;
-        unsigned n=std::min<unsigned>(5-have,me.gold_count()/std::max(1u,static_cast<unsigned>(pick.cost())));
-        if(n==0)break;
-        bool ok=false;try{if(me.can_buy(pick,n)){me.buy(pick,n);ok=true;}}catch(const error&){}
-        if(!ok)break;
+    auto counts=me.item_count();
+    for(unsigned j=0;j<order.size();++j){
+        const auto& st=order[j];
+        unsigned need=0;for(unsigned k=0;k<=j;++k)if(order[k].emblem==st.emblem)++need;
+        if(counts[st.emblem]>=need)continue;
+        // This emblem is the next one to finish: buy its shards (5 combine into the emblem).
+        unsigned have=counts[st.shard];
+        unsigned n=std::min<unsigned>(5-std::min(5u,have),me.gold_count()/st.shard.cost());
+        if(n>0)try{if(me.can_buy(st.shard,n))me.buy(st.shard,n);}catch(const error&){}
+        return;
+    }
+    const auto extra=tank?item_type::power_shard_of_health:hor?item_type::power_shard_of_focus:(focus_build?item_type::bruiser_shard_of_focus:item_type::bruiser_shard_of_strength);   // v25k: Bruiser, not Power
+    unsigned n=me.gold_count()/extra.cost();
+    while(n>0){
+        try{if(me.can_buy(extra,n)){me.buy(extra,n);break;}}catch(const error&){}
+        n=n>1?n/2:0;
     }
 }
 
@@ -842,11 +837,6 @@ int Bot::solo_target(){
         if(!taken&&wait<=dist(me.position(),g.center)+20)return objective;
     }
     solo_choose=round;
-    // v25x: score camps by walking distance, not straight-line distance. On winding maps (fracture) champions picked camps
-    // 30 tiles away in a straight line but far longer to walk, re-targeted halfway and earned 0 gold by r100 (top-10
-    // unranked: their gold at r50 is 2.2x ours). One capped BFS per rescore (every 8 rounds), only with fuel to spare.
-    bitboard seen_s;distance_field walk;bool have_walk=false;
-    if(fuel_remaining()>50000){walk.compute(terrain,disk(me.position(),0),seen_s,static_cast<std::uint16_t>(160));have_walk=true;}
     int best=-1;double best_s=-1e18;
     int fb=-1;double fb_s=-1e18;
 #if POLARIS_OPP_MODEL > 0
@@ -871,8 +861,6 @@ int Bot::solo_target(){
         const bool weak_herd_s=g.probes.size()>=8&&!g.reward&&hp<g.hp*.5;
         if(!weak_herd_s&&!g.reward&&g.str*clear*.6>my_hp*(pack_mode?.6:forced_solo?1.3:.85))continue;   // solo farmers recall to heal anyway
         int travel=dist(me.position(),g.center);
-        if(have_walk){int w=100000;for(auto p:g.probes)w=std::min<int>(w,walk.get(p));
-            travel=w<static_cast<int>(distance_field::unreachable)?w:std::max(travel*2,160);}
         int wait=g.ready_round>round?static_cast<int>(g.ready_round-round):0;
         if(wait>travel+10){   // v23v: respawning - remember the soonest one to pre-position at instead of idling
             const double fs=value/(wait+clear+constants::capture_time+.3*g.altar_d+2);
@@ -1058,24 +1046,6 @@ bool Bot::bank(){
     return true;
 }
 
-// v25z: top-10 unranked: our deaths were mostly 1v1 (1067) and 2v1 (1073). A champion backing off alone walks home in
-// front of the chaser; backing off towards a healthy teammate who is further from the enemy turns it into a 2v1 the
-// other way (siege: "a champion running alone from its team's fight is the one that dies").
-cambc::bitboard Bot::flee_goal() const{
-    auto& me=self();
-    int near_e=1<<20;vec2 ep=me.position();
-    for(auto& e:enemies){int d=dist(e.pos,me.position());if(d<near_e){near_e=d;ep=e.pos;}}
-    const cambc::champion* best=nullptr;int bd=1<<20;
-    if(near_e<(1<<20))for(auto& c:allies){
-        if(c.health()<c.max_health()*.5f)continue;
-        const int dm=dist(c.position(),me.position());
-        if(dm>8||dist(c.position(),ep)<=near_e)continue;
-        if(dm<bd){bd=dm;best=&c;}
-    }
-    if(best){bitboard g=disk(best->position(),1)&~terrain;if(!g.is_empty())return g;}
-    return map::spawn_region(team::ally);
-}
-
 bool Bot::handle_enemies(){
     auto& me=self();
     if(enemies.empty())return false;
@@ -1123,7 +1093,7 @@ bool Bot::handle_enemies(){
     bool pressed=false;
     for(auto& e:enemies)if(dist(e.pos,pos)<=e.range+3)pressed=true;   // audit: 21% of deaths were champions still farming as enemies closed in
     if(pressed||(me.gem_count()>=30&&threat(pos)>0)){
-        move_to(flee_goal(),true);
+        move_to(map::spawn_region(team::ally),true);
         combat(-1,true);
         log("evade");
         return true;
@@ -1325,7 +1295,10 @@ void Bot::play_turn(){
     bool locked=false;
     {bool dash=false;for(auto a:me.abilities())if(a.info()&&a.is_dash()&&a.is_ready())dash=true;
      if(!dash)for(auto& e:enemies)if(dist(e.pos,me.position())<=std::max(1,e.range))locked=true;}
-    if(locked&&!spawn&&me.health()>me.max_health()*.12f){
+    // v25z: stand-and-fight only above 30% HP (was 12%). Death breakdown over 560 bench games: 4.1 deaths a game to
+    // champions; the fatal retreat began at a median 6% HP, after `stand` in 73% of cases, i.e. the stand rule held the
+    // champion in the fight past the 30% retreat line until it was too late to get out.
+    if(locked&&!spawn&&me.health()>me.max_health()*.3f){
         if(!combat(-1,true)){const Enemy* t=nullptr;int bd=1000;for(auto& e:enemies){int d=dist(e.pos,me.position());if(d<bd){bd=d;t=&e;}}
             if(t){move_to(disk(t->pos,me.attack_range()));combat(-1,true);}}
         log("stand");return;}
@@ -1338,7 +1311,7 @@ void Bot::play_turn(){
         if(enemies.empty()&&!camp_reach.is_empty()&&camp_reach.is_set(me.position())){   // v25u: out of the camps' reach first
             bitboard out=disk(me.position(),3)&~terrain&~camp_reach;
             if(!out.is_empty()&&move_to(out)){log("camp-out");return;}}
-        move_to(enemies.empty()?map::spawn_region(team::ally):flee_goal(),true);combat(-1,true);log("retreat");return;
+        move_to(map::spawn_region(team::ally),true);combat(-1,true);log("retreat");return;
     }
     if(handle_enemies())return;
     if(bank())return;

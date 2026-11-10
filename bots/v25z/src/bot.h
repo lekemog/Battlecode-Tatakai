@@ -136,7 +136,6 @@ class Bot {
     int siege_group=-1;
     bool bank();
     bool handle_enemies();
-    cambc::bitboard flee_goal() const;
     void write_byte(int index,std::uint8_t value);
     void log(const char* action,int target=-1);
 public:

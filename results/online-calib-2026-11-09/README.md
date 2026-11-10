@@ -21,3 +21,8 @@ simulation over-predicts isolated damage (enemies often hit someone else or do n
 - v55a: learns that our own bot hits softer than predicted, fights more, wins +14 (about 1.7 sd) but dies 0.6 more a game.
 - v55b: in self-play the multiplier rarely rises above 1, so it plays like v53y; it can only show anything against
   teams that hit harder than predicted (the UK panel). 0 faults in all runs.
+
+## UK panel (v55a = submission 241, 45 pinned games)
+**10/45**, deaths 7.51, kills 2.29, margin -361 (v53x: 12/45, 7.49, 2.02, -381). Per opponent: BattleCats 1, Claudus 0,
+QS2isLaw 2, Rogue Lock Pickers 1 (first ever), bentheboss 0, smurphy 1, jianqiao 1, DOOMSDAY 3, 0xDEADBEEF 1.
+More kills, no fewer deaths, two fewer wins (within noise). Not kept; 240 restored at 00:30 UTC 10 Nov.

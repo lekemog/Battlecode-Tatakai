@@ -1,0 +1,16 @@
+{
+  "base_ref": "claude/admiring-franklin-y3jf7g",
+  "base_commit": "010047f8dba8e06fd5038b3121f262885406ac40",
+  "source_commit": "1c704680d24e316988182867ba5a47066c48f734",
+  "cli": "5.0.1",
+  "engine": "3.0.0",
+  "engine_build": "96ce858f548c14560eff737967a691a30eaf0a469afd1f4f400f125e094bd1fd",
+  "wasi_sdk": "33",
+  "maps": 128,
+  "maps_origin": "pinned maps/ files from base commit; server refresh failed",
+  "main_games": 1536,
+  "diagnostic_games": 32,
+  "truncated_draft_scans": 256,
+  "active_submission_verified": false,
+  "preflight_excluded": true
+}

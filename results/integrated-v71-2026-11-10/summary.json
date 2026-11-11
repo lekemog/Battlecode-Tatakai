@@ -1,0 +1,504 @@
+{
+  "total": 1568,
+  "summary": {
+    "all-maps / cg-v72-integrated vs v50p1": {
+      "n": 256,
+      "wins": 208,
+      "core_games": 30,
+      "banked": 932.65234375,
+      "margin": 379.03515625,
+      "deaths": 4.73046875,
+      "kills": 7.39453125,
+      "earnedGold50": 133.98828125,
+      "earnedGold100": 333.3046875,
+      "earnedGold200": 783.94140625,
+      "spentGold200": 699.1015625,
+      "deaths200": 0.64453125,
+      "pair_deaths": 0.4921875,
+      "monsterDamageDone": 117665.35503075272,
+      "Cassi_championDamageDone": 143.52107869833708,
+      "Varg_earnedGold": 1740.19921875,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 729,
+      "fuelExhausted_both": 1027,
+      "pair_rejections": 0,
+      "turn_errors": 0,
+      "region_loaded": 1169,
+      "early_fuel200": 63,
+      "pair_fuel": 4
+    },
+    "all-maps / cg-v72-integrated vs v66i": {
+      "n": 256,
+      "wins": 134,
+      "core_games": 30,
+      "banked": 849.98046875,
+      "margin": 32.44921875,
+      "deaths": 3.75390625,
+      "kills": 3.2578125,
+      "earnedGold50": 130.55078125,
+      "earnedGold100": 321.59375,
+      "earnedGold200": 746.7890625,
+      "spentGold200": 672.3046875,
+      "deaths200": 0.328125,
+      "pair_deaths": 0.375,
+      "monsterDamageDone": 110349.49448875338,
+      "Cassi_championDamageDone": 34.41796863079071,
+      "Varg_earnedGold": 1445.09765625,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 359,
+      "fuelExhausted_both": 735,
+      "pair_rejections": 0,
+      "turn_errors": 0,
+      "region_loaded": 1170,
+      "early_fuel200": 65,
+      "pair_fuel": 4
+    },
+    "all-maps / cg-v72-integrated vs v71a": {
+      "n": 256,
+      "wins": 131,
+      "core_games": 30,
+      "banked": 838.3515625,
+      "margin": 11.83203125,
+      "deaths": 3.6484375,
+      "kills": 3.328125,
+      "earnedGold50": 130.47265625,
+      "earnedGold100": 324.140625,
+      "earnedGold200": 759.08203125,
+      "spentGold200": 679.8046875,
+      "deaths200": 0.33203125,
+      "pair_deaths": 0.3515625,
+      "monsterDamageDone": 111024.19480334222,
+      "Cassi_championDamageDone": 49.01445282995701,
+      "Varg_earnedGold": 1465.9296875,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 359,
+      "fuelExhausted_both": 735,
+      "pair_rejections": 0,
+      "turn_errors": 0,
+      "region_loaded": 1171,
+      "early_fuel200": 65,
+      "pair_fuel": 4
+    },
+    "all-maps / v71a vs v50p1": {
+      "n": 256,
+      "wins": 198,
+      "core_games": 0,
+      "banked": 941.8203125,
+      "margin": 367.76953125,
+      "deaths": 4.66796875,
+      "kills": 7.39453125,
+      "earnedGold50": 132.734375,
+      "earnedGold100": 336.515625,
+      "earnedGold200": 805.1640625,
+      "spentGold200": 720.0390625,
+      "deaths200": 0.63671875,
+      "pair_deaths": 0.0,
+      "monsterDamageDone": 121018.05199718475,
+      "Cassi_championDamageDone": 0.0,
+      "Varg_earnedGold": 1308.96484375,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 162,
+      "fuelExhausted_both": 257,
+      "pair_rejections": 0,
+      "turn_errors": 0,
+      "region_loaded": 0,
+      "early_fuel200": 55,
+      "pair_fuel": 0
+    },
+    "all-maps / v71a vs v66i": {
+      "n": 256,
+      "wins": 134,
+      "core_games": 0,
+      "banked": 854.26171875,
+      "margin": 24.92578125,
+      "deaths": 3.67578125,
+      "kills": 3.4375,
+      "earnedGold50": 126.6484375,
+      "earnedGold100": 309.6015625,
+      "earnedGold200": 765.26953125,
+      "spentGold200": 688.046875,
+      "deaths200": 0.3203125,
+      "pair_deaths": 0.0,
+      "monsterDamageDone": 111868.49804252386,
+      "Cassi_championDamageDone": 0.0,
+      "Varg_earnedGold": 1126.484375,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 321,
+      "fuelExhausted_both": 637,
+      "pair_rejections": 0,
+      "turn_errors": 0,
+      "region_loaded": 0,
+      "early_fuel200": 62,
+      "pair_fuel": 0
+    },
+    "all-maps / v71a vs v71a": {
+      "n": 256,
+      "wins": 128,
+      "core_games": 0,
+      "banked": 850.9765625,
+      "margin": 0.0,
+      "deaths": 3.7890625,
+      "kills": 3.46875,
+      "earnedGold50": 125.7890625,
+      "earnedGold100": 310.0390625,
+      "earnedGold200": 767.63671875,
+      "spentGold200": 690.5078125,
+      "deaths200": 0.3359375,
+      "pair_deaths": 0.0,
+      "monsterDamageDone": 112016.69601715356,
+      "Cassi_championDamageDone": 0.0,
+      "Varg_earnedGold": 1113.44140625,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 318,
+      "fuelExhausted_both": 636,
+      "pair_rejections": 0,
+      "turn_errors": 0,
+      "region_loaded": 0,
+      "early_fuel200": 61,
+      "pair_fuel": 0
+    },
+    "eight-map-forced-core / cg-v72-core-control vs v50p1": {
+      "n": 16,
+      "wins": 10,
+      "core_games": 16,
+      "banked": 724.3125,
+      "margin": 170.3125,
+      "deaths": 12.25,
+      "kills": 6.8125,
+      "earnedGold50": 184.6875,
+      "earnedGold100": 369.4375,
+      "earnedGold200": 882.9375,
+      "spentGold200": 745.625,
+      "deaths200": 1.8125,
+      "pair_deaths": 7.25,
+      "monsterDamageDone": 102762.93615078926,
+      "Cassi_championDamageDone": 1479.280608534813,
+      "Varg_earnedGold": 936.75,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 169,
+      "fuelExhausted_both": 220,
+      "pair_rejections": 0,
+      "turn_errors": 0,
+      "region_loaded": 83,
+      "early_fuel200": 46,
+      "pair_fuel": 98
+    },
+    "eight-map-forced-core / cg-v72-core-control vs v71a": {
+      "n": 16,
+      "wins": 7,
+      "core_games": 16,
+      "banked": 685.9375,
+      "margin": -61.9375,
+      "deaths": 10.125,
+      "kills": 3.4375,
+      "earnedGold50": 190.9375,
+      "earnedGold100": 440.8125,
+      "earnedGold200": 927.25,
+      "spentGold200": 760.0,
+      "deaths200": 0.5625,
+      "pair_deaths": 6.625,
+      "monsterDamageDone": 96505.4553707838,
+      "Cassi_championDamageDone": 1061.927713394165,
+      "Varg_earnedGold": 1121.875,
+      "botFault": 0,
+      "botFault_both": 0,
+      "fuelExhausted": 472,
+      "fuelExhausted_both": 927,
+      "pair_rejections": 0,
+      "turn_errors": 0,
+      "region_loaded": 84,
+      "early_fuel200": 46,
+      "pair_fuel": 248
+    }
+  },
+  "paired": {
+    "v71a": {
+      "pairs": 256,
+      "loss_to_win": 64,
+      "win_to_loss": 61
+    },
+    "v66i": {
+      "pairs": 256,
+      "loss_to_win": 57,
+      "win_to_loss": 57
+    },
+    "v50p1": {
+      "pairs": 256,
+      "loss_to_win": 33,
+      "win_to_loss": 23
+    }
+  },
+  "cohorts": {
+    "v71a / retained original": {
+      "n": 226,
+      "maps": 113,
+      "win": {
+        "candidate": 0.5309734513274337,
+        "base": 0.5
+      },
+      "margin": {
+        "candidate": 26.278761061946902,
+        "base": 0.0
+      },
+      "earnedGold50": {
+        "candidate": 118.65486725663717,
+        "base": 120.36283185840708
+      },
+      "earnedGold100": {
+        "candidate": 288.929203539823,
+        "base": 286.93362831858406
+      },
+      "earnedGold200": {
+        "candidate": 680.6769911504425,
+        "base": 698.7699115044247
+      },
+      "spentGold200": {
+        "candidate": 603.0973451327434,
+        "base": 621.858407079646
+      },
+      "deaths200": {
+        "candidate": 0.34513274336283184,
+        "base": 0.3584070796460177
+      },
+      "deaths": {
+        "candidate": 3.4026548672566372,
+        "base": 3.7964601769911503
+      },
+      "fuelExhausted": {
+        "candidate": 1.5309734513274336,
+        "base": 1.3584070796460177
+      },
+      "monsterDamageDone": {
+        "candidate": 104589.56208510947,
+        "base": 105220.50314771602
+      }
+    },
+    "v71a / selected core": {
+      "n": 30,
+      "maps": 15,
+      "win": {
+        "candidate": 0.36666666666666664,
+        "base": 0.5
+      },
+      "margin": {
+        "candidate": -97.0,
+        "base": 0.0
+      },
+      "earnedGold50": {
+        "candidate": 219.5,
+        "base": 166.66666666666666
+      },
+      "earnedGold100": {
+        "candidate": 589.4,
+        "base": 484.1
+      },
+      "earnedGold200": {
+        "candidate": 1349.7333333333333,
+        "base": 1286.4333333333334
+      },
+      "spentGold200": {
+        "candidate": 1257.6666666666667,
+        "base": 1207.6666666666667
+      },
+      "deaths200": {
+        "candidate": 0.23333333333333334,
+        "base": 0.16666666666666666
+      },
+      "deaths": {
+        "candidate": 5.5,
+        "base": 3.7333333333333334
+      },
+      "fuelExhausted": {
+        "candidate": 0.43333333333333335,
+        "base": 0.36666666666666664
+      },
+      "monsterDamageDone": {
+        "candidate": 159498.42794736227,
+        "base": 163214.68230024973
+      }
+    },
+    "v66i / retained original": {
+      "n": 226,
+      "maps": 113,
+      "win": {
+        "candidate": 0.5442477876106194,
+        "base": 0.5088495575221239
+      },
+      "margin": {
+        "candidate": 39.95132743362832,
+        "base": 4.991150442477876
+      },
+      "earnedGold50": {
+        "candidate": 118.7433628318584,
+        "base": 121.33628318584071
+      },
+      "earnedGold100": {
+        "candidate": 285.5575221238938,
+        "base": 286.5353982300885
+      },
+      "earnedGold200": {
+        "candidate": 665.9115044247787,
+        "base": 696.1858407079646
+      },
+      "spentGold200": {
+        "candidate": 592.9203539823009,
+        "base": 618.9823008849557
+      },
+      "deaths200": {
+        "candidate": 0.34513274336283184,
+        "base": 0.336283185840708
+      },
+      "deaths": {
+        "candidate": 3.5442477876106193,
+        "base": 3.7168141592920354
+      },
+      "fuelExhausted": {
+        "candidate": 1.5309734513274336,
+        "base": 1.3716814159292035
+      },
+      "monsterDamageDone": {
+        "candidate": 104361.04642073032,
+        "base": 105263.02609431848
+      }
+    },
+    "v66i / selected core": {
+      "n": 30,
+      "maps": 15,
+      "win": {
+        "candidate": 0.36666666666666664,
+        "base": 0.6333333333333333
+      },
+      "margin": {
+        "candidate": -24.066666666666666,
+        "base": 175.1
+      },
+      "earnedGold50": {
+        "candidate": 219.5,
+        "base": 166.66666666666666
+      },
+      "earnedGold100": {
+        "candidate": 593.0666666666667,
+        "base": 483.3666666666667
+      },
+      "earnedGold200": {
+        "candidate": 1356.0666666666666,
+        "base": 1285.7
+      },
+      "spentGold200": {
+        "candidate": 1270.3333333333333,
+        "base": 1208.3333333333333
+      },
+      "deaths200": {
+        "candidate": 0.2,
+        "base": 0.2
+      },
+      "deaths": {
+        "candidate": 5.333333333333333,
+        "base": 3.3666666666666667
+      },
+      "fuelExhausted": {
+        "candidate": 0.43333333333333335,
+        "base": 0.36666666666666664
+      },
+      "monsterDamageDone": {
+        "candidate": 155462.4699345271,
+        "base": 161629.72005233765
+      }
+    },
+    "v50p1 / retained original": {
+      "n": 226,
+      "maps": 113,
+      "win": {
+        "candidate": 0.831858407079646,
+        "base": 0.7876106194690266
+      },
+      "margin": {
+        "candidate": 406.3495575221239,
+        "base": 397.1371681415929
+      },
+      "earnedGold50": {
+        "candidate": 122.99115044247787,
+        "base": 126.19469026548673
+      },
+      "earnedGold100": {
+        "candidate": 304.06637168141594,
+        "base": 307.99557522123894
+      },
+      "earnedGold200": {
+        "candidate": 718.4380530973451,
+        "base": 736.2654867256637
+      },
+      "spentGold200": {
+        "candidate": 633.6725663716815,
+        "base": 649.4247787610619
+      },
+      "deaths200": {
+        "candidate": 0.6592920353982301,
+        "base": 0.6858407079646017
+      },
+      "deaths": {
+        "candidate": 4.252212389380531,
+        "base": 4.517699115044247
+      },
+      "fuelExhausted": {
+        "candidate": 3.172566371681416,
+        "base": 0.672566371681416
+      },
+      "monsterDamageDone": {
+        "candidate": 112215.1532374863,
+        "base": 114578.81412427615
+      }
+    },
+    "v50p1 / selected core": {
+      "n": 30,
+      "maps": 15,
+      "win": {
+        "candidate": 0.6666666666666666,
+        "base": 0.6666666666666666
+      },
+      "margin": {
+        "candidate": 173.26666666666668,
+        "base": 146.53333333333333
+      },
+      "earnedGold50": {
+        "candidate": 216.83333333333334,
+        "base": 182.0
+      },
+      "earnedGold100": {
+        "candidate": 553.5666666666667,
+        "base": 551.3666666666667
+      },
+      "earnedGold200": {
+        "candidate": 1277.4,
+        "base": 1324.2
+      },
+      "spentGold200": {
+        "candidate": 1192.0,
+        "base": 1252.0
+      },
+      "deaths200": {
+        "candidate": 0.5333333333333333,
+        "base": 0.26666666666666666
+      },
+      "deaths": {
+        "candidate": 8.333333333333334,
+        "base": 5.8
+      },
+      "fuelExhausted": {
+        "candidate": 0.4,
+        "base": 0.3333333333333333
+      },
+      "monsterDamageDone": {
+        "candidate": 158723.54187335967,
+        "base": 169526.97730642956
+      }
+    }
+  }
+}

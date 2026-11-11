@@ -1,0 +1,6 @@
+Unit/property executable: compiled with c++ -std=c++20 -Wall -Wextra -Werror; passed.
+Preparation helper: copied 262 pinned source/map files into a temporary project template; hashes matched; no copied build caches. This checks file preparation, not a second engine run.
+Main run-batch: Finished: 1536 replay bundles saved, 0 failed.
+Core diagnostic run-batch: 32 replay bundles saved, 0 failed.
+Final draft scan: 256/256 complete, zero turn errors, max opening fuel 1,710,140.
+Full runtime/fuel checks are in summary.json; fuel exhaustion must not be inferred absent from the above.

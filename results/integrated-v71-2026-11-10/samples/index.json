@@ -1,0 +1,32 @@
+[
+  {
+    "path": "samples/cg-v72-integrated__v71a__04sanctum__0.repl26a",
+    "sha256": "5b24c42e5cd6de7fe833f74cc56449f20abd510f93317b2fb51f4f3ec8e5719e",
+    "bytes": 58292
+  },
+  {
+    "path": "samples/cg-v72-integrated__v71a__04sanctum__0.json.gz",
+    "sha256": "6a6d3bd6d6f805cbee62d4f43db4b177b0805f068b0456243c09635c421b8929",
+    "bytes": 60229
+  },
+  {
+    "path": "samples/cg-v72-integrated__v71a__01big-world__0.repl26a",
+    "sha256": "175e50af149d2e80258d66f6dcc7676a5c10bfcf490caddc48c4ca09934995c0",
+    "bytes": 65130
+  },
+  {
+    "path": "samples/cg-v72-integrated__v71a__01big-world__0.json.gz",
+    "sha256": "cf4970a1da9b62210113ec5d0e88b192ca2b884c77fc51c9627d1f96b2bfde69",
+    "bytes": 66908
+  },
+  {
+    "path": "samples/cg-v72-integrated__v50p1__04gem-caverns__1.repl26a",
+    "sha256": "c6751b04eae2922aafe607af54e0226aad9601763886323b6ba37b9c00dfcaf0",
+    "bytes": 37233
+  },
+  {
+    "path": "samples/cg-v72-integrated__v50p1__04gem-caverns__1.json.gz",
+    "sha256": "e7f4c09926c059d675e9127e488ce4b9fd138fa1141e1e5b8ad234e3e8b94182",
+    "bytes": 34911
+  }
+]
